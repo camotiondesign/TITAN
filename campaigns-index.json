@@ -1,0 +1,241 @@
+{
+  "campaigns": [
+    {
+      "date": "2023-02-02",
+      "slug": "titan-takes-on-new-team-to-support-new-pharmacy-purchases",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2023-02-02-titan-takes-on-new-team-to-support-new-pharmacy-purchases"
+    },
+    {
+      "date": "2023-03-03",
+      "slug": "titan-gets-approval-for-dispensing-doctors",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2023-03-03-titan-gets-approval-for-dispensing-doctors"
+    },
+    {
+      "date": "2023-11-08",
+      "slug": "titan-ceo-invests-in-pharmappy",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2023-11-08-titan-ceo-invests-in-pharmappy"
+    },
+    {
+      "date": "2023-11-08",
+      "slug": "titan-first-to-deliver-eps-for-wales",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2023-11-08-titan-first-to-deliver-eps-for-wales"
+    },
+    {
+      "date": "2025-03-27",
+      "slug": "titan-way",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-03-27-titan-way"
+    },
+    {
+      "date": "2025-04-28",
+      "slug": "ai-role-pharmacy",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-04-28-ai-role-pharmacy"
+    },
+    {
+      "date": "2025-05-02",
+      "slug": "dispense-million-items",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-05-02-dispense-million-items"
+    },
+    {
+      "date": "2025-07-01",
+      "slug": "priory-scaling-safely",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-07-01-priory-scaling-safely"
+    },
+    {
+      "date": "2025-07-14",
+      "slug": "vision-to-pharmacies",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-07-14-vision-to-pharmacies"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "ai-safety-sandbox",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-ai-safety-sandbox"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "automation-reclaims-time",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-automation-reclaims-time"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "be-more-private",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-be-more-private"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "community-pharmacies-2025",
+      "product": "TITAN",
+      "blog": false,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-community-pharmacies-2025"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "digital-dispensing-standard",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-digital-dispensing-standard"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "drowning-in-pmr-data",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-drowning-in-pmr-data"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "health-tech-next-gen",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-health-tech-next-gen"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "independent-pharmacy-crisis",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-independent-pharmacy-crisis"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "independent-prescribing-fails",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-independent-prescribing-fails"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "original-pack",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-original-pack"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "pharmacy-survival-guide",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-pharmacy-survival-guide"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "workforce-first",
+      "product": "TITAN",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITAN/2025-12-00-workforce-first"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "dispensing-to-health-hub",
+      "product": "TITANVERSE",
+      "blog": true,
+      "video": 0,
+      "carousel": 1,
+      "single-image": 1,
+      "path": "campaigns/TITANVERSE/2025-12-00-dispensing-to-health-hub"
+    },
+    {
+      "date": "2025-12-00",
+      "slug": "titanverse-launch",
+      "product": "TITANVERSE",
+      "blog": true,
+      "video": 0,
+      "carousel": 0,
+      "single-image": 0,
+      "path": "campaigns/TITANVERSE/2025-12-00-titanverse-launch"
+    }
+  ],
+  "summary": {
+    "total": 23,
+    "by_product": {
+      "TITAN": 21,
+      "TITANVERSE": 2
+    }
+  }
+}

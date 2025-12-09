@@ -1,0 +1,20 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "YYYY-MM-DD",
+  "campaign_slug": "",
+  "asset_type": "carousel",
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "notes": "Template structure only. Fill when used for a real post."
+}

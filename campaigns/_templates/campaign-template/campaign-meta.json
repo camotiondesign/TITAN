@@ -1,0 +1,16 @@
+{
+  "title": "Campaign Title Here",
+  "type": "campaign",
+  "brand": "TITAN",
+  "status": "planned",
+  "primary_asset": "blog",
+  "start_date": "YYYY-MM-DD",
+  "end_date": "",
+  "owner": "Cam",
+  "subject": {
+    "pharmacy_name": "",
+    "person_name": "",
+    "location": ""
+  },
+  "notes": "This is a template. Fill when you copy it for a real campaign."
+}
