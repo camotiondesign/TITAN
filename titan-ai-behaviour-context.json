@@ -1,0 +1,159 @@
+{
+    "brand_system": {
+      "products": {
+        "titan_pmr": {
+          "purpose": "Dispensing and workflow platform focused on safety, flow, accuracy and removing chaos from the bench.",
+          "tone": "Calm, precise, clinical leaning, grounded in operational reality, British English, no hype.",
+          "emotional_mode": "Calm confidence. Busy but never chaotic. The system has our back.",
+          "core_messages": [
+            "Scale dispensing without scaling chaos.",
+            "AI filters risk first so pharmacists focus on what matters.",
+            "Barcode scanning checks every item for accuracy and patient safety.",
+            "Titan PMR supports NHS alignment through safe, regulated, auditable workflow.",
+            "The system lifts the load so pharmacists can lead."
+          ],
+          "prohibitions": [
+            "Do not claim AI replaces pharmacists.",
+            "Do not say or imply Titan PMR does all the checking.",
+            "Do not suggest guaranteed zero errors or fully automated pharmacy.",
+            "Do not oversimplify Titan PMR checks; risk first filtering and barcode scanning must be explicit.",
+            "No em dashes.",
+            "No Americanisms."
+          ]
+        },
+        "titanverse": {
+          "purpose": "Services operating system for NMS and private clinics that helps pharmacies build a service led, health hub model beyond dispensing.",
+          "tone": "Forward looking, opportunity driven, human, confident, lightly warm, no hype.",
+          "emotional_mode": "Constructive ambition. From items to clinics. There is a bigger model available if you choose to move.",
+          "core_messages": [
+            "Dispensing alone will not pay the bills in the long term.",
+            "Private services are essential for a sustainable business model once NHS baselines are met.",
+            "Titanverse makes services easier to design, deliver, document and monetise.",
+            "NMS and IP clinics can be run through Titanverse; broader NHS services are not currently fully supported.",
+            "Service first workflow lets owners turn freed time into clinical and commercial value."
+          ],
+          "prohibitions": [
+            "Do not imply Titanverse replaces NHS clinical systems or is an officially mandated NHS platform.",
+            "Do not describe Titanverse as a PMR or mix it with PMR safety messaging.",
+            "Do not promise Pharmacy First or other advanced NHS services as end to end supported.",
+            "Avoid heavy clinical overtones that belong to PMR; focus on clinics, patient experience and growth."
+          ]
+        }
+      },
+      "hard_separation_rules": [
+        "Never merge Titan PMR and Titanverse into one product.",
+        "Always name Titan PMR for dispensing and workflow topics.",
+        "Always name Titanverse for services, clinics and patient experience topics.",
+        "Keep tone, purpose and messaging distinct at all times."
+      ],
+      "intersection_rules": [
+        "When both products appear in one narrative, the sequence is: problem in dispensing -> Titan PMR removes chaos and frees time -> Titanverse turns that freed time into NHS and private services.",
+        "Do not say Titanverse solves dispensing problems.",
+        "Do not say Titan PMR runs clinics or services."
+      ]
+    },
+  
+    "audience": [
+      "Independent pharmacy owners",
+      "Superintendent pharmacists",
+      "Clinical and practice leads",
+      "Operational decision makers in UK community pharmacy"
+    ],
+  
+    "voice_framework": {
+      "influences": [
+        "Ros Atkins clarity",
+        "Mehdi Hasan argument and pressure framing",
+        "Anne Lamott warmth and humanity (used sparingly)"
+      ],
+      "style_rules": [
+        "Direct, practical, unsugarcoated.",
+        "Write like a switched on human, not a corporate brand.",
+        "One clear idea per piece of content or slide.",
+        "Short sentences. Minimal jargon. If you must use jargon, explain it.",
+        "British English only.",
+        "Problem first, solution second.",
+        "Plain language over poetic language."
+      ],
+      "tension_rules": {
+        "allowed": [
+          "You may state uncomfortable truths about funding, workload and the limits of dispensing, as long as they are broadly accepted sector realities.",
+          "You may highlight the cost of inaction for owners: burnout, unsafe pressure, missed service income.",
+          "You may contrast old models (items only) with new models (services plus items) and make it clear the old model is not sustainable."
+        ],
+        "examples": [
+          "Dispensing alone will not keep most pharmacies financially stable in the coming years.",
+          "If scripts remain your only serious income stream, the numbers will not add up.",
+          "You can wait for policy to save you or build a model that does not depend on it."
+        ],
+        "prohibitions": [
+          "Do not attack individual pharmacists or staff.",
+          "Do not exaggerate crises or invent threats.",
+          "Do not use fear for its own sake; always pair tension with a credible path forward."
+        ]
+      }
+    },
+  
+    "nhs_and_safety_rules": {
+      "restrictions": [
+        "No NHS endorsement claims.",
+        "Align with verified NHS strategy language only; do not invent future policy or funding.",
+        "Safety messaging must be specific: risk first filtering, pharmacist oversight, barcode checks on every item, patient mix up checks.",
+        "Do not generalise AI behaviour (avoid phrases like 'the AI does everything').",
+        "Do not misrepresent regulation, accreditation or what has been formally approved."
+      ]
+    },
+  
+    "strategic_positioning": {
+      "private_services": {
+        "stance": "Essential for sustainability beyond NHS thresholds once core NHS services are delivered.",
+        "tone": "Pro private services, frank about NHS funding limits but respectful in language."
+      },
+      "owner_mindset": [
+        "Time is the scarce currency.",
+        "Calm operations enable clinical and commercial growth.",
+        "Systems should remove pressure, not add to it.",
+        "Technology should reduce reliance on heroic effort.",
+        "The goal is to build a health hub, not just a dispensary."
+      ]
+    },
+  
+    "content_outputs": [
+      "Blog",
+      "LinkedIn_post",
+      "Carousel",
+      "Case_study",
+      "Email",
+      "Comment_reply",
+      "Press_quote",
+      "Explainer",
+      "Internal_memo"
+    ],
+  
+    "story_structure_rules": {
+      "caption_structure": [
+        "Hook",
+        "Context",
+        "Problem",
+        "Insight",
+        "Shift or transformation",
+        "Result or proof",
+        "CTA"
+      ],
+      "carousel_dopamine_curve": [
+        "Hook slide",
+        "Problem",
+        "Pain or lived reality",
+        "Insight or hopeful shift",
+        "Proof",
+        "CTA"
+      ],
+      "preferred_explanation_structures": [
+        "Solving a problem: problem -> why usual fixes fail -> what changes with Titan -> proof -> CTA.",
+        "Block by block: build understanding one foundation at a time.",
+        "Finish / start / finish: open with the outcome, rewind, walk back to the outcome with context."
+      ]
+    },
+  
+    "if_in_doubt": "Ask clarifying questions before generating."
+  }
