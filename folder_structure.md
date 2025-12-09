@@ -35,6 +35,7 @@
 │       └── product-vo
 │           └── raw
 │               └── Wahid-WahtIsTitanverse.txt
+├── .gitignore
 ├── brand
 ├── campaign-template
 │   ├── assets
@@ -49,228 +50,133 @@
 │   └── transcripts
 ├── campaigns
 │   ├── _templates
+│   │   ├── CAMPAIGN-FILL-IN-GUIDE.md
 │   │   ├── CAMPAIGN-PLAYBOOK.md
-│   │   ├── case-study-template
-│   │   │   ├── assets
-│   │   │   ├── content
-│   │   │   │   ├── blog.md
-│   │   │   │   └── video
-│   │   │   │       ├── YYYY-MM-DD-slug-transcript.md
-│   │   │   │       └── YYYY-MM-DD-slug.md
-│   │   │   ├── performance
-│   │   │   │   ├── linkedin-performance.json
-│   │   │   │   ├── tiktok-performance.json
-│   │   │   │   └── youtube-performance.json
-│   │   │   ├── post-mortem.md
-│   │   │   ├── README.md
-│   │   │   └── social
-│   │   │       ├── linkedin
-│   │   │       │   ├── carousel
-│   │   │       │   │   └── YYYY-MM-DD-slug
-│   │   │       │   │       ├── caption.md
-│   │   │       │   │       ├── comments.md
-│   │   │       │   │       ├── metrics.json
-│   │   │       │   │       └── slides.md
-│   │   │       │   ├── single-image
-│   │   │       │   │   └── YYYY-MM-DD-slug
-│   │   │       │   │       ├── alttext.md
-│   │   │       │   │       └── post.md
-│   │   │       │   ├── text-only
-│   │   │       │   │   └── YYYY-MM-DD-slug
-│   │   │       │   │       └── post.md
-│   │   │       │   └── video
-│   │   │       │       └── YYYY-MM-DD-slug
-│   │   │       │           ├── linkedin-caption.md
-│   │   │       │           ├── linkedin-comments.md
-│   │   │       │           ├── linkedin-metrics.json
-│   │   │       │           ├── meta.json
-│   │   │       │           └── transcript.md
-│   │   │       ├── tiktok
-│   │   │       └── youtube
-│   │   └── simple-campaign-template
+│   │   └── campaign-template
 │   │       ├── assets
+│   │       ├── campaign-meta.json
 │   │       ├── content
-│   │       │   ├── blog.md
-│   │       │   ├── carousel.md
-│   │       │   └── single-image.md
+│   │       │   ├── blog
+│   │       │   │   └── blog.md
+│   │       │   ├── carousel
+│   │       │   │   └── slides.md
+│   │       │   ├── single-image
+│   │       │   │   ├── image-01.md
+│   │       │   │   └── image-02.md
+│   │       │   └── video
+│   │       │       ├── longform
+│   │       │       │   ├── notes.md
+│   │       │       │   └── transcript.md
+│   │       │       └── shorts
+│   │       │           └── _example-clip-1
+│   │       │               ├── notes.md
+│   │       │               └── transcript.md
 │   │       ├── performance
-│   │       │   ├── linkedin-performance.json
-│   │       │   ├── tiktok-performance.json
-│   │       │   └── youtube-performance.json
+│   │       │   ├── linkedin.json
+│   │       │   ├── tiktok.json
+│   │       │   └── youtube.json
 │   │       ├── post-mortem.md
 │   │       ├── README.md
 │   │       └── social
 │   │           ├── linkedin
-│   │           │   └── YYYY-MM-DD-slug
+│   │           │   ├── _example-carousel
+│   │           │   │   ├── caption.md
+│   │           │   │   ├── comments.md
+│   │           │   │   ├── meta.json
+│   │           │   │   └── metrics.json
+│   │           │   ├── _example-longform
+│   │           │   │   ├── caption.md
+│   │           │   │   ├── comments.md
+│   │           │   │   ├── meta.json
+│   │           │   │   └── metrics.json
+│   │           │   └── _example-single-image
 │   │           │       ├── caption.md
+│   │           │       ├── comments.md
+│   │           │       ├── meta.json
 │   │           │       └── metrics.json
 │   │           ├── tiktok
+│   │           │   └── _example-clip-1
+│   │           │       ├── caption.md
+│   │           │       ├── comments.md
+│   │           │       ├── meta.json
+│   │           │       └── metrics.json
 │   │           └── youtube
+│   │               ├── _example-longform
+│   │               │   ├── comments.md
+│   │               │   ├── description.md
+│   │               │   ├── meta.json
+│   │               │   └── metrics.json
+│   │               └── _example-short
+│   │                   ├── comments.md
+│   │                   ├── description.md
+│   │                   ├── meta.json
+│   │                   └── metrics.json
 │   ├── TITAN
-│   │   ├── 2023-02-02-titan-takes-on-new-team-to-support-new-pharmacy-purchases
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2023-03-03-titan-gets-approval-for-dispensing-doctors
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2023-11-08-titan-ceo-invests-in-pharmappy
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2023-11-08-titan-first-to-deliver-eps-for-wales
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-03-27-titan-way
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-04-28-ai-role-pharmacy
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-05-02-dispense-million-items
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-07-01-priory-scaling-safely
-│   │   │   ├── content
-│   │   │   │   ├── blog.md
-│   │   │   │   └── video
-│   │   │   │       ├── 2025-07-01-prab-longform-transcript.md
-│   │   │   │       └── 2025-07-01-prab-longform.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   ├── README.md
-│   │   │   └── social
-│   │   │       ├── linkedin
-│   │   │       │   ├── 2025-07-17-carousel
-│   │   │       │   │   ├── caption.md
-│   │   │       │   │   ├── comments.md
-│   │   │       │   │   ├── metrics.json
-│   │   │       │   │   └── slides.md
-│   │   │       │   ├── single-image
-│   │   │       │   ├── text-only
-│   │   │       │   │   └── 2025-07-05-prab-longform-teaser
-│   │   │       │   │       └── post.md
-│   │   │       │   └── video
-│   │   │       │       └── 2025-07-02-prab-longform
-│   │   │       │           ├── linkedin-caption.md
-│   │   │       │           ├── linkedin-comments.md
-│   │   │       │           ├── linkedin-metrics.json
-│   │   │       │           ├── linkedin-metrics.md
-│   │   │       │           ├── meta.json
-│   │   │       │           └── transcript.md
-│   │   │       ├── tiktok
-│   │   │       └── youtube
-│   │   ├── 2025-07-14-vision-to-pharmacies
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-ai-safety-sandbox
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-automation-reclaims-time
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-be-more-private
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-community-pharmacies-2025
-│   │   │   ├── content
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-digital-dispensing-standard
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-drowning-in-pmr-data
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-health-tech-next-gen
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-independent-pharmacy-crisis
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-independent-prescribing-fails
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-original-pack
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   ├── 2025-12-00-pharmacy-survival-guide
-│   │   │   ├── content
-│   │   │   │   └── blog.md
-│   │   │   ├── performance
-│   │   │   ├── post-mortem.md
-│   │   │   └── README.md
-│   │   └── 2025-12-00-workforce-first
+│   │   └── 2025-07-01-priory-scaling-safely
+│   │       ├── assets
+│   │       ├── campaign-meta.json
 │   │       ├── content
-│   │       │   └── blog.md
+│   │       │   ├── blog
+│   │       │   │   └── blog.md
+│   │       │   ├── carousel
+│   │       │   │   └── slides.md
+│   │       │   ├── single-image
+│   │       │   │   ├── image-01.md
+│   │       │   │   └── image-02.md
+│   │       │   └── video
+│   │       │       ├── longform
+│   │       │       │   ├── notes.md
+│   │       │       │   └── transcript.md
+│   │       │       └── shorts
+│   │       │           └── _example-clip-1
+│   │       │               ├── notes.md
+│   │       │               └── transcript.md
 │   │       ├── performance
+│   │       │   ├── linkedin.json
+│   │       │   ├── tiktok.json
+│   │       │   └── youtube.json
 │   │       ├── post-mortem.md
-│   │       └── README.md
+│   │       ├── README.md
+│   │       └── social
+│   │           ├── linkedin
+│   │           │   ├── _example-carousel
+│   │           │   │   ├── caption.md
+│   │           │   │   ├── comments.md
+│   │           │   │   ├── meta.json
+│   │           │   │   └── metrics.json
+│   │           │   ├── _example-longform
+│   │           │   │   ├── caption.md
+│   │           │   │   ├── comments.md
+│   │           │   │   ├── meta.json
+│   │           │   │   └── metrics.json
+│   │           │   ├── _example-single-image
+│   │           │   │   ├── caption.md
+│   │           │   │   ├── comments.md
+│   │           │   │   ├── meta.json
+│   │           │   │   └── metrics.json
+│   │           │   └── 2025-07-17-carousel
+│   │           │       ├── caption.md
+│   │           │       ├── comments.md
+│   │           │       ├── meta.json
+│   │           │       └── metrics.json
+│   │           ├── tiktok
+│   │           │   └── _example-clip-1
+│   │           │       ├── caption.md
+│   │           │       ├── comments.md
+│   │           │       ├── meta.json
+│   │           │       └── metrics.json
+│   │           └── youtube
+│   │               ├── _example-longform
+│   │               │   ├── comments.md
+│   │               │   ├── description.md
+│   │               │   ├── meta.json
+│   │               │   └── metrics.json
+│   │               └── _example-short
+│   │                   ├── comments.md
+│   │                   ├── description.md
+│   │                   ├── meta.json
+│   │                   └── metrics.json
 │   └── TITANVERSE
-│       ├── 2025-12-00-dispensing-to-health-hub
-│       │   ├── content
-│       │   │   ├── blog.md
-│       │   │   ├── carousel.md
-│       │   │   └── single-image.md
-│       │   ├── performance
-│       │   ├── post-mortem.md
-│       │   └── README.md
-│       └── 2025-12-00-titanverse-launch
-│           ├── content
-│           │   └── blog.md
-│           ├── performance
-│           ├── post-mortem.md
-│           └── README.md
 ├── campaigns-index.json
 ├── folder_structure.md
 ├── inspiration
@@ -286,4 +192,4 @@
 ├── titan-ai-behaviour-context.json
 └── titan-ai-instructions.md
 
-132 directories, 155 files
+69 directories, 124 files
