@@ -1,0 +1,44 @@
+{
+  "platform": "tiktok",
+  "post_url": "",
+  "posted_at": "YYYY-MM-DD",
+  "campaign_slug": "",
+  "asset_type": "video-short",
+  
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  
+  "views": 0,
+  "likes": 0,
+  "comments": 0,
+  "shares": 0,
+  "saves": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  
+  "organic": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "watch_time_hours": 0,
+    "avg_view_duration_seconds": 0
+  },
+  
+  "sponsored": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  
+  "notes": "Template structure only. Fill when used for a real post. If post was promoted/boosted, set 'boosted' to true and fill 'organic' and 'sponsored' objects. Total metrics above represent combined organic + sponsored."
+}

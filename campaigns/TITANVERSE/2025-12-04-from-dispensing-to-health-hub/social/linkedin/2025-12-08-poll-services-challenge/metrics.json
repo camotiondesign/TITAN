@@ -1,0 +1,57 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-12-08",
+  "campaign_slug": "2025-12-04-from-dispensing-to-health-hub",
+  "asset_type": "poll",
+  
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  
+  "poll_question": "What's your biggest challenge running services right now?",
+  "poll_options": [
+    {"option": "Managing multiple systems / tools", "votes": 0, "percentage": 0},
+    {"option": "Time / staffing constraints", "votes": 0, "percentage": 0},
+    {"option": "Patient demand / marketing", "votes": 0, "percentage": 0},
+    {"option": "Compliance / documentation", "votes": 0, "percentage": 0}
+  ],
+  "poll_end_date": "",
+  "total_votes": 0,
+  
+  "impressions": 0,
+  "reach": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  
+  "organic": {
+    "impressions": 0,
+    "reach": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "total_votes": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0
+  },
+  
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "total_votes": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  
+  "notes": "Poll to validate technology barrier hypothesis from blog. Fill metrics after poll closes."
+}
+
+

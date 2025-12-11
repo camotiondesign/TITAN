@@ -1,0 +1,7 @@
+{
+  "asset_type": "video-longform",
+  "content_source": "content/video/longform/transcript.md",
+  "platform": "linkedin",
+  "variants": ["tiktok", "youtube"],
+  "notes": "Link back to the content file that this post is based on."
+}

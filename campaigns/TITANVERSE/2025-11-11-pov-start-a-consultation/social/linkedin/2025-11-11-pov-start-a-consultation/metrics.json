@@ -1,0 +1,34 @@
+{
+  "platform": "linkedin",
+  "brand": "titanverse",
+  "asset_type": "carousel",
+  "date_posted": "2025-11-11",
+  "boosted": false,
+  "boost_option_available": true,
+  "impressions": 908,
+  "members_reached": 467,
+  "engagements": 697,
+  "engagement_rate": "76.8%",
+  "clicks": 670,
+  "click_through_rate": "73.8%",
+  "reactions": 22,
+  "comments": 1,
+  "reposts": 4,
+  "followers_gained": 4,
+  "page_viewers": 1,
+  "organic": {
+    "impressions": 908,
+    "members_reached": 467,
+    "engagements": 697,
+    "engagement_rate": "76.8%",
+    "clicks": 670,
+    "click_through_rate": "73.8%",
+    "reactions": 22,
+    "comments": 1,
+    "reposts": 4,
+    "followers_gained": 4,
+    "page_viewers": 1
+  }
+}
+
+

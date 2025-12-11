@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-12-05",
+  "campaign_slug": "2025-12-05-knight-street-pharmacy-site-visit",
+  "asset_type": "video-short",
+  
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  
+  "impressions": 1512,
+  "reach": 966,
+  "views": 664,
+  "watch_time_hours": 2.726,
+  "avg_view_duration_seconds": 14,
+  "clicks": 125,
+  "ctr": 8.3,
+  "reactions": 19,
+  "comments": 1,
+  "reposts": 3,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 148,
+  "engagement_rate": 9.8,
+  
+  "organic": {
+    "impressions": 1512,
+    "reach": 966,
+    "engagements": 148,
+    "engagement_rate": 9.8,
+    "clicks": 125,
+    "click_through_rate": 8.3,
+    "reactions": 19,
+    "comments": 1,
+    "reposts": 3,
+    "video_views": 664,
+    "watch_time_total": "2h 43m 34s",
+    "average_watch_time_seconds": 14,
+    "page_viewers": 7,
+    "followers_gained": 0
+  },
+  
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "video_views": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  
+  "notes": "Short video post from Knight Street Pharmacy site visit featuring Batch Flow testimonial"
+}

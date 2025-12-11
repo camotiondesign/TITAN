@@ -1,0 +1,316 @@
+{
+  "total_posts": 234,
+  "pillars": {
+    "ENGAGEMENT & CONVERSATION STARTERS": {
+      "count": 3,
+      "percentage": 1.3,
+      "sub_pillars": {
+        "Polls": 3
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "2025-01-15-poll-top-pharmacy-priority",
+          "date": "2025-01-15",
+          "preview": "What's your pharmacy's top priority this year?..."
+        },
+        {
+          "creative_id": "2025-02-04-poll-expanding-services-barriers",
+          "date": "2025-02-04",
+          "preview": "\ud83d\udcc9 73% of people in pharmacy said expanding private services is their top priority this year. \ud83d\udca1 But what's holding you back? What's holding your pharma..."
+        }
+      ]
+    },
+    "OTHER": {
+      "count": 27,
+      "percentage": 11.5,
+      "sub_pillars": {
+        "Uncategorized": 27
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        }
+      ]
+    },
+    "REGULATORY & INDUSTRY UPDATES": {
+      "count": 5,
+      "percentage": 2.1,
+      "sub_pillars": {
+        "Industry Updates": 5
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        }
+      ]
+    },
+    "COMMUNITY & CULTURE": {
+      "count": 9,
+      "percentage": 3.8,
+      "sub_pillars": {
+        "Community Engagement": 8,
+        "Recognition & Appreciation": 1
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        }
+      ]
+    },
+    "PROOF & SOCIAL PROOF": {
+      "count": 47,
+      "percentage": 20.1,
+      "sub_pillars": {
+        "Case Studies": 23,
+        "Social Proof": 10,
+        "Reviews & Ratings": 3,
+        "Company Milestones & Metrics": 3,
+        "Customer Testimonials": 8
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "2025-02-24-pharmacy-evolution-carousel",
+          "date": "2025-02-24",
+          "preview": "Pharmacy has transformed in the last five years. And yet, many PMRs are still playing catch-up. New pressures.   New regulations.   New technology. Bu..."
+        },
+        {
+          "creative_id": "2024-12-16-titan-wrapped-carousel",
+          "date": "2024-12-16",
+          "preview": "\u2728 TITAN 2024 Wrapped \u2728 What a year it's been. 900+ sites live   96 million prescriptions processed   150+ updates rolled out   200+ 5-star TrustPilot ..."
+        },
+        {
+          "creative_id": "2025-01-21-pharmacists-only-20-percent-checks",
+          "date": "2025-01-21",
+          "preview": "Pharmacists only need to be involved in 20% of accuracy checks Freeing up time to focus on NHS priorities and deliver better patient care. Thank you t..."
+        },
+        {
+          "creative_id": "2024-12-17-opd-legislation-support-single-image",
+          "date": "2024-12-17",
+          "preview": "\ud83d\udea8 Original Pack Dispensing (OPD) \u2014 TITAN PMR is ready \ud83d\udea8 The new OPD legislation is here, and Titan is built to help your pharmacy adapt seamlessly. Wh..."
+        }
+      ]
+    },
+    "EDUCATION & TACTICAL GUIDANCE": {
+      "count": 18,
+      "percentage": 7.7,
+      "sub_pillars": {
+        "List-Based Education": 7,
+        "Tactical Advice": 10,
+        "Tool Recommendations": 3,
+        "How-To Guides": 1
+      },
+      "examples": [
+        {
+          "creative_id": "2025-01-20-5-ways-ai-improving-pharmacy",
+          "date": "2025-01-20",
+          "preview": "AI is allowing pharmacies to focus on growth & care Here are 5 ways it's improving the way pharmacies work: \u2022 Frees Up Pharmacists \u2022 Reduces Costs \u2022 S..."
+        },
+        {
+          "creative_id": "2025-02-06-ai-transforming-workflows",
+          "date": "2025-02-06",
+          "preview": "AI is Transforming Pharmacy Workflows Manual processes slow pharmacies down. AI changes that. AI is already saving pharmacies hours daily, improving e..."
+        },
+        {
+          "creative_id": "2025-01-23-near-misses-carousel",
+          "date": "2025-01-23",
+          "preview": "Pharmacies prevent up to 500 near misses daily with TITAN PMR! Here's how:   \u2705 Scan with Confidence: Every prescription is accuracy-checked.   \u2705 Proac..."
+        },
+        {
+          "creative_id": "2025-02-20-faz-nav-demonstration",
+          "date": "2025-02-20",
+          "preview": "Pharmacists step back. Dispensers step up. Faz & Nav share how TITAN streamlines dispensing so pharmacists only step in when needed. \u2705 Batch & Repeat ..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        }
+      ]
+    },
+    "PRODUCT EXPLANATION & FEATURES": {
+      "count": 81,
+      "percentage": 34.6,
+      "sub_pillars": {
+        "Product Benefits": 80,
+        "AI Capabilities": 1,
+        "Workflow Features": 1
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "2025-01-17-titan-batch-animated",
+          "date": "2025-01-17",
+          "preview": "Want to reduce dispensing time? Simplify your workflow with TITAN Batch\u2014the ultimate tool for fast, efficient prescription processing: \u2705 Bulk Dispensi..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        }
+      ]
+    },
+    "LEADERSHIP & STRATEGIC WORLDVIEW": {
+      "count": 29,
+      "percentage": 12.4,
+      "sub_pillars": {
+        "Strategic Thought Leadership": 5,
+        "Industry Vision": 23,
+        "Competitive Positioning": 1,
+        "Leadership Speaking/Events": 4
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "2025-02-19-legacy-pmrs-print-everything",
+          "date": "2025-02-19",
+          "preview": "Some PMRs still brag about printing prescriptions automatically. That's like celebrating fax machines in 2025. Pharmacy has evolved. Legacy PMRs haven..."
+        },
+        {
+          "creative_id": "2025-02-05-titan-nhs-independent-prescribing",
+          "date": "2025-02-05",
+          "preview": "\ud83d\ude80 TITAN + NHS Independent Prescribing Independent Prescribing is the future of pharmacy, and the NHS pilot is making it happen. \u2705 The NHS wants all ph..."
+        }
+      ]
+    },
+    "PROBLEM-SOLUTION POSITIONING": {
+      "count": 15,
+      "percentage": 6.4,
+      "sub_pillars": {
+        "Problem Framing": 5,
+        "Relatable Pain Points (Humor)": 9,
+        "Workflow Pain Points": 1
+      },
+      "examples": [
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        },
+        {
+          "creative_id": "unknown",
+          "date": "unknown",
+          "preview": "..."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "platform": "linkedin",
+  "boosted": false,
+  "impressions": 1000,
+  "reach": 630,
+  "engagements": 56,
+  "clicks": 31,
+  "engagement_rate": 5.6,
+  "click_through_rate": 3.1,
+  "reactions": 17,
+  "comments": 1,
+  "reposts": 7,
+  "page_viewers": 3,
+  "followers_gained": 0,
+  "organic": {
+    "impressions": 1000,
+    "reach": 630,
+    "engagements": 56,
+    "clicks": 31,
+    "reactions": 17,
+    "comments": 1,
+    "reposts": 7
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "clicks": 0,
+    "spend": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0
+  },
+  "asset_type": "single-image"
+}

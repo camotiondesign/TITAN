@@ -1,0 +1,43 @@
+{
+  "platform": "youtube",
+  "post_url": "",
+  "posted_at": "YYYY-MM-DD",
+  "campaign_slug": "",
+  "asset_type": "video-longform",
+  
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "subscribers_gained": 0,
+  "impressions": 0,
+  "impressions_ctr": 0,
+  
+  "organic": {
+    "views": 0,
+    "watch_time_hours": 0,
+    "avg_view_duration_seconds": 0,
+    "subscribers_gained": 0,
+    "impressions": 0,
+    "impressions_ctr": 0
+  },
+  
+  "sponsored": {
+    "views": 0,
+    "watch_time_hours": 0,
+    "avg_view_duration_seconds": 0,
+    "subscribers_gained": 0,
+    "impressions": 0,
+    "impressions_ctr": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  
+  "notes": "Template structure only. Fill when used for a real post. If video was promoted/boosted, set 'boosted' to true and fill 'organic' and 'sponsored' objects. Total metrics above represent combined organic + sponsored."
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "linkedin",
+  "campaign_owner": "Titanverse",
+  "boosted": false,
+  "impressions": 881,
+  "members_reached": 414,
+  "followers_gained": 2,
+  "organic": {
+    "impressions": 881,
+    "engagements": 82,
+    "clicks": 62,
+    "engagement_rate": "9.3",
+    "click_through_rate": "7.0%",
+    "reactions": 18,
+    "comments": 0,
+    "reposts": 2,
+    "video_views": 274,
+    "watch_time": "50m 2s",
+    "average_watch_time": "10s"
+  },
+  "asset_type": "short-video"
+}

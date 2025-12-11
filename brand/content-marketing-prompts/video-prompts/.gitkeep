@@ -1,0 +1,14 @@
+# Video Prompts
+
+Store reusable video production prompts here.
+
+Naming convention: `[campaign-slug]-video-prompt.md`
+
+Each prompt should reference:
+- Campaign content: `content/video/[type]/transcript.md`
+- Design reference files
+- Top-performing video examples
+- Performance context
+- Key moments and timestamps
+
+

@@ -1,0 +1,58 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-11-12",
+  "campaign_slug": "2025-11-12-barcode-safety-beep",
+  "asset_type": "single-image",
+  
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  
+  "impressions": 924,
+  "reach": 512,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 33,
+  "ctr": 3.6,
+  "reactions": 9,
+  "comments": 0,
+  "reposts": 1,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 43,
+  "engagement_rate": 4.7,
+  
+  "organic": {
+    "impressions": 924,
+    "reach": 512,
+    "engagements": 43,
+    "engagement_rate": 4.7,
+    "clicks": 33,
+    "click_through_rate": 3.6,
+    "reactions": 9,
+    "comments": 0,
+    "reposts": 1,
+    "page_viewers": 1,
+    "followers_gained": 0
+  },
+  
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  
+  "notes": "Single image post about barcode scanning safety workflow"
+}

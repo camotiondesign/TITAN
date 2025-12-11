@@ -1,0 +1,25 @@
+{
+  "campaign_name": "Titanverse Early Adopters: Yusuf",
+  "slug": "2025-11-20-titanverse-early-adopters-yusuf",
+  "brand": "Titanverse",
+  "campaign_type": "case_study",
+  "primary_asset": "content/single-image/01-yusuf-testimonial/image.md",
+  "date_first_published": "2025-11-20",
+  "purpose": "Showcase Yusuf from BMP Healthcare as one of the earliest Titanverse adopters, demonstrating real clinical outcomes through AI-powered consultations, templates, transcription, and centralized servicing. Campaign includes testimonial and product review content.",
+  "core_message": "The AI is literally the greatest thing I've ever seen. — Yusuf, BMP Healthcare. Early adopter demonstrating real clinical outcomes with Titanverse.",
+  "summary": "Multi-asset campaign showcasing Yusuf from BMP Healthcare as early Titanverse adopter. Includes single image testimonial and short product review video demonstrating how BMP Healthcare grew services across twelve branches using Titanverse AI-powered consultations, templates, transcription, and centralized servicing.",
+  "audience": [
+    "Pharmacy owners",
+    "Pharmacy managers",
+    "Superintendents",
+    "Independent prescribers",
+    "Prospects evaluating Titanverse",
+    "Multi-branch pharmacy operators",
+    "Titan PMR customers"
+  ],
+  "subject": {
+    "pharmacy_name": "BMP Healthcare",
+    "person_name": "Yusuf",
+    "location": ""
+  }
+}

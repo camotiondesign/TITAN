@@ -1,0 +1,55 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-02-05",
+  "campaign_slug": "2025-02-05-titan-nhs-independent-prescribing",
+  "asset_type": "carousel",
+  
+  "boosted": true,
+  "sponsored_dates": {
+    "start": "2025-02-12",
+    "end": "2025-02-13"
+  },
+  
+  "impressions": 5655,
+  "reach": 3065,
+  "engagements": 3465,
+  "engagement_rate": 63.7,
+  "clicks": 3394,
+  "click_through_rate": 62.4,
+  "reactions": 56,
+  "comments": 6,
+  "reposts": 9,
+  "followers_gained": 13,
+  "page_views": 19,
+  
+  "organic": {
+    "impressions": 5440,
+    "reach": 3065,
+    "engagements": 3465,
+    "engagement_rate": 63.7,
+    "clicks": 3394,
+    "click_through_rate": 62.4,
+    "reactions": 56,
+    "comments": 6,
+    "reposts": 9
+  },
+  
+  "sponsored": {
+    "impressions": 215,
+    "engagements": 38,
+    "engagement_rate": 17.7,
+    "clicks": 10,
+    "click_through_rate": 4.7,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "ecpm": 74.42,
+    "cost_per_engagement": 0.42,
+    "spend": 74.42
+  },
+  
+  "notes": "Post boosted from 2025-02-12 to 2025-02-13. Exceptional performance: 63.7% engagement rate, 62.4% CTR. High signal asset — NHS alignment + future-facing innovation. Social proof from NHS leadership (comments from Ghulam Haydar, Wasim Baqir) boosted confidence and credibility. Strong engagement from policy / tech stakeholders vs typical pharmacist-only audience."
+}
+
+

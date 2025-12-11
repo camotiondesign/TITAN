@@ -1,0 +1,14 @@
+{
+  "platform": "youtube",
+  "campaign_slug": "YYYY-MM-DD-slug",
+  "summary": {
+    "posts": 0,
+    "total_impressions": 0,
+    "total_views": 0,
+    "total_engagements": 0,
+    "avg_engagement_rate": 0,
+    "total_clicks": 0,
+    "top_post_folder": ""
+  },
+  "notes": "Template only. Fill when copied into a real campaign."
+}

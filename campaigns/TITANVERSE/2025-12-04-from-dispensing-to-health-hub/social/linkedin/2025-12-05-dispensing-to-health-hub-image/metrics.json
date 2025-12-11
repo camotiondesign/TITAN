@@ -1,0 +1,29 @@
+{
+  "platform": "linkedin",
+  "boosted": false,
+  "impressions": 1539,
+  "reach": 1022,
+  "engagements": 84,
+  "clicks": 54,
+  "reactions": 22,
+  "comments": 2,
+  "reposts": 6,
+  "followers_gained": 1,
+  "engagement_rate": 5.5,
+  "click_through_rate": 3.5,
+  "page_views": 6,
+  "organic": {
+    "impressions": 1539,
+    "reach": 1022,
+    "engagements": 84,
+    "clicks": 54,
+    "engagement_rate": 5.5,
+    "click_through_rate": 3.5,
+    "reactions": 22,
+    "comments": 2,
+    "reposts": 6,
+    "followers_gained": 1,
+    "page_views": 6
+  },
+  "asset_type": "single-image"
+}

@@ -1,0 +1,17 @@
+{
+  "campaign_name": "Poll — Top Pharmacy Priority for 2025",
+  "slug": "2025-01-15-poll-top-pharmacy-priority",
+  "brand": "Titan PMR",
+  "campaign_type": "poll_audience_insight",
+  "primary_asset": "content/poll/poll.md",
+  "date_first_published": "2025-01-15",
+  "purpose": "Collect audience sentiment around strategic priorities for the year and validate private services growth narrative.",
+  "core_message": "Private services are becoming the dominant strategic focus for independent pharmacies.",
+  "summary": "LinkedIn poll asking pharmacy professionals to choose their top priority for 2025 — majority voted for expanding private services.",
+  "audience": [
+    "Pharmacy owners",
+    "Pharmacy managers",
+    "Independent prescribers",
+    "Technicians"
+  ]
+}

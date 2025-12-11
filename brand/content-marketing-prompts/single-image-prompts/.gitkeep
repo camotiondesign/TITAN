@@ -1,0 +1,14 @@
+# Single Image Prompts
+
+Store reusable single image design prompts here.
+
+Naming convention: `[campaign-slug]-single-image-prompt.md`
+
+Each prompt should reference:
+- Campaign content: `content/single-image/image-01.md`
+- Design reference files
+- Top-performing single image examples
+- Performance context
+- Hook format (first 2 lines)
+
+

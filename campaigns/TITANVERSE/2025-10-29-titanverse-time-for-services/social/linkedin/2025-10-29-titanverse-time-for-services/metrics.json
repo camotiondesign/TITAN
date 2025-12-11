@@ -1,0 +1,20 @@
+{
+  "platform": "linkedin",
+  "campaign_owner": "Titanverse",
+  "boosted": false,
+  "impressions": 2019,
+  "members_reached": 1183,
+  "page_viewers": 10,
+  "followers_gained": 9,
+  "organic": {
+    "impressions": 2019,
+    "engagements": 164,
+    "engagement_rate": "8.1",
+    "clicks": 120,
+    "click_through_rate": "5.9%",
+    "reactions": 38,
+    "comments": 0,
+    "reposts": 6
+  },
+  "asset_type": "single-image"
+}

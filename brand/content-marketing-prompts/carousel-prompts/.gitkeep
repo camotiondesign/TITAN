@@ -1,0 +1,13 @@
+# Carousel Prompts
+
+Store reusable carousel design prompts here.
+
+Naming convention: `[campaign-slug]-carousel-prompt.md`
+
+Each prompt should reference:
+- Campaign content: `content/carousel/slides.md`
+- Design reference files
+- Top-performing carousel examples
+- Performance context
+
+

@@ -1,0 +1,23 @@
+{
+  "platform": "linkedin",
+  "boosted": false,
+  "impressions": 1196,
+  "members_reached": 674,
+  "reactions": 29,
+  "comments": 0,
+  "reposts": 3,
+  "clicks": 50,
+  "followers_gained": 3,
+  "engagement_rate": "6.9%",
+  "organic": {
+    "impressions": 1196,
+    "engagements": 82,
+    "engagement_rate": "6.9%",
+    "clicks": 50,
+    "click_through_rate": "4.2%"
+  },
+  "video_views": 445,
+  "watch_time": "1h 32m 26s",
+  "average_watch_time": "12s",
+  "asset_type": "short-video"
+}

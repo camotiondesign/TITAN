@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-01-15",
+  "campaign_slug": "2025-01-15-poll-top-pharmacy-priority",
+  "asset_type": "poll",
+  
+  "boosted": false,
+  
+  "poll_question": "What's your pharmacy's top priority this year?",
+  "poll_options": [
+    {
+      "option": "Expanding private services",
+      "votes": 16,
+      "percentage": 73
+    },
+    {
+      "option": "Improving workflow efficiency",
+      "votes": 3,
+      "percentage": 14
+    },
+    {
+      "option": "Reducing dispensing errors",
+      "votes": 1,
+      "percentage": 5
+    },
+    {
+      "option": "Enhancing patient care",
+      "votes": 2,
+      "percentage": 9
+    }
+  ],
+  "poll_end_date": "2025-01-15",
+  "total_votes": 22,
+  
+  "impressions": 1112,
+  "reach": 604,
+  "engagements": 45,
+  "engagement_rate": 4.0,
+  "clicks": 44,
+  "click_through_rate": 4.0,
+  "reactions": 1,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "page_viewers_from_post": 2,
+  "followers_gained": 0,
+  
+  "organic": {
+    "impressions": 1112,
+    "reach": 604,
+    "engagements": 45,
+    "engagement_rate": 4.0,
+    "total_votes": 22,
+    "reactions": 1,
+    "comments": 0,
+    "reposts": 0
+  },
+  
+  "notes": "Organic poll. Results validate private services growth narrative with 73% voting for expanding private services. High click rate (4.0% CTR) indicates strong interest. Limited reach due to algorithmic throttling of polls compared to other content types."
+}
+

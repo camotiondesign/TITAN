@@ -1,0 +1,38 @@
+{
+  "platform": "linkedin",
+  "boosted": true,
+  "total_impressions": 25309,
+  "reactions": 30,
+  "comments": 6,
+  "reposts": 9,
+  "page_viewers": 6,
+  "followers_gained": 2,
+  "leads": 0,
+  "sponsored": {
+    "impressions": 23725,
+    "engagements": 29,
+    "engagement_rate": 0.1,
+    "clicks": 16,
+    "click_through_rate": 0.1,
+    "cost_per_engagement": 3.86,
+    "ecpm": 4.72,
+    "reactions": 1,
+    "comments": 0,
+    "reposts": 0
+  },
+  "organic": {
+    "impressions": 1584,
+    "reach": 920,
+    "engagements": 177,
+    "engagement_rate": 11.2,
+    "clicks": 133,
+    "click_through_rate": 8.4,
+    "reactions": 29,
+    "comments": 6,
+    "reposts": 9
+  },
+  "video_views": 2582,
+  "watch_time": "13h 34m 12s",
+  "average_watch_time_seconds": 18,
+  "asset_type": "video-longform"
+}

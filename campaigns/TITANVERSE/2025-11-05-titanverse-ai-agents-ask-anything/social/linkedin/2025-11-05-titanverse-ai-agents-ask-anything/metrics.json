@@ -1,0 +1,20 @@
+{
+  "platform": "linkedin",
+  "boosted": false,
+  "impressions": 1135,
+  "members_reached": 564,
+  "reactions": 15,
+  "comments": 1,
+  "reposts": 8,
+  "clicks": 40,
+  "followers_gained": 1,
+  "engagement_rate": "5.6%",
+  "organic": {
+    "impressions": 1135,
+    "engagements": 64,
+    "engagement_rate": "5.6%",
+    "clicks": 40,
+    "click_through_rate": "3.5%"
+  },
+  "asset_type": "single-image"
+}

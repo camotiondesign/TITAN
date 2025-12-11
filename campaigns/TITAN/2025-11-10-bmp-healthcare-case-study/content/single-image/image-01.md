@@ -1,0 +1,15 @@
+# BMP Healthcare Case Study Single Image
+
+**Image:** BMP case study graphic
+
+**Alt Text:**  
+A Titan PMR case study graphic with a headline that reads "How BMP Scaled to 170,000 Items and 500% Service Growth". Below the headline is a photo of the Brothers Pharmacy storefront. Under the photo is a quote in a speech-bubble style box: "Once you've seen Titan in action, you realise how old-school the 'big boys' really are." A small circular photo of the speaker appears in the bottom-left corner, and a blue footer bar at the bottom includes a note to read the full case study on titanpmr.com.
+
+**Usage:**  
+LinkedIn single image post promoting BMP Healthcare case study
+
+**Posted To:** LinkedIn  
+**Date:** 2025-11-13
+
+**Link:** https://bit.ly/4nOpOgu  
+**Short Link:** bit.ly/4nOpOgu

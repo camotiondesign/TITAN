@@ -1,0 +1,29 @@
+{
+  "platform": "linkedin",
+  "boosted": false,
+  "impressions": 687,
+  "reach": 386,
+  "engagements": 154,
+  "clicks": 130,
+  "engagement_rate": 22.4,
+  "click_through_rate": 18.9,
+  "reactions": 16,
+  "comments": 4,
+  "reposts": 4,
+  "followers_gained": 4,
+  "page_views": 5,
+  "organic": {
+    "impressions": 687,
+    "reach": 386,
+    "engagements": 154,
+    "clicks": 130,
+    "engagement_rate": 22.4,
+    "click_through_rate": 18.9,
+    "reactions": 16,
+    "comments": 4,
+    "reposts": 4,
+    "followers_gained": 4,
+    "page_views": 5
+  },
+  "asset_type": "carousel"
+}

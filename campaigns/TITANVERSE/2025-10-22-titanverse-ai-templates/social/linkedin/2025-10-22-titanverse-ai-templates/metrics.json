@@ -1,0 +1,19 @@
+{
+  "platform": "linkedin",
+  "campaign_owner": "Titanverse",
+  "boosted": false,
+  "impressions": 286,
+  "members_reached": 146,
+  "followers_gained": 0,
+  "organic": {
+    "impressions": 286,
+    "engagements": 166,
+    "clicks": 155,
+    "engagement_rate": "58.0",
+    "click_through_rate": "54.2%",
+    "reactions": 9,
+    "comments": 0,
+    "reposts": 2
+  },
+  "asset_type": "carousel"
+}
