@@ -4,48 +4,54 @@
   "posted_at": "2025-02-04",
   "campaign_slug": "2025-02-04-poll-expanding-services-barriers",
   "asset_type": "poll",
-  
   "boosted": false,
-  
-  "poll_question": "What's holding your pharmacy back from expanding services?",
-  "poll_options": [
-    {
-      "option": "Time & staffing shortages",
-      "votes": 7,
-      "percentage": 47
-    },
-    {
-      "option": "Regulations & compliance",
-      "votes": 4,
-      "percentage": 27
-    },
-    {
-      "option": "Cost & financial risk",
-      "votes": 1,
-      "percentage": 7
-    },
-    {
-      "option": "Lack of demand or uncertainty",
-      "votes": 3,
-      "percentage": 20
-    }
-  ],
-  "poll_end_date": "",
-  "total_votes": 15,
-  
-  "impressions": 1105,
-  "reach": 644,
-  "engagements": 42,
-  "engagement_rate": 3.8,
-  "clicks": 39,
-  "click_through_rate": 3.5,
-  "reactions": 1,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
   "comments": 0,
-  "reposts": 2,
-  "followers_gained": 0,
-  "page_views": 2,
-  
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
+  "organic": {
+    "impressions": 1105,
+    "reach": 644,
+    "engagements": 42,
+    "engagement_rate": 3.8,
+    "clicks": 39,
+    "click_through_rate": 3.5,
+    "reactions": 1,
+    "comments": 0,
+    "reposts": 2,
+    "page_viewers": 2,
+    "followers_gained": 0,
+    "video_views": 0,
+    "watch_time_total": "",
+    "average_watch_time_seconds": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "video_views": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
   "notes": "Organic post. Poll results reveal time & staffing shortages (47%) as primary barrier to service expansion, validating messaging around time-saving and efficiency benefits. Limited participation (15 votes) suggests polls may need more active promotion. Results influence future content strategy toward service enablement messaging."
 }
-
-

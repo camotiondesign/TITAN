@@ -4,22 +4,54 @@
   "posted_at": "2025-01-23",
   "campaign_slug": "2025-01-23-near-misses-carousel",
   "asset_type": "carousel",
-  
   "boosted": false,
-  
-  "impressions": 1504,
-  "reach": 712,
-  "engagements": 367,
-  "engagement_rate": 24.4,
-  "clicks": 344,
-  "click_through_rate": 22.9,
-  "reactions": 17,
-  "comments": 1,
-  "reposts": 5,
-  "followers_gained": 1,
-  "page_views": 2,
-  
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
+  "organic": {
+    "impressions": 1504,
+    "reach": 712,
+    "engagements": 367,
+    "engagement_rate": 24.4,
+    "clicks": 344,
+    "click_through_rate": 22.9,
+    "reactions": 17,
+    "comments": 1,
+    "reposts": 5,
+    "page_viewers": 2,
+    "followers_gained": 1,
+    "video_views": 0,
+    "watch_time_total": "",
+    "average_watch_time_seconds": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "video_views": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
   "notes": "Organic post. Exceptional performance: 24.4% engagement rate, 22.9% CTR. This carousel leaned heavily on quantified safety proof (500 near misses prevented daily), which is consistently high-performing and trust-building for pharmacists. The stat-driven angle and clear CTA likely drove the exceptional click-through rate."
 }
-
-

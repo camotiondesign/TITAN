@@ -2,11 +2,8 @@
   "asset_type": "single-image",
   "platform": "linkedin",
   "campaign": "2025-10-20-diwali-greeting",
-  "source_image": "../../../content/single-image/image-01.md",
+  "source_image": "../../../content/single-image/2025-10-20-diwali-greeting.md",
   "image_alt_text": "A visually striking Diwali greeting graphic featuring the words 'Happy Diwali' in ornate, glowing calligraphy above a decorative clay lamp (diya) with a bright flame. The lamp is designed with vibrant layered patterns in red, gold and teal, with matching decorative shapes scattered around it against a dark black background, creating a warm festive glow.",
   "event_type": "seasonal-holiday",
   "tone": "warm, celebratory, grateful"
 }
-
-
-

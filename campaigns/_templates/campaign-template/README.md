@@ -40,6 +40,10 @@ Use this **only for collating and structuring existing content**.
 
 - `performance/`
   - Platform-level rollup per campaign, not per post.
+  - `linkedin.json` - All LinkedIn posts combined
+  - `tiktok.json` - All TikTok posts combined
+  - `youtube.json` - All YouTube uploads combined
+  - `website.json` - Website/blog metrics (GA4) for case studies and blog posts
 
 - `assets/`
   - Thumbs, exported filenames, notes. (Can stay empty if not used.)
@@ -70,6 +74,7 @@ Use this **only for collating and structuring existing content**.
 
 5. **Update performance rollups**
    - Summarise platform performance in `performance/*.json`.
+   - For campaigns with blog/case study content, add GA4 metrics to `performance/website.json`.
 
 This template is for **structure and consistency**, not for generating content.
 

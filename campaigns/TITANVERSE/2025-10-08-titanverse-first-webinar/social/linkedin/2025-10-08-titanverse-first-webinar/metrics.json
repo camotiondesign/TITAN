@@ -4,22 +4,54 @@
   "posted_at": "2025-10-08",
   "campaign_slug": "2025-10-08-titanverse-first-webinar",
   "asset_type": "single-image",
-  
   "boosted": false,
-  
-  "impressions": 1073,
-  "reach": 598,
-  "engagements": 89,
-  "engagement_rate": 8.3,
-  "clicks": 50,
-  "click_through_rate": 4.7,
-  "reactions": 29,
-  "comments": 3,
-  "reposts": 7,
-  "followers_gained": 11,
-  "page_views": 9,
-  
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
+  "organic": {
+    "impressions": 1073,
+    "reach": 598,
+    "engagements": 89,
+    "engagement_rate": 8.3,
+    "clicks": 50,
+    "click_through_rate": 4.7,
+    "reactions": 29,
+    "comments": 3,
+    "reposts": 7,
+    "page_viewers": 9,
+    "followers_gained": 11,
+    "video_views": 0,
+    "watch_time_total": "",
+    "average_watch_time_seconds": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "video_views": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
   "notes": "Organic post. Post-webinar thank you effectively continued event promotion momentum. Strong follower growth (11 followers) and reposts (7) indicate high interest. Comments from Hooman Ghalamkari, Phil Beard, and Sajid Ramzan validate Titanverse positioning and generate social proof. Good engagement (8.3% engagement rate, 4.7% CTR) indicates strong interest in post-webinar content."
 }
-
-

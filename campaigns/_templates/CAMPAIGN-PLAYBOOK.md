@@ -298,8 +298,45 @@ Store aggregated metrics in `performance/` folder:
 - `linkedin.json` - All LinkedIn posts combined
 - `tiktok.json` - All TikTok posts combined
 - `youtube.json` - All YouTube uploads combined
+- `website.json` - Website/blog metrics (GA4) for case studies and blog posts
 
 **Update these files** after each post to track campaign-level performance.
+
+### Website Metrics (GA4)
+
+For campaigns with blog posts or case studies published on the website, capture Google Analytics 4 metrics in `performance/website.json`:
+
+**Website Metrics Structure:**
+```json
+{
+  "platform": "website",
+  "source": "ga4",
+  "campaign_slug": "2025-07-01-brighton-hill-case-study",
+  "page_path": "/case-studies/how-brighton-hill-pharmacy-scaled-without-slowing-down",
+  "captured_at": "2025-01-XX",
+  "views": 105,
+  "active_users": 83,
+  "views_per_active_user": 1.27,
+  "avg_engagement_time_seconds": 29,
+  "event_count": 284,
+  "percent_of_total_views": 21.34,
+  "percent_of_total_users": 23.58,
+  "percent_of_total_events": 19.93,
+  "notes": ""
+}
+```
+
+**When to capture:**
+- Case studies published on website
+- Blog posts published on website
+- Any written content with a dedicated page path
+
+**How to capture:**
+1. Extract metrics from GA4 for the specific page path
+2. Map the page path slug to the campaign folder
+3. Convert engagement time to seconds (e.g., "1m 06s" = 66 seconds)
+4. Include percentage calculations if available in GA4 export
+5. Update `captured_at` date when metrics are pulled
 
 ---
 

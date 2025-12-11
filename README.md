@@ -10,9 +10,16 @@ A lean, production-focused content operations vault. Maximum organisation, minim
 
 ```
 TITAN/
-├── campaigns/              # All active campaigns
+├── campaigns/              # All active campaigns (live content)
 │   ├── TITAN/             # Titan PMR campaigns
 │   └── TITANVERSE/        # Titanverse campaigns
+├── playground/             # Draft workspace (build before publishing)
+│   ├── product/           # Product pillar campaigns
+│   ├── proof/             # Proof pillar campaigns
+│   ├── insight/           # Insight pillar campaigns
+│   ├── community/         # Community pillar campaigns
+│   ├── leadership/        # Leadership pillar campaigns
+│   └── _template/         # Template for new playground campaigns
 ├── campaign-template/      # Template for new campaigns
 ├── inspiration/            # Competitive intelligence library
 │   ├── hooks/
@@ -124,12 +131,30 @@ The `/archive` folder contains:
 
 ## Workflow
 
-1. **Create Campaign**: Copy `/campaign-template` → rename to `YYYY-MM-DD-campaign-name`
-2. **Classify Product**: Move to `/campaigns/TITAN` or `/campaigns/TITANVERSE`
-3. **Add Content**: Create files in `/content` folder (blog.md, carousel.md, etc.)
-4. **Link Transcripts**: Create `transcript-source.md` referencing `/interviews/raw`
-5. **Track Performance**: Add analytics JSON files to `/performance`
-6. **Document Learnings**: Update `post-mortem.md` after completion
+### Building Campaigns (Playground)
+
+1. **Create in Playground**: Copy `playground/_template/` → rename to `draft-[campaign-slug]` or `YYYY-MM-DD-[campaign-slug]`
+2. **Choose Pillar**: Place in appropriate pillar folder (`product/`, `proof/`, `insight/`, `community/`, `leadership/`)
+3. **Build Content**: Write blog posts, carousels, video scripts, social captions
+4. **Track Status**: Update `status.md` (draft → review → ready-to-publish)
+5. **Collaborate**: Use `notes.md` for ideas, questions, feedback
+6. **Review & Refine**: Iterate until content is polished
+
+### Publishing Campaigns
+
+When ready to publish:
+1. **Move to Campaigns**: Move entire folder from `playground/[pillar]/` to `campaigns/TITAN/` or `campaigns/TITANVERSE/`
+2. **Clean Up**: Remove `status.md` and `notes.md` (or archive them)
+3. **Finalize**: Update `campaign-meta.json` with final details
+4. **Post**: Campaign is now live and ready for posting
+
+### Post-Publishing
+
+1. **Link Transcripts**: Create `transcript-source.md` referencing `/interviews/raw`
+2. **Track Performance**: Add analytics JSON files to `/performance`
+3. **Document Learnings**: Update `post-mortem.md` after completion
+
+**See `playground/README.md` for detailed playground workflow.**
 
 ---
 

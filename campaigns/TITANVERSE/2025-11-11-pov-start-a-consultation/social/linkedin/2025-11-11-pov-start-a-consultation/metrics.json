@@ -1,24 +1,31 @@
 {
   "platform": "linkedin",
-  "brand": "titanverse",
+  "post_url": "",
+  "posted_at": "",
+  "campaign_slug": "",
   "asset_type": "carousel",
-  "date_posted": "2025-11-11",
   "boosted": false,
-  "boost_option_available": true,
-  "impressions": 908,
-  "members_reached": 467,
-  "engagements": 697,
-  "engagement_rate": "76.8%",
-  "clicks": 670,
-  "click_through_rate": "73.8%",
-  "reactions": 22,
-  "comments": 1,
-  "reposts": 4,
-  "followers_gained": 4,
-  "page_viewers": 1,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
   "organic": {
     "impressions": 908,
-    "members_reached": 467,
+    "reach": 0,
     "engagements": 697,
     "engagement_rate": "76.8%",
     "clicks": 670,
@@ -26,9 +33,25 @@
     "reactions": 22,
     "comments": 1,
     "reposts": 4,
+    "page_viewers": 1,
     "followers_gained": 4,
-    "page_viewers": 1
-  }
+    "video_views": 0,
+    "watch_time_total": "",
+    "average_watch_time_seconds": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "video_views": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  "notes": ""
 }
-
-

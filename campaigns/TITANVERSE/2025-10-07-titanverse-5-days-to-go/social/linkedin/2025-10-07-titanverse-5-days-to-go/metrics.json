@@ -4,22 +4,54 @@
   "posted_at": "2025-10-07",
   "campaign_slug": "2025-10-07-titanverse-5-days-to-go",
   "asset_type": "single-image",
-  
   "boosted": false,
-  
-  "impressions": 1075,
-  "reach": 594,
-  "engagements": 82,
-  "engagement_rate": 7.6,
-  "clicks": 56,
-  "click_through_rate": 5.2,
-  "reactions": 17,
-  "comments": 2,
-  "reposts": 7,
-  "followers_gained": 9,
-  "page_views": 11,
-  
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
+  "organic": {
+    "impressions": 1075,
+    "reach": 594,
+    "engagements": 82,
+    "engagement_rate": 7.6,
+    "clicks": 56,
+    "click_through_rate": 5.2,
+    "reactions": 17,
+    "comments": 2,
+    "reposts": 7,
+    "page_viewers": 11,
+    "followers_gained": 9,
+    "video_views": 0,
+    "watch_time_total": "",
+    "average_watch_time_seconds": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "video_views": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
   "notes": "Organic post. Event promotion effectively built anticipation for Titanverse launch at The Pharmacy Show. Strong follower growth (9 followers) and reposts (7) indicate high interest in Titanverse product launch. Comments from Nas Khaliq and Balal Anwar show anticipation. Good engagement (7.6% engagement rate, 5.2% CTR) indicates strong interest in event promotion content."
 }
-
-
