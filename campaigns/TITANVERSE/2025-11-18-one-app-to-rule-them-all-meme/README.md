@@ -45,7 +45,7 @@ One app to rule them all. Pharmacies finally getting everything in one place.
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - LOTR-themed meme
+- **Primary Asset:** `content/single-image/text-description-.md` - LOTR-themed meme
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-11-18-one-app-to-rule-them-all-meme/` - Posted November 18, 2025
@@ -56,7 +56,7 @@ One app to rule them all. Pharmacies finally getting everything in one place.
 2025-11-18-one-app-to-rule-them-all-meme/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-11-18-one-app-to-rule-them-all-meme/

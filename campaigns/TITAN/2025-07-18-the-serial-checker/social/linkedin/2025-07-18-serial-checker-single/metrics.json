@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-07-18",
+  "campaign_slug": "2025-07-18-the-serial-checker",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 852,
+  "reach": 526,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 38,
+  "ctr": 4.5,
+  "reactions": 13,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 52,
+  "engagement_rate": 6.1,
   "organic": {
     "impressions": 852,
     "reach": 526,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 117.1581,
+  "tcps_inputs": {
+    "impressions_used": 852,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 1.1737,
+    "r_reactions": 15.2582,
+    "r_clicks": 44.6009,
+    "click_signal": 3.8199
+  },
+  "tcps_efficiency_raw": 117.1581,
+  "tcps_distribution_raw": 6.7488,
+  "tcps_total_raw": 1117.1581,
+  "tcps_impression_tier": "C"
 }

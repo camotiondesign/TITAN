@@ -17,3 +17,8 @@ If you run a pharmacy, you will recognise every line.
 🔗 Read the full piece: bit.ly/4ibkzX0
 
 hashtag#Pharmacy hashtag#IndependentPrescribing hashtag#CommunityPharmacy hashtag#PharmacyFirst hashtag#ClinicalPharmacy hashtag#TitanPMR
+
+
+
+
+

@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 2179,
+  "reach": 1052,
+  "views": 1189,
   "watch_time_hours": 5.556111111111111,
   "avg_view_duration_seconds": 16,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 177,
+  "ctr": 8.1,
+  "reactions": 14,
+  "comments": 3,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 195,
+  "engagement_rate": 8.9,
   "organic": {
     "impressions": 2179,
     "reach": 1052,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Strong performance: 8.9% engagement rate, 8.1% CTR, 16-second average watch time. Strong statistic headline (20%) and NHS priorities messaging resonated. Testimonial validated the 'free pharmacists for NHS priorities' narrative. Good engagement indicates strong audience interest in efficiency and delegation benefits."
+  "notes": "Organic post. Strong performance: 8.9% engagement rate, 8.1% CTR, 16-second average watch time. Strong statistic headline (20%) and NHS priorities messaging resonated. Testimonial validated the 'free pharmacists for NHS priorities' narrative. Good engagement indicates strong audience interest in efficiency and delegation benefits.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 129.9335,
+  "tcps_inputs": {
+    "impressions_used": 2179,
+    "r_comments": 1.3768,
+    "r_follows": 0.4589,
+    "r_reposts": 0.4589,
+    "r_reactions": 6.425,
+    "r_clicks": 81.2299,
+    "click_signal": 4.4095
+  },
+  "tcps_efficiency_raw": 129.9335,
+  "tcps_distribution_raw": 7.6871,
+  "tcps_total_raw": 2129.9335,
+  "tcps_impression_tier": "B"
 }

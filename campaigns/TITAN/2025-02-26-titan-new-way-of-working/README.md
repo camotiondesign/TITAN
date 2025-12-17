@@ -44,7 +44,7 @@ Pharmacy didn't need another PMR. It needed a new way of working. Titan flipped 
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Single image with Space Odyssey visual reference
+- **Primary Asset:** `content/single-image/text-description-.md` - Single image with Space Odyssey visual reference
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-02-26-titan-new-way-of-working/` - Posted February 26, 2025
@@ -55,7 +55,7 @@ Pharmacy didn't need another PMR. It needed a new way of working. Titan flipped 
 2025-02-26-titan-new-way-of-working/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-02-26-titan-new-way-of-working/

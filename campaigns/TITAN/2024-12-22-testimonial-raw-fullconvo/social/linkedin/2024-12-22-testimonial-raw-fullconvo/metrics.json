@@ -1,28 +1,28 @@
 {
   "platform": "LinkedIn",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2024-12-22",
+  "campaign_slug": "2024-12-22-testimonial-raw-fullconvo",
   "asset_type": "video-longform",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 684,
+  "reach": 338,
+  "views": 232,
   "watch_time_hours": 0.6947222222222222,
   "avg_view_duration_seconds": 10,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 25,
+  "ctr": 3.7,
+  "reactions": 4,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 30,
+  "engagement_rate": 4.4,
   "organic": {
     "impressions": 684,
     "reach": 338,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 89.4727,
+  "tcps_inputs": {
+    "impressions_used": 684,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 1.462,
+    "r_reactions": 5.848,
+    "r_clicks": 36.5497,
+    "click_signal": 3.6257
+  },
+  "tcps_efficiency_raw": 89.4727,
+  "tcps_distribution_raw": 6.5294,
+  "tcps_total_raw": 1089.4727,
+  "tcps_impression_tier": "C"
 }

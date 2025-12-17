@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-08-22",
+  "campaign_slug": "2025-08-22-clinical-ready-digital-tools",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1024,
+  "reach": 598,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 563,
+  "ctr": 55.0,
+  "reactions": 8,
+  "comments": 1,
+  "reposts": 2,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 574,
+  "engagement_rate": 56.1,
   "organic": {
     "impressions": 1024,
     "reach": 598,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 161.077,
+  "tcps_inputs": {
+    "impressions_used": 1024,
+    "r_comments": 0.9766,
+    "r_follows": 0.0,
+    "r_reposts": 1.9531,
+    "r_reactions": 7.8125,
+    "r_clicks": 549.8047,
+    "click_signal": 6.3114
+  },
+  "tcps_efficiency_raw": 161.077,
+  "tcps_distribution_raw": 6.9324,
+  "tcps_total_raw": 1161.077,
+  "tcps_impression_tier": "C"
 }

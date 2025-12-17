@@ -5,3 +5,8 @@ Select a batch of say 20 patients, pick all the stock for the whole batch in one
 👉 See it in action at Knight Street Pharmacy
 
 hashtag#BatchFlow hashtag#PharmacyWorkflow hashtag#DigitalPharmacy hashtag#TitanPMR hashtag#CommunityPharmacy
+
+
+
+
+

@@ -4,13 +4,11 @@
   "posted_at": "YYYY-MM-DD",
   "campaign_slug": "",
   "asset_type": "poll",
-  
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  
   "poll_question": "",
   "poll_options": [
     {
@@ -26,7 +24,6 @@
   ],
   "poll_end_date": "YYYY-MM-DD",
   "total_votes": 0,
-  
   "impressions": 0,
   "reach": 0,
   "engagements": 0,
@@ -35,7 +32,6 @@
   "comments": 0,
   "reposts": 0,
   "follows": 0,
-  
   "organic": {
     "impressions": 0,
     "reach": 0,
@@ -46,7 +42,6 @@
     "comments": 0,
     "reposts": 0
   },
-  
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
@@ -56,7 +51,23 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  
-  "notes": "Template structure only. Fill when used for a real poll. Include poll question, options, vote breakdown, and poll end date. If post was boosted/sponsored, set 'boosted' to true and fill 'organic' and 'sponsored' objects."
+  "notes": "Template structure only. Fill when used for a real poll. Include poll question, options, vote breakdown, and poll end date. If post was boosted/sponsored, set 'boosted' to true and fill 'organic' and 'sponsored' objects.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 0.0,
+  "tcps_inputs": {
+    "impressions_used": 0,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 0.0,
+    "r_reactions": 0.0,
+    "r_clicks": 0.0,
+    "click_signal": 0.0
+  },
+  "tcps_warnings": [
+    "impressions_missing_or_zero"
+  ],
+  "tcps_efficiency_raw": 0.0,
+  "tcps_distribution_raw": 0.6931,
+  "tcps_total_raw": 0.0,
+  "tcps_impression_tier": "D"
 }
-

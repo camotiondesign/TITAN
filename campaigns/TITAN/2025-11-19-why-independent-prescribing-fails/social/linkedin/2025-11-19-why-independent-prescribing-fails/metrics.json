@@ -4,13 +4,11 @@
   "posted_at": "2025-11-19",
   "campaign_slug": "2025-11-19-why-independent-prescribing-fails",
   "asset_type": "single-image",
-  
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  
   "impressions": 3522,
   "reach": 2269,
   "views": 0,
@@ -25,7 +23,6 @@
   "leads": 0,
   "engagements": 253,
   "engagement_rate": 7.2,
-  
   "organic": {
     "impressions": 3522,
     "reach": 2269,
@@ -39,7 +36,6 @@
     "page_viewers": 7,
     "followers_gained": 1
   },
-  
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
@@ -53,6 +49,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  
-  "notes": "Single image post promoting blog about why Independent Prescribing fails in pharmacies"
+  "notes": "Single image post promoting blog about why Independent Prescribing fails in pharmacies",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 98.1548,
+  "tcps_inputs": {
+    "impressions_used": 3522,
+    "r_comments": 0.2839,
+    "r_follows": 0.2839,
+    "r_reposts": 0.8518,
+    "r_reactions": 3.975,
+    "r_clicks": 66.7235,
+    "click_signal": 4.2154
+  },
+  "tcps_efficiency_raw": 98.1548,
+  "tcps_distribution_raw": 8.1671,
+  "tcps_total_raw": 3098.1548,
+  "tcps_impression_tier": "A"
 }

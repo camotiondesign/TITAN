@@ -44,7 +44,7 @@ Event promotion continued countdown momentum. Lower impressions (599) compared t
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Event countdown single image
+- **Primary Asset:** `content/single-image/text-description-.md` - Event countdown single image
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-10-10-titanverse-2-days-to-go/` - Posted October 10, 2025
@@ -55,7 +55,7 @@ Event promotion continued countdown momentum. Lower impressions (599) compared t
 2025-10-10-titanverse-2-days-to-go/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-10-10-titanverse-2-days-to-go/

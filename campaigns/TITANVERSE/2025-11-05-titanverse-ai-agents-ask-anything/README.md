@@ -44,7 +44,7 @@ AI Agents reply directly within chat, trained by real pharmacists on real clinic
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - AI Agents static graphic
+- **Primary Asset:** `content/single-image/text-description-.md` - AI Agents static graphic
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-11-05-titanverse-ai-agents-ask-anything/` - Posted November 5, 2025
@@ -55,7 +55,7 @@ AI Agents reply directly within chat, trained by real pharmacists on real clinic
 2025-11-05-titanverse-ai-agents-ask-anything/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-11-05-titanverse-ai-agents-ask-anything/

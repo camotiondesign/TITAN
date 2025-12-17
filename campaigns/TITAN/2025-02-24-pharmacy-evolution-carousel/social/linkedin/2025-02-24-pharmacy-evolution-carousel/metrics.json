@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1372,
+  "reach": 797,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 745,
+  "ctr": 54.3,
+  "reactions": 17,
+  "comments": 1,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 764,
+  "engagement_rate": 55.7,
   "organic": {
     "impressions": 1372,
     "reach": 797,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Exceptional performance: 55.7% engagement rate, 54.3% CTR. Timeline format effectively communicated pharmacy evolution and TITAN's role at each stage. Content successfully positioned TITAN as thought leader in pharmacy evolution. Discussion prompt didn't generate broader conversation despite good engagement."
+  "notes": "Organic post. Exceptional performance: 55.7% engagement rate, 54.3% CTR. Timeline format effectively communicated pharmacy evolution and TITAN's role at each stage. Content successfully positioned TITAN as thought leader in pharmacy evolution. Discussion prompt didn't generate broader conversation despite good engagement.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 191.4231,
+  "tcps_inputs": {
+    "impressions_used": 1372,
+    "r_comments": 0.7289,
+    "r_follows": 1.4577,
+    "r_reposts": 0.7289,
+    "r_reactions": 12.3907,
+    "r_clicks": 543.0029,
+    "click_signal": 6.299
+  },
+  "tcps_efficiency_raw": 191.4231,
+  "tcps_distribution_raw": 7.2248,
+  "tcps_total_raw": 1191.4231,
+  "tcps_impression_tier": "C"
 }

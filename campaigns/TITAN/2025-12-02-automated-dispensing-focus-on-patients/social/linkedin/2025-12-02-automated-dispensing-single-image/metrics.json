@@ -4,14 +4,12 @@
   "posted_at": "2025-12-02",
   "campaign_slug": "2025-12-02-automated-dispensing-focus-on-patients",
   "asset_type": "single-image",
-  
   "boosted": true,
   "sponsored_dates": {
     "start": "2025-12-02",
     "end": "2025-12-09"
   },
-  
-  "impressions": 9103,
+  "impressions": 892,
   "reach": 0,
   "views": 0,
   "watch_time_hours": 0,
@@ -25,7 +23,6 @@
   "leads": 0,
   "engagements": 57,
   "engagement_rate": 0.6,
-  
   "organic": {
     "impressions": 892,
     "reach": 504,
@@ -39,7 +36,6 @@
     "page_viewers": 5,
     "followers_gained": 0
   },
-  
   "sponsored": {
     "impressions": 8211,
     "engagements": 11,
@@ -53,6 +49,21 @@
     "cost_per_engagement": 5.82,
     "spend": 0
   },
-  
-  "notes": "Single image post promoting automated dispensing - boosted/sponsored from 12/2/2025 to 12/9/2025"
+  "notes": "Single image post promoting automated dispensing - boosted/sponsored from 12/2/2025 to 12/9/2025",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 155.8995,
+  "tcps_inputs": {
+    "impressions_used": 892,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 4.4843,
+    "r_reactions": 16.8161,
+    "r_clicks": 30.2691,
+    "click_signal": 3.4426
+  },
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 155.8995,
+  "tcps_distribution_raw": 6.7946,
+  "tcps_total_raw": 1155.8995,
+  "tcps_impression_tier": "C"
 }

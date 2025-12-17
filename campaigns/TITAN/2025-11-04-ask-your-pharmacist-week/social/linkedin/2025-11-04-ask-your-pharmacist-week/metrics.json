@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-11-04",
+  "campaign_slug": "2025-11-04-ask-your-pharmacist-week",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 715,
+  "reach": 403,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 218,
+  "ctr": 30.5,
+  "reactions": 11,
+  "comments": 1,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 233,
+  "engagement_rate": 32.6,
   "organic": {
     "impressions": 715,
     "reach": 403,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 210.3242,
+  "tcps_inputs": {
+    "impressions_used": 715,
+    "r_comments": 1.3986,
+    "r_follows": 0.0,
+    "r_reposts": 4.1958,
+    "r_reactions": 15.3846,
+    "r_clicks": 304.8951,
+    "click_signal": 5.7232
+  },
+  "tcps_efficiency_raw": 210.3242,
+  "tcps_distribution_raw": 6.5737,
+  "tcps_total_raw": 1210.3242,
+  "tcps_impression_tier": "C"
 }

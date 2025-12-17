@@ -4,13 +4,11 @@
   "posted_at": "2025-11-27",
   "campaign_slug": "2025-11-27-gareth-hughes-case-study",
   "asset_type": "carousel",
-  
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  
   "impressions": 959,
   "reach": 596,
   "views": 0,
@@ -25,7 +23,6 @@
   "leads": 0,
   "engagements": 716,
   "engagement_rate": 74.7,
-  
   "organic": {
     "impressions": 959,
     "reach": 596,
@@ -39,7 +36,6 @@
     "page_viewers": 0,
     "followers_gained": 0
   },
-  
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
@@ -53,6 +49,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  
-  "notes": "Carousel post featuring Gareth Hughes case study - Independent Pharmacist of the Year winner"
+  "notes": "Carousel post featuring Gareth Hughes case study - Independent Pharmacist of the Year winner",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 182.2921,
+  "tcps_inputs": {
+    "impressions_used": 959,
+    "r_comments": 1.0428,
+    "r_follows": 0.0,
+    "r_reposts": 1.0428,
+    "r_reactions": 16.684,
+    "r_clicks": 727.8415,
+    "click_signal": 6.5915
+  },
+  "tcps_efficiency_raw": 182.2921,
+  "tcps_distribution_raw": 6.8669,
+  "tcps_total_raw": 1182.2921,
+  "tcps_impression_tier": "C"
 }

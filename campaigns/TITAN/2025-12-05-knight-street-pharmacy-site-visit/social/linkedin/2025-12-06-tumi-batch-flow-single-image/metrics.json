@@ -4,13 +4,11 @@
   "posted_at": "2025-12-06",
   "campaign_slug": "2025-12-05-knight-street-pharmacy-site-visit",
   "asset_type": "single-image",
-  
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  
   "impressions": 2034,
   "reach": 1265,
   "views": 0,
@@ -25,7 +23,6 @@
   "leads": 0,
   "engagements": 147,
   "engagement_rate": 7.2,
-  
   "organic": {
     "impressions": 2034,
     "reach": 1265,
@@ -39,7 +36,6 @@
     "page_viewers": 13,
     "followers_gained": 0
   },
-  
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
@@ -53,6 +49,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  
-  "notes": "Single image post featuring Tumi from Knight Street Pharmacy"
+  "notes": "Single image post featuring Tumi from Knight Street Pharmacy",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 117.6597,
+  "tcps_inputs": {
+    "impressions_used": 2034,
+    "r_comments": 0.9833,
+    "r_follows": 0.0,
+    "r_reposts": 1.4749,
+    "r_reactions": 5.8997,
+    "r_clicks": 63.9135,
+    "click_signal": 4.1731
+  },
+  "tcps_efficiency_raw": 117.6597,
+  "tcps_distribution_raw": 7.6183,
+  "tcps_total_raw": 2117.6597,
+  "tcps_impression_tier": "B"
 }

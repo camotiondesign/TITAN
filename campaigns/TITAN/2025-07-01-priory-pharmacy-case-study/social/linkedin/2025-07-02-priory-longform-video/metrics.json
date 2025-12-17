@@ -5,26 +5,59 @@
     "start": "2025-07-09",
     "end": "2025-07-13"
   },
-  "impressions": 13443,
+  "impressions": 13444,
   "reactions": 105,
   "comments": 13,
   "reposts": 6,
-  "clicks": 23,
+  "leads": 0,
   "video_views": 3471,
-  "watch_time_seconds": 84013,
+  "watch_time_seconds": 84253,
   "average_watch_time_seconds": 24,
   "followers_gained": 7,
   "page_viewers": 31,
   "organic": {
-    "impressions": 6727,
+    "impressions": 6728,
+    "members_reached": 3687,
     "engagements": 840,
-    "clicks": 716
+    "engagement_rate": 12.5,
+    "clicks": 716,
+    "ctr": 10.6,
+    "reactions": 105,
+    "comments": 13,
+    "reposts": 6
   },
   "sponsored": {
     "impressions": 6716,
     "engagements": 58,
+    "engagement_rate": 0.9,
     "ecpm": 5.96,
-    "cost_per_engagement": 0.69
+    "cost_per_engagement": 0.69,
+    "clicks": 23,
+    "ctr": 0.3,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0
   },
-  "asset_type": "video-longform"
+  "asset_type": "video-longform",
+  "posted_at": "2025-07-02",
+  "campaign_slug": "2025-07-01-priory-pharmacy-case-study",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 166.3331,
+  "tcps_inputs": {
+    "impressions_used": 6728,
+    "r_comments": 1.9322,
+    "r_follows": 0.0,
+    "r_reposts": 0.8918,
+    "r_reactions": 15.6064,
+    "r_clicks": 106.4209,
+    "click_signal": 4.6768
+  },
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 166.3166,
+  "tcps_distribution_raw": 9.5064,
+  "tcps_total_raw": 3166.3166,
+  "tcps_impression_tier": "A",
+  "tcps_warnings": [
+    "impressions_used_was_total_corrected_to_organic"
+  ]
 }

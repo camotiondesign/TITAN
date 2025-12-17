@@ -47,7 +47,7 @@ Dispensing alone is no longer sustainable. The shift to service-led health hub i
 
 ### Content
 - **Primary Asset:** `content/blog/blog.md` - Full blog post
-- **Secondary Asset:** `content/single-image/image-01.md` - Service-Led Health Hub graphic
+- **Secondary Asset:** `content/single-image/text-side-by-side-illustrated-graphic-showing-single-tall-dispensing-bar-vs-three-balanced-bars-nhs-clinical-services-private-services-dispensing.md` - Service-Led Health Hub graphic
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-12-05-dispensing-to-health-hub-image/` - Posted December 5, 2025
@@ -64,7 +64,7 @@ Dispensing alone is no longer sustainable. The shift to service-led health hub i
 │   ├── blog/
 │   │   └── blog.md
 │   └── single-image/
-│       └── image-01.md
+│       └── text-side-by-side-illustrated-graphic-showing-single-tall-dispensing-bar-vs-three-balanced-bars-nhs-clinical-services-private-services-dispensing.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-12-05-dispensing-to-health-hub-image/

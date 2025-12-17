@@ -45,7 +45,7 @@ Titanverse = the smartest consult you've ever run. Everything in one place for p
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Feature workflow explainer
+- **Primary Asset:** `content/single-image/text-description-.md` - Feature workflow explainer
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-10-30-titanverse-smart-consultations/` - Posted October 30, 2025
@@ -56,7 +56,7 @@ Titanverse = the smartest consult you've ever run. Everything in one place for p
 2025-10-30-titanverse-smart-consultations/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-10-30-titanverse-smart-consultations/

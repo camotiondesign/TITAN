@@ -57,7 +57,7 @@ Titan enables 6x NMS growth leading to significant monthly revenue uplift.
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Stat graphic showing NMS growth from 30 to 180
+- **Primary Asset:** `content/single-image/text-description.md` - Stat graphic showing NMS growth from 30 to 180
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-01-22-nms-growth-easons-pharmacy/` - Posted January 22, 2025 (boosted Jan 22–23)
@@ -68,7 +68,7 @@ Titan enables 6x NMS growth leading to significant monthly revenue uplift.
 2025-01-22-nms-growth-easons-pharmacy/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-01-22-nms-growth-easons-pharmacy/

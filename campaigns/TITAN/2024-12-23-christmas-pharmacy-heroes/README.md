@@ -46,7 +46,7 @@ Pharmacy teams are the heroes behind healthcare — Titan sees them, supports th
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Single image post featuring Christmas message
+- **Primary Asset:** `content/single-image/text.md` - Single image post featuring Christmas message
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2024-12-23-christmas-pharmacy-heroes/` - Posted December 23, 2024
@@ -57,7 +57,7 @@ Pharmacy teams are the heroes behind healthcare — Titan sees them, supports th
 2024-12-23-christmas-pharmacy-heroes/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text.md
 ├── social/
 │   └── linkedin/
 │       └── 2024-12-23-christmas-pharmacy-heroes/

@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-08-08",
+  "campaign_slug": "2025-08-08-titan-support-best-month",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 587,
+  "reach": 304,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 365,
+  "ctr": 62.2,
+  "reactions": 8,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 376,
+  "engagement_rate": 64.1,
   "organic": {
     "impressions": 587,
     "reach": 304,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 241.3176,
+  "tcps_inputs": {
+    "impressions_used": 587,
+    "r_comments": 0.0,
+    "r_follows": 1.7036,
+    "r_reposts": 5.1107,
+    "r_reactions": 13.6286,
+    "r_clicks": 621.8058,
+    "click_signal": 6.4342
+  },
+  "tcps_efficiency_raw": 241.3176,
+  "tcps_distribution_raw": 6.3767,
+  "tcps_total_raw": 1241.3176,
+  "tcps_impression_tier": "C"
 }

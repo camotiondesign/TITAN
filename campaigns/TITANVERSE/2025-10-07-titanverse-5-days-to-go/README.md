@@ -45,7 +45,7 @@ We freed you from dispensing. Now it's time for services. All your pharmacy serv
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Event countdown single image
+- **Primary Asset:** `content/single-image/text-description-.md` - Event countdown single image
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-10-07-titanverse-5-days-to-go/` - Posted October 7, 2025
@@ -56,7 +56,7 @@ We freed you from dispensing. Now it's time for services. All your pharmacy serv
 2025-10-07-titanverse-5-days-to-go/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-10-07-titanverse-5-days-to-go/

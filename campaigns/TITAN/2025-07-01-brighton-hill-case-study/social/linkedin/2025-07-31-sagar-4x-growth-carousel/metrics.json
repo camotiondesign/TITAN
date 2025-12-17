@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-07-31",
+  "campaign_slug": "2025-07-01-brighton-hill-case-study",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 2145,
+  "reach": 1224,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 1965,
+  "ctr": 91.6,
+  "reactions": 24,
+  "comments": 8,
+  "reposts": 2,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 1999,
+  "engagement_rate": 93.2,
   "organic": {
     "impressions": 2145,
     "reach": 1224,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 221.6653,
+  "tcps_inputs": {
+    "impressions_used": 2145,
+    "r_comments": 3.7296,
+    "r_follows": 0.0,
+    "r_reposts": 0.9324,
+    "r_reactions": 11.1888,
+    "r_clicks": 916.0839,
+    "click_signal": 6.8212
+  },
+  "tcps_efficiency_raw": 221.6653,
+  "tcps_distribution_raw": 7.6714,
+  "tcps_total_raw": 2221.6653,
+  "tcps_impression_tier": "B"
 }

@@ -53,3 +53,8 @@ Use `notes.md` for:
 2. Remove `status.md` and `notes.md` (or archive them)
 3. Update `campaign-meta.json` with final details
 4. Campaign is now live and ready for posting
+
+
+
+
+

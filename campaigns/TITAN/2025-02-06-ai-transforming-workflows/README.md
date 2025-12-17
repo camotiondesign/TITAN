@@ -44,7 +44,7 @@ AI is transforming pharmacy workflows through clinical checks, automated workflo
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Infographic on AI-powered pharmacy workflows
+- **Primary Asset:** `content/single-image/text-description.md` - Infographic on AI-powered pharmacy workflows
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-02-06-ai-transforming-workflows/` - Posted February 6, 2025
@@ -55,7 +55,7 @@ AI is transforming pharmacy workflows through clinical checks, automated workflo
 2025-02-06-ai-transforming-workflows/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-02-06-ai-transforming-workflows/

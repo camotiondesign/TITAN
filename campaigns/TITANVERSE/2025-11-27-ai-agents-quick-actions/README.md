@@ -45,7 +45,7 @@ Not just advice. Real execution. AI Agents in a pharmacy, getting things done.
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Product feature visual
+- **Primary Asset:** `content/single-image/text-description-.md` - Product feature visual
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-11-27-ai-agents-quick-actions/` - Posted November 27, 2025
@@ -56,7 +56,7 @@ Not just advice. Real execution. AI Agents in a pharmacy, getting things done.
 2025-11-27-ai-agents-quick-actions/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-11-27-ai-agents-quick-actions/

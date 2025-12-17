@@ -71,16 +71,6 @@
       "path": "campaigns/TITAN/2025-05-02-dispense-million-items"
     },
     {
-      "date": "2025-07-01",
-      "slug": "priory-scaling-safely",
-      "product": "TITAN",
-      "blog": true,
-      "video": 0,
-      "carousel": 0,
-      "single-image": 0,
-      "path": "campaigns/TITAN/2025-07-01-priory-scaling-safely"
-    },
-    {
       "date": "2025-07-14",
       "slug": "vision-to-pharmacies",
       "product": "TITAN",
@@ -232,9 +222,9 @@
     }
   ],
   "summary": {
-    "total": 23,
+    "total": 22,
     "by_product": {
-      "TITAN": 21,
+      "TITAN": 20,
       "TITANVERSE": 2
     }
   }

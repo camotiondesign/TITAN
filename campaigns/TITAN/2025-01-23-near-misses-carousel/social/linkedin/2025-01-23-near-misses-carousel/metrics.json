@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1504,
+  "reach": 712,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 344,
+  "ctr": 22.9,
+  "reactions": 17,
+  "comments": 1,
+  "reposts": 5,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 367,
+  "engagement_rate": 24.4,
   "organic": {
     "impressions": 1504,
     "reach": 712,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Exceptional performance: 24.4% engagement rate, 22.9% CTR. This carousel leaned heavily on quantified safety proof (500 near misses prevented daily), which is consistently high-performing and trust-building for pharmacists. The stat-driven angle and clear CTA likely drove the exceptional click-through rate."
+  "notes": "Organic post. Exceptional performance: 24.4% engagement rate, 22.9% CTR. This carousel leaned heavily on quantified safety proof (500 near misses prevented daily), which is consistently high-performing and trust-building for pharmacists. The stat-driven angle and clear CTA likely drove the exceptional click-through rate.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 185.2765,
+  "tcps_inputs": {
+    "impressions_used": 1504,
+    "r_comments": 0.6649,
+    "r_follows": 0.6649,
+    "r_reposts": 3.3245,
+    "r_reactions": 11.3032,
+    "r_clicks": 228.7234,
+    "click_signal": 5.4369
+  },
+  "tcps_efficiency_raw": 185.2765,
+  "tcps_distribution_raw": 7.3165,
+  "tcps_total_raw": 2185.2765,
+  "tcps_impression_tier": "B"
 }

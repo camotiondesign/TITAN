@@ -45,7 +45,7 @@ Thank you to everyone who joined the first webinar. If you missed it, don't miss
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Webinar thank you + event promotion single image
+- **Primary Asset:** `content/single-image/text-description-.md` - Webinar thank you + event promotion single image
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-10-08-titanverse-first-webinar/` - Posted October 8, 2025
@@ -56,7 +56,7 @@ Thank you to everyone who joined the first webinar. If you missed it, don't miss
 2025-10-08-titanverse-first-webinar/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-10-08-titanverse-first-webinar/

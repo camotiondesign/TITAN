@@ -1,0 +1,22 @@
+{
+  "campaign_name": "BNF Integration: Clinical Infrastructure Upgrade",
+  "campaign_date": "2026-04-01",
+  "product": "TITAN",
+  "campaign_type": "infrastructure-upgrade",
+  "status": "draft",
+  "strategy": "proof-first-activation",
+  "primary_format": "carousel",
+  "secondary_format": "video",
+  "pillar": "product",
+  "objective": "Communicate BNF data integration through proof and practical impact, building clinical trust and reinforcing Titan's infrastructure positioning",
+  "core_message": "BNF guidance is now embedded in Titan PMR and Titanverse. Clinical checks, dispensing safety, and service decision support reference the same source you trust for professional practice.",
+  "key_precedent": "NHS Independent Prescribing campaign (5,655 impressions) - NHS alignment + practical impact",
+  "success_metric": "impressions",
+  "target_impressions": "5000+",
+  "notes": [
+    "Campaign follows proof-first strategy: 3-month quiet activation → proof collection → communication",
+    "Titan leads narrative; BNF validates source",
+    "Avoid partnership announcement framing",
+    "Focus on infrastructure upgrade, not marketing moment"
+  ]
+}

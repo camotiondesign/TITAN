@@ -9,7 +9,7 @@
     "start": "2025-01-15",
     "end": "2025-01-17"
   },
-  "impressions": 2611,
+  "impressions": 922,
   "reach": 414,
   "engagements": 67,
   "engagement_rate": 2.6,
@@ -51,5 +51,21 @@
     "cost_per_engagement": 0.0,
     "spend": 17.55
   },
-  "notes": "Post boosted from 2025-01-15 to 2025-01-17. All engagement came from organic traffic. Sponsored impressions achieved branding impact but no conversions."
+  "notes": "Post boosted from 2025-01-15 to 2025-01-17. All engagement came from organic traffic. Sponsored impressions achieved branding impact but no conversions.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 140.9165,
+  "tcps_inputs": {
+    "impressions_used": 922,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 2.1692,
+    "r_reactions": 18.4382,
+    "r_clicks": 52.0607,
+    "click_signal": 3.9714
+  },
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 140.9165,
+  "tcps_distribution_raw": 6.8276,
+  "tcps_total_raw": 1140.9165,
+  "tcps_impression_tier": "C"
 }

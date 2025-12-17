@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-11-18",
+  "campaign_slug": "2025-11-18-one-app-to-rule-them-all-meme",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
+  "impressions": 1428,
   "reach": 0,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 57,
+  "ctr": "4.0%",
+  "reactions": 19,
+  "comments": 1,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 80,
+  "engagement_rate": "5.6%",
   "organic": {
     "impressions": 1428,
     "reach": 0,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 239.8465,
+  "tcps_inputs": {
+    "impressions_used": 1428,
+    "r_comments": 0.7003,
+    "r_follows": 4.2017,
+    "r_reposts": 2.1008,
+    "r_reactions": 13.3053,
+    "r_clicks": 39.916,
+    "click_signal": 3.7115
+  },
+  "tcps_efficiency_raw": 239.8465,
+  "tcps_distribution_raw": 7.2647,
+  "tcps_total_raw": 1239.8465,
+  "tcps_impression_tier": "C"
 }

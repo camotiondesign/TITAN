@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-08-15",
+  "campaign_slug": "2025-08-15-titan-bbq-25",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 1900,
+  "reach": 991,
+  "views": 816,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 16,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 159,
+  "ctr": 8.4,
+  "reactions": 43,
+  "comments": 2,
+  "reposts": 6,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 210,
+  "engagement_rate": 11.1,
   "organic": {
     "impressions": 1900,
     "reach": 991,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 206.5839,
+  "tcps_inputs": {
+    "impressions_used": 1900,
+    "r_comments": 1.0526,
+    "r_follows": 0.5263,
+    "r_reposts": 3.1579,
+    "r_reactions": 22.6316,
+    "r_clicks": 83.6842,
+    "click_signal": 4.4389
+  },
+  "tcps_efficiency_raw": 206.5839,
+  "tcps_distribution_raw": 7.5501,
+  "tcps_total_raw": 2206.5839,
+  "tcps_impression_tier": "B"
 }

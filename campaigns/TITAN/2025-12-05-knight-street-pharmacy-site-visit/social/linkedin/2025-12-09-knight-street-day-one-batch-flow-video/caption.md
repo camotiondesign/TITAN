@@ -18,3 +18,8 @@ And a smooth first weekend.
 Real pharmacy. Real results.
 
 hashtag#pharmacy hashtag#titanpmr hashtag#batchflow hashtag#workflow hashtag#communitypharmacy
+
+
+
+
+

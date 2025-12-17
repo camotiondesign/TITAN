@@ -5,3 +5,8 @@
 
 
 hashtag#TitanPMR hashtag#PharmacyInnovation hashtag#DigitalPharmacy hashtag#AIinHealthcare hashtag#PharmacyWorkflow hashtag#CommunityPharmacy
+
+
+
+
+

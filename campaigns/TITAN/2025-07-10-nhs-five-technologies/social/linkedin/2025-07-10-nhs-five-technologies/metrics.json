@@ -1,27 +1,27 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-07-10",
+  "campaign_slug": "2025-07-10-nhs-five-technologies",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 832,
+  "reach": 470,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 469,
+  "ctr": 56.4,
+  "reactions": 10,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
+  "engagements": 480,
   "engagement_rate": 0,
   "organic": {
     "impressions": 832,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 205.6214,
+  "tcps_inputs": {
+    "impressions_used": 832,
+    "r_comments": 0.0,
+    "r_follows": 2.4038,
+    "r_reposts": 1.2019,
+    "r_reactions": 12.0192,
+    "r_clicks": 563.7019,
+    "click_signal": 6.3363
+  },
+  "tcps_efficiency_raw": 205.6214,
+  "tcps_distribution_raw": 6.725,
+  "tcps_total_raw": 1205.6214,
+  "tcps_impression_tier": "C"
 }

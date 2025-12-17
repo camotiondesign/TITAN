@@ -32,5 +32,24 @@
     "comments": 13,
     "reposts": 4
   },
-  "asset_type": "single-image"
+  "asset_type": "single-image",
+  "posted_at": "2025-08-01",
+  "campaign_slug": "2025-08-01-titan-checks-every-script",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 238.0203,
+  "tcps_inputs": {
+    "impressions_used": 2454,
+    "r_comments": 5.2975,
+    "r_follows": 0.0,
+    "r_reposts": 1.63,
+    "r_reactions": 16.2999,
+    "r_clicks": 68.4597,
+    "click_signal": 4.2407
+  },
+  "impressions": 2454,
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 238.0203,
+  "tcps_distribution_raw": 7.8059,
+  "tcps_total_raw": 2238.0203,
+  "tcps_impression_tier": "B"
 }

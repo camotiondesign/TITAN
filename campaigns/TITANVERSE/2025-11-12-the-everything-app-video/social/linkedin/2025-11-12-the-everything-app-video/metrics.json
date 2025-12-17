@@ -8,7 +8,7 @@
     "start": "2025-11-17",
     "end": "2025-11-24"
   },
-  "impressions": 4655,
+  "impressions": 1013,
   "engagements": 100,
   "engagement_rate": "2.1%",
   "clicks": 64,
@@ -43,5 +43,23 @@
     "reposts": 0,
     "ecpm": "£16.36",
     "cost_per_engagement": "£5.96"
-  }
+  },
+  "posted_at": "2025-11-12",
+  "campaign_slug": "2025-11-12-the-everything-app-video",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 225.8295,
+  "tcps_inputs": {
+    "impressions_used": 1013,
+    "r_comments": 0.9872,
+    "r_follows": 0.0,
+    "r_reposts": 5.923,
+    "r_reactions": 24.6792,
+    "r_clicks": 57.2557,
+    "click_signal": 4.0648
+  },
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 225.8295,
+  "tcps_distribution_raw": 6.9217,
+  "tcps_total_raw": 1225.8295,
+  "tcps_impression_tier": "C"
 }

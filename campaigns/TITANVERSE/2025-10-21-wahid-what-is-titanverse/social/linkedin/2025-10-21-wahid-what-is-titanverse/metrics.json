@@ -5,7 +5,7 @@
     "start": "2025-10-27",
     "end": "2025-11-03"
   },
-  "impressions": 10848,
+  "impressions": 1017,
   "reactions": 33,
   "comments": 3,
   "reposts": 6,
@@ -27,5 +27,23 @@
     "cost_per_engagement": 3.76,
     "clicks": 9
   },
-  "asset_type": "short-video"
+  "asset_type": "short-video",
+  "posted_at": "2025-10-21",
+  "campaign_slug": "2025-10-21-wahid-what-is-titanverse",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 292.4307,
+  "tcps_inputs": {
+    "impressions_used": 1017,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 0.0,
+    "r_reactions": 0.0,
+    "r_clicks": 76.6962,
+    "click_signal": 4.3528
+  },
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 65.2921,
+  "tcps_distribution_raw": 6.9256,
+  "tcps_total_raw": 1065.2921,
+  "tcps_impression_tier": "C"
 }

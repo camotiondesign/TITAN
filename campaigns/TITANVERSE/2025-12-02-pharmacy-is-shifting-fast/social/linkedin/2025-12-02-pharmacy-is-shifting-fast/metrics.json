@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-12-02",
+  "campaign_slug": "2025-12-02-pharmacy-is-shifting-fast",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 687,
+  "reach": 386,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 130,
+  "ctr": 18.9,
+  "reactions": 16,
+  "comments": 4,
+  "reposts": 4,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 154,
+  "engagement_rate": 22.4,
   "organic": {
     "impressions": 687,
     "reach": 386,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 480.4701,
+  "tcps_inputs": {
+    "impressions_used": 687,
+    "r_comments": 5.8224,
+    "r_follows": 5.8224,
+    "r_reposts": 5.8224,
+    "r_reactions": 23.2897,
+    "r_clicks": 189.2285,
+    "click_signal": 5.2482
+  },
+  "tcps_efficiency_raw": 480.4701,
+  "tcps_distribution_raw": 6.5338,
+  "tcps_total_raw": 1480.4701,
+  "tcps_impression_tier": "C"
 }

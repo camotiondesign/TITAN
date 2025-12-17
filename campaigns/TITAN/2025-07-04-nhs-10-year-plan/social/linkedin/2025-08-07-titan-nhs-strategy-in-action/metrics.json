@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-08-07",
+  "campaign_slug": "2025-07-04-nhs-10-year-plan",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 711,
+  "reach": 398,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 240,
+  "ctr": 33.8,
+  "reactions": 15,
+  "comments": 1,
+  "reposts": 2,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 258,
+  "engagement_rate": 36.3,
   "organic": {
     "impressions": 711,
     "reach": 398,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 212.546,
+  "tcps_inputs": {
+    "impressions_used": 711,
+    "r_comments": 1.4065,
+    "r_follows": 0.0,
+    "r_reposts": 2.8129,
+    "r_reactions": 21.097,
+    "r_clicks": 337.5527,
+    "click_signal": 5.8247
+  },
+  "tcps_efficiency_raw": 212.546,
+  "tcps_distribution_raw": 6.5681,
+  "tcps_total_raw": 1212.546,
+  "tcps_impression_tier": "C"
 }

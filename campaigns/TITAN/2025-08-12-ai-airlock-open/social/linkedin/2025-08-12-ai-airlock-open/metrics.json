@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-08-12",
+  "campaign_slug": "2025-08-12-ai-airlock-open",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 767,
+  "reach": 465,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 19,
+  "ctr": 2.5,
+  "reactions": 16,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 36,
+  "engagement_rate": 4.7,
   "organic": {
     "impressions": 767,
     "reach": 465,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 126.9661,
+  "tcps_inputs": {
+    "impressions_used": 767,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 1.3038,
+    "r_reactions": 20.8605,
+    "r_clicks": 24.7718,
+    "click_signal": 3.2493
+  },
+  "tcps_efficiency_raw": 126.9661,
+  "tcps_distribution_raw": 6.6438,
+  "tcps_total_raw": 1126.9661,
+  "tcps_impression_tier": "C"
 }

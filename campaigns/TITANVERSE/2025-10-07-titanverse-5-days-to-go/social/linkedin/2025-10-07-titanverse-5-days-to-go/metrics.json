@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1075,
+  "reach": 594,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 56,
+  "ctr": 5.2,
+  "reactions": 17,
+  "comments": 2,
+  "reposts": 7,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 82,
+  "engagement_rate": 7.6,
   "organic": {
     "impressions": 1075,
     "reach": 594,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Event promotion effectively built anticipation for Titanverse launch at The Pharmacy Show. Strong follower growth (9 followers) and reposts (7) indicate high interest in Titanverse product launch. Comments from Nas Khaliq and Balal Anwar show anticipation. Good engagement (7.6% engagement rate, 5.2% CTR) indicates strong interest in event promotion content."
+  "notes": "Organic post. Event promotion effectively built anticipation for Titanverse launch at The Pharmacy Show. Strong follower growth (9 followers) and reposts (7) indicate high interest in Titanverse product launch. Comments from Nas Khaliq and Balal Anwar show anticipation. Good engagement (7.6% engagement rate, 5.2% CTR) indicates strong interest in event promotion content.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 431.6737,
+  "tcps_inputs": {
+    "impressions_used": 1075,
+    "r_comments": 1.8605,
+    "r_follows": 8.3721,
+    "r_reposts": 6.5116,
+    "r_reactions": 15.814,
+    "r_clicks": 52.093,
+    "click_signal": 3.972
+  },
+  "tcps_efficiency_raw": 431.6737,
+  "tcps_distribution_raw": 6.981,
+  "tcps_total_raw": 1431.6737,
+  "tcps_impression_tier": "C"
 }

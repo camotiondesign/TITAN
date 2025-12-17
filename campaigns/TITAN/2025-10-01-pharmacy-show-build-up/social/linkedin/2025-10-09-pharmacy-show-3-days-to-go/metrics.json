@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-10-09",
+  "campaign_slug": "2025-10-01-pharmacy-show-build-up",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 922,
+  "reach": 541,
+  "views": 379,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 9,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 68,
+  "ctr": 7.4,
+  "reactions": 27,
+  "comments": 4,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 102,
+  "engagement_rate": 11.1,
   "organic": {
     "impressions": 922,
     "reach": 541,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 278.3787,
+  "tcps_inputs": {
+    "impressions_used": 922,
+    "r_comments": 4.3384,
+    "r_follows": 0.0,
+    "r_reposts": 3.2538,
+    "r_reactions": 29.2842,
+    "r_clicks": 73.7527,
+    "click_signal": 4.3142
+  },
+  "tcps_efficiency_raw": 278.3787,
+  "tcps_distribution_raw": 6.8276,
+  "tcps_total_raw": 1278.3787,
+  "tcps_impression_tier": "C"
 }

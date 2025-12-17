@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-10-17",
+  "campaign_slug": "2025-10-12-pharmacy-show-2025",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 1513,
+  "reach": 792,
+  "views": 587,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 19,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 154,
+  "ctr": 10.2,
+  "reactions": 38,
+  "comments": 2,
+  "reposts": 9,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 203,
+  "engagement_rate": 13.4,
   "organic": {
     "impressions": 1513,
     "reach": 792,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 242.6554,
+  "tcps_inputs": {
+    "impressions_used": 1513,
+    "r_comments": 1.3219,
+    "r_follows": 0.0,
+    "r_reposts": 5.9484,
+    "r_reactions": 25.1157,
+    "r_clicks": 101.7845,
+    "click_signal": 4.6326
+  },
+  "tcps_efficiency_raw": 242.6554,
+  "tcps_distribution_raw": 7.3225,
+  "tcps_total_raw": 2242.6554,
+  "tcps_impression_tier": "B"
 }

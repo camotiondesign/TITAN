@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-10-03",
+  "campaign_slug": "2025-10-03-step-out-freezes",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1162,
+  "reach": 696,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 567,
+  "ctr": 48.8,
+  "reactions": 10,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 578,
+  "engagement_rate": 49.7,
   "organic": {
     "impressions": 1162,
     "reach": 696,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 129.0285,
+  "tcps_inputs": {
+    "impressions_used": 1162,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 0.8606,
+    "r_reactions": 8.6059,
+    "r_clicks": 487.9518,
+    "click_signal": 6.1923
+  },
+  "tcps_efficiency_raw": 129.0285,
+  "tcps_distribution_raw": 7.0588,
+  "tcps_total_raw": 1129.0285,
+  "tcps_impression_tier": "C"
 }

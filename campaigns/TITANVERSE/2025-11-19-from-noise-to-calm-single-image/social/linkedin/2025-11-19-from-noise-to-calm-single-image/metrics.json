@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-11-19",
+  "campaign_slug": "2025-11-19-from-noise-to-calm-single-image",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
+  "impressions": 1411,
   "reach": 0,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 34,
+  "ctr": "2.4%",
+  "reactions": 15,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 6,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 55,
+  "engagement_rate": "3.9%",
   "organic": {
     "impressions": 1411,
     "reach": 0,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 184.4146,
+  "tcps_inputs": {
+    "impressions_used": 1411,
+    "r_comments": 0.0,
+    "r_follows": 2.1262,
+    "r_reposts": 4.2523,
+    "r_reactions": 10.6308,
+    "r_clicks": 24.0964,
+    "click_signal": 3.2227
+  },
+  "tcps_efficiency_raw": 184.4146,
+  "tcps_distribution_raw": 7.2528,
+  "tcps_total_raw": 1184.4146,
+  "tcps_impression_tier": "C"
 }

@@ -45,7 +45,7 @@ Pharmacies are carrying more of the NHS burden — automation and AI are essenti
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Single image post with illustrated concept art
+- **Primary Asset:** `content/single-image/text.md` - Single image post with illustrated concept art
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-01-14-shoulder-the-nhs-load/` - Posted January 14, 2025
@@ -56,7 +56,7 @@ Pharmacies are carrying more of the NHS burden — automation and AI are essenti
 2025-01-14-shoulder-the-nhs-load/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-01-14-shoulder-the-nhs-load/

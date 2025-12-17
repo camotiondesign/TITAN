@@ -19,3 +19,8 @@ A well-earned moment for a pharmacist who chose people over spreadsheets and bui
 👉 See the full story in the carousel
 
 hashtag#CommunityPharmacy hashtag#IndependentPharmacy hashtag#PharmacyServices hashtag#PharmacyLeadership
+
+
+
+
+

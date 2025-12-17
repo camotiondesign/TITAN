@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-08-05",
+  "campaign_slug": "2025-08-04-drayton-prime-case-study",
   "asset_type": "video-longform",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 2942,
+  "reach": 1494,
+  "views": 1444,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 22,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 275,
+  "ctr": 9.3,
+  "reactions": 37,
+  "comments": 4,
+  "reposts": 5,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 321,
+  "engagement_rate": 10.9,
   "organic": {
     "impressions": 2942,
     "reach": 1494,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 196.0291,
+  "tcps_inputs": {
+    "impressions_used": 2942,
+    "r_comments": 1.3596,
+    "r_follows": 1.6995,
+    "r_reposts": 1.6995,
+    "r_reactions": 12.5765,
+    "r_clicks": 93.4738,
+    "click_signal": 4.5483
+  },
+  "tcps_efficiency_raw": 196.0291,
+  "tcps_distribution_raw": 7.9872,
+  "tcps_total_raw": 2196.0291,
+  "tcps_impression_tier": "B"
 }

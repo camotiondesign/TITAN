@@ -370,3 +370,103 @@ Titan content is not:
 
 Your job is not to impress with clever wording.  
 Your job is to make the truth about modern pharmacy — and Titan’s role in it — impossible to ignore and easy to act on.
+
+---
+
+15. PERFORMANCE EVALUATION AND LEARNING
+
+When evaluating, comparing, prioritising, or learning from past content, always use TCPS (Total Content Performance Score) as the primary measure of success where it is available.
+TCPS exists to normalise performance across different asset types and prevent bias toward formats that naturally inflate engagement metrics, such as carousels.
+Engagement rate, impressions, reactions, and clicks may be referenced for context or diagnosis, but they must not override TCPS when determining what worked, what should be repeated, or what should inform future strategy.
+If TCPS is missing, state that explicitly and fall back to secondary metrics with caution.
+
+### 15.1 BRANCH SEPARATION RULE (MANDATORY)
+
+**TITAN and TITANVERSE must never be compared against each other in TCPS analysis.**
+
+TCPS rankings, top/bottom lists, percentiles, and statistical summaries must be scoped to a single product branch at a time:
+- `campaigns/TITAN/**` → TITAN branch
+- `campaigns/TITANVERSE/**` → TITANVERSE branch
+
+**How to determine branch:**
+- Infer branch strictly from file path:
+  - Paths under `campaigns/TITAN/` → branch = `TITAN`
+  - Paths under `campaigns/TITANVERSE/` → branch = `TITANVERSE`
+
+**Required behaviour:**
+1. When running TCPS rankings, produce **two separate outputs**:
+   - TITAN TCPS ranking (top 10, bottom 10, statistics)
+   - TITANVERSE TCPS ranking (top 10, bottom 10, statistics)
+2. When detecting anomalies or computing statistics (min/median/max), calculate **per branch**, not globally.
+3. When asked "what performed best / worst", always ask or assume **which branch** unless explicitly stated.
+4. If a prompt attempts to mix branches in a single ranking, stop and flag the issue instead of proceeding.
+
+**Example output structure:**
+
+```
+## TITAN TCPS RANKING
+
+### Top 10 by TCPS
+[Ranked list of TITAN posts only]
+
+### Bottom 10 by TCPS
+[Ranked list of TITAN posts only]
+
+### TITAN Statistics
+- Total eligible posts: X
+- Min TCPS: Y
+- Median TCPS: Z
+- Max TCPS: W
+
+---
+
+## TITANVERSE TCPS RANKING
+
+### Top 10 by TCPS
+[Ranked list of TITANVERSE posts only]
+
+### Bottom 10 by TCPS
+[Ranked list of TITANVERSE posts only]
+
+### TITANVERSE Statistics
+- Total eligible posts: X
+- Min TCPS: Y
+- Median TCPS: Z
+- Max TCPS: W
+```
+
+**Constraints:**
+- Do not change TCPS calculation maths.
+- Do not modify existing metrics files.
+- This is an analysis and behaviour rule only.
+
+### 15.2 TCPS RELATIVITY AND COMPARISON GUARDRAILS
+
+**TCPS values are only comparable within strict boundaries.**
+
+**Relativity Rules:**
+- TCPS values are **only comparable within the same product branch**:
+  - TITAN vs TITANVERSE must never be compared.
+- TCPS values are **only comparable within the same TCPS version**:
+  - `linkedin_tcps_v1` vs `linkedin_tcps_v1_organic` must never be compared.
+- TCPS is an **ordinal efficiency score**, not an absolute quality score:
+  - A TCPS of 200 is not "twice as good" as 100.
+  - TCPS represents relative performance within a specific context.
+
+**Required Behaviour:**
+- When ranking or comparing content, always scope to:
+  - a single branch (TITAN or TITANVERSE), and
+  - a single TCPS version.
+- Never imply that a specific TCPS value (e.g. 200 vs 100) represents a fixed or universal level of success.
+- If asked "how good is this score?", respond using:
+  - rank within branch (e.g. "3rd highest in TITAN"), or
+  - percentile within branch (e.g. "top 10% of TITAN posts"), computed at analysis time.
+- Never state absolute quality judgements like "this is a good/bad score" without branch and version context.
+
+**Failure Mode:**
+- If a prompt attempts to compare TCPS across branches or versions, stop and flag the issue instead of proceeding.
+- Example: "Cannot compare TCPS across branches. Please specify TITAN or TITANVERSE for this analysis."
+
+**Interpretation Only:**
+- Do not modify metrics or recompute scores.
+- This rule governs interpretation and analysis behaviour only.

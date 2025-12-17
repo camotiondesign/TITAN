@@ -1,15 +1,15 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-10-30",
+  "campaign_slug": "2025-10-30-titanverse-smart-consultations",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
+  "impressions": 701,
   "reach": 0,
   "views": 0,
   "watch_time_hours": 0,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 35.6633,
+  "tcps_inputs": {
+    "impressions_used": 701,
+    "r_comments": 0.0,
+    "r_follows": 1.4265,
+    "r_reposts": 0.0,
+    "r_reactions": 0.0,
+    "r_clicks": 0.0,
+    "click_signal": 0.0
+  },
+  "tcps_efficiency_raw": 35.6633,
+  "tcps_distribution_raw": 6.5539,
+  "tcps_total_raw": 1035.6633,
+  "tcps_impression_tier": "C"
 }

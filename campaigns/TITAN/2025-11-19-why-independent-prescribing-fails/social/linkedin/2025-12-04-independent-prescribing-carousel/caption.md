@@ -16,3 +16,8 @@ The bottleneck is not skill. It is time.
 👉 Full breakdown in the blog (link in comments)
 
 hashtag#pharmacy hashtag#independentprescribing hashtag#communitypharmacy hashtag#pharmacyfirst hashtag#nhs
+
+
+
+
+

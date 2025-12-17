@@ -44,7 +44,7 @@ Most PMRs react to change. The best ones create it. TITAN innovates while others
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Single image with innovator vs imitator concept
+- **Primary Asset:** `content/single-image/text-description.md` - Single image with innovator vs imitator concept
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-02-17-pmr-innovator-or-imitator/` - Posted February 17, 2025
@@ -55,7 +55,7 @@ Most PMRs react to change. The best ones create it. TITAN innovates while others
 2025-02-17-pmr-innovator-or-imitator/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-02-17-pmr-innovator-or-imitator/

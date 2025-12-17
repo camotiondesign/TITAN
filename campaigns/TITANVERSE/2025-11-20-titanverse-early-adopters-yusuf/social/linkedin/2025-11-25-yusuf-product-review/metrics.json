@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-11-25",
+  "campaign_slug": "2025-11-20-titanverse-early-adopters-yusuf",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
+  "impressions": 1424,
   "reach": 0,
-  "views": 0,
+  "views": 581,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 93,
+  "ctr": "6.53",
+  "reactions": 35,
+  "comments": 1,
+  "reposts": 8,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 137,
+  "engagement_rate": "9.62",
   "organic": {
     "impressions": 1424,
     "reach": 0,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 218.1115,
+  "tcps_inputs": {
+    "impressions_used": 1424,
+    "r_comments": 0.7022,
+    "r_follows": 0.0,
+    "r_reposts": 5.618,
+    "r_reactions": 24.5787,
+    "r_clicks": 65.309,
+    "click_signal": 4.1943
+  },
+  "tcps_efficiency_raw": 218.1115,
+  "tcps_distribution_raw": 7.2619,
+  "tcps_total_raw": 1218.1115,
+  "tcps_impression_tier": "C"
 }

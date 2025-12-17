@@ -2,27 +2,27 @@
   "platform": "linkedin",
   "post_url": "",
   "posted_at": "2025-07-17",
-  "campaign_slug": "2025-07-01-priory-scaling-safely",
+  "campaign_slug": "2025-07-01-priory-pharmacy-case-study",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 3685,
+  "reach": 2185,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 4054,
+  "ctr": 110.0,
+  "reactions": 31,
+  "comments": 3,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
   "engagements": 0,
-  "engagement_rate": 0,
+  "engagement_rate": 111.0,
   "organic": {
     "impressions": 3685,
     "reach": 2185,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "High engagement rate driven by strong CTR. Carousel format performed exceptionally well."
+  "notes": "High engagement rate driven by strong CTR. Carousel format performed exceptionally well.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 149.8376,
+  "tcps_inputs": {
+    "impressions_used": 3685,
+    "r_comments": 0.8141,
+    "r_follows": 0.0,
+    "r_reposts": 0.2714,
+    "r_reactions": 8.4125,
+    "r_clicks": 1100.1357,
+    "click_signal": 7.0041
+  },
+  "tcps_efficiency_raw": 149.8376,
+  "tcps_distribution_raw": 8.2123,
+  "tcps_total_raw": 3149.8376,
+  "tcps_impression_tier": "A"
 }

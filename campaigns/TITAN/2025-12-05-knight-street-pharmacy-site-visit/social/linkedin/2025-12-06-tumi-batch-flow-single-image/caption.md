@@ -17,3 +17,8 @@ Tumi shows how quickly staff can pick up Titan and keep the work moving.
 👉 Book a demo: bit.ly/4otm4kP
 
 hashtag#PharmacyTech hashtag#CommunityPharmacy hashtag#Dispensing hashtag#Workflow hashtag#TitanPMR
+
+
+
+
+

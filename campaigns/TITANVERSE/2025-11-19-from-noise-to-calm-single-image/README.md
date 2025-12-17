@@ -45,7 +45,7 @@ From noise to calm. Titanverse brings everything into one place. One app to repl
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Before/after visual
+- **Primary Asset:** `content/single-image/text-description-.md` - Before/after visual
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-11-19-from-noise-to-calm-single-image/` - Posted November 19, 2025
@@ -56,7 +56,7 @@ From noise to calm. Titanverse brings everything into one place. One app to repl
 2025-11-19-from-noise-to-calm-single-image/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-11-19-from-noise-to-calm-single-image/

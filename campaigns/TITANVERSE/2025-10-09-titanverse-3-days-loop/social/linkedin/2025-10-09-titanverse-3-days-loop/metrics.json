@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 2119,
+  "reach": 1209,
+  "views": 930,
   "watch_time_hours": 2.7758333333333334,
   "avg_view_duration_seconds": 10,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 196,
+  "ctr": 9.2,
+  "reactions": 60,
+  "comments": 3,
+  "reposts": 9,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 268,
+  "engagement_rate": 12.6,
   "organic": {
     "impressions": 2119,
     "reach": 1209,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Looping animation effectively continued event promotion momentum. Exceptional follower growth (16 followers) and reposts (9) indicate high interest. Strong video performance (930 views, 10-second average watch time) demonstrates engaging visual format. Visual transition between TITAN and TITANVERSE effectively communicated brand evolution."
+  "notes": "Organic post. Looping animation effectively continued event promotion momentum. Exceptional follower growth (16 followers) and reposts (9) indicate high interest. Strong video performance (930 views, 10-second average watch time) demonstrates engaging visual format. Visual transition between TITAN and TITANVERSE effectively communicated brand evolution.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 421.0656,
+  "tcps_inputs": {
+    "impressions_used": 2119,
+    "r_comments": 1.4158,
+    "r_follows": 7.5507,
+    "r_reposts": 4.2473,
+    "r_reactions": 28.3152,
+    "r_clicks": 92.4965,
+    "click_signal": 4.5379
+  },
+  "tcps_efficiency_raw": 421.0656,
+  "tcps_distribution_raw": 7.6592,
+  "tcps_total_raw": 2421.0656,
+  "tcps_impression_tier": "B"
 }

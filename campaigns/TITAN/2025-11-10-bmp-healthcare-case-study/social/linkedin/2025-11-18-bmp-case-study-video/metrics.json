@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-11-18",
+  "campaign_slug": "2025-11-10-bmp-healthcare-case-study",
   "asset_type": "video-longform",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 3807,
+  "reach": 2308,
+  "views": 1779,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 28,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 344,
+  "ctr": 9.0,
+  "reactions": 85,
+  "comments": 6,
+  "reposts": 2,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 437,
+  "engagement_rate": 11.5,
   "organic": {
     "impressions": 3807,
     "reach": 2308,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 185.6627,
+  "tcps_inputs": {
+    "impressions_used": 3807,
+    "r_comments": 1.576,
+    "r_follows": 0.5253,
+    "r_reposts": 0.5253,
+    "r_reactions": 22.3273,
+    "r_clicks": 90.3599,
+    "click_signal": 4.5148
+  },
+  "tcps_efficiency_raw": 185.6627,
+  "tcps_distribution_raw": 8.2449,
+  "tcps_total_raw": 3185.6627,
+  "tcps_impression_tier": "A"
 }

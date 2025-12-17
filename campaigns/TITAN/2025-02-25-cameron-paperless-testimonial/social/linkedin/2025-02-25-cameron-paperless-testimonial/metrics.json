@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 530,
+  "reach": 271,
+  "views": 255,
   "watch_time_hours": 0.9580555555555555,
   "avg_view_duration_seconds": 13,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 35,
+  "ctr": 6.6,
+  "reactions": 9,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 45,
+  "engagement_rate": 8.5,
   "organic": {
     "impressions": 530,
     "reach": 271,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Testimonial effectively communicated paperless benefits and workflow efficiency. Cameron's authentic experience resonated with audience. Good engagement (8.5% engagement rate, 6.6% CTR) and strong watch time (13 seconds average) indicate strong audience interest in testimonial content. Discussion prompt didn't generate comments despite good engagement."
+  "notes": "Organic post. Testimonial effectively communicated paperless benefits and workflow efficiency. Cameron's authentic experience resonated with audience. Good engagement (8.5% engagement rate, 6.6% CTR) and strong watch time (13 seconds average) indicate strong audience interest in testimonial content. Discussion prompt didn't generate comments despite good engagement.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 136.6637,
+  "tcps_inputs": {
+    "impressions_used": 530,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 1.8868,
+    "r_reactions": 16.9811,
+    "r_clicks": 66.0377,
+    "click_signal": 4.2053
+  },
+  "tcps_efficiency_raw": 136.6637,
+  "tcps_distribution_raw": 6.2748,
+  "tcps_total_raw": 1136.6637,
+  "tcps_impression_tier": "C"
 }

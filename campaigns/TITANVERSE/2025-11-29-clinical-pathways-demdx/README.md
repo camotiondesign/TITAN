@@ -45,7 +45,7 @@ Clinical pathways powered by DemDx and trusted by doctors worldwide are built in
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Partnership announcement visual
+- **Primary Asset:** `content/single-image/text-description-.md` - Partnership announcement visual
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-11-29-clinical-pathways-demdx/` - Posted November 29, 2025
@@ -56,7 +56,7 @@ Clinical pathways powered by DemDx and trusted by doctors worldwide are built in
 2025-11-29-clinical-pathways-demdx/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-11-29-clinical-pathways-demdx/

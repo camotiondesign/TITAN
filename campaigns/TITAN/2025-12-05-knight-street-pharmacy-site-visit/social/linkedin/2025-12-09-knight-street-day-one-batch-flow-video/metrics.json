@@ -4,13 +4,11 @@
   "posted_at": "2025-12-09",
   "campaign_slug": "2025-12-05-knight-street-pharmacy-site-visit",
   "asset_type": "video-short",
-  
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  
   "impressions": 904,
   "reach": 574,
   "views": 431,
@@ -25,7 +23,6 @@
   "leads": 0,
   "engagements": 98,
   "engagement_rate": 10.8,
-  
   "organic": {
     "impressions": 904,
     "reach": 574,
@@ -42,7 +39,6 @@
     "page_viewers": 1,
     "followers_gained": 0
   },
-  
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
@@ -57,6 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  
-  "notes": "Video post from Knight Street Pharmacy day one implementation featuring Yusuf discussing batch flow workflow"
+  "notes": "Video post from Knight Street Pharmacy day one implementation featuring Yusuf discussing batch flow workflow",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 197.6926,
+  "tcps_inputs": {
+    "impressions_used": 904,
+    "r_comments": 1.1062,
+    "r_follows": 0.0,
+    "r_reposts": 3.3186,
+    "r_reactions": 23.2301,
+    "r_clicks": 80.7522,
+    "click_signal": 4.4037
+  },
+  "tcps_efficiency_raw": 197.6926,
+  "tcps_distribution_raw": 6.8079,
+  "tcps_total_raw": 1197.6926,
+  "tcps_impression_tier": "C"
 }

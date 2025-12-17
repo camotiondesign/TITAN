@@ -1,15 +1,15 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-10-23",
+  "campaign_slug": "2025-10-23-titanverse-one-app-one-flow",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
+  "impressions": 794,
   "reach": 0,
   "views": 0,
   "watch_time_hours": 0,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 31.4861,
+  "tcps_inputs": {
+    "impressions_used": 794,
+    "r_comments": 0.0,
+    "r_follows": 1.2594,
+    "r_reposts": 0.0,
+    "r_reactions": 0.0,
+    "r_clicks": 0.0,
+    "click_signal": 0.0
+  },
+  "tcps_efficiency_raw": 31.4861,
+  "tcps_distribution_raw": 6.6783,
+  "tcps_total_raw": 1031.4861,
+  "tcps_impression_tier": "C"
 }

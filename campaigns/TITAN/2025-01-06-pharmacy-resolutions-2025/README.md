@@ -45,7 +45,7 @@ This post should be referenced in future content about AI workloads, automation 
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Single image graphic styled as a resolutions checklist
+- **Primary Asset:** `content/single-image/text.md` - Single image graphic styled as a resolutions checklist
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-01-06-pharmacy-resolutions-2025/` - Posted January 6, 2025
@@ -56,7 +56,7 @@ This post should be referenced in future content about AI workloads, automation 
 2025-01-06-pharmacy-resolutions-2025/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-01-06-pharmacy-resolutions-2025/

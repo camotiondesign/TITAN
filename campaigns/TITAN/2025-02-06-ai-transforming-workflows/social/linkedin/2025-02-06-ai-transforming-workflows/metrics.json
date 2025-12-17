@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1479,
+  "reach": 761,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 73,
+  "ctr": 4.9,
+  "reactions": 32,
+  "comments": 2,
+  "reposts": 4,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 111,
+  "engagement_rate": 7.5,
   "organic": {
     "impressions": 1479,
     "reach": 761,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Educational explainer content — strong engagement from solution providers and partnership-minded stakeholders. Positioned TITAN as AI-first without hype — clear feature-to-outcome logic. Visual infographic format performed well for saves and revisits. Comments from ClinicRx suggest partnership opportunities."
+  "notes": "Organic post. Educational explainer content — strong engagement from solution providers and partnership-minded stakeholders. Positioned TITAN as AI-first without hype — clear feature-to-outcome logic. Visual infographic format performed well for saves and revisits. Comments from ClinicRx suggest partnership opportunities.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 250.8089,
+  "tcps_inputs": {
+    "impressions_used": 1479,
+    "r_comments": 1.3523,
+    "r_follows": 2.7045,
+    "r_reposts": 2.7045,
+    "r_reactions": 21.6362,
+    "r_clicks": 49.3577,
+    "click_signal": 3.9192
+  },
+  "tcps_efficiency_raw": 250.8089,
+  "tcps_distribution_raw": 7.2998,
+  "tcps_total_raw": 1250.8089,
+  "tcps_impression_tier": "C"
 }

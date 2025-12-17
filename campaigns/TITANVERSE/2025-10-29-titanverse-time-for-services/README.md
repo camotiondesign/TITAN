@@ -45,7 +45,7 @@ Titan freed you from dispensing. Now it's time for services. All your pharmacy s
 ## Campaign Assets
 
 ### Content
-- **Primary Asset:** `content/single-image/image-01.md` - Cosmic-themed poster
+- **Primary Asset:** `content/single-image/text-description-.md` - Cosmic-themed poster
 
 ### Social Media Posts
 - **LinkedIn:** `social/linkedin/2025-10-29-titanverse-time-for-services/` - Posted October 29, 2025
@@ -56,7 +56,7 @@ Titan freed you from dispensing. Now it's time for services. All your pharmacy s
 2025-10-29-titanverse-time-for-services/
 ├── content/
 │   └── single-image/
-│       └── image-01.md
+│       └── text-description-.md
 ├── social/
 │   └── linkedin/
 │       └── 2025-10-29-titanverse-time-for-services/

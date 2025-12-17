@@ -1,27 +1,27 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-07-15",
+  "campaign_slug": "2025-07-11-titan-1000th-pharmacy",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 1803,
+  "reach": 1004,
+  "views": 1568,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 14,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 118,
+  "ctr": 6.5,
+  "reactions": 38,
+  "comments": 3,
+  "reposts": 5,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
+  "engagements": 164,
   "engagement_rate": 0,
   "organic": {
     "impressions": 1803,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 234.327,
+  "tcps_inputs": {
+    "impressions_used": 1803,
+    "r_comments": 1.6639,
+    "r_follows": 1.6639,
+    "r_reposts": 2.7732,
+    "r_reactions": 21.076,
+    "r_clicks": 65.4465,
+    "click_signal": 4.1964
+  },
+  "tcps_efficiency_raw": 234.327,
+  "tcps_distribution_raw": 7.4978,
+  "tcps_total_raw": 2234.327,
+  "tcps_impression_tier": "B"
 }

@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1321,
+  "reach": 702,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 619,
+  "ctr": 46.9,
+  "reactions": 16,
+  "comments": 1,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 639,
+  "engagement_rate": 48.4,
   "organic": {
     "impressions": 1321,
     "reach": 702,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Exceptional performance: 48.4% engagement rate, 46.9% CTR. Social proof through Trustpilot reviews from real pharmacy owners built trust and credibility effectively. Real customer testimonials validated product quality and addressed concerns. The exceptional engagement demonstrates extremely high audience interest in social proof content."
+  "notes": "Organic post. Exceptional performance: 48.4% engagement rate, 46.9% CTR. Social proof through Trustpilot reviews from real pharmacy owners built trust and credibility effectively. Real customer testimonials validated product quality and addressed concerns. The exceptional engagement demonstrates extremely high audience interest in social proof content.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 189.931,
+  "tcps_inputs": {
+    "impressions_used": 1321,
+    "r_comments": 0.757,
+    "r_follows": 0.757,
+    "r_reposts": 2.271,
+    "r_reactions": 12.112,
+    "r_clicks": 468.5844,
+    "click_signal": 6.1518
+  },
+  "tcps_efficiency_raw": 189.931,
+  "tcps_distribution_raw": 7.1869,
+  "tcps_total_raw": 1189.931,
+  "tcps_impression_tier": "C"
 }

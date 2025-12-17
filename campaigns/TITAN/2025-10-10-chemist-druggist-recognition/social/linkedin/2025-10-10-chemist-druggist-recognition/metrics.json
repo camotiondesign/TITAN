@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-10-10",
+  "campaign_slug": "2025-10-10-chemist-druggist-recognition",
   "asset_type": "carousel",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 964,
+  "reach": 574,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 364,
+  "ctr": 37.8,
+  "reactions": 12,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 1,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 377,
+  "engagement_rate": 39.1,
   "organic": {
     "impressions": 964,
     "reach": 574,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 138.8395,
+  "tcps_inputs": {
+    "impressions_used": 964,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 1.0373,
+    "r_reactions": 12.4481,
+    "r_clicks": 377.5934,
+    "click_signal": 5.9365
+  },
+  "tcps_efficiency_raw": 138.8395,
+  "tcps_distribution_raw": 6.8721,
+  "tcps_total_raw": 1138.8395,
+  "tcps_impression_tier": "C"
 }

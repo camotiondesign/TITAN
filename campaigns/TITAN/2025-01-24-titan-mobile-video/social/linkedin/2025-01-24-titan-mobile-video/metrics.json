@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
-  "views": 0,
+  "impressions": 2021,
+  "reach": 799,
+  "views": 586,
   "watch_time_hours": 2.9530555555555558,
   "avg_view_duration_seconds": 18,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 99,
+  "ctr": 4.9,
+  "reactions": 18,
+  "comments": 2,
+  "reposts": 4,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 123,
+  "engagement_rate": 6.1,
   "organic": {
     "impressions": 2021,
     "reach": 799,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Strong product demonstration through motion graphics conveyed capability without needing on-camera testimonial. Mobile workflow resonates with remote working pharmacists and owners scaling services. Good engagement (6.1% engagement rate, 4.9% CTR) and strong watch time (18 seconds average) indicate strong audience interest. Positive feedback from ClinicRx praising platform as 'work of art' validates product quality."
+  "notes": "Organic post. Strong product demonstration through motion graphics conveyed capability without needing on-camera testimonial. Mobile workflow resonates with remote working pharmacists and owners scaling services. Good engagement (6.1% engagement rate, 4.9% CTR) and strong watch time (18 seconds average) indicate strong audience interest. Positive feedback from ClinicRx praising platform as 'work of art' validates product quality.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 128.9383,
+  "tcps_inputs": {
+    "impressions_used": 2021,
+    "r_comments": 0.9896,
+    "r_follows": 0.0,
+    "r_reposts": 1.9792,
+    "r_reactions": 8.9065,
+    "r_clicks": 48.9857,
+    "click_signal": 3.9117
+  },
+  "tcps_efficiency_raw": 128.9383,
+  "tcps_distribution_raw": 7.6118,
+  "tcps_total_raw": 2128.9383,
+  "tcps_impression_tier": "B"
 }

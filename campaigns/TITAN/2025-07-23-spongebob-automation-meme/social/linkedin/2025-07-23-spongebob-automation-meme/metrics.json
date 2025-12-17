@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-07-23",
+  "campaign_slug": "2025-07-23-spongebob-automation-meme",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 809,
+  "reach": 437,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 27,
+  "ctr": 3.3,
+  "reactions": 14,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 2,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 43,
+  "engagement_rate": 5.3,
   "organic": {
     "impressions": 809,
     "reach": 437,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 134.6419,
+  "tcps_inputs": {
+    "impressions_used": 809,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 2.4722,
+    "r_reactions": 17.3053,
+    "r_clicks": 33.3745,
+    "click_signal": 3.5373
+  },
+  "tcps_efficiency_raw": 134.6419,
+  "tcps_distribution_raw": 6.697,
+  "tcps_total_raw": 1134.6419,
+  "tcps_impression_tier": "C"
 }

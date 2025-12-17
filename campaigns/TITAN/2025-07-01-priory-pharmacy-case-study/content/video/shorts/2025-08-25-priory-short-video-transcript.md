@@ -1,7 +1,7 @@
 # Transcript — Priory Pharmacy Short Video
 
 **Video:** 2025-08-25-priory-short-video  
-**Campaign:** 2025-07-01-priory-scaling-safely  
+**Campaign:** 2025-07-01-priory-pharmacy-case-study  
 **Posted To:** LinkedIn  
 **Date:** 2025-08-25  
 **Video Type:** Short-form video

@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 599,
+  "reach": 302,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 14,
+  "ctr": 2.3,
+  "reactions": 13,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 4,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 31,
+  "engagement_rate": 5.2,
   "organic": {
     "impressions": 599,
     "reach": 302,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Event promotion continued countdown momentum. Lower impressions (599) compared to previous countdown posts (1,073-2,119) suggests potential algorithm fatigue or timing impact, but maintained engagement quality (5.2% engagement rate). Reposts (4) indicate continued interest. Bold headline 'YOU WON'T WANT TO MISS THIS' effectively created urgency."
+  "notes": "Organic post. Event promotion continued countdown momentum. Lower impressions (599) compared to previous countdown posts (1,073-2,119) suggests potential algorithm fatigue or timing impact, but maintained engagement quality (5.2% engagement rate). Reposts (4) indicate continued interest. Bold headline 'YOU WON'T WANT TO MISS THIS' effectively created urgency.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 276.6162,
+  "tcps_inputs": {
+    "impressions_used": 599,
+    "r_comments": 0.0,
+    "r_follows": 3.3389,
+    "r_reposts": 6.6778,
+    "r_reactions": 21.7028,
+    "r_clicks": 23.3723,
+    "click_signal": 3.1934
+  },
+  "tcps_efficiency_raw": 276.6162,
+  "tcps_distribution_raw": 6.3969,
+  "tcps_total_raw": 1276.6162,
+  "tcps_impression_tier": "C"
 }

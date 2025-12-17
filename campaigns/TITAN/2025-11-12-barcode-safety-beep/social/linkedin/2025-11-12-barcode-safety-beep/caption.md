@@ -17,3 +17,8 @@ This is what your pharmacy should sound like.
 📖 Read it on our website → bit.ly/4nOpOgu
 
 hashtag#TitanPMR hashtag#PharmacyWorkflow hashtag#PharmacySafety hashtag#DigitalPharmacy hashtag#CommunityPharmacy
+
+
+
+
+

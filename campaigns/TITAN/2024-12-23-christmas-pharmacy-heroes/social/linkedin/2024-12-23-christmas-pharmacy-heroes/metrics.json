@@ -1,28 +1,28 @@
 {
   "platform": "LinkedIn",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2024-12-23",
+  "campaign_slug": "2024-12-23-christmas-pharmacy-heroes",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1043,
+  "reach": 486,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
-  "comments": 0,
-  "reposts": 0,
+  "clicks": 39,
+  "ctr": 3.7,
+  "reactions": 22,
+  "comments": 2,
+  "reposts": 4,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 67,
+  "engagement_rate": 6.4,
   "organic": {
     "impressions": 1043,
     "reach": 486,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 226.3381,
+  "tcps_inputs": {
+    "impressions_used": 1043,
+    "r_comments": 1.9175,
+    "r_follows": 0.9588,
+    "r_reposts": 3.8351,
+    "r_reactions": 21.093,
+    "r_clicks": 37.3921,
+    "click_signal": 3.6479
+  },
+  "tcps_efficiency_raw": 226.3381,
+  "tcps_distribution_raw": 6.9508,
+  "tcps_total_raw": 1226.3381,
+  "tcps_impression_tier": "C"
 }

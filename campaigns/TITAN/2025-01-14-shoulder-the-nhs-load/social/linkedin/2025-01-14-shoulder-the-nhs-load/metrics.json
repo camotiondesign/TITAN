@@ -9,20 +9,20 @@
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 1258,
+  "reach": 522,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 49,
+  "ctr": 3.9,
+  "reactions": 19,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 2,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 70,
+  "engagement_rate": 5.6,
   "organic": {
     "impressions": 1258,
     "reach": 522,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Strong impressions and engagement for policy content demonstrates appetite for NHS-aligned context. No comments despite discussion invite."
+  "notes": "Organic post. Strong impressions and engagement for policy content demonstrates appetite for NHS-aligned context. No comments despite discussion invite.",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 119.7026,
+  "tcps_inputs": {
+    "impressions_used": 1258,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 1.5898,
+    "r_reactions": 15.1033,
+    "r_clicks": 38.9507,
+    "click_signal": 3.6876
+  },
+  "tcps_efficiency_raw": 119.7026,
+  "tcps_distribution_raw": 7.1381,
+  "tcps_total_raw": 1119.7026,
+  "tcps_impression_tier": "C"
 }

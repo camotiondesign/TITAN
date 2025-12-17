@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-11-04",
+  "campaign_slug": "2025-11-04-titanverse-chaos-to-clarity",
   "asset_type": "short-video",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
+  "impressions": 1196,
   "reach": 0,
-  "views": 0,
+  "views": 445,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
+  "clicks": 50,
   "ctr": 0,
-  "reactions": 0,
+  "reactions": 29,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
   "engagements": 0,
-  "engagement_rate": 0,
+  "engagement_rate": "6.9%",
   "organic": {
     "impressions": 1196,
     "reach": 0,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 221.902,
+  "tcps_inputs": {
+    "impressions_used": 1196,
+    "r_comments": 0.0,
+    "r_follows": 2.5084,
+    "r_reposts": 2.5084,
+    "r_reactions": 24.2475,
+    "r_clicks": 41.806,
+    "click_signal": 3.7567
+  },
+  "tcps_efficiency_raw": 221.902,
+  "tcps_distribution_raw": 7.0876,
+  "tcps_total_raw": 1221.902,
+  "tcps_impression_tier": "C"
 }

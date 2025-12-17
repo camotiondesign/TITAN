@@ -1,28 +1,28 @@
 {
   "platform": "linkedin",
   "post_url": "",
-  "posted_at": "",
-  "campaign_slug": "",
+  "posted_at": "2025-07-25",
+  "campaign_slug": "2025-07-01-puri-pharmacy-case-study",
   "asset_type": "single-image",
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  "impressions": 0,
-  "reach": 0,
+  "impressions": 837,
+  "reach": 434,
   "views": 0,
   "watch_time_hours": 0,
   "avg_view_duration_seconds": 0,
-  "clicks": 0,
-  "ctr": 0,
-  "reactions": 0,
+  "clicks": 14,
+  "ctr": 1.7,
+  "reactions": 9,
   "comments": 0,
-  "reposts": 0,
+  "reposts": 3,
   "follows": 0,
   "leads": 0,
-  "engagements": 0,
-  "engagement_rate": 0,
+  "engagements": 26,
+  "engagement_rate": 3.1,
   "organic": {
     "impressions": 837,
     "reach": 434,
@@ -53,5 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": ""
+  "notes": "",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 118.3946,
+  "tcps_inputs": {
+    "impressions_used": 837,
+    "r_comments": 0.0,
+    "r_follows": 0.0,
+    "r_reposts": 3.5842,
+    "r_reactions": 10.7527,
+    "r_clicks": 16.7264,
+    "click_signal": 2.8751
+  },
+  "tcps_efficiency_raw": 118.3946,
+  "tcps_distribution_raw": 6.731,
+  "tcps_total_raw": 1118.3946,
+  "tcps_impression_tier": "C"
 }

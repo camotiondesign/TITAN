@@ -4,13 +4,11 @@
   "posted_at": "2025-11-29",
   "campaign_slug": "2025-07-01-brighton-hill-case-study",
   "asset_type": "video-short",
-  
   "boosted": false,
   "sponsored_dates": {
     "start": "",
     "end": ""
   },
-  
   "impressions": 2873,
   "reach": 2013,
   "views": 1129,
@@ -25,7 +23,6 @@
   "leads": 0,
   "engagements": 191,
   "engagement_rate": 6.6,
-  
   "organic": {
     "impressions": 2873,
     "reach": 2013,
@@ -42,7 +39,6 @@
     "page_viewers": 0,
     "followers_gained": 1
   },
-  
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
@@ -57,6 +53,20 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  
-  "notes": "Short video post featuring Sagar Lungiwala discussing fourfold growth at Brighton Hill Pharmacy"
+  "notes": "Short video post featuring Sagar Lungiwala discussing fourfold growth at Brighton Hill Pharmacy",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 127.8332,
+  "tcps_inputs": {
+    "impressions_used": 2873,
+    "r_comments": 1.0442,
+    "r_follows": 0.3481,
+    "r_reposts": 1.0442,
+    "r_reactions": 8.3536,
+    "r_clicks": 56.039,
+    "click_signal": 4.0437
+  },
+  "tcps_efficiency_raw": 127.8332,
+  "tcps_distribution_raw": 7.9635,
+  "tcps_total_raw": 2127.8332,
+  "tcps_impression_tier": "B"
 }

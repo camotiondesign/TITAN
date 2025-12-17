@@ -34,5 +34,24 @@
   "video_views": 2582,
   "watch_time": "13h 34m 12s",
   "average_watch_time_seconds": 18,
-  "asset_type": "video-longform"
+  "asset_type": "video-longform",
+  "posted_at": "2025-09-26",
+  "campaign_slug": "2025-09-25-medichem-hub-and-spoke-case-study",
+  "tcps_version": "linkedin_tcps_v3_tiered",
+  "tcps_raw": 265.4972,
+  "tcps_inputs": {
+    "impressions_used": 1584,
+    "r_comments": 3.7879,
+    "r_follows": 0.0,
+    "r_reposts": 5.6818,
+    "r_reactions": 18.3081,
+    "r_clicks": 83.9646,
+    "click_signal": 4.4422
+  },
+  "impressions": 1584,
+  "has_sponsored": true,
+  "tcps_efficiency_raw": 265.4972,
+  "tcps_distribution_raw": 7.3683,
+  "tcps_total_raw": 2265.4972,
+  "tcps_impression_tier": "B"
 }
