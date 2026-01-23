@@ -25,12 +25,20 @@ jobs:
           node-version: '20'
       
       - name: Aggregate metrics
+        id: aggregate
+        continue-on-error: false
         run: |
           echo "Current directory: $(pwd)"
           echo "Listing scripts directory:"
           ls -la scripts/ || true
+          echo "Checking if campaigns/TITAN exists:"
+          ls -la campaigns/TITAN/ | head -5 || echo "Directory not found or empty"
+          echo ""
           echo "Running aggregation script..."
-          node scripts/aggregate-metrics.js
+          node scripts/aggregate-metrics.js || {
+            echo "Script failed with exit code $?"
+            exit 1
+          }
       
       - name: Verify output file
         run: |

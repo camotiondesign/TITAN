@@ -51,33 +51,62 @@ function findLinkedinMetricsFiles(dir, results = []) {
  * Load and enrich a single metrics file
  */
 function loadPostMetrics(filePath) {
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  let metrics;
-
   try {
-    metrics = JSON.parse(raw);
-  } catch (e) {
-    console.error(`Skipping invalid JSON in ${filePath}: ${e.message}`);
+    if (!fs.existsSync(filePath)) {
+      console.warn(`File does not exist: ${filePath}`);
+      return null;
+    }
+
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    
+    if (!raw || raw.trim().length === 0) {
+      console.warn(`Empty file: ${filePath}`);
+      return null;
+    }
+
+    let metrics;
+    try {
+      metrics = JSON.parse(raw);
+    } catch (e) {
+      console.error(`Skipping invalid JSON in ${filePath}: ${e.message}`);
+      return null;
+    }
+
+    if (!metrics || typeof metrics !== 'object') {
+      console.warn(`Invalid metrics object in ${filePath}`);
+      return null;
+    }
+
+    // Extract post slug from path
+    // Path format: campaigns/TITAN/[campaign-slug]/social/linkedin/[post-slug]/metrics.json
+    const parts = filePath.split(path.sep);
+    const linkedinIndex = parts.indexOf('linkedin');
+    const postSlug = linkedinIndex !== -1 && parts[linkedinIndex + 1] 
+      ? parts[linkedinIndex + 1] 
+      : null;
+
+    // Calculate relative path safely
+    let relativePath;
+    try {
+      const repoRoot = path.join(__dirname, '..');
+      relativePath = path.relative(repoRoot, filePath);
+    } catch (e) {
+      relativePath = filePath;
+    }
+
+    // Enrich with metadata
+    return {
+      // Keep all original metrics
+      ...metrics,
+      // Add metadata for Zapier
+      post_slug: postSlug,
+      metrics_file_path: relativePath,
+      aggregated_at: new Date().toISOString(),
+    };
+  } catch (error) {
+    console.error(`Error loading metrics from ${filePath}: ${error.message}`);
     return null;
   }
-
-  // Extract post slug from path
-  // Path format: campaigns/TITAN/[campaign-slug]/social/linkedin/[post-slug]/metrics.json
-  const parts = filePath.split(path.sep);
-  const linkedinIndex = parts.indexOf('linkedin');
-  const postSlug = linkedinIndex !== -1 && parts[linkedinIndex + 1] 
-    ? parts[linkedinIndex + 1] 
-    : null;
-
-  // Enrich with metadata
-  return {
-    // Keep all original metrics
-    ...metrics,
-    // Add metadata for Zapier
-    post_slug: postSlug,
-    metrics_file_path: path.relative(path.join(__dirname, '..'), filePath),
-    aggregated_at: new Date().toISOString(),
-  };
 }
 
 /**
@@ -100,27 +129,52 @@ function main() {
     const metricsFiles = findLinkedinMetricsFiles(BASE_DIR);
     console.log(`Found ${metricsFiles.length} metrics.json files`);
 
-  const aggregated = [];
-  let skipped = 0;
-
-  metricsFiles.forEach(file => {
-    const post = loadPostMetrics(file);
-    if (post) {
-      aggregated.push(post);
-    } else {
-      skipped++;
+    if (metricsFiles.length === 0) {
+      console.warn('⚠️  No metrics files found. This might be expected if no posts exist yet.');
+      console.log('Creating empty output file...');
     }
-  });
+
+    const aggregated = [];
+    let skipped = 0;
+    let processed = 0;
+
+    metricsFiles.forEach((file, index) => {
+      try {
+        processed++;
+        if (processed % 10 === 0) {
+          console.log(`Processing file ${processed}/${metricsFiles.length}...`);
+        }
+        const post = loadPostMetrics(file);
+        if (post) {
+          aggregated.push(post);
+        } else {
+          skipped++;
+        }
+      } catch (error) {
+        console.error(`Error processing ${file}: ${error.message}`);
+        skipped++;
+      }
+    });
+
+    console.log(`Processed ${processed} files, ${aggregated.length} successful, ${skipped} skipped`);
 
   // Sort by posted_at date (most recent first), then by campaign_slug
-  aggregated.sort((a, b) => {
-    const dateA = a.posted_at || '';
-    const dateB = b.posted_at || '';
-    if (dateA !== dateB) {
-      return dateB.localeCompare(dateA);
-    }
-    return (a.campaign_slug || '').localeCompare(b.campaign_slug || '');
-  });
+  try {
+    aggregated.sort((a, b) => {
+      try {
+        const dateA = a.posted_at || '';
+        const dateB = b.posted_at || '';
+        if (dateA !== dateB) {
+          return dateB.localeCompare(dateA);
+        }
+        return (a.campaign_slug || '').localeCompare(b.campaign_slug || '');
+      } catch (e) {
+        return 0; // Keep original order if sort fails
+      }
+    });
+  } catch (error) {
+    console.warn(`Warning: Could not sort posts: ${error.message}`);
+  }
 
   // Ensure output directory exists
   const outputDir = path.dirname(OUTPUT_PATH);
@@ -142,8 +196,22 @@ function main() {
   };
 
   console.log(`Writing output to: ${OUTPUT_PATH}`);
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));
-  console.log(`✓ Successfully wrote ${aggregated.length} posts to ${OUTPUT_PATH}`);
+  try {
+    const jsonOutput = JSON.stringify(output, null, 2);
+    fs.writeFileSync(OUTPUT_PATH, jsonOutput, 'utf-8');
+    console.log(`✓ Successfully wrote ${aggregated.length} posts to ${OUTPUT_PATH}`);
+    
+    // Verify the file was written
+    if (fs.existsSync(OUTPUT_PATH)) {
+      const stats = fs.statSync(OUTPUT_PATH);
+      console.log(`✓ File verified: ${stats.size} bytes`);
+    } else {
+      throw new Error('Output file was not created');
+    }
+  } catch (error) {
+    console.error(`Failed to write output file: ${error.message}`);
+    throw error;
+  }
 
   console.log(`\n✓ Aggregated ${aggregated.length} LinkedIn posts`);
   console.log(`  - Output: ${OUTPUT_PATH}`);
@@ -160,8 +228,11 @@ function main() {
     console.log(`  - Total impressions: ${totalImpressions.toLocaleString()}`);
     console.log(`  - Total engagements: ${totalEngagements.toLocaleString()}`);
   }
+    
+    console.log('\n✅ Aggregation completed successfully!');
+    return 0; // Success
   } catch (error) {
-    console.error('Error in main():', error);
+    console.error('\n❌ Error in main():', error);
     console.error(error.stack);
     process.exit(1);
   }
@@ -169,7 +240,8 @@ function main() {
 
 // Wrap main in try-catch for unhandled errors
 try {
-  main();
+  const exitCode = main();
+  process.exit(exitCode || 0);
 } catch (error) {
   console.error('Unhandled error:', error);
   console.error(error.stack);
