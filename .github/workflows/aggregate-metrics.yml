@@ -28,17 +28,32 @@ jobs:
         id: aggregate
         continue-on-error: false
         run: |
+          set -e  # Exit on error
+          echo "=== Environment Check ==="
           echo "Current directory: $(pwd)"
-          echo "Listing scripts directory:"
-          ls -la scripts/ || true
-          echo "Checking if campaigns/TITAN exists:"
-          ls -la campaigns/TITAN/ | head -5 || echo "Directory not found or empty"
+          echo "Node version: $(node --version)"
           echo ""
-          echo "Running aggregation script..."
-          node scripts/aggregate-metrics.js || {
-            echo "Script failed with exit code $?"
+          echo "=== Directory Structure ==="
+          echo "Scripts directory:"
+          ls -la scripts/ || true
+          echo ""
+          echo "Campaigns directory:"
+          ls -la campaigns/ || true
+          echo ""
+          echo "Checking campaigns/TITAN:"
+          if [ -d "campaigns/TITAN" ]; then
+            echo "✓ campaigns/TITAN exists"
+            echo "Sample contents:"
+            ls campaigns/TITAN/ | head -5 || true
+          else
+            echo "✗ campaigns/TITAN does not exist!"
             exit 1
-          }
+          fi
+          echo ""
+          echo "=== Running Script ==="
+          node scripts/aggregate-metrics.js
+          echo ""
+          echo "=== Script Completed ==="
       
       - name: Verify output file
         run: |
@@ -52,12 +67,27 @@ jobs:
       
       - name: Commit and push changes
         run: |
+          echo "=== Git Configuration ==="
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo ""
+          echo "=== Checking output file ==="
+          if [ ! -f "analytics/aggregated-linkedin-metrics.json" ]; then
+            echo "✗ Output file does not exist! Cannot commit."
+            exit 1
+          fi
+          echo "✓ Output file exists"
+          echo ""
+          echo "=== Staging file ==="
           git add analytics/aggregated-linkedin-metrics.json
+          echo ""
+          echo "=== Checking for changes ==="
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes to commit (file unchanged)"
           else
+            echo "Changes detected, committing..."
             git commit -m "chore: update aggregated LinkedIn metrics [skip ci]"
+            echo "Pushing to repository..."
             git push
+            echo "✓ Successfully pushed changes"
           fi

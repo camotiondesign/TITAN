@@ -241,9 +241,20 @@ function main() {
 // Wrap main in try-catch for unhandled errors
 try {
   const exitCode = main();
-  process.exit(exitCode || 0);
+  if (exitCode === 0 || exitCode === undefined) {
+    console.log('Script completed successfully');
+    process.exit(0);
+  } else {
+    console.error(`Script exited with code: ${exitCode}`);
+    process.exit(exitCode);
+  }
 } catch (error) {
-  console.error('Unhandled error:', error);
-  console.error(error.stack);
+  console.error('=== UNHANDLED ERROR ===');
+  console.error('Error message:', error.message);
+  console.error('Error stack:', error.stack);
+  console.error('Error name:', error.name);
+  if (error.code) {
+    console.error('Error code:', error.code);
+  }
   process.exit(1);
 }
