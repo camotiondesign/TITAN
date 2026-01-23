@@ -29,7 +29,7 @@ jobs:
         continue-on-error: false
         run: |
           set -e  # Exit on error
-          echo "=== Environment Check ==="
+          echo "=== Starting Metrics Aggregation ==="
           echo "Current directory: $(pwd)"
           echo "Node version: $(node --version)"
           echo ""
@@ -52,8 +52,11 @@ jobs:
           echo ""
           echo "=== Running Script ==="
           node scripts/aggregate-metrics.js
+          SCRIPT_EXIT_CODE=$?
           echo ""
-          echo "=== Script Completed ==="
+          echo "Script exited with code $SCRIPT_EXIT_CODE"
+          echo "=== Metrics Aggregation Complete ==="
+          exit $SCRIPT_EXIT_CODE
       
       - name: Verify output file
         run: |
@@ -83,7 +86,7 @@ jobs:
           echo ""
           echo "=== Checking for changes ==="
           if git diff --staged --quiet; then
-            echo "No changes to commit (file unchanged)"
+            echo "No changes to commit (file unchanged) - this is normal"
           else
             echo "Changes detected, committing..."
             git commit -m "chore: update aggregated LinkedIn metrics [skip ci]"

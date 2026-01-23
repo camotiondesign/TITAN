@@ -1,10 +1,7 @@
 #!/usr/bin/env node
-/**
- * Aggregate LinkedIn metrics from all campaigns for Zapier integration
- * 
- * Scans campaigns/TITAN/**/social/linkedin/*/metrics.json and aggregates
- * all posts into a single JSON array for easy consumption by Zapier.
- */
+// Aggregate LinkedIn metrics from all campaigns for Zapier integration.
+// Scans campaigns/TITAN/*/social/linkedin/*/metrics.json and aggregates
+// all posts into a single JSON array for Zapier.
 
 const fs = require('fs');
 const path = require('path');
@@ -22,9 +19,9 @@ function findLinkedinMetricsFiles(dir, results = []) {
 
   const entries = fs.readdirSync(dir);
 
-  entries.forEach(entry => {
+  for (const entry of entries) {
     const entryPath = path.join(dir, entry);
-    
+
     try {
       const stat = fs.statSync(entryPath);
 
@@ -39,10 +36,9 @@ function findLinkedinMetricsFiles(dir, results = []) {
         }
       }
     } catch (err) {
-      // Skip files/dirs we can't access
       console.warn(`Skipping ${entryPath}: ${err.message}`);
     }
-  });
+  }
 
   return results;
 }
@@ -58,7 +54,7 @@ function loadPostMetrics(filePath) {
     }
 
     const raw = fs.readFileSync(filePath, 'utf-8');
-    
+
     if (!raw || raw.trim().length === 0) {
       console.warn(`Empty file: ${filePath}`);
       return null;
@@ -81,9 +77,10 @@ function loadPostMetrics(filePath) {
     // Path format: campaigns/TITAN/[campaign-slug]/social/linkedin/[post-slug]/metrics.json
     const parts = filePath.split(path.sep);
     const linkedinIndex = parts.indexOf('linkedin');
-    const postSlug = linkedinIndex !== -1 && parts[linkedinIndex + 1] 
-      ? parts[linkedinIndex + 1] 
-      : null;
+    const postSlug =
+      linkedinIndex !== -1 && parts[linkedinIndex + 1]
+        ? parts[linkedinIndex + 1]
+        : null;
 
     // Calculate relative path safely
     let relativePath;
@@ -94,11 +91,8 @@ function loadPostMetrics(filePath) {
       relativePath = filePath;
     }
 
-    // Enrich with metadata
     return {
-      // Keep all original metrics
       ...metrics,
-      // Add metadata for Zapier
       post_slug: postSlug,
       metrics_file_path: relativePath,
       aggregated_at: new Date().toISOString(),
@@ -117,29 +111,36 @@ function main() {
     console.log(`Working directory: ${process.cwd()}`);
     console.log(`Script location: ${__dirname}`);
     console.log(`Base directory: ${BASE_DIR}`);
+
+    const campaignsDir = path.join(__dirname, '..', 'campaigns');
+    if (!fs.existsSync(campaignsDir)) {
+      console.error(`❌ Campaigns directory not found: ${campaignsDir}`);
+      console.error(`   Current working directory: ${process.cwd()}`);
+      return 1;
+    }
+
     console.log(`Base directory exists: ${fs.existsSync(BASE_DIR)}`);
-    
+
     if (!fs.existsSync(BASE_DIR)) {
-      console.error(`Base directory not found: ${BASE_DIR}`);
-      console.error(`Current working directory: ${process.cwd()}`);
-      process.exit(1);
+      console.warn(`⚠️  Base directory not found: ${BASE_DIR}`);
+      console.warn(`   This is expected if no TITAN campaigns exist yet. Creating empty output.`);
     }
 
     console.log(`Scanning for LinkedIn metrics in ${BASE_DIR}...`);
     const metricsFiles = findLinkedinMetricsFiles(BASE_DIR);
     console.log(`Found ${metricsFiles.length} metrics.json files`);
 
+    let warning = null;
     if (metricsFiles.length === 0) {
-      console.error('❌ No LinkedIn metrics.json files found under campaigns/TITAN/**/social/linkedin/**');
-      console.error('   Check that metrics.json exists for at least one LinkedIn post and that the path is correct.');
-      process.exit(1);
+      console.warn('⚠️  No LinkedIn metrics.json files found under campaigns/TITAN/**/social/linkedin/**');
+      warning = 'No metrics files found';
     }
 
     const aggregated = [];
     let skipped = 0;
     let processed = 0;
 
-    metricsFiles.forEach((file, index) => {
+    for (const file of metricsFiles) {
       try {
         processed++;
         if (processed % 10 === 0) {
@@ -155,97 +156,109 @@ function main() {
         console.error(`Error processing ${file}: ${error.message}`);
         skipped++;
       }
-    });
+    }
 
     console.log(`Processed ${processed} files, ${aggregated.length} successful, ${skipped} skipped`);
 
-    if (aggregated.length === 0) {
-      console.error('❌ Aggregation produced 0 valid LinkedIn posts.');
-      console.error('   Metrics files were found but all were empty/invalid. Failing workflow.');
-      process.exit(1);
-    }
-
-  // Sort by posted_at date (most recent first), then by campaign_slug
-  try {
-    aggregated.sort((a, b) => {
-      try {
-        const dateA = a.posted_at || '';
-        const dateB = b.posted_at || '';
-        if (dateA !== dateB) {
-          return dateB.localeCompare(dateA);
-        }
-        return (a.campaign_slug || '').localeCompare(b.campaign_slug || '');
-      } catch (e) {
-        return 0; // Keep original order if sort fails
+    if (aggregated.length === 0 && metricsFiles.length > 0) {
+      console.warn('⚠️  Aggregation produced 0 valid LinkedIn posts.');
+      if (!warning) {
+        warning = 'All metrics files were invalid or empty';
       }
-    });
-  } catch (error) {
-    console.warn(`Warning: Could not sort posts: ${error.message}`);
-  }
-
-  // Ensure output directory exists
-  const outputDir = path.dirname(OUTPUT_PATH);
-  console.log(`Output directory: ${outputDir}`);
-  if (!fs.existsSync(outputDir)) {
-    console.log(`Creating output directory: ${outputDir}`);
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
-
-  // Write aggregated data
-  const output = {
-    metadata: {
-      aggregated_at: new Date().toISOString(),
-      total_posts: aggregated.length,
-      total_files_scanned: metricsFiles.length,
-      skipped_files: skipped,
-    },
-    posts: aggregated,
-  };
-
-  console.log(`Writing output to: ${OUTPUT_PATH}`);
-  try {
-    const jsonOutput = JSON.stringify(output, null, 2);
-    fs.writeFileSync(OUTPUT_PATH, jsonOutput, 'utf-8');
-    console.log(`✓ Successfully wrote ${aggregated.length} posts to ${OUTPUT_PATH}`);
-    
-    // Verify the file was written
-    if (fs.existsSync(OUTPUT_PATH)) {
-      const stats = fs.statSync(OUTPUT_PATH);
-      console.log(`✓ File verified: ${stats.size} bytes`);
-    } else {
-      throw new Error('Output file was not created');
     }
-  } catch (error) {
-    console.error(`Failed to write output file: ${error.message}`);
-    throw error;
-  }
 
-  console.log(`\n✓ Aggregated ${aggregated.length} LinkedIn posts`);
-  console.log(`  - Output: ${OUTPUT_PATH}`);
-  console.log(`  - Skipped: ${skipped} invalid files`);
-  
-  // Summary stats
-  if (aggregated.length > 0) {
-    const withImpressions = aggregated.filter(p => p.impressions > 0).length;
-    const totalImpressions = aggregated.reduce((sum, p) => sum + (p.impressions || 0), 0);
-    const totalEngagements = aggregated.reduce((sum, p) => sum + (p.engagements || 0), 0);
-    
-    console.log(`\nSummary:`);
-    console.log(`  - Posts with impressions: ${withImpressions}`);
-    console.log(`  - Total impressions: ${totalImpressions.toLocaleString()}`);
-    console.log(`  - Total engagements: ${totalEngagements.toLocaleString()}`);
-  }
-    
+    try {
+      aggregated.sort((a, b) => {
+        try {
+          const dateA = a.posted_at || '';
+          const dateB = b.posted_at || '';
+          if (dateA !== dateB) {
+            return dateB.localeCompare(dateA);
+          }
+          return (a.campaign_slug || '').localeCompare(b.campaign_slug || '');
+        } catch {
+          return 0;
+        }
+      });
+    } catch (error) {
+      console.warn(`Warning: Could not sort posts: ${error.message}`);
+    }
+
+    const outputDir = path.dirname(OUTPUT_PATH);
+    console.log(`Output directory: ${outputDir}`);
+    try {
+      if (!fs.existsSync(outputDir)) {
+        console.log(`Creating output directory: ${outputDir}`);
+        fs.mkdirSync(outputDir, { recursive: true });
+      }
+    } catch (error) {
+      console.error(`❌ Failed to create output directory: ${outputDir}`);
+      console.error(`   Error: ${error.message}`);
+      return 1;
+    }
+
+    const output = {
+      metadata: {
+        aggregated_at: new Date().toISOString(),
+        total_posts: aggregated.length,
+        total_files_scanned: metricsFiles.length,
+        skipped_files: skipped,
+        ...(warning ? { warning } : {}),
+      },
+      posts: aggregated,
+    };
+
+    console.log(`Writing output to: ${OUTPUT_PATH}`);
+    try {
+      const jsonOutput = JSON.stringify(output, null, 2);
+      fs.writeFileSync(OUTPUT_PATH, jsonOutput, 'utf-8');
+      console.log(`✓ Successfully wrote ${aggregated.length} posts to ${OUTPUT_PATH}`);
+
+      if (fs.existsSync(OUTPUT_PATH)) {
+        const stats = fs.statSync(OUTPUT_PATH);
+        console.log(`✓ File verified: ${stats.size} bytes`);
+      } else {
+        console.error('❌ Output file was not created after write operation');
+        return 1;
+      }
+    } catch (error) {
+      console.error(`❌ Failed to write output file: ${error.message}`);
+      return 1;
+    }
+
+    console.log(`\n✓ Aggregated ${aggregated.length} LinkedIn posts`);
+    console.log(`  - Output: ${OUTPUT_PATH}`);
+    console.log(`  - Skipped: ${skipped} invalid files`);
+    if (warning) {
+      console.log(`  - Warning: ${warning}`);
+    }
+
+    if (aggregated.length > 0) {
+      const withImpressions = aggregated.filter(p => p.impressions > 0).length;
+      const totalImpressions = aggregated.reduce(
+        (sum, p) => sum + (p.impressions || 0),
+        0
+      );
+      const totalEngagements = aggregated.reduce(
+        (sum, p) => sum + (p.engagements || 0),
+        0
+      );
+
+      console.log('\nSummary:');
+      console.log(`  - Posts with impressions: ${withImpressions}`);
+      console.log(`  - Total impressions: ${totalImpressions.toLocaleString()}`);
+      console.log(`  - Total engagements: ${totalEngagements.toLocaleString()}`);
+    }
+
     console.log('\n✅ Aggregation completed successfully!');
-    return 0; // Success
+    return 0;
   } catch (error) {
-    console.error('\n❌ Error in main():', error);
-    console.error(error.stack);
-    process.exit(1);
+    console.error('\n❌ Unexpected error in main():', error.message);
+    console.error('Stack trace:', error.stack);
+    return 1;
   }
 }
 
-// Wrap main in try-catch for unhandled errors
 try {
   const exitCode = main();
   if (exitCode === 0 || exitCode === undefined) {
@@ -256,7 +269,7 @@ try {
     process.exit(exitCode);
   }
 } catch (error) {
-  console.error('=== UNHANDLED ERROR ===');
+  console.error('=== UNHANDLED ERROR (this is a bug) ===');
   console.error('Error message:', error.message);
   console.error('Error stack:', error.stack);
   console.error('Error name:', error.name);
