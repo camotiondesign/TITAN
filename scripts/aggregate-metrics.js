@@ -91,12 +91,69 @@ function loadPostMetrics(filePath) {
       relativePath = filePath;
     }
 
-    return {
-      ...metrics,
+    // Try to load caption from same directory
+    let caption = null;
+    try {
+      const captionPath = path.join(path.dirname(filePath), 'caption.md');
+      if (fs.existsSync(captionPath)) {
+        const captionContent = fs.readFileSync(captionPath, 'utf-8');
+        if (captionContent && captionContent.trim().length > 0) {
+          caption = captionContent.trim();
+        }
+      }
+    } catch (error) {
+      // Caption is optional, so just log a warning
+      console.warn(`Could not load caption for ${filePath}: ${error.message}`);
+    }
+
+    // Extract only organic metrics - ignore sponsored data completely
+    const organicMetrics = metrics.organic || {};
+    
+    // Use organic metrics exclusively - no fallback to top-level metrics
+    // This ensures we only include true organic performance
+    const organicImpressions = organicMetrics.impressions || 0;
+    
+    // Build clean post object with only organic metrics
+    const cleanPost = {
+      platform: metrics.platform || 'linkedin',
+      post_url: metrics.post_url || '',
+      posted_at: metrics.posted_at || '',
+      campaign_slug: metrics.campaign_slug || '',
+      asset_type: metrics.asset_type || '',
+      boosted: metrics.boosted || false,
+      // Only include organic metrics (no fallbacks to top-level)
+      impressions: organicImpressions,
+      reach: organicMetrics.reach || 0,
+      views: organicMetrics.video_views || 0,
+      watch_time_hours: metrics.watch_time_hours || 0, // Keep this as it's total watch time
+      avg_view_duration_seconds: organicMetrics.average_watch_time_seconds || 0,
+      clicks: organicMetrics.clicks || 0,
+      ctr: organicMetrics.click_through_rate || 0,
+      reactions: organicMetrics.reactions || 0,
+      comments: organicMetrics.comments || 0,
+      reposts: organicMetrics.reposts || 0,
+      follows: organicMetrics.followers_gained || 0,
+      leads: 0, // Leads are typically not broken down by organic/sponsored
+      engagements: organicMetrics.engagements || 0,
+      engagement_rate: organicMetrics.engagement_rate || 0,
+      // TCPS scores (keep these as they're calculated from organic)
+      tcps_version: metrics.tcps_version || '',
+      tcps_raw: metrics.tcps_raw || 0,
+      tcps_inputs: metrics.tcps_inputs || {},
+      tcps_warnings: metrics.tcps_warnings || [],
+      tcps_efficiency_raw: metrics.tcps_efficiency_raw || 0,
+      tcps_distribution_raw: metrics.tcps_distribution_raw || 0,
+      tcps_total_raw: metrics.tcps_total_raw || 0,
+      tcps_impression_tier: metrics.tcps_impression_tier || '',
+      // Metadata
+      notes: metrics.notes || '',
       post_slug: postSlug,
       metrics_file_path: relativePath,
+      caption: caption,
       aggregated_at: new Date().toISOString(),
     };
+
+    return cleanPost;
   } catch (error) {
     console.error(`Error loading metrics from ${filePath}: ${error.message}`);
     return null;
@@ -148,7 +205,17 @@ function main() {
         }
         const post = loadPostMetrics(file);
         if (post) {
-          aggregated.push(post);
+          // Only include posts with actual metrics (impressions > 0)
+          const organicImpressions = post.impressions || 0;
+          if (organicImpressions > 0) {
+            aggregated.push(post);
+          } else {
+            skipped++;
+            // Only log every 10th skipped post to avoid spam
+            if (skipped % 10 === 0 || skipped <= 5) {
+              console.log(`  Skipping post with no organic impressions: ${post.post_slug || file}`);
+            }
+          }
         } else {
           skipped++;
         }
@@ -234,7 +301,7 @@ function main() {
     }
 
     if (aggregated.length > 0) {
-      const withImpressions = aggregated.filter(p => p.impressions > 0).length;
+      // All posts in aggregated already have impressions > 0 (filtered above)
       const totalImpressions = aggregated.reduce(
         (sum, p) => sum + (p.impressions || 0),
         0
@@ -243,11 +310,13 @@ function main() {
         (sum, p) => sum + (p.engagements || 0),
         0
       );
+      const postsWithCaptions = aggregated.filter(p => p.caption).length;
 
       console.log('\nSummary:');
-      console.log(`  - Posts with impressions: ${withImpressions}`);
-      console.log(`  - Total impressions: ${totalImpressions.toLocaleString()}`);
-      console.log(`  - Total engagements: ${totalEngagements.toLocaleString()}`);
+      console.log(`  - Posts with organic metrics: ${aggregated.length}`);
+      console.log(`  - Posts with captions: ${postsWithCaptions}`);
+      console.log(`  - Total organic impressions: ${totalImpressions.toLocaleString()}`);
+      console.log(`  - Total organic engagements: ${totalEngagements.toLocaleString()}`);
     }
 
     console.log('\n✅ Aggregation completed successfully!');
