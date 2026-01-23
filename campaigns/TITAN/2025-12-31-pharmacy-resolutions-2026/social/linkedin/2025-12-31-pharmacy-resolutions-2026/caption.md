@@ -37,3 +37,8 @@ Let's make 2026 the year your pharmacy transforms.
 👉 Ready to see what's next? Visit titanpmr.com to learn more.
 
 #PharmacyResolutions #Pharmacy2026 #NewYearNewPharmacy #PharmacyTransformation #DigitalPharmacy #PharmacyInnovation #PharmacyGrowth #TitanPMR #PharmacyGoals
+
+
+
+
+

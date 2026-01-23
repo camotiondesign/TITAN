@@ -74,3 +74,8 @@ BNF guidance is now embedded in Titan PMR and Titanverse. Clinical checks, dispe
 - Tone: Infrastructure upgrade, not partnership announcement
 - Titan leads narrative; BNF validates source
 - Success metric: Impressions (not engagement rate, which is inflated for carousels)
+
+
+
+
+

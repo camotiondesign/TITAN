@@ -33,3 +33,8 @@ Swipe through to see how this works in practice.
 - Tone: Infrastructure upgrade, not partnership excitement
 - Avoid: "Game-changing," "revolutionary," partner-centric language
 - Focus: Workflow impact and clinical credibility
+
+
+
+
+

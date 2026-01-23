@@ -33,3 +33,8 @@ A motivational carousel presenting key pharmacy resolutions for 2026. Focuses on
 - Forward-looking, transformation-focused
 - References successful 2025 transformations
 - Engagement prompt asking for resolutions
+
+
+
+
+
