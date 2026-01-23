@@ -16,12 +16,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       
       - name: Aggregate metrics
         run: node scripts/aggregate-metrics.js
@@ -31,7 +32,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add analytics/aggregated-linkedin-metrics.json
-          git diff --staged --quiet || git commit -m "chore: update aggregated LinkedIn metrics [skip ci]"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update aggregated LinkedIn metrics [skip ci]"
+            git push
+          fi
