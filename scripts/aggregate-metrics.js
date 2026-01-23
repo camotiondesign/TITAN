@@ -130,8 +130,9 @@ function main() {
     console.log(`Found ${metricsFiles.length} metrics.json files`);
 
     if (metricsFiles.length === 0) {
-      console.warn('⚠️  No metrics files found. This might be expected if no posts exist yet.');
-      console.log('Creating empty output file...');
+      console.error('❌ No LinkedIn metrics.json files found under campaigns/TITAN/**/social/linkedin/**');
+      console.error('   Check that metrics.json exists for at least one LinkedIn post and that the path is correct.');
+      process.exit(1);
     }
 
     const aggregated = [];
@@ -157,6 +158,12 @@ function main() {
     });
 
     console.log(`Processed ${processed} files, ${aggregated.length} successful, ${skipped} skipped`);
+
+    if (aggregated.length === 0) {
+      console.error('❌ Aggregation produced 0 valid LinkedIn posts.');
+      console.error('   Metrics files were found but all were empty/invalid. Failing workflow.');
+      process.exit(1);
+    }
 
   // Sort by posted_at date (most recent first), then by campaign_slug
   try {

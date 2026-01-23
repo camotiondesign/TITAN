@@ -35,16 +35,16 @@ jobs:
           echo ""
           echo "=== Directory Structure ==="
           echo "Scripts directory:"
-          ls -la scripts/ || true
+          ls -la scripts/
           echo ""
           echo "Campaigns directory:"
-          ls -la campaigns/ || true
+          ls -la campaigns/
           echo ""
           echo "Checking campaigns/TITAN:"
           if [ -d "campaigns/TITAN" ]; then
             echo "✓ campaigns/TITAN exists"
             echo "Sample contents:"
-            ls campaigns/TITAN/ | head -5 || true
+            ls campaigns/TITAN/ | head -5
           else
             echo "✗ campaigns/TITAN does not exist!"
             exit 1
