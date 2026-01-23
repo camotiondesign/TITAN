@@ -25,7 +25,22 @@ jobs:
           node-version: '20'
       
       - name: Aggregate metrics
-        run: node scripts/aggregate-metrics.js
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing scripts directory:"
+          ls -la scripts/ || true
+          echo "Running aggregation script..."
+          node scripts/aggregate-metrics.js
+      
+      - name: Verify output file
+        run: |
+          if [ -f "analytics/aggregated-linkedin-metrics.json" ]; then
+            echo "✓ Output file created successfully"
+            echo "File size: $(wc -c < analytics/aggregated-linkedin-metrics.json) bytes"
+          else
+            echo "✗ Output file not found!"
+            exit 1
+          fi
       
       - name: Commit and push changes
         run: |

@@ -84,14 +84,21 @@ function loadPostMetrics(filePath) {
  * Main aggregation function
  */
 function main() {
-  if (!fs.existsSync(BASE_DIR)) {
-    console.error(`Base directory not found: ${BASE_DIR}`);
-    process.exit(1);
-  }
+  try {
+    console.log(`Working directory: ${process.cwd()}`);
+    console.log(`Script location: ${__dirname}`);
+    console.log(`Base directory: ${BASE_DIR}`);
+    console.log(`Base directory exists: ${fs.existsSync(BASE_DIR)}`);
+    
+    if (!fs.existsSync(BASE_DIR)) {
+      console.error(`Base directory not found: ${BASE_DIR}`);
+      console.error(`Current working directory: ${process.cwd()}`);
+      process.exit(1);
+    }
 
-  console.log(`Scanning for LinkedIn metrics in ${BASE_DIR}...`);
-  const metricsFiles = findLinkedinMetricsFiles(BASE_DIR);
-  console.log(`Found ${metricsFiles.length} metrics.json files`);
+    console.log(`Scanning for LinkedIn metrics in ${BASE_DIR}...`);
+    const metricsFiles = findLinkedinMetricsFiles(BASE_DIR);
+    console.log(`Found ${metricsFiles.length} metrics.json files`);
 
   const aggregated = [];
   let skipped = 0;
@@ -117,7 +124,9 @@ function main() {
 
   // Ensure output directory exists
   const outputDir = path.dirname(OUTPUT_PATH);
+  console.log(`Output directory: ${outputDir}`);
   if (!fs.existsSync(outputDir)) {
+    console.log(`Creating output directory: ${outputDir}`);
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
@@ -132,7 +141,9 @@ function main() {
     posts: aggregated,
   };
 
+  console.log(`Writing output to: ${OUTPUT_PATH}`);
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));
+  console.log(`✓ Successfully wrote ${aggregated.length} posts to ${OUTPUT_PATH}`);
 
   console.log(`\n✓ Aggregated ${aggregated.length} LinkedIn posts`);
   console.log(`  - Output: ${OUTPUT_PATH}`);
@@ -149,6 +160,18 @@ function main() {
     console.log(`  - Total impressions: ${totalImpressions.toLocaleString()}`);
     console.log(`  - Total engagements: ${totalEngagements.toLocaleString()}`);
   }
+  } catch (error) {
+    console.error('Error in main():', error);
+    console.error(error.stack);
+    process.exit(1);
+  }
 }
 
-main();
+// Wrap main in try-catch for unhandled errors
+try {
+  main();
+} catch (error) {
+  console.error('Unhandled error:', error);
+  console.error(error.stack);
+  process.exit(1);
+}
