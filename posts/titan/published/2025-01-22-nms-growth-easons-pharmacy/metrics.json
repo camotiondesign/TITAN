@@ -1,0 +1,48 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-01-22",
+  "campaign_slug": "2025-01-22-nms-growth-easons-pharmacy",
+  "asset_type": "single-image",
+  "boosted": true,
+  "sponsored_dates": {
+    "start": "2025-01-22",
+    "end": "2025-01-23"
+  },
+  "impressions": 1347,
+  "reach": 552,
+  "engagements": 62,
+  "engagement_rate": 1.9,
+  "clicks": 38,
+  "click_through_rate": 1.1,
+  "reactions": 21,
+  "comments": 0,
+  "reposts": 5,
+  "followers_gained": 0,
+  "organic": {
+    "impressions": 1347,
+    "reach": 552,
+    "engagements": 62,
+    "engagement_rate": 4.6,
+    "clicks": 36,
+    "click_through_rate": 2.7,
+    "reactions": 21,
+    "comments": 0,
+    "reposts": 5
+  },
+  "sponsored": {
+    "impressions": 1979,
+    "engagements": 2,
+    "engagement_rate": 0.1,
+    "clicks": 2,
+    "click_through_rate": 0.1,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "ecpm": 8.08,
+    "cost_per_engagement": 4.04,
+    "spend": 8.08
+  },
+  "notes": "Post boosted from 2025-01-22 to 2025-01-23. Strong organic performance (4.6% engagement rate, 2.7% CTR) but limited sponsored engagement (0.1% engagement rate). ROI framing (£3K/month) and clear visual chart resonated with warm audience. Revenue numbers drive curiosity and stop-scroll. Reposts (5) indicate content was valuable for sharing.",
+  "has_sponsored": true
+}

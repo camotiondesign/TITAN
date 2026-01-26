@@ -1,0 +1,1 @@
+A promotional poster styled like a music tour announcement, taped to a gritty street poster wall. The text reads: 'LIVE: AI in Pharmacy Tour — Now Headlining the NHS — Featuring the Original 2021 Titan Set.' The design mimics concert tour branding to promote AI adoption in pharmacy.

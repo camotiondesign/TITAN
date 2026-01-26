@@ -1,0 +1,1 @@
+A promotional graphic announcing Community Pharmacy Leicestershire & Rutland AGM 2025. It includes the event tagline Shaping the year ahead for Midlands pharmacy, with the details: Hilton Hotel Leicester, 28 September 2025, 9:30am–12:30pm. The lower half shows a colourful illustrated skyline of Leicester landmarks. Banner at the bottom reads: Sponsored by TITAN.

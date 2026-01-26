@@ -1,0 +1,1 @@
+Minimalist image of two blue ping-pong paddles lying side by side with a white ping-pong ball hovering above them. Black text above reads "STOP NOMINATION PING-PONG." The word "TITAN" appears at the bottom.

@@ -1,0 +1,35 @@
+{
+  "platform": "linkedin",
+  "boosted": false,
+  "impressions": 770,
+  "reach": 397,
+  "engagements": 64,
+  "clicks": 37,
+  "engagement_rate": 8.3,
+  "click_through_rate": 4.8,
+  "reactions": 21,
+  "comments": 1,
+  "reposts": 5,
+  "page_viewers": 4,
+  "followers_gained": 0,
+  "organic": {
+    "impressions": 770,
+    "reach": 397,
+    "engagements": 64,
+    "clicks": 37,
+    "reactions": 21,
+    "comments": 1,
+    "reposts": 5
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "clicks": 0,
+    "spend": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0
+  },
+  "asset_type": "single-image",
+  "posted_at": "2025-11-27",
+  "campaign_slug": "2025-11-27-ai-agents-quick-actions"
+}

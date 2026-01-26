@@ -1,0 +1,1 @@
+Black background with bold white and blue text reading: 'TITAN CHECKS EVERY SCRIPT. EVERY TIME.' Three multi-coloured capsules lie at the bottom of the image, symbolising medication safety and accuracy.

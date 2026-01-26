@@ -1,0 +1,4 @@
+A comparison diagram showing the shift from human ad-hoc triage to systemic digital triage.
+On the left, a grey flowchart titled "Human Ad-Hoc Triage" has four stacked boxes: "The Inflexible System," "Manual Chaos & Prioritisation," a graphic of a person overwhelmed by floating tasks labelled "Human "Hero" Routing (Intuition / Effort)," and "Failure at Scale / Burnout."
+On the right, a blue flowchart titled "Systemic Digital Triage" shows: "The Adaptive System," "Automated Ingestion & Analysis," an illustrated funnel with structured digital tasks feeding into it labelled "Logic-Based Routing (Rules / Algorithms)," and "Scalability / Reliability."
+A horizontal arrow in the centre reads "Transition." At the bottom, a note says "The Goal: Move from manual burden to automated intelligence," with Titan branding below.

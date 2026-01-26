@@ -37,17 +37,25 @@ jobs:
           echo "Scripts directory:"
           ls -la scripts/
           echo ""
-          echo "Campaigns directory:"
-          ls -la campaigns/
+          echo "Posts directory:"
+          ls -la posts/
           echo ""
-          echo "Checking campaigns/TITAN:"
-          if [ -d "campaigns/TITAN" ]; then
-            echo "✓ campaigns/TITAN exists"
+          echo "Checking posts/titan/published:"
+          if [ -d "posts/titan/published" ]; then
+            echo "✓ posts/titan/published exists"
             echo "Sample contents:"
-            ls campaigns/TITAN/ | head -5
+            ls posts/titan/published/ | head -5
           else
-            echo "✗ campaigns/TITAN does not exist!"
-            exit 1
+            echo "⚠️  posts/titan/published does not exist (may be empty)"
+          fi
+          echo ""
+          echo "Checking posts/titanverse/published:"
+          if [ -d "posts/titanverse/published" ]; then
+            echo "✓ posts/titanverse/published exists"
+            echo "Sample contents:"
+            ls posts/titanverse/published/ | head -5
+          else
+            echo "⚠️  posts/titanverse/published does not exist (may be empty)"
           fi
           echo ""
           echo "=== Running Script ==="

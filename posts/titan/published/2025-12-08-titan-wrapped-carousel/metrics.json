@@ -1,0 +1,53 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-12-08",
+  "campaign_slug": "2025-12-08-titan-wrapped-2025",
+  "asset_type": "carousel",
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 2622,
+  "reach": 1625,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 2353,
+  "ctr": 89.7,
+  "reactions": 32,
+  "comments": 7,
+  "reposts": 2,
+  "follows": 2,
+  "leads": 0,
+  "engagements": 2394,
+  "engagement_rate": 91.3,
+  "organic": {
+    "impressions": 2622,
+    "reach": 1625,
+    "engagements": 2394,
+    "engagement_rate": 91.3,
+    "clicks": 2353,
+    "click_through_rate": 89.7,
+    "reactions": 32,
+    "comments": 7,
+    "reposts": 2,
+    "page_viewers": 5,
+    "followers_gained": 2
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  "notes": "Titan PMR Wrapped 2025 - annual year-end summary carousel with exceptional engagement (91.3% engagement rate, 89.7% CTR)"
+}

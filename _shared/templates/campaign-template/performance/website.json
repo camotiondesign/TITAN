@@ -1,0 +1,16 @@
+{
+  "platform": "website",
+  "source": "ga4",
+  "campaign_slug": "YYYY-MM-DD-slug",
+  "page_path": "/case-studies/slug",
+  "captured_at": "YYYY-MM-DD",
+  "views": 0,
+  "active_users": 0,
+  "views_per_active_user": 0,
+  "avg_engagement_time_seconds": 0,
+  "event_count": 0,
+  "percent_of_total_views": 0,
+  "percent_of_total_users": 0,
+  "percent_of_total_events": 0,
+  "notes": "Template only. Fill when copied into a real campaign with blog/case study content."
+}

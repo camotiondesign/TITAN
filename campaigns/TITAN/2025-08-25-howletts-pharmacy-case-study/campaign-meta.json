@@ -12,8 +12,11 @@
     "person_name": "Pritee",
     "location": ""
   },
-  "notes": "Case study published on website August 25, 2025. Features 6,500+ items/month, 50-60% AI-checked prescriptions, 10+ hours/week saved, service growth (1 private consultation/month to 2-3/day), and team-first digital transformation."
+  "notes": "Case study published on website August 25, 2025. Features 6,500+ items/month, 50-60% AI-checked prescriptions, 10+ hours/week saved, service growth (1 private consultation/month to 2-3/day), and team-first digital transformation.",
+  "posts": [
+    "2025-08-26-howletts-longform-video",
+    "2025-08-28-howletts-batch-flow-tutorial",
+    "2025-09-25-howletts-short-video",
+    "2025-12-22-pritee-safety-short-video"
+  ]
 }
-
-
-

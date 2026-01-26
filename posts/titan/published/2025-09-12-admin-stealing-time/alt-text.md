@@ -1,0 +1,1 @@
+Split graphic illustrating pharmacy admin overload versus digital workflow. Left side shows TITAN's on-screen Prescription Board with clear columns for inbox, check and parked tasks. Right side shows piles of disorganised paperwork, folders and loose post-its. Text reads '80% of UK pharmacies say admin blocks service delivery.' Source PSNC.

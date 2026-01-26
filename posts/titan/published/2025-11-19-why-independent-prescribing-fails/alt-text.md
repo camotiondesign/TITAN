@@ -1,0 +1,1 @@
+A bold blue Titan-branded graphic with the headline "Why Independent Prescribing Fails Inside Most Pharmacies." Below the title is an illustrated close-up of a hand holding a pen and writing on a clinical form. A black button at the bottom reads "Read the full piece (link in caption)." The design uses gradients and geometric patterns in Titan's signature blue style.

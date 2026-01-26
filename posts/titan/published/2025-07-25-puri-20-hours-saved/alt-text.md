@@ -1,0 +1,1 @@
+Superintendent pharmacist Rahul Puri stands in the dispensary, gesturing with his hands while speaking. Large headline text reads: '20+ HOURS SAVED A WEEK PER PHARMACIST.' Below him is a quote: 'Now I'm not glued to the bench frantically having to check things.' A small blue tag labels him 'Pharmacist.' Promotional testimonial-style graphic for Titan PMR.

@@ -1,0 +1,45 @@
+{
+  "pillars": [
+    {
+      "id": "proof-social-proof",
+      "name": "Proof & Social Proof",
+      "purpose": "Build trust, validate purchase decisions"
+    },
+    {
+      "id": "product-explanation",
+      "name": "Product Explanation",
+      "purpose": "Educate on capabilities, support consideration"
+    },
+    {
+      "id": "leadership-strategic",
+      "name": "Leadership & Strategic Worldview",
+      "purpose": "Position as industry leader"
+    },
+    {
+      "id": "problem-solution",
+      "name": "Problem-Solution Positioning",
+      "purpose": "Create urgency, position solution"
+    },
+    {
+      "id": "education-tactical",
+      "name": "Education & Tactical Guidance",
+      "purpose": "Provide value, build authority"
+    },
+    {
+      "id": "community-culture",
+      "name": "Community & Culture",
+      "purpose": "Build connection, humanize brand"
+    },
+    {
+      "id": "regulatory-updates",
+      "name": "Regulatory & Industry Updates",
+      "purpose": "Industry expert, timely value"
+    },
+    {
+      "id": "engagement-conversation",
+      "name": "Engagement & Conversation Starters",
+      "purpose": "Drive interaction, gather insights"
+    }
+  ],
+  "updated_at": "2026-01-24T07:03:34.358Z"
+}

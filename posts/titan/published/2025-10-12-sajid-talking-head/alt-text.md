@@ -1,0 +1,1 @@
+"Guys, we're at The Pharmacy Show today. We've got so much to show. Not only is it Titan — we're also going to be showing off Titanverse, the everything app for pharmacy services. Come down Sunday and Monday."

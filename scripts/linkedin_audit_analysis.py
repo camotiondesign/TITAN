@@ -17,16 +17,8 @@ BASE_DIR = Path(__file__).parent.parent
 
 def load_tcps_scores() -> Dict[str, Dict]:
     """Load TCPS scores and create lookup by post path."""
-    tcps_file = BASE_DIR / "tcps_scores.json"
-    if not tcps_file.exists():
-        return {}
-    
-    with open(tcps_file, 'r', encoding='utf-8') as f:
-        scores = json.load(f)
-    
-    # Create lookup by normalized path
-    lookup = {}
-    for entry in scores:
+    # TCPS has been removed - return empty dict
+    return {}
         post_id = entry.get('post_id', '')
         # Normalize path: remove campaigns/ prefix if present
         normalized = post_id.replace('campaigns/', '')
@@ -102,14 +94,10 @@ def collect_all_linkedin_posts() -> List[Dict]:
             # Get metrics
             metrics = load_metrics(caption_file.parent)
             
-            # Get TCPS score
-            tcps_scores = load_tcps_scores()
-            rel_path = str(caption_file.relative_to(BASE_DIR))
-            tcps_data = tcps_scores.get(rel_path, {})
-            
             # Extract post metadata
             post_dir = caption_file.parent
             post_name = post_dir.name
+            rel_path = str(caption_file.relative_to(BASE_DIR))
             
             posts.append({
                 'path': str(caption_file),
@@ -117,11 +105,9 @@ def collect_all_linkedin_posts() -> List[Dict]:
                 'post_name': post_name,
                 'caption': caption_text,
                 'metrics': metrics,
-                'tcps': tcps_data.get('tcps', 0),
-                'engagement_score': tcps_data.get('engagement_score', 0),
-                'comments': metrics.get('comments', 0) or tcps_data.get('breakdown', {}).get('comments', 0),
-                'reposts': metrics.get('reposts', 0) or tcps_data.get('breakdown', {}).get('reposts', 0),
-                'reactions': metrics.get('reactions', 0) or tcps_data.get('breakdown', {}).get('reactions', 0),
+                'comments': metrics.get('comments', 0),
+                'reposts': metrics.get('reposts', 0),
+                'reactions': metrics.get('reactions', 0),
                 'impressions': metrics.get('impressions', 0),
                 'engagement_rate': metrics.get('engagement_rate', 0),
             })
@@ -218,8 +204,6 @@ def identify_emotional_arc(caption: str) -> str:
 
 def calculate_performance_score(post: Dict) -> float:
     """Calculate composite performance score."""
-    tcps = post.get('tcps', 0)
-    engagement_score = post.get('engagement_score', 0)
     comments = post.get('comments', 0)
     reposts = post.get('reposts', 0)
     reactions = post.get('reactions', 0)
@@ -227,18 +211,17 @@ def calculate_performance_score(post: Dict) -> float:
     
     # Normalize and weight
     score = 0
-    if tcps > 0:
-        score += tcps * 0.4
-    if engagement_score > 0:
-        score += engagement_score * 0.3
+    impressions = post.get('impressions', 0)
     if comments > 0:
-        score += comments * 0.1
+        score += comments * 0.3
     if reposts > 0:
-        score += reposts * 0.1
+        score += reposts * 0.2
     if reactions > 0:
-        score += reactions * 0.05
+        score += reactions * 0.15
     if engagement_rate > 0:
-        score += engagement_rate * 0.05
+        score += engagement_rate * 0.2
+    if impressions > 0:
+        score += impressions * 0.15
     
     return score
 

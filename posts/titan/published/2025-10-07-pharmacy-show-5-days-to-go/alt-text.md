@@ -1,0 +1,1 @@
+Bold graphic countdown poster with a large gradient blue number 5 dominating the background. Text reads 'Days To Go.' At the top, the Pharmacy Show logo with dates 12–13 October 2025, NEC Birmingham. Bottom corner features a circular badge noting TITAN as Café Sponsor.

@@ -1,0 +1,22 @@
+{
+  "title": "How Safy's Chemist Cut Near Misses by 97% and Freed 85% of Pharmacist Time",
+  "type": "case-study",
+  "brand": "TITAN",
+  "status": "published",
+  "primary_asset": "blog",
+  "start_date": "2025-12-15",
+  "end_date": "",
+  "owner": "Cam",
+  "subject": {
+    "pharmacy_name": "Safy's Chemist",
+    "person_name": "Asif",
+    "location": "Melton Road"
+  },
+  "notes": "Case study published on website December 15, 2025. Features 97% reduction in near misses (5-6/month to 2/year), 85% of pharmacist time freed for services, 14,500-15,000 items/month, 100% paperless workflow, zero lost prescriptions in a year.",
+  "posts": [
+    "2025-12-31-97-percent-fewer-near-misses-carousel",
+    "2026-01-05-safys-chemist-97-percent-near-misses-single",
+    "2026-01-07-safys-chemist-case-study-carousel",
+    "2026-01-13-asif-safys-chemist-longform-video"
+  ]
+}

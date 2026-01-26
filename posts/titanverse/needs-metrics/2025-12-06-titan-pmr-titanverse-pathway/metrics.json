@@ -1,0 +1,51 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-12-06",
+  "campaign_slug": "2025-12-04-from-dispensing-to-health-hub",
+  "asset_type": "single-image",
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 0,
+  "reach": 0,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "reactions": 0,
+  "comments": 0,
+  "reposts": 0,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 0,
+  "engagement_rate": 0,
+  "organic": {
+    "impressions": 0,
+    "reach": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  "notes": "Evolution narrative single image. Fill metrics after post goes live."
+}

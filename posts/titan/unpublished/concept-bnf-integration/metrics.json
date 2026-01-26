@@ -1,0 +1,17 @@
+{
+  "impressions": null,
+  "reach": null,
+  "engagements": null,
+  "engagement_rate": null,
+  "clicks": null,
+  "click_through_rate": null,
+  "reactions": null,
+  "comments": null,
+  "reposts": null,
+  "followers_gained": null,
+  "video_views": null,
+  "average_watch_time": null,
+  "total_watch_time": null,
+  "page_views": null,
+  "notes": "Metrics to be populated after campaign launch. Success metric: impressions (target 5000+). Engagement rate will be inflated for carousels due to swipe counting."
+}

@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-// Aggregate LinkedIn metrics from all campaigns for Zapier integration.
-// Scans campaigns/TITAN/*/social/linkedin/*/metrics.json and aggregates
-// all posts into a single JSON array for Zapier.
+// Aggregate LinkedIn metrics from all published posts for Zapier integration.
+// Scans posts/titan/published/**/metrics.json and posts/titanverse/published/**/metrics.json
+// and aggregates all posts into a single JSON array for Zapier.
 
 const fs = require('fs');
 const path = require('path');
 
-const BASE_DIR = path.join(__dirname, '..', 'campaigns', 'TITAN');
+const POSTS_DIR = path.join(__dirname, '..', 'posts');
 const OUTPUT_PATH = path.join(__dirname, '..', 'analytics', 'aggregated-linkedin-metrics.json');
 
 /**
- * Recursively find all metrics.json files under social/linkedin directories
+ * Recursively find all metrics.json files in published post directories
  */
 function findLinkedinMetricsFiles(dir, results = []) {
   if (!fs.existsSync(dir)) {
@@ -26,13 +26,13 @@ function findLinkedinMetricsFiles(dir, results = []) {
       const stat = fs.statSync(entryPath);
 
       if (stat.isDirectory()) {
-        findLinkedinMetricsFiles(entryPath, results);
-      } else if (entry === 'metrics.json') {
-        // Only keep metrics.json files that live under social/linkedin
-        const parts = entryPath.split(path.sep);
-        const socialIndex = parts.indexOf('social');
-        if (socialIndex !== -1 && parts[socialIndex + 1] === 'linkedin') {
-          results.push(entryPath);
+        // Check if this directory contains a metrics.json file
+        const metricsPath = path.join(entryPath, 'metrics.json');
+        if (fs.existsSync(metricsPath)) {
+          results.push(metricsPath);
+        } else {
+          // Continue searching in subdirectories
+          findLinkedinMetricsFiles(entryPath, results);
         }
       }
     } catch (err) {
@@ -74,13 +74,11 @@ function loadPostMetrics(filePath) {
     }
 
     // Extract post slug from path
-    // Path format: campaigns/TITAN/[campaign-slug]/social/linkedin/[post-slug]/metrics.json
+    // Path format: posts/[brand]/published/[post-slug]/metrics.json
+    // or: posts/[brand]/needs-metrics/[post-slug]/metrics.json
+    // or: posts/[brand]/unpublished/[post-slug]/metrics.json
     const parts = filePath.split(path.sep);
-    const linkedinIndex = parts.indexOf('linkedin');
-    const postSlug =
-      linkedinIndex !== -1 && parts[linkedinIndex + 1]
-        ? parts[linkedinIndex + 1]
-        : null;
+    const postSlug = path.basename(path.dirname(filePath));
 
     // Calculate relative path safely
     let relativePath;
@@ -136,15 +134,6 @@ function loadPostMetrics(filePath) {
       leads: 0, // Leads are typically not broken down by organic/sponsored
       engagements: organicMetrics.engagements || 0,
       engagement_rate: organicMetrics.engagement_rate || 0,
-      // TCPS scores (keep these as they're calculated from organic)
-      tcps_version: metrics.tcps_version || '',
-      tcps_raw: metrics.tcps_raw || 0,
-      tcps_inputs: metrics.tcps_inputs || {},
-      tcps_warnings: metrics.tcps_warnings || [],
-      tcps_efficiency_raw: metrics.tcps_efficiency_raw || 0,
-      tcps_distribution_raw: metrics.tcps_distribution_raw || 0,
-      tcps_total_raw: metrics.tcps_total_raw || 0,
-      tcps_impression_tier: metrics.tcps_impression_tier || '',
       // Metadata
       notes: metrics.notes || '',
       post_slug: postSlug,
@@ -167,29 +156,27 @@ function main() {
   try {
     console.log(`Working directory: ${process.cwd()}`);
     console.log(`Script location: ${__dirname}`);
-    console.log(`Base directory: ${BASE_DIR}`);
+    console.log(`Posts directory: ${POSTS_DIR}`);
 
-    const campaignsDir = path.join(__dirname, '..', 'campaigns');
-    if (!fs.existsSync(campaignsDir)) {
-      console.error(`❌ Campaigns directory not found: ${campaignsDir}`);
+    if (!fs.existsSync(POSTS_DIR)) {
+      console.error(`❌ Posts directory not found: ${POSTS_DIR}`);
       console.error(`   Current working directory: ${process.cwd()}`);
       return 1;
     }
 
-    console.log(`Base directory exists: ${fs.existsSync(BASE_DIR)}`);
-
-    if (!fs.existsSync(BASE_DIR)) {
-      console.warn(`⚠️  Base directory not found: ${BASE_DIR}`);
-      console.warn(`   This is expected if no TITAN campaigns exist yet. Creating empty output.`);
-    }
-
-    console.log(`Scanning for LinkedIn metrics in ${BASE_DIR}...`);
-    const metricsFiles = findLinkedinMetricsFiles(BASE_DIR);
-    console.log(`Found ${metricsFiles.length} metrics.json files`);
+    // Scan both titan and titanverse published posts
+    const titanPublishedDir = path.join(POSTS_DIR, 'titan', 'published');
+    const titanversePublishedDir = path.join(POSTS_DIR, 'titanverse', 'published');
+    
+    console.log(`Scanning for LinkedIn metrics in published posts...`);
+    const titanFiles = fs.existsSync(titanPublishedDir) ? findLinkedinMetricsFiles(titanPublishedDir) : [];
+    const titanverseFiles = fs.existsSync(titanversePublishedDir) ? findLinkedinMetricsFiles(titanversePublishedDir) : [];
+    const metricsFiles = [...titanFiles, ...titanverseFiles];
+    console.log(`Found ${metricsFiles.length} metrics.json files (${titanFiles.length} Titan, ${titanverseFiles.length} Titanverse)`);
 
     let warning = null;
     if (metricsFiles.length === 0) {
-      console.warn('⚠️  No LinkedIn metrics.json files found under campaigns/TITAN/**/social/linkedin/**');
+      console.warn('⚠️  No LinkedIn metrics.json files found under posts/*/published/**');
       warning = 'No metrics files found';
     }
 

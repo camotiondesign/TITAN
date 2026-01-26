@@ -1,0 +1,1 @@
+Blue fireworks burst against a dark background. Large bold text reads "HAPPY NEW YEAR" in white and bright blue. Below it, smaller text says "Wishing you a prosperous 2026". The Titan logo appears at the bottom.

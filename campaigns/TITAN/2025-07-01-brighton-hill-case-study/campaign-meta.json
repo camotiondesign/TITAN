@@ -12,8 +12,13 @@
     "person_name": "Sagar Lungiwala",
     "location": "Basingstoke"
   },
-  "notes": "Case study published on website July 1, 2025. Features 4K to 17K item growth, 80% time for services, first UK Titan-Meditech robot integration, and service-led model."
+  "notes": "Case study published on website July 1, 2025. Features 4K to 17K item growth, 80% time for services, first UK Titan-Meditech robot integration, and service-led model.",
+  "posts": [
+    "2025-07-22-brighton-hill-longform-video",
+    "2025-07-31-sagar-4x-growth-carousel",
+    "2025-09-17-brighton-hill-workflow-video",
+    "2025-11-29-sagar-fourfold-growth-video",
+    "2025-12-12-brighton-hill-scaling-single",
+    "2025-12-27-sagar-workflow-short-video"
+  ]
 }
-
-
-

@@ -1,0 +1,1 @@
+Illustrated digital graphic celebrating Pharmacy Technician Day 2025. Six diverse animated pharmacy team members stand smiling in front of pharmacy shelves stocked with medicines and supplies. The centre text reads '2025 Pharmacy Technician Day' with small celebratory confetti and party icons above, and the subtitle 'Thank You, Pharmacy Technicians' beneath.

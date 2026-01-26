@@ -1,0 +1,1 @@
+Conference promotional graphic reading 'Thriving Through Change – Turning challenge into opportunities for growth – CPGM Connect Conference 2025.' Includes date, time and location details and a skyline illustration of Manchester landmarks. Banner at the bottom reads 'Lead sponsor | TITAN.'

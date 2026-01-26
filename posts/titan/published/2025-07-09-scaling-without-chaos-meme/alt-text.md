@@ -1,0 +1,1 @@
+Meme: Four-panel Gru storyboard plan meme: 1) 'We need to scale dispensing.' 2) 'Let's hire more staff.' 3) 'Still drowning in red baskets.' 4) '...We should probably fix the system.'

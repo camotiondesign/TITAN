@@ -1,0 +1,3 @@
+# Video Transcript
+
+With the tight and PMR, it absolutely helps, because we can exactly track where the prescription is, what stage of the pharmacy it is, whether we have received the prescription or not, at what part of dispensing stage it is at, or whether it's already for collection when in a busy hour of the pharmacy, I'm sure my team is all calm and collected. Most of prescriptions are ready for the same day collection, provided the GP surgery sensor prescription. It just flows, very easy to learn. And by day one of my this current pharmacy, I was able to teach my team. The whole team was feeling comfortable in terms of dispensing the prescription. And.

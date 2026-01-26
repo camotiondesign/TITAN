@@ -1,0 +1,1 @@
+Tumi, a dispenser in a community pharmacy, smiles while holding a large yellow tote box filled with boxed medicines. She is standing in a dispensary workspace with shelves, a computer, and pharmacy supplies visible in the background.

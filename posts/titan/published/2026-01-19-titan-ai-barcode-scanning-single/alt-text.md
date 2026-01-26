@@ -1,0 +1,1 @@
+Illustration of a pharmacist standing at a dispensary bench scanning medicine packs with a handheld barcode scanner. Dozens of floating icons—barcodes, check marks and medicine labels—surround him, symbolising automated checks. Text above reads: "Don't rely on manual checking. Use TITAN AI + Barcode scanning." Titan logo appears at the bottom.

@@ -1,0 +1,1 @@
+Image of the character Gandalf from Lord of the Rings holding out his staff as if blocking a path. White caption text reads: 'YOU SHALL NOT… LEAVE THE PHARMACY ON TIME!' referencing the common struggle of pharmacists working late.

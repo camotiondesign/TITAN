@@ -1,0 +1,53 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2025-12-06",
+  "campaign_slug": "2025-12-05-knight-street-pharmacy-site-visit",
+  "asset_type": "single-image",
+  "boosted": false,
+  "sponsored_dates": {
+    "start": "",
+    "end": ""
+  },
+  "impressions": 2034,
+  "reach": 1265,
+  "views": 0,
+  "watch_time_hours": 0,
+  "avg_view_duration_seconds": 0,
+  "clicks": 130,
+  "ctr": 6.4,
+  "reactions": 12,
+  "comments": 2,
+  "reposts": 3,
+  "follows": 0,
+  "leads": 0,
+  "engagements": 147,
+  "engagement_rate": 7.2,
+  "organic": {
+    "impressions": 2034,
+    "reach": 1265,
+    "engagements": 147,
+    "engagement_rate": 7.2,
+    "clicks": 130,
+    "click_through_rate": 6.4,
+    "reactions": 12,
+    "comments": 2,
+    "reposts": 3,
+    "page_viewers": 13,
+    "followers_gained": 0
+  },
+  "sponsored": {
+    "impressions": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "clicks": 0,
+    "click_through_rate": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "ecpm": 0,
+    "cost_per_engagement": 0,
+    "spend": 0
+  },
+  "notes": "Single image post featuring Tumi from Knight Street Pharmacy"
+}

@@ -1,0 +1,1 @@
+SpongeBob SquarePants making a rainbow with his hands, with the caption 'How don't you check every item yourself?' and the rainbow labelled 'Automation,' representing automated clinical checking and workflow in pharmacy.

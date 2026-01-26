@@ -1,0 +1,1 @@
+Team of Titan staff in white hoodies standing in front of a TITAN-branded stand at The Pharmacy Show 2025, with headline text 'Back at the Pharmacy Show Bigger Than Ever', event dates, stand number D55, and a button reading 'Register for your free pass today'.

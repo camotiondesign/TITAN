@@ -12,8 +12,10 @@
     "person_name": "Yusuf",
     "location": "Midlands"
   },
-  "notes": "Case study published on website November 10, 2025. Features 12-branch group, 170,000 items/month, 70% reduction in clinical checking, 2x faster dispensing, 500% service growth, Titan PMR and Titanverse integration, and staff upskilling model."
+  "notes": "Case study published on website November 10, 2025. Features 12-branch group, 170,000 items/month, 70% reduction in clinical checking, 2x faster dispensing, 500% service growth, Titan PMR and Titanverse integration, and staff upskilling model.",
+  "posts": [
+    "2025-11-11-bmp-case-study-carousel",
+    "2025-11-13-bmp-case-study-single-image",
+    "2025-11-18-bmp-case-study-video"
+  ]
 }
-
-
-

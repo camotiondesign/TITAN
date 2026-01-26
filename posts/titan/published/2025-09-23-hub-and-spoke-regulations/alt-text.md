@@ -1,0 +1,1 @@
+A graphic titled 'Hub & Spoke.' The text reads: From 1 Oct 2025 independents can use hubs across ownership lines. The background shows a stylised network map of multiple connected points, illustrating pharmacies linking to a central hub. Footer text: This change is real. What's your first move? Branded with TITAN.

@@ -1,0 +1,1 @@
+A cinematic, thriller-style image inspired by American Psycho. A sharply dressed, intense-looking pharmacist stands in a dimly lit dispensary with medication shelves blurred behind him. He stares directly into the camera while holding out a prescription label as if it is a dramatic reveal. The composition mimics a movie poster, parodying psychological thriller tropes.

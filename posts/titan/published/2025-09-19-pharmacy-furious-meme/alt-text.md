@@ -1,0 +1,1 @@
+A parody movie-poster style graphic titled 'Pharmacy & Furious.' A muscle car speeds away from a dramatic explosion, while prescription paperwork flies through the air. A large prescription bottle rockets through the fire like debris. Tagline reads: 'Fast isn't the same as efficient.' Branding at the bottom notes it is powered by TITAN.
