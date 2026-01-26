@@ -1,0 +1,952 @@
+[
+  {
+    "id": 1,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Arrival and Ingestion",
+    "lesson_title": "Digital-first prescription arrival",
+    "learning_objective": "Understand how prescriptions arrive digitally through EPS/eRD without printed tokens.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.1 Arrival and ingestion)"
+  },
+  {
+    "id": 2,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Arrival and Ingestion",
+    "lesson_title": "The Kanban foundation",
+    "learning_objective": "Learn why visual boards replace hidden lists and piles in legacy systems.",
+    "format": "short_video",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.1 Arrival and ingestion)"
+  },
+  {
+    "id": 3,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Arrival and Ingestion",
+    "lesson_title": "Seeing work at a glance",
+    "learning_objective": "Understand how Kanban boards show waiting work, urgent items, and bottlenecks.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.1 Arrival and ingestion)"
+  },
+  {
+    "id": 4,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Arrival and Ingestion",
+    "lesson_title": "No more hidden work",
+    "learning_objective": "Recognise how legacy systems hide work in lists versus Titan's visible board approach.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.1 Arrival and ingestion)"
+  },
+  {
+    "id": 5,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Workflow Triage and Routing",
+    "lesson_title": "When the system knows the logic",
+    "learning_objective": "Understand how workflow logic moves from someone's head into visible, shared systems.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.3 Workflow triage and routing)"
+  },
+  {
+    "id": 6,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Workflow Triage and Routing",
+    "lesson_title": "Automatic prioritisation",
+    "learning_objective": "Learn how Titan applies prioritisation for same-day items, deliveries, care homes, MDS, and walk-ins.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.3 Workflow triage and routing)"
+  },
+  {
+    "id": 7,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Workflow Triage and Routing",
+    "lesson_title": "Stock position tracking",
+    "learning_objective": "Understand how the workflow engine tracks stock so items don't drift when unavailable.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.3 Workflow triage and routing)"
+  },
+  {
+    "id": 8,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Workflow Triage and Routing",
+    "lesson_title": "Systematic, not reactive",
+    "learning_objective": "Recognise how repeats, owings and priorities are handled systematically rather than reactively.",
+    "format": "blog",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.3 Workflow triage and routing)"
+  },
+  {
+    "id": 9,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Labelling, Assembly and Second Check",
+    "lesson_title": "Complete accountability",
+    "learning_objective": "Understand how Titan records who did what, when, and which items were involved at each stage.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.5 Labelling, assembly and second check)"
+  },
+  {
+    "id": 10,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Labelling, Assembly and Second Check",
+    "lesson_title": "No more guesswork",
+    "learning_objective": "Learn how clear audit trails reduce disputes and guesswork when investigating incidents.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.5 Labelling, assembly and second check)"
+  },
+  {
+    "id": 11,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Labelling, Assembly and Second Check",
+    "lesson_title": "Visible process issues",
+    "learning_objective": "Recognise how Titan makes process issues visible rather than hidden.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.5 Labelling, assembly and second check)"
+  },
+  {
+    "id": 12,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Collection and Delivery",
+    "lesson_title": "The collection problem",
+    "learning_objective": "Understand why collection is where many pharmacy days visibly fall apart.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.6 Bagging, shelving and collection or delivery)"
+  },
+  {
+    "id": 13,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Collection and Delivery",
+    "lesson_title": "Locationed shelf system",
+    "learning_objective": "Learn how bags are assigned to locations (A1, B3, C7) and recorded against patients.",
+    "format": "short_video",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.6 Bagging, shelving and collection or delivery)"
+  },
+  {
+    "id": 14,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Collection and Delivery",
+    "lesson_title": "SMS notifications and collection codes",
+    "learning_objective": "Understand how unique collection codes and SMS notifications reduce wasted patient visits.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.6 Bagging, shelving and collection or delivery)"
+  },
+  {
+    "id": 15,
+    "subject": "Core Workflow — The 8-Stage Lifecycle",
+    "unit": "Collection and Delivery",
+    "lesson_title": "Removing shelf chaos",
+    "learning_objective": "Learn how Titan's location model removes shelf chaos and reduces inbound phone calls.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.6 Bagging, shelving and collection or delivery)"
+  },
+  {
+    "id": 16,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "How Titan AI Works",
+    "lesson_title": "Structured multi-point checks",
+    "learning_objective": "Understand how Titan AI runs structured checks on dose, interactions, and clinical anomalies.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_TITAN_AI (4.1 Titan AI)"
+  },
+  {
+    "id": 17,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "How Titan AI Works",
+    "lesson_title": "Auto-clearing routine items",
+    "learning_objective": "Learn how Titan AI auto-clears routine items according to configured rules.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_TITAN_AI (4.1 Titan AI)"
+  },
+  {
+    "id": 18,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "How Titan AI Works",
+    "lesson_title": "Escalating complex cases",
+    "learning_objective": "Understand how complex, ambiguous or higher-risk cases are held for pharmacist review.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_TITAN_AI (4.1 Titan AI)"
+  },
+  {
+    "id": 19,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "How Titan AI Works",
+    "lesson_title": "Reallocating attention, not removing pharmacists",
+    "learning_objective": "Recognise that Titan AI reallocates pharmacist attention to top-risk cases, not removes them.",
+    "format": "blog",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.2 AI clinical check) / AUTOMATION_VS_PHARMACIST"
+  },
+  {
+    "id": 20,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "The Bottleneck Problem",
+    "lesson_title": "Pharmacists as the bottleneck",
+    "learning_objective": "Understand why pharmacists become bottlenecks when manually checking everything, even low-risk repeats.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.2 AI clinical check)"
+  },
+  {
+    "id": 21,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "The Bottleneck Problem",
+    "lesson_title": "Routine items at system speed",
+    "learning_objective": "Learn how routine items move through at system speed while pharmacists focus on high-risk cases.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.2 AI clinical check)"
+  },
+  {
+    "id": 22,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "The Bottleneck Problem",
+    "lesson_title": "Consistent checking",
+    "learning_objective": "Understand how AI checking becomes more consistent because it doesn't get tired or distracted.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.2 AI clinical check)"
+  },
+  {
+    "id": 23,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "What Gets Automated",
+    "lesson_title": "Automated versus pharmacist-led",
+    "learning_objective": "Learn what work is automated (routine checks) versus what remains pharmacist-led (complex decisions).",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "AUTOMATION_VS_PHARMACIST"
+  },
+  {
+    "id": 24,
+    "subject": "Titan AI & Clinical Checking",
+    "unit": "What Gets Automated",
+    "lesson_title": "Focusing on where training matters",
+    "learning_objective": "Understand how pharmacists focus on the small percentage of work where their training changes outcomes.",
+    "format": "blog",
+    "difficulty": "advanced",
+    "explainer_section": "AUTOMATION_VS_PHARMACIST"
+  },
+  {
+    "id": 25,
+    "subject": "Repeat Flow",
+    "unit": "The Repeat Problem",
+    "lesson_title": "Box files and B-side slips",
+    "learning_objective": "Understand the chaos of traditional repeat management with box files, B-side slips and phone chasing.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 26,
+    "subject": "Repeat Flow",
+    "unit": "The Repeat Problem",
+    "lesson_title": "The closed loop",
+    "learning_objective": "Learn how Repeat Flow creates a visible, digital, closed loop that starts and ends inside Titan.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 27,
+    "subject": "Repeat Flow",
+    "unit": "How Repeat Flow Works",
+    "lesson_title": "Central board for repeat requests",
+    "learning_objective": "Understand how Repeat Flow maintains a central board so teams see status at a glance.",
+    "format": "short_video",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 28,
+    "subject": "Repeat Flow",
+    "unit": "How Repeat Flow Works",
+    "lesson_title": "Automated ordering to surgeries",
+    "learning_objective": "Learn how Repeat Flow automates ordering to surgeries, following each surgery's preferred process.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 29,
+    "subject": "Repeat Flow",
+    "unit": "How Repeat Flow Works",
+    "lesson_title": "Tracking requested versus returned",
+    "learning_objective": "Understand how Repeat Flow tracks which items were requested and which were returned, identifying missing or changed items.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 30,
+    "subject": "Repeat Flow",
+    "unit": "How Repeat Flow Works",
+    "lesson_title": "Exception handling",
+    "learning_objective": "Learn how Repeat Flow manages chasing and exception handling, reducing manual calls.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 31,
+    "subject": "Repeat Flow",
+    "unit": "How Repeat Flow Works",
+    "lesson_title": "Direct to dispensing queues",
+    "learning_objective": "Understand how approved repeats drop directly into dispensing queues like Batch Flow.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)"
+  },
+  {
+    "id": 32,
+    "subject": "Batch Flow",
+    "unit": "High-Volume Dispensing",
+    "lesson_title": "What Batch Flow is designed for",
+    "learning_objective": "Understand that Batch Flow is designed for MDS, large community sites, hub pharmacies, and robot-enabled workflows.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 33,
+    "subject": "Batch Flow",
+    "unit": "High-Volume Dispensing",
+    "lesson_title": "Bulk picking explained",
+    "learning_objective": "Learn how bulk picking allows one product for many patients in a single shelf run.",
+    "format": "short_video",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 34,
+    "subject": "Batch Flow",
+    "unit": "High-Volume Dispensing",
+    "lesson_title": "Barcode redistribution",
+    "learning_objective": "Understand how barcodes redistribute bulk-picked packs back to individual patients.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 35,
+    "subject": "Batch Flow",
+    "unit": "Scale Without Sacrifice",
+    "lesson_title": "Pod and conveyor-style flows",
+    "learning_objective": "Learn how Batch Flow enables clear pod and conveyor-style flows for big volumes.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 36,
+    "subject": "Batch Flow",
+    "unit": "Scale Without Sacrifice",
+    "lesson_title": "Robot integration",
+    "learning_objective": "Understand how Batch Flow integrates tightly with robots where present.",
+    "format": "single_image",
+    "difficulty": "advanced",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 37,
+    "subject": "Batch Flow",
+    "unit": "Scale Without Sacrifice",
+    "lesson_title": "Barcode validation at scale",
+    "learning_objective": "Learn how Batch Flow enforces barcode validation even at high volume.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 38,
+    "subject": "Batch Flow",
+    "unit": "Scale Without Sacrifice",
+    "lesson_title": "Accuracy and staff burnout",
+    "learning_objective": "Understand how Batch Flow ensures scale doesn't come at the cost of accuracy or staff burnout.",
+    "format": "blog",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)"
+  },
+  {
+    "id": 39,
+    "subject": "Barcode Safety & Validation",
+    "unit": "The Barcode-First Workflow",
+    "lesson_title": "Every item scanned",
+    "learning_objective": "Understand that every item is scanned and checked against the prescription before moving on.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "SAFETY_ARCHITECTURE / WORKFLOW_STAGES (3.4 Picking and barcode validation)"
+  },
+  {
+    "id": 40,
+    "subject": "Barcode Safety & Validation",
+    "unit": "The Barcode-First Workflow",
+    "lesson_title": "Reducing wrong-item errors",
+    "learning_objective": "Learn how barcode scanning significantly reduces wrong-item and wrong-strength errors.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 41,
+    "subject": "Barcode Safety & Validation",
+    "unit": "The Barcode-First Workflow",
+    "lesson_title": "Matching product, strength, form and quantity",
+    "learning_objective": "Understand how barcode validation matches against prescription for product, strength, form and quantity.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)"
+  },
+  {
+    "id": 42,
+    "subject": "Barcode Safety & Validation",
+    "unit": "Selection Errors Solved",
+    "lesson_title": "The walking and searching problem",
+    "learning_objective": "Recognise how traditional dispensing involves unnecessary walking and searching.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)"
+  },
+  {
+    "id": 43,
+    "subject": "Barcode Safety & Validation",
+    "unit": "Selection Errors Solved",
+    "lesson_title": "Enforced scanning versus visual checks",
+    "learning_objective": "Learn how barcode validation enforces a scan rather than relying on visual checks.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)"
+  },
+  {
+    "id": 44,
+    "subject": "Barcode Safety & Validation",
+    "unit": "Selection Errors Solved",
+    "lesson_title": "Cutting physical movement and mental load",
+    "learning_objective": "Understand how barcode validation cuts down physical movement and mental load.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)"
+  },
+  {
+    "id": 45,
+    "subject": "Barcode Safety & Validation",
+    "unit": "Selection Errors Solved",
+    "lesson_title": "Robot safety preserved",
+    "learning_objective": "Learn how robot integrations still go through Titan's barcode validation, preserving safety and audit.",
+    "format": "single_image",
+    "difficulty": "advanced",
+    "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)"
+  },
+  {
+    "id": 46,
+    "subject": "Titan Mobile",
+    "unit": "Workflow on the Move",
+    "lesson_title": "Beyond the back-office PC",
+    "learning_objective": "Understand how Titan Mobile brings workflow to shop floor, stockroom and on the road.",
+    "format": "short_video",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 47,
+    "subject": "Titan Mobile",
+    "unit": "Workflow on the Move",
+    "lesson_title": "Scanning bags to shelf location",
+    "learning_objective": "Learn how Titan Mobile scans bags to confirm shelf placement.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 48,
+    "subject": "Titan Mobile",
+    "unit": "Workflow on the Move",
+    "lesson_title": "Collection notifications",
+    "learning_objective": "Understand how Titan Mobile triggers and manages collection notifications.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 49,
+    "subject": "Titan Mobile",
+    "unit": "Mobile Capabilities",
+    "lesson_title": "Proof of delivery",
+    "learning_objective": "Learn how Titan Mobile handles deliveries, including proof of delivery records.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 50,
+    "subject": "Titan Mobile",
+    "unit": "Mobile Capabilities",
+    "lesson_title": "Electronic signatures",
+    "learning_objective": "Understand how Titan Mobile captures electronic signatures for prescriptions and services.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 51,
+    "subject": "Titan Mobile",
+    "unit": "Mobile Capabilities",
+    "lesson_title": "Stock audits and CD register",
+    "learning_objective": "Learn how Titan Mobile carries out stock audits and CD register entries.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 52,
+    "subject": "Titan Mobile",
+    "unit": "Mobile Capabilities",
+    "lesson_title": "Removing friction",
+    "learning_objective": "Understand how mobile workflow removes friction and makes it easier to keep data accurate.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULE_TITAN_MOBILE (4.4 Titan Mobile)"
+  },
+  {
+    "id": 53,
+    "subject": "Governance & Audit Trail",
+    "unit": "Complete Auditability",
+    "lesson_title": "Per-step logs",
+    "learning_objective": "Understand how Titan logs every step: creation, clinical check, labelling, assembly, hand-out or delivery.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 54,
+    "subject": "Governance & Audit Trail",
+    "unit": "Complete Auditability",
+    "lesson_title": "Barcode auditability",
+    "learning_objective": "Learn how Titan records which exact pack was scanned for which script.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 55,
+    "subject": "Governance & Audit Trail",
+    "unit": "Complete Auditability",
+    "lesson_title": "CD register entries",
+    "learning_objective": "Understand how controlled drug movements are recorded digitally, not in paper books.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 56,
+    "subject": "Governance & Audit Trail",
+    "unit": "Regulatory Compliance",
+    "lesson_title": "Safe system of work",
+    "learning_objective": "Learn how Titan provides evidence that safe systems are in place, not just hope.",
+    "format": "blog",
+    "difficulty": "advanced",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 57,
+    "subject": "Governance & Audit Trail",
+    "unit": "Regulatory Compliance",
+    "lesson_title": "Traceability for incidents",
+    "learning_objective": "Understand how Titan enables traceability for individual incidents and learning.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 58,
+    "subject": "Governance & Audit Trail",
+    "unit": "Regulatory Compliance",
+    "lesson_title": "RBAC and user identity",
+    "learning_objective": "Learn how Role Based Access Control ensures users see and perform only what their role allows.",
+    "format": "carousel",
+    "difficulty": "advanced",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 59,
+    "subject": "Governance & Audit Trail",
+    "unit": "Regulatory Compliance",
+    "lesson_title": "Visibility of process issues",
+    "learning_objective": "Understand how Titan provides visibility of repeated process issues that need fixing.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)"
+  },
+  {
+    "id": 60,
+    "subject": "Reporting & Insights",
+    "unit": "Operational Metrics",
+    "lesson_title": "What data Titan generates",
+    "learning_objective": "Understand the operational metrics Titan generates: items dispensed, turnaround times, backlogs, AI clear rates.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 61,
+    "subject": "Reporting & Insights",
+    "unit": "Operational Metrics",
+    "lesson_title": "Accuracy and safety metrics",
+    "learning_objective": "Learn how Titan tracks accuracy metrics, near misses, and errors intercepted by barcode or AI.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 62,
+    "subject": "Reporting & Insights",
+    "unit": "Operational Metrics",
+    "lesson_title": "Workflow metrics",
+    "learning_objective": "Understand workflow metrics: repeat success rates, owings, stock gaps, staff workload distribution.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 63,
+    "subject": "Reporting & Insights",
+    "unit": "Data-Driven Decisions",
+    "lesson_title": "Measurement, not anecdote",
+    "learning_objective": "Learn how Titan enables measurement of improvement, not just anecdote.",
+    "format": "blog",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 64,
+    "subject": "Reporting & Insights",
+    "unit": "Data-Driven Decisions",
+    "lesson_title": "Identifying bottlenecks",
+    "learning_objective": "Understand how data helps identify bottlenecks before they become crises.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 65,
+    "subject": "Reporting & Insights",
+    "unit": "Data-Driven Decisions",
+    "lesson_title": "Evidence for investment",
+    "learning_objective": "Learn how data provides evidence to support investment decisions and new models like hub and spoke.",
+    "format": "single_image",
+    "difficulty": "advanced",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 66,
+    "subject": "Reporting & Insights",
+    "unit": "Data-Driven Decisions",
+    "lesson_title": "Data over gut feeling",
+    "learning_objective": "Understand how Titan replaces gut feeling with usable data for process changes.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)"
+  },
+  {
+    "id": 67,
+    "subject": "Safety Architecture",
+    "unit": "The Four Pillars",
+    "lesson_title": "Barcode-first workflow",
+    "learning_objective": "Understand how barcode-first workflow is the first pillar of Titan's safety model.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 68,
+    "subject": "Safety Architecture",
+    "unit": "The Four Pillars",
+    "lesson_title": "AI-assisted clinical checking",
+    "learning_objective": "Learn how AI-assisted clinical checking is the second pillar, clearing routine items at speed.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 69,
+    "subject": "Safety Architecture",
+    "unit": "The Four Pillars",
+    "lesson_title": "Strict process enforcement",
+    "learning_objective": "Understand how strict process enforcement prevents skipping stages without leaving a trace.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 70,
+    "subject": "Safety Architecture",
+    "unit": "The Four Pillars",
+    "lesson_title": "Audit and traceability",
+    "learning_objective": "Learn how audit and traceability logs every step, including who did what and which pack was scanned.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 71,
+    "subject": "Safety Architecture",
+    "unit": "From Heroics to Systems",
+    "lesson_title": "Designed, observable systems",
+    "learning_objective": "Understand how Titan moves pharmacies from relying on individual heroics to designed, observable systems.",
+    "format": "blog",
+    "difficulty": "advanced",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 72,
+    "subject": "Safety Architecture",
+    "unit": "From Heroics to Systems",
+    "lesson_title": "Preventing shortcuts",
+    "learning_objective": "Learn how strict process enforcement reduces shortcuts and informal workarounds that lead to near misses.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "SAFETY_ARCHITECTURE"
+  },
+  {
+    "id": 73,
+    "subject": "Communications & Mail",
+    "unit": "SMS and Notifications",
+    "lesson_title": "Medicines ready notifications",
+    "learning_objective": "Understand how SMS notifications inform patients when medicines are ready.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULES (4.5 Mail and communications)"
+  },
+  {
+    "id": 74,
+    "subject": "Communications & Mail",
+    "unit": "SMS and Notifications",
+    "lesson_title": "Follow-up prompts",
+    "learning_objective": "Learn how Titan sends follow-up prompts to patients.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULES (4.5 Mail and communications)"
+  },
+  {
+    "id": 75,
+    "subject": "Communications & Mail",
+    "unit": "Email Ingestion (Titan Mail)",
+    "lesson_title": "Email into workflow",
+    "learning_objective": "Understand how prescriber emails (private prescriptions, clinical notes) are brought into Titan and converted into structured workflow items.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULES (4.5 Mail and communications)"
+  },
+  {
+    "id": 76,
+    "subject": "Communications & Mail",
+    "unit": "Email Ingestion (Titan Mail)",
+    "lesson_title": "Linking attachments",
+    "learning_objective": "Learn how PDFs or discharge letters are linked to patient records.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULES (4.5 Mail and communications)"
+  },
+  {
+    "id": 77,
+    "subject": "Communications & Mail",
+    "unit": "Email Ingestion (Titan Mail)",
+    "lesson_title": "No more separate inboxes",
+    "learning_objective": "Understand how Titan pulls communication into the dispensing system rather than leaving it in separate inboxes.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULES (4.5 Mail and communications)"
+  },
+  {
+    "id": 78,
+    "subject": "Integrations & Marketplace",
+    "unit": "Titan as a Hub",
+    "lesson_title": "Hub, not a sealed box",
+    "learning_objective": "Understand that Titan PMR is designed to act as a hub, not a sealed box.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "MODULES (4.6 Integrations and Marketplace)"
+  },
+  {
+    "id": 79,
+    "subject": "Integrations & Marketplace",
+    "unit": "Titan as a Hub",
+    "lesson_title": "Robot integrations",
+    "learning_objective": "Learn how Titan sends pick instructions to robots while preserving safety checks.",
+    "format": "single_image",
+    "difficulty": "advanced",
+    "explainer_section": "MODULES (4.6 Integrations and Marketplace)"
+  },
+  {
+    "id": 80,
+    "subject": "Integrations & Marketplace",
+    "unit": "Titan as a Hub",
+    "lesson_title": "Delivery and logistics",
+    "learning_objective": "Understand how delivery runs and status updates are driven by Titan data.",
+    "format": "carousel",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULES (4.6 Integrations and Marketplace)"
+  },
+  {
+    "id": 81,
+    "subject": "Integrations & Marketplace",
+    "unit": "Pluggable Integrations",
+    "lesson_title": "The Marketplace concept",
+    "learning_objective": "Learn how Marketplace makes integrations pluggable, avoiding fragile, one-off bodges.",
+    "format": "blog",
+    "difficulty": "advanced",
+    "explainer_section": "MODULES (4.6 Integrations and Marketplace)"
+  },
+  {
+    "id": 82,
+    "subject": "Integrations & Marketplace",
+    "unit": "Pluggable Integrations",
+    "lesson_title": "Wider digital tools",
+    "learning_objective": "Understand how payment, booking or clinical tools sit alongside Titan.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "MODULES (4.6 Integrations and Marketplace)"
+  },
+  {
+    "id": 83,
+    "subject": "Legacy PMR Problems",
+    "unit": "The Paper Problem",
+    "lesson_title": "Paper everywhere",
+    "learning_objective": "Understand how legacy PMRs rely on paper that gets lost, duplicated or delayed.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 84,
+    "subject": "Legacy PMR Problems",
+    "unit": "The Paper Problem",
+    "lesson_title": "Digital boards and records",
+    "learning_objective": "Learn how Titan replaces paper with digital boards and records.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 85,
+    "subject": "Legacy PMR Problems",
+    "unit": "Visibility Problems",
+    "lesson_title": "No clear view of work",
+    "learning_objective": "Understand how legacy systems hide work in lists versus Titan's Kanban-style boards.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 86,
+    "subject": "Legacy PMR Problems",
+    "unit": "Visibility Problems",
+    "lesson_title": "Manual, inconsistent checking",
+    "learning_objective": "Learn how legacy systems rely on manual checking versus Titan's AI and barcode validation.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 87,
+    "subject": "Legacy PMR Problems",
+    "unit": "Process Problems",
+    "lesson_title": "Weak audit trails",
+    "learning_objective": "Understand how legacy systems have weak audit trails versus Titan's detailed per-action logs.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 88,
+    "subject": "Legacy PMR Problems",
+    "unit": "Process Problems",
+    "lesson_title": "Chaotic repeat management",
+    "learning_objective": "Learn how legacy systems manage repeats chaotically versus Repeat Flow's structured loop.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 89,
+    "subject": "Legacy PMR Problems",
+    "unit": "Process Problems",
+    "lesson_title": "Poor fit for robots",
+    "learning_objective": "Understand how legacy PMRs don't fit robots and high-volume models versus Batch Flow.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 90,
+    "subject": "Legacy PMR Problems",
+    "unit": "Process Problems",
+    "lesson_title": "Pharmacists trapped at the bench",
+    "learning_objective": "Learn how legacy systems trap pharmacists at checking bench versus focusing on complex cases and services.",
+    "format": "blog",
+    "difficulty": "intermediate",
+    "explainer_section": "LEGACY_PROBLEMS"
+  },
+  {
+    "id": 91,
+    "subject": "Core Concepts",
+    "unit": "What Titan PMR Is",
+    "lesson_title": "Digital-first pharmacy management",
+    "learning_objective": "Understand Titan PMR as a digital-first system built around barcode workflows, AI checks, and Kanban tracking.",
+    "format": "single_image",
+    "difficulty": "beginner",
+    "explainer_section": "OVERVIEW"
+  },
+  {
+    "id": 92,
+    "subject": "Core Concepts",
+    "unit": "What Titan PMR Is",
+    "lesson_title": "The operational engine room",
+    "learning_objective": "Learn how Titan PMR acts as the operational engine room for dispensing, repeats, batch work, and patient communication.",
+    "format": "carousel",
+    "difficulty": "beginner",
+    "explainer_section": "OVERVIEW"
+  },
+  {
+    "id": 93,
+    "subject": "Core Concepts",
+    "unit": "What Titan PMR Is",
+    "lesson_title": "Moving routine work into the system",
+    "learning_objective": "Understand the core design intent: move routine work and admin into the system so pharmacists focus on clinical decisions.",
+    "format": "blog",
+    "difficulty": "intermediate",
+    "explainer_section": "OVERVIEW"
+  },
+  {
+    "id": 94,
+    "subject": "Core Concepts",
+    "unit": "The Pipeline Concept",
+    "lesson_title": "Logical, visible pipeline",
+    "learning_objective": "Learn how prescriptions move through a logical, visible pipeline from arrival to collection.",
+    "format": "short_video",
+    "difficulty": "beginner",
+    "explainer_section": "KEY_TAKEAWAYS"
+  },
+  {
+    "id": 95,
+    "subject": "Core Concepts",
+    "unit": "The Pipeline Concept",
+    "lesson_title": "The backbone of modern dispensing",
+    "learning_objective": "Understand how Titan is meant to be the backbone of modern dispensing.",
+    "format": "single_image",
+    "difficulty": "intermediate",
+    "explainer_section": "KEY_TAKEAWAYS"
+  }
+]
