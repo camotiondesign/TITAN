@@ -1,0 +1,11 @@
+{
+  "lesson_id": 43,
+  "subject": "Barcode Safety & Validation",
+  "unit": "Selection Errors Solved",
+  "lesson_title": "Enforced scanning versus visual checks",
+  "learning_objective": "Learn how barcode validation enforces a scan rather than relying on visual checks.",
+  "format": "carousel",
+  "difficulty": "intermediate",
+  "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)",
+  "scheduled_date": "2026-04-01"
+}

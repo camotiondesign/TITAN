@@ -1,0 +1,11 @@
+{
+  "lesson_id": 29,
+  "subject": "Repeat Flow",
+  "unit": "How Repeat Flow Works",
+  "lesson_title": "Tracking requested versus returned",
+  "learning_objective": "Understand how Repeat Flow tracks which items were requested and which were returned, identifying missing or changed items.",
+  "format": "carousel",
+  "difficulty": "intermediate",
+  "explainer_section": "MODULE_REPEAT_FLOW (4.2 Repeat Flow)",
+  "scheduled_date": "2026-03-12"
+}

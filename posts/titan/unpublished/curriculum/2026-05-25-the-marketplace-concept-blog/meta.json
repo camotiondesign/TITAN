@@ -1,0 +1,11 @@
+{
+  "lesson_id": 81,
+  "subject": "Integrations & Marketplace",
+  "unit": "Pluggable Integrations",
+  "lesson_title": "The Marketplace concept",
+  "learning_objective": "Learn how Marketplace makes integrations pluggable, avoiding fragile, one-off bodges.",
+  "format": "blog",
+  "difficulty": "advanced",
+  "explainer_section": "MODULES (4.6 Integrations and Marketplace)",
+  "scheduled_date": "2026-05-25"
+}

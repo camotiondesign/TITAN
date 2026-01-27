@@ -1,0 +1,11 @@
+{
+  "lesson_id": 7,
+  "subject": "Core Workflow \u2014 The 8-Stage Lifecycle",
+  "unit": "Workflow Triage and Routing",
+  "lesson_title": "Stock position tracking",
+  "learning_objective": "Understand how the workflow engine tracks stock so items don't drift when unavailable.",
+  "format": "single_image",
+  "difficulty": "intermediate",
+  "explainer_section": "WORKFLOW_STAGES (3.3 Workflow triage and routing)",
+  "scheduled_date": "2026-02-10"
+}

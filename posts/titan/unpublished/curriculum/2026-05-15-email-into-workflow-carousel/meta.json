@@ -1,0 +1,11 @@
+{
+  "lesson_id": 75,
+  "subject": "Communications & Mail",
+  "unit": "Email Ingestion (Titan Mail)",
+  "lesson_title": "Email into workflow",
+  "learning_objective": "Understand how prescriber emails (private prescriptions, clinical notes) are brought into Titan and converted into structured workflow items.",
+  "format": "carousel",
+  "difficulty": "intermediate",
+  "explainer_section": "MODULES (4.5 Mail and communications)",
+  "scheduled_date": "2026-05-15"
+}

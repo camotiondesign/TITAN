@@ -1,0 +1,11 @@
+{
+  "lesson_id": 53,
+  "subject": "Governance & Audit Trail",
+  "unit": "Complete Auditability",
+  "lesson_title": "Per-step logs",
+  "learning_objective": "Understand how Titan logs every step: creation, clinical check, labelling, assembly, hand-out or delivery.",
+  "format": "carousel",
+  "difficulty": "intermediate",
+  "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)",
+  "scheduled_date": "2026-04-15"
+}

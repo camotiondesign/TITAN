@@ -1,0 +1,11 @@
+{
+  "lesson_id": 58,
+  "subject": "Governance & Audit Trail",
+  "unit": "Regulatory Compliance",
+  "lesson_title": "RBAC and user identity",
+  "learning_objective": "Learn how Role Based Access Control ensures users see and perform only what their role allows.",
+  "format": "carousel",
+  "difficulty": "advanced",
+  "explainer_section": "WORKFLOW_STAGES (3.7 Governance and audit trail)",
+  "scheduled_date": "2026-04-22"
+}

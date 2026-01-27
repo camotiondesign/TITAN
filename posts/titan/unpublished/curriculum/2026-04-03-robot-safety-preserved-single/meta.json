@@ -1,0 +1,11 @@
+{
+  "lesson_id": 45,
+  "subject": "Barcode Safety & Validation",
+  "unit": "Selection Errors Solved",
+  "lesson_title": "Robot safety preserved",
+  "learning_objective": "Learn how robot integrations still go through Titan's barcode validation, preserving safety and audit.",
+  "format": "single_image",
+  "difficulty": "advanced",
+  "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)",
+  "scheduled_date": "2026-04-03"
+}

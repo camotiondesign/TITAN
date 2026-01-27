@@ -1,0 +1,11 @@
+{
+  "lesson_id": 79,
+  "subject": "Integrations & Marketplace",
+  "unit": "Titan as a Hub",
+  "lesson_title": "Robot integrations",
+  "learning_objective": "Learn how Titan sends pick instructions to robots while preserving safety checks.",
+  "format": "single_image",
+  "difficulty": "advanced",
+  "explainer_section": "MODULES (4.6 Integrations and Marketplace)",
+  "scheduled_date": "2026-05-21"
+}

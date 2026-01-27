@@ -1,0 +1,11 @@
+{
+  "lesson_id": 39,
+  "subject": "Barcode Safety & Validation",
+  "unit": "The Barcode-First Workflow",
+  "lesson_title": "Every item scanned",
+  "learning_objective": "Understand that every item is scanned and checked against the prescription before moving on.",
+  "format": "single_image",
+  "difficulty": "beginner",
+  "explainer_section": "SAFETY_ARCHITECTURE / WORKFLOW_STAGES (3.4 Picking and barcode validation)",
+  "scheduled_date": "2026-03-26"
+}

@@ -1,0 +1,11 @@
+{
+  "lesson_id": 89,
+  "subject": "Legacy PMR Problems",
+  "unit": "Process Problems",
+  "lesson_title": "Poor fit for robots",
+  "learning_objective": "Understand how legacy PMRs don't fit robots and high-volume models versus Batch Flow.",
+  "format": "single_image",
+  "difficulty": "intermediate",
+  "explainer_section": "LEGACY_PROBLEMS",
+  "scheduled_date": "2026-06-04"
+}

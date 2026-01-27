@@ -1,0 +1,11 @@
+{
+  "lesson_id": 60,
+  "subject": "Reporting & Insights",
+  "unit": "Operational Metrics",
+  "lesson_title": "What data Titan generates",
+  "learning_objective": "Understand the operational metrics Titan generates: items dispensed, turnaround times, backlogs, AI clear rates.",
+  "format": "carousel",
+  "difficulty": "beginner",
+  "explainer_section": "WORKFLOW_STAGES (3.8 Reporting and insight)",
+  "scheduled_date": "2026-04-24"
+}

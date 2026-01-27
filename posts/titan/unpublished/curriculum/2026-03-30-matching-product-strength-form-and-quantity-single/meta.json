@@ -1,0 +1,11 @@
+{
+  "lesson_id": 41,
+  "subject": "Barcode Safety & Validation",
+  "unit": "The Barcode-First Workflow",
+  "lesson_title": "Matching product, strength, form and quantity",
+  "learning_objective": "Understand how barcode validation matches against prescription for product, strength, form and quantity.",
+  "format": "single_image",
+  "difficulty": "intermediate",
+  "explainer_section": "WORKFLOW_STAGES (3.4 Picking and barcode validation)",
+  "scheduled_date": "2026-03-30"
+}

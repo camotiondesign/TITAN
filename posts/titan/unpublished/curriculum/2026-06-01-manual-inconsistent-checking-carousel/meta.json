@@ -1,0 +1,11 @@
+{
+  "lesson_id": 86,
+  "subject": "Legacy PMR Problems",
+  "unit": "Visibility Problems",
+  "lesson_title": "Manual, inconsistent checking",
+  "learning_objective": "Learn how legacy systems rely on manual checking versus Titan's AI and barcode validation.",
+  "format": "carousel",
+  "difficulty": "beginner",
+  "explainer_section": "LEGACY_PROBLEMS",
+  "scheduled_date": "2026-06-01"
+}

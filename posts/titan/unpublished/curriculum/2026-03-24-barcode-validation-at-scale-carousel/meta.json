@@ -1,0 +1,11 @@
+{
+  "lesson_id": 37,
+  "subject": "Batch Flow",
+  "unit": "Scale Without Sacrifice",
+  "lesson_title": "Barcode validation at scale",
+  "learning_objective": "Learn how Batch Flow enforces barcode validation even at high volume.",
+  "format": "carousel",
+  "difficulty": "intermediate",
+  "explainer_section": "MODULE_BATCH_FLOW (4.3 Batch Flow)",
+  "scheduled_date": "2026-03-24"
+}

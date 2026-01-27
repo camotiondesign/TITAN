@@ -1,0 +1,11 @@
+{
+  "lesson_id": 16,
+  "subject": "Titan AI & Clinical Checking",
+  "unit": "How Titan AI Works",
+  "lesson_title": "Structured multi-point checks",
+  "learning_objective": "Understand how Titan AI runs structured checks on dose, interactions, and clinical anomalies.",
+  "format": "carousel",
+  "difficulty": "beginner",
+  "explainer_section": "MODULE_TITAN_AI (4.1 Titan AI)",
+  "scheduled_date": "2026-02-23"
+}
