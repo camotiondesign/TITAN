@@ -1,46 +1,104 @@
-# Alt Text for "2025 Pharmacy Memes" Carousel
+# Carousel Slides – 2025 Pharmacy Memes
 
-## Slide 1
-A clean white grid background with large bold text reading "2025 Pharmacy Memes". A smaller line beneath says "If you know, you know." A subtle arrow sits to the right, and the Titan logo is at the bottom.
+## Slide 1 — Title
 
-## Slide 2
-A four-panel "expanding brain" meme showing the evolution of pharmacy roles.  
-Panel 1 text: "Selling shampoo and paracetamol."  
-Panel 2 text: "Counting and sticking on labels."  
-Panel 3 text: "Delivering NHS services, checks, and care."  
-Panel 4 text: "Fully digital, AI-powered care hub."  
-A brain emoji and a laughing emoji are placed on the page.
+**On-slide text:**  
+2025 Pharmacy Memes That Hit Different
 
-## Slide 3
-A version of the "This Is Fine" dog meme.  
-Two-panel cartoon of a dog sitting in a burning room. Added pharmacy labels read: "Owing Scripts", "Chasing GPs", and "Service Consults".  
-Caption above: "When more items come in and your PMR just … sits there doing nothing."  
-A worried emoji and flame emoji decorate the slide.
+A year of shared struggles, laughs, and "we've all been there" moments.
 
-## Slide 4
-A four-panel "Gru presentation" meme.  
-Panel 1: "We need to scale dispensing."  
-Panel 2: "Let's hire more staff."  
-Panel 3: "Still drowning in red baskets."  
-Panel 4: "...We should probably fix the system."  
-Includes refresh and thinking-face emojis.
+Swipe to see the memes that defined 2025 👉
 
-## Slide 5
-A Lord of the Rings meme featuring Gandalf holding his staff.  
-Top text: "YOU SHALL NOT…"  
-Bottom text: "LEAVE THE PHARMACY ON TIME!"  
-A wizard emoji floats above the meme.
+**Alt text / description:**  
+Title slide with "2025 Pharmacy Memes That Hit Different" in bold. Subheading about shared struggles. Titan branding.
 
-## Slide 6
-A "distracted boyfriend" meme variant.  
-The boyfriend represents a "Pharmacy owner".  
-The woman he is looking at is labelled "Hub & Spoke".  
-The woman he is ignoring is labelled "Peer to Peer".  
-Bottom caption: "WHEN YOUR PMR DOESN'T OFFER BOTH."  
-A scales emoji is on the side.
+---
 
-## Slide 7
-A blue gradient background with bold text:  
-"SOMETIMES PHARMACY IS SERIOUS.  
-IT'S GOOD TO LAUGH AT IT SOMETIMES TOO."  
-Titan logo at the bottom.
+## Slide 2 — Expanding Brain
+
+**On-slide text:**  
+The Pharmacy Evolution / Expanding Brain Meme
+
+Panel 1: Selling shampoo and paracetamol (dim brain)
+Panel 2: Counting and sticking on labels (brighter brain)
+Panel 3: Delivering NHS services, checks, and care (glowing brain)
+Panel 4: Fully digital, AI-powered care hub (transcendent brain)
+
+**Alt text / description:**  
+Four-panel "expanding brain" meme showing progression of pharmacy roles from basic retail to digital health hub. Each panel shows increasing brain brightness/evolution.
+
+---
+
+## Slide 3 — This Is Fine
+
+**On-slide text:**  
+"This is fine" PMR Meme
+
+When more items come in and your PMR just... sits there doing nothing.
+
+The dog sits calmly surrounded by flames. Red pharmacy baskets around the room are labelled: "Owning scripts," "Service consults," "Chasing GPs."
+
+**Alt text / description:**  
+Two-panel "This is fine" dog meme set in a burning room. Caption above reads about PMR doing nothing. Dog sits calmly surrounded by flames. Red pharmacy baskets around the room are labelled with tasks like "Owning scripts," "Service consults," and "Chasing GPs," highlighting system overload.
+
+---
+
+## Slide 4 — Gru's Plan
+
+**On-slide text:**  
+Gru's Plan / Hiring Staff Meme
+
+Panel 1: "We need to scale dispensing."
+Panel 2: "Let's hire more staff."
+Panel 3: "Still drowning in red baskets."
+Panel 4: "...We should probably fix the system."
+
+**Alt text / description:**  
+Four-panel Gru meme. First panel shows Gru holding a board that says "We need to scale dispensing." Second panel changes to "Let's hire more staff." Third panel reads "Still drowning in red baskets." Final panel shows Gru looking down at a board that reads "...We should probably fix the system."
+
+---
+
+## Slide 5 — Gandalf Closing Time
+
+**On-slide text:**  
+Gandalf Pharmacy Closing Meme
+
+YOU SHALL NOT...
+
+LEAVE THE PHARMACY ON TIME!
+
+**Alt text / description:**  
+Image of Gandalf from Lord of the Rings holding his staff. Bold text reads "YOU SHALL NOT…" at the top and "LEAVE THE PHARMACY ON TIME!" at the bottom, joking about pharmacists being unable to finish work on time.
+
+---
+
+## Slide 6 — Peer-to-Peer / Hub-and-Spoke
+
+**On-slide text:**  
+PMR Network Choice Meme
+
+Distracted boyfriend meme. The man labelled "Pharmacy owner" looks back at a graphic labelled "Peer to peer" while walking with a diagram labelled "Hub and Spoke."
+
+Text: "WHEN YOUR PMR DOESN'T OFFER BOTH."
+
+**Alt text / description:**  
+Distracted boyfriend meme. The man labelled "Pharmacy owner" looks back at a graphic labelled "Peer to peer" while walking with a diagram labelled "Hub and Spoke." Text at the bottom reads "WHEN YOUR PMR DOESN'T OFFER BOTH." The peer-to-peer graphic shows interconnected nodes, while the hub-and-spoke graphic shows a central hub with spokes.
+
+---
+
+## Slide 7 — CTA
+
+**On-slide text:**  
+Which one hit hardest?
+
+Drop a comment 👇
+
+Here's to a calmer 2026.
+
+**Alt text / description:**  
+Call to action slide asking which meme resonated most. Encouragement for a calmer 2026. Titan branding.
+
+
+
+
+

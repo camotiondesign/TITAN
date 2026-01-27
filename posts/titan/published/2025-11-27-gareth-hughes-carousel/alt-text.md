@@ -30,3 +30,8 @@ Text describing Gareth's experience after installing Titan PMR in 2023, with a q
 
 **Slide 7 — "More Stories Like This"**  
 Blue background with large text reading "More Stories Like This". Below is a screenshot of Titan's case studies webpage showing three case study cards, including BMP Healthcare and Howletts Pharmacy. Text encourages users to visit TITAN's website for more case studies.
+
+
+
+
+

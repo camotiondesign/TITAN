@@ -29,3 +29,6 @@ Blue QR code with a red scan line through it, representing barcode-led processes
 
 **Slide 7 — "More Items. Less Panic. That's Titan."**  
 Minimal white screen with bold headline promoting stress-free high-volume dispensing and a call-to-action to book a demo.
+
+
+

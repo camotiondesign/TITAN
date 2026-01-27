@@ -29,3 +29,6 @@ Bold slide reinforcing that barcode accuracy may sound technical but is deeply h
 
 **Slide 7 — Setting the Standard for Safer Dispensing**  
 Final CTA slide stating Titan sets the benchmark for safer dispensing, with a demo link encouraging pharmacists to learn more.
+
+
+

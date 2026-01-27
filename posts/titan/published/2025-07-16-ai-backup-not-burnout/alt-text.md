@@ -13,3 +13,6 @@ Slide 6 — Basket with medication + checkmark icon. Text: "Titan AI clears up t
 Slide 7 — Icons with labels: Freed pharmacists, Empowered dispensers, Fewer errors, Higher volume, Lower stress.
 
 Slide 8 — Large statement: "Pharmacy with backup. Not burnout." CTA button: titanpmr.com/join-us
+
+
+

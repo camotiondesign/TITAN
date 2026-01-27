@@ -1,32 +1,114 @@
-# Alt Text for "Pharmacy at Christmas" Carousel
+# Carousel Slides – Pharmacy Resolutions 2026
 
-## Slide 1 — Labels
-A split-screen comparison titled "Pharmacy at Christmas — Labels."  
-Left image labeled "Normal person" shows someone writing a gift tag on a wrapped Christmas present with red ribbon.  
-Right image labeled "Pharmacy" shows someone applying a printed medication label to a white prescription bag in a dispensary.
+## Slide 1 — Title
 
-## Slide 2 — Stocking
-A split-screen comparison titled "Stocking."  
-Left image labeled "Normal person" shows a decorative Christmas stocking hanging by a fireplace.  
-Right image labeled "Pharmacy" shows a pharmacy worker reaching for stock items on busy shelves with plastic tubs full of medicines below.
+**On-slide text:**  
+New Year, New Pharmacy
 
-## Slide 3 — Counting
-A split-screen comparison titled "Counting."  
-Left image labeled "Normal person" shows a hand adjusting a block calendar reading "09 days until Christmas."  
-Right image labeled "Pharmacy" shows gloved hands pouring white tablets into a pill counting tray with compartments.
+Your 2026 Resolutions Checklist
 
-## Slide 4 — Checking
-A split-screen comparison titled "Checking."  
-Left image labeled "Normal person" shows a woman checking Christmas presents under a lit tree.  
-Right image labeled "Pharmacy" shows a dispenser checking red medicine baskets filled with prescription items.
+Let's make 2026 the year your pharmacy transforms.
 
-## Slide 5 — Calendar
-A split-screen comparison titled "Calendar."  
-Left image labeled "Normal person" shows someone opening day 12 of a chocolate advent calendar.  
-Right image labeled "Pharmacy" shows a pharmacist at a computer viewing a screen full of colour-coded schedules or booking entries.
+Swipe to see the resolutions that matter 👉
 
-## Slide 6 — Wishlist
-A split-screen comparison titled "Wishlist."  
-Left image labeled "Normal person" shows a Christmas wishlist card with items like "new trainers," "headphones," "weekend away," and "nice dinner."  
-Right image labeled "Pharmacy" shows a pharmacy-themed wishlist including "a calm shift," "fewer checks," "leave on time," "a system that holds," "Titan PMR," and "Titanverse."  
-Both sides are decorated with festive Christmas graphics.
+**Alt text / description:**  
+Title slide with "New Year, New Pharmacy" in bold. Subheading "Your 2026 Resolutions Checklist." Motivational, forward-looking design. Titan branding.
+
+---
+
+## Slide 2 — Scale Safely
+
+**On-slide text:**  
+Resolution 1: Scale Safely
+
+More items shouldn't mean more chaos.
+
+Build workflows that handle growth without breaking.
+
+The goal? Scale without stress.
+
+**Alt text / description:**  
+Resolution slide about scaling safely. Text explains building workflows for growth. Growth-focused, safety-focused design.
+
+---
+
+## Slide 3 — Free Pharmacist Time
+
+**On-slide text:**  
+Resolution 2: Free Pharmacist Time
+
+Get off the bench. Get into the consultation room.
+
+AI handles routine checks. You handle patient care.
+
+The goal? 80% of your time on services, not checking.
+
+**Alt text / description:**  
+Resolution slide about freeing pharmacist time. Text explains moving from checking to services. Time-focused, value-focused design.
+
+---
+
+## Slide 4 — Expand Services
+
+**On-slide text:**  
+Resolution 3: Expand Services
+
+Pharmacy First. Weight loss. Travel clinics. Ear care.
+
+The money is in services, not just dispensing.
+
+The goal? Services revenue that matches dispensing.
+
+**Alt text / description:**  
+Resolution slide about expanding services. Text explains services revenue opportunity. Growth-focused, opportunity-focused design.
+
+---
+
+## Slide 5 — Reduce Near Misses
+
+**On-slide text:**  
+Resolution 4: Reduce Near Misses
+
+Safety isn't negotiable.
+
+Barcode scanning. AI checks. Real-time tracking.
+
+The goal? Near misses drop by 90%+.
+
+**Alt text / description:**  
+Resolution slide about reducing near misses. Text explains safety measures. Safety-focused, quality-focused design.
+
+---
+
+## Slide 6 — Go Paperless
+
+**On-slide text:**  
+Resolution 5: Go Paperless
+
+No more printing. No more tokens. No more waste.
+
+Fully digital workflows from start to finish.
+
+The goal? 100% paperless by end of 2026.
+
+**Alt text / description:**  
+Resolution slide about going paperless. Text explains fully digital workflows. Efficiency-focused, modern design.
+
+---
+
+## Slide 7 — CTA
+
+**On-slide text:**  
+What's Your Pharmacy's #1 Resolution for 2026?
+
+Drop a comment 👇
+
+Let's make it happen together.
+
+**Alt text / description:**  
+Call to action slide asking for pharmacy's top resolution. Encourages engagement and commitment. Titan branding.
+
+
+
+
+

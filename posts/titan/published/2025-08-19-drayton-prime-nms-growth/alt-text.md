@@ -1,1 +1,17 @@
-A promotional graphic featuring a smiling pharmacist seated on the right-hand side. Large bold text reads: '0 to 350 NMS a month,' with a subheading noting '£7,000 extra revenue per month.' A vertical bar chart on the left highlights '350 NMS' in bright pink. The TITANVERSE logo appears at the bottom left. The design uses a black-to-purple gradient background and bold typography to emphasise growth in New Medicine Service delivery.
+# Transcript — Drayton Prime Short Video
+
+**Video:** 2025-09-30-drayton-prime-short-video  
+**Campaign:** 2025-08-04-drayton-prime-case-study  
+**Posted To:** LinkedIn  
+**Date:** 2025-09-30  
+**Video Type:** Short-form video
+
+---
+
+**Speaker (Akbar Aslam):**  
+To be honest, I can log into Titan from home. I would say to all my competitors in and around this area — don't get Titan, stay paper based.  
+
+I do believe the pharmacy runs much smoother since going on to Titan — it's more efficient, more reliable as well.
+
+
+

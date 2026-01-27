@@ -35,3 +35,6 @@ Simple headline reinforcing the strategic benefit — protecting cashflow, cutti
 
 **Slide 9 — "When Rules Change We Move Fast"**  
 Bold closing slide with the TITAN 3D logo encouraging users to like, comment, and repost.
+
+
+

@@ -13,3 +13,6 @@ Slide 6 — White slide. Large text: "Same team less stress." Subtext: no extra 
 Slide 7 — Blue slide. Large text: "It's time to breathe." Subtext: not doing more — doing it better. Notes team deserves backup, not burnout.
 
 Slide 8 — White slide with thumbnails of Titan case studies. Large text: "See how others scaled smarter" with URL titanpmr.com/case-studies.
+
+
+

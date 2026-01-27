@@ -32,3 +32,8 @@ Dark grey slide with white line patterns. Large centred text says "2025 See you 
 
 **Slide 8 — "Excited for what's next…"**  
 Closing slide on a white background. Bold text says "Excited for what's next…" followed by "Thanks for an amazing year. Here's to an even bigger 2026!" The bottom half shows distorted red "2025" numerals over a black-and-white wave pattern.
+
+
+
+
+

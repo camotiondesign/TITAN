@@ -26,3 +26,6 @@ A stylised winding road with medicine packs, clouds and signs alongside. Headlin
 
 **Slide 6 — "Teslas Can Drive Themselves"**  
 Minimal white background with bold text: "TESLAS CAN DRIVE THEMSELVES. BUT PHARMACISTS CAN'T SWAP A PILL..." A speech bubble beneath says "…Nice one 👍." Titan logo at bottom.
+
+
+

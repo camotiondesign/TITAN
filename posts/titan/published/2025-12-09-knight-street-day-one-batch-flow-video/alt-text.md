@@ -1,3 +1,15 @@
+# Video Transcript — Knight Street Pharmacy Day One Batch Flow
+
+**Video:** 2025-12-09-knight-street-day-one-batch-flow-video  
+**Campaign:** 2025-12-05-knight-street-pharmacy-site-visit  
+**Posted To:** LinkedIn  
+**Date:** 2025-12-09  
+**Type:** Site Visit Testimonial - Day One Implementation
+
+---
+
+## Transcript
+
 **Speaker 1 (Nas):**  
 Which number pharmacy is this now? Because I lost count.
 
@@ -19,3 +31,13 @@ Making sure your equipment is working beforehand, calibrated and everything can 
 Good day so far. Really good day.
 
 Good help from you or the staff — definitely asked you lots of questions to make sure that anything that they needed to know, you answered.
+
+
+
+
+
+
+
+
+
+
