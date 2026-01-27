@@ -1,0 +1,1 @@
+A looping Titanverse animation on a purple gradient background showing five integration tiles — TITAN Sync, DemDX, Ryft Pay, NaTHNaC, and BNF — each connected by glowing lines feeding into a central TITANVERSE platform button. The headline reads "Seamless Integrations," illustrating how external systems flow into Titanverse.

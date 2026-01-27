@@ -1,0 +1,1 @@
+A Titanverse graphic showing a stylised pharmacy storefront split down the middle: the left side lit in purple and active, the right side dark and marked "To Let," symbolising decline. The headline reads "Dispensing alone can't fund the next era." A smaller caption says "The business model has changed. The workflows haven't." Titanverse branding appears at the bottom.

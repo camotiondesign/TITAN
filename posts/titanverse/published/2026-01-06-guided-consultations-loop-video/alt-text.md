@@ -1,0 +1,1 @@
+A looping Titanverse promotional video with a dark purple gradient background. The centre of the frame shows the Titanverse clinical consultation interface, animated as the on-screen template, transcript, and symptom-checking panels update in real time. The headline reads "Guided Clinical Consultations," and the Titanverse logo sits at the bottom of the screen.

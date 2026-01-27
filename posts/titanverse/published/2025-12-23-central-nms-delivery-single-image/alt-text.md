@@ -1,0 +1,1 @@
+A Titanverse graphic titled "Central NMS Delivery." At the top is an illustrated pharmacist avatar. The subtitle reads "One pharmacist delivers NMS over multiple pharmacies." Below, a line leads down to a row of circular icons showing multiple pharmacy buildings, representing group-wide visibility from a single place.
