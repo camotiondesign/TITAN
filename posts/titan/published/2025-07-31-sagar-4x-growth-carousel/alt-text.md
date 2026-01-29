@@ -1,40 +1,65 @@
-# Carousel Slides Alt Text — Sagar Case Study (Brighton Hill Pharmacy)
+# Carousel Alt Text — Sagar Case Study (Brighton Hill Pharmacy)
 
 **Carousel:** 2025-07-31-sagar-4x-growth-carousel  
-**Campaign:** 2025-07-01-brighton-hill-case-study  
 **Posted To:** LinkedIn  
 **Date:** 2025-07-31
 
 ---
 
-## Slide Alt Text Descriptions
+## Slide 1 — Cover
 
-**Slide 1 — Cover**  
-Pharmacist Sagar Lungiwala standing in front of a graph showing rising prescription volume, with headline text reading: How Sagar scaled to 17K items a month.
+Owner Sagar stands beside a rising line graph and headline text explaining how his pharmacy scaled to 17,000 items per month using Titan, highlighting strong business growth.
 
-**Slide 2 — Bought in 2020**  
-Exterior of Brighton Hill Pharmacy with headline text: Bought in 2020 — 4K items — Big vision.
+---
 
-**Slide 3 — Titan From Day One**  
-Close-up of a large monitor in the dispensary running Titan PMR workflow boards, with caption: Titan from Day One.
+## Slide 2 — Pharmacy acquisition
 
-**Slide 4 — Track Every Script**  
-Pharmacy team member holding a prescription bag at the counter with Titan visible on screen, emphasising tracking every prescription stage.
+Exterior photo of Brighton Hill Pharmacy with text explaining the pharmacy was purchased in 2020 when dispensing around 4,000 items per month, setting up the growth story.
 
-**Slide 5 — One Hour in the Dispensary**  
-Sagar sitting at a desk using a computer in the dispensary with headline text: One hour in the dispensary.
+---
 
-**Slide 6 — AI First**  
-Close-up of Titan AI interface displaying risk-based clinical checking automation with headline text: AI first. Pharmacist when needed.
+## Slide 3 — Choosing Titan
 
-**Slide 7 — Scripts Ready, Text Sent**  
-Team member holding a mobile phone sending automatic pickup texts through Titan.
+Dispensary workstation screen showing Titan PMR in use, with quote stating Titan was chosen from day one as the pharmacy's core system.
 
-**Slide 8 — Second Consult Room**  
-Image of a clinical consultation room with chairs, sink and desk, with headline text: Built a second consult room.
+---
 
-**Slide 9 — The Results**  
-Group photo of the Brighton Hill Pharmacy team with a blue gradient background showing results including 4x growth, 80 percent services, same-day turnaround.
+## Slide 4 — Script tracking
 
-**Slide 10 — More Stories**  
-Titan PMR case studies menu showing different pharmacies with the link to titanpmr.com/case-studies.
+Team member working at a dispensary counter while packing prescriptions, with text explaining the team can track exactly where each prescription is and its status.
+
+---
+
+## Slide 5 — Time freed for services
+
+Sagar working at a dispensary computer, with text explaining he now spends only about one hour in the dispensary and around 80% of his time on clinical services.
+
+---
+
+## Slide 6 — AI-first workflow
+
+Close-up of Titan PMR interface showing Titan AI checks running, with text explaining AI checks prescriptions first so pharmacists only review high-risk items.
+
+---
+
+## Slide 7 — Automated patient messaging
+
+Team member holding a phone at the dispensary counter, illustrating automated text notifications sent to patients when prescriptions are ready.
+
+---
+
+## Slide 8 — Expanded consultation space
+
+Interior photo of a pharmacy consultation room, with text explaining a second consult room was built to support service growth and future expansion.
+
+---
+
+## Slide 9 — Results summary
+
+Pharmacy team group photo with text summarising outcomes: 4× growth, more time spent on services, same-day turnaround, no additional staff, and a calmer workflow.
+
+---
+
+## Slide 10 — Call to action
+
+Slide inviting viewers to read more case studies on Titan's website, showing a preview of multiple pharmacy success stories.

@@ -1,4 +1,4 @@
-When everyone discovers your favourite band… 
+When everyone discovers your favourite band…
 
 years after you.
 
@@ -32,6 +32,3 @@ See how the NHS plan aligns with what Titan is already doing
 Read the blog → bit.ly/4l1YZ7g
 
 #AIinPharmacy #DigitalHealth #UKPharmacy #PharmacyInnovation #NHSTech #FutureOfPharmacy
-
-
-

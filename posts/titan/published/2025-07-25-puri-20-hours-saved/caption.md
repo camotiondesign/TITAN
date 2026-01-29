@@ -31,7 +31,8 @@ And has built a calm, clinically focused pharmacy.
 
 📖 Read the full case study: bit.ly/408lMqm 
 
-#PharmacyLeadership #PharmacyEfficiency #TitanPMR #DigitalPharmacy #AIinPharmacy #ModernPMR #CommunityPharmacy
+#PharmacyLeadership #PharmacyEfficiency #TitanPMR
+#DigitalPharmacy #AIinPharmacy #ModernPMR #CommunityPharmacy
 
 
 
