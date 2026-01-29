@@ -1,0 +1,1 @@
+Customer testimonial video featuring Ian describing his first day on Titan: after doing around 50 flu jabs there were no baskets waiting to be checked, no backlog, and workflow ran smoothly, allowing more time for patients and a shift away from constant dispensing.

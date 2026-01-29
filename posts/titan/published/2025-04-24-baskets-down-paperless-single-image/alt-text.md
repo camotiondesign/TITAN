@@ -1,0 +1,1 @@
+Illustrated scene showing a person climbing over piles of paper and files in a chaotic environment, reaching out toward a large digital Titan Kanban prescription board glowing in front of them, with an "auto-print" sign visible in the background, symbolising moving from paper-heavy pharmacy workflows toward a streamlined digital dispensing system.

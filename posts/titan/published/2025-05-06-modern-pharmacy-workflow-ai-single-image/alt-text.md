@@ -1,0 +1,1 @@
+Infographic titled "What a Modern Pharmacy Workflow Looks Like," outlining five steps: prescriptions received digitally, AI clinical checks, barcode-driven dispensing, pharmacists freed for clinical services, and real-time digital visibility, with supporting illustrations and Titan branding at the bottom.

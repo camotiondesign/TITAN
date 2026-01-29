@@ -1,0 +1,1 @@
+Short user testimonial video. Alta from Alpharm Chemist describes switching to Titan PMR: paperless, automated, remote access, and easy clinical checks, and recommends Titan to anyone looking for a PMR system.

@@ -1,0 +1,1 @@
+Promotional graphic titled "Two systems. One seamless workflow." highlighting integration between Titan PMR and Meditech systems for faster and safer dispensing. The image includes a group photo of pharmacy staff outside Brighton Hill Pharmacy, with logos for Titan and Meditech shown below, promoting a collaborative pharmacy workflow solution.

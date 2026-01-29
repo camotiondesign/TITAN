@@ -1,0 +1,1 @@
+Promotional graphic celebrating a milestone of 10 million dispensing items processed in a single month using Titan, featuring an illustrated pharmacy worker smiling with pharmacy-related items radiating behind them, and text highlighting record-breaking performance powered by pharmacy teams, with Titan branding at the bottom.

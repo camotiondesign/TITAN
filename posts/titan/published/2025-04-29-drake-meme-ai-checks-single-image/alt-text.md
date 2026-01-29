@@ -1,0 +1,1 @@
+Two-panel Drake meme comparing pharmacy workflows. The top panel shows Drake rejecting the idea of manually checking 200 prescriptions a day, while the bottom panel shows him approving automated 40-point AI prescription checks that free pharmacists to focus on patient care.

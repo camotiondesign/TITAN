@@ -1,0 +1,1 @@
+Short customer testimonial video. A pharmacy team member describes how Titan frees up time for compliance and services, gets prescriptions ready quicker for staff and patients, and creates capacity for services and staff training, calling it the future of working in pharmacy.

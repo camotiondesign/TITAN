@@ -1,0 +1,1 @@
+User testimonial video featuring Charlotte and her pharmacy team after switching to Titan. They describe the move as quicker, easier, and more efficient, with faster dispensing, smoother patient collections, and more time freed up; they would not go back to their old PMR system.

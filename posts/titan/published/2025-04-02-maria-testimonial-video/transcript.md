@@ -1,0 +1,3 @@
+# Video transcript — Maria testimonial (2025-04-02)
+
+I feel quite positive about it. I think it's a lot easier to use. I think there might be teething problems down the line, but so far, everything that we've been showing today makes sense and it's quite easy to use. I think tomorrow, once we've got into the swing of things and we've worked out our own way of doing it, we'll find our own system and the way of doing it which will make it 10 times easier. I feel it just gives you that reassurance that everything is correct. Change is difficult, but you guys have done brilliant, smashed it today. Thank you really. Well done. Thank you again.

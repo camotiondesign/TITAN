@@ -1,0 +1,1 @@
+Talking head video explaining how pharmacies can grow without adding more stress through automation. Covers modern PMR systems automating clinical checks, labelling, and stock management, freeing time for flu jabs, NMS, earwax consultations, and patient care.

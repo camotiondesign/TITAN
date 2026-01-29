@@ -1,0 +1,1 @@
+Illustrated scene showing a crowded group of people surrounded by computer screens and data charts, all focused on metrics, while one person wearing a Titan hoodie sits calmly in the centre holding a tablet. A speech bubble reads, "Which metric actually matters?" highlighting the challenge of focusing on meaningful data amid information overload.

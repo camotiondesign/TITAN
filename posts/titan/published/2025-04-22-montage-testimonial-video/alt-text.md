@@ -1,0 +1,1 @@
+Montage-style testimonial video featuring multiple pharmacy team members. Clips include quotes about Titan empowering dispensary staff, saving time, prescriptions ready faster, and freeing up time to do services, with real reactions from teams on Day One with Titan.
