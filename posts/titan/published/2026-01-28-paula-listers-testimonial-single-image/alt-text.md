@@ -1,0 +1,1 @@
+Testimonial graphic showing Paula from Listers Chemist smiling inside a pharmacy, alongside a quoted statement reading: "Really simple, really easy, and I find it much better than ProScript." The Titan logo appears below on a dark blue background.

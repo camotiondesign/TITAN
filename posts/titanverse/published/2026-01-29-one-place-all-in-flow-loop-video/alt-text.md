@@ -1,0 +1,1 @@
+Looping video illustration of a relaxed pharmacist floating through a purple, space-like environment, surrounded by orbiting icons representing pharmacy services and workflows (messages, audio notes, tasks, integrations). The character drifts calmly as the icons move around them, suggesting everything is connected, automated, and running smoothly without manual effort.
