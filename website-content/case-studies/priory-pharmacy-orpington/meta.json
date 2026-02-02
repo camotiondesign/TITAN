@@ -1,0 +1,13 @@
+{
+  "title": "Scaling Safely Without Robots: Inside Priory Pharmacy's 16K-Item Workflow",
+  "pharmacy": "Priory Pharmacy, Orpington",
+  "url": "https://www.titanpmr.com/case-studies/scaling-safely-without-robots-inside-priory-pharmacy-s-16k-item-workflow",
+  "published_at": "2025-07-01",
+  "tags": ["Prab", "Batch-Flow", "Kanban", "Titan-Mobile", "Meditech", "Titanverse"],
+  "stats": {
+    "items_per_month": 16000,
+    "scripts_ai_checked_pct": 70,
+    "baskets_in_flow": 150
+  },
+  "products_used": ["Titan PMR", "Titan AI", "Titan Batch Flow", "Titan Mobile"]
+}

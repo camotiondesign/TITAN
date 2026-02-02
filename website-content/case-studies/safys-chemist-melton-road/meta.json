@@ -1,0 +1,14 @@
+{
+  "title": "How Safy's Chemist Cut Near Misses by 97% and Freed 85% of Pharmacist Time",
+  "pharmacy": "Safy's Chemist, Melton Road",
+  "url": "https://www.titanpmr.com/case-studies/how-safys-chemist-cut-near-misses-by-97-and-freed-85-of-pharmacist-time",
+  "published_at": "2026-01-02",
+  "tags": ["safety", "near-misses", "efficiency", "pharmacist-time", "paperless", "single-patient-mode", "staff-empowerment"],
+  "stats": {
+    "near_misses_reduced_pct": 97,
+    "pharmacist_time_reclaimed_pct": 85,
+    "paperless_pct": 100,
+    "items_dispensed_per_month": "14,500-15,000"
+  },
+  "products_used": ["Titan PMR"]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "How BMP Scaled to 170,000 Items and 500% Service Growth",
+  "pharmacy": "BMP Healthcare (12 branches, Midlands)",
+  "url": "https://www.titanpmr.com/case-studies/bmp-healthcare-scaling-to-170-000-items-and-500-service-growth-with-titan-pmr-and-titanverse",
+  "published_at": "2025-11-10",
+  "tags": ["multi-site", "Titanverse", "Batch-Flow", "barcode-scanning", "NMS", "clinical-services", "Yusuf"],
+  "stats": {
+    "items_per_month": 170000,
+    "pharmacist_checks_reduced_to_pct": "20-30",
+    "dispensing_speed": "doubled",
+    "clinical_services_increase_pct": 500,
+    "sites": 12
+  },
+  "products_used": ["Titan PMR", "Titanverse"]
+}
