@@ -1,0 +1,18 @@
+{
+  "generated": "2026-02-11T14:30:00Z",
+  "action": "merge",
+  "notes": "Sample schedule — replace with real posts from planning sessions",
+  "posts": [
+    {
+      "name": "TITAN_Example_TestPost",
+      "platform": "LI-PAGE@titanpmr",
+      "content_type": "Single Image",
+      "date": "2026-02-28",
+      "campaign": "",
+      "phase": "",
+      "status": "Concept for Review",
+      "caption": "This is a test post to verify the Notion push command works.\n\nIf you can see this in Notion with proper line breaks, the sync is working.\n\nDelete this post after testing.",
+      "idea": "TEST POST — simple single image with test caption. Delete after verifying push works correctly."
+    }
+  ]
+}
