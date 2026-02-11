@@ -1,0 +1,27 @@
+{
+  "discovered_at": "2026-02-11T13:53:25.806646+00:00",
+  "database_id": "157f423bea8b8149b546e7279b4ea0c0",
+  "properties": {
+    "Asset For Reviewal": "rich_text",
+    "Publish Status": "select",
+    "Shares": "number",
+    "Media 1": "rich_text",
+    "Campaign": "select",
+    "Media": "files",
+    "Idea": "rich_text",
+    "Notionsocial": "rich_text",
+    "Post URL": "rich_text",
+    "Views": "number",
+    "Phase": "select",
+    "Assigned": "people",
+    "Content Type": "select",
+    "Sourced Assets": "rich_text",
+    "Comments": "number",
+    "Post Status": "status",
+    "Likes": "number",
+    "Time": "date",
+    "Platforms": "multi_select",
+    "Post Caption": "rich_text",
+    "Name": "title"
+  }
+}
