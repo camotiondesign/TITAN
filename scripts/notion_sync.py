@@ -43,6 +43,9 @@ SCHEMA_FILE = DATA_DIR / "notion_schema.json"
 NOTION_BASE = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
 
+# Timeout for all Notion API calls (seconds)
+TIMEOUT = httpx.Timeout(60.0, connect=10.0)
+
 
 def notion_headers():
     return {
@@ -54,21 +57,21 @@ def notion_headers():
 
 def notion_get(path):
     """GET request to Notion API."""
-    r = httpx.get(NOTION_BASE + path, headers=notion_headers())
+    r = httpx.get(NOTION_BASE + path, headers=notion_headers(), timeout=TIMEOUT)
     r.raise_for_status()
     return r.json()
 
 
 def notion_post(path, body=None):
     """POST request to Notion API."""
-    r = httpx.post(NOTION_BASE + path, headers=notion_headers(), json=body or {})
+    r = httpx.post(NOTION_BASE + path, headers=notion_headers(), json=body or {}, timeout=TIMEOUT)
     r.raise_for_status()
     return r.json()
 
 
 def notion_patch(path, body=None):
     """PATCH request to Notion API."""
-    r = httpx.patch(NOTION_BASE + path, headers=notion_headers(), json=body or {})
+    r = httpx.patch(NOTION_BASE + path, headers=notion_headers(), json=body or {}, timeout=TIMEOUT)
     r.raise_for_status()
     return r.json()
 
