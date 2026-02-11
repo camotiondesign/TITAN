@@ -18,12 +18,33 @@ TITAN/
 │       ├── leadership/raw
 │       └── product-vo/raw
 ├── inspiration/            # Competitive intelligence library
-├── strategy/               # Messaging, positioning, frameworks
+├── knowledge/              # Product knowledge base
 ├── brand/                  # Logos, type, templates
-├── campaigns-index.json   # Automated index
-├── repo-map.md            # This file
+├── analytics/              # Aggregated performance data
+├── scripts/                # Automation scripts
+│   ├── notion_sync.py     # Notion bidirectional sync (pull/push/discover)
+│   ├── requirements.txt   # Python dependencies
+│   ├── aggregate-metrics.js # Weekly metrics aggregation
+│   └── [analysis scripts] # Historical analysis tools
+├── data/                   # Automated data outputs
+│   ├── notion_export.json # Latest Notion database state
+│   ├── notion_schema.json # Discovered property types
+│   └── sample_schedule.json
+├── .github/workflows/      # GitHub Actions
+│   ├── aggregate-metrics.yml
+│   └── notion-sync.yml    # Daily 6am UTC Notion pull
+├── systems/                # Workflow documentation
+├── _reports/               # Generated analysis reports
+├── _shared/                # Shared assets
+├── audit_results/          # Audit outputs
+├── playground/             # Draft workspace
+├── research/               # Research materials
+├── campaigns-index.json
 ├── titan-ai-instructions.md
-└── titan-ai-behaviour-context.json
+├── titan-ai-behaviour-context.json
+├── TITAN_CONTENT_AUTOMATION_BLUEPRINT.md
+├── repo-map.md             # This file
+└── README.md
 ```
 
 ## Campaign Structure
@@ -33,10 +54,10 @@ Every campaign follows this structure:
 ```
 YYYY-MM-DD-slug/
 ├── content/
-│   ├── blog.md            # Blog post (if exists)
-│   ├── carousel.md        # Carousel content (if exists)
-│   ├── single-image.md    # Single image posts (if exists)
-│   └── video/             # Video transcripts
+│   ├── blog.md
+│   ├── carousel.md
+│   ├── single-image.md
+│   └── video/
 │       └── <slug>/
 │           ├── transcript.md
 │           └── meta.json
@@ -53,14 +74,27 @@ YYYY-MM-DD-slug/
 │   ├── linkedin.json
 │   ├── tiktok.json
 │   └── youtube.json
-├── assets/                 # Thumbnails and final exports only
+├── assets/
 ├── post-mortem.md
 └── README.md
 ```
 
+## Automation Scripts
+
+| Script | Purpose | Trigger |
+|--------|---------|---------|
+| `notion_sync.py discover` | Show Notion DB schema | Manual |
+| `notion_sync.py pull` | Pull all Notion rows to JSON | Daily (6am UTC) + manual |
+| `notion_sync.py push FILE` | Push schedule JSON to Notion | Manual |
+| `aggregate-metrics.js` | Aggregate LinkedIn metrics | Weekly Action |
+
 ## Key Principles
 
-- **Campaign folder = ONE story, MANY assets**
-- **Raw interviews NEVER live inside campaigns**
-- **No duplicates anywhere**
-- **If a folder has no purpose, delete it**
+- Campaign folder = ONE story, MANY assets
+- Raw interviews NEVER live inside campaigns
+- No duplicates anywhere
+- If a folder has no purpose, delete it
+- Notion is the calendar, GitHub is the archive
+- Automation eliminates manual CSV workflows
+
+Last updated: February 2026
