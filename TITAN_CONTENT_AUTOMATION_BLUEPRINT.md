@@ -3,7 +3,7 @@
 **Created:** February 11, 2026  
 **Author:** Cam (Content Strategist, Titan PMR / Titanverse) + Claude  
 **Status:** Phase 1 FULLY COMPLETE — Notion syncs to repo daily at 7am GMT  
-**Last Updated:** February 11, 2026 (Phase 1 confirmed working)  
+**Last Updated:** February 11, 2026 (Phase 2B added — Bitly API + UTM tracking)  
 **Purpose:** This is the single source of truth for the entire automation build. If a conversation ends, any new Claude session or developer should be able to read this document and continue from wherever Cam left off.
 
 ---
@@ -15,17 +15,19 @@
 3. [Phase 0: Foundation Setup](#3-phase-0-foundation-setup)
 4. [Phase 1: Notion Bidirectional Sync](#4-phase-1-notion-bidirectional-sync)
 5. [Phase 2: Metrics Scraping & Auto Alt-Text](#5-phase-2-metrics-scraping--auto-alt-text)
-6. [Phase 3: Smart Planning Engine](#6-phase-3-smart-planning-engine)
-7. [Phase 4: Client-Ready Product (Future)](#7-phase-4-client-ready-product-future)
-8. [Repo Structure Specification](#8-repo-structure-specification)
-9. [Data Schema Specifications](#9-data-schema-specifications)
-10. [API Reference & Credentials](#10-api-reference--credentials)
-11. [GitHub Actions Specifications](#11-github-actions-specifications)
-12. [MCP Configuration](#12-mcp-configuration)
-13. [Cadence Rules Engine Specification](#13-cadence-rules-engine-specification)
-14. [Cost Analysis](#14-cost-analysis)
-15. [Decision Log](#15-decision-log)
-16. [Progress Tracker](#16-progress-tracker)
+6. [Phase 2B: Bitly API & UTM Link Generation](#5b-phase-2b-bitly-api--utm-link-generation)
+7. [Phase 3: Smart Planning Engine](#6-phase-3-smart-planning-engine)
+8. [Phase 4: Client-Ready Product (Future)](#7-phase-4-client-ready-product-future)
+9. [Repo Structure Specification](#8-repo-structure-specification)
+10. [Data Schema Specifications](#9-data-schema-specifications)
+11. [API Reference & Credentials](#10-api-reference--credentials)
+12. [GitHub Actions Specifications](#11-github-actions-specifications)
+13. [MCP Configuration](#12-mcp-configuration)
+14. [Cadence Rules Engine Specification](#13-cadence-rules-engine-specification)
+15. [Cost Analysis](#14-cost-analysis)
+16. [Decision Log](#15-decision-log)
+17. [Progress Tracker](#16-progress-tracker)
+18. [UTM Naming Convention](#17-utm-naming-convention)
 
 ---
 
@@ -50,6 +52,8 @@ Both brands post to LinkedIn company pages. Titan PMR also has a TikTok presence
 
 4. **No Automation:** Everything is manual — planning, metrics tracking, theme rotation checking, gap analysis, customer rotation. Cam is the system, and that doesn't scale.
 
+5. **Broken Attribution:** bit.ly links without UTM parameters break GA4 referral chains. LinkedIn drives ~59% of case study and blog traffic but GA4 shows minimal impact because shortened links strip referral data.
+
 ### What Already Exists
 
 - **GitHub Repo:** Large local repo (connected via Git) containing:
@@ -58,8 +62,8 @@ Both brands post to LinkedIn company pages. Titan PMR also has a TikTok presence
   - Unpublished concepts, curriculum posts, needs-metrics folders
   - Various strategy docs and trackers
 
-- **Notion Database:** "Titan Social Media Database" with 20 columns:
-  - Name, Asset For Reviewal, Assigned, Campaign, Comments, Content Type, Idea, Likes, Media, Notionsocial, Phase, Platforms, Post Caption, Post Status, Post URL, Publish Status, Shares, Sourced Assets, Time, Views
+- **Notion Database:** "Titan Social Media Database" with 21 columns (UTM Link added Feb 11):
+  - Name, Asset For Reviewal, Assigned, Campaign, Comments, Content Type, Idea, Likes, Media, Notionsocial, Phase, Platforms, Post Caption, Post Status, Post URL, Publish Status, Shares, Sourced Assets, Time, UTM Link, Views
 
 - **Claude Project:** Contains strategy docs, voice guides, trackers, quote banks as static uploaded files. These are the project knowledge files Claude references for planning.
 
@@ -105,15 +109,17 @@ Both brands post to LinkedIn company pages. Titan PMR also has a TikTok presence
            |              |              |
            +--------------+--------------+
                           |
-                   +------v------+
-                   | CLAUDE API  |
-                   | (Vision)    |
-                   |             |
-                   | Auto alt-   |
-                   | text for    |
-                   | images +    |
-                   | videos      |
-                   +-------------+
+              +-----------+-----------+
+              |                       |
+       +------v------+        +------v------+
+       | CLAUDE API  |        |  BITLY API  |
+       | (Vision)    |        |             |
+       |             |        | UTM link    |
+       | Auto alt-   |        | generation  |
+       | text for    |        | + click     |
+       | images +    |        | analytics   |
+       | videos      |        |             |
+       +-------------+        +-------------+
 ```
 
 ### Data Flow
@@ -128,10 +134,17 @@ PLANNING:
 METRICS:
   GitHub Action runs weekly
   -> Pulls post data from LinkedIn API + TikTok API
-  -> Downloads media (images, video thumbnails)
+  -> Downloads media (images, video thumbnails, carousel slides)
   -> Sends media to Claude API for alt-text generation
   -> Saves structured JSON to repo
   -> Commits automatically
+
+UTM TRACKING (Phase 2B):
+  Post created in Notion with destination URL
+  -> Script generates UTM-tagged URL using naming convention
+  -> Bitly API shortens the UTM URL
+  -> Shortened link written back to Notion "UTM Link" property
+  -> Cam uses UTM Link in post caption instead of raw bit.ly
 
 LIVE PLANNING:
   Cam opens Claude Desktop with MCP
@@ -153,6 +166,7 @@ LIVE PLANNING:
 | Alt-text generation | Claude API (Vision) | Best visual understanding, consistent with planning |
 | Metrics source | LinkedIn Marketing API (primary), Shield (fallback) | Free first, paid backup |
 | Notion API library | Raw httpx (not notion-client) | notion-client SDK failed on Notion Social synced databases; httpx with direct REST calls works |
+| Link tracking | Bitly API + UTM params | Already using Bitly, API is free tier, fixes GA4 attribution gap |
 
 ---
 
@@ -222,6 +236,7 @@ Gives Claude Desktop direct, live access to your GitHub repo and Notion database
 TITAN/
 +-- scripts/
 |   +-- notion_sync.py          <- Phase 1: Notion read/write (18KB)
+|   +-- generate_utm.py         <- Phase 2B: UTM link generation
 |   +-- requirements.txt        <- Python deps (httpx, python-dotenv)
 +-- data/
 |   +-- notion_export.json      <- Auto-generated daily by GitHub Action
@@ -323,13 +338,13 @@ Secrets used: NOTION_API_KEY (mapped to NOTION_TOKEN env var), NOTION_DATABASE_I
 4. Build pull_linkedin_metrics.py
 5. Fallback: Shield App (~20 GBP/month) if API approval is slow
 
-### 2B: TikTok Metrics
+### 2C: TikTok Metrics
 
 1. Register at developers.tiktok.com
 2. Request Business API access
 3. Build pull_tiktok_metrics.py
 
-### 2C: Auto Alt-Text Generation
+### 2D: Auto Alt-Text Generation
 
 1. Metrics scraper downloads media (images, video thumbnails, carousel slides)
 2. Send to Claude API (Sonnet) for visual description
@@ -349,6 +364,79 @@ Secrets used: NOTION_API_KEY (mapped to NOTION_TOKEN env var), NOTION_DATABASE_I
 - [ ] Video transcription via Whisper
 - [ ] Key quote extraction
 - [ ] Live tracker auto-updates
+
+---
+
+## 5B. PHASE 2B: BITLY API & UTM LINK GENERATION
+
+**Estimated time:** 1-2 hours  
+**Dependencies:** Phase 1 complete (Notion property "UTM Link" already added)  
+**Outcome:** Every post with a destination URL gets a properly tagged, shortened tracking link  
+**Status:** INTERIM — Manual UTM convention live, Bitly API automation pending
+
+### Background
+
+bit.ly links without UTM parameters break GA4 referral chains. LinkedIn drives ~59% of case study and blog traffic when properly measured, but GA4 shows minimal impact because shortened links strip the referral source. Adding UTM parameters to every link before shortening fixes this completely.
+
+### What's Already Done
+
+- [x] "UTM Link" URL property added to Notion database (Feb 11)
+- [x] UTM naming convention documented (see Section 17)
+
+### Interim Workflow (Manual — Use Now)
+
+For every post that includes a link:
+
+1. Take the destination URL (e.g., `https://titanpmr.com/case-studies/puri-health`)
+2. Append UTM parameters using the convention in Section 17
+3. Paste the full UTM URL into Bitly manually to shorten
+4. Put the shortened link in the Notion "UTM Link" property
+5. Use the shortened UTM link in the post caption
+
+### Automated Workflow (Build Later)
+
+Script: `scripts/generate_utm.py`
+
+**Inputs:**
+- Destination URL (from post caption or a new "Destination URL" property)
+- Post Name (from Notion Name property)
+- Platform (from Notion Platforms property)
+- Campaign (from Notion Campaign property, if set)
+
+**Process:**
+1. Read posts from Notion that have a destination URL but no UTM Link
+2. Generate UTM-tagged URL using naming convention
+3. Call Bitly API v4 to shorten: `POST https://api-ssl.bitly.com/v4/shorten`
+4. Write shortened link back to Notion "UTM Link" property
+5. Optionally group links in Bitly by campaign
+
+**Bitly API Details:**
+- **Docs:** https://dev.bitly.com/api-reference
+- **Auth:** Bearer token (free tier: 1,000 links/month, more than enough)
+- **Endpoint:** `POST /v4/shorten` with `{"long_url": "...", "group_guid": "..."}`
+- **Response:** `{"link": "https://bit.ly/xxxxx"}`
+
+**GitHub Action Integration:**
+- Can run as part of the daily notion-sync workflow
+- Or triggered manually when planning a new week
+- Checks for posts with dates in the next 7 days that have no UTM Link
+
+### Setup Steps
+
+1. Go to https://app.bitly.com/settings/api/ → Generate access token
+2. Store as GitHub secret: `BITLY_ACCESS_TOKEN`
+3. Build `scripts/generate_utm.py`
+4. Add to GitHub Action workflow (or run manually)
+
+### Phase 2B Completion Checklist
+
+- [x] UTM naming convention defined (Feb 11)
+- [x] "UTM Link" property added to Notion database (Feb 11)
+- [ ] Bitly access token generated and stored as secret
+- [ ] generate_utm.py script built
+- [ ] Script tested on sample posts
+- [ ] Integrated into GitHub Action or manual workflow
+- [ ] First week of posts tracked with proper UTM links
 
 ---
 
@@ -395,6 +483,8 @@ Sections 8-14 contain detailed specs for repo structure, data schemas, API crede
 | Feb 11 | Keep secret as NOTION_API_KEY, map in workflow | Avoids regenerating key, workflow handles translation | Done |
 | Feb 11 | Blueprint lives in repo only (not Claude Project) | Single source of truth, git-tracked, no drift | Done |
 | Feb 11 | Enable read/write workflow permissions | Required for GitHub Action to push commits | Done |
+| Feb 11 | Bitly API for link shortening + UTM | Already using Bitly, free tier sufficient, fixes GA4 attribution gap | Planned |
+| Feb 11 | UTM Link as Notion URL property | Lives alongside post — no hunting through spreadsheets | Done |
 
 ---
 
@@ -411,8 +501,76 @@ Remaining: First CSV-free planning session (ready to do anytime).
 Next step: Create LinkedIn Developer App (submit early, approval takes 1-7 days).
 Note: ANTHROPIC_API_KEY already stored as GitHub secret.
 
+### Phase 2B: Bitly API + UTM Tracking — INTERIM
+UTM naming convention defined. Notion "UTM Link" property live. Manual workflow in place.
+Next step: Generate Bitly access token, build generate_utm.py script.
+
 ### Phase 3: Smart Planning — NOT STARTED
 Blocked on Phase 2 data accumulation.
+
+---
+
+## 17. UTM NAMING CONVENTION
+
+### Parameter Structure
+
+Every link shared in a post should use this format:
+
+```
+{destination_url}?utm_source={source}&utm_medium=social&utm_campaign={campaign}&utm_content={post_name}
+```
+
+### Parameter Values
+
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| `utm_source` | `linkedin` or `tiktok` | Platform where the link is posted |
+| `utm_medium` | `social` | Always "social" for organic posts |
+| `utm_campaign` | See campaign values below | Maps to Notion Campaign property |
+| `utm_content` | Post Name from Notion | e.g., `TITAN_BlackBookRepeatFlow` |
+
+### Campaign Values
+
+| Notion Campaign | utm_campaign value |
+|-----------------|-------------------|
+| TitanUp 2026 | `titanup2026` |
+| Advocacy | `advocacy` |
+| Rahul Case Study | `casestudy_rahul` |
+| TV Case Study | `casestudy_tv` |
+| Tariq Documentary | `tariq_documentary` |
+| HEAD OFFICE | `headoffice` |
+| *(no campaign)* | `organic` |
+
+### Examples
+
+**Titan PMR blog post, TitanUp campaign, posted on LinkedIn:**
+```
+https://titanpmr.com/blog/titanup-2026?utm_source=linkedin&utm_medium=social&utm_campaign=titanup2026&utm_content=TITAN_TitanUpAgendaTease
+```
+
+**Titanverse case study, no campaign, posted on LinkedIn:**
+```
+https://titanverse.com/case-studies/puri-health?utm_source=linkedin&utm_medium=social&utm_campaign=organic&utm_content=TV_RahulTransformation
+```
+
+**Titan PMR feature page, posted on TikTok:**
+```
+https://titanpmr.com/features/repeat-management?utm_source=tiktok&utm_medium=social&utm_campaign=organic&utm_content=TITAN_BlackBookRepeatFlow
+```
+
+### Rules
+
+1. **Always lowercase** — no capitals in UTM values
+2. **Underscores not hyphens** in utm_content (matches Notion naming)
+3. **Every link gets tagged** — no bare URLs or untagged bit.ly links
+4. **utm_content = Notion Name** — makes GA4 reports directly traceable to your calendar
+5. **Shorten AFTER adding UTMs** — the UTM params must be part of the shortened URL
+
+### Reading the Data in GA4
+
+Navigate to: **Acquisition → Traffic Acquisition → Session source/medium**
+
+Filter by `linkedin / social` to see all LinkedIn-driven traffic. Then use secondary dimension `Session campaign` to break down by campaign, or `Session manual ad content` to see individual post performance.
 
 ---
 
@@ -430,5 +588,5 @@ On Feb 11, the Notion API key was briefly exposed in a commit to the workflow fi
 
 ---
 
-*Version 3.1 | February 11, 2026*  
+*Version 3.2 | February 11, 2026*  
 *Single source of truth — lives in repo root only.*
