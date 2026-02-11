@@ -28,19 +28,33 @@ except ImportError:
     print("ERROR: google-api-python-client not installed. Run: pip install google-api-python-client")
     sys.exit(1)
 
+TRANSCRIPTS_AVAILABLE = False
+TRANSCRIPT_API_VERSION = None
+
 try:
     from youtube_transcript_api import YouTubeTranscriptApi
     TRANSCRIPTS_AVAILABLE = True
+
+    # Detect API version by checking available methods
+    if hasattr(YouTubeTranscriptApi, 'fetch'):
+        TRANSCRIPT_API_VERSION = "new"  # v0.6.3+
+    elif hasattr(YouTubeTranscriptApi, 'get_transcript'):
+        TRANSCRIPT_API_VERSION = "old"  # v0.5.x / v0.6.0-0.6.2
+    else:
+        TRANSCRIPT_API_VERSION = "old"
+
+    print(f"youtube-transcript-api detected (style: {TRANSCRIPT_API_VERSION})")
 except ImportError:
     print("WARNING: youtube-transcript-api not installed. Transcripts will be skipped.")
     print("Run: pip install youtube-transcript-api")
-    TRANSCRIPTS_AVAILABLE = False
 
 # --- Config ---
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 CHANNEL_HANDLE = "@TITANPMR"
 DATA_DIR = Path("data/youtube")
 TRANSCRIPT_DIR = DATA_DIR / "transcripts"
+
+LANGUAGE_CODES = ["en", "en-GB", "en-US"]
 
 
 def get_youtube_client():
@@ -167,48 +181,111 @@ def get_video_details(youtube, video_ids):
     return all_details
 
 
-def get_transcript(video_id):
-    """Pull transcript for a single video. Returns None if unavailable."""
-    if not TRANSCRIPTS_AVAILABLE:
+def parse_transcript_entries(entries):
+    """Parse transcript entries regardless of format (dict or object)."""
+    segments = []
+    full_text_parts = []
+
+    for entry in entries:
+        # Handle both dict format and object format
+        if isinstance(entry, dict):
+            start = entry.get("start", 0)
+            duration = entry.get("duration", 0)
+            text = entry.get("text", "")
+        else:
+            start = getattr(entry, "start", 0)
+            duration = getattr(entry, "duration", 0)
+            text = getattr(entry, "text", str(entry))
+
+        segments.append({
+            "start": round(float(start), 1),
+            "duration": round(float(duration), 1),
+            "text": text,
+        })
+        full_text_parts.append(text)
+
+    return {
+        "full_text": " ".join(full_text_parts),
+        "segments": segments,
+    }
+
+
+def get_transcript_new_api(video_id):
+    """Fetch transcript using youtube-transcript-api v0.6.3+ API."""
+    try:
+        # New API: YouTubeTranscriptApi.fetch(video_id, languages=[...])
+        entries = YouTubeTranscriptApi.fetch(video_id, languages=LANGUAGE_CODES)
+        result = parse_transcript_entries(entries)
+        result["language"] = "en"
+        result["is_auto_generated"] = True  # Can't easily distinguish in new API
+        return result
+    except Exception as e:
+        print(f"    new API fetch failed: {type(e).__name__}: {e}")
         return None
 
+
+def get_transcript_old_api(video_id):
+    """Fetch transcript using youtube-transcript-api v0.5.x / v0.6.0-0.6.2 API."""
+    # Method 1: Simple get_transcript
+    try:
+        entries = YouTubeTranscriptApi.get_transcript(video_id, languages=LANGUAGE_CODES)
+        result = parse_transcript_entries(entries)
+        result["language"] = "en"
+        result["is_auto_generated"] = True
+        return result
+    except Exception as e:
+        print(f"    get_transcript failed: {type(e).__name__}: {e}")
+
+    # Method 2: list_transcripts with manual/generated preference
     try:
         transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-
-        # Prefer manually created, fall back to auto-generated
         transcript = None
+        is_generated = False
+
+        # Try manually created first
         try:
-            transcript = transcript_list.find_manually_created_transcript(["en"])
+            transcript = transcript_list.find_manually_created_transcript(LANGUAGE_CODES)
+            is_generated = False
         except Exception:
+            pass
+
+        # Fall back to auto-generated
+        if not transcript:
             try:
-                transcript = transcript_list.find_generated_transcript(["en"])
+                transcript = transcript_list.find_generated_transcript(LANGUAGE_CODES)
+                is_generated = True
             except Exception:
                 pass
 
         if transcript:
             entries = transcript.fetch()
-            # Build full text and keep timestamped entries
-            segments = []
-            full_text_parts = []
-            for entry in entries:
-                segments.append({
-                    "start": round(entry.start, 1),
-                    "duration": round(entry.duration, 1),
-                    "text": entry.text,
-                })
-                full_text_parts.append(entry.text)
-
-            return {
-                "full_text": " ".join(full_text_parts),
-                "segments": segments,
-                "language": "en",
-                "is_auto_generated": transcript.is_generated,
-            }
+            result = parse_transcript_entries(entries)
+            result["language"] = "en"
+            result["is_auto_generated"] = is_generated
+            return result
 
     except Exception as e:
-        print(f"  No transcript for {video_id}: {e}")
+        print(f"    list_transcripts failed: {type(e).__name__}: {e}")
 
     return None
+
+
+def get_transcript(video_id):
+    """Pull transcript for a single video. Returns None if unavailable."""
+    if not TRANSCRIPTS_AVAILABLE:
+        return None
+
+    # Try the detected API version first, then fall back to the other
+    if TRANSCRIPT_API_VERSION == "new":
+        result = get_transcript_new_api(video_id)
+        if not result:
+            result = get_transcript_old_api(video_id)
+    else:
+        result = get_transcript_old_api(video_id)
+        if not result:
+            result = get_transcript_new_api(video_id)
+
+    return result
 
 
 def pull(skip_transcripts=False, max_recent=None):
@@ -250,7 +327,8 @@ def pull(skip_transcripts=False, max_recent=None):
         print("Fetching transcripts...")
         for i, video in enumerate(videos):
             vid_id = video["video_id"]
-            print(f"  [{i+1}/{len(videos)}] {video['title'][:60]}...")
+            title_preview = video['title'][:60]
+            print(f"  [{i+1}/{len(videos)}] {title_preview}...")
 
             transcript = get_transcript(vid_id)
             if transcript:
@@ -269,6 +347,8 @@ def pull(skip_transcripts=False, max_recent=None):
                 }
                 with open(transcript_file, "w", encoding="utf-8") as f:
                     json.dump(transcript_data, f, indent=2, ensure_ascii=False)
+
+                print(f"    ✓ Transcript saved ({video['transcript_word_count']} words)")
             else:
                 video["has_transcript"] = False
                 video["transcript_word_count"] = 0
