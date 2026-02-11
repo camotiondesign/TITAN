@@ -53,7 +53,7 @@ SCHEMA_FILE = DATA_DIR / "notion_schema.json"
 # PROPERTY EXTRACTION — handles every Notion property type
 # ---------------------------------------------------------------------------
 
-def extract_property_value(prop: dict):
+def extract_property_value(prop):
     """
     Extract a usable Python value from a Notion property object.
     Handles all standard Notion property types gracefully.
@@ -154,13 +154,13 @@ def extract_property_value(prop: dict):
         uid = prop.get("unique_id", {})
         prefix = uid.get("prefix", "")
         number = uid.get("number", "")
-        return f"{prefix}-{number}" if prefix else str(number)
+        return "{}-{}".format(prefix, number) if prefix else str(number)
 
     elif prop_type == "verification":
         return prop.get("verification", {}).get("state")
 
     else:
-        return f"[UNKNOWN TYPE: {prop_type}]"
+        return "[UNKNOWN TYPE: {}]".format(prop_type)
 
 
 # ---------------------------------------------------------------------------
@@ -235,7 +235,7 @@ def build_property_payload(prop_name, value, prop_type):
         return {"phone_number": str(value)}
 
     else:
-        print(f"  Warning: Cannot set property '{prop_name}' — type '{prop_type}' not writable via API")
+        print("  Warning: Cannot set property '{}' -- type '{}' not writable via API".format(prop_name, prop_type))
         return {}
 
 
@@ -244,11 +244,33 @@ def build_property_payload(prop_name, value, prop_type):
 # ---------------------------------------------------------------------------
 
 def get_schema(notion, database_id):
-    """Retrieve the database schema. Returns dict of {property_name: property_type}."""
+    """
+    Retrieve the database schema. Returns dict of {property_name: property_type}.
+
+    Notion Social synced databases don't return 'properties' from the
+    databases.retrieve endpoint, so we fall back to reading property types
+    from the first row returned by databases.query.
+    """
     db = notion.databases.retrieve(database_id=database_id)
+
+    # Normal databases have properties on the retrieve response
+    if "properties" in db and db["properties"]:
+        schema = {}
+        for prop_name, prop_config in db["properties"].items():
+            schema[prop_name] = prop_config["type"]
+        return schema
+
+    # Fallback for synced/external data source databases (e.g. Notion Social)
+    print("   (Synced database detected -- discovering schema from first row)")
+    response = notion.databases.query(database_id=database_id, page_size=1)
+    if not response.get("results"):
+        print("ERROR: Database returned no rows. Cannot discover schema.")
+        sys.exit(1)
+
+    page = response["results"][0]
     schema = {}
-    for prop_name, prop_config in db["properties"].items():
-        schema[prop_name] = prop_config["type"]
+    for prop_name, prop_data in page.get("properties", {}).items():
+        schema[prop_name] = prop_data["type"]
     return schema
 
 
@@ -261,7 +283,7 @@ def save_schema(schema):
         "properties": schema,
     }
     SCHEMA_FILE.write_text(json.dumps(payload, indent=2))
-    print(f"Schema saved to {SCHEMA_FILE}")
+    print("Schema saved to {}".format(SCHEMA_FILE))
 
 
 def load_cached_schema():
@@ -281,12 +303,12 @@ def pull(notion, database_id):
     Pull all rows from the Notion database, paginating through results.
     Saves structured JSON to data/notion_export.json.
     """
-    print(f"Pulling from Notion database {database_id[:8]}...")
+    print("Pulling from Notion database {}...".format(database_id[:8]))
 
-    # Auto-discover schema on every pull (one API call, ensures freshness)
+    # Auto-discover schema on every pull (ensures freshness)
     schema = get_schema(notion, database_id)
     save_schema(schema)
-    print(f"   Schema: {len(schema)} properties discovered")
+    print("   Schema: {} properties discovered".format(len(schema)))
 
     # Paginate through all rows
     all_pages = []
@@ -304,7 +326,7 @@ def pull(notion, database_id):
         has_more = response.get("has_more", False)
         cursor = response.get("next_cursor")
         page_count += 1
-        print(f"   Page {page_count}: {len(response['results'])} rows (total: {len(all_pages)})")
+        print("   Page {}: {} rows (total: {})".format(page_count, len(response["results"]), len(all_pages)))
 
     # Convert to structured JSON
     posts = []
@@ -342,7 +364,7 @@ def pull(notion, database_id):
         "posts": posts,
     }
     EXPORT_FILE.write_text(json.dumps(export, indent=2, ensure_ascii=False))
-    print(f"\nExported {len(posts)} posts to {EXPORT_FILE}")
+    print("\nExported {} posts to {}".format(len(posts), EXPORT_FILE))
 
     # Quick summary stats
     statuses = {}
@@ -351,7 +373,7 @@ def pull(notion, database_id):
         statuses[status] = statuses.get(status, 0) + 1
     print("\nStatus breakdown:")
     for status, count in sorted(statuses.items(), key=lambda x: -x[1]):
-        print(f"   {status}: {count}")
+        print("   {}: {}".format(status, count))
 
     return posts
 
@@ -360,8 +382,14 @@ def pull(notion, database_id):
 # PUSH COMMAND
 # ---------------------------------------------------------------------------
 
-# Map from schedule JSON keys -> likely Notion property names
-# This gets refined once we see the actual schema
+# Verified mapping: schedule JSON keys -> Notion property names
+# Schema: Name(title), Content Type(select), Time(date), Campaign(select),
+# Phase(select), Post Status(status), Platforms(multi_select),
+# Post Caption(rich_text), Idea(rich_text), Post URL(rich_text),
+# Likes/Comments/Shares/Views(number), Media(files), Assigned(people),
+# Publish Status(select), Notionsocial(rich_text), Media 1(rich_text),
+# Sourced Assets(rich_text), Asset For Reviewal(rich_text)
+
 PUSH_KEY_MAP = {
     "name": "Name",
     "platform": "Platforms",
@@ -372,6 +400,8 @@ PUSH_KEY_MAP = {
     "status": "Post Status",
     "caption": "Post Caption",
     "idea": "Idea",
+    "post_url": "Post URL",
+    "publish_status": "Publish Status",
 }
 
 
@@ -385,7 +415,7 @@ def find_page_by_name(notion, database_id, name):
         if results["results"]:
             return results["results"][0]
     except APIResponseError as e:
-        print(f"  Error searching for '{name}': {e}")
+        print("  Error searching for '{}': {}".format(name, e))
     return None
 
 
@@ -396,7 +426,7 @@ def push(notion, database_id, schedule_file):
     """
     schedule_path = Path(schedule_file)
     if not schedule_path.exists():
-        print(f"File not found: {schedule_file}")
+        print("File not found: {}".format(schedule_file))
         sys.exit(1)
 
     schedule = json.loads(schedule_path.read_text())
@@ -408,19 +438,19 @@ def push(notion, database_id, schedule_file):
     # Load schema to know property types
     schema = load_cached_schema()
     if not schema:
-        print("No cached schema — discovering...")
+        print("No cached schema -- discovering...")
         schema = get_schema(notion, database_id)
         save_schema(schema)
 
-    print(f"Pushing {len(posts)} posts to Notion...\n")
+    print("Pushing {} posts to Notion...\n".format(len(posts)))
 
     created = 0
     updated = 0
     errors = 0
 
     for i, post in enumerate(posts, 1):
-        name = post.get("name", f"Untitled-{i}")
-        print(f"  [{i}/{len(posts)}] {name}")
+        name = post.get("name", "Untitled-{}".format(i))
+        print("  [{}/{}] {}".format(i, len(posts), name))
 
         # Build properties payload
         properties = {}
@@ -428,7 +458,7 @@ def push(notion, database_id, schedule_file):
             if json_key not in post:
                 continue
             if notion_prop not in schema:
-                print(f"    Warning: Property '{notion_prop}' not found in schema — skipping")
+                print("    Warning: Property '{}' not found in schema -- skipping".format(notion_prop))
                 continue
 
             value = post[json_key]
@@ -438,7 +468,7 @@ def push(notion, database_id, schedule_file):
                 properties[notion_prop] = payload
 
         if not properties:
-            print(f"    Warning: No valid properties to set — skipping")
+            print("    Warning: No valid properties to set -- skipping")
             errors += 1
             continue
 
@@ -450,21 +480,21 @@ def push(notion, database_id, schedule_file):
                     page_id=existing["id"],
                     properties=properties,
                 )
-                print(f"    Updated (page {existing['id'][:8]}...)")
+                print("    Updated (page {}...)".format(existing["id"][:8]))
                 updated += 1
             else:
                 notion.pages.create(
                     parent={"database_id": database_id},
                     properties=properties,
                 )
-                print(f"    Created")
+                print("    Created")
                 created += 1
 
         except APIResponseError as e:
-            print(f"    API Error: {e}")
+            print("    API Error: {}".format(e))
             errors += 1
 
-    print(f"\nPush complete: {created} created, {updated} updated, {errors} errors")
+    print("\nPush complete: {} created, {} updated, {} errors".format(created, updated, errors))
 
 
 # ---------------------------------------------------------------------------
@@ -472,7 +502,7 @@ def push(notion, database_id, schedule_file):
 # ---------------------------------------------------------------------------
 
 def shuffle(args):
-    """Phase 3 placeholder — will insert urgent posts and auto-shift schedule."""
+    """Phase 3 placeholder -- will insert urgent posts and auto-shift schedule."""
     print("Shuffle is a Phase 3 feature.")
     print("   It will:")
     print("   1. Pull current schedule from Notion")
@@ -483,7 +513,7 @@ def shuffle(args):
     print("   6. Push approved changes to Notion")
     print()
     print("   Usage (future):")
-    print('   python notion_sync.py shuffle --urgent "TITAN_BreakingNews" --date "2026-03-15" --platform "LI-PAGE@titanpmr"')
+    print('   python notion_sync.py shuffle --urgent "TITAN_BreakingNews" --date "2026-03-15"')
     sys.exit(0)
 
 
@@ -500,7 +530,7 @@ def validate_env():
         missing.append("NOTION_DATABASE_ID")
 
     if missing:
-        print(f"Missing environment variables: {', '.join(missing)}")
+        print("Missing environment variables: {}".format(", ".join(missing)))
         print()
         print("Set them via:")
         print("  export NOTION_API_KEY=ntn_...")
@@ -512,14 +542,14 @@ def validate_env():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Titan Content Ops — Notion Sync",
+        description="Titan Content Ops -- Notion Sync",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   python notion_sync.py discover           # Show database schema
   python notion_sync.py pull               # Export all posts to JSON
   python notion_sync.py push schedule.json # Push planned posts to Notion
-  python notion_sync.py shuffle            # (Phase 3 — not yet implemented)
+  python notion_sync.py shuffle            # (Phase 3 -- not yet implemented)
         """,
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
@@ -557,10 +587,10 @@ Examples:
     if args.command == "discover":
         schema = get_schema(notion, NOTION_DATABASE_ID)
         save_schema(schema)
-        print(f"\nDatabase schema ({len(schema)} properties):\n")
+        print("\nDatabase schema ({} properties):\n".format(len(schema)))
         sorted_props = sorted(schema.items(), key=lambda x: (x[1] != "title", x[0].lower()))
         for prop_name, prop_type in sorted_props:
-            print(f"   {prop_name}: {prop_type}")
+            print("   {}: {}".format(prop_name, prop_type))
 
     elif args.command == "pull":
         pull(notion, NOTION_DATABASE_ID)
