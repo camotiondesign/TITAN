@@ -51,7 +51,7 @@ The repo now includes a content operations automation system that eliminates man
 
 ### Phase 0: Foundation (Complete)
 - Notion API integration connected
-- GitHub secrets stored (NOTION_API_KEY, NOTION_DATABASE_ID)
+- GitHub secrets stored (NOTION_TOKEN, NOTION_DATABASE_ID)
 - MCP configuration ready
 
 ### Phase 1: Notion Bidirectional Sync (Complete)
@@ -81,7 +81,7 @@ The repo now includes a content operations automation system that eliminates man
 pip install -r scripts/requirements.txt
 
 # Set environment variables (or create .env in repo root)
-export NOTION_API_KEY=ntn_...
+export NOTION_TOKEN=ntn_...
 export NOTION_DATABASE_ID=abc123...
 
 # Discover your Notion schema

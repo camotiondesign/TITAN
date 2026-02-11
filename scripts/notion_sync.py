@@ -9,7 +9,7 @@ Commands:
     python notion_sync.py shuffle ...  # (Phase 3 placeholder)
 
 Environment variables required:
-    NOTION_API_KEY       -- Internal integration token (ntn_...)
+    NOTION_TOKEN       -- Internal integration token (ntn_...)
     NOTION_DATABASE_ID   -- 32-char hex database ID
 """
 
@@ -32,7 +32,7 @@ except ImportError:
 # CONFIG
 # ---------------------------------------------------------------------------
 
-NOTION_API_KEY = os.environ.get("NOTION_API_KEY")
+NOTION_TOKEN = os.environ.get("NOTION_TOKEN")
 NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -49,7 +49,7 @@ TIMEOUT = httpx.Timeout(60.0, connect=10.0)
 
 def notion_headers():
     return {
-        "Authorization": "Bearer " + NOTION_API_KEY,
+        "Authorization": "Bearer " + NOTION_TOKEN,
         "Notion-Version": NOTION_VERSION,
         "Content-Type": "application/json",
     }
@@ -500,13 +500,13 @@ def shuffle(args):
 
 def validate_env():
     missing = []
-    if not NOTION_API_KEY:
-        missing.append("NOTION_API_KEY")
+    if not NOTION_TOKEN:
+        missing.append("NOTION_TOKEN")
     if not NOTION_DATABASE_ID:
         missing.append("NOTION_DATABASE_ID")
     if missing:
         print("Missing env vars: {}".format(", ".join(missing)))
-        print("\nSet via: export NOTION_API_KEY=ntn_...")
+        print("\nSet via: export NOTION_TOKEN=ntn_...")
         print("Or create a .env file in the repo root.")
         sys.exit(1)
 

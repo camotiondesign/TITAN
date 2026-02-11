@@ -178,7 +178,7 @@ LIVE PLANNING:
 4. Copy the **Internal Integration Secret** (starts with `ntn_`)
 5. Store as GitHub secret:
    - Repo â†’ Settings â†’ Secrets and variables â†’ Actions â†’ New repository secret
-   - **Name:** `NOTION_API_KEY`
+   - **Name:** `NOTION_TOKEN`
    - **Value:** the `ntn_` key
 
 **Cost:** Free (included with any Notion plan)
@@ -226,10 +226,10 @@ LIVE PLANNING:
       "command": "npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-notion"
+        "@notionhq/notion-mcp-server"
       ],
       "env": {
-        "NOTION_API_KEY": "<YOUR_NOTION_NTN_KEY>"
+        "NOTION_TOKEN": "<YOUR_NOTION_NTN_KEY>"
       }
     }
   }
@@ -328,7 +328,7 @@ GitHub Actions will install these automatically.
 ### Phase 0 Completion Checklist
 
 - [ ] Notion integration created at notion.so/my-integrations
-- [ ] API key stored as `NOTION_API_KEY` GitHub secret
+- [ ] API key stored as `NOTION_TOKEN` GitHub secret
 - [ ] Database shared with integration (via Connections menu)
 - [ ] Database ID stored as `NOTION_DATABASE_ID` GitHub secret
 - [ ] GitHub PAT generated and stored locally
@@ -365,7 +365,7 @@ python scripts/notion_sync.py pull
 ```python
 from notion_client import Client
 
-notion = Client(auth=os.environ["NOTION_API_KEY"])
+notion = Client(auth=os.environ["NOTION_TOKEN"])
 database_id = os.environ["NOTION_DATABASE_ID"]
 
 results = notion.databases.query(database_id=database_id)
@@ -530,7 +530,7 @@ jobs:
       
       - name: Pull from Notion
         env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: python scripts/notion_sync.py pull
       
@@ -1085,7 +1085,7 @@ See Section 4, "Push Schedule JSON Format" for full schema.
 
 | Secret Name | Source | Phase | Required |
 |-------------|--------|-------|----------|
-| `NOTION_API_KEY` | notion.so/my-integrations | 0 | âœ… |
+| `NOTION_TOKEN` | notion.so/my-integrations | 0 | âœ… |
 | `NOTION_DATABASE_ID` | Notion database URL | 0 | âœ… |
 | `ANTHROPIC_API_KEY` | console.anthropic.com | 2 | âœ… |
 | `LINKEDIN_CLIENT_ID` | linkedin.com/developers | 2 | âœ… |
@@ -1103,7 +1103,7 @@ See Section 4, "Push Schedule JSON Format" for full schema.
 | Credential | Where Stored | Purpose |
 |------------|-------------|---------|
 | `GITHUB_PERSONAL_ACCESS_TOKEN` | Claude Desktop MCP config (local file) | MCP GitHub access |
-| `NOTION_API_KEY` (copy) | Claude Desktop MCP config (local file) | MCP Notion access |
+| `NOTION_TOKEN` (copy) | Claude Desktop MCP config (local file) | MCP Notion access |
 
 ### API Documentation Links
 
@@ -1170,10 +1170,10 @@ See Section 4, "Push Schedule JSON Format" for full schema.
       "command": "npx",
       "args": [
         "-y", 
-        "@modelcontextprotocol/server-notion"
+        "@notionhq/notion-mcp-server"
       ],
       "env": {
-        "NOTION_API_KEY": "ntn_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        "NOTION_TOKEN": "ntn_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
       }
     }
   }
