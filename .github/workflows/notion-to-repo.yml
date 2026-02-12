@@ -30,7 +30,7 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: |
           echo "=== Syncing Published Posts ==="
-          node scripts/notion-to-repo.js --since 7
+          node scripts/notion-to-repo.js --since 7 --refresh-metrics --refresh-days 14
           echo ""
           echo "=== Regenerating Indexes ==="
           node scripts/build-indexes.js
@@ -45,8 +45,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new posts to commit"
           else
-            NEWCOUNT=$(git diff --staged --name-only | grep "meta.json" | wc -l)
-            git commit -m "chore: sync ${NEWCOUNT} new posts from Notion [skip ci]"
+            git commit -m "chore: sync posts and refresh notionsocial metrics [skip ci]"
             git push
-            echo "✓ Pushed ${NEWCOUNT} new post(s)"
+            echo "✓ Pushed changes"
           fi

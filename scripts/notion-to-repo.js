@@ -20,6 +20,8 @@
  *   node scripts/notion-to-repo.js              # Sync all published posts
  *   node scripts/notion-to-repo.js --dry-run    # Preview what would be created
  *   node scripts/notion-to-repo.js --since 7    # Only posts published in last 7 days
+ *   node scripts/notion-to-repo.js --refresh-metrics          # Update notionsocial metrics on posts up to 14 days old
+ *   node scripts/notion-to-repo.js --refresh-metrics --refresh-days 21  # Custom window (21 days)
  *
  * Run: node scripts/notion-to-repo.js
  */
@@ -37,9 +39,14 @@ const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID || '157f423bea8b8149b546e7279b4ea0c0';
 
 const DRY_RUN = process.argv.includes('--dry-run');
+const REFRESH_METRICS = process.argv.includes('--refresh-metrics');
 const SINCE_DAYS = (() => {
   const idx = process.argv.indexOf('--since');
   return idx >= 0 ? parseInt(process.argv[idx + 1], 10) : null;
+})();
+const REFRESH_DAYS = (() => {
+  const idx = process.argv.indexOf('--refresh-days');
+  return idx >= 0 ? parseInt(process.argv[idx + 1], 10) : 14; // default 2 weeks
 })();
 
 // Platform tag → repo path mapping
@@ -224,7 +231,7 @@ function extractPostData(page) {
 
 // ─── Slug Generation ────────────────────────────────────────────────────
 
-function generateSlug(name, date) {
+function generateSlug(name, date, contentType) {
   // Extract just the date part (YYYY-MM-DD)
   const dateStr = date ? date.split('T')[0] : '';
 
@@ -247,6 +254,25 @@ function generateSlug(name, date) {
     .toLowerCase();
 
   if (!slug) slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  // Append content type suffix to match existing folder naming convention
+  // e.g. 2026-01-15-bulk-nomination-patient-choice-carousel
+  const assetType = CONTENT_TYPE_MAP[contentType] || '';
+  const TYPE_SUFFIX = {
+    'single-image': 'single-image',
+    'carousel': 'carousel',
+    'video': 'video',
+    'short_video': 'short',
+    'infographic': 'infographic',
+    'poll': 'poll',
+    'article': 'article',
+    'document': 'document',
+    'link': 'link',
+  };
+  const suffix = TYPE_SUFFIX[assetType] || '';
+  if (suffix && !slug.endsWith(suffix)) {
+    slug = `${slug}-${suffix}`;
+  }
 
   return dateStr ? `${dateStr}-${slug}` : slug;
 }
@@ -484,6 +510,97 @@ No comments captured yet.
 `;
 }
 
+// ─── Metrics Refresh ─────────────────────────────────────────────────────
+
+/**
+ * Refresh notionsocial metrics for existing repo posts.
+ * Queries Notion for posts within the refresh window, finds matching
+ * repo directories, and updates only the notionsocial block in metrics.json.
+ * Leaves platform_api and old flat metrics untouched.
+ */
+async function refreshMetrics(pages) {
+  console.log(`\n--- Refreshing Notionsocial Metrics (last ${REFRESH_DAYS} days) ---\n`);
+
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - REFRESH_DAYS);
+  const cutoffStr = cutoff.toISOString().split('T')[0];
+
+  let refreshed = 0;
+  let notFound = 0;
+  let noChange = 0;
+  let errors = 0;
+
+  for (const page of pages) {
+    const post = extractPostData(page);
+    if (!post.name || !post.publishDate || post.platforms.length === 0) continue;
+
+    // Only refresh posts within the window
+    const postDate = post.publishDate.split('T')[0];
+    if (postDate < cutoffStr) continue;
+
+    const slug = generateSlug(post.name, post.publishDate, post.contentType);
+    const repoPaths = getRepoPaths(post);
+
+    for (const pathInfo of repoPaths) {
+      const postDir = path.join(pathInfo.dir, slug);
+      const metricsPath = path.join(postDir, 'metrics.json');
+
+      // Only refresh existing directories
+      if (!fs.existsSync(metricsPath)) {
+        notFound++;
+        continue;
+      }
+
+      try {
+        const existing = JSON.parse(fs.readFileSync(metricsPath, 'utf8'));
+
+        const freshNotionsocial = {
+          source: 'notionsocial',
+          synced_at: new Date().toISOString().split('T')[0],
+          views: post.views || 0,
+          likes: post.likes || 0,
+          comments: post.comments || 0,
+          shares: post.shares || 0,
+        };
+
+        // Check if anything actually changed
+        const oldNs = existing.notionsocial || {};
+        if (oldNs.views === freshNotionsocial.views &&
+            oldNs.likes === freshNotionsocial.likes &&
+            oldNs.comments === freshNotionsocial.comments &&
+            oldNs.shares === freshNotionsocial.shares) {
+          noChange++;
+          continue;
+        }
+
+        if (DRY_RUN) {
+          const rel = path.relative(REPO_ROOT, postDir);
+          console.log(`  [DRY RUN] Would refresh: ${rel}`);
+          console.log(`    views: ${oldNs.views || 0} → ${freshNotionsocial.views}, likes: ${oldNs.likes || 0} → ${freshNotionsocial.likes}, comments: ${oldNs.comments || 0} → ${freshNotionsocial.comments}, shares: ${oldNs.shares || 0} → ${freshNotionsocial.shares}`);
+          refreshed++;
+          continue;
+        }
+
+        // Update only the notionsocial block, preserve everything else
+        existing.notionsocial = freshNotionsocial;
+        fs.writeFileSync(metricsPath, JSON.stringify(existing, null, 2) + '\n');
+
+        console.log(`  ✓ Refreshed: ${path.relative(REPO_ROOT, postDir)} (views: ${freshNotionsocial.views}, likes: ${freshNotionsocial.likes})`);
+        refreshed++;
+      } catch (err) {
+        console.error(`  ✗ Error refreshing ${path.relative(REPO_ROOT, postDir)}: ${err.message}`);
+        errors++;
+      }
+    }
+  }
+
+  console.log(`\n--- Refresh Summary ---`);
+  console.log(`  Updated: ${refreshed}`);
+  console.log(`  No change: ${noChange}`);
+  console.log(`  Not in repo: ${notFound}`);
+  if (errors) console.log(`  Errors: ${errors}`);
+}
+
 // ─── Main ───────────────────────────────────────────────────────────────
 
 async function main() {
@@ -496,6 +613,7 @@ async function main() {
   console.log('=== Notion → Repo Sync ===');
   console.log(`Mode: ${DRY_RUN ? 'DRY RUN' : 'LIVE'}`);
   if (SINCE_DAYS) console.log(`Filter: Posts published in last ${SINCE_DAYS} days`);
+  if (REFRESH_METRICS) console.log(`Metrics refresh: Posts from last ${REFRESH_DAYS} days`);
   console.log('');
 
   // 1. Query Notion
@@ -503,7 +621,7 @@ async function main() {
   const pages = await getAllPublishedPosts();
   console.log(`  Found ${pages.length} published posts\n`);
 
-  // 2. Process each post
+  // 2. Create new post directories
   let created = 0;
   let skipped = 0;
   let errors = 0;
@@ -529,7 +647,7 @@ async function main() {
       continue;
     }
 
-    const slug = generateSlug(post.name, post.publishDate);
+    const slug = generateSlug(post.name, post.publishDate, post.contentType);
     const repoPaths = getRepoPaths(post);
 
     for (const pathInfo of repoPaths) {
@@ -570,13 +688,18 @@ async function main() {
   }
 
   // 3. Summary
-  console.log('\n=== Summary ===');
+  console.log('\n=== Create Summary ===');
   console.log(`  Created: ${created}`);
   console.log(`  Skipped (already exist or incomplete): ${skipped}`);
   if (errors) console.log(`  Errors: ${errors}`);
-  console.log('');
 
-  if (created > 0 && !DRY_RUN) {
+  // 4. Refresh metrics if requested
+  if (REFRESH_METRICS) {
+    await refreshMetrics(pages);
+  }
+
+  console.log('');
+  if ((created > 0 || REFRESH_METRICS) && !DRY_RUN) {
     console.log('Next steps:');
     console.log('  1. Run: node scripts/build-indexes.js   (regenerate indexes)');
     console.log('  2. Commit and push the new post directories');
