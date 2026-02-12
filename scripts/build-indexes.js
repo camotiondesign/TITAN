@@ -82,23 +82,79 @@ function readPublishedPosts(publishedDir) {
 }
 
 /**
+ * Extract normalised metrics from either format:
+ *   - Old flat format: { impressions, engagement_rate, reactions, ... }
+ *   - New two-tier: { notionsocial: { views, likes, ... }, platform_api: { impressions, ... } }
+ *
+ * Priority: platform_api > flat > notionsocial
+ */
+function extractMetrics(m) {
+  if (!m) return { impressions: 0, engRate: 0, reactions: 0, comments: 0, reposts: 0, clicks: 0, ctr: 0, views: 0, boosted: false, source: 'none' };
+
+  const api = m.platform_api || {};
+  const ns = m.notionsocial || {};
+  const hasApi = api.synced_at && api.synced_at !== '';
+  const hasFlat = (m.impressions || 0) > 0 && !m.notionsocial;
+
+  if (hasFlat) {
+    // Old format — full LinkedIn API metrics in flat structure
+    return {
+      impressions: m.impressions || 0,
+      engRate: parseNum(m.engagement_rate),
+      reactions: m.reactions || 0,
+      comments: m.comments || 0,
+      reposts: m.reposts || 0,
+      clicks: m.clicks || 0,
+      ctr: parseNum(m.ctr),
+      views: m.views || 0,
+      boosted: m.boosted || false,
+      source: 'linkedin_api',
+    };
+  }
+
+  if (hasApi) {
+    // New format with populated platform API data
+    return {
+      impressions: api.impressions || 0,
+      engRate: parseNum(api.engagement_rate),
+      reactions: api.reactions || api.likes || 0,
+      comments: api.comments || 0,
+      reposts: api.reposts || api.shares || 0,
+      clicks: api.clicks || 0,
+      ctr: parseNum(api.ctr),
+      views: api.views || 0,
+      boosted: m.boosted || false,
+      source: api.source || 'platform_api',
+    };
+  }
+
+  // Notionsocial surface metrics only
+  return {
+    impressions: 0,
+    engRate: 0,
+    reactions: ns.likes || 0,
+    comments: ns.comments || 0,
+    reposts: ns.shares || 0,
+    clicks: 0,
+    ctr: 0,
+    views: ns.views || 0,
+    boosted: m.boosted || false,
+    source: 'notionsocial',
+  };
+}
+
+/**
  * Format a single post as a compact markdown entry
  */
 function formatPostEntry(post) {
   const m = post.metrics || {};
   const meta = post.meta || {};
+  const mx = extractMetrics(m);
 
   const date = meta.published_at || m.posted_at || '?';
   const type = meta.asset_type || m.asset_type || '?';
-  const impressions = m.impressions || 0;
-  const engRate = parseNum(m.engagement_rate);
-  const reactions = m.reactions || 0;
-  const comments = m.comments || 0;
-  const reposts = m.reposts || 0;
-  const clicks = m.clicks || 0;
-  const ctr = parseNum(m.ctr);
-  const boosted = m.boosted ? ' [BOOSTED]' : '';
-  const views = m.views || 0;
+  const boosted = mx.boosted ? ' [BOOSTED]' : '';
+  const sourceTag = mx.source === 'notionsocial' ? ' _(Notionsocial)_' : '';
 
   // Truncate caption to first 200 chars for index
   let captionPreview = (post.caption || '').replace(/\n/g, ' ').trim();
@@ -107,11 +163,18 @@ function formatPostEntry(post) {
   }
 
   let entry = `### ${post.slug}\n`;
-  entry += `**Date:** ${date} | **Type:** ${type}${boosted}\n`;
-  entry += `**Impressions:** ${impressions.toLocaleString()} | **Engagement:** ${engRate}% | **CTR:** ${ctr}%\n`;
-  entry += `**Reactions:** ${reactions} | **Comments:** ${comments} | **Reposts:** ${reposts} | **Clicks:** ${clicks.toLocaleString()}`;
-  if (views > 0) entry += ` | **Views:** ${views.toLocaleString()}`;
-  entry += '\n';
+  entry += `**Date:** ${date} | **Type:** ${type}${boosted}${sourceTag}\n`;
+
+  if (mx.source === 'notionsocial') {
+    // Surface metrics only — show what we have
+    entry += `**Views:** ${mx.views.toLocaleString()} | **Likes:** ${mx.reactions} | **Comments:** ${mx.comments} | **Shares:** ${mx.reposts}\n`;
+  } else {
+    entry += `**Impressions:** ${mx.impressions.toLocaleString()} | **Engagement:** ${mx.engRate}% | **CTR:** ${mx.ctr}%\n`;
+    entry += `**Reactions:** ${mx.reactions} | **Comments:** ${mx.comments} | **Reposts:** ${mx.reposts} | **Clicks:** ${mx.clicks.toLocaleString()}`;
+    if (mx.views > 0) entry += ` | **Views:** ${mx.views.toLocaleString()}`;
+    entry += '\n';
+  }
+
   if (captionPreview) {
     entry += `> ${captionPreview}\n`;
   }
@@ -124,12 +187,12 @@ function formatPostEntry(post) {
  */
 function generateBrandIndex(brandName, pageName, posts) {
   const totalPosts = posts.length;
-  const totalImpressions = posts.reduce((sum, p) => sum + ((p.metrics || {}).impressions || 0), 0);
-  const totalReactions = posts.reduce((sum, p) => sum + ((p.metrics || {}).reactions || 0), 0);
-  const totalComments = posts.reduce((sum, p) => sum + ((p.metrics || {}).comments || 0), 0);
-  const postsWithMetrics = posts.filter(p => ((p.metrics || {}).impressions || 0) > 0);
+  const totalImpressions = posts.reduce((sum, p) => sum + extractMetrics(p.metrics).impressions, 0);
+  const totalReactions = posts.reduce((sum, p) => sum + extractMetrics(p.metrics).reactions, 0);
+  const totalComments = posts.reduce((sum, p) => sum + extractMetrics(p.metrics).comments, 0);
+  const postsWithMetrics = posts.filter(p => extractMetrics(p.metrics).impressions > 0);
   const avgEngRate = postsWithMetrics.length > 0
-    ? (postsWithMetrics.reduce((sum, p) => sum + parseNum((p.metrics || {}).engagement_rate), 0) / postsWithMetrics.length).toFixed(1)
+    ? (postsWithMetrics.reduce((sum, p) => sum + extractMetrics(p.metrics).engRate, 0) / postsWithMetrics.length).toFixed(1)
     : '0';
 
   // Count by type
@@ -141,13 +204,13 @@ function generateBrandIndex(brandName, pageName, posts) {
 
   // Top 10 by engagement rate (with minimum 100 impressions to filter noise)
   const topByEngagement = [...posts]
-    .filter(p => ((p.metrics || {}).impressions || 0) >= 100)
-    .sort((a, b) => parseNum((b.metrics || {}).engagement_rate) - parseNum((a.metrics || {}).engagement_rate))
+    .filter(p => extractMetrics(p.metrics).impressions >= 100)
+    .sort((a, b) => extractMetrics(b.metrics).engRate - extractMetrics(a.metrics).engRate)
     .slice(0, 10);
 
   // Top 10 by impressions
   const topByImpressions = [...posts]
-    .sort((a, b) => ((b.metrics || {}).impressions || 0) - ((a.metrics || {}).impressions || 0))
+    .sort((a, b) => extractMetrics(b.metrics).impressions - extractMetrics(a.metrics).impressions)
     .slice(0, 10);
 
   // Date range
@@ -214,10 +277,10 @@ function generateMasterIndex(titanPosts, titanversePosts) {
 
   for (const [name, posts] of [['Titan PMR', titanPosts], ['Titanverse', titanversePosts]]) {
     const total = posts.length;
-    const impressions = posts.reduce((s, p) => s + ((p.metrics || {}).impressions || 0), 0);
-    const withMetrics = posts.filter(p => ((p.metrics || {}).impressions || 0) > 0);
+    const impressions = posts.reduce((s, p) => s + extractMetrics(p.metrics).impressions, 0);
+    const withMetrics = posts.filter(p => extractMetrics(p.metrics).impressions > 0);
     const avgEng = withMetrics.length > 0
-      ? (withMetrics.reduce((s, p) => s + parseNum((p.metrics || {}).engagement_rate), 0) / withMetrics.length).toFixed(1)
+      ? (withMetrics.reduce((s, p) => s + extractMetrics(p.metrics).engRate, 0) / withMetrics.length).toFixed(1)
       : '0';
     md += `| ${name} | ${total} | ${impressions.toLocaleString()} | ${avgEng}% |\n`;
   }
@@ -230,8 +293,8 @@ function generateMasterIndex(titanPosts, titanversePosts) {
   ];
 
   const topPerformers = [...allPosts]
-    .filter(p => ((p.metrics || {}).impressions || 0) >= 100)
-    .sort((a, b) => parseNum((b.metrics || {}).engagement_rate) - parseNum((a.metrics || {}).engagement_rate))
+    .filter(p => extractMetrics(p.metrics).impressions >= 100)
+    .sort((a, b) => extractMetrics(b.metrics).engRate - extractMetrics(a.metrics).engRate)
     .slice(0, 15);
 
   md += `## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)\n\n`;

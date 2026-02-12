@@ -209,9 +209,8 @@ For full post details, read the brand-specific indexes.
 > Safy's Chemist was losing time every single day 👀  Dispensing 14,500 to 15,000 items a month, and they felt the pace.  Baskets piling up. Running between rooms. Checking, bagging and shelving in betw...
 
 [TITAN] ### 2026-01-12-zero-lost-prescriptions-single-image
-**Date:** 2026-01-12 | **Type:** single-image
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2026-01-12 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Zero lost prescriptions in a year.  📖 Read the full case study: [link to be added]  #PharmacySafety #TitanPMR #DigitalPharmacy #CommunityPharmacy #PharmacyOwner #PharmacyLife
 
 [TV] ### 2026-01-12-dispensing-cant-fund-future-single-image
@@ -257,15 +256,13 @@ For full post details, read the brand-specific indexes.
 > Happy New Year 🎆  Wishing you a happy and prosperous year ahead.
 
 [TITAN] ### 2025-12-31-97-percent-fewer-near-misses-carousel
-**Date:** 2025-12-31 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-31 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Safy's Chemist on Melton Road has served its community for 45 years. Today, it's one of the busiest pharmacies in the area, dispensing 14,500 items every month.  A year ago, the pharmacy was averaging...
 
 [TITAN] ### 2025-12-31-pharmacy-resolutions-2026
-**Date:** 2025-12-31 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-31 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > 2026, let's go! 🚀  We're feeling refreshed, motivated, and ready to help UK pharmacies transform like never before.  2025 was just the start. Together, we saw incredible transformations. Pharmacies s...
 
 ## Content Type Distribution

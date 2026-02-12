@@ -205,9 +205,8 @@
 > Safy's Chemist was losing time every single day 👀  Dispensing 14,500 to 15,000 items a month, and they felt the pace.  Baskets piling up. Running between rooms. Checking, bagging and shelving in betw...
 
 ### 2026-01-12-zero-lost-prescriptions-single-image
-**Date:** 2026-01-12 | **Type:** single-image
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2026-01-12 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Zero lost prescriptions in a year.  📖 Read the full case study: [link to be added]  #PharmacySafety #TitanPMR #DigitalPharmacy #CommunityPharmacy #PharmacyOwner #PharmacyLife
 
 ### 2026-01-09-digital-triage-single
@@ -235,15 +234,13 @@
 > Happy New Year 🎆  Wishing you a happy and prosperous year ahead.
 
 ### 2025-12-31-97-percent-fewer-near-misses-carousel
-**Date:** 2025-12-31 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-31 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Safy's Chemist on Melton Road has served its community for 45 years. Today, it's one of the busiest pharmacies in the area, dispensing 14,500 items every month.  A year ago, the pharmacy was averaging...
 
 ### 2025-12-31-pharmacy-resolutions-2026
-**Date:** 2025-12-31 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-31 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > 2026, let's go! 🚀  We're feeling refreshed, motivated, and ready to help UK pharmacies transform like never before.  2025 was just the start. Together, we saw incredible transformations. Pharmacies s...
 
 ### 2025-12-29-akbar-maleeha-leadership-short-video
@@ -283,9 +280,8 @@
 > Christmas for everyone else vs Christmas in pharmacy.  Tag a friend who gets it 🎄🫠
 
 ### 2025-12-19-trusted-resources
-**Date:** 2025-12-19 | **Type:** single-image
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-19 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > It's not learning from Google.  In the UK, we use NICE.   We use the Green Book.  A closed system, fed only with the right clinical information.  One thing early adopters made clear: the AI needed to ...
 
 ### 2025-12-17-2025-pharmacy-memes-carousel
@@ -295,15 +291,13 @@
 > Sometimes pharmacy is serious.  It's good to laugh at it sometimes too 😂
 
 ### 2025-12-17-impersonal-to-personal
-**Date:** 2025-12-17 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-17 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Doing a consultation on paper now, it actually feels pretty impersonal when you think about it.  Paper forms. Manual risk assessments. Writing prescriptions by hand. Typing notes afterwards.  You're f...
 
 ### 2025-12-16-multi-branch-control
-**Date:** 2025-12-16 | **Type:** single-image
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-16 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > One pharmacist at head office.  All consultations visible to senior management.  Control across 12 branches.  That's what early adopters built with Titanverse.  NMS was the first live module. It meant...
 
 ### 2025-12-12-brighton-hill-scaling-single
@@ -1165,9 +1159,8 @@
 > Day one: positive, easy, and reassured.  Maria left knowing everything was accurate.  🙏 Thank you, Maria, for sharing your experience. 🔗 See how your pharmacy could feel with Titan PMR: titanpmr.com...
 
 ### 2025-04-01-go-live-chaos-carousel
-**Date:** 2025-04-01 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-04-01 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > POV: It's day one.  Gonna be chaos, right?  🧠 Ian was. www.titanpmr.com  #TheTitanWay #PharmacyLife #PharmacyEfficiency #PMR #PharmacyInnovation #DigitalPharmacy #WorkflowMatters #SmarterWorkflows #P...
 
 ### 2025-03-30-eid-mubarak-carousel

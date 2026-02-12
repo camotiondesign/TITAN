@@ -287,17 +287,18 @@ function getRepoPaths(post) {
 
 // ─── File Generators ────────────────────────────────────────────────────
 
-function generateCaption(post, slug) {
+function generateCaption(post, slug, platformInfo) {
   const caption = post.caption
     .replace(/<br\s*\/?>/gi, '\n')  // Notion <br> to newlines
     .replace(/<[^>]+>/g, '');        // Strip any remaining HTML
 
   const dateStr = post.publishDate ? post.publishDate.split('T')[0] : '';
+  const platformLabel = platformInfo.platform.charAt(0).toUpperCase() + platformInfo.platform.slice(1);
 
-  return `# LinkedIn Caption – ${post.name}
+  return `# ${platformLabel} Caption – ${post.name}
 
 Post date: ${dateStr}
-Platform: LinkedIn
+Platform: ${platformLabel}
 Creative ID: ${slug}
 
 ---
@@ -309,67 +310,68 @@ ${caption}
 function generateMeta(post, platformInfo) {
   const assetType = CONTENT_TYPE_MAP[post.contentType] || post.contentType || '';
   const dateStr = post.publishDate ? post.publishDate.split('T')[0] : '';
+  const platformLabel = platformInfo.platform.charAt(0).toUpperCase() + platformInfo.platform.slice(1);
 
   return JSON.stringify({
-    platform: platformInfo.platform === 'linkedin' ? 'LinkedIn' : platformInfo.platform,
+    platform: platformLabel,
     asset_type: assetType,
     theme: '',
     campaign: post.campaign || '',
     status: 'published',
     published_at: dateStr,
     brand: platformInfo.brand || '',
-    linkedin_page: platformInfo.page || '',
+    page: platformInfo.page || '',
     notion_id: post.notionId,
     notion_url: post.notionUrl,
   }, null, 2) + '\n';
 }
 
-function notionMetricsNote(post) {
-  const parts = ['Metrics pending — full data awaiting LinkedIn API.'];
-  if (post.views || post.likes || post.comments || post.shares) {
-    parts.push(`Notion surface metrics: ${post.views} views, ${post.likes} likes, ${post.comments} comments, ${post.shares} shares.`);
+function extractPostUrl(post, platformInfo) {
+  if (!post.postUrl) return '';
+  const urls = post.postUrl.match(/https?:\/\/[^\s)]+/g) || [];
+  for (const url of urls) {
+    if (platformInfo.platform === 'linkedin' && url.includes('linkedin.com')) return url;
+    if (platformInfo.platform === 'facebook' && url.includes('facebook.com')) return url;
+    if (platformInfo.platform === 'instagram' && url.includes('instagram.com')) return url;
+    if (platformInfo.platform === 'tiktok' && url.includes('tiktok.com')) return url;
+    if (platformInfo.platform === 'youtube' && url.includes('youtube.com')) return url;
   }
-  parts.push('Auto-created from Notion sync.');
-  return parts.join(' ');
+  return '';
 }
 
 function generateMetrics(post, slug, platformInfo) {
   const dateStr = post.publishDate ? post.publishDate.split('T')[0] : '';
   const assetType = CONTENT_TYPE_MAP[post.contentType] || post.contentType || '';
+  const postUrl = extractPostUrl(post, platformInfo);
 
-  // Extract post URL for this specific platform from the Post URL field
-  let postUrl = '';
-  if (post.postUrl) {
-    const urls = post.postUrl.match(/https?:\/\/[^\s)]+/g) || [];
-    for (const url of urls) {
-      if (platformInfo.platform === 'linkedin' && url.includes('linkedin.com')) postUrl = url;
-      else if (platformInfo.platform === 'facebook' && url.includes('facebook.com')) postUrl = url;
-      else if (platformInfo.platform === 'instagram' && url.includes('instagram.com')) postUrl = url;
-      else if (platformInfo.platform === 'tiktok' && url.includes('tiktok.com')) postUrl = url;
-      else if (platformInfo.platform === 'youtube' && url.includes('youtube.com')) postUrl = url;
-    }
-  }
+  // Two-tier metrics:
+  // 1. notionsocial — basic surface metrics from Notionsocial (available for all platforms)
+  // 2. platform_api  — full metrics from platform API (LinkedIn, YouTube, etc.)
+  //    Empty until API integrations are connected. When populated, these override notionsocial values.
 
-  return JSON.stringify({
-    platform: platformInfo.platform,
-    post_url: postUrl,
-    posted_at: dateStr,
-    campaign_slug: slug,
-    asset_type: assetType,
-    boosted: false,
-    sponsored_dates: { start: '', end: '' },
+  const notionsocialMetrics = {
+    source: 'notionsocial',
+    synced_at: new Date().toISOString().split('T')[0],
+    views: post.views || 0,
+    likes: post.likes || 0,
+    comments: post.comments || 0,
+    shares: post.shares || 0,
+  };
+
+  // Platform API metrics — structure varies by platform.
+  // LinkedIn has the richest data (organic/sponsored splits, CTR, engagement rate).
+  // Other platforms will get their own structure when APIs are connected.
+  const platformApiMetrics = platformInfo.platform === 'linkedin' ? {
+    source: 'linkedin_api',
+    synced_at: '',
     impressions: 0,
     reach: 0,
-    views: post.views || 0,
-    watch_time_hours: 0,
-    avg_view_duration_seconds: 0,
     clicks: 0,
     ctr: 0,
-    reactions: post.likes || 0,
-    comments: post.comments || 0,
-    reposts: post.shares || 0,
+    reactions: 0,
+    comments: 0,
+    reposts: 0,
     follows: 0,
-    leads: 0,
     engagements: 0,
     engagement_rate: 0,
     organic: {
@@ -383,7 +385,61 @@ function generateMetrics(post, slug, platformInfo) {
       clicks: 0, click_through_rate: 0, reactions: 0, comments: 0,
       reposts: 0, video_views: 0, ecpm: 0, cost_per_engagement: 0, spend: 0,
     },
-    notes: notionMetricsNote(post),
+  } : platformInfo.platform === 'youtube' ? {
+    source: 'youtube_api',
+    synced_at: '',
+    views: 0,
+    watch_time_hours: 0,
+    avg_view_duration_seconds: 0,
+    likes: 0,
+    comments: 0,
+    shares: 0,
+    impressions: 0,
+    ctr: 0,
+    subscribers_gained: 0,
+  } : platformInfo.platform === 'tiktok' ? {
+    source: 'tiktok_api',
+    synced_at: '',
+    views: 0,
+    likes: 0,
+    comments: 0,
+    shares: 0,
+    saves: 0,
+    avg_watch_time_seconds: 0,
+    total_play_time_seconds: 0,
+    reach: 0,
+  } : platformInfo.platform === 'instagram' ? {
+    source: 'instagram_api',
+    synced_at: '',
+    impressions: 0,
+    reach: 0,
+    likes: 0,
+    comments: 0,
+    shares: 0,
+    saves: 0,
+    engagement_rate: 0,
+    plays: 0,
+  } : {
+    source: `${platformInfo.platform}_api`,
+    synced_at: '',
+    impressions: 0,
+    reach: 0,
+    likes: 0,
+    comments: 0,
+    shares: 0,
+    engagement_rate: 0,
+  };
+
+  return JSON.stringify({
+    platform: platformInfo.platform,
+    post_url: postUrl,
+    posted_at: dateStr,
+    campaign_slug: slug,
+    asset_type: assetType,
+    boosted: false,
+    notionsocial: notionsocialMetrics,
+    platform_api: platformApiMetrics,
+    notes: 'Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.',
   }, null, 2) + '\n';
 }
 
@@ -411,12 +467,13 @@ Alt text to be added after asset is finalised.
 `;
 }
 
-function generateComments(post, slug) {
+function generateComments(post, slug, platformInfo) {
   const dateStr = post.publishDate ? post.publishDate.split('T')[0] : '';
-  return `# LinkedIn Comments – ${post.name}
+  const platformLabel = platformInfo.platform.charAt(0).toUpperCase() + platformInfo.platform.slice(1);
+  return `# ${platformLabel} Comments – ${post.name}
 
 Post date: ${dateStr}
-Platform: LinkedIn
+Platform: ${platformLabel}
 Creative ID: ${slug}
 
 ---
@@ -496,11 +553,11 @@ async function main() {
         fs.mkdirSync(path.join(postDir, 'assets'), { recursive: true });
 
         // Write files
-        fs.writeFileSync(path.join(postDir, 'caption.md'), generateCaption(post, slug));
+        fs.writeFileSync(path.join(postDir, 'caption.md'), generateCaption(post, slug, pathInfo));
         fs.writeFileSync(path.join(postDir, 'meta.json'), generateMeta(post, pathInfo));
         fs.writeFileSync(path.join(postDir, 'metrics.json'), generateMetrics(post, slug, pathInfo));
         fs.writeFileSync(path.join(postDir, 'alt-text.md'), generateAltText(post));
-        fs.writeFileSync(path.join(postDir, 'comments.md'), generateComments(post, slug));
+        fs.writeFileSync(path.join(postDir, 'comments.md'), generateComments(post, slug, pathInfo));
         fs.writeFileSync(path.join(postDir, 'assets', '.gitkeep'), '');
 
         console.log(`  ✓ Created: ${path.relative(REPO_ROOT, postDir)}`);

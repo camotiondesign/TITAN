@@ -222,9 +222,8 @@
 > Central NMS delivery. Group-wide visibility.  One pharmacist can deliver NMS across multiple pharmacies.  Every consultation is logged. Senior teams can see activity across the group in one place.  Th...
 
 ### 2025-12-20-level-up-moment
-**Date:** 2025-12-20 | **Type:** single-image
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-20 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > I've been a prescriber for three years.  Our director has been one for well over ten.  Even now, using Titanverse, it makes you think:   "Oh wow… we need to level up here."  No matter what level of ex...
 
 ### 2025-12-18-yusuf-ai-clinical-sources-short-video
@@ -246,21 +245,18 @@
 > From dispensing to health hub.  Dispensing alone cannot sustain a pharmacy.   Patients want clinical care. The NHS wants outcomes. The money is in services.  NMS. Travel Health. IP clinics. Private se...
 
 ### 2025-12-08-poll-services-challenge
-**Date:** 2025-12-08 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-08 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > The shift to services is happening.  But wanting to deliver services isn't the issue.  Executing them consistently is.  What's your biggest challenge right now?  💬 Share your thoughts in the comments...
 
 ### 2025-12-07-pov-service-led-health-hub
-**Date:** 2025-12-07 | **Type:** carousel
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-07 | **Type:** carousel _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Two pharmacies. Same building.  Very different future.  Dispensing alone is no longer sustainable.  Your day starts with appointments, not items.  One console. One workflow. One future.  "We are not c...
 
 ### 2025-12-06-titan-pmr-titanverse-pathway
-**Date:** 2025-12-06 | **Type:** single-image
-**Impressions:** 0 | **Engagement:** 0% | **CTR:** 0%
-**Reactions:** 0 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 0
+**Date:** 2025-12-06 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Titan PMR frees pharmacists from the bench.  Titanverse turns that freed time into clinical and commercial value.  One pathway. Two products. One future.  👉 Read the full blog: bit.ly/4aylIWL  #Titan...
 
 ### 2025-12-05-dispensing-to-health-hub-image
