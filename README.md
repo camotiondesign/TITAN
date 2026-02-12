@@ -17,17 +17,21 @@ A lean, production-focused content operations vault for Titan PMR and Titanverse
 ```
 TITAN/
 ├── CLAUDE.md               # Single-file Claude orientation (read this first)
-├── posts/                  # Published and draft content by platform
+├── posts/                  # Published content by platform
+│   ├── _master-index.md   # Cross-brand summary (Claude reads this)
 │   ├── linkedin/
-│   │   ├── titan/         # Titan PMR LinkedIn posts
-│   │   └── titanverse/    # Titanverse LinkedIn posts
-│   ├── tiktok/            # TikTok (shared account)
+│   │   ├── titan/
+│   │   │   ├── published/ # 222 posts + _index.md
+│   │   │   └── _drafts/   # Draft concepts
+│   │   └── titanverse/
+│   │       └── published/ # 42 posts + _index.md
+│   ├── tiktok/published/
 │   ├── youtube/
-│   │   ├── shorts/
-│   │   └── longform/
-│   ├── instagram/          # Instagram (shared account)
-│   ├── facebook/           # Facebook (shared account)
-│   └── blog/
+│   │   ├── shorts/published/
+│   │   └── longform/published/
+│   ├── instagram/published/
+│   ├── facebook/published/
+│   └── blog/published/
 ├── designs/                # After Effects .jsx files by platform
 │   ├── linkedin/
 │   │   ├── titan/
@@ -53,6 +57,7 @@ TITAN/
 ├── scripts/                # Automation scripts
 │   ├── notion_sync.py     # Notion bidirectional sync (pull/push/discover)
 │   ├── aggregate-metrics.js # LinkedIn metrics aggregation
+│   ├── build-indexes.js   # Generate _index.md files for Claude readability
 │   ├── youtube_sync.py    # YouTube data sync
 │   └── requirements.txt
 ├── .github/workflows/      # GitHub Actions
@@ -113,6 +118,9 @@ python scripts/notion_sync.py pull
 
 # Push a schedule to Notion
 python scripts/notion_sync.py push data/sample_schedule.json
+
+# Regenerate index files (after adding new posts)
+node scripts/build-indexes.js
 ```
 
 ---
@@ -152,6 +160,7 @@ Single-day gap rule: during Mon-Fri, neither brand should have more than one day
 ## Rules
 
 - Platform-First: content organised by platform, not campaign
+- Index-First: Claude reads `_index.md` files, never browses post directories
 - No Duplication: transcripts live in one place
 - Lean Structure: no legacy folders
 - Production Focus: everything serves active content creation

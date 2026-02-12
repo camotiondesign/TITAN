@@ -22,20 +22,22 @@ Daily Notion sync: 7am GMT via GitHub Actions
 ### Posts (archived published content)
 | Path | What's in it |
 |------|-------------|
-| `posts/linkedin/titan/published/` | Published Titan PMR LinkedIn posts |
-| `posts/linkedin/titan/unpublished/` | Drafted but not published |
-| `posts/linkedin/titan/needs-metrics/` | Published but metrics not yet captured |
-| `posts/linkedin/titanverse/published/` | Published Titanverse LinkedIn posts |
-| `posts/linkedin/titanverse/unpublished/` | Drafted but not published |
-| `posts/linkedin/titanverse/needs-metrics/` | Published but metrics not yet captured |
-| `posts/tiktok/` | TikTok posts (shared account, no brand split) |
-| `posts/youtube/shorts/` | YouTube Shorts |
-| `posts/youtube/longform/` | YouTube long-form videos |
-| `posts/instagram/` | Instagram posts (shared account) |
-| `posts/facebook/` | Facebook posts (shared account) |
-| `posts/blog/` | Blog articles |
+| `posts/_master-index.md` | **READ THIS FIRST** -- Cross-brand summary, top performers, recent posts. One file = full picture. |
+| `posts/linkedin/titan/published/_index.md` | Titan PMR index -- all 222 posts with metrics and caption previews |
+| `posts/linkedin/titanverse/published/_index.md` | Titanverse index -- all 42 posts with metrics and caption previews |
+| `posts/linkedin/titan/published/` | 222 published Titan PMR LinkedIn posts (individual dirs with caption.md, meta.json, metrics.json) |
+| `posts/linkedin/titan/_drafts/` | Draft concepts and curriculum (not published) |
+| `posts/linkedin/titanverse/published/` | 42 published Titanverse LinkedIn posts |
+| `posts/tiktok/published/` | TikTok posts (shared account, no brand split) |
+| `posts/youtube/shorts/published/` | YouTube Shorts |
+| `posts/youtube/longform/published/` | YouTube long-form videos |
+| `posts/instagram/published/` | Instagram posts (shared account) |
+| `posts/facebook/published/` | Facebook posts (shared account) |
+| `posts/blog/published/` | Blog articles |
 
 **Key rule:** LinkedIn is the ONLY platform with separate titan/ and titanverse/ folders. Every other platform is a shared account.
+
+**For Claude:** Don't browse individual post directories. Read the `_index.md` files instead -- they aggregate all post data (metrics, captions, types) into a single readable file. Run `node scripts/build-indexes.js` to regenerate.
 
 ### Designs (After Effects .jsx files)
 | Path | What's in it |
@@ -103,6 +105,7 @@ These are source material. Never edit them. The titan/titanverse split here is a
 | Script | What it does | Schedule | Workflow file |
 |--------|-------------|----------|--------------|
 | `scripts/notion_sync.py pull` | Pulls full Notion DB to `data/notion/notion_export.json` | Daily 6am UTC | `.github/workflows/notion-sync.yml` |
+| `scripts/notion-to-repo.js` | Creates post directories from published Notion posts (caption, meta, metrics pending, alt-text) | Daily 7am UTC | `.github/workflows/notion-to-repo.yml` |
 | `scripts/youtube_sync.py` | Pulls YouTube analytics to `data/youtube/` | Scheduled | `.github/workflows/youtube-sync.yml` |
 | `scripts/aggregate-metrics.js` | Aggregates LinkedIn performance metrics | Weekly | `.github/workflows/aggregate-metrics.yml` |
 
@@ -110,6 +113,9 @@ These are source material. Never edit them. The titan/titanverse split here is a
 
 | Script | What it does | When to use |
 |--------|-------------|-------------|
+| `scripts/build-indexes.js` | Regenerates `_index.md` files from published posts | After new posts are added or metrics updated |
+| `scripts/notion-to-repo.js --dry-run` | Preview what Notion posts would sync to repo | Before running a live sync |
+| `scripts/notion-to-repo.js --since 7` | Sync only posts published in last 7 days | Quick sync of recent posts |
 | `scripts/notion_sync.py discover` | Shows Notion DB schema and property types | When you need to check property names before querying |
 | `scripts/notion_sync.py push FILE` | Pushes a schedule JSON file to Notion | Bulk post creation |
 | `scripts/calculate-tcps.py` | Calculates TCPS scores from metrics | Performance analysis |
@@ -165,10 +171,14 @@ Everything else in `scripts/` was used for historical analysis or one-time migra
 ## What Claude Should Do at the Start of Each Conversation
 
 1. Read this file (`CLAUDE.md`) -- one tool call, full orientation
-2. If Cam asks about scheduling or current posts: query Notion MCP directly (live data)
-3. If Cam asks about bulk analysis (6+ weeks of themes, customer rotation): read `data/notion/notion_export.json`
-4. If Cam asks about published post content: check `posts/linkedin/[brand]/published/`
-5. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
-6. If Cam asks what content exists from a source: check `data/cross-platform/content-map.json`
+2. If Cam asks about published content performance: read `posts/_master-index.md` (one file, full summary)
+3. If Cam asks about a specific brand's posts: read `posts/linkedin/[brand]/published/_index.md`
+4. If Cam asks about scheduling or current posts: query Notion MCP directly (live data)
+5. If Cam asks about bulk analysis (6+ weeks of themes, customer rotation): read `data/notion/notion_export.json`
+6. If Cam asks about a specific post's details: check the individual post directory in `posts/linkedin/[brand]/published/[slug]/`
+7. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
+8. If Cam asks what content exists from a source: check `data/cross-platform/content-map.json`
+
+**Never browse post directories one by one.** Always start with `_index.md` files.
 
 Strategy, voice guide, curriculum trackers, quote banks, and posting cadence rules are all in the Claude Project files, not the repo. Don't look for them here.

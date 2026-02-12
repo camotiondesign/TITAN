@@ -5,40 +5,23 @@
 ```
 TITAN/
 ├── CLAUDE.md               # Single-file Claude orientation (read this first)
-├── posts/                  # Published and draft content by platform
+├── posts/                  # Published content by platform
+│   ├── _master-index.md   # Cross-brand summary (Claude reads this first)
 │   ├── linkedin/
 │   │   ├── titan/
-│   │   │   ├── published/
-│   │   │   ├── unpublished/
-│   │   │   └── needs-metrics/
+│   │   │   ├── published/  # 222 posts (each with caption.md, meta.json, metrics.json)
+│   │   │   │   └── _index.md  # Aggregated index of all Titan posts
+│   │   │   └── _drafts/    # Draft concepts and curriculum
 │   │   └── titanverse/
-│   │       ├── published/
-│   │       ├── unpublished/
-│   │       └── needs-metrics/
-│   ├── tiktok/
-│   │   ├── published/
-│   │   ├── unpublished/
-│   │   └── needs-metrics/
+│   │       └── published/  # 42 posts
+│   │           └── _index.md  # Aggregated index of all Titanverse posts
+│   ├── tiktok/published/
 │   ├── youtube/
-│   │   ├── shorts/
-│   │   │   ├── published/
-│   │   │   ├── unpublished/
-│   │   │   └── needs-metrics/
-│   │   └── longform/
-│   │       ├── published/
-│   │       ├── unpublished/
-│   │       └── needs-metrics/
-│   ├── instagram/
-│   │   ├── published/
-│   │   ├── unpublished/
-│   │   └── needs-metrics/
-│   ├── facebook/
-│   │   ├── published/
-│   │   ├── unpublished/
-│   │   └── needs-metrics/
-│   └── blog/
-│       ├── published/
-│       └── drafts/
+│   │   ├── shorts/published/
+│   │   └── longform/published/
+│   ├── instagram/published/
+│   ├── facebook/published/
+│   └── blog/published/
 ├── designs/                # After Effects .jsx files by platform
 │   ├── linkedin/
 │   │   ├── titan/
@@ -74,7 +57,9 @@ TITAN/
 │       └── product-vo/raw
 ├── scripts/                # Automation scripts
 │   ├── notion_sync.py     # Notion bidirectional sync (pull/push/discover)
-│   ├── aggregate-metrics.js # Weekly LinkedIn metrics aggregation
+│   ├── aggregate-metrics.js # LinkedIn metrics aggregation
+│   ├── build-indexes.js   # Generate _index.md files for Claude readability
+│   ├── notion-to-repo.js  # Create post dirs from published Notion posts
 │   ├── youtube_sync.py    # YouTube data sync
 │   ├── calculate-tcps.py  # TCPS score calculation
 │   ├── campaign_audit.py  # Content audit against strategy rules
@@ -82,6 +67,7 @@ TITAN/
 │   └── [analysis scripts] # Historical analysis tools (not maintained)
 ├── .github/workflows/      # GitHub Actions
 │   ├── notion-sync.yml    # Daily 6am UTC Notion pull
+│   ├── notion-to-repo.yml # Daily 7am UTC: create post dirs from Notion
 │   ├── aggregate-metrics.yml # LinkedIn metrics aggregation
 │   └── youtube-sync.yml   # YouTube data sync
 ├── analytics/              # Aggregated performance data
@@ -100,10 +86,22 @@ TITAN/
 
 **Key rule:** LinkedIn is the ONLY platform with separate titan/ and titanverse/ folders. Every other platform is a shared account. The titan/titanverse split in `_interviews-raw/` is about product focus, not publishing platform.
 
+## Index Files (Claude-Readable)
+
+| File | Purpose |
+|------|---------|
+| `posts/_master-index.md` | Cross-brand overview: totals, top performers, recent posts |
+| `posts/linkedin/titan/published/_index.md` | All 222 Titan posts with metrics and caption previews |
+| `posts/linkedin/titanverse/published/_index.md` | All 42 Titanverse posts with metrics and caption previews |
+
+**Regenerate:** `node scripts/build-indexes.js`
+
 ## Automation Scripts
 
 | Script | Purpose | Trigger |
 |--------|---------|---------|
+| `build-indexes.js` | Generate _index.md files from published posts | Manual (after adding posts) |
+| `notion-to-repo.js` | Create post dirs from published Notion posts | Daily (7am UTC) + manual |
 | `notion_sync.py discover` | Show Notion DB schema | Manual |
 | `notion_sync.py pull` | Pull all Notion rows to JSON | Daily (6am UTC) + manual |
 | `notion_sync.py push FILE` | Push schedule JSON to Notion | Manual |
@@ -115,6 +113,7 @@ TITAN/
 ## Key Principles
 
 - Platform-First: content organised by publishing platform
+- Index-First: Claude reads `_index.md` files, never browses post directories
 - Raw interviews NEVER live inside posts
 - No duplicates anywhere
 - If a folder has no purpose, delete it

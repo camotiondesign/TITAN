@@ -1,0 +1,52 @@
+name: Sync Published Posts from Notion
+
+on:
+  schedule:
+    # Run daily at 7am UTC (same time as Notion pull)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync published posts from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: |
+          echo "=== Syncing Published Posts ==="
+          node scripts/notion-to-repo.js --since 7
+          echo ""
+          echo "=== Regenerating Indexes ==="
+          node scripts/build-indexes.js
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add posts/
+
+          if git diff --staged --quiet; then
+            echo "No new posts to commit"
+          else
+            NEWCOUNT=$(git diff --staged --name-only | grep "meta.json" | wc -l)
+            git commit -m "chore: sync ${NEWCOUNT} new posts from Notion [skip ci]"
+            git push
+            echo "✓ Pushed ${NEWCOUNT} new post(s)"
+          fi
