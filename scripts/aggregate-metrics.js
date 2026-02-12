@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Aggregate LinkedIn metrics from all published posts for Zapier integration.
-// Scans posts/titan/published/**/metrics.json and posts/titanverse/published/**/metrics.json
+// Scans posts/linkedin/titan/published/**/metrics.json and posts/linkedin/titanverse/published/**/metrics.json
 // and aggregates all posts into a single JSON array for Zapier.
 
 const fs = require('fs');
@@ -165,8 +165,8 @@ function main() {
     }
 
     // Scan both titan and titanverse published posts
-    const titanPublishedDir = path.join(POSTS_DIR, 'titan', 'published');
-    const titanversePublishedDir = path.join(POSTS_DIR, 'titanverse', 'published');
+    const titanPublishedDir = path.join(POSTS_DIR, 'linkedin', 'titan', 'published');
+    const titanversePublishedDir = path.join(POSTS_DIR, 'linkedin', 'titanverse', 'published');
     
     console.log(`Scanning for LinkedIn metrics in published posts...`);
     const titanFiles = fs.existsSync(titanPublishedDir) ? findLinkedinMetricsFiles(titanPublishedDir) : [];
@@ -176,7 +176,7 @@ function main() {
 
     let warning = null;
     if (metricsFiles.length === 0) {
-      console.warn('⚠️  No LinkedIn metrics.json files found under posts/*/published/**');
+      console.warn('⚠️  No LinkedIn metrics.json files found under posts/linkedin/*/published/**');
       warning = 'No metrics files found';
     }
 

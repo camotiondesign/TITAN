@@ -40,22 +40,22 @@ jobs:
           echo "Posts directory:"
           ls -la posts/
           echo ""
-          echo "Checking posts/titan/published:"
-          if [ -d "posts/titan/published" ]; then
-            echo "✓ posts/titan/published exists"
+          echo "Checking posts/linkedin/titan/published:"
+          if [ -d "posts/linkedin/titan/published" ]; then
+            echo "✓ posts/linkedin/titan/published exists"
             echo "Sample contents:"
-            ls posts/titan/published/ | head -5
+            ls posts/linkedin/titan/published/ | head -5
           else
-            echo "⚠️  posts/titan/published does not exist (may be empty)"
+            echo "⚠️  posts/linkedin/titan/published does not exist (may be empty)"
           fi
           echo ""
-          echo "Checking posts/titanverse/published:"
-          if [ -d "posts/titanverse/published" ]; then
-            echo "✓ posts/titanverse/published exists"
+          echo "Checking posts/linkedin/titanverse/published:"
+          if [ -d "posts/linkedin/titanverse/published" ]; then
+            echo "✓ posts/linkedin/titanverse/published exists"
             echo "Sample contents:"
-            ls posts/titanverse/published/ | head -5
+            ls posts/linkedin/titanverse/published/ | head -5
           else
-            echo "⚠️  posts/titanverse/published does not exist (may be empty)"
+            echo "⚠️  posts/linkedin/titanverse/published does not exist (may be empty)"
           fi
           echo ""
           echo "=== Running Script ==="
