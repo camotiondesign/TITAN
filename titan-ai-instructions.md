@@ -385,13 +385,13 @@ If TCPS is missing, state that explicitly and fall back to secondary metrics wit
 **TITAN and TITANVERSE must never be compared against each other in TCPS analysis.**
 
 TCPS rankings, top/bottom lists, percentiles, and statistical summaries must be scoped to a single product branch at a time:
-- `campaigns/TITAN/**` → TITAN branch
-- `campaigns/TITANVERSE/**` → TITANVERSE branch
+- `posts/linkedin/titan/**` → TITAN branch
+- `posts/linkedin/titanverse/**` → TITANVERSE branch
 
 **How to determine branch:**
 - Infer branch strictly from file path:
-  - Paths under `campaigns/TITAN/` → branch = `TITAN`
-  - Paths under `campaigns/TITANVERSE/` → branch = `TITANVERSE`
+  - Paths under `posts/linkedin/titan/` → branch = `TITAN`
+  - Paths under `posts/linkedin/titanverse/` → branch = `TITANVERSE`
 
 **Required behaviour:**
 1. When running TCPS rankings, produce **two separate outputs**:

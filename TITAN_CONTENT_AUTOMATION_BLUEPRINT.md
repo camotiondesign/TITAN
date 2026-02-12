@@ -287,7 +287,7 @@ Note: Originally specified notion-client but rewritten to use raw httpx because 
 
 scripts/notion_sync.py (18KB) has three commands using raw httpx:
 
-**pull** — Reads all rows from Notion, auto-discovers schema, saves to /data/notion_export.json
+**pull** — Reads all rows from Notion, auto-discovers schema, saves to /data/notion/notion_export.json
 **push** — Reads a schedule JSON, creates or updates posts in Notion by Name matching
 **shuffle** — Phase 3 placeholder for calendar rearrangement
 

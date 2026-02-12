@@ -4,7 +4,7 @@ Titan Content Ops -- Notion Bidirectional Sync (Phase 1)
 
 Commands:
     python notion_sync.py discover     # Show Notion DB schema
-    python notion_sync.py pull         # Pull all rows -> data/notion_export.json
+    python notion_sync.py pull         # Pull all rows -> data/notion/notion_export.json
     python notion_sync.py push FILE    # Push schedule JSON -> create/update Notion pages
     python notion_sync.py shuffle ...  # (Phase 3 placeholder)
 
@@ -36,7 +36,7 @@ NOTION_TOKEN = os.environ.get("NOTION_TOKEN")
 NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = REPO_ROOT / "data"
+DATA_DIR = REPO_ROOT / "data" / "notion"
 EXPORT_FILE = DATA_DIR / "notion_export.json"
 SCHEMA_FILE = DATA_DIR / "notion_schema.json"
 
@@ -308,7 +308,7 @@ def load_cached_schema():
 # ---------------------------------------------------------------------------
 
 def pull(database_id):
-    """Pull all rows from Notion, save to data/notion_export.json."""
+    """Pull all rows from Notion, save to data/notion/notion_export.json."""
     print("Pulling from Notion database {}...".format(database_id[:8]))
 
     schema = get_schema(database_id)
@@ -524,7 +524,7 @@ Examples:
     )
     subparsers = parser.add_subparsers(dest="command", help="Command to run")
     subparsers.add_parser("discover", help="Show Notion database schema")
-    subparsers.add_parser("pull", help="Pull all rows to data/notion_export.json")
+    subparsers.add_parser("pull", help="Pull all rows to data/notion/notion_export.json")
     push_p = subparsers.add_parser("push", help="Push schedule JSON to Notion")
     push_p.add_argument("file", help="Path to schedule JSON file")
     shuffle_p = subparsers.add_parser("shuffle", help="(Phase 3) Insert urgent post")
