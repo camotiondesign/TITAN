@@ -28,6 +28,7 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          TITAN_ANTHROPIC_KEY: ${{ secrets.TITAN_ANTHROPIC_KEY }}
         run: |
           echo "=== Syncing Published Posts ==="
           node scripts/notion-to-repo.js --since 7 --refresh-metrics --refresh-days 14

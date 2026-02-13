@@ -15,11 +15,13 @@
  * Environment variables:
  *   NOTION_TOKEN        — Notion integration token (ntn_...)
  *   NOTION_DATABASE_ID  — Database ID (157f423bea8b8149b546e7279b4ea0c0)
+ *   TITAN_ANTHROPIC_KEY — Anthropic API key for auto-classification (optional, falls back to ANTHROPIC_API_KEY)
  *
  * Usage:
- *   node scripts/notion-to-repo.js              # Sync all published posts
+ *   node scripts/notion-to-repo.js              # Sync all published posts (with auto-classify)
  *   node scripts/notion-to-repo.js --dry-run    # Preview what would be created
  *   node scripts/notion-to-repo.js --since 7    # Only posts published in last 7 days
+ *   node scripts/notion-to-repo.js --skip-classify            # Skip AI content pillar classification
  *   node scripts/notion-to-repo.js --refresh-metrics          # Update notionsocial metrics on posts up to 14 days old
  *   node scripts/notion-to-repo.js --refresh-metrics --refresh-days 21  # Custom window (21 days)
  *
@@ -37,8 +39,10 @@ const POSTS_DIR = path.join(REPO_ROOT, 'posts');
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID || '157f423bea8b8149b546e7279b4ea0c0';
+const ANTHROPIC_API_KEY = process.env.TITAN_ANTHROPIC_KEY || process.env.ANTHROPIC_API_KEY;
 
 const DRY_RUN = process.argv.includes('--dry-run');
+const SKIP_CLASSIFY = process.argv.includes('--skip-classify');
 const REFRESH_METRICS = process.argv.includes('--refresh-metrics');
 const SINCE_DAYS = (() => {
   const idx = process.argv.indexOf('--since');
@@ -510,6 +514,147 @@ No comments captured yet.
 `;
 }
 
+// ─── Auto-Classification ─────────────────────────────────────────────────
+
+const PILLAR_DEFINITIONS = `CONTENT PILLAR DEFINITIONS:
+
+1. "Customer Story" — Testimonials, case studies, customer transformations, before/after stories with real pharmacist names and numbers. Any post featuring a specific customer's experience with Titan/Titanverse.
+
+2. "Product Education" — How Titan PMR or Titanverse features work. Feature spotlights, product walkthroughs, "did you know" product tips. Titan AI, Titan Batch, AVT demos, workflow automation, etc.
+
+3. "Industry Education" — NHS funding, IP prescribing, market trends, pharmacy business insights, regulatory changes. Educational content that works even if someone never buys Titan. Industry analysis.
+
+4. "Thought Leadership" — CEO/leadership opinion pieces, bold industry takes, vision posts, strategic commentary. Content where a leader takes a stance on the future of pharmacy.
+
+5. "Advocacy" — Patient safety, pharmacy rights, fighting for the profession, calling out industry problems (e.g. GTIN barcodes, underfunding). Posts that take a position on an issue.
+
+6. "Meme" — Relatable pharmacy humour, memes, "pharmacy vibes" content. Light, shareable, universal pharmacy pain points. Battery levels, Monday morning energy, etc.
+
+7. "Event" — Conference coverage, TitanUp events, trade shows, awards, live event content, event announcements.
+
+8. "Milestone" — Celebrations: 1000th pharmacy, anniversaries, growth milestones, team achievements. Any "we hit X" or "thank you" celebration.`;
+
+const VALID_PILLARS = [
+  'Customer Story', 'Product Education', 'Industry Education',
+  'Thought Leadership', 'Advocacy', 'Meme', 'Event', 'Milestone',
+];
+
+/**
+ * Call Anthropic API directly via https to classify a single post.
+ * Returns the pillar name or null if classification fails.
+ */
+function classifyPost(caption, slug, brand, assetType) {
+  if (!ANTHROPIC_API_KEY) {
+    console.warn('    ⚠ No ANTHROPIC_API_KEY — skipping auto-classify');
+    return Promise.resolve(null);
+  }
+
+  const truncatedCaption = caption.length > 600 ? caption.substring(0, 600) + '...' : caption;
+
+  const requestBody = JSON.stringify({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 300,
+    messages: [{
+      role: 'user',
+      content: `${PILLAR_DEFINITIONS}
+
+---
+
+Classify this post into ONE content pillar.
+
+slug: ${slug} | brand: ${brand} | type: ${assetType}
+Caption: ${truncatedCaption}
+
+Return JSON:
+{"pillar": "<exact pillar name>", "confidence": "high"|"medium"|"low", "reasoning": "<1 sentence>"}
+
+Rules:
+- Use EXACTLY one of: "Customer Story", "Product Education", "Industry Education", "Thought Leadership", "Advocacy", "Meme", "Event", "Milestone"
+- If caption is empty/short, use slug name to infer
+- Return ONLY valid JSON.`,
+    }],
+  });
+
+  return new Promise((resolve) => {
+    const options = {
+      hostname: 'api.anthropic.com',
+      port: 443,
+      path: '/v1/messages',
+      method: 'POST',
+      headers: {
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(requestBody),
+      },
+    };
+
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', (chunk) => { data += chunk; });
+      res.on('end', () => {
+        try {
+          const response = JSON.parse(data);
+          const text = response.content?.[0]?.text || '';
+          const jsonMatch = text.match(/\{[\s\S]*\}/);
+          if (!jsonMatch) {
+            console.warn(`    ⚠ Auto-classify: no JSON in response`);
+            resolve(null);
+            return;
+          }
+          const parsed = JSON.parse(jsonMatch[0]);
+          if (VALID_PILLARS.includes(parsed.pillar)) {
+            resolve(parsed);
+          } else {
+            console.warn(`    ⚠ Auto-classify: invalid pillar "${parsed.pillar}"`);
+            resolve(null);
+          }
+        } catch (err) {
+          console.warn(`    ⚠ Auto-classify parse error: ${err.message}`);
+          resolve(null);
+        }
+      });
+    });
+
+    req.on('error', (err) => {
+      console.warn(`    ⚠ Auto-classify request error: ${err.message}`);
+      resolve(null);
+    });
+
+    // 30 second timeout
+    req.setTimeout(30000, () => {
+      req.destroy();
+      console.warn('    ⚠ Auto-classify timeout (30s)');
+      resolve(null);
+    });
+
+    req.write(requestBody);
+    req.end();
+  });
+}
+
+/**
+ * Classify a post and write content_pillar to its meta.json.
+ * Never throws — classification failures are logged and skipped.
+ */
+async function autoClassifyAndWrite(postDir, caption, slug, brand, assetType) {
+  try {
+    const result = await classifyPost(caption, slug, brand, assetType);
+    if (!result) return;
+
+    const metaPath = path.join(postDir, 'meta.json');
+    if (!fs.existsSync(metaPath)) return;
+
+    const meta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+    meta.content_pillar = result.pillar;
+    fs.writeFileSync(metaPath, JSON.stringify(meta, null, 2) + '\n');
+
+    console.log(`    🏷  Auto-classified → ${result.pillar} (${result.confidence})`);
+  } catch (err) {
+    console.warn(`    ⚠ Auto-classify write error: ${err.message}`);
+  }
+}
+
 // ─── Metrics Refresh ─────────────────────────────────────────────────────
 
 /**
@@ -613,6 +758,7 @@ async function main() {
   console.log('=== Notion → Repo Sync ===');
   console.log(`Mode: ${DRY_RUN ? 'DRY RUN' : 'LIVE'}`);
   if (SINCE_DAYS) console.log(`Filter: Posts published in last ${SINCE_DAYS} days`);
+  console.log(`Auto-classify: ${SKIP_CLASSIFY ? 'DISABLED' : ANTHROPIC_API_KEY ? 'ENABLED' : 'DISABLED (no API key)'}`);
   if (REFRESH_METRICS) console.log(`Metrics refresh: Posts from last ${REFRESH_DAYS} days`);
   console.log('');
 
@@ -679,6 +825,13 @@ async function main() {
         fs.writeFileSync(path.join(postDir, 'assets', '.gitkeep'), '');
 
         console.log(`  ✓ Created: ${path.relative(REPO_ROOT, postDir)}`);
+
+        // Auto-classify the post (unless skipped or dry run)
+        if (!SKIP_CLASSIFY && ANTHROPIC_API_KEY) {
+          const assetType = CONTENT_TYPE_MAP[post.contentType] || post.contentType || '';
+          await autoClassifyAndWrite(postDir, post.caption, slug, pathInfo.brand || '', assetType);
+        }
+
         created++;
       } catch (err) {
         console.error(`  ✗ Error creating ${path.relative(REPO_ROOT, postDir)}: ${err.message}`);
