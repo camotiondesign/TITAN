@@ -12,12 +12,12 @@ Daily Notion sync: 7am GMT via GitHub Actions
 |------|------|-------|
 | Notion DB snapshot | `data/notion/notion_export.json` | Full database, refreshed daily 7am GMT. 3MB+, don't read the whole file. Query Notion MCP instead for live data. Use this for bulk analysis only. |
 | Notion DB schema | `data/notion/notion_schema.json` | Property names and types. Read this first if you need to query Notion. |
-| Content map | `data/cross-platform/content-map.json` | Maps source content (interviews, filming) to platform derivatives. Check this to see what's been created from each source. |
 | LinkedIn metrics | `data/linkedin/metrics/` | Performance data from LinkedIn pages |
 | YouTube metrics | `data/youtube/metrics/` | YouTube analytics |
 | TikTok metrics | `data/tiktok/metrics/` | TikTok analytics |
 | Instagram metrics | `data/instagram/metrics/` | Instagram analytics |
 | Facebook metrics | `data/facebook/metrics/` | Facebook analytics |
+| Aggregated LinkedIn metrics | `analytics/aggregated-linkedin-metrics.json` | Post-level metrics; prefer `posts/_master-index.md` for overview. Generated weekly by `scripts/aggregate-metrics.js`. |
 
 ### Posts (archived published content)
 | Path | What's in it |
@@ -38,6 +38,8 @@ Daily Notion sync: 7am GMT via GitHub Actions
 **Key rule:** LinkedIn is the ONLY platform with separate titan/ and titanverse/ folders. Every other platform is a shared account.
 
 **For Claude:** Don't browse individual post directories. Read the `_index.md` files instead -- they aggregate all post data (metrics, captions, types) into a single readable file. Run `node scripts/build-indexes.js` to regenerate.
+
+**Post files:** Each post dir can have `caption.md`, `meta.json`, `metrics.json`, `alt-text.md`, `comments.md`. For **video posts**, put the full spoken transcript in `transcript.md` and keep `alt-text.md` for the visual/accessibility description only (what’s on screen, who’s speaking, summary of the message). Don’t embed long transcripts in alt text.
 
 ### Designs (After Effects .jsx files)
 | Path | What's in it |
@@ -121,50 +123,9 @@ These are source material. Never edit them. The titan/titanverse split here is a
 | `scripts/calculate-tcps.py` | Calculates TCPS scores from metrics | Performance analysis |
 | `scripts/campaign_audit.py` | Audits content against strategy rules | Checking rotation, gaps |
 
-## Ignore These (one-off analysis, not maintained)
+## Scripts (lean set)
 
-Everything else in `scripts/` was used for historical analysis or one-time migrations. Don't rely on them being current. Key ones to ignore:
-- `migrate-campaign-content-to-posts.py` (migration complete)
-- `migrate-titanverse-campaign-content-to-posts.py` (migration complete)
-- `restructure-*.js` (repo restructure scripts, done)
-- `apply_renames.py` (one-time rename operation)
-- `cleanup_metrics.py` (one-time cleanup)
-- `standardize-asset-types.py` (one-time fix)
-
----
-
-## Content Map Schema
-
-`data/cross-platform/content-map.json` tracks how source content (one interview, one filming session) becomes multiple posts across platforms.
-
-### Structure
-```json
-{
-  "sources": [
-    {
-      "source_id": "customer_pharmacy_YYYY_MM",
-      "source_type": "customer_interview | leadership_filming | event_footage | product_demo | reactive_content",
-      "customer": "Name",
-      "pharmacy": "Pharmacy Name",
-      "filmed_date": "YYYY-MM-DD",
-      "raw_transcript": "_interviews-raw/.../file.md",
-      "derivatives": [
-        {
-          "platform": "linkedin | tiktok | youtube | instagram | facebook | blog",
-          "brand": "titan | titanverse | null",
-          "post_name": "TITAN_PostName",
-          "format": "video | single_image | carousel | short_clip | longform | short | reel | article",
-          "status": "not_started | concept | scripted | editing | scheduled | published",
-          "published_date": "YYYY-MM-DD | null",
-          "file_path": "posts/platform/.../file.md | null"
-        }
-      ]
-    }
-  ]
-}
-```
-
-`brand` is `"titan"` or `"titanverse"` for LinkedIn. `null` for all shared platforms.
+The only scripts in active use are those in the tables above (Notion sync, notion-to-repo, build-indexes, aggregate-metrics, youtube_sync, calculate-tcps, campaign_audit). Anything else in `scripts/` (e.g. `ae/`, design .jsx) is design or one-off; don't rely on it for automation.
 
 ---
 
@@ -177,7 +138,8 @@ Everything else in `scripts/` was used for historical analysis or one-time migra
 5. If Cam asks about bulk analysis (6+ weeks of themes, customer rotation): read `data/notion/notion_export.json`
 6. If Cam asks about a specific post's details: check the individual post directory in `posts/linkedin/[brand]/published/[slug]/`
 7. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
-8. If Cam asks what content exists from a source: check `data/cross-platform/content-map.json`
+
+**Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then brand `_index.md` if needed. For a short metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing a bulk or query-style analysis.
 
 **Never browse post directories one by one.** Always start with `_index.md` files.
 

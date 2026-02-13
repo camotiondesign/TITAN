@@ -1,0 +1,7 @@
+# Large files: avoid loading into context by default; open explicitly when needed
+data/notion/notion_export.json
+analytics/aggregated-linkedin-metrics.json
+
+# Individual post dirs: analysis goes via _index.md files
+posts/linkedin/titan/published/*/
+posts/linkedin/titanverse/published/*/

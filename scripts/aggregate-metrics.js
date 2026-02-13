@@ -8,6 +8,7 @@ const path = require('path');
 
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 const OUTPUT_PATH = path.join(__dirname, '..', 'analytics', 'aggregated-linkedin-metrics.json');
+const SUMMARY_PATH = path.join(__dirname, '..', 'analytics', 'linkedin-metrics-summary.md');
 
 /**
  * Recursively find all metrics.json files in published post directories
@@ -150,6 +151,50 @@ function loadPostMetrics(filePath) {
 }
 
 /**
+ * Write a short markdown summary for Claude/verdict use (avoids loading full JSON).
+ */
+function writeSummary(aggregated, metadata) {
+  if (aggregated.length === 0) {
+    return;
+  }
+  const totalImpressions = aggregated.reduce((s, p) => s + (p.impressions || 0), 0);
+  const totalEngagements = aggregated.reduce((s, p) => s + (p.engagements || 0), 0);
+  const dates = aggregated.map(p => p.posted_at).filter(Boolean);
+  const sorted = [...dates].sort();
+  const dateRange = sorted.length ? `${sorted[0]} to ${sorted[sorted.length - 1]}` : '—';
+
+  const byImpressions = [...aggregated].sort((a, b) => (b.impressions || 0) - (a.impressions || 0)).slice(0, 10);
+  const byEngagements = [...aggregated].sort((a, b) => (b.engagements || 0) - (a.engagements || 0)).slice(0, 10);
+
+  const lines = [
+    '# LinkedIn metrics summary',
+    '',
+    `Last updated: ${metadata.aggregated_at}`,
+    '',
+    '## Totals',
+    `- Posts (with organic metrics): ${metadata.total_posts}`,
+    `- Total impressions: ${totalImpressions.toLocaleString()}`,
+    `- Total engagements: ${totalEngagements.toLocaleString()}`,
+    `- Date range: ${dateRange}`,
+    '',
+    '## Top 10 by impressions',
+    '| Post | Impressions | Engagements | Posted |',
+    '|------|-------------|-------------|--------|',
+    ...byImpressions.map(p => `| ${(p.campaign_slug || p.post_slug || '').replace(/\|/g, '\\|')} | ${(p.impressions || 0).toLocaleString()} | ${(p.engagements || 0).toLocaleString()} | ${p.posted_at || '—'} |`),
+    '',
+    '## Top 10 by engagements',
+    '| Post | Engagements | Impressions | Posted |',
+    '|------|-------------|-------------|--------|',
+    ...byEngagements.map(p => `| ${(p.campaign_slug || p.post_slug || '').replace(/\|/g, '\\|')} | ${(p.engagements || 0).toLocaleString()} | ${(p.impressions || 0).toLocaleString()} | ${p.posted_at || '—'} |`),
+    '',
+    '---',
+    'Full post-level data: `analytics/aggregated-linkedin-metrics.json`',
+  ];
+  fs.writeFileSync(SUMMARY_PATH, lines.join('\n'), 'utf-8');
+  console.log(`✓ Wrote summary to ${SUMMARY_PATH}`);
+}
+
+/**
  * Main aggregation function
  */
 function main() {
@@ -267,6 +312,8 @@ function main() {
       const jsonOutput = JSON.stringify(output, null, 2);
       fs.writeFileSync(OUTPUT_PATH, jsonOutput, 'utf-8');
       console.log(`✓ Successfully wrote ${aggregated.length} posts to ${OUTPUT_PATH}`);
+
+      writeSummary(aggregated, output.metadata);
 
       if (fs.existsSync(OUTPUT_PATH)) {
         const stats = fs.statSync(OUTPUT_PATH);
