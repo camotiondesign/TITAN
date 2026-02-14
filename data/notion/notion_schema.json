@@ -1,5 +1,5 @@
 {
-  "discovered_at": "2026-02-13T06:44:26.666868+00:00",
+  "discovered_at": "2026-02-14T06:30:12.993658+00:00",
   "database_id": "157f423bea8b8149b546e7279b4ea0c0",
   "properties": {
     "Asset For Reviewal": "rich_text",
@@ -23,6 +23,7 @@
     "Content Type": "select",
     "Sourced Assets": "rich_text",
     "Comments": "number",
+    "transcript": "files",
     "Post Status": "status",
     "Likes": "number",
     "Time": "date",
