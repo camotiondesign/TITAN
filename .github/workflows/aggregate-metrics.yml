@@ -1,4 +1,4 @@
-name: Aggregate LinkedIn Metrics
+name: Aggregate LinkedIn Metrics & Build Published Index
 
 on:
   schedule:
@@ -66,13 +66,29 @@ jobs:
           echo "=== Metrics Aggregation Complete ==="
           exit $SCRIPT_EXIT_CODE
       
-      - name: Verify output file
+      - name: Build published posts index
         run: |
+          echo "=== Building Published Posts Index ==="
+          node scripts/build-published-index.js
+          echo "=== Published Posts Index Complete ==="
+
+      - name: Verify output files
+        run: |
+          echo "--- Aggregated metrics ---"
           if [ -f "analytics/aggregated-linkedin-metrics.json" ]; then
-            echo "✓ Output file created successfully"
-            echo "File size: $(wc -c < analytics/aggregated-linkedin-metrics.json) bytes"
+            echo "✓ aggregated-linkedin-metrics.json created"
+            echo "  Size: $(wc -c < analytics/aggregated-linkedin-metrics.json) bytes"
           else
-            echo "✗ Output file not found!"
+            echo "✗ aggregated-linkedin-metrics.json not found!"
+            exit 1
+          fi
+          echo ""
+          echo "--- Published posts index ---"
+          if [ -f "analytics/published-posts-index.json" ]; then
+            echo "✓ published-posts-index.json created"
+            echo "  Size: $(wc -c < analytics/published-posts-index.json) bytes"
+          else
+            echo "✗ published-posts-index.json not found!"
             exit 1
           fi
       
@@ -89,15 +105,15 @@ jobs:
           fi
           echo "✓ Output file exists"
           echo ""
-          echo "=== Staging file ==="
-          git add analytics/aggregated-linkedin-metrics.json
+          echo "=== Staging files ==="
+          git add analytics/aggregated-linkedin-metrics.json analytics/published-posts-index.json
           echo ""
           echo "=== Checking for changes ==="
           if git diff --staged --quiet; then
             echo "No changes to commit (file unchanged) - this is normal"
           else
             echo "Changes detected, committing..."
-            git commit -m "chore: update aggregated LinkedIn metrics [skip ci]"
+            git commit -m "chore: update aggregated metrics & published posts index [skip ci]"
             echo "Pushing to repository..."
             git push
             echo "✓ Successfully pushed changes"
