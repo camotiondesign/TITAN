@@ -2,7 +2,7 @@ name: Sync Published Posts from Notion
 
 on:
   schedule:
-    # Run daily at 7am UTC (same time as Notion pull)
+    # Run daily at 7am UTC (after notion-sync at 6am, after aggregate-metrics at 5am)
     - cron: '0 7 * * *'
   workflow_dispatch:
     # Allow manual triggering
@@ -33,20 +33,40 @@ jobs:
           echo "=== Syncing Published Posts ==="
           node scripts/notion-to-repo.js --since 7 --refresh-metrics --refresh-days 14
           echo ""
-          echo "=== Regenerating Indexes ==="
+          echo "=== Regenerating Markdown Indexes ==="
           node scripts/build-indexes.js
+
+      - name: Rebuild dashboard JSON indexes
+        run: |
+          echo "=== Aggregating LinkedIn Metrics ==="
+          node scripts/aggregate-metrics.js
+          echo ""
+          echo "=== Building Published Posts Index ==="
+          node scripts/build-published-index.js
+          echo ""
+          echo "=== Verifying Output ==="
+          if [ -f "analytics/aggregated-linkedin-metrics.json" ]; then
+            echo "✓ aggregated-linkedin-metrics.json ($(wc -c < analytics/aggregated-linkedin-metrics.json) bytes)"
+          else
+            echo "⚠ aggregated-linkedin-metrics.json not found"
+          fi
+          if [ -f "analytics/published-posts-index.json" ]; then
+            echo "✓ published-posts-index.json ($(wc -c < analytics/published-posts-index.json) bytes)"
+          else
+            echo "⚠ published-posts-index.json not found"
+          fi
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add posts/
+          git add posts/ analytics/
 
           if git diff --staged --quiet; then
             echo "No new posts to commit"
           else
-            git commit -m "chore: sync posts and refresh notionsocial metrics [skip ci]"
+            git commit -m "chore: sync posts, refresh metrics & rebuild indexes [skip ci]"
             git push
             echo "✓ Pushed changes"
           fi
