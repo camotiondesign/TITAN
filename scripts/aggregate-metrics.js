@@ -105,14 +105,22 @@ function loadPostMetrics(filePath) {
       console.warn(`Could not load caption for ${filePath}: ${error.message}`);
     }
 
-    // Extract only organic metrics - ignore sponsored data completely
-    const organicMetrics = metrics.organic || {};
-    
-    // Use organic metrics exclusively - no fallback to top-level metrics
-    // This ensures we only include true organic performance
+    // Extract organic metrics — check multiple format versions:
+    // 1. Old format: metrics.organic (top-level)
+    // 2. New format: metrics.platform_api.organic (from Notion sync)
+    // 3. Fallback: metrics.notionsocial (surface-level views/likes)
+    const organicMetrics = metrics.organic
+      || (metrics.platform_api && metrics.platform_api.organic)
+      || {};
+
     const organicImpressions = organicMetrics.impressions || 0;
-    
-    // Build clean post object with only organic metrics
+
+    // If no organic API data, try notionsocial surface metrics as fallback
+    // This ensures newly synced posts appear with at least some numbers
+    const notionsocial = metrics.notionsocial || {};
+    const hasOrganic = organicImpressions > 0;
+
+    // Build clean post object — organic API metrics preferred, notionsocial fallback
     const cleanPost = {
       platform: metrics.platform || 'linkedin',
       post_url: metrics.post_url || '',
@@ -120,21 +128,29 @@ function loadPostMetrics(filePath) {
       campaign_slug: metrics.campaign_slug || '',
       asset_type: metrics.asset_type || '',
       boosted: metrics.boosted || false,
-      // Only include organic metrics (no fallbacks to top-level)
-      impressions: organicImpressions,
+      // Organic API metrics (or fallback to notionsocial views as impressions proxy)
+      impressions: hasOrganic ? organicImpressions : (notionsocial.views || 0),
       reach: organicMetrics.reach || 0,
-      views: organicMetrics.video_views || 0,
-      watch_time_hours: metrics.watch_time_hours || 0, // Keep this as it's total watch time
+      views: organicMetrics.video_views || (notionsocial.views || 0),
+      watch_time_hours: metrics.watch_time_hours || 0,
       avg_view_duration_seconds: organicMetrics.average_watch_time_seconds || 0,
       clicks: organicMetrics.clicks || 0,
       ctr: organicMetrics.click_through_rate || 0,
-      reactions: organicMetrics.reactions || 0,
-      comments: organicMetrics.comments || 0,
-      reposts: organicMetrics.reposts || 0,
+      reactions: hasOrganic ? (organicMetrics.reactions || 0) : (notionsocial.likes || 0),
+      comments: hasOrganic ? (organicMetrics.comments || 0) : (notionsocial.comments || 0),
+      reposts: hasOrganic ? (organicMetrics.reposts || 0) : (notionsocial.shares || 0),
       follows: organicMetrics.followers_gained || 0,
-      leads: 0, // Leads are typically not broken down by organic/sponsored
-      engagements: organicMetrics.engagements || 0,
-      engagement_rate: organicMetrics.engagement_rate || 0,
+      leads: 0,
+      engagements: hasOrganic
+        ? (organicMetrics.engagements || 0)
+        : ((notionsocial.likes || 0) + (notionsocial.comments || 0) + (notionsocial.shares || 0)),
+      engagement_rate: hasOrganic
+        ? (organicMetrics.engagement_rate || 0)
+        : (notionsocial.views > 0
+          ? (((notionsocial.likes || 0) + (notionsocial.comments || 0) + (notionsocial.shares || 0)) / notionsocial.views * 100)
+          : 0),
+      // Track data source so dashboard knows the precision level
+      metrics_source: hasOrganic ? 'organic_api' : (notionsocial.views > 0 ? 'notionsocial' : 'pending'),
       // Metadata
       notes: metrics.notes || '',
       post_slug: postSlug,
@@ -237,15 +253,13 @@ function main() {
         }
         const post = loadPostMetrics(file);
         if (post) {
-          // Only include posts with actual metrics (impressions > 0)
-          const organicImpressions = post.impressions || 0;
-          if (organicImpressions > 0) {
+          // Include posts with any metrics (organic API or notionsocial surface data)
+          if (post.impressions > 0 || post.engagements > 0) {
             aggregated.push(post);
           } else {
             skipped++;
-            // Only log every 10th skipped post to avoid spam
             if (skipped % 10 === 0 || skipped <= 5) {
-              console.log(`  Skipping post with no organic impressions: ${post.post_slug || file}`);
+              console.log(`  Skipping post with no metrics: ${post.post_slug || file}`);
             }
           }
         } else {
