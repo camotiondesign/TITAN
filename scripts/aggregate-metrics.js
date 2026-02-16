@@ -74,12 +74,18 @@ function loadPostMetrics(filePath) {
       return null;
     }
 
-    // Extract post slug from path
-    // Path format: posts/[brand]/published/[post-slug]/metrics.json
-    // or: posts/[brand]/needs-metrics/[post-slug]/metrics.json
-    // or: posts/[brand]/unpublished/[post-slug]/metrics.json
+    // Extract post slug and brand from path
+    // Path format: posts/linkedin/[brand]/published/[post-slug]/metrics.json
+    // or: posts/linkedin/[brand]/needs-metrics/[post-slug]/metrics.json
     const parts = filePath.split(path.sep);
     const postSlug = path.basename(path.dirname(filePath));
+
+    // Derive brand from directory path: .../linkedin/titan/published/... or .../linkedin/titanverse/published/...
+    let brand = '';
+    const linkedinIdx = parts.indexOf('linkedin');
+    if (linkedinIdx >= 0 && linkedinIdx + 1 < parts.length) {
+      brand = parts[linkedinIdx + 1]; // "titan" or "titanverse"
+    }
 
     // Calculate relative path safely
     let relativePath;
@@ -152,6 +158,7 @@ function loadPostMetrics(filePath) {
       // Track data source so dashboard knows the precision level
       metrics_source: hasOrganic ? 'organic_api' : (notionsocial.views > 0 ? 'notionsocial' : 'pending'),
       // Metadata
+      brand: brand, // "titan" or "titanverse" — derived from directory path
       notes: metrics.notes || '',
       post_slug: postSlug,
       metrics_file_path: relativePath,
