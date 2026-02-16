@@ -1,0 +1,27 @@
+{
+  "platform": "facebook",
+  "post_url": "",
+  "posted_at": "2026-01-21",
+  "campaign_slug": "2026-01-21-filter-out-the-noise-single-image",
+  "asset_type": "single-image",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-16",
+    "views": 476,
+    "likes": 12,
+    "comments": 3,
+    "shares": 1
+  },
+  "platform_api": {
+    "source": "facebook_api",
+    "synced_at": "",
+    "impressions": 0,
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "engagement_rate": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}

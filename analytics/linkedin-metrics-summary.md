@@ -1,12 +1,12 @@
 # LinkedIn metrics summary
 
-Last updated: 2026-02-13T15:46:55.648Z
+Last updated: 2026-02-16T11:43:49.128Z
 
 ## Totals
-- Posts (with organic metrics): 262
-- Total impressions: 372,432
-- Total engagements: 92,525
-- Date range: 2025-02-05 to 2026-02-12
+- Posts (with organic metrics): 253
+- Total impressions: 364,753
+- Total engagements: 88,988
+- Date range: 2024-12-16 to 2026-01-30
 
 ## Top 10 by impressions
 | Post | Impressions | Engagements | Posted |
@@ -30,11 +30,11 @@ Last updated: 2026-02-13T15:46:55.648Z
 | 2025-08-27-mounjaro-pricing-changes | 3,563 | 3,422 | 2025-08-27 |
 | 2025-02-05-titan-nhs-independent-prescribing | 3,465 | 5,440 | 2025-02-05 |
 | 2025-06-04-pharmacy-first-walk-away-carousel | 2,869 | 3,195 | 2025-06-04 |
-| 2026-02-09-head-office-day-multi-image | 2,501 | 1,686 | 2026-02-09 |
 | 2025-11-10-bmp-healthcare-case-study | 2,399 | 3,014 | 2025-11-11 |
 | 2025-07-11-titan-1000th-pharmacy | 2,395 | 4,785 | 2025-07-11 |
 | 2025-12-08-titan-wrapped-2025 | 2,394 | 2,622 | 2025-12-08 |
 | 2025-05-20-pharmacy-myths-carousel | 2,309 | 2,118 | 2025-05-20 |
+| 2025-07-04-nhs-10-year-plan | 2,144 | 1,987 | 2025-07-04 |
 
 ---
 Full post-level data: `analytics/aggregated-linkedin-metrics.json`

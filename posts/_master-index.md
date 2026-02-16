@@ -9,7 +9,7 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 226 | 452,721 | 21.1% |
+| Titan PMR | 233 | 451,487 | 20.8% |
 | Titanverse | 44 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
@@ -86,12 +86,6 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 13 | **Comments:** 1 | **Reposts:** 2 | **Clicks:** 1,361
 > Pharmacy is broken.  But it's not pharmacists that need fixing.  It's the systems around them.  Outdated tools. Manual errors. No backup.  Titan AI clears up to 90% of scripts. Safely. Precisely. Reli...
 
-[TITAN] ### 2026-01-29-158-million-clawback-carousel
-**Date:** 2026-01-29 | **Type:** carousel
-**Impressions:** 1,234 | **Engagement:** 84.1% | **CTR:** 82.9%
-**Reactions:** 11 | **Comments:** 2 | **Reposts:** 2 | **Clicks:** 1,023
-> £158 million NHS clawback.  Calculated across the whole sector…  not individual pharmacy performance.  Fair?  Olivier Picard #CommunityPharmacy #CPCF #PharmacyFunding #TitanPMR
-
 [TITAN] ### 2025-12-19-pharmacy-at-christmas-carousel
 **Date:** 2025-12-19 | **Type:** carousel
 **Impressions:** 1,396 | **Engagement:** 81.6% | **CTR:** 80.2%
@@ -103,6 +97,12 @@ For full post details, read the brand-specific indexes.
 **Impressions:** 3,014 | **Engagement:** 79.6% | **CTR:** 78.6%
 **Reactions:** 25 | **Comments:** 1 | **Reposts:** 3 | **Clicks:** 2,370
 > 👀 We spoke to Yusuf from BMP HEALTHCARE LTD.  Here's how they're running 12 pharmacies and 170,000 items a month without chaos.  One pilot site turned into one a month.  See what happened next!  🎥 W...
+
+[TV] ### 2025-11-11-pov-start-a-consultation
+**Date:** 2025-11-11 | **Type:** carousel
+**Impressions:** 908 | **Engagement:** 76.8% | **CTR:** 73.8%
+**Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
+> POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
 ## Recent Posts (last 30 days from 2026-02-16)
 
@@ -136,6 +136,16 @@ For full post details, read the brand-specific indexes.
 **Views:** 1,114 | **Likes:** 19 | **Comments:** 1 | **Shares:** 2
 > 15 pharmacies. High-volume branches that used to need double cover. Not anymore 👇  Sunil runs operations across Hollywood Chemist. He doesn’t do drama.  No forced restructure. Just a system change th...
 
+[TITAN] ### 2026-02-04-stopping-bulk-auto-renominations-to-protect-patient-choice
+**Date:** 2026-02-04 | **Type:** ? _(Notionsocial)_
+**Views:** 693 | **Likes:** 8 | **Comments:** 1 | **Shares:** 4
+> Your patients chose you.  Then software quietly sent their prescriptions somewhere else.  Bulk auto-renomination tools scan for patients who’ve moved their scripts and switch them back. No consent. No...
+
+[TITAN] ### 2026-02-02-black-book-repeat-flow-carousel
+**Date:** 2026-02-02 | **Type:** carousel _(Notionsocial)_
+**Views:** 860 | **Likes:** 7 | **Comments:** 2 | **Shares:** 3
+> There’s someone in every pharmacy with a black book.  Patient names. Repeat patterns. Tricky meds. All in there somewhere. Or sometimes just in their head.  When they're off? Chaos. Orders get missed....
+
 [TITAN] ### 2026-01-30-priory-pharmacy-titanverse-repost-video
 **Date:** 2026-01-30 | **Type:** video
 **Impressions:** 666 | **Engagement:** 14.6% | **CTR:** 9.9%
@@ -149,9 +159,8 @@ For full post details, read the brand-specific indexes.
 > Proud to partner with PharmAppy websites. 🤝  Fully integrated using the TITANVERSE API.  • Appointments book directly into the TITANVERSE calendar • Integrated payments at booking • Pre-consultations...
 
 [TITAN] ### 2026-01-29-158-million-clawback-carousel
-**Date:** 2026-01-29 | **Type:** carousel
-**Impressions:** 1,234 | **Engagement:** 84.1% | **CTR:** 82.9%
-**Reactions:** 11 | **Comments:** 2 | **Reposts:** 2 | **Clicks:** 1,023
+**Date:** 2026-01-29 | **Type:** carousel _(Notionsocial)_
+**Views:** 1,300 | **Likes:** 11 | **Comments:** 2 | **Shares:** 2
 > £158 million NHS clawback.  Calculated across the whole sector…  not individual pharmacy performance.  Fair?  Olivier Picard #CommunityPharmacy #CPCF #PharmacyFunding #TitanPMR
 
 [TV] ### 2026-01-29-one-place-all-in-flow-loop-video
@@ -159,6 +168,11 @@ For full post details, read the brand-specific indexes.
 **Impressions:** 290 | **Engagement:** 10.7% | **CTR:** 3.4%
 **Reactions:** 15 | **Comments:** 0 | **Reposts:** 6 | **Clicks:** 10 | **Views:** 106
 > How it feels when pharmacy services finally live in one place ✨  Consultations. Prescribing. Payments. CRM. Notes. Follow-ups.  All connected. All in flow.  #Titanverse #PharmacyWorkflow #PharmacyServ...
+
+[TITAN] ### 2026-01-28-nervous-on-day-one-single-image
+**Date:** 2026-01-28 | **Type:** single-image _(Notionsocial)_
+**Views:** 477 | **Likes:** 6 | **Comments:** 1 | **Shares:** 3
+> Paula started the day feeling nervous about her training.  She said she was “very” scared to begin with.  As the session went on, things became clearer. “Really good… loads better… not that complicate...
 
 [TITAN] ### 2026-01-28-paula-listers-testimonial-single-image
 **Date:** 2026-01-28 | **Type:** single-image
@@ -171,6 +185,11 @@ For full post details, read the brand-specific indexes.
 **Impressions:** 564 | **Engagement:** 0% | **CTR:** 0%
 **Reactions:** 17 | **Comments:** 1 | **Reposts:** 5 | **Clicks:** 0 | **Views:** 212
 > Prescribing shouldn't live in a separate system.  In Titanverse, it's part of the consultation not bolted on after.  You consult. You prescribe. Done. ✔️  Flows straight into TITAN PMR.  No switching ...
+
+[TITAN] ### 2026-01-27-switch-it-on-walk-away-video
+**Date:** 2026-01-27 | **Type:** ? _(Notionsocial)_
+**Views:** 1,140 | **Likes:** 19 | **Comments:** 0 | **Shares:** 4
+> Switch it on. Walk away.  Titan AI runs a full 40 point clinical and dosage check on every prescription.  The same way. Every script. Every time.  It filters risk. It clears the routine work. It raise...
 
 [TITAN] ### 2026-01-27-titan-ai-switch-on-walk-away-video
 **Date:** 2026-01-27 | **Type:** video
@@ -190,11 +209,21 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 6 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 23 | **Views:** 180
 > "Scary at first. Easier than I thought."  A quick moment from training today at Listers Chemist.  Paula started the morning nervous. By lunchtime she was a quarter through her checklist and said it wa...
 
+[TITAN] ### 2026-01-23-paula-review-video
+**Date:** 2026-01-23 | **Type:** video _(Notionsocial)_
+**Views:** 439 | **Likes:** 4 | **Comments:** 0 | **Shares:** 2
+> “Scary at first. Easier than I thought.”  A quick moment from training today at Listers Chemist.  Paula started the morning nervous. By lunchtime she was a quarter through her checklist and said it wa...
+
 [TV] ### 2026-01-22-ai-assistant-pharmacy-carousel
 **Date:** 2026-01-22 | **Type:** carousel
 **Impressions:** 652 | **Engagement:** 57.4% | **CTR:** 55.4%
 **Reactions:** 9 | **Comments:** 0 | **Reposts:** 4 | **Clicks:** 361
 > Not another generic AI scribe… a clinic-ready assistant built for pharmacy.  Titanverse is more than a scribe 📝 It is built to take action.  It listens while you consult, so nothing needs typing.  It...
+
+[TITAN] ### 2026-01-21-filter-out-the-noise-single-image
+**Date:** 2026-01-21 | **Type:** single-image _(Notionsocial)_
+**Views:** 476 | **Likes:** 12 | **Comments:** 3 | **Shares:** 1
+> You scroll. You scroll again.  The list never ends.  Here is the problem on a busy board: everyone’s patients, all mixed together, all competing for your attention.  Titan fixes it while you work.  Sw...
 
 [TITAN] ### 2026-01-21-patient-tags-filter-single
 **Date:** 2026-01-21 | **Type:** single-image
@@ -208,6 +237,11 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 18 | **Comments:** 0 | **Reposts:** 4 | **Clicks:** 26 | **Views:** 284
 > Everything you need for pharmacy services… in one place ✨  Consultations. Prescribing. Payments. Reports. Communications. And over 100 connected features built around the way pharmacies actually work....
 
+[TITAN] ### 2026-01-19-manual-checking-works-until-scale-makes-it-unsafe-single-image
+**Date:** 2026-01-19 | **Type:** single-image _(Notionsocial)_
+**Views:** 1,055 | **Likes:** 15 | **Comments:** 1 | **Shares:** 2
+> Don’t rely on manual checking.  Use TITAN AI + Barcode scanning.  Manual checking breaks the moment volume rises. Fatigue builds. Risk increases. 😮‍💨 One interruption is all it takes for the wrong i...
+
 [TITAN] ### 2026-01-19-titan-ai-barcode-scanning-single
 **Date:** 2026-01-19 | **Type:** single-image
 **Impressions:** 1,065 | **Engagement:** 5% | **CTR:** 3.3%
@@ -218,12 +252,12 @@ For full post details, read the brand-specific indexes.
 
 | Type | Titan | Titanverse | Total |
 |------|-------|------------|-------|
-| carousel | 64 | 8 | 72 |
+| carousel | 65 | 8 | 73 |
 | image-gallery | 1 | 0 | 1 |
 | short_video | 0 | 5 | 5 |
-| single-image | 74 | 19 | 93 |
-| unknown | 2 | 0 | 2 |
-| video | 85 | 12 | 97 |
+| single-image | 77 | 19 | 96 |
+| unknown | 4 | 0 | 4 |
+| video | 86 | 12 | 98 |
 
 ## File Locations
 

@@ -1,0 +1,11 @@
+# Instagram Comments – Real MDS workflow.
+
+Post date: 2026-01-28
+Platform: Instagram
+Creative ID: 2026-01-28-real-mds-workflow
+
+---
+
+## Top-Level Comments
+
+No comments captured yet.

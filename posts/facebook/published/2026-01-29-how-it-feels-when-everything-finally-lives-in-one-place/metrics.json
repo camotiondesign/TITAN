@@ -1,0 +1,27 @@
+{
+  "platform": "facebook",
+  "post_url": "https://www.facebook.com/reel/1217215803308902",
+  "posted_at": "2026-01-29",
+  "campaign_slug": "2026-01-29-how-it-feels-when-everything-finally-lives-in-one-place",
+  "asset_type": "",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-16",
+    "views": 512,
+    "likes": 4,
+    "comments": 0,
+    "shares": 2
+  },
+  "platform_api": {
+    "source": "facebook_api",
+    "synced_at": "",
+    "impressions": 0,
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "engagement_rate": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}

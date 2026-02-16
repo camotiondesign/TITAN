@@ -2,26 +2,26 @@
 
 **LinkedIn Page:** Titan PMR
 **Generated:** 2026-02-16
-**Total Posts:** 226
+**Total Posts:** 233
 **Date Range:** 2024-12-16 to 2026-02-16
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
-| Total Impressions | 452,721 |
-| Total Reactions | 4,661 |
-| Total Comments | 406 |
-| Avg Engagement Rate | 21.1% |
+| Total Impressions | 451,487 |
+| Total Reactions | 4,732 |
+| Total Comments | 414 |
+| Avg Engagement Rate | 20.8% |
 
 ## Content Mix
 
 | Type | Count |
 |------|-------|
-| video | 85 |
-| single-image | 74 |
-| carousel | 64 |
-| unknown | 2 |
+| video | 86 |
+| single-image | 77 |
+| carousel | 65 |
+| unknown | 4 |
 | image-gallery | 1 |
 
 ## Top 10 by Engagement Rate (min 100 impressions)
@@ -170,6 +170,16 @@
 **Views:** 1,114 | **Likes:** 19 | **Comments:** 1 | **Shares:** 2
 > 15 pharmacies. High-volume branches that used to need double cover. Not anymore 👇  Sunil runs operations across Hollywood Chemist. He doesn’t do drama.  No forced restructure. Just a system change th...
 
+### 2026-02-04-stopping-bulk-auto-renominations-to-protect-patient-choice
+**Date:** 2026-02-04 | **Type:** ? _(Notionsocial)_
+**Views:** 693 | **Likes:** 8 | **Comments:** 1 | **Shares:** 4
+> Your patients chose you.  Then software quietly sent their prescriptions somewhere else.  Bulk auto-renomination tools scan for patients who’ve moved their scripts and switch them back. No consent. No...
+
+### 2026-02-02-black-book-repeat-flow-carousel
+**Date:** 2026-02-02 | **Type:** carousel _(Notionsocial)_
+**Views:** 860 | **Likes:** 7 | **Comments:** 2 | **Shares:** 3
+> There’s someone in every pharmacy with a black book.  Patient names. Repeat patterns. Tricky meds. All in there somewhere. Or sometimes just in their head.  When they're off? Chaos. Orders get missed....
+
 ### 2026-01-30-priory-pharmacy-titanverse-repost-video
 **Date:** 2026-01-30 | **Type:** video
 **Impressions:** 666 | **Engagement:** 14.6% | **CTR:** 9.9%
@@ -177,16 +187,25 @@
 > Priory Pharmacy. TITAN PMR. TITANVERSE. PharmAppy. All connected. 🚀
 
 ### 2026-01-29-158-million-clawback-carousel
-**Date:** 2026-01-29 | **Type:** carousel
-**Impressions:** 1,234 | **Engagement:** 84.1% | **CTR:** 82.9%
-**Reactions:** 11 | **Comments:** 2 | **Reposts:** 2 | **Clicks:** 1,023
+**Date:** 2026-01-29 | **Type:** carousel _(Notionsocial)_
+**Views:** 1,300 | **Likes:** 11 | **Comments:** 2 | **Shares:** 2
 > £158 million NHS clawback.  Calculated across the whole sector…  not individual pharmacy performance.  Fair?  Olivier Picard #CommunityPharmacy #CPCF #PharmacyFunding #TitanPMR
+
+### 2026-01-28-nervous-on-day-one-single-image
+**Date:** 2026-01-28 | **Type:** single-image _(Notionsocial)_
+**Views:** 477 | **Likes:** 6 | **Comments:** 1 | **Shares:** 3
+> Paula started the day feeling nervous about her training.  She said she was “very” scared to begin with.  As the session went on, things became clearer. “Really good… loads better… not that complicate...
 
 ### 2026-01-28-paula-listers-testimonial-single-image
 **Date:** 2026-01-28 | **Type:** single-image
 **Impressions:** 457 | **Engagement:** 5.9% | **CTR:** 3.7%
 **Reactions:** 6 | **Comments:** 1 | **Reposts:** 3 | **Clicks:** 17
 > Paula started the day feeling nervous about her training.  She said she was "very" scared to begin with.  As the session went on, things became clearer. "Really good… loads better… not that complicate...
+
+### 2026-01-27-switch-it-on-walk-away-video
+**Date:** 2026-01-27 | **Type:** ? _(Notionsocial)_
+**Views:** 1,140 | **Likes:** 19 | **Comments:** 0 | **Shares:** 4
+> Switch it on. Walk away.  Titan AI runs a full 40 point clinical and dosage check on every prescription.  The same way. Every script. Every time.  It filters risk. It clears the routine work. It raise...
 
 ### 2026-01-27-titan-ai-switch-on-walk-away-video
 **Date:** 2026-01-27 | **Type:** video
@@ -200,11 +219,26 @@
 **Reactions:** 6 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 23 | **Views:** 180
 > "Scary at first. Easier than I thought."  A quick moment from training today at Listers Chemist.  Paula started the morning nervous. By lunchtime she was a quarter through her checklist and said it wa...
 
+### 2026-01-23-paula-review-video
+**Date:** 2026-01-23 | **Type:** video _(Notionsocial)_
+**Views:** 439 | **Likes:** 4 | **Comments:** 0 | **Shares:** 2
+> “Scary at first. Easier than I thought.”  A quick moment from training today at Listers Chemist.  Paula started the morning nervous. By lunchtime she was a quarter through her checklist and said it wa...
+
+### 2026-01-21-filter-out-the-noise-single-image
+**Date:** 2026-01-21 | **Type:** single-image _(Notionsocial)_
+**Views:** 476 | **Likes:** 12 | **Comments:** 3 | **Shares:** 1
+> You scroll. You scroll again.  The list never ends.  Here is the problem on a busy board: everyone’s patients, all mixed together, all competing for your attention.  Titan fixes it while you work.  Sw...
+
 ### 2026-01-21-patient-tags-filter-single
 **Date:** 2026-01-21 | **Type:** single-image
 **Impressions:** 446 | **Engagement:** 8.1% | **CTR:** 4.5%
 **Reactions:** 12 | **Comments:** 3 | **Reposts:** 1 | **Clicks:** 20
 > You scroll. You scroll again.  The list never ends.  Here is the problem on a busy board: everyone's patients, all mixed together, all competing for your attention.  Titan fixes it while you work.  Sw...
+
+### 2026-01-19-manual-checking-works-until-scale-makes-it-unsafe-single-image
+**Date:** 2026-01-19 | **Type:** single-image _(Notionsocial)_
+**Views:** 1,055 | **Likes:** 15 | **Comments:** 1 | **Shares:** 2
+> Don’t rely on manual checking.  Use TITAN AI + Barcode scanning.  Manual checking breaks the moment volume rises. Fatigue builds. Risk increases. 😮‍💨 One interruption is all it takes for the wrong i...
 
 ### 2026-01-19-titan-ai-barcode-scanning-single
 **Date:** 2026-01-19 | **Type:** single-image

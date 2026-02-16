@@ -53,5 +53,13 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Carousel: £158 million NHS clawback (Olivier Picard, CPCF, sector-wide not individual). Discovery: 1,234 impressions, 775 members reached. Page activity: 0 page viewers, 1 follower gained. Engagement: 1,038 engagements (84.1%), 1,023 clicks (82.9% CTR), 11 reactions, 2 comments, 2 reposts. Boost available up to 210k additional impressions."
+  "notes": "Organic only. Carousel: £158 million NHS clawback (Olivier Picard, CPCF, sector-wide not individual). Discovery: 1,234 impressions, 775 members reached. Page activity: 0 page viewers, 1 follower gained. Engagement: 1,038 engagements (84.1%), 1,023 clicks (82.9% CTR), 11 reactions, 2 comments, 2 reposts. Boost available up to 210k additional impressions.",
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-16",
+    "views": 1300,
+    "likes": 11,
+    "comments": 2,
+    "shares": 2
+  }
 }
