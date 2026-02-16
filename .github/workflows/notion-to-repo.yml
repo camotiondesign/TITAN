@@ -26,7 +26,7 @@ jobs:
 
       - name: Sync published posts from Notion
         env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_TOKEN: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           TITAN_ANTHROPIC_KEY: ${{ secrets.TITAN_ANTHROPIC_KEY }}
         run: |
