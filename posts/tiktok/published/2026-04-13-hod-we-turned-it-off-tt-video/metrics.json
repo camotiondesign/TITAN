@@ -1,0 +1,29 @@
+{
+  "platform": "tiktok",
+  "post_url": "https://www.tiktok.com/@titanpmr/video/7605869907141463329",
+  "posted_at": "2026-04-13",
+  "campaign_slug": "2026-04-13-hod-we-turned-it-off-tt-video",
+  "asset_type": "video",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-16",
+    "views": 912,
+    "likes": 14,
+    "comments": 0,
+    "shares": 2
+  },
+  "platform_api": {
+    "source": "tiktok_api",
+    "synced_at": "",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "avg_watch_time_seconds": 0,
+    "total_play_time_seconds": 0,
+    "reach": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}

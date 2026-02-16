@@ -1,0 +1,30 @@
+{
+  "platform": "youtube",
+  "post_url": "",
+  "posted_at": "2026-02-11",
+  "campaign_slug": "2026-02-11-hod-operating-without-double-cover",
+  "asset_type": "",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-16",
+    "views": 1114,
+    "likes": 19,
+    "comments": 1,
+    "shares": 2
+  },
+  "platform_api": {
+    "source": "youtube_api",
+    "synced_at": "",
+    "views": 0,
+    "watch_time_hours": 0,
+    "avg_view_duration_seconds": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "subscribers_gained": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}

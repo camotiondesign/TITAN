@@ -1,27 +1,27 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-02-12
-**Total Posts:** 222
-**Date Range:** 2024-12-16 to 2026-01-30
+**Generated:** 2026-02-16
+**Total Posts:** 226
+**Date Range:** 2024-12-16 to 2026-02-16
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 452,721 |
-| Total Reactions | 4,614 |
-| Total Comments | 403 |
+| Total Reactions | 4,661 |
+| Total Comments | 406 |
 | Avg Engagement Rate | 21.1% |
 
 ## Content Mix
 
 | Type | Count |
 |------|-------|
-| video | 84 |
-| single-image | 73 |
-| carousel | 63 |
-| unknown | 1 |
+| video | 85 |
+| single-image | 74 |
+| carousel | 64 |
+| unknown | 2 |
 | image-gallery | 1 |
 
 ## Top 10 by Engagement Rate (min 100 impressions)
@@ -149,6 +149,26 @@
 > 🚀 TITAN + NHS Independent Prescribing  Independent Prescribing is the future of pharmacy, and the NHS pilot is making it happen.  ✅ The NHS wants all pharmacists to prescribe.  ✅ 200 pharmacies are i...
 
 ## All Posts (newest first)
+
+### 2026-02-16-hod-only14-percent-li-video
+**Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
+**Views:** 389 | **Likes:** 8 | **Comments:** 1 | **Shares:** 1
+> “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
+
+### 2026-02-14-valentines-ailove-story-carousel
+**Date:** 2026-02-14 | **Type:** carousel _(Notionsocial)_
+**Views:** 705 | **Likes:** 17 | **Comments:** 0 | **Shares:** 2
+> Pick your film. 🎬💊  This Valentine's, the dispensary's got its own box office.  🎬 The Logbook 🎬 Titan-ic 🎬 Crazy, Stupid, Workflow 🎬 10 Things I Hate About My Old PMR 🎬 Cleared Actually  👇 Swi...
+
+### 2026-02-13-pick-one-essentials-single-image
+**Date:** 2026-02-13 | **Type:** single-image _(Notionsocial)_
+**Views:** 679 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
+> You can only keep ONE Titan feature.  The rest disappear tomorrow.  Which one stays?  📦 Titan Batch 🤖 Titan AI 📱 Titan Mobile 🔄 Titan Repeat  Drop your answer below 👇  #TitanPMR #PharmacyWorkflow...
+
+### 2026-02-11-hod-operating-without-double-cover
+**Date:** 2026-02-11 | **Type:** ? _(Notionsocial)_
+**Views:** 1,114 | **Likes:** 19 | **Comments:** 1 | **Shares:** 2
+> 15 pharmacies. High-volume branches that used to need double cover. Not anymore 👇  Sunil runs operations across Hollywood Chemist. He doesn’t do drama.  No forced restructure. Just a system change th...
 
 ### 2026-01-30-priory-pharmacy-titanverse-repost-video
 **Date:** 2026-01-30 | **Type:** video

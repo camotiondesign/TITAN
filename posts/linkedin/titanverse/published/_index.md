@@ -1,25 +1,25 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-12
-**Total Posts:** 42
-**Date Range:** 2025-10-07 to 2026-01-30
+**Generated:** 2026-02-16
+**Total Posts:** 44
+**Date Range:** 2025-10-07 to 2026-02-15
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 668 |
-| Total Comments | 53 |
+| Total Reactions | 702 |
+| Total Comments | 56 |
 | Avg Engagement Rate | 12.3% |
 
 ## Content Mix
 
 | Type | Count |
 |------|-------|
-| single-image | 18 |
-| video | 11 |
+| single-image | 19 |
+| video | 12 |
 | carousel | 8 |
 | short_video | 5 |
 
@@ -148,6 +148,16 @@
 > What do you think about AI in pharmacy?  We think it unlocks pharmacy.  And we know that because Titan and Titanverse users tell us the same thing every day.  There is still fear in the sector about t...
 
 ## All Posts (newest first)
+
+### 2026-02-15-hod-transformed-nms-li-single-image
+**Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
+**Views:** 1,021 | **Likes:** 24 | **Comments:** 1 | **Shares:** 4
+> Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
+
+### 2026-02-12-services-spin-up-matrix-video
+**Date:** 2026-02-12 | **Type:** video _(Notionsocial)_
+**Views:** 660 | **Likes:** 10 | **Comments:** 2 | **Shares:** 6
+> Starting one service? Starting five?  Starting from scratch?  It doesn't matter.  The pharmacies scaling services in 2026 aren't juggling five different systems. They're running everything through one...
 
 ### 2026-01-30-priory-pharmacy-pharmappy-loop-video
 **Date:** 2026-01-30 | **Type:** video

@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-12
+**Generated:** 2026-02-16
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,8 +9,8 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 222 | 452,721 | 21.1% |
-| Titanverse | 42 | 37,034 | 12.3% |
+| Titan PMR | 226 | 452,721 | 21.1% |
+| Titanverse | 44 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
 
@@ -104,7 +104,37 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 25 | **Comments:** 1 | **Reposts:** 3 | **Clicks:** 2,370
 > 👀 We spoke to Yusuf from BMP HEALTHCARE LTD.  Here's how they're running 12 pharmacies and 170,000 items a month without chaos.  One pilot site turned into one a month.  See what happened next!  🎥 W...
 
-## Recent Posts (last 30 days from 2026-01-30)
+## Recent Posts (last 30 days from 2026-02-16)
+
+[TITAN] ### 2026-02-16-hod-only14-percent-li-video
+**Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
+**Views:** 389 | **Likes:** 8 | **Comments:** 1 | **Shares:** 1
+> “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
+
+[TV] ### 2026-02-15-hod-transformed-nms-li-single-image
+**Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
+**Views:** 1,021 | **Likes:** 24 | **Comments:** 1 | **Shares:** 4
+> Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
+
+[TITAN] ### 2026-02-14-valentines-ailove-story-carousel
+**Date:** 2026-02-14 | **Type:** carousel _(Notionsocial)_
+**Views:** 705 | **Likes:** 17 | **Comments:** 0 | **Shares:** 2
+> Pick your film. 🎬💊  This Valentine's, the dispensary's got its own box office.  🎬 The Logbook 🎬 Titan-ic 🎬 Crazy, Stupid, Workflow 🎬 10 Things I Hate About My Old PMR 🎬 Cleared Actually  👇 Swi...
+
+[TITAN] ### 2026-02-13-pick-one-essentials-single-image
+**Date:** 2026-02-13 | **Type:** single-image _(Notionsocial)_
+**Views:** 679 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
+> You can only keep ONE Titan feature.  The rest disappear tomorrow.  Which one stays?  📦 Titan Batch 🤖 Titan AI 📱 Titan Mobile 🔄 Titan Repeat  Drop your answer below 👇  #TitanPMR #PharmacyWorkflow...
+
+[TV] ### 2026-02-12-services-spin-up-matrix-video
+**Date:** 2026-02-12 | **Type:** video _(Notionsocial)_
+**Views:** 660 | **Likes:** 10 | **Comments:** 2 | **Shares:** 6
+> Starting one service? Starting five?  Starting from scratch?  It doesn't matter.  The pharmacies scaling services in 2026 aren't juggling five different systems. They're running everything through one...
+
+[TITAN] ### 2026-02-11-hod-operating-without-double-cover
+**Date:** 2026-02-11 | **Type:** ? _(Notionsocial)_
+**Views:** 1,114 | **Likes:** 19 | **Comments:** 1 | **Shares:** 2
+> 15 pharmacies. High-volume branches that used to need double cover. Not anymore 👇  Sunil runs operations across Hollywood Chemist. He doesn’t do drama.  No forced restructure. Just a system change th...
 
 [TITAN] ### 2026-01-30-priory-pharmacy-titanverse-repost-video
 **Date:** 2026-01-30 | **Type:** video
@@ -184,97 +214,16 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 15 | **Comments:** 1 | **Reposts:** 2 | **Clicks:** 35
 > Don't rely on manual checking.  Use TITAN AI + Barcode scanning.  Manual checking collapses as volume rises. Fatigue builds. Risk goes up. One interruption is enough for the wrong item to be picked.  ...
 
-[TV] ### 2026-01-16-system-owned-followup-single-image
-**Date:** 2026-01-16 | **Type:** single-image
-**Impressions:** 582 | **Engagement:** 4.1% | **CTR:** 0.9%
-**Reactions:** 12 | **Comments:** 0 | **Reposts:** 7 | **Clicks:** 5
-> Care doesn't fall down in the consultation 💬  It falls down in the follow-up.  When the system doesn't own continuity, it defaults to notes, reminders and memory. That's fragmented. That's fragile.  ...
-
-[TITAN] ### 2026-01-15-bulk-nomination-patient-choice-carousel
-**Date:** 2026-01-15 | **Type:** carousel
-**Impressions:** 1,010 | **Engagement:** 44.6% | **CTR:** 42.3%
-**Reactions:** 15 | **Comments:** 4 | **Reposts:** 4 | **Clicks:** 427
-> Bulk nomination is undermining patient choice.  And it has created a completely unfair playing field.  Some PMR systems allow pharmacies to switch patients back in bulk, without consent and without a ...
-
-[TV] ### 2026-01-14-seamless-integrations-loop-video
-**Date:** 2026-01-14 | **Type:** short_video
-**Impressions:** 1,121 | **Engagement:** 11.6% | **CTR:** 9.3%
-**Reactions:** 19 | **Comments:** 5 | **Reposts:** 2 | **Clicks:** 104 | **Views:** 376
-> Seamless Integrations ✨  Effortless integrations with the tools you already use — no disruption, just smarter workflows.  👉 Join the waiting list: bit.ly/44RuZ8U  TITAN PMR • DemDx • Ryft • NaTHNaC (...
-
-[TITAN] ### 2026-01-13-asif-safys-chemist-longform-video
-**Date:** 2026-01-13 | **Type:** video [BOOSTED]
-**Impressions:** 13,615 | **Engagement:** 1.1% | **CTR:** 0.7%
-**Reactions:** 15 | **Comments:** 0 | **Reposts:** 1 | **Clicks:** 92 | **Views:** 1,023
-> Safy's Chemist was losing time every single day 👀  Dispensing 14,500 to 15,000 items a month, and they felt the pace.  Baskets piling up. Running between rooms. Checking, bagging and shelving in betw...
-
-[TITAN] ### 2026-01-12-zero-lost-prescriptions-single-image
-**Date:** 2026-01-12 | **Type:** single-image _(Notionsocial)_
-**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
-> Zero lost prescriptions in a year.  📖 Read the full case study: [link to be added]  #PharmacySafety #TitanPMR #DigitalPharmacy #CommunityPharmacy #PharmacyOwner #PharmacyLife
-
-[TV] ### 2026-01-12-dispensing-cant-fund-future-single-image
-**Date:** 2026-01-12 | **Type:** single-image
-**Impressions:** 1,634 | **Engagement:** 5.8% | **CTR:** 4.4%
-**Reactions:** 18 | **Comments:** 2 | **Reposts:** 3 | **Clicks:** 72
-> Pharmacy used to be simple.  Open near a GP. Dispense. Survive.  That model didn't vanish overnight. It's being squeezed month by month 📉  The business model has changed. The workflows haven't.  Disp...
-
-[TITAN] ### 2026-01-09-digital-triage-single
-**Date:** 2026-01-09 | **Type:** single-image
-**Impressions:** 635 | **Engagement:** 4.1% | **CTR:** 1.3%
-**Reactions:** 15 | **Comments:** 0 | **Reposts:** 3 | **Clicks:** 8
-> Partial systems create full-scale problems.  Human triage burns people out. Digital triage scales 🔄  In most pharmacies, people are the system. They carry the priority 🧠  When the system cannot surf...
-
-[TV] ### 2026-01-08-eps-nomination-carousel
-**Date:** 2026-01-08 | **Type:** carousel
-**Impressions:** 1,088 | **Engagement:** 29.1% | **CTR:** 27.3%
-**Reactions:** 14 | **Comments:** 0 | **Reposts:** 6 | **Clicks:** 297
-> EPS nomination underpins patient choice and continuity.  The Electronic Prescription Service is one of the most advanced systems in the world.  It has transformed how prescriptions move between GP pra...
-
-[TITAN] ### 2026-01-07-safys-chemist-case-study-carousel
-**Date:** 2026-01-07 | **Type:** carousel
-**Impressions:** 1,724 | **Engagement:** 34.7% | **CTR:** 33.9%
-**Reactions:** 11 | **Comments:** 1 | **Reposts:** 2 | **Clicks:** 584
-> 👀 We spoke to Asif from Safy's Chemist.  Here's how one independent pharmacy cut near misses by 97% and gave the pharmacist 85% of his day back.  Five or six near misses a month became two in a year....
-
-[TV] ### 2026-01-06-guided-consultations-loop-video
-**Date:** 2026-01-06 | **Type:** short_video
-**Impressions:** 681 | **Engagement:** 12.5% | **CTR:** 8.4%
-**Reactions:** 19 | **Comments:** 4 | **Reposts:** 5 | **Clicks:** 57 | **Views:** 221
-> Guided clinical consultations.  Built for pharmacy services. ✨  📋 Start with a template Pick an existing pathway or create your own with AI.  🎙️ Run the consultation Speak naturally while Titanverse...
-
-[TITAN] ### 2026-01-05-safys-chemist-97-percent-near-misses-single
-**Date:** 2026-01-05 | **Type:** single-image [BOOSTED]
-**Impressions:** 2,657 | **Engagement:** 2.3% | **CTR:** 1.6%
-**Reactions:** 15 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 43
-> 📖 How Safy's Chemist cut near misses by 97%   → bit.ly/3NrcfH7  #TitanPMR #PharmacySafety #PharmacyWorkflow #CommunityPharmacy
-
-[TITAN] ### 2026-01-01-happy-new-year-single
-**Date:** 2026-01-01 | **Type:** single-image
-**Impressions:** 634 | **Engagement:** 4.7% | **CTR:** 3.3%
-**Reactions:** 7 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 21
-> Happy New Year 🎆  Wishing you a happy and prosperous year ahead.
-
-[TITAN] ### 2025-12-31-97-percent-fewer-near-misses-carousel
-**Date:** 2025-12-31 | **Type:** carousel _(Notionsocial)_
-**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
-> Safy's Chemist on Melton Road has served its community for 45 years. Today, it's one of the busiest pharmacies in the area, dispensing 14,500 items every month.  A year ago, the pharmacy was averaging...
-
-[TITAN] ### 2025-12-31-pharmacy-resolutions-2026
-**Date:** 2025-12-31 | **Type:** carousel _(Notionsocial)_
-**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
-> 2026, let's go! 🚀  We're feeling refreshed, motivated, and ready to help UK pharmacies transform like never before.  2025 was just the start. Together, we saw incredible transformations. Pharmacies s...
-
 ## Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
 |------|-------|------------|-------|
-| carousel | 63 | 8 | 71 |
+| carousel | 64 | 8 | 72 |
 | image-gallery | 1 | 0 | 1 |
 | short_video | 0 | 5 | 5 |
-| single-image | 73 | 18 | 91 |
-| unknown | 1 | 0 | 1 |
-| video | 84 | 11 | 95 |
+| single-image | 74 | 19 | 93 |
+| unknown | 2 | 0 | 2 |
+| video | 85 | 12 | 97 |
 
 ## File Locations
 

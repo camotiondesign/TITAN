@@ -1,0 +1,61 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427637717842440192",
+  "posted_at": "2026-02-12",
+  "campaign_slug": "2026-02-12-services-spin-up-matrix-video",
+  "asset_type": "video",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-16",
+    "views": 660,
+    "likes": 10,
+    "comments": 2,
+    "shares": 6
+  },
+  "platform_api": {
+    "source": "linkedin_api",
+    "synced_at": "",
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "follows": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "organic": {
+      "impressions": 0,
+      "reach": 0,
+      "engagements": 0,
+      "engagement_rate": 0,
+      "clicks": 0,
+      "click_through_rate": 0,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "page_viewers": 0,
+      "followers_gained": 0,
+      "video_views": 0,
+      "watch_time_total": "",
+      "average_watch_time_seconds": 0
+    },
+    "sponsored": {
+      "impressions": 0,
+      "engagements": 0,
+      "engagement_rate": 0,
+      "clicks": 0,
+      "click_through_rate": 0,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "video_views": 0,
+      "ecpm": 0,
+      "cost_per_engagement": 0,
+      "spend": 0
+    }
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}
