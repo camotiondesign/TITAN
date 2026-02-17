@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-16
+**Generated:** 2026-02-17
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,7 +9,7 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 233 | 451,487 | 20.8% |
+| Titan PMR | 234 | 451,487 | 20.8% |
 | Titanverse | 44 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
@@ -104,36 +104,41 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-02-16)
+## Recent Posts (last 30 days from 2026-02-17)
+
+[TITAN] ### 2026-02-17-titanup2026-recce
+**Date:** 2026-02-17 | **Type:** multi-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> This week Titan’s team was on site in Birmingham,   mapping out TitanUp 2026 🚀  The waitlist opens soon.  👀 Watch this space.  #TitanUp #Titanverse #CommunityPharmacy #PharmacyEvents
 
 [TITAN] ### 2026-02-16-hod-only14-percent-li-video
 **Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
-**Views:** 389 | **Likes:** 8 | **Comments:** 1 | **Shares:** 1
+**Views:** 451 | **Likes:** 8 | **Comments:** 1 | **Shares:** 1
 > “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
 
 [TV] ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,021 | **Likes:** 24 | **Comments:** 1 | **Shares:** 4
+**Views:** 1,108 | **Likes:** 24 | **Comments:** 1 | **Shares:** 4
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 [TITAN] ### 2026-02-14-valentines-ailove-story-carousel
 **Date:** 2026-02-14 | **Type:** carousel _(Notionsocial)_
-**Views:** 705 | **Likes:** 17 | **Comments:** 0 | **Shares:** 2
+**Views:** 714 | **Likes:** 18 | **Comments:** 0 | **Shares:** 2
 > Pick your film. 🎬💊  This Valentine's, the dispensary's got its own box office.  🎬 The Logbook 🎬 Titan-ic 🎬 Crazy, Stupid, Workflow 🎬 10 Things I Hate About My Old PMR 🎬 Cleared Actually  👇 Swi...
 
 [TITAN] ### 2026-02-13-pick-one-essentials-single-image
 **Date:** 2026-02-13 | **Type:** single-image _(Notionsocial)_
-**Views:** 679 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
+**Views:** 680 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
 > You can only keep ONE Titan feature.  The rest disappear tomorrow.  Which one stays?  📦 Titan Batch 🤖 Titan AI 📱 Titan Mobile 🔄 Titan Repeat  Drop your answer below 👇  #TitanPMR #PharmacyWorkflow...
 
 [TV] ### 2026-02-12-services-spin-up-matrix-video
 **Date:** 2026-02-12 | **Type:** video _(Notionsocial)_
-**Views:** 660 | **Likes:** 10 | **Comments:** 2 | **Shares:** 6
+**Views:** 676 | **Likes:** 11 | **Comments:** 2 | **Shares:** 6
 > Starting one service? Starting five?  Starting from scratch?  It doesn't matter.  The pharmacies scaling services in 2026 aren't juggling five different systems. They're running everything through one...
 
 [TITAN] ### 2026-02-11-hod-operating-without-double-cover
 **Date:** 2026-02-11 | **Type:** ? _(Notionsocial)_
-**Views:** 1,114 | **Likes:** 19 | **Comments:** 1 | **Shares:** 2
+**Views:** 168 | **Likes:** 19 | **Comments:** 1 | **Shares:** 1
 > 15 pharmacies. High-volume branches that used to need double cover. Not anymore 👇  Sunil runs operations across Hollywood Chemist. He doesn’t do drama.  No forced restructure. Just a system change th...
 
 [TITAN] ### 2026-02-04-stopping-bulk-auto-renominations-to-protect-patient-choice
@@ -254,6 +259,7 @@ For full post details, read the brand-specific indexes.
 |------|-------|------------|-------|
 | carousel | 65 | 8 | 73 |
 | image-gallery | 1 | 0 | 1 |
+| multi-image | 1 | 0 | 1 |
 | short_video | 0 | 5 | 5 |
 | single-image | 77 | 19 | 96 |
 | unknown | 4 | 0 | 4 |

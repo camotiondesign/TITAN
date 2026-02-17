@@ -1,17 +1,17 @@
 {
   "platform": "linkedin",
-  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427637717842440192",
-  "posted_at": "2026-02-12",
-  "campaign_slug": "2026-02-12-services-spin-up-matrix-video",
-  "asset_type": "video",
+  "post_url": "",
+  "posted_at": "2026-02-17",
+  "campaign_slug": "2026-02-17-titanup2026-recce",
+  "asset_type": "multi-image",
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
     "synced_at": "2026-02-17",
-    "views": 676,
-    "likes": 11,
-    "comments": 2,
-    "shares": 6
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
   },
   "platform_api": {
     "source": "linkedin_api",
