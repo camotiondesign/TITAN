@@ -1,7 +1,7 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-17
+**Generated:** 2026-02-18
 **Total Posts:** 44
 **Date Range:** 2025-10-07 to 2026-02-15
 
@@ -151,12 +151,12 @@
 
 ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,108 | **Likes:** 24 | **Comments:** 1 | **Shares:** 4
+**Views:** 1,250 | **Likes:** 24 | **Comments:** 1 | **Shares:** 5
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 ### 2026-02-12-services-spin-up-matrix-video
 **Date:** 2026-02-12 | **Type:** video _(Notionsocial)_
-**Views:** 676 | **Likes:** 11 | **Comments:** 2 | **Shares:** 6
+**Views:** 704 | **Likes:** 11 | **Comments:** 2 | **Shares:** 6
 > Starting one service? Starting five?  Starting from scratch?  It doesn't matter.  The pharmacies scaling services in 2026 aren't juggling five different systems. They're running everything through one...
 
 ### 2026-01-30-priory-pharmacy-pharmappy-loop-video

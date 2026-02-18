@@ -1,0 +1,27 @@
+{
+  "platform": "facebook",
+  "post_url": "https://www.facebook.com/reel/1241163604793235",
+  "posted_at": "2026-02-18",
+  "campaign_slug": "2026-02-18-rahul-i-can-t-believe-ai-transcription-wasn-t-a-thing-in-pharmacy-video",
+  "asset_type": "video",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-18",
+    "views": 357,
+    "likes": 4,
+    "comments": 0,
+    "shares": 0
+  },
+  "platform_api": {
+    "source": "facebook_api",
+    "synced_at": "",
+    "impressions": 0,
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "engagement_rate": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}

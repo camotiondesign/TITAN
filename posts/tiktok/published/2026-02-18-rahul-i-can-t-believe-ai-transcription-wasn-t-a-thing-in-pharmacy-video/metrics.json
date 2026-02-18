@@ -1,0 +1,29 @@
+{
+  "platform": "tiktok",
+  "post_url": "https://www.tiktok.com/@titanpmr/video/7608080913867492641",
+  "posted_at": "2026-02-18",
+  "campaign_slug": "2026-02-18-rahul-i-can-t-believe-ai-transcription-wasn-t-a-thing-in-pharmacy-video",
+  "asset_type": "video",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-18",
+    "views": 357,
+    "likes": 4,
+    "comments": 0,
+    "shares": 0
+  },
+  "platform_api": {
+    "source": "tiktok_api",
+    "synced_at": "",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "avg_watch_time_seconds": 0,
+    "total_play_time_seconds": 0,
+    "reach": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}
