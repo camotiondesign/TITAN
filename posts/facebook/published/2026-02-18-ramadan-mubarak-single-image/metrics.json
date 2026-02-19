@@ -7,11 +7,11 @@
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
-    "synced_at": "2026-02-18",
-    "views": 17,
-    "likes": 0,
+    "synced_at": "2026-02-19",
+    "views": 392,
+    "likes": 28,
     "comments": 0,
-    "shares": 0
+    "shares": 3
   },
   "platform_api": {
     "source": "facebook_api",

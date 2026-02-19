@@ -1,16 +1,16 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-18
-**Total Posts:** 44
-**Date Range:** 2025-10-07 to 2026-02-15
+**Generated:** 2026-02-19
+**Total Posts:** 45
+**Date Range:** 2025-10-07 to 2026-02-19
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 703 |
+| Total Reactions | 705 |
 | Total Comments | 56 |
 | Avg Engagement Rate | 12.3% |
 
@@ -19,7 +19,7 @@
 | Type | Count |
 |------|-------|
 | single-image | 19 |
-| video | 12 |
+| video | 13 |
 | carousel | 8 |
 | short_video | 5 |
 
@@ -149,14 +149,19 @@
 
 ## All Posts (newest first)
 
+### 2026-02-19-rahul-clip-aitranscription-li-video
+**Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
+**Views:** 6 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
+
 ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,250 | **Likes:** 24 | **Comments:** 1 | **Shares:** 5
+**Views:** 1,331 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 ### 2026-02-12-services-spin-up-matrix-video
 **Date:** 2026-02-12 | **Type:** video _(Notionsocial)_
-**Views:** 704 | **Likes:** 11 | **Comments:** 2 | **Shares:** 6
+**Views:** 718 | **Likes:** 12 | **Comments:** 2 | **Shares:** 6
 > Starting one service? Starting five?  Starting from scratch?  It doesn't matter.  The pharmacies scaling services in 2026 aren't juggling five different systems. They're running everything through one...
 
 ### 2026-01-30-priory-pharmacy-pharmappy-loop-video

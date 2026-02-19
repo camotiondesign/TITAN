@@ -1,17 +1,17 @@
 {
   "platform": "linkedin",
-  "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7427969811952865280",
-  "posted_at": "2026-02-13",
-  "campaign_slug": "2026-02-13-pick-one-essentials-single-image",
-  "asset_type": "single-image",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430144171455320064",
+  "posted_at": "2026-02-19",
+  "campaign_slug": "2026-02-19-rahul-clip-aitranscription-li-video",
+  "asset_type": "video",
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
     "synced_at": "2026-02-19",
-    "views": 731,
-    "likes": 3,
-    "comments": 1,
-    "shares": 1
+    "views": 6,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
   },
   "platform_api": {
     "source": "linkedin_api",

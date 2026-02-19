@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-18
+**Generated:** 2026-02-19
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -10,7 +10,7 @@ For full post details, read the brand-specific indexes.
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
 | Titan PMR | 235 | 451,487 | 20.8% |
-| Titanverse | 44 | 37,034 | 12.3% |
+| Titanverse | 45 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
 
@@ -104,11 +104,16 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-02-18)
+## Recent Posts (last 30 days from 2026-02-19)
+
+[TV] ### 2026-02-19-rahul-clip-aitranscription-li-video
+**Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
+**Views:** 6 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 [TITAN] ### 2026-02-18-ramadan-mubarak-single-image
 **Date:** 2026-02-18 | **Type:** single-image _(Notionsocial)_
-**Views:** 17 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+**Views:** 392 | **Likes:** 28 | **Comments:** 0 | **Shares:** 3
 > Ramadan Mubarak. 🌙  For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.  No water. No food.  And they will still be on their feet. Still dispensing. ...
 
 [TITAN] ### 2026-02-17-titanup2026-recce
@@ -118,27 +123,27 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-02-16-hod-only14-percent-li-video
 **Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
-**Views:** 810 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
+**Views:** 830 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
 > “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
 
 [TV] ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,250 | **Likes:** 24 | **Comments:** 1 | **Shares:** 5
+**Views:** 1,331 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 [TITAN] ### 2026-02-14-valentines-ailove-story-carousel
 **Date:** 2026-02-14 | **Type:** carousel _(Notionsocial)_
-**Views:** 808 | **Likes:** 18 | **Comments:** 0 | **Shares:** 2
+**Views:** 829 | **Likes:** 18 | **Comments:** 0 | **Shares:** 2
 > Pick your film. 🎬💊  This Valentine's, the dispensary's got its own box office.  🎬 The Logbook 🎬 Titan-ic 🎬 Crazy, Stupid, Workflow 🎬 10 Things I Hate About My Old PMR 🎬 Cleared Actually  👇 Swi...
 
 [TITAN] ### 2026-02-13-pick-one-essentials-single-image
 **Date:** 2026-02-13 | **Type:** single-image _(Notionsocial)_
-**Views:** 725 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
+**Views:** 731 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
 > You can only keep ONE Titan feature.  The rest disappear tomorrow.  Which one stays?  📦 Titan Batch 🤖 Titan AI 📱 Titan Mobile 🔄 Titan Repeat  Drop your answer below 👇  #TitanPMR #PharmacyWorkflow...
 
 [TV] ### 2026-02-12-services-spin-up-matrix-video
 **Date:** 2026-02-12 | **Type:** video _(Notionsocial)_
-**Views:** 704 | **Likes:** 11 | **Comments:** 2 | **Shares:** 6
+**Views:** 718 | **Likes:** 12 | **Comments:** 2 | **Shares:** 6
 > Starting one service? Starting five?  Starting from scratch?  It doesn't matter.  The pharmacies scaling services in 2026 aren't juggling five different systems. They're running everything through one...
 
 [TITAN] ### 2026-02-11-hod-operating-without-double-cover
@@ -247,17 +252,6 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 18 | **Comments:** 0 | **Reposts:** 4 | **Clicks:** 26 | **Views:** 284
 > Everything you need for pharmacy services… in one place ✨  Consultations. Prescribing. Payments. Reports. Communications. And over 100 connected features built around the way pharmacies actually work....
 
-[TITAN] ### 2026-01-19-manual-checking-works-until-scale-makes-it-unsafe-single-image
-**Date:** 2026-01-19 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,055 | **Likes:** 15 | **Comments:** 1 | **Shares:** 2
-> Don’t rely on manual checking.  Use TITAN AI + Barcode scanning.  Manual checking breaks the moment volume rises. Fatigue builds. Risk increases. 😮‍💨 One interruption is all it takes for the wrong i...
-
-[TITAN] ### 2026-01-19-titan-ai-barcode-scanning-single
-**Date:** 2026-01-19 | **Type:** single-image
-**Impressions:** 1,065 | **Engagement:** 5% | **CTR:** 3.3%
-**Reactions:** 15 | **Comments:** 1 | **Reposts:** 2 | **Clicks:** 35
-> Don't rely on manual checking.  Use TITAN AI + Barcode scanning.  Manual checking collapses as volume rises. Fatigue builds. Risk goes up. One interruption is enough for the wrong item to be picked.  ...
-
 ## Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
@@ -268,7 +262,7 @@ For full post details, read the brand-specific indexes.
 | short_video | 0 | 5 | 5 |
 | single-image | 78 | 19 | 97 |
 | unknown | 4 | 0 | 4 |
-| video | 86 | 12 | 98 |
+| video | 86 | 13 | 99 |
 
 ## File Locations
 
