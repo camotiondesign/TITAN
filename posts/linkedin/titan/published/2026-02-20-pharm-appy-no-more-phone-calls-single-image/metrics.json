@@ -1,17 +1,17 @@
 {
   "platform": "linkedin",
-  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430144171455320064",
-  "posted_at": "2026-02-19",
-  "campaign_slug": "2026-02-19-rahul-clip-aitranscription-li-video",
-  "asset_type": "video",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7430506520125059072",
+  "posted_at": "2026-02-20",
+  "campaign_slug": "2026-02-20-pharm-appy-no-more-phone-calls-single-image",
+  "asset_type": "single-image",
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
     "synced_at": "2026-02-20",
-    "views": 404,
-    "likes": 15,
+    "views": 27,
+    "likes": 1,
     "comments": 0,
-    "shares": 5
+    "shares": 0
   },
   "platform_api": {
     "source": "linkedin_api",

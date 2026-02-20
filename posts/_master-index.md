@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-19
+**Generated:** 2026-02-20
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,7 +9,7 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 235 | 451,487 | 20.8% |
+| Titan PMR | 236 | 451,487 | 20.8% |
 | Titanverse | 45 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
@@ -104,16 +104,21 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-02-19)
+## Recent Posts (last 30 days from 2026-02-20)
+
+[TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
+**Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
+**Views:** 27 | **Likes:** 1 | **Comments:** 0 | **Shares:** 0
+> How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 [TV] ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 6 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+**Views:** 404 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 [TITAN] ### 2026-02-18-ramadan-mubarak-single-image
 **Date:** 2026-02-18 | **Type:** single-image _(Notionsocial)_
-**Views:** 392 | **Likes:** 28 | **Comments:** 0 | **Shares:** 3
+**Views:** 437 | **Likes:** 30 | **Comments:** 0 | **Shares:** 3
 > Ramadan Mubarak. 🌙  For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.  No water. No food.  And they will still be on their feet. Still dispensing. ...
 
 [TITAN] ### 2026-02-17-titanup2026-recce
@@ -123,22 +128,22 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-02-16-hod-only14-percent-li-video
 **Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
-**Views:** 830 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
+**Views:** 843 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
 > “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
 
 [TV] ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,331 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
+**Views:** 1,354 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 [TITAN] ### 2026-02-14-valentines-ailove-story-carousel
 **Date:** 2026-02-14 | **Type:** carousel _(Notionsocial)_
-**Views:** 829 | **Likes:** 18 | **Comments:** 0 | **Shares:** 2
+**Views:** 836 | **Likes:** 19 | **Comments:** 0 | **Shares:** 2
 > Pick your film. 🎬💊  This Valentine's, the dispensary's got its own box office.  🎬 The Logbook 🎬 Titan-ic 🎬 Crazy, Stupid, Workflow 🎬 10 Things I Hate About My Old PMR 🎬 Cleared Actually  👇 Swi...
 
 [TITAN] ### 2026-02-13-pick-one-essentials-single-image
 **Date:** 2026-02-13 | **Type:** single-image _(Notionsocial)_
-**Views:** 731 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
+**Views:** 737 | **Likes:** 3 | **Comments:** 1 | **Shares:** 1
 > You can only keep ONE Titan feature.  The rest disappear tomorrow.  Which one stays?  📦 Titan Batch 🤖 Titan AI 📱 Titan Mobile 🔄 Titan Repeat  Drop your answer below 👇  #TitanPMR #PharmacyWorkflow...
 
 [TV] ### 2026-02-12-services-spin-up-matrix-video
@@ -246,12 +251,6 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 12 | **Comments:** 3 | **Reposts:** 1 | **Clicks:** 20
 > You scroll. You scroll again.  The list never ends.  Here is the problem on a busy board: everyone's patients, all mixed together, all competing for your attention.  Titan fixes it while you work.  Sw...
 
-[TV] ### 2026-01-20-everything-in-one-place-video
-**Date:** 2026-01-20 | **Type:** short_video
-**Impressions:** 539 | **Engagement:** 8.9% | **CTR:** 4.8%
-**Reactions:** 18 | **Comments:** 0 | **Reposts:** 4 | **Clicks:** 26 | **Views:** 284
-> Everything you need for pharmacy services… in one place ✨  Consultations. Prescribing. Payments. Reports. Communications. And over 100 connected features built around the way pharmacies actually work....
-
 ## Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
@@ -260,7 +259,7 @@ For full post details, read the brand-specific indexes.
 | image-gallery | 1 | 0 | 1 |
 | multi-image | 1 | 0 | 1 |
 | short_video | 0 | 5 | 5 |
-| single-image | 78 | 19 | 97 |
+| single-image | 79 | 19 | 98 |
 | unknown | 4 | 0 | 4 |
 | video | 86 | 13 | 99 |
 
