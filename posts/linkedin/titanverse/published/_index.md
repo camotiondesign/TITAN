@@ -1,7 +1,7 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-21
+**Generated:** 2026-02-22
 **Total Posts:** 45
 **Date Range:** 2025-10-07 to 2026-02-19
 
@@ -11,7 +11,7 @@
 |--------|-------|
 | Total Impressions | 37,034 |
 | Total Reactions | 721 |
-| Total Comments | 56 |
+| Total Comments | 57 |
 | Avg Engagement Rate | 12.3% |
 
 ## Content Mix
@@ -151,12 +151,12 @@
 
 ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 504 | **Likes:** 16 | **Comments:** 0 | **Shares:** 5
+**Views:** 549 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,374 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
+**Views:** 1,396 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 ### 2026-02-12-services-spin-up-matrix-video

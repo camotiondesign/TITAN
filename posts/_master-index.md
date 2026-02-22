@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-21
+**Generated:** 2026-02-22
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -108,17 +108,17 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,470 | **Likes:** 20 | **Comments:** 1 | **Shares:** 4
+**Views:** 1,648 | **Likes:** 22 | **Comments:** 4 | **Shares:** 4
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 [TV] ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 504 | **Likes:** 16 | **Comments:** 0 | **Shares:** 5
+**Views:** 549 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 [TITAN] ### 2026-02-18-ramadan-mubarak-single-image
 **Date:** 2026-02-18 | **Type:** single-image _(Notionsocial)_
-**Views:** 471 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
+**Views:** 500 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
 > Ramadan Mubarak. 🌙  For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.  No water. No food.  And they will still be on their feet. Still dispensing. ...
 
 [TITAN] ### 2026-02-17-titanup2026-recce
@@ -128,12 +128,12 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-02-16-hod-only14-percent-li-video
 **Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
-**Views:** 855 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
+**Views:** 863 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
 > “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
 
 [TV] ### 2026-02-15-hod-transformed-nms-li-single-image
 **Date:** 2026-02-15 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,374 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
+**Views:** 1,396 | **Likes:** 25 | **Comments:** 1 | **Shares:** 5
 > Glen runs 26+ pharmacies across Wales.  “We absolutely transformed our NMS business practically overnight.”  When Knights moved to Titanverse, the technology did its job.  The real challenge?  Behavio...
 
 [TITAN] ### 2026-02-14-valentines-ailove-story-carousel

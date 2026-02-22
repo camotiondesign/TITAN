@@ -1,7 +1,7 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-02-21
+**Generated:** 2026-02-22
 **Total Posts:** 236
 **Date Range:** 2024-12-16 to 2026-02-20
 
@@ -10,8 +10,8 @@
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 451,487 |
-| Total Reactions | 4,790 |
-| Total Comments | 415 |
+| Total Reactions | 4,792 |
+| Total Comments | 418 |
 | Avg Engagement Rate | 20.8% |
 
 ## Content Mix
@@ -153,12 +153,12 @@
 
 ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,470 | **Likes:** 20 | **Comments:** 1 | **Shares:** 4
+**Views:** 1,648 | **Likes:** 22 | **Comments:** 4 | **Shares:** 4
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 ### 2026-02-18-ramadan-mubarak-single-image
 **Date:** 2026-02-18 | **Type:** single-image _(Notionsocial)_
-**Views:** 471 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
+**Views:** 500 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
 > Ramadan Mubarak. 🌙  For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.  No water. No food.  And they will still be on their feet. Still dispensing. ...
 
 ### 2026-02-17-titanup2026-recce
@@ -168,7 +168,7 @@
 
 ### 2026-02-16-hod-only14-percent-li-video
 **Date:** 2026-02-16 | **Type:** video _(Notionsocial)_
-**Views:** 855 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
+**Views:** 863 | **Likes:** 12 | **Comments:** 1 | **Shares:** 2
 > “Only about 14–15% of items actually need a pharmacist check.”  So why is there still one sitting at the end of the bench checking everything?  That’s not workflow design. That’s wasted clinical capac...
 
 ### 2026-02-14-valentines-ailove-story-carousel

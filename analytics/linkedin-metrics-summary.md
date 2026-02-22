@@ -1,11 +1,11 @@
 # LinkedIn metrics summary
 
-Last updated: 2026-02-21T07:25:56.474Z
+Last updated: 2026-02-22T07:30:13.435Z
 
 ## Totals
 - Posts (with organic metrics): 269
-- Total impressions: 378,725
-- Total engagements: 89,281
+- Total impressions: 379,007
+- Total engagements: 89,287
 - Date range: 2024-12-16 to 2026-02-20
 
 ## Top 10 by impressions
