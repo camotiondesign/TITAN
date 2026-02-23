@@ -1,7 +1,7 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-22
+**Generated:** 2026-02-23
 **Total Posts:** 45
 **Date Range:** 2025-10-07 to 2026-02-19
 
@@ -151,7 +151,7 @@
 
 ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 549 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
+**Views:** 593 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 ### 2026-02-15-hod-transformed-nms-li-single-image
