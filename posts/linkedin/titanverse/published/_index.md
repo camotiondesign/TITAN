@@ -1,16 +1,16 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-23
-**Total Posts:** 45
-**Date Range:** 2025-10-07 to 2026-02-19
+**Generated:** 2026-02-24
+**Total Posts:** 46
+**Date Range:** 2025-10-07 to 2026-02-23
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 721 |
+| Total Reactions | 734 |
 | Total Comments | 57 |
 | Avg Engagement Rate | 12.3% |
 
@@ -18,7 +18,7 @@
 
 | Type | Count |
 |------|-------|
-| single-image | 19 |
+| single-image | 20 |
 | video | 13 |
 | carousel | 8 |
 | short_video | 5 |
@@ -149,9 +149,14 @@
 
 ## All Posts (newest first)
 
+### 2026-02-23-fragmentation-observation-single-image
+**Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
+**Views:** 406 | **Likes:** 13 | **Comments:** 0 | **Shares:** 4
+> How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
+
 ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 593 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
+**Views:** 633 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 ### 2026-02-15-hod-transformed-nms-li-single-image

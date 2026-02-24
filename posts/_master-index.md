@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-23
+**Generated:** 2026-02-24
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,8 +9,8 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 236 | 451,487 | 20.8% |
-| Titanverse | 45 | 37,034 | 12.3% |
+| Titan PMR | 237 | 451,487 | 20.8% |
+| Titanverse | 46 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
 
@@ -104,21 +104,31 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-02-20)
+## Recent Posts (last 30 days from 2026-02-24)
+
+[TITAN] ### 2026-02-24-prab-bench-trap8pm-single-image
+**Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
+**Views:** 19 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
+
+[TV] ### 2026-02-23-fragmentation-observation-single-image
+**Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
+**Views:** 406 | **Likes:** 13 | **Comments:** 0 | **Shares:** 4
+> How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 [TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,752 | **Likes:** 22 | **Comments:** 4 | **Shares:** 4
+**Views:** 1,791 | **Likes:** 22 | **Comments:** 4 | **Shares:** 4
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 [TV] ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 593 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
+**Views:** 633 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 [TITAN] ### 2026-02-18-ramadan-mubarak-single-image
 **Date:** 2026-02-18 | **Type:** single-image _(Notionsocial)_
-**Views:** 529 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
+**Views:** 545 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
 > Ramadan Mubarak. 🌙  For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.  No water. No food.  And they will still be on their feet. Still dispensing. ...
 
 [TITAN] ### 2026-02-17-titanup2026-recce
@@ -223,34 +233,6 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 13 | **Comments:** 3 | **Reposts:** 2 | **Clicks:** 26 | **Views:** 180
 > If you like juggling tabs and chasing notes, this post is not for you.  For everyone else:  One place for services. No faff. No noise.  🧑‍⚕️ Consultations 💊 Prescribing 💸 Payments 📄 Reports 💬 Com...
 
-[TITAN] ### 2026-01-23-paula-listers-training-testimonial-video
-**Date:** 2026-01-23 | **Type:** video
-**Impressions:** 455 | **Engagement:** 6.1% | **CTR:** 4.4%
-**Reactions:** 6 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 23 | **Views:** 180
-> "Scary at first. Easier than I thought."  A quick moment from training today at Listers Chemist.  Paula started the morning nervous. By lunchtime she was a quarter through her checklist and said it wa...
-
-[TITAN] ### 2026-01-23-paula-review-video
-**Date:** 2026-01-23 | **Type:** video _(Notionsocial)_
-**Views:** 439 | **Likes:** 4 | **Comments:** 0 | **Shares:** 2
-> “Scary at first. Easier than I thought.”  A quick moment from training today at Listers Chemist.  Paula started the morning nervous. By lunchtime she was a quarter through her checklist and said it wa...
-
-[TV] ### 2026-01-22-ai-assistant-pharmacy-carousel
-**Date:** 2026-01-22 | **Type:** carousel
-**Impressions:** 652 | **Engagement:** 57.4% | **CTR:** 55.4%
-**Reactions:** 9 | **Comments:** 0 | **Reposts:** 4 | **Clicks:** 361
-> Not another generic AI scribe… a clinic-ready assistant built for pharmacy.  Titanverse is more than a scribe 📝 It is built to take action.  It listens while you consult, so nothing needs typing.  It...
-
-[TITAN] ### 2026-01-21-filter-out-the-noise-single-image
-**Date:** 2026-01-21 | **Type:** single-image _(Notionsocial)_
-**Views:** 476 | **Likes:** 12 | **Comments:** 3 | **Shares:** 1
-> You scroll. You scroll again.  The list never ends.  Here is the problem on a busy board: everyone’s patients, all mixed together, all competing for your attention.  Titan fixes it while you work.  Sw...
-
-[TITAN] ### 2026-01-21-patient-tags-filter-single
-**Date:** 2026-01-21 | **Type:** single-image
-**Impressions:** 446 | **Engagement:** 8.1% | **CTR:** 4.5%
-**Reactions:** 12 | **Comments:** 3 | **Reposts:** 1 | **Clicks:** 20
-> You scroll. You scroll again.  The list never ends.  Here is the problem on a busy board: everyone's patients, all mixed together, all competing for your attention.  Titan fixes it while you work.  Sw...
-
 ## Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
@@ -259,7 +241,7 @@ For full post details, read the brand-specific indexes.
 | image-gallery | 1 | 0 | 1 |
 | multi-image | 1 | 0 | 1 |
 | short_video | 0 | 5 | 5 |
-| single-image | 79 | 19 | 98 |
+| single-image | 80 | 20 | 100 |
 | unknown | 4 | 0 | 4 |
 | video | 86 | 13 | 99 |
 
