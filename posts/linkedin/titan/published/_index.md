@@ -1,7 +1,7 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-02-24
+**Generated:** 2026-02-25
 **Total Posts:** 237
 **Date Range:** 2024-12-16 to 2026-02-24
 
@@ -10,8 +10,8 @@
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 451,487 |
-| Total Reactions | 4,792 |
-| Total Comments | 418 |
+| Total Reactions | 4,825 |
+| Total Comments | 422 |
 | Avg Engagement Rate | 20.8% |
 
 ## Content Mix
@@ -153,17 +153,17 @@
 
 ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 19 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+**Views:** 1,268 | **Likes:** 32 | **Comments:** 4 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,791 | **Likes:** 22 | **Comments:** 4 | **Shares:** 4
+**Views:** 1,847 | **Likes:** 23 | **Comments:** 4 | **Shares:** 4
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 ### 2026-02-18-ramadan-mubarak-single-image
 **Date:** 2026-02-18 | **Type:** single-image _(Notionsocial)_
-**Views:** 545 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
+**Views:** 570 | **Likes:** 31 | **Comments:** 0 | **Shares:** 3
 > Ramadan Mubarak. 🌙  For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.  No water. No food.  And they will still be on their feet. Still dispensing. ...
 
 ### 2026-02-17-titanup2026-recce
