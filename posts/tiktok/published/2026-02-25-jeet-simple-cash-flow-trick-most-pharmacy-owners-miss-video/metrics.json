@@ -1,0 +1,29 @@
+{
+  "platform": "tiktok",
+  "post_url": "https://www.tiktok.com/@titanpmr/video/7610732932600220960",
+  "posted_at": "2026-02-25",
+  "campaign_slug": "2026-02-25-jeet-simple-cash-flow-trick-most-pharmacy-owners-miss-video",
+  "asset_type": "video",
+  "boosted": false,
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "2026-02-26",
+    "views": 1712,
+    "likes": 24,
+    "comments": 0,
+    "shares": 1
+  },
+  "platform_api": {
+    "source": "tiktok_api",
+    "synced_at": "",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "avg_watch_time_seconds": 0,
+    "total_play_time_seconds": 0,
+    "reach": 0
+  },
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+}

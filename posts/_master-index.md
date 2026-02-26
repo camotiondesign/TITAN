@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-25
+**Generated:** 2026-02-26
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,8 +9,8 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 237 | 451,487 | 20.8% |
-| Titanverse | 46 | 37,034 | 12.3% |
+| Titan PMR | 238 | 451,487 | 20.8% |
+| Titanverse | 47 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
 
@@ -104,26 +104,36 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-02-24)
+## Recent Posts (last 30 days from 2026-02-26)
+
+[TV] ### 2026-02-26-services-governance-single-image
+**Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
+**Views:** 9 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
+
+[TITAN] ### 2026-02-25-sajid-go-home-on-time-short
+**Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
+**Views:** 733 | **Likes:** 28 | **Comments:** 7 | **Shares:** 2
+> Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 [TITAN] ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,268 | **Likes:** 32 | **Comments:** 4 | **Shares:** 3
+**Views:** 1,614 | **Likes:** 39 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 [TV] ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 522 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 578 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 [TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,847 | **Likes:** 23 | **Comments:** 4 | **Shares:** 4
+**Views:** 1,874 | **Likes:** 24 | **Comments:** 4 | **Shares:** 5
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 [TV] ### 2026-02-19-rahul-clip-aitranscription-li-video
 **Date:** 2026-02-19 | **Type:** video _(Notionsocial)_
-**Views:** 670 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
+**Views:** 685 | **Likes:** 16 | **Comments:** 1 | **Shares:** 5
 > Scraps of paper.  That’s how Rahul used to take clinical notes.  Sat with a patient. Typing. Not looking at them. Or scribbling something down he’d never read again.  💬 “Note-taking was pretty poor.”...
 
 [TITAN] ### 2026-02-18-ramadan-mubarak-single-image
@@ -227,12 +237,6 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 12 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 16 | **Views:** 252
 > Switch it on. Walk away.  Titan AI runs a full 40 point clinical and dosage check on every prescription.  The same way. Every script. Every time.  It filters risk. It clears the routine work. It raise...
 
-[TV] ### 2026-01-26-one-place-services-loop-video
-**Date:** 2026-01-26 | **Type:** short_video
-**Impressions:** 538 | **Engagement:** 8.2% | **CTR:** 4.8%
-**Reactions:** 13 | **Comments:** 3 | **Reposts:** 2 | **Clicks:** 26 | **Views:** 180
-> If you like juggling tabs and chasing notes, this post is not for you.  For everyone else:  One place for services. No faff. No noise.  🧑‍⚕️ Consultations 💊 Prescribing 💸 Payments 📄 Reports 💬 Com...
-
 ## Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
@@ -240,8 +244,8 @@ For full post details, read the brand-specific indexes.
 | carousel | 65 | 8 | 73 |
 | image-gallery | 1 | 0 | 1 |
 | multi-image | 1 | 0 | 1 |
-| short_video | 0 | 5 | 5 |
-| single-image | 80 | 20 | 100 |
+| short_video | 1 | 5 | 6 |
+| single-image | 80 | 21 | 101 |
 | unknown | 4 | 0 | 4 |
 | video | 86 | 13 | 99 |
 
