@@ -1,8 +1,8 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-26
-**Total Posts:** 47
+**Generated:** 2026-02-27
+**Total Posts:** 48
 **Date Range:** 2025-10-07 to 2026-02-26
 
 ## Summary Stats
@@ -10,8 +10,8 @@
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 735 |
-| Total Comments | 57 |
+| Total Reactions | 783 |
+| Total Comments | 66 |
 | Avg Engagement Rate | 12.3% |
 
 ## Content Mix
@@ -22,6 +22,7 @@
 | video | 13 |
 | carousel | 8 |
 | short_video | 5 |
+| unknown | 1 |
 
 ## Top 10 by Engagement Rate (min 100 impressions)
 
@@ -149,14 +150,19 @@
 
 ## All Posts (newest first)
 
+### 2026-02-26-for-titan-customers-only-scan-me
+**Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
+**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+> For TITAN customers only… scan me 👀
+
 ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 9 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+**Views:** 548 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 578 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 590 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 ### 2026-02-19-rahul-clip-aitranscription-li-video

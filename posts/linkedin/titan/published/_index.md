@@ -1,17 +1,17 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-02-26
-**Total Posts:** 238
-**Date Range:** 2024-12-16 to 2026-02-25
+**Generated:** 2026-02-27
+**Total Posts:** 239
+**Date Range:** 2024-12-16 to 2026-02-26
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 451,487 |
-| Total Reactions | 4,861 |
-| Total Comments | 436 |
+| Total Reactions | 4,892 |
+| Total Comments | 444 |
 | Avg Engagement Rate | 20.8% |
 
 ## Content Mix
@@ -21,7 +21,7 @@
 | video | 86 |
 | single-image | 80 |
 | carousel | 65 |
-| unknown | 4 |
+| unknown | 5 |
 | image-gallery | 1 |
 | multi-image | 1 |
 | short_video | 1 |
@@ -152,19 +152,24 @@
 
 ## All Posts (newest first)
 
+### 2026-02-26-for-titan-customers-only-scan-me
+**Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
+**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+> For TITAN customers only… scan me 👀
+
 ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
-**Views:** 733 | **Likes:** 28 | **Comments:** 7 | **Shares:** 2
+**Views:** 854 | **Likes:** 28 | **Comments:** 7 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,614 | **Likes:** 39 | **Comments:** 11 | **Shares:** 3
+**Views:** 1,686 | **Likes:** 41 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,874 | **Likes:** 24 | **Comments:** 4 | **Shares:** 5
+**Views:** 1,893 | **Likes:** 24 | **Comments:** 4 | **Shares:** 5
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 ### 2026-02-18-ramadan-mubarak-single-image

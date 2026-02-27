@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-26
+**Generated:** 2026-02-27
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,8 +9,8 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 238 | 451,487 | 20.8% |
-| Titanverse | 47 | 37,034 | 12.3% |
+| Titan PMR | 239 | 451,487 | 20.8% |
+| Titanverse | 48 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
 
@@ -106,29 +106,39 @@ For full post details, read the brand-specific indexes.
 
 ## Recent Posts (last 30 days from 2026-02-26)
 
+[TITAN] ### 2026-02-26-for-titan-customers-only-scan-me
+**Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
+**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+> For TITAN customers only… scan me 👀
+
+[TV] ### 2026-02-26-for-titan-customers-only-scan-me
+**Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
+**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+> For TITAN customers only… scan me 👀
+
 [TV] ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 9 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+**Views:** 548 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 [TITAN] ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
-**Views:** 733 | **Likes:** 28 | **Comments:** 7 | **Shares:** 2
+**Views:** 854 | **Likes:** 28 | **Comments:** 7 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 [TITAN] ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,614 | **Likes:** 39 | **Comments:** 11 | **Shares:** 3
+**Views:** 1,686 | **Likes:** 41 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 [TV] ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 578 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 590 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 [TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
 **Date:** 2026-02-20 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,874 | **Likes:** 24 | **Comments:** 4 | **Shares:** 5
+**Views:** 1,893 | **Likes:** 24 | **Comments:** 4 | **Shares:** 5
 > How Priory Pharmacy handles "Is my prescription ready?"  They don't.  📱 Patient requests medication on the app 📥 It drops directly into Titan 📊 As each item progresses — Ordered, Preparing, Ready �...
 
 [TV] ### 2026-02-19-rahul-clip-aitranscription-li-video
@@ -246,7 +256,7 @@ For full post details, read the brand-specific indexes.
 | multi-image | 1 | 0 | 1 |
 | short_video | 1 | 5 | 6 |
 | single-image | 80 | 21 | 101 |
-| unknown | 4 | 0 | 4 |
+| unknown | 5 | 1 | 6 |
 | video | 86 | 13 | 99 |
 
 ## File Locations
