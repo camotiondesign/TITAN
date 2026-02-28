@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-27
+**Generated:** 2026-02-28
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -9,8 +9,8 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 239 | 451,487 | 20.8% |
-| Titanverse | 48 | 37,034 | 12.3% |
+| Titan PMR | 240 | 451,487 | 20.8% |
+| Titanverse | 49 | 37,034 | 12.3% |
 
 ## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
 
@@ -104,36 +104,46 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-02-26)
+## Recent Posts (last 30 days from 2026-02-27)
+
+[TITAN] ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
+**Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
+**Views:** 800 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
+> Some of you missed it. Here's your chance. 👀
+
+[TV] ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
+**Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
+**Views:** 800 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
+> Some of you missed it. Here's your chance. 👀
 
 [TITAN] ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+**Views:** 1,661 | **Likes:** 33 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 [TV] ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+**Views:** 1,661 | **Likes:** 33 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 [TV] ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 548 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
+**Views:** 662 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 [TITAN] ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
-**Views:** 854 | **Likes:** 28 | **Comments:** 7 | **Shares:** 2
+**Views:** 895 | **Likes:** 29 | **Comments:** 7 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 [TITAN] ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,686 | **Likes:** 41 | **Comments:** 11 | **Shares:** 3
+**Views:** 1,726 | **Likes:** 42 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 [TV] ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 590 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 614 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 [TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
@@ -236,17 +246,6 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 17 | **Comments:** 1 | **Reposts:** 5 | **Clicks:** 0 | **Views:** 212
 > Prescribing shouldn't live in a separate system.  In Titanverse, it's part of the consultation not bolted on after.  You consult. You prescribe. Done. ✔️  Flows straight into TITAN PMR.  No switching ...
 
-[TITAN] ### 2026-01-27-switch-it-on-walk-away-video
-**Date:** 2026-01-27 | **Type:** ? _(Notionsocial)_
-**Views:** 1,140 | **Likes:** 19 | **Comments:** 0 | **Shares:** 4
-> Switch it on. Walk away.  Titan AI runs a full 40 point clinical and dosage check on every prescription.  The same way. Every script. Every time.  It filters risk. It clears the routine work. It raise...
-
-[TITAN] ### 2026-01-27-titan-ai-switch-on-walk-away-video
-**Date:** 2026-01-27 | **Type:** video
-**Impressions:** 668 | **Engagement:** 4.5% | **CTR:** 2.4%
-**Reactions:** 12 | **Comments:** 0 | **Reposts:** 2 | **Clicks:** 16 | **Views:** 252
-> Switch it on. Walk away.  Titan AI runs a full 40 point clinical and dosage check on every prescription.  The same way. Every script. Every time.  It filters risk. It clears the routine work. It raise...
-
 ## Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
@@ -255,7 +254,7 @@ For full post details, read the brand-specific indexes.
 | image-gallery | 1 | 0 | 1 |
 | multi-image | 1 | 0 | 1 |
 | short_video | 1 | 5 | 6 |
-| single-image | 80 | 21 | 101 |
+| single-image | 81 | 22 | 103 |
 | unknown | 5 | 1 | 6 |
 | video | 86 | 13 | 99 |
 

@@ -1,16 +1,16 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-27
-**Total Posts:** 48
-**Date Range:** 2025-10-07 to 2026-02-26
+**Generated:** 2026-02-28
+**Total Posts:** 49
+**Date Range:** 2025-10-07 to 2026-02-27
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 783 |
+| Total Reactions | 802 |
 | Total Comments | 66 |
 | Avg Engagement Rate | 12.3% |
 
@@ -18,7 +18,7 @@
 
 | Type | Count |
 |------|-------|
-| single-image | 21 |
+| single-image | 22 |
 | video | 13 |
 | carousel | 8 |
 | short_video | 5 |
@@ -150,19 +150,24 @@
 
 ## All Posts (newest first)
 
+### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
+**Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
+**Views:** 800 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
+> Some of you missed it. Here's your chance. 👀
+
 ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,349 | **Likes:** 29 | **Comments:** 8 | **Shares:** 11
+**Views:** 1,661 | **Likes:** 33 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 548 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
+**Views:** 662 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 590 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 614 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 ### 2026-02-19-rahul-clip-aitranscription-li-video
