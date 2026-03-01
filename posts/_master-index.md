@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-02-28
+**Generated:** 2026-03-01
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -108,42 +108,42 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
-**Views:** 800 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
+**Views:** 958 | **Likes:** 16 | **Comments:** 0 | **Shares:** 6
 > Some of you missed it. Here's your chance. 👀
 
 [TV] ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
-**Views:** 800 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
+**Views:** 958 | **Likes:** 16 | **Comments:** 0 | **Shares:** 6
 > Some of you missed it. Here's your chance. 👀
 
 [TITAN] ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,661 | **Likes:** 33 | **Comments:** 8 | **Shares:** 13
+**Views:** 1,790 | **Likes:** 36 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 [TV] ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,661 | **Likes:** 33 | **Comments:** 8 | **Shares:** 13
+**Views:** 1,790 | **Likes:** 36 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 [TV] ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 662 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
+**Views:** 772 | **Likes:** 21 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 [TITAN] ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
-**Views:** 895 | **Likes:** 29 | **Comments:** 7 | **Shares:** 2
+**Views:** 922 | **Likes:** 29 | **Comments:** 7 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 [TITAN] ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,726 | **Likes:** 42 | **Comments:** 11 | **Shares:** 3
+**Views:** 1,777 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 [TV] ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 614 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 631 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 [TITAN] ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image

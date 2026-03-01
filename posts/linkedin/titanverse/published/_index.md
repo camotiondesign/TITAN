@@ -1,7 +1,7 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-02-28
+**Generated:** 2026-03-01
 **Total Posts:** 49
 **Date Range:** 2025-10-07 to 2026-02-27
 
@@ -10,7 +10,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 802 |
+| Total Reactions | 808 |
 | Total Comments | 66 |
 | Avg Engagement Rate | 12.3% |
 
@@ -152,22 +152,22 @@
 
 ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
-**Views:** 800 | **Likes:** 15 | **Comments:** 0 | **Shares:** 5
+**Views:** 958 | **Likes:** 16 | **Comments:** 0 | **Shares:** 6
 > Some of you missed it. Here's your chance. 👀
 
 ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,661 | **Likes:** 33 | **Comments:** 8 | **Shares:** 13
+**Views:** 1,790 | **Likes:** 36 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 662 | **Likes:** 19 | **Comments:** 1 | **Shares:** 6
+**Views:** 772 | **Likes:** 21 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 ### 2026-02-23-fragmentation-observation-single-image
 **Date:** 2026-02-23 | **Type:** single-image _(Notionsocial)_
-**Views:** 614 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
+**Views:** 631 | **Likes:** 14 | **Comments:** 0 | **Shares:** 4
 > How many subscriptions do you pay for to run one consultation?  Because more than one is already too many.  A booking platform. A consultation tool. A separate prescribing system. Paper risk assessmen...
 
 ### 2026-02-19-rahul-clip-aitranscription-li-video
