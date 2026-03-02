@@ -1,17 +1,17 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-03-01
-**Total Posts:** 240
-**Date Range:** 2024-12-16 to 2026-02-27
+**Generated:** 2026-03-02
+**Total Posts:** 241
+**Date Range:** 2024-12-16 to 2026-03-02
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 451,487 |
-| Total Reactions | 4,918 |
-| Total Comments | 444 |
+| Total Reactions | 4,924 |
+| Total Comments | 445 |
 | Avg Engagement Rate | 20.8% |
 
 ## Content Mix
@@ -20,7 +20,7 @@
 |------|-------|
 | video | 86 |
 | single-image | 81 |
-| carousel | 65 |
+| carousel | 66 |
 | unknown | 5 |
 | image-gallery | 1 |
 | multi-image | 1 |
@@ -152,24 +152,29 @@
 
 ## All Posts (newest first)
 
+### 2026-03-02-hard-launch-carousel
+**Date:** 2026-03-02 | **Type:** carousel _(Notionsocial)_
+**Views:** 34 | **Likes:** 1 | **Comments:** 0 | **Shares:** 1
+> We've been keeping a secret.  Some of you might have seen it last week.  A high-impact day of bold ideas and practical strategy centred on AI, supercharging your pharmacy for scalable, sustainable pro...
+
 ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
-**Views:** 958 | **Likes:** 16 | **Comments:** 0 | **Shares:** 6
+**Views:** 1,048 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
 > Some of you missed it. Here's your chance. 👀
 
 ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,790 | **Likes:** 36 | **Comments:** 8 | **Shares:** 13
+**Views:** 1,904 | **Likes:** 37 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
-**Views:** 922 | **Likes:** 29 | **Comments:** 7 | **Shares:** 2
+**Views:** 966 | **Likes:** 31 | **Comments:** 8 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,777 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
+**Views:** 1,877 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image
