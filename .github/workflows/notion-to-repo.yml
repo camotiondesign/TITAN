@@ -1,9 +1,9 @@
 name: Sync Published Posts from Notion
 
 on:
-  schedule:
+    # schedule:
     # Run daily at 7am UTC (after notion-sync at 6am, after aggregate-metrics at 5am)
-    - cron: '0 7 * * *'
+        # - cron: '0 7 * * *'
   workflow_dispatch:
     # Allow manual triggering
 
