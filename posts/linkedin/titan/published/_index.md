@@ -1,7 +1,7 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-03-02
+**Generated:** 2026-03-03
 **Total Posts:** 241
 **Date Range:** 2024-12-16 to 2026-03-02
 
@@ -10,7 +10,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 451,487 |
-| Total Reactions | 4,924 |
+| Total Reactions | 4,934 |
 | Total Comments | 445 |
 | Avg Engagement Rate | 20.8% |
 
@@ -154,27 +154,27 @@
 
 ### 2026-03-02-hard-launch-carousel
 **Date:** 2026-03-02 | **Type:** carousel _(Notionsocial)_
-**Views:** 34 | **Likes:** 1 | **Comments:** 0 | **Shares:** 1
+**Views:** 830 | **Likes:** 10 | **Comments:** 0 | **Shares:** 4
 > We've been keeping a secret.  Some of you might have seen it last week.  A high-impact day of bold ideas and practical strategy centred on AI, supercharging your pharmacy for scalable, sustainable pro...
 
 ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,048 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
+**Views:** 1,158 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
 > Some of you missed it. Here's your chance. 👀
 
 ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,904 | **Likes:** 37 | **Comments:** 8 | **Shares:** 13
+**Views:** 1,988 | **Likes:** 38 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
-**Views:** 966 | **Likes:** 31 | **Comments:** 8 | **Shares:** 2
+**Views:** 975 | **Likes:** 31 | **Comments:** 8 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
 ### 2026-02-24-prab-bench-trap8pm-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,877 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
+**Views:** 1,936 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image

@@ -1,16 +1,16 @@
 # Titanverse Published Posts Index
 
 **LinkedIn Page:** Titanverse
-**Generated:** 2026-03-02
-**Total Posts:** 49
-**Date Range:** 2025-10-07 to 2026-02-27
+**Generated:** 2026-03-03
+**Total Posts:** 50
+**Date Range:** 2025-10-07 to 2026-03-03
 
 ## Summary Stats
 
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 37,034 |
-| Total Reactions | 812 |
+| Total Reactions | 815 |
 | Total Comments | 66 |
 | Avg Engagement Rate | 12.3% |
 
@@ -19,7 +19,7 @@
 | Type | Count |
 |------|-------|
 | single-image | 22 |
-| video | 13 |
+| video | 14 |
 | carousel | 8 |
 | short_video | 5 |
 | unknown | 1 |
@@ -150,19 +150,24 @@
 
 ## All Posts (newest first)
 
+### 2026-03-03-rahul-longform-video
+**Date:** 2026-03-03 | **Type:** video _(Notionsocial)_
+**Views:** 7 | **Likes:** 1 | **Comments:** 0 | **Shares:** 0
+> All pharmacists know that feeling.  You’re in the consultation… but you’re not fully there.  Typing instead of listening. Thinking about notes instead of the patient.  Rahul fixed that.  He now saves ...
+
 ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,048 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
+**Views:** 1,158 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
 > Some of you missed it. Here's your chance. 👀
 
 ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
-**Views:** 1,904 | **Likes:** 37 | **Comments:** 8 | **Shares:** 13
+**Views:** 1,988 | **Likes:** 38 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
 ### 2026-02-26-services-governance-single-image
 **Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
-**Views:** 896 | **Likes:** 22 | **Comments:** 1 | **Shares:** 6
+**Views:** 966 | **Likes:** 23 | **Comments:** 1 | **Shares:** 6
 > A GPhC inspector walks into your pharmacy tomorrow.  Not to check your dispensary. To check your services.  Who ran last Thursday's travel clinic? Were they signed off to do it? Can you show the SOP t...
 
 ### 2026-02-23-fragmentation-observation-single-image
