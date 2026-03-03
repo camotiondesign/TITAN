@@ -1,0 +1,40 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7432771474803027968/",
+  "posted_at": "2026-02-26",
+  "campaign_slug": "2026-02-26-for-titan-customers-only-scan-me-single-image",
+  "asset_type": "single-image",
+  "boosted": false,
+  "scraped": {
+    "source": "scraped",
+    "synced_at": "2026-03-03",
+    "reactions": 25,
+    "comments": 6,
+    "reposts": 10
+  },
+  "notionsocial": {
+    "source": "notionsocial",
+    "synced_at": "",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
+  },
+  "platform_api": {
+    "source": "linkedin_api",
+    "synced_at": "",
+    "impressions": 0,
+    "reach": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "reactions": 0,
+    "comments": 0,
+    "reposts": 0,
+    "follows": 0,
+    "engagements": 0,
+    "engagement_rate": 0,
+    "organic": { "impressions": 0, "reach": 0, "engagements": 0, "engagement_rate": 0, "clicks": 0, "click_through_rate": 0, "reactions": 0, "comments": 0, "reposts": 0, "page_viewers": 0, "followers_gained": 0, "video_views": 0, "watch_time_total": "", "average_watch_time_seconds": 0 },
+    "sponsored": { "impressions": 0, "engagements": 0, "engagement_rate": 0, "clicks": 0, "click_through_rate": 0, "reactions": 0, "comments": 0, "reposts": 0, "video_views": 0, "ecpm": 0, "cost_per_engagement": 0, "spend": 0 }
+  },
+  "notes": "Metrics scraped from public LinkedIn view on 2026-03-03."
+}
