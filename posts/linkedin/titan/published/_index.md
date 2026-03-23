@@ -1,8 +1,8 @@
 # Titan PMR Published Posts Index
 
 **LinkedIn Page:** Titan PMR
-**Generated:** 2026-03-03
-**Total Posts:** 241
+**Generated:** 2026-03-23
+**Total Posts:** 245
 **Date Range:** 2024-12-16 to 2026-03-02
 
 ## Summary Stats
@@ -10,21 +10,22 @@
 | Metric | Value |
 |--------|-------|
 | Total Impressions | 451,487 |
-| Total Reactions | 4,934 |
-| Total Comments | 445 |
+| Total Reactions | 4,891 |
+| Total Comments | 434 |
 | Avg Engagement Rate | 20.8% |
 
 ## Content Mix
 
 | Type | Count |
 |------|-------|
-| video | 86 |
-| single-image | 81 |
+| video | 88 |
+| single-image | 82 |
 | carousel | 66 |
 | unknown | 5 |
 | image-gallery | 1 |
 | multi-image | 1 |
 | short_video | 1 |
+| document | 1 |
 
 ## Top 10 by Engagement Rate (min 100 impressions)
 
@@ -157,9 +158,19 @@
 **Views:** 830 | **Likes:** 10 | **Comments:** 0 | **Shares:** 4
 > We've been keeping a secret.  Some of you might have seen it last week.  A high-impact day of bold ideas and practical strategy centred on AI, supercharging your pharmacy for scalable, sustainable pro...
 
+### 2026-03-02-titanup-2026-document
+**Date:** 2026-03-02 | **Type:** document _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> We've been keeping something quiet.  Some of you might have seen it last week.  A high-impact day of bold ideas and practical strategy centred on AI, supercharging your pharmacy for scalable, sustaina...
+
 ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
 **Views:** 1,158 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
+> Some of you missed it. Here's your chance. 👀
+
+### 2026-02-27-some-of-you-missed-it-video
+**Date:** 2026-02-27 | **Type:** video _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Some of you missed it. Here's your chance. 👀
 
 ### 2026-02-26-for-titan-customers-only-scan-me
@@ -167,14 +178,24 @@
 **Views:** 1,988 | **Likes:** 38 | **Comments:** 8 | **Shares:** 13
 > For TITAN customers only… scan me 👀
 
+### 2026-02-26-for-titan-customers-only-scan-me-single-image
+**Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> For TITAN customers only… scan me 👀
+
 ### 2026-02-25-sajid-go-home-on-time-short
 **Date:** 2026-02-25 | **Type:** short_video _(Notionsocial)_
 **Views:** 975 | **Likes:** 31 | **Comments:** 8 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
-### 2026-02-24-prab-bench-trap8pm-single-image
+### 2026-02-25-some-things-matter-more-than-growth-video
+**Date:** 2026-02-25 | **Type:** video _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
+
+### 2026-02-24-if-it-wasnt-for-titan-prab-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,936 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 ### 2026-02-20-pharm-appy-no-more-phone-calls-single-image

@@ -72,6 +72,31 @@ function readPublishedPosts(publishedDir) {
         }
       }
 
+      // Read alt-text.md
+      const altTextPath = path.join(postDir, 'alt-text.md');
+      if (fs.existsSync(altTextPath)) {
+        post.altText = fs.readFileSync(altTextPath, 'utf8').trim();
+      } else {
+        post.altText = null;
+      }
+
+      // Read transcript.md (video posts only)
+      const transcriptPath = path.join(postDir, 'transcript.md');
+      if (fs.existsSync(transcriptPath)) {
+        post.transcript = fs.readFileSync(transcriptPath, 'utf8').trim();
+      } else {
+        post.transcript = null;
+      }
+
+      // Read comments.md
+      const commentsPath = path.join(postDir, 'comments.md');
+      if (fs.existsSync(commentsPath)) {
+        const commentsRaw = fs.readFileSync(commentsPath, 'utf8').trim();
+        post.comments = commentsRaw || null;
+      } else {
+        post.comments = null;
+      }
+
       posts.push(post);
     } catch (err) {
       console.warn(`  Skipping ${entry}: ${err.message}`);
@@ -366,6 +391,60 @@ function generateMasterIndex(titanPosts, titanversePosts) {
   return md;
 }
 
+/**
+ * Build a compact JSON file for Claude — full captions, alt text, transcripts, metrics.
+ * One read = full picture of all posts for a brand.
+ */
+function buildPostsJson(posts, brand, publishedDir) {
+  const sorted = [...posts].sort((a, b) => {
+    const dateA = (a.meta || {}).published_at || (a.metrics || {}).posted_at || '';
+    const dateB = (b.meta || {}).published_at || (b.metrics || {}).posted_at || '';
+    return dateB.localeCompare(dateA);
+  });
+
+  const output = sorted.map(post => {
+    const meta = post.meta || {};
+    const mx = extractMetrics(post.metrics);
+
+    return {
+      slug: post.slug,
+      date: meta.published_at || (post.metrics || {}).posted_at || null,
+      type: meta.asset_type || (post.metrics || {}).asset_type || null,
+      brand,
+      campaign: meta.campaign || null,
+      notion_id: meta.notion_id || null,
+      notion_url: meta.notion_url || null,
+      caption: post.caption || null,
+      alt_text: post.altText || null,
+      transcript: post.transcript || null,
+      comments: post.comments || null,
+      metrics: {
+        source: mx.source,
+        impressions: mx.impressions,
+        reactions: mx.reactions,
+        comments_count: mx.comments,
+        reposts: mx.reposts,
+        clicks: mx.clicks,
+        ctr: mx.ctr,
+        engagement_rate: mx.engRate,
+        views: mx.views,
+        boosted: mx.boosted,
+      },
+    };
+  });
+
+  const result = {
+    generated_at: new Date().toISOString(),
+    brand,
+    total_posts: output.length,
+    posts: output,
+  };
+
+  const outPath = path.join(publishedDir, 'posts.json');
+  fs.writeFileSync(outPath, JSON.stringify(result, null, 2));
+  console.log(`✓ Wrote ${outPath}`);
+}
+
 // ─── Main ───────────────────────────────────────────────────────────────
 
 console.log('Building content indexes...\n');
@@ -398,5 +477,9 @@ const masterIndex = generateMasterIndex(titanPosts, titanversePosts);
 const masterIndexPath = path.join(POSTS_DIR, '_master-index.md');
 fs.writeFileSync(masterIndexPath, masterIndex);
 console.log(`✓ Wrote ${masterIndexPath}`);
+
+// Generate per-brand JSON files for Claude
+buildPostsJson(titanPosts, 'titan', titanDir);
+buildPostsJson(titanversePosts, 'titanverse', tvDir);
 
 console.log('\nDone. Claude can now read any index file for instant context.');
