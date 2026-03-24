@@ -286,17 +286,22 @@ function generateBrandIndex(brandName, pageName, posts) {
 }
 
 /**
- * Generate master index across all brands
+ * Generate master index across all brands and platforms
+ *
+ * @param {Array}  titanPosts       - Titan LinkedIn posts
+ * @param {Array}  titanversePosts  - Titanverse LinkedIn posts
+ * @param {Object} otherPlatforms   - { tiktok: [...], instagram: [...], ... }
  */
-function generateMasterIndex(titanPosts, titanversePosts) {
+function generateMasterIndex(titanPosts, titanversePosts, otherPlatforms = {}) {
   const now = new Date().toISOString().split('T')[0];
 
   let md = `# TITAN Content Master Index\n\n`;
   md += `**Generated:** ${now}\n\n`;
   md += `This file gives Claude a single-read overview of all published content.\n`;
-  md += `For full post details, read the brand-specific indexes.\n\n`;
+  md += `For full post details, read the platform posts.json files.\n\n`;
 
-  md += `## Overview\n\n`;
+  // ── LinkedIn overview ──────────────────────────────────────────────────
+  md += `## LinkedIn\n\n`;
   md += `| Brand | Posts | Impressions | Avg Engagement |\n`;
   md += `|-------|-------|-------------|----------------|\n`;
 
@@ -311,26 +316,50 @@ function generateMasterIndex(titanPosts, titanversePosts) {
   }
   md += '\n';
 
-  // Combined top performers
-  const allPosts = [
-    ...titanPosts.map(p => ({ ...p, brand: 'titan' })),
-    ...titanversePosts.map(p => ({ ...p, brand: 'titanverse' }))
+  // ── Other platforms overview ───────────────────────────────────────────
+  const platformLabels = {
+    tiktok: 'TikTok',
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    youtube_longform: 'YouTube (Long-form)',
+    youtube_shorts: 'YouTube (Shorts)',
+    blog: 'Blog',
+  };
+
+  const platformEntries = Object.entries(otherPlatforms).filter(([, posts]) => posts.length > 0);
+  if (platformEntries.length > 0) {
+    md += `## Other Platforms\n\n`;
+    md += `| Platform | Posts | Total Views | Total Likes |\n`;
+    md += `|----------|-------|-------------|-------------|\n`;
+    for (const [platform, posts] of platformEntries) {
+      const label = platformLabels[platform] || platform;
+      const totalViews = posts.reduce((s, p) => s + (extractMetrics(p.metrics).views || 0), 0);
+      const totalLikes = posts.reduce((s, p) => s + (extractMetrics(p.metrics).reactions || 0), 0);
+      md += `| ${label} | ${posts.length} | ${totalViews.toLocaleString()} | ${totalLikes.toLocaleString()} |\n`;
+    }
+    md += '\n';
+  }
+
+  // ── LinkedIn top performers ────────────────────────────────────────────
+  const allLinkedInPosts = [
+    ...titanPosts.map(p => ({ ...p, _brand: 'titan' })),
+    ...titanversePosts.map(p => ({ ...p, _brand: 'titanverse' })),
   ];
 
-  const topPerformers = [...allPosts]
+  const topPerformers = [...allLinkedInPosts]
     .filter(p => extractMetrics(p.metrics).impressions >= 100)
     .sort((a, b) => extractMetrics(b.metrics).engRate - extractMetrics(a.metrics).engRate)
     .slice(0, 15);
 
-  md += `## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)\n\n`;
+  md += `## Top 15 LinkedIn Posts (by engagement rate, min 100 impressions)\n\n`;
   for (const p of topPerformers) {
-    const brand = p.brand === 'titan' ? '[TITAN]' : '[TV]';
+    const brand = p._brand === 'titan' ? '[TITAN]' : '[TV]';
     md += `${brand} `;
     md += formatPostEntry(p) + '\n';
   }
 
-  // Recent posts (last 30 days from newest post)
-  const allDates = allPosts
+  // ── Recent posts (last 30 days, LinkedIn only) ─────────────────────────
+  const allDates = allLinkedInPosts
     .map(p => (p.meta || {}).published_at || (p.metrics || {}).posted_at || '')
     .filter(d => d)
     .sort();
@@ -340,7 +369,7 @@ function generateMasterIndex(titanPosts, titanversePosts) {
     cutoff.setDate(cutoff.getDate() - 30);
     const cutoffStr = cutoff.toISOString().split('T')[0];
 
-    const recentPosts = allPosts
+    const recentPosts = allLinkedInPosts
       .filter(p => {
         const d = (p.meta || {}).published_at || (p.metrics || {}).posted_at || '';
         return d >= cutoffStr;
@@ -351,16 +380,16 @@ function generateMasterIndex(titanPosts, titanversePosts) {
         return dB.localeCompare(dA);
       });
 
-    md += `## Recent Posts (last 30 days from ${newestDate})\n\n`;
+    md += `## Recent LinkedIn Posts (last 30 days from ${newestDate})\n\n`;
     for (const p of recentPosts) {
-      const brand = p.brand === 'titan' ? '[TITAN]' : '[TV]';
+      const brand = p._brand === 'titan' ? '[TITAN]' : '[TV]';
       md += `${brand} `;
       md += formatPostEntry(p) + '\n';
     }
   }
 
-  // Content type distribution across brands
-  md += `## Content Type Distribution\n\n`;
+  // ── Content type distribution (LinkedIn) ──────────────────────────────
+  md += `## LinkedIn Content Type Distribution\n\n`;
   md += `| Type | Titan | Titanverse | Total |\n`;
   md += `|------|-------|------------|-------|\n`;
   const allTypes = new Set();
@@ -382,20 +411,41 @@ function generateMasterIndex(titanPosts, titanversePosts) {
     md += `| ${t} | ${tc} | ${tvc} | ${tc + tvc} |\n`;
   }
 
+  // ── File locations ─────────────────────────────────────────────────────
   md += `\n## File Locations\n\n`;
-  md += `- Full Titan index: \`posts/linkedin/titan/published/_index.md\`\n`;
-  md += `- Full Titanverse index: \`posts/linkedin/titanverse/published/_index.md\`\n`;
-  md += `- Aggregated metrics JSON: \`analytics/aggregated-linkedin-metrics.json\`\n`;
-  md += `- Notion export: \`data/notion/notion_export.json\`\n`;
+  md += `**LinkedIn (full data):**\n`;
+  md += `- \`posts/linkedin/titan/published/posts.json\` — Full Titan post data\n`;
+  md += `- \`posts/linkedin/titanverse/published/posts.json\` — Full Titanverse post data\n`;
+  md += `- \`posts/linkedin/titan/published/_index.md\` — Titan overview + top performers\n`;
+  md += `- \`posts/linkedin/titanverse/published/_index.md\` — Titanverse overview + top performers\n\n`;
+  md += `**Other platforms (posts.json per platform):**\n`;
+  for (const { platform, dir } of [
+    { platform: 'TikTok',           dir: 'posts/tiktok/published/posts.json' },
+    { platform: 'Instagram',        dir: 'posts/instagram/published/posts.json' },
+    { platform: 'Facebook',         dir: 'posts/facebook/published/posts.json' },
+    { platform: 'YouTube Long-form',dir: 'posts/youtube/longform/published/posts.json' },
+    { platform: 'YouTube Shorts',   dir: 'posts/youtube/shorts/published/posts.json' },
+    { platform: 'Blog',             dir: 'posts/blog/published/posts.json' },
+  ]) {
+    md += `- \`${dir}\` — ${platform}\n`;
+  }
+  md += `\n**Analytics:**\n`;
+  md += `- \`analytics/aggregated-linkedin-metrics.json\` — LinkedIn post-level aggregated metrics\n`;
+  md += `- \`data/notion/notion_export.json\` — Full Notion DB snapshot (live data: query Notion MCP)\n`;
 
   return md;
 }
 
 /**
  * Build a compact JSON file for Claude — full captions, alt text, transcripts, metrics.
- * One read = full picture of all posts for a brand.
+ * One read = full picture of all posts for a brand or platform.
+ *
+ * @param {Array}  posts        - from readPublishedPosts()
+ * @param {string} brand        - e.g. 'titan', 'titanverse', 'tiktok', 'instagram'
+ * @param {string} publishedDir - output directory
+ * @param {string} [platform]   - optional platform override for metadata (defaults to brand)
  */
-function buildPostsJson(posts, brand, publishedDir) {
+function buildPostsJson(posts, brand, publishedDir, platform) {
   const sorted = [...posts].sort((a, b) => {
     const dateA = (a.meta || {}).published_at || (a.metrics || {}).posted_at || '';
     const dateB = (b.meta || {}).published_at || (b.metrics || {}).posted_at || '';
@@ -404,16 +454,19 @@ function buildPostsJson(posts, brand, publishedDir) {
 
   const output = sorted.map(post => {
     const meta = post.meta || {};
-    const mx = extractMetrics(post.metrics);
+    const rawMetrics = post.metrics || {};
+    const mx = extractMetrics(rawMetrics);
 
-    return {
+    const entry = {
       slug: post.slug,
-      date: meta.published_at || (post.metrics || {}).posted_at || null,
-      type: meta.asset_type || (post.metrics || {}).asset_type || null,
-      brand,
+      date: meta.published_at || rawMetrics.posted_at || null,
+      type: meta.asset_type || rawMetrics.asset_type || null,
+      platform: platform || brand,
+      brand: meta.brand || meta.page || brand,
       campaign: meta.campaign || null,
       notion_id: meta.notion_id || null,
       notion_url: meta.notion_url || null,
+      post_url: rawMetrics.post_url || null,
       caption: post.caption || null,
       alt_text: post.altText || null,
       transcript: post.transcript || null,
@@ -431,37 +484,53 @@ function buildPostsJson(posts, brand, publishedDir) {
         boosted: mx.boosted,
       },
     };
+
+    // Include platform-specific API fields when populated
+    const api = rawMetrics.platform_api || {};
+    if (api.synced_at) {
+      const extras = {};
+      if (api.saves != null && api.saves !== 0) extras.saves = api.saves;
+      if (api.avg_watch_time_seconds != null && api.avg_watch_time_seconds !== 0) extras.avg_watch_time_seconds = api.avg_watch_time_seconds;
+      if (api.total_play_time_seconds != null && api.total_play_time_seconds !== 0) extras.total_play_time_seconds = api.total_play_time_seconds;
+      if (api.watch_time_hours != null && api.watch_time_hours !== 0) extras.watch_time_hours = api.watch_time_hours;
+      if (api.avg_view_duration_seconds != null && api.avg_view_duration_seconds !== 0) extras.avg_view_duration_seconds = api.avg_view_duration_seconds;
+      if (api.subscribers_gained != null && api.subscribers_gained !== 0) extras.subscribers_gained = api.subscribers_gained;
+      if (api.reach != null && api.reach !== 0) extras.reach = api.reach;
+      if (Object.keys(extras).length > 0) entry.metrics_platform_extras = extras;
+    }
+
+    return entry;
   });
 
   const result = {
     generated_at: new Date().toISOString(),
-    brand,
+    platform: platform || brand,
     total_posts: output.length,
     posts: output,
   };
 
   const outPath = path.join(publishedDir, 'posts.json');
   fs.writeFileSync(outPath, JSON.stringify(result, null, 2));
-  console.log(`✓ Wrote ${outPath}`);
+  console.log(`✓ Wrote ${outPath} (${output.length} posts)`);
 }
 
 // ─── Main ───────────────────────────────────────────────────────────────
 
 console.log('Building content indexes...\n');
 
-// Read Titan posts
+// ── LinkedIn ────────────────────────────────────────────────────────────
+
 const titanDir = path.join(POSTS_DIR, 'linkedin', 'titan', 'published');
 console.log(`Reading Titan posts from: ${titanDir}`);
 const titanPosts = readPublishedPosts(titanDir);
 console.log(`  Found ${titanPosts.length} posts`);
 
-// Read Titanverse posts
 const tvDir = path.join(POSTS_DIR, 'linkedin', 'titanverse', 'published');
 console.log(`Reading Titanverse posts from: ${tvDir}`);
 const titanversePosts = readPublishedPosts(tvDir);
 console.log(`  Found ${titanversePosts.length} posts`);
 
-// Generate brand indexes
+// Brand-level _index.md files (LinkedIn only — rich enough to warrant per-brand indexes)
 const titanIndex = generateBrandIndex('Titan PMR', 'Titan PMR', titanPosts);
 const titanIndexPath = path.join(titanDir, '_index.md');
 fs.writeFileSync(titanIndexPath, titanIndex);
@@ -472,14 +541,39 @@ const tvIndexPath = path.join(tvDir, '_index.md');
 fs.writeFileSync(tvIndexPath, tvIndex);
 console.log(`✓ Wrote ${tvIndexPath}`);
 
-// Generate master index
-const masterIndex = generateMasterIndex(titanPosts, titanversePosts);
+// LinkedIn posts.json
+buildPostsJson(titanPosts, 'titan', titanDir, 'linkedin');
+buildPostsJson(titanversePosts, 'titanverse', tvDir, 'linkedin');
+
+// ── Other platforms ─────────────────────────────────────────────────────
+
+const OTHER_PLATFORMS = [
+  { platform: 'tiktok',          dir: path.join(POSTS_DIR, 'tiktok', 'published') },
+  { platform: 'instagram',       dir: path.join(POSTS_DIR, 'instagram', 'published') },
+  { platform: 'facebook',        dir: path.join(POSTS_DIR, 'facebook', 'published') },
+  { platform: 'youtube_longform',dir: path.join(POSTS_DIR, 'youtube', 'longform', 'published') },
+  { platform: 'youtube_shorts',  dir: path.join(POSTS_DIR, 'youtube', 'shorts', 'published') },
+  { platform: 'blog',            dir: path.join(POSTS_DIR, 'blog', 'published') },
+];
+
+const otherPlatformPosts = {};
+console.log('\n── Other platforms ───────────────────────────────────────');
+for (const { platform, dir } of OTHER_PLATFORMS) {
+  if (!fs.existsSync(dir)) {
+    console.log(`  Skipping ${platform} (dir not found)`);
+    continue;
+  }
+  const posts = readPublishedPosts(dir);
+  console.log(`  ${platform}: ${posts.length} posts`);
+  otherPlatformPosts[platform] = posts;
+  buildPostsJson(posts, platform, dir);
+}
+
+// ── Master index (LinkedIn + all platforms) ─────────────────────────────
+
+const masterIndex = generateMasterIndex(titanPosts, titanversePosts, otherPlatformPosts);
 const masterIndexPath = path.join(POSTS_DIR, '_master-index.md');
 fs.writeFileSync(masterIndexPath, masterIndex);
-console.log(`✓ Wrote ${masterIndexPath}`);
-
-// Generate per-brand JSON files for Claude
-buildPostsJson(titanPosts, 'titan', titanDir);
-buildPostsJson(titanversePosts, 'titanverse', tvDir);
+console.log(`\n✓ Wrote ${masterIndexPath}`);
 
 console.log('\nDone. Claude can now read any index file for instant context.');

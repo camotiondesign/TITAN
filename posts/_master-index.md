@@ -1,18 +1,27 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-03-23
+**Generated:** 2026-03-24
 
 This file gives Claude a single-read overview of all published content.
-For full post details, read the brand-specific indexes.
+For full post details, read the platform posts.json files.
 
-## Overview
+## LinkedIn
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
 | Titan PMR | 245 | 451,487 | 20.8% |
 | Titanverse | 50 | 37,034 | 12.3% |
 
-## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
+## Other Platforms
+
+| Platform | Posts | Total Views | Total Likes |
+|----------|-------|-------------|-------------|
+| TikTok | 13 | 13,780 | 177 |
+| Instagram | 22 | 24,146 | 368 |
+| Facebook | 25 | 26,340 | 416 |
+| YouTube (Long-form) | 17 | 18,685 | 255 |
+
+## Top 15 LinkedIn Posts (by engagement rate, min 100 impressions)
 
 [TITAN] ### 2025-07-17-carousel
 **Date:** 2025-07-17 | **Type:** carousel
@@ -104,7 +113,7 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-03-03)
+## Recent LinkedIn Posts (last 30 days from 2026-03-03)
 
 [TV] ### 2026-03-03-rahul-longform-video
 **Date:** 2026-03-03 | **Type:** video _(Notionsocial)_
@@ -236,7 +245,7 @@ For full post details, read the brand-specific indexes.
 **Views:** 860 | **Likes:** 7 | **Comments:** 2 | **Shares:** 3
 > There’s someone in every pharmacy with a black book.  Patient names. Repeat patterns. Tricky meds. All in there somewhere. Or sometimes just in their head.  When they're off? Chaos. Orders get missed....
 
-## Content Type Distribution
+## LinkedIn Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
 |------|-------|------------|-------|
@@ -251,7 +260,20 @@ For full post details, read the brand-specific indexes.
 
 ## File Locations
 
-- Full Titan index: `posts/linkedin/titan/published/_index.md`
-- Full Titanverse index: `posts/linkedin/titanverse/published/_index.md`
-- Aggregated metrics JSON: `analytics/aggregated-linkedin-metrics.json`
-- Notion export: `data/notion/notion_export.json`
+**LinkedIn (full data):**
+- `posts/linkedin/titan/published/posts.json` — Full Titan post data
+- `posts/linkedin/titanverse/published/posts.json` — Full Titanverse post data
+- `posts/linkedin/titan/published/_index.md` — Titan overview + top performers
+- `posts/linkedin/titanverse/published/_index.md` — Titanverse overview + top performers
+
+**Other platforms (posts.json per platform):**
+- `posts/tiktok/published/posts.json` — TikTok
+- `posts/instagram/published/posts.json` — Instagram
+- `posts/facebook/published/posts.json` — Facebook
+- `posts/youtube/longform/published/posts.json` — YouTube Long-form
+- `posts/youtube/shorts/published/posts.json` — YouTube Shorts
+- `posts/blog/published/posts.json` — Blog
+
+**Analytics:**
+- `analytics/aggregated-linkedin-metrics.json` — LinkedIn post-level aggregated metrics
+- `data/notion/notion_export.json` — Full Notion DB snapshot (live data: query Notion MCP)
