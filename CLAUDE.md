@@ -1,6 +1,6 @@
 # TITAN Content Repo -- Claude Quick Reference
 
-Last updated: 2026-03-24
+Last updated: 2026-04-06
 Notion sync: Manual (automated sync paused)
 
 ---
@@ -13,31 +13,24 @@ Notion sync: Manual (automated sync paused)
 | Notion DB snapshot | `data/notion/notion_export.json` | Full database, refreshed daily 7am GMT. 3MB+, don't read the whole file. Query Notion MCP instead for live data. Use this for bulk analysis only. |
 | Notion DB schema | `data/notion/notion_schema.json` | Property names and types. Read this first if you need to query Notion. |
 | LinkedIn metrics | `data/linkedin/metrics/` | Performance data from LinkedIn pages |
-| YouTube metrics | `data/youtube/metrics/` | YouTube analytics |
-| TikTok metrics | `data/tiktok/metrics/` | TikTok analytics |
-| Instagram metrics | `data/instagram/metrics/` | Instagram analytics |
-| Facebook metrics | `data/facebook/metrics/` | Facebook analytics |
+| YouTube data | `data/youtube/channel_summary.json` | 117 videos with metadata + transcripts after `youtube_sync.py pull` |
+| YouTube transcripts | `data/youtube/transcripts/` | Per-video transcripts synced to LinkedIn post dirs via `sync-transcripts.js` |
 | Aggregated LinkedIn metrics | `analytics/aggregated-linkedin-metrics.json` | Post-level metrics; prefer `posts/_master-index.md` for overview. Generated weekly by `scripts/aggregate-metrics.js`. |
 
 ### Posts (archived published content)
 | Path | What's in it |
 |------|-------------|
-| `posts/_master-index.md` | Cross-platform summary, LinkedIn top performers, platform post counts. Start here. |
+| `posts/_master-index.md` | LinkedIn cross-brand summary, top performers, recent posts. Start here. |
 | `posts/linkedin/titan/published/posts.json` | **FULL Titan LinkedIn data** -- all posts with complete captions, alt text, transcripts, metrics. Use for content analysis, writing, referencing. |
 | `posts/linkedin/titanverse/published/posts.json` | **FULL Titanverse LinkedIn data** -- same as above. |
 | `posts/linkedin/titan/published/_index.md` | Titan PMR overview -- top performers, content mix, truncated previews. |
 | `posts/linkedin/titanverse/published/_index.md` | Titanverse overview -- same format. |
-| `posts/tiktok/published/posts.json` | **FULL TikTok data** -- all posts, captions, metrics (notionsocial + TikTok API when connected). |
-| `posts/instagram/published/posts.json` | **FULL Instagram data** -- same format. |
-| `posts/facebook/published/posts.json` | **FULL Facebook data** -- same format. |
-| `posts/youtube/longform/published/posts.json` | **FULL YouTube long-form data** -- includes watch time, avg view duration when API connected. |
-| `posts/youtube/shorts/published/posts.json` | YouTube Shorts (empty until posts added). |
-| `posts/blog/published/posts.json` | Blog posts (empty until posts added). |
+| `posts/blog/published/posts.json` | Blog posts from titanpmr.com and titanverse.co.uk. Populated by `sync-blog.js`. |
 | `posts/linkedin/titan/published/` | Individual Titan post dirs. Source of truth. |
 | `posts/linkedin/titan/_drafts/` | Draft concepts and curriculum (not published). |
 | `posts/linkedin/titanverse/published/` | Individual Titanverse post dirs. Source of truth. |
 
-**Key rule:** LinkedIn is the ONLY platform with separate titan/ and titanverse/ folders. Every other platform is a shared account.
+**LinkedIn is the primary platform.** TikTok, Instagram, Facebook, YouTube post directories are intentionally empty — LinkedIn is the KPI that matters.
 
 **For Claude:** Don't browse individual post directories. Read `posts.json` for full content/data, `_index.md` for LinkedIn overview. Run `node scripts/build-indexes.js` to regenerate everything.
 
@@ -96,11 +89,6 @@ These are source material. Never edit them. The titan/titanverse split here is a
 |----------|-----|
 | LinkedIn (Titan PMR) | `LI-PAGE@titanpmr` |
 | LinkedIn (Titanverse) | `LI-PAGE@titanverse` |
-| TikTok | `TT@titan` |
-| YouTube | `YT@titan` |
-| Instagram | `IG@titan` |
-| Facebook | `FB@titan` |
-| Blog | `BLOG@titan` |
 
 ---
 
@@ -124,10 +112,12 @@ These are source material. Never edit them. The titan/titanverse split here is a
 | `scripts/notion_sync.py push FILE` | Pushes a schedule JSON file to Notion | Bulk post creation |
 | `scripts/calculate-tcps.py` | Calculates TCPS scores from metrics | Performance analysis |
 | `scripts/campaign_audit.py` | Audits content against strategy rules | Checking rotation, gaps |
+| `scripts/sync-transcripts.js` | Matches YouTube transcripts to LinkedIn video posts | After `youtube_sync.py pull` |
+| `scripts/sync-blog.js` | Scrapes titanpmr.com + titanverse.co.uk blogs into `posts/blog/published/` | Run periodically to keep blog posts current |
 
 ## Scripts (lean set)
 
-The only scripts in active use are those in the tables above (Notion sync, notion-to-repo, build-indexes, aggregate-metrics, youtube_sync, calculate-tcps, campaign_audit). Anything else in `scripts/` (e.g. `ae/`, design .jsx) is design or one-off; don't rely on it for automation.
+The only scripts in active use are those in the tables above (Notion sync, notion-to-repo, build-indexes, aggregate-metrics, youtube_sync, calculate-tcps, campaign_audit, sync-transcripts, sync-blog). Anything else in `scripts/` is one-off; don't rely on it for automation.
 
 ---
 
@@ -135,14 +125,14 @@ The only scripts in active use are those in the tables above (Notion sync, notio
 
 1. Read this file (`CLAUDE.md`) -- one tool call, full orientation
 2. If Cam asks about published content performance: read `posts/_master-index.md` for overview, then the relevant `posts.json` if you need full captions or details
-3. If Cam asks about a specific brand's LinkedIn posts (writing, analysis, referencing): read `posts/linkedin/[brand]/published/posts.json`
-4. If Cam asks about TikTok/Instagram/Facebook/YouTube posts: read the platform `posts.json` (e.g. `posts/tiktok/published/posts.json`)
+3. If Cam asks about LinkedIn posts (writing, analysis, referencing): read `posts/linkedin/[brand]/published/posts.json`
+4. If Cam asks about blog content: read `posts/blog/published/posts.json`
 5. If Cam asks about scheduling or current posts: query Notion MCP directly (live data)
 6. If Cam asks about bulk analysis (6+ weeks of themes, customer rotation): read `data/notion/notion_export.json`
 7. If Cam asks about a specific post's details: check the individual post directory (only when posts.json isn't enough)
 8. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
 
-**Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then the relevant platform `posts.json` if you need full post content. For a short LinkedIn metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing a bulk or query-style analysis.
+**Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then `posts/linkedin/[brand]/published/posts.json` for full post content. For a short metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing bulk analysis.
 
 **Never browse post directories one by one.** Use `posts.json` for full data, `_index.md` for LinkedIn overview.
 

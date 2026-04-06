@@ -286,13 +286,10 @@ function generateBrandIndex(brandName, pageName, posts) {
 }
 
 /**
- * Generate master index across all brands and platforms
- *
- * @param {Array}  titanPosts       - Titan LinkedIn posts
- * @param {Array}  titanversePosts  - Titanverse LinkedIn posts
- * @param {Object} otherPlatforms   - { tiktok: [...], instagram: [...], ... }
+ * Generate master index across Titan and Titanverse LinkedIn brands
  */
-function generateMasterIndex(titanPosts, titanversePosts, otherPlatforms = {}) {
+function generateMasterIndex(titanPosts, titanversePosts) {
+  const otherPlatforms = {};
   const now = new Date().toISOString().split('T')[0];
 
   let md = `# TITAN Content Master Index\n\n`;
@@ -545,33 +542,9 @@ console.log(`✓ Wrote ${tvIndexPath}`);
 buildPostsJson(titanPosts, 'titan', titanDir, 'linkedin');
 buildPostsJson(titanversePosts, 'titanverse', tvDir, 'linkedin');
 
-// ── Other platforms ─────────────────────────────────────────────────────
+// ── Master index ────────────────────────────────────────────────────────
 
-const OTHER_PLATFORMS = [
-  { platform: 'tiktok',          dir: path.join(POSTS_DIR, 'tiktok', 'published') },
-  { platform: 'instagram',       dir: path.join(POSTS_DIR, 'instagram', 'published') },
-  { platform: 'facebook',        dir: path.join(POSTS_DIR, 'facebook', 'published') },
-  { platform: 'youtube_longform',dir: path.join(POSTS_DIR, 'youtube', 'longform', 'published') },
-  { platform: 'youtube_shorts',  dir: path.join(POSTS_DIR, 'youtube', 'shorts', 'published') },
-  { platform: 'blog',            dir: path.join(POSTS_DIR, 'blog', 'published') },
-];
-
-const otherPlatformPosts = {};
-console.log('\n── Other platforms ───────────────────────────────────────');
-for (const { platform, dir } of OTHER_PLATFORMS) {
-  if (!fs.existsSync(dir)) {
-    console.log(`  Skipping ${platform} (dir not found)`);
-    continue;
-  }
-  const posts = readPublishedPosts(dir);
-  console.log(`  ${platform}: ${posts.length} posts`);
-  otherPlatformPosts[platform] = posts;
-  buildPostsJson(posts, platform, dir);
-}
-
-// ── Master index (LinkedIn + all platforms) ─────────────────────────────
-
-const masterIndex = generateMasterIndex(titanPosts, titanversePosts, otherPlatformPosts);
+const masterIndex = generateMasterIndex(titanPosts, titanversePosts);
 const masterIndexPath = path.join(POSTS_DIR, '_master-index.md');
 fs.writeFileSync(masterIndexPath, masterIndex);
 console.log(`\n✓ Wrote ${masterIndexPath}`);

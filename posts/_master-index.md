@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-03-24
+**Generated:** 2026-04-06
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the platform posts.json files.
@@ -11,15 +11,6 @@ For full post details, read the platform posts.json files.
 |-------|-------|-------------|----------------|
 | Titan PMR | 245 | 451,487 | 20.8% |
 | Titanverse | 50 | 37,034 | 12.3% |
-
-## Other Platforms
-
-| Platform | Posts | Total Views | Total Likes |
-|----------|-------|-------------|-------------|
-| TikTok | 13 | 13,780 | 177 |
-| Instagram | 22 | 24,146 | 368 |
-| Facebook | 25 | 26,340 | 416 |
-| YouTube (Long-form) | 17 | 18,685 | 255 |
 
 ## Top 15 LinkedIn Posts (by engagement rate, min 100 impressions)
 
