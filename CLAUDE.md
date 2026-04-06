@@ -1,6 +1,6 @@
 # TITAN Content Repo -- Claude Quick Reference
 
-Last updated: 2026-04-06
+Last updated: 2026-04-06 (caption toolkit + interview memory layer added)
 Notion sync: Manual (automated sync paused)
 
 ---
@@ -60,6 +60,23 @@ Notion sync: Manual (automated sync paused)
 | `_interviews-raw/titanverse/case-studies/raw/` | Titanverse customer interview transcripts |
 
 These are source material. Never edit them. The titan/titanverse split here is about product focus, not publishing platform.
+
+### Caption Toolkit (use for writing)
+| Path | What's in it |
+|------|-------------|
+| `_caption-toolkit/patterns-from-winners.md` | Hook patterns, body structure, CTA types, voice fingerprint — extracted from top 20 posts |
+| `_caption-toolkit/case-study-patterns.md` | Interview → post workflow, 7 types of extractable moments, 8-signal scoring system |
+| `_caption-toolkit/brief-template.md` | Fill-in brief before writing any caption. Single image / carousel / video / case study / Titanverse variants |
+
+**For Claude:** When Cam asks you to write a LinkedIn caption, read `brief-template.md` to know what info you need, and read `patterns-from-winners.md` to apply the right voice/structure.
+
+### Interview Memory Layer
+| Path | What's in it |
+|------|-------------|
+| `_interviews-processed/_index.md` | All interviews sorted by urgency + estimated posts remaining |
+| `_interviews-processed/[Name].md` | Per-interview brief: before/after stats, best quotes, what's been used, what's still available |
+
+**For Claude:** Before writing a case study post, read the relevant `_interviews-processed/[Name].md` first. It tells you what quotes, numbers, and moments exist AND which ones have already been used in published posts. Don't re-use material that's already been posted.
 
 ---
 
@@ -133,6 +150,10 @@ The only scripts in active use are those in the tables above (Notion sync, notio
 8. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
 
 **Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then `posts/linkedin/[brand]/published/posts.json` for full post content. For a short metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing bulk analysis.
+
+**Caption writing workflow:** Read `_caption-toolkit/brief-template.md` first to get the brief structure, then `_caption-toolkit/patterns-from-winners.md` to apply the right voice. For case studies, read `_interviews-processed/[Name].md` before writing.
+
+**Interview workflow:** When Cam brings a new interview, read `_caption-toolkit/case-study-patterns.md` for the extraction framework. Create a new `_interviews-processed/[Name].md` file. Then write captions from the brief.
 
 **Never browse post directories one by one.** Use `posts.json` for full data, `_index.md` for LinkedIn overview.
 
