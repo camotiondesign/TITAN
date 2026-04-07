@@ -401,4 +401,76 @@ In priority order:
 
 ---
 
+---
+
+## 9. INSIDE VOICE vs. OUTSIDE VOICE — The Master Principle
+
+_Added 2026-04-07. This is the single most important distinction in Titan's content quality._
+
+### The Problem
+
+When Titan's content performs worst, it's because the writing describes Titan from the outside. When it performs best, the writing is already inside the thing — inside the pharmacy, inside the belief, inside the movement.
+
+This is what "brand awareness" actually means for Titan. Not reach. Not recognition. **Content that IS Titan rather than content that TALKS ABOUT Titan.**
+
+---
+
+### Inside Voice — What It Sounds Like
+
+The writer is already in the room. They're reporting from inside the experience.
+
+**Real examples from top-performing posts:**
+- *"Krishna peeled the sticker this week. Put it straight on the window."* — You're there. Present tense. Specific action.
+- *"Prabjaudt now runs 16,000 items a month. He'd need 3 or 4 extra staff to do the same volume without Titan."* — Inside the pharmacy's reality.
+- *"5 years ago, Prabjaudt was ready to leave pharmacy. Now he runs 16,000 items a month. No overtime. No burnout."* — Inside his life, not describing his life.
+- *"The nomination ping-pong stops here."* — Takes a position. Insider frustration, not explanation.
+- *"Checks every script. Every time. No exceptions."* — Titan's conviction stated as a fact, not a feature.
+
+**Characteristics of inside voice:**
+- Present tense or specific past tense (this happened, not "this is the kind of thing that happens")
+- Names the pharmacy, names the person, names the number
+- Takes positions — doesn't explain both sides
+- Uses pharmacy language naturally (bench, baskets, owings, dispensary)
+- Reads like the author was in the room
+
+---
+
+### Outside Voice — What to Avoid
+
+The writer is explaining Titan to an observer. They're describing from a distance.
+
+**Signs you've drifted to outside voice:**
+- "This is what modern pharmacy looks like." (describing a concept, not a moment)
+- "This moment captures what going live with Titan really means." (explaining the significance instead of showing it)
+- "Titan is helping pharmacies do X." (Titan as subject, not the pharmacist)
+- "As you know, the pharmacy landscape is evolving..." (editorial preamble — instant disqualifier)
+- "We're proud to support the profession." (corporate distance)
+- Writing about pharmacy from the perspective of a healthcare journalist, not a pharmacy owner
+
+**Why it fails:** Readers feel the distance. They're being told about something rather than let into something. Brand awareness collapses to brand description.
+
+---
+
+### The Test
+
+Read your caption draft. Ask: **Am I in the room, or am I describing the room?**
+
+If you're describing: rewrite from inside. Find the specific moment, the specific person, the specific number. Drop into the experience. Take a position.
+
+---
+
+### Why This Matters for Brand Awareness
+
+Brand awareness for Titan isn't reach or impressions. It's the moment a pharmacist reads a caption and already knows who wrote it before they see the logo.
+
+The voice, the values, the belief system — all present in the writing itself. That's what the top 20 posts have. That's what the editorial drift lost.
+
+When Titan was "smashing it," every post was inside the pharmacy, inside the conviction, inside the movement. The reader felt like they were being let in on something. That's brand awareness.
+
+When content drifts to editorial/observational, the brand disappears — replaced by generic industry commentary that any PMR company could have written.
+
+**Rule:** If another PMR company could have written this caption, rewrite it.
+
+---
+
 _Cross-reference:_ `case-study-patterns.md` for interview → post workflow. `brief-template.md` for writing a brief before drafting.
