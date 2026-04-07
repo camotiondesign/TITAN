@@ -92,3 +92,75 @@ This is what it looks like when the system works around the pharmacist — not t
 💬 What would you do with four uninterrupted consultations in a row?
 
 #TitanPMR #CommunityPharmacy #PharmacyServices #PharmacyFirst #ClinicalPharmacy #PharmacyInnovation
+
+---
+
+## Post 4: TITAN_HOD_BatchFlow_LI — REWRITE
+**Brand:** Titan PMR
+**Format:** Single Image
+**Scheduled:** Apr 30
+**Notion name:** `TITAN_HOD_BatchFlow_LI`
+**Reason for rewrite:** Original hook ("It's working brilliantly") opens with outcome, not tension. No before state. Reads like a product update.
+
+---
+
+Most dispensaries process prescriptions the same way they always have.
+
+One by one. In the order they arrive. Pharmacist at the end of every item.
+
+Glen runs 26+ pharmacies across Wales. He's looked at the numbers.
+
+The majority of daily volume — single-item scripts, straightforward repeats — doesn't need that level of attention per item. It needs throughput.
+
+So he changed the model.
+
+Batch dispensing separates the workload. Single-item scripts first. Then doubles. Processed in bulk, checked efficiently, cleared from the board.
+
+The complex multi-item scripts stay as individual items. They get the time they actually need.
+
+7 branches running this now.
+The rest of his 26+ sites following shortly.
+
+"It's working brilliantly."
+
+The workflow didn't change because the team got better.
+It changed because the system stopped treating every prescription the same.
+
+💬 Is your dispensary still processing everything one at a time?
+
+#TitanPMR #BatchDispensing #PharmacyWorkflow #IndependentPharmacy #PharmacyEfficiency
+
+---
+
+## Post 5: TITAN_HOD_DriveThemBackIn_LI — POLISH
+**Brand:** Titan PMR
+**Format:** Single Image
+**Scheduled:** May 5
+**Notion name:** `TITAN_HOD_DriveThemBackIn_LI`
+**Note:** Original hook is solid. Minor polish only — added specific number hook and tightened the mechanism section.
+
+---
+
+Scripts dispensed. Waiting on the shelf. Uncollected.
+
+Your team did the work. The NHS owes you the payment. But if the patient doesn't collect, the claim doesn't happen.
+
+For every pharmacy managing hundreds of repeats, this adds up fast.
+
+Glen's fix across his 26+ sites:
+
+PDS sync keeps contact details current — so when a script sits uncollected for four weeks, Titan campaigns do the work.
+
+Filter. Identify. Text.
+
+"We're using PDS sync to update our email and telephone number capture. Then using campaigns to send reminders out."
+
+Patients get a reminder. Scripts get collected. Claims get processed.
+
+"It maximises the claims at the end of the month."
+
+The dispensing was already done.
+This is just making sure you get paid for it.
+
+#TitanPMR #PharmacyCashFlow #UncollectedPrescriptions #RepeatPrescriptions #PharmacyManagement
+
