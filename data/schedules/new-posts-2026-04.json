@@ -1,0 +1,74 @@
+{
+  "description": "New LinkedIn posts to create in Notion — generated 2026-04-06. Push via: python scripts/notion_sync.py push data/schedules/new-posts-2026-04.json",
+  "posts": [
+    {
+      "name": "TV_BroadwayPharmacy_MichaelBall_Spotlight",
+      "platform": ["LI-PAGE@titanverse"],
+      "content_type": "Single Image",
+      "date": "2026-05-20",
+      "status": "Concept for Review",
+      "idea": "Customer spotlight: Michael Ball, Director at Cure Clinics, posted publicly about hands-on time with Titanverse at Broadway Pharmacy — unsolicited, named, director-level validation. Get permission from Michael via DM before posting. Single image: dark Titanverse background with his quote in large white bold text: 'A platform built with operators in mind, not just designed in isolation.' His name and title below, Broadway Pharmacy / Cure Clinics credit at bottom, Titanverse logo bottom right.",
+      "caption": "An honest review from a Director who just spent the afternoon with us.\n\nThat is from Michael Ball, Director at Cure Clinics, after hands-on time with Titanverse at Broadway Pharmacy.\n\nHe did not reach out to us.\nHe posted it publicly.\n\nWhat stood out was not the feature list.\n\nIt was the thinking behind it.\n\nA platform built for how pharmacy actually works.\nNot designed in isolation.\n\nThat is the only kind of feedback that matters.\n\n#Titanverse #PharmacyServices #CommunityPharmacy"
+    },
+    {
+      "name": "TV_PharmAppy_PrioryBroadway_Integration_Update",
+      "platform": ["LI-PAGE@titanverse"],
+      "content_type": "Single Image",
+      "date": "2026-05-29",
+      "status": "Concept for Review",
+      "idea": "Pharmacy websites should not be separate from pharmacy services. The PharmAppy + Titanverse integration story — Priory Pharmacy live, Broadway next. Single image: two logos connected by a line. Clean, minimal. Dark background.",
+      "caption": "Pharmacy websites should not be separate from pharmacy services.\n\nWhen a patient books through PharmAppy, that consultation needs to live somewhere.\n\nNot in a separate system.\nNot manually transferred.\n\nWith Titanverse, it does.\n\nThe booking.\nThe consultation.\nThe record.\n\nConnected. From first click to final note.\n\nPriory Pharmacy is already live with this.\nBroadway is next.\n\n#Titanverse #PharmAppy #PharmacyServices #PharmacyIntegration"
+    },
+    {
+      "name": "TITAN_Kanav_CaseStudy_SingleImage",
+      "platform": ["LI-PAGE@titanpmr"],
+      "content_type": "Single Image",
+      "date": "2026-05-26",
+      "status": "Not started",
+      "idea": "Case study post from Kanav interview (May 2025 cohort). Read _interviews-processed/Kanav.md first. Extract the tipping point moment and key before/after numbers. Single image: photo of Kanav at the pharmacy or branded dark background with key stat. Hook: specific outcome or transformation moment."
+    },
+    {
+      "name": "TITAN_Abel_Amanda_CohortPost",
+      "platform": ["LI-PAGE@titanpmr"],
+      "content_type": "Single Image",
+      "date": "2026-06-02",
+      "status": "Not started",
+      "idea": "Case study from the June 2025 interview cohort (Abel, Amanda, Andy, Anoop, Charlie, Ivan, Kate, Sharne). Read _interviews-processed/ files for each. Pick the strongest tipping point moment and before/after from this cohort. Do NOT use Prab/Sagar/Yusuf/Rahul material (already well-covered). Fresh face from the cohort."
+    },
+    {
+      "name": "TV_FragmentationHook_v2",
+      "platform": ["LI-PAGE@titanverse"],
+      "content_type": "Single Image",
+      "date": "2026-06-03",
+      "status": "Concept for Review",
+      "idea": "Updated fragmentation hook. The original Oct/Nov 2025 fragmentation posts drove the highest Titanverse engagement. This is v2: 'Count how many apps you open before you finish one consultation.' Same pain angle, new copy. Short, punchy single image. Dark purple background, bold white text.",
+      "caption": "Count how many apps you open before you finish one consultation.\n\nEPS.\nConsultation template.\nBooking system.\nPatient record.\nMessaging tool.\nMaybe a spreadsheet.\n\nThat is five systems for one 15-minute consultation.\n\nEvery handoff is a risk.\nEvery tab switch costs time.\nEvery manual note is a chance for something to go wrong.\n\nTitanverse puts the whole flow in one place.\n\nConsultation. Prescribing. Records. Services.\n\nNo more tabs.\nNo more double entry.\nNo more gaps.\n\nOne app. One flow.\n\n#Titanverse #PharmacyWorkflow #PharmacyServices"
+    },
+    {
+      "name": "TV_Yusuf_FollowUp_Quote",
+      "platform": ["LI-PAGE@titanverse"],
+      "content_type": "Single Image",
+      "date": "2026-06-05",
+      "status": "Not started",
+      "idea": "Follow-up from the Yusuf Titanverse interview (Yusuf-Titanverse-Full-Interview.txt and Yusuf-2025Dec3.txt). Read _interviews-processed/Yusuf.md. Extract a quote that hasn't been used in a published Titanverse post yet. Single image quote format on dark background."
+    },
+    {
+      "name": "TITAN_Asif_FullCarousel_CaseStudy",
+      "platform": ["LI-PAGE@titanpmr"],
+      "content_type": "Carousel Post",
+      "date": "2026-04-07",
+      "status": "Concept for Review",
+      "idea": "Full case study carousel on Asif from Safy's Chemist. The 'We spoke to Asif from Safy's Chemist' post (Jan 7) was never published — this is the carousel version. Read the Asif-Full-Interview.txt first. 7-slide arc: Hook (before state) → Before numbers → Decision/tipping point → What changed → Outcomes (15k items) → Direct quote → CTA. Real numbers, real quote, real pharmacy name.",
+      "caption": "👀 We spoke to Asif from Safy's Chemist.\n\nHere is what he told us.\n\nSafy's Chemist dispenses around 15,000 items a month. 💊\n\nBefore Titan, the pressure was all going in the wrong direction.\n\nSwipe to see what changed.\n\n📖 Read Asif's full story → titanpmr.com/case-studies"
+    },
+    {
+      "name": "TITAN_158Million_ClawbackCarousel",
+      "platform": ["LI-PAGE@titanpmr"],
+      "content_type": "Carousel Post",
+      "date": "2026-06-04",
+      "status": "Concept for Review",
+      "idea": "The £158 million clawback carousel (originally scheduled Jan 29, never posted). Policy/finance angle — NHS reclaims underclaimed money from pharmacies. This is a high-stakes education carousel. Structure: What happened → Why it matters → What pharmacies at risk have in common → How to protect your income → Titan's role. Hook: the £158m number.",
+      "caption": "£158 million.\n\nThat is what pharmacies left on the table last year.\n\nNot through fraud.\nNot through negligence.\n\nThrough under-claiming.\n\nThe difference between pharmacies that lost money and those that didn't is not luck.\n\nSwipe to see what they did differently.\n\n💬 Has your pharmacy been hit by a clawback? Drop your experience in the comments.\n\n#PharmacyFirst #NHS #CommunityPharmacy #TitanPMR"
+    }
+  ]
+}

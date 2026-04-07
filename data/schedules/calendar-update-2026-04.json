@@ -1,0 +1,276 @@
+{
+  "_description": "Full Notion LinkedIn calendar update — April 2026. Run with: NOTION_TOKEN=ntn_xxx NOTION_DATABASE_ID=157f423bea8b8149b546e7279b4ea0c0 python3 scripts/notion_sync.py push data/schedules/calendar-update-2026-04.json",
+  "_notes": "Existing posts are matched by Name and their dates updated. New posts (marked _new: true) will be created fresh. All posts are LinkedIn-only.",
+  "posts": [
+    {
+      "name": "TITAN_AsifSafetyStats",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-08",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_HOD_PrintingWalkingTicking_LI",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-09",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_GoogleSearch_Riddhesh",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-10",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_ConsultationEconomy",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-10",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_PrintingTokens2026Meme",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-11",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_FollowUpProblem",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-14",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_Repeat_Hero",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-15",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_ProperClinicNeeds_Carousel",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-16",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_RahulClip2_VoiceFirst",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-17",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_Repeat_AbelChemist_Trustpilot",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-17",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_MKT_Integrations_P1_TheProblem",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-21",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_NotTappedIn_Dervis",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-22",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_MKT_Integrations_P2_PharmacyStack",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-23",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_RahulClip3_Vision",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-24",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_MKT_Integrations_P3_MarketplaceReveal",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-04-28",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_RahulClip4_Advice",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-29",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_PaymentsProblem",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-04-30",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_RahulAnchor_DigitalFirst",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-05",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_JeetDadQuote",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-05",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_RahulTLDRCarousel",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-06",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "Pritee - Most people think service growth comes from hiring more staff.",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-07",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_AdminTax",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-08",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_Geoff_PhotoDump_LI",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-12",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TV_CentralControl",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-13",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITANUP_CampaignEdit",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-14",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITANUP_CustomerPanelTease",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-15",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_NasPaperProblem",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-19",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "TITAN_Geoff_FunnelQuote",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-20",
+      "status": "Concept for Review",
+      "_action": "date update"
+    },
+    {
+      "name": "👀 We spoke to Asif from Safy's Chemist. - Carousel",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-01",
+      "status": "Concept for Review",
+      "_action": "date update — Asif carousel was stuck at Jan 7"
+    },
+    {
+      "name": "TV_FragmentationHook_v2",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-21",
+      "status": "Concept for Review",
+      "content_type": "Single Image",
+      "caption": "Count how many apps you open before you finish one consultation.\n\nEPS.\nConsultation template.\nBooking system.\nPatient record.\nMessaging tool.\nMaybe a spreadsheet.\n\nThat is five systems for one 15-minute consultation.\n\nEvery handoff is a risk.\nEvery tab switch costs time.\nEvery manual note is a chance for something to go wrong.\n\nTitanverse puts the whole flow in one place.\n\nConsultation. Prescribing. Records. Services.\n\nNo more tabs.\nNo more double entry.\nNo more gaps.\n\nOne app. One flow.\n\n#Titanverse #PharmacyWorkflow #PharmacyServices",
+      "idea": "Updated fragmentation hook v2. The original Oct/Nov 2025 fragmentation posts were the highest-performing Titanverse content. This is a fresh angle: 'count how many apps you open.' Short, punchy single image. Dark purple background, bold white text showing the count of 5 systems. Titanverse logo. No UI screenshots — pure copy-led.",
+      "_action": "new post"
+    },
+    {
+      "name": "TITAN_Kanav_CaseStudy",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-05-26",
+      "status": "Not started",
+      "content_type": "Single Image",
+      "idea": "Case study from Kanav interview (May 2025 cohort). Read _interviews-processed/Kanav.md first before writing this. Extract the strongest tipping point + before/after numbers. Single image format — photo of Kanav at his pharmacy or branded dark background with key stat. Hook to be written from the brief.",
+      "_action": "new post"
+    },
+    {
+      "name": "TV_BroadwayPharmacy_MichaelBall_Spotlight",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-22",
+      "status": "Concept for Review",
+      "content_type": "Single Image",
+      "caption": "An honest review from a Director who just spent the afternoon with us.\n\n\"A platform built with operators in mind, not just designed in isolation.\"\n\nThat is from Michael Ball, Director at Cure Clinics, after hands-on time with Titanverse at Broadway Pharmacy.\n\nHe did not reach out to us.\nHe posted it publicly.\n\nWhat stood out was not the feature list.\n\nIt was the thinking behind it.\n\nA platform built for how pharmacy actually works.\nNot designed in isolation.\n\nThat is the only kind of feedback that matters.\n\n#Titanverse #PharmacyServices #CommunityPharmacy",
+      "idea": "Customer spotlight: Michael Ball, Director at Cure Clinics. Unsolicited public post about hands-on time with Titanverse at Broadway Pharmacy. MUST get permission from Michael via DM before scheduling. Single image: dark Titanverse background with his quote in large white bold text. His name and title below. Broadway Pharmacy / Cure Clinics credit at bottom. Titanverse logo bottom right. Only schedule this if Michael gives permission.",
+      "_action": "new post — requires Michael Ball permission before publishing"
+    },
+    {
+      "name": "TV_PharmAppy_Integration_May26",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-05-29",
+      "status": "Concept for Review",
+      "content_type": "Single Image",
+      "caption": "Pharmacy websites should not be separate from pharmacy services.\n\nWhen a patient books through PharmAppy, that consultation needs to live somewhere.\n\nNot in a separate system.\nNot manually transferred.\n\nWith Titanverse, it does.\n\nThe booking.\nThe consultation.\nThe record.\n\nConnected. From first click to final note.\n\nPriory Pharmacy is already live with this.\nBroadway is next.\n\n#Titanverse #PharmAppy #PharmacyServices",
+      "idea": "PharmAppy + Titanverse integration update. Priory Pharmacy live, Broadway next. Two logos connected by a line. Clean, minimal dark background. This is a soft product announcement post — the booking → consultation → record flow in one connected system. No UI screenshots needed.",
+      "_action": "new post"
+    },
+    {
+      "name": "TITAN_NewCohort_CaseStudy_Jun",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-06-02",
+      "status": "Not started",
+      "content_type": "Single Image",
+      "idea": "Case study post from the June 2025 interview cohort (Abel, Amanda, Andy, Anoop, Charlie, Ivan, Kate, Sharne). Note: these are mostly short testimonials from the implementation team, not full case studies like Prab/Sagar/Yusuf. Read _interviews-processed/ files for each. Pick the one with the clearest before/after moment — likely Abel or Kate based on the briefs. Do NOT use Prab/Sagar/Yusuf/Rahul material again. Write from whatever specific quote or outcome emerges from the brief.",
+      "_action": "new post — brief needs reviewing before caption is written"
+    },
+    {
+      "name": "TV_Yusuf_FollowUp_Jun",
+      "platform": ["LI-PAGE@titanverse"],
+      "date": "2026-06-05",
+      "status": "Not started",
+      "content_type": "Single Image",
+      "idea": "Follow-up from the Yusuf Titanverse interview (Yusuf-Titanverse-Full-Interview.txt). Read _interviews-processed/Yusuf.md. Extract a quote or moment that has NOT been used in any published Titanverse post yet. Single image quote format on dark background. This is a standalone quote post — no need for a full case study arc.",
+      "_action": "new post — check _interviews-processed/Yusuf.md first"
+    },
+    {
+      "name": "TITAN_158M_Clawback_Carousel",
+      "platform": ["LI-PAGE@titanpmr"],
+      "date": "2026-06-04",
+      "status": "Concept for Review",
+      "content_type": "Carousel Post",
+      "caption": "£158 million.\n\nThat is what pharmacies left on the table last year.\n\nNot through fraud.\nNot through negligence.\n\nThrough under-claiming.\n\nThe difference between pharmacies that lost money and those that didn't is not luck.\n\nSwipe to see what they did differently.\n\n💬 Has your pharmacy been hit by a clawback? Drop your experience in the comments.\n\n#PharmacyFirst #NHS #CommunityPharmacy #TitanPMR",
+      "idea": "The £158 million clawback carousel. Originally scheduled Jan 29 — never posted. Policy/finance angle. NHS reclaims underclaimed money from pharmacies. High-stakes education carousel. Structure: Hook (the £158m number) → What happened → Why it matters → What pharmacies at risk have in common → How to protect your income → How Titan tracks this → CTA (comment/engagement). Design: dark background, large £158m in white, each slide one step in the explanation.",
+      "_action": "new post — replaces the stale Jan 29 draft"
+    }
+  ]
+}

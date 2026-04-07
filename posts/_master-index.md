@@ -1,18 +1,18 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-03-03
+**Generated:** 2026-04-06
 
 This file gives Claude a single-read overview of all published content.
-For full post details, read the brand-specific indexes.
+For full post details, read the platform posts.json files.
 
-## Overview
+## LinkedIn
 
 | Brand | Posts | Impressions | Avg Engagement |
 |-------|-------|-------------|----------------|
-| Titan PMR | 241 | 451,487 | 20.8% |
+| Titan PMR | 245 | 451,487 | 20.8% |
 | Titanverse | 50 | 37,034 | 12.3% |
 
-## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)
+## Top 15 LinkedIn Posts (by engagement rate, min 100 impressions)
 
 [TITAN] ### 2025-07-17-carousel
 **Date:** 2025-07-17 | **Type:** carousel
@@ -104,7 +104,7 @@ For full post details, read the brand-specific indexes.
 **Reactions:** 22 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 670
 > POV: You start a consultation.  First...  Choose a template.   Titanverse listens.   Answers auto-fill as you go.   The summary is ready the moment you finish.   And AI is there if you want to dig dee...
 
-## Recent Posts (last 30 days from 2026-03-03)
+## Recent LinkedIn Posts (last 30 days from 2026-03-03)
 
 [TV] ### 2026-03-03-rahul-longform-video
 **Date:** 2026-03-03 | **Type:** video _(Notionsocial)_
@@ -116,9 +116,19 @@ For full post details, read the brand-specific indexes.
 **Views:** 830 | **Likes:** 10 | **Comments:** 0 | **Shares:** 4
 > We've been keeping a secret.  Some of you might have seen it last week.  A high-impact day of bold ideas and practical strategy centred on AI, supercharging your pharmacy for scalable, sustainable pro...
 
+[TITAN] ### 2026-03-02-titanup-2026-document
+**Date:** 2026-03-02 | **Type:** document _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> We've been keeping something quiet.  Some of you might have seen it last week.  A high-impact day of bold ideas and practical strategy centred on AI, supercharging your pharmacy for scalable, sustaina...
+
 [TITAN] ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
 **Date:** 2026-02-27 | **Type:** single-image _(Notionsocial)_
 **Views:** 1,158 | **Likes:** 18 | **Comments:** 0 | **Shares:** 7
+> Some of you missed it. Here's your chance. 👀
+
+[TITAN] ### 2026-02-27-some-of-you-missed-it-video
+**Date:** 2026-02-27 | **Type:** video _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > Some of you missed it. Here's your chance. 👀
 
 [TV] ### 2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image
@@ -129,6 +139,11 @@ For full post details, read the brand-specific indexes.
 [TITAN] ### 2026-02-26-for-titan-customers-only-scan-me
 **Date:** 2026-02-26 | **Type:** ? _(Notionsocial)_
 **Views:** 1,988 | **Likes:** 38 | **Comments:** 8 | **Shares:** 13
+> For TITAN customers only… scan me 👀
+
+[TITAN] ### 2026-02-26-for-titan-customers-only-scan-me-single-image
+**Date:** 2026-02-26 | **Type:** single-image _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > For TITAN customers only… scan me 👀
 
 [TV] ### 2026-02-26-for-titan-customers-only-scan-me
@@ -146,9 +161,14 @@ For full post details, read the brand-specific indexes.
 **Views:** 975 | **Likes:** 31 | **Comments:** 8 | **Shares:** 2
 > Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
 
-[TITAN] ### 2026-02-24-prab-bench-trap8pm-single-image
+[TITAN] ### 2026-02-25-some-things-matter-more-than-growth-video
+**Date:** 2026-02-25 | **Type:** video _(Notionsocial)_
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
+> Some things matter more than growth in pharmacy.  We see it every day with our customers.  Pharmacists finishing at 5. Owners who haven't worked a Saturday in months. Parents making it home for bedtim...
+
+[TITAN] ### 2026-02-24-if-it-wasnt-for-titan-prab-single-image
 **Date:** 2026-02-24 | **Type:** single-image _(Notionsocial)_
-**Views:** 1,936 | **Likes:** 43 | **Comments:** 11 | **Shares:** 3
+**Views:** 0 | **Likes:** 0 | **Comments:** 0 | **Shares:** 0
 > "If it wasn't for Titan, I'd have left pharmacy a long time ago."  That's Prab at Priory Pharmacy. And he means it.  He was checking baskets at 8pm every night. Buried in the dispensary. No time for p...
 
 [TV] ### 2026-02-23-fragmentation-observation-single-image
@@ -216,21 +236,35 @@ For full post details, read the brand-specific indexes.
 **Views:** 860 | **Likes:** 7 | **Comments:** 2 | **Shares:** 3
 > There’s someone in every pharmacy with a black book.  Patient names. Repeat patterns. Tricky meds. All in there somewhere. Or sometimes just in their head.  When they're off? Chaos. Orders get missed....
 
-## Content Type Distribution
+## LinkedIn Content Type Distribution
 
 | Type | Titan | Titanverse | Total |
 |------|-------|------------|-------|
 | carousel | 66 | 8 | 74 |
+| document | 1 | 0 | 1 |
 | image-gallery | 1 | 0 | 1 |
 | multi-image | 1 | 0 | 1 |
 | short_video | 1 | 5 | 6 |
-| single-image | 81 | 22 | 103 |
+| single-image | 82 | 22 | 104 |
 | unknown | 5 | 1 | 6 |
-| video | 86 | 14 | 100 |
+| video | 88 | 14 | 102 |
 
 ## File Locations
 
-- Full Titan index: `posts/linkedin/titan/published/_index.md`
-- Full Titanverse index: `posts/linkedin/titanverse/published/_index.md`
-- Aggregated metrics JSON: `analytics/aggregated-linkedin-metrics.json`
-- Notion export: `data/notion/notion_export.json`
+**LinkedIn (full data):**
+- `posts/linkedin/titan/published/posts.json` — Full Titan post data
+- `posts/linkedin/titanverse/published/posts.json` — Full Titanverse post data
+- `posts/linkedin/titan/published/_index.md` — Titan overview + top performers
+- `posts/linkedin/titanverse/published/_index.md` — Titanverse overview + top performers
+
+**Other platforms (posts.json per platform):**
+- `posts/tiktok/published/posts.json` — TikTok
+- `posts/instagram/published/posts.json` — Instagram
+- `posts/facebook/published/posts.json` — Facebook
+- `posts/youtube/longform/published/posts.json` — YouTube Long-form
+- `posts/youtube/shorts/published/posts.json` — YouTube Shorts
+- `posts/blog/published/posts.json` — Blog
+
+**Analytics:**
+- `analytics/aggregated-linkedin-metrics.json` — LinkedIn post-level aggregated metrics
+- `data/notion/notion_export.json` — Full Notion DB snapshot (live data: query Notion MCP)

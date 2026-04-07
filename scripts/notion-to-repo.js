@@ -54,13 +54,10 @@ const REFRESH_DAYS = (() => {
 })();
 
 // Platform tag → repo path mapping
+// LinkedIn only — other platforms excluded until API integrations are built
 const PLATFORM_MAP = {
   'LI-PAGE@titanpmr': { platform: 'linkedin', brand: 'titan', page: 'Titan PMR' },
   'LI-PAGE@titanverse': { platform: 'linkedin', brand: 'titanverse', page: 'Titanverse' },
-  'TIKTOK@titanpmr': { platform: 'tiktok', brand: null, page: 'Titan PMR' },
-  'YT@titanpmr': { platform: 'youtube', brand: null, page: 'Titan PMR' },
-  'IN@titanpmr': { platform: 'instagram', brand: null, page: 'Titan PMR' },
-  'FB@TITAN PMR': { platform: 'facebook', brand: null, page: 'Titan PMR' },
 };
 
 // Content type → asset_type mapping
