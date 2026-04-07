@@ -1,15 +1,19 @@
 # Caption Brief Template
 
-_Fill this in before writing any caption. The brief is the caption's skeleton — the faster you nail the brief, the faster the caption writes itself._
+_Fill this in before writing any caption. Start with the position — what Titan believes. The structure follows from that. If you can't articulate the position, the post isn't ready._
+
+_Read `titan-believes.md` before using this template._
 
 ---
 
 ## HOW TO USE THIS
 
-1. Copy the relevant brief section below (Single Image, Carousel, Video, Case Study, or Titanverse)
-2. Fill in every field — no blanks. If you don't know a field, that's a signal the post isn't ready yet.
-3. Paste into Claude chat with: "Write a LinkedIn caption using this brief:"
-4. Review against `patterns-from-winners.md` before publishing
+1. Open `titan-believes.md`. Find the belief this post is built around.
+2. Fill in POSITION and READER TENSION first — everything else flows from these.
+3. Copy the relevant brief section below and complete it.
+4. Hand to Claude with: "Write a LinkedIn caption using this brief:"
+
+**If you can't fill in POSITION and READER TENSION, the concept isn't ready. Don't write the post yet.**
 
 ---
 
@@ -19,43 +23,52 @@ _Fill this in before writing any caption. The brief is the caption's skeleton �
 POST TYPE: Single Image
 BRAND: [Titan PMR / Titanverse]
 DATE: [Target publish date]
-CAMPAIGN: [If applicable, e.g., TitanUp 2026 / none]
+CAMPAIGN: [If applicable, or none]
 
-CORE TOPIC:
-[One sentence. What is this post actually about?]
+TITAN'S POSITION IN THIS POST:
+[What does Titan believe that this post will demonstrate or defend?
+One sentence. Not what Titan does — what Titan thinks.
+E.g. "Titan believes that a pharmacist running 16,000 items with no overtime
+is the baseline, not the exceptional case — if the system is right."]
 
-HOOK TYPE:
-[Choose: Scene-Setting / Contrarian / Emotional / Stat-First / Other: ___]
+READER TENSION:
+[What does the target reader currently believe or feel that this post
+should shift? What's their before/after thinking?
+E.g. "They think high-volume pharmacy requires more staff.
+After reading, they should question whether it requires a better system."]
+
+THE MOMENT:
+[The specific real thing this post is about. A person, a number, an event,
+a policy development — something concrete and nameable.
+Not "the importance of AI in pharmacy." But "Sagar went from 4,000 to
+17,000 items with the same team."]
 
 HOOK (draft):
-[Write the first 1-2 lines now. If you can't write the hook, the concept isn't clear enough yet.]
+[Write the first 1-2 lines now. The hook should be the position or the
+moment stated as directly as possible. Not a question. Not a warm-up.
+If you can't write the hook without preamble, go back to POSITION.]
 
-THE MAIN THING THIS POST NEEDS TO DO:
-[Choose one: Educate / Build credibility / Drive a specific action / Build community / Celebrate a moment / Advocacy]
+KEY NUMBERS / SPECIFICS:
+[Before → after. Named outcomes. Specific data. No generics.]
 
 REAL PERSON / PHARMACY NAMED:
 [Name + pharmacy name, or "none"]
 
-KEY NUMBERS / SPECIFICS:
-[Any data points, before/after numbers, specific outcomes, stats]
-
 DIRECT QUOTE (if any):
-[Verbatim. Leave blank if none.]
+[Verbatim. Never paraphrased.]
 
 EMOTIONAL CORE:
-[What should the reader feel at the end? Validated / Inspired / Curious / Urged to act / Something else]
+[What should the reader feel at the end? Validated / Inspired /
+Urgency / Part of something / None — just informed]
 
 CTA TYPE:
 [Link / Demo / Question / Soft / None]
 
 CTA (draft):
-[Write the CTA line now.]
+[Write it. One line.]
 
 IMAGE DIRECTION:
-[Brief visual description — what's on the image? Real photo / branded graphic / illustration?]
-
-ALT TEXT:
-[Describe the image for accessibility — who's in it, what it shows, the key message.]
+[What's on the image? Real photo or graphic? What does it need to show?]
 
 HASHTAGS (3-8 max):
 #
@@ -74,50 +87,54 @@ BRAND: [Titan PMR / Titanverse]
 DATE: [Target publish date]
 CAMPAIGN: [If applicable, or none]
 
-CAROUSEL TYPE:
-[Choose: Case Study / Myth-Busting / Policy-Change / Cultural-Humour / Behind-the-Scenes]
+TITAN'S POSITION IN THIS POST:
+[What is Titan defending or advancing in this carousel?
+This determines the hook, the arc, and the final CTA.
+E.g. "Titan believes the Pharmacy First all-or-nothing threshold
+could break independent pharmacy the way NHS dentistry contracts broke dentistry."]
 
-CORE TOPIC:
-[One sentence — what story does this carousel tell?]
+READER TENSION:
+[What does the reader believe now? What should they believe after sliding through?]
+
+THE MOMENT / STORY:
+[One sentence — what is the carousel actually about?]
+
+CAROUSEL TYPE:
+[Case Study / Policy-Change / Myth-Busting / Movement / Cultural]
 
 HOOK (Slide 1 text):
-[The opening line that stops the scroll. Write it now.]
+[Write it now. From the position, not from the format.]
 
 SLIDE PLAN:
-Slide 1: [Hook / Setup]
-Slide 2: [Before / Problem / Myth 1]
-Slide 3: [Mechanism / Truth 1]
-Slide 4: [Outcome / Truth 2]
-Slide 5: [Data / Quote / Emotional validation]
-Slide 6: [Insight / broader meaning]
+Slide 1: [Hook / Position or Outcome]
+Slide 2: [The before / The problem / The myth]
+Slide 3: [The mechanism / The shift]
+Slide 4: [The evidence / The outcome]
+Slide 5: [The larger meaning — what this proves]
+Slide 6: [Quote or data point]
 Slide 7: [CTA]
 
 REAL PERSON / PHARMACY NAMED:
 [Name + pharmacy, or "none"]
 
 KEY NUMBERS:
-[Before → After, or specific data points per slide]
+[Before → after, or specific data per slide]
 
 DIRECT QUOTE:
-[Verbatim. For Slide 6 ideally.]
+[Verbatim. Slide 6 ideally.]
 
 CAPTION INTRO (2–4 lines):
-[The caption text that appears above the carousel. This is what shows in the feed before anyone swipes.]
+[The text above the carousel. Seen before anyone swipes.
+Should carry the position, not preview the slides.]
 
 CTA:
-[Which slide does it appear? What does it say?]
-
-ALT TEXT (per slide):
-Slide 1:
-Slide 2:
-Slide 3:
-[etc.]
+[Which slide? What does it say?]
 
 HASHTAGS (3-8 max):
 #
 
 DESIGN NOTES:
-[Any notes for After Effects / Cam. Colour palette, slide layout, typography notes.]
+[Notes for After Effects / Cam. Layout, palette, typography.]
 ```
 
 ---
@@ -128,37 +145,41 @@ DESIGN NOTES:
 POST TYPE: Video
 BRAND: [Titan PMR / Titanverse]
 DATE: [Target publish date]
-VIDEO TYPE: [Interview clip / Looping product demo / Short testimonial / Long-form]
+VIDEO TYPE: [Interview clip / Loop / Short testimonial / Long-form]
+
+TITAN'S POSITION IN THIS POST:
+[What does this video prove or defend? What belief does it advance?]
+
+READER TENSION:
+[What should the viewer think differently after watching?]
 
 FEATURED PERSON:
 [Name + role + pharmacy name]
 
-CORE MOMENT IN THE VIDEO:
-[What is the single most important thing said or shown? This determines the hook.]
+THE CORE MOMENT IN THE VIDEO:
+[The single most important thing said or shown. This is the hook.]
 
 HOOK (caption):
-[Write the first 1-2 lines of the caption — should reference what's in the video immediately.]
-
-WHAT THIS VIDEO PROVES:
-[What claim or outcome does this video evidence?]
+[First 1-2 lines. Should reference the core moment immediately.]
 
 KEY QUOTE (if clip):
-[Verbatim quote that appears in the video and/or should appear in caption.]
+[Verbatim — in the video and/or in the caption.]
 
 KEY NUMBERS:
-[Any metrics mentioned in the video — reference these in caption.]
+[Any metrics mentioned — name them in the caption.]
 
 CAPTION BODY:
-[2–4 lines expanding on the hook. Sets context for someone who doesn't watch.]
+[2-4 lines. Context for someone who doesn't watch.
+Must carry the position, not just describe the video.]
 
 CTA:
 [Watch / Book a demo / Read more / Question]
 
 TRANSCRIPT STATUS:
-[Have you added transcript.md to the post directory? Yes / No / In progress]
+[transcript.md added to post directory? Yes / No / In progress]
 
 ALT TEXT (visual description):
-[Who's on screen, setting, what message does the visual convey — for accessibility]
+[Who's on screen, setting, key visual message]
 
 HASHTAGS (3-8 max):
 #
@@ -169,56 +190,54 @@ HASHTAGS (3-8 max):
 ## BRIEF: CASE STUDY (Interview-Based)
 
 ```
-POST TYPE: [Single Image / Carousel / Video — choose one]
+POST TYPE: [Single Image / Carousel / Video]
 BRAND: [Titan PMR / Titanverse]
 DATE: [Target publish date]
-INTERVIEW FILE: [e.g., _interviews-raw/titan/case-studies/raw/Sagar-Full-Interview.txt]
-PROCESSED BRIEF: [e.g., _interviews-processed/Sagar.md]
+INTERVIEW FILE: [path]
+PROCESSED BRIEF: [_interviews-processed/Name.md]
+
+TITAN'S POSITION IN THIS POST:
+[What does this pharmacist's story prove that Titan believes?
+Not "Sagar grew his pharmacy." But what belief does his story vindicate?
+E.g. "80% of a pharmacist's time going to services is the default
+with the right infrastructure — not the miracle case."]
+
+READER TENSION:
+[What does the average independent pharmacy owner believe today
+that this story should challenge?]
 
 PHARMACIST:
 Name:
 Pharmacy:
 Location:
-Dispensing model (independent / group / etc.):
 
 BEFORE STATE:
 Items per month:
-Hours lost per week on admin/dispensing:
-Key pain point (one sentence):
-Tipping point moment (specific):
-
-TITAN ADOPTION:
-What triggered the switch:
-Which specific Titan feature/function changed the most:
+Key pain (one sentence):
+Tipping point moment (specific — not vague):
 
 AFTER STATE:
-Items per month now:
+Items per month:
 Hours saved per week:
 Services now running:
-Staff change (if any):
+What their day actually looks like now:
 
 BEST DIRECT QUOTE:
-[Verbatim — will appear in italics in the caption]
-
-EMOTIONAL SHIFT (in their words or paraphrased):
-[How do they feel now vs before?]
+[Verbatim. One sentence that only this person could have said.]
 
 BROADER VISION:
-[Where are they taking the pharmacy now?]
+[Where are they going now? What's possible that wasn't before?]
 
-FORMAT BEING WRITTEN:
-[ ] Single image — tell the before/after in one caption
-[ ] Carousel — full 6-7 slide arc
-[ ] Quote post — one quote + brief context
+FORMAT:
+[ ] Single image — one caption, before/after arc
+[ ] Carousel — full 6-7 slide story
+[ ] Quote post — one quote + tight context
 
 CAPTION HOOK (draft):
-[Write it now. If you can't hook it, go back and re-read the tipping point moment.]
+[Write it. Drop straight into the story. Name. Pharmacy. Before state or outcome.]
 
 CTA:
-[Link to full case study / book a demo / question]
-
-ALT TEXT:
-[Photo of the pharmacist in their pharmacy. Name visible? Setting?]
+[Link / Demo / Question]
 
 HASHTAGS:
 #
@@ -232,33 +251,39 @@ HASHTAGS:
 POST TYPE: [Single Image / Carousel / Video]
 BRAND: Titanverse
 DATE: [Target publish date]
-AUDIENCE LENS: [Pharmacy owner / Pharmacist / Tech decision-maker / General pharmacy]
+AUDIENCE: [Pharmacy owner / Pharmacist / Tech decision-maker]
+
+TITAN'S POSITION IN THIS POST:
+[What does Titanverse believe that this post advances?
+E.g. "Titanverse believes that fragmented pharmacy software doesn't just
+slow things down — it creates clinical risk by splitting the patient record."]
+
+READER TENSION:
+[What does the reader currently accept as normal that this post should challenge?]
 
 CORE TOPIC:
-[One sentence — what is this post about?]
+[One sentence — what is this post actually about?]
 
 TITANVERSE DIFFERENTIATOR REFERENCED:
-[Choose: All-in-one / No fragmentation / Consultation flow / AI transcription / PharmAppy integration / Services launch / Patient journey / Other: ___]
+[All-in-one / No fragmentation / Consultation flow / AI transcription /
+PharmAppy integration / Services launch / Patient journey / Other]
 
 HOOK (draft):
-[First 1-2 lines. Must reference a specific pain (fragmentation, tabs, double entry) or a specific outcome.]
+[From the position. Not from the feature list.]
 
 KEY PROOF:
-[Named customer / specific integration / measurable outcome. No post goes without this.]
+[Named customer / specific integration / measurable outcome. No generics.]
 
 DIRECT QUOTE OR NAMED REFERENCE:
-[Name + context, or "none"]
+[Name + context]
 
-CAPTION BODY (key points to hit):
+CAPTION BODY (key points):
 •
 •
 •
 
 CTA:
 [Link / Demo / Question]
-
-ALT TEXT:
-[Visual description + key message]
 
 HASHTAGS (3-8):
 #TitanVerse #PharmacyServices #CommunityPharmacy [add relevant]
@@ -268,17 +293,18 @@ HASHTAGS (3-8):
 
 ## BRIEF HEALTH CHECK
 
-Before handing the brief to Claude, check:
+Before handing to Claude:
 
-- [ ] The hook is written — not described ("it should open with a stat") but actually written
-- [ ] There is at least one real number or named person
-- [ ] The CTA is clear and singular — not two competing CTAs
-- [ ] Word count target is chosen
-- [ ] Alt text is written (don't skip this — it feeds accessibility and accessibility data feeds posts.json)
-- [ ] Hashtags are 3–8, not 15+
+- [ ] POSITION is written — one sentence, a real belief, not a feature description
+- [ ] READER TENSION is written — what they think now vs. what they should think after
+- [ ] THE MOMENT is concrete — a named person, a real number, a specific event
+- [ ] The hook is written — not described, actually written
+- [ ] At least one real number or named person
+- [ ] CTA is clear and singular
+- [ ] Hashtags are 3–8
 
-If any of these are blank, the post is not ready to be written yet.
+**If POSITION is empty, do not write the caption.** Find the belief first.
 
 ---
 
-_Cross-reference:_ `patterns-from-winners.md` for hook/voice/CTA patterns. `case-study-patterns.md` for interview → post extraction. `_interviews-processed/` for memory on each pharmacist.
+_Cross-reference:_ `titan-believes.md` for Titan's positions (read this first). `patterns-from-winners.md` for structure and voice. `case-study-patterns.md` for interview extraction. `_interviews-processed/` for per-pharmacist memory.

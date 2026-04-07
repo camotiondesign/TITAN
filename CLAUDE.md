@@ -1,6 +1,6 @@
 # TITAN Content Repo -- Claude Quick Reference
 
-Last updated: 2026-04-06 (caption toolkit + interview memory layer added)
+Last updated: 2026-04-07 (titan-believes.md added; brief-template position-first rewrite; voice analysis locked in)
 Notion sync: Manual (automated sync paused)
 
 ---
@@ -64,11 +64,18 @@ These are source material. Never edit them. The titan/titanverse split here is a
 ### Caption Toolkit (use for writing)
 | Path | What's in it |
 |------|-------------|
-| `_caption-toolkit/patterns-from-winners.md` | Hook patterns, body structure, CTA types, voice fingerprint — extracted from top 20 posts |
+| `_caption-toolkit/titan-believes.md` | **Start here.** Titan's actual positions on pharmacy — what the brand is willing to defend publicly. Every caption should be traceable to a belief in this file. |
+| `_caption-toolkit/brief-template.md` | Fill-in brief before writing any caption. Position-first structure. Single image / carousel / video / case study / Titanverse variants |
+| `_caption-toolkit/patterns-from-winners.md` | Hook patterns, body structure, CTA types, voice fingerprint — extracted from top performers. Includes inside vs. outside voice principle (Section 9). |
 | `_caption-toolkit/case-study-patterns.md` | Interview → post workflow, 7 types of extractable moments, 8-signal scoring system |
-| `_caption-toolkit/brief-template.md` | Fill-in brief before writing any caption. Single image / carousel / video / case study / Titanverse variants |
 
-**For Claude:** When Cam asks you to write a LinkedIn caption, read `brief-template.md` to know what info you need, and read `patterns-from-winners.md` to apply the right voice/structure.
+**For Claude:** When Cam asks you to write a LinkedIn caption:
+1. Read `titan-believes.md` — find the belief this post is built around
+2. Read `brief-template.md` — fill in POSITION and READER TENSION before anything structural
+3. Read `patterns-from-winners.md` — apply the right structure and voice
+4. For case studies: read `_interviews-processed/[Name].md` first
+
+**The position comes before the structure. Always.**
 
 ### Interview Memory Layer
 | Path | What's in it |
@@ -151,7 +158,7 @@ The only scripts in active use are those in the tables above (Notion sync, notio
 
 **Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then `posts/linkedin/[brand]/published/posts.json` for full post content. For a short metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing bulk analysis.
 
-**Caption writing workflow:** Read `_caption-toolkit/brief-template.md` first to get the brief structure, then `_caption-toolkit/patterns-from-winners.md` to apply the right voice. For case studies, read `_interviews-processed/[Name].md` before writing.
+**Caption writing workflow:** Read `_caption-toolkit/titan-believes.md` first — identify the belief the post will defend. Then `_caption-toolkit/brief-template.md` for the brief structure (position-first). Then `_caption-toolkit/patterns-from-winners.md` for voice and structure. For case studies, read `_interviews-processed/[Name].md` before writing. Writing starts from a position, not from a format choice.
 
 **Interview workflow:** When Cam brings a new interview, read `_caption-toolkit/case-study-patterns.md` for the extraction framework. Create a new `_interviews-processed/[Name].md` file. Then write captions from the brief.
 
