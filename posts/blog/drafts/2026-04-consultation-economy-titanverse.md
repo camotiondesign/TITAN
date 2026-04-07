@@ -24,21 +24,19 @@ And infrastructure, in this case, means software.
 
 Walk through what a consultation without integrated infrastructure actually looks like.
 
-A patient needs a weight management review. Here's how a pharmacy operating on disconnected systems handles it.
+A patient needs a weight management review. Here's how a pharmacy on disconnected systems handles it.
 
-**Booking.** A separate booking system, or a phone call, or a manual diary. Confirmation sent manually. Reminder sent manually, if at all. The patient arrives. Someone has to find the appointment.
+**Booking.** A separate booking system, or a phone call. Confirmation sent manually. The patient arrives. Someone has to find the appointment.
 
-**Template.** A consultation template opened in a browser — probably a generic clinical system or a PDF. The pharmacist works through it, typing as they go or scribbling notes to type up later. The template is not connected to the patient record.
+**Template.** A consultation template opened in a browser — a PDF, or a platform like PharmOutcomes. The pharmacist works through it manually. The template is not connected to the patient record.
 
-**Risk assessment.** Contraindication checking done mentally, or cross-referenced against a separate BNF tab or clinical resource. Nothing is auto-populated from the patient's existing record because the booking system and the clinical template don't share data.
+**Risk assessment.** Contraindication checking done against a separate BNF tab or clinical resource. Nothing auto-populated, because the booking system and the clinical template don't share data.
 
-**Prescription.** The pharmacist decides to prescribe. They switch to the EPS system — probably their PMR. They create a prescription from scratch, entering the patient details again, the medicine, the dose, the quantity. Nothing from the consultation has transferred automatically.
+**Prescription.** The pharmacist decides to prescribe. They switch to the PMR and create a prescription from scratch — patient details, medicine, dose, quantity. Nothing from the consultation has transferred.
 
-**PMR entry.** The prescription is now in the PMR. The consultation record is in the clinical template. The booking is in the booking system. None of them know about each other. Someone, at some point, will need to reconcile these records manually.
+**Filing.** The consultation notes need saving somewhere. A shared drive, a clinical system, or — in many pharmacies — a printed form in a ring binder.
 
-**Filing.** The consultation notes need to be saved somewhere accessible. A shared drive, a clinical system, or — in many pharmacies — a printed form in a ring binder.
-
-That is five or six distinct systems for one consultation. Each transition between systems is a cognitive interruption. Each data re-entry is a duplication risk. And the time cost of all of this — minutes per consultation, compounding across a day — is exactly why most pharmacies are capped on service volume before they've run out of clinical capacity.
+Five systems. Five transitions. Each one a cognitive interruption and a data re-entry risk. The time cost, compounding across a day, is exactly why most pharmacies cap service volume before they've run out of clinical capacity.
 
 ## What the Consultation Economy Actually Means
 

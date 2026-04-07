@@ -56,11 +56,11 @@ Running a two-site operation this way is inconvenient. Running a four, five, or 
 
 ## Jeet and Yamini's Operation in Leeds: What the Numbers Say
 
-Jeet runs Medichem — a four-pharmacy group across Leeds and the surrounding area. Before implementing hub and spoke on Titan PMR, the model looked familiar: branches operating independently, pharmacist staying until 11pm to clear the floor, no visibility between sites.
+Jeet runs Medichem — four pharmacies across Leeds. Before Titan PMR, branches operated in isolation. Jeet stayed until 11pm to clear the dispensary floor.
 
-"I had a young daughter who I don't think I've seen her grow that one year, because by the time I go home, she was off to bed. And by the time I moved out in the morning, she was still asleep."
+"I had a young daughter who I don't think I've seen her grow that one year, because by the time I go home, she was off to bed."
 
-The operational problem was clear. One branch could be overwhelmed with 1,000 prescriptions and two dispensers. A well-staffed branch 50 miles away had capacity and no way to help. No cross-site workflow meant no cross-site support.
+One branch overwhelmed with 1,000 prescriptions and two dispensers. A well-staffed branch nearby with capacity and no way to help. No cross-site workflow meant no cross-site support.
 
 The hub went live on Titan PMR. The numbers tell the story.
 

@@ -164,3 +164,126 @@ This is just making sure you get paid for it.
 
 #TitanPMR #PharmacyCashFlow #UncollectedPrescriptions #RepeatPrescriptions #PharmacyManagement
 
+---
+
+## Post 6: TV_SmartBooking — REWRITE
+**Brand:** Titanverse
+**Format:** Single Image
+**Scheduled:** Apr 7 (TODAY)
+**Notion name:** `TV_SmartBooking`
+**Reason for rewrite:** Hook "Patients book. You prepare. Nobody waits." is benefit-first — no tension, no before state. Reads like a feature spec sheet. No named person, no real problem established.
+
+---
+
+Walk-in. "Can I do a quick blood pressure check?"
+
+You're mid-dispensing review. Two more waiting. No pre-consultation record pulled up. No prep. The patient is already in the chair.
+
+The service is fine. But the experience isn't what it should be.
+
+Clinical services fail not because pharmacists can't deliver them. They fail because the operational layer around them is still built for walk-in dispensing.
+
+Booking changes the dynamic.
+
+When a patient books online, the consultation is confirmed before they arrive. Automatic confirmation sent. Pre-consultation record visible in Titanverse before they walk in.
+
+You're ready. They're ready. The 20-minute wait disappears.
+
+No scrambling. No "give me two minutes." No apologising for being unprepared.
+
+Just a clinical service that runs like one.
+
+👉 titanverse.co.uk
+
+#Titanverse #PharmacyServices #ClinicalServices #PharmacyFirst #PatientExperience
+
+---
+
+## Post 7: LEADERS_TariqVisionAI — REWRITE
+**Brand:** Titan PMR
+**Format:** Single Image
+**Scheduled:** Apr 13
+**Notion name:** `LEADERS_TariqVisionAI`
+**Reason for rewrite:** Hook "Pharmacy businesses today are facing the biggest challenges of their time" is the most generic opener possible — the exact pattern that underperforms. Buries the most interesting material (Tariq's actual strategic vision) under a cliché.
+
+---
+
+"We want to be an industry where we own the dispensing process. 100% in control. 0% involvement."
+
+That's not a provocation. That's a design principle.
+
+If a pharmacist is checking every label, every bag, every hand-to-patient exchange — the dispensing process hasn't been automated. It's been slightly accelerated.
+
+The goal is a dispensary that runs itself. Tech-qualified staff doing the physical work. Pharmacist available for clinical checks, not present for every step.
+
+That frees up the consultation room. The prescribing capacity. The services that actually generate margin.
+
+NHS income is being squeezed. Costs are going up. The pharmacies that survive won't be the ones that got more efficient at dispensing. They'll be the ones that stopped treating dispensing as the business.
+
+"Technology is not just something where you record your services. Technology is an enabler. Technology is the vehicle."
+
+— Tariq Muhammad, CEO, Titan PMR
+
+#TitanPMR #PharmacyLeadership #PharmacyServices #CommunityPharmacy #AI
+
+---
+
+## Post 8: TITANUP_FullAgenda — REWRITE
+**Brand:** Titan PMR
+**Format:** Single Image
+**Scheduled:** Apr 15
+**Notion name:** `TITANUP_FullAgenda`
+**Reason for rewrite:** "The full agenda is here" is a dead hook — no tension, no why-it-matters. Event posts need to sell the day, not announce the timetable.
+
+---
+
+Most pharmacy events are the same talk, repackaged.
+
+Same speakers. Same themes. Same conversation about "the future of pharmacy" that never quite arrives.
+
+June 7th is different.
+
+This is a day built around one question: what does a pharmacy look like when it actually works?
+
+Not aspirational. Operational.
+
+☕ Morning: Keynote from Tariq + special guest — industry perspective from someone who has been in the rooms where decisions get made
+🎤 Midday: Customer panels — real pharmacists, real numbers, real before/after
+💡 Afternoon: Services deep-dives and a product roadmap reveal
+🤝 Evening: The conversations that happen after the slides are off
+
+One day. Birmingham. June 7th.
+
+👉 titanpmr.com/titanup
+
+#TitanUp2026 #PharmacyEvent #PharmacyLeadership #TitanPMR
+
+---
+
+## Post 9: TITANUP_SpeakerSpotlight_External — REWRITE
+**Brand:** Titan PMR
+**Format:** Single Image
+**Scheduled:** May 11
+**Notion name:** `TITANUP_SpeakerSpotlight_External`
+**Reason for rewrite:** "Special guest speaker confirmed" is a placeholder announcement — no substance, no reason to care. Who is this person? Why does it matter? At minimum need to hint at the perspective they bring.
+**Note:** If speaker identity can be revealed by May 11, replace the first three lines with their name and title. If still under embargo, use the version below.
+
+---
+
+We don't usually bring in voices from outside pharmacy.
+
+This one is worth it.
+
+Our special guest for TitanUp 2026 has operated in high-pressure healthcare environments where the question isn't "should we use technology?" It's "why did it take this long?"
+
+They're not coming to tell pharmacy what to do. They're coming to show what's possible when a profession stops managing the system and starts building one.
+
+June 7th. Birmingham.
+
+This is the session that changes how you think about what comes next.
+
+👉 titanpmr.com/titanup
+
+#TitanUp2026 #PharmacyLeadership #TitanPMR
+
+
