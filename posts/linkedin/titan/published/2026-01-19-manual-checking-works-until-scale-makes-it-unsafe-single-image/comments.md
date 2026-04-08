@@ -8,4 +8,10 @@ Creative ID: 2026-01-19-manual-checking-works-until-scale-makes-it-unsafe-single
 
 ## Top-Level Comments
 
-No comments captured yet.
+### Hooman Ghalamkari
+**Role:** Chief Operations Officer for Implementations, Invatech Health Ltd
+**Connection:** 1st
+
+Barcode validation plus #Titan Workflow means no more picking, labelling or packaging errors. #Titanway
+
+*1 like*

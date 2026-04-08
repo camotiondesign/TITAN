@@ -7,6 +7,20 @@ Daily Notion sync: 7am GMT via GitHub Actions
 
 ## Where Things Are
 
+### Strategy & Planning
+| What | Path | Notes |
+|------|------|-------|
+| Monthly content formula | `content-formula.md` | **READ WHEN PLANNING.** 12 post types, tiered by performance, monthly templates for both brands, rotation rules, format mix targets. The source of truth for calendar structure. |
+| Caption voice guide | `voice-guide.md` | **READ WHEN WRITING.** Golden era voice analysis: sentence rhythm, tone, vocabulary, emoji rules, CTA patterns, beat sequences, retention moves, signature moves, anti-patterns, pre-publish voice check. Every caption must pass this. |
+| Brand positioning | `strategy/positioning.md` | Ecosystem narrative, Titan PMR positioning, Titanverse positioning, content framing questions. |
+| Writing influences | `strategy/writing-influences.md` | The three frameworks: Atkins (structure), Hasan (persuasion), Ranganathan (voice). Read for the WHY behind the voice guide. |
+| Anti-AI writing | `strategy/anti-ai-writing.md` | 13 categories of AI writing tells with phrase audit list. Run captions through this before publishing. |
+| Visual strategy | `strategy/visual-strategy.md` | Design rules, campaign visual worlds, carousel structure. |
+| Motion design guide | `strategy/motion-design.md` | Four layers (Idea, Structure, Design, Motion), storytelling techniques, failure modes, review questions. Essential for design briefs. |
+| Competitor audit | `analytics/competitor-social-audit.md` | ClickUp/Semrush/Hootsuite + UK pharmacy competitor analysis |
+| Pre-publish scorer | `scripts/score-post.js` | Score posts 0-50 before publishing (HOOK/HUMAN/SPECIFICITY/STAKES/FORMAT FIT) |
+| Pharmacy news scan | `scripts/pharmacy-news-scan.py` | Weekly Monday scan of UK pharmacy RSS feeds for reactive post ideas |
+
 ### Data (read often)
 | What | Path | Notes |
 |------|------|-------|
@@ -135,12 +149,14 @@ The only scripts in active use are those in the tables above (Notion sync, notio
 2. If Cam asks about published content performance: read `posts/_master-index.md` (one file, full summary)
 3. If Cam asks about a specific brand's posts: read `posts/linkedin/[brand]/published/_index.md`
 4. If Cam asks about scheduling or current posts: query Notion MCP directly (live data)
-5. If Cam asks about bulk analysis (6+ weeks of themes, customer rotation): read `data/notion/notion_export.json`
-6. If Cam asks about a specific post's details: check the individual post directory in `posts/linkedin/[brand]/published/[slug]/`
-7. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
+5. If Cam asks about planning a month or calendar structure: read `content-formula.md` first, then query Notion
+6. If Cam asks about bulk analysis (6+ weeks of themes, customer rotation): read `data/notion/notion_export.json`
+7. If Cam asks about a specific post's details: check the individual post directory in `posts/linkedin/[brand]/published/[slug]/`
+8. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
+9. If Cam asks to create or plan new posts: check `content-formula.md` for which post type fits the next open slot
 
 **Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then brand `_index.md` if needed. For a short metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing a bulk or query-style analysis.
 
 **Never browse post directories one by one.** Always start with `_index.md` files.
 
-Strategy, voice guide, curriculum trackers, quote banks, and posting cadence rules are all in the Claude Project files, not the repo. Don't look for them here.
+Strategy, voice guide, positioning, writing influences, anti-AI writing guide, visual strategy, and motion design guide all live in the repo now (`voice-guide.md`, `content-formula.md`, `strategy/`). The repo is the single source of truth.

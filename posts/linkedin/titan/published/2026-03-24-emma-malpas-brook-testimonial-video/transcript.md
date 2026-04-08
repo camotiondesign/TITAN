@@ -1,0 +1,3 @@
+# Transcript – Emma, Dispensing Manager, Malpas Brook Pharmacy
+
+When I started here we were on ProScript which was really difficult to use compared to Titan. It's definitely a demanding industry but I think with Titan it allows you to plan your day a little bit easier. You can see exactly where everything is on the board so you're not spending loads of time looking for prescriptions or like when people come in you can see exactly in the process where it is, if it's still with the doctors or if it's part dispensed, where in the building that is. So it saves time then for patients when they're coming in. They haven't gotta be waiting around. They can have an answer straight away. Simple really, just go onto Titan 'cause it's just so easy to use.

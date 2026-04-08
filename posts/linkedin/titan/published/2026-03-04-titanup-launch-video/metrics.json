@@ -1,0 +1,58 @@
+{
+  "platform": "linkedin",
+  "post_url": "",
+  "posted_at": "2026-03-04",
+  "campaign_slug": "2026-03-04-titanup-launch-video",
+  "asset_type": "video",
+  "boosted": true,
+  "sponsored_dates": {
+    "start": "2026-03-04",
+    "end": "2026-03-11"
+  },
+  "notionsocial": null,
+  "platform_api": {
+    "source": "linkedin_api",
+    "synced_at": "2026-04-07",
+    "impressions": 14311,
+    "reach": 0,
+    "clicks": 55,
+    "ctr": 0,
+    "reactions": 20,
+    "comments": 0,
+    "reposts": 4,
+    "follows": 0,
+    "engagements": 82,
+    "engagement_rate": 0,
+    "organic": {
+      "impressions": 882,
+      "reach": 458,
+      "engagements": 67,
+      "engagement_rate": 7.6,
+      "clicks": 43,
+      "click_through_rate": 4.9,
+      "reactions": 20,
+      "comments": 0,
+      "reposts": 4,
+      "page_viewers": 3,
+      "followers_gained": 0,
+      "video_views": 475,
+      "watch_time_total": "1h 28m 33s",
+      "average_watch_time_seconds": 11
+    },
+    "sponsored": {
+      "impressions": 13429,
+      "engagements": 15,
+      "engagement_rate": 0.1,
+      "clicks": 12,
+      "click_through_rate": 0.1,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "video_views": 0,
+      "ecpm": 4.77,
+      "cost_per_engagement": 4.27,
+      "spend": 0
+    }
+  },
+  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Boosted 3/4-3/11. Organic: 882 impressions, 7.6% engagement. Sponsored: 13,429 impressions, 0.1% engagement. All reactions/comments/reposts came from organic."
+}

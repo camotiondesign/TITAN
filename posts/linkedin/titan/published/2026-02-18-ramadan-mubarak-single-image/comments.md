@@ -1,11 +1,11 @@
-# Linkedin Comments – TITAN_RamadanMubarak
+# LinkedIn Comments – Ramadan Mubarak - Single Image
 
 Post date: 2026-02-18
-Platform: Linkedin
+Platform: LinkedIn
 Creative ID: 2026-02-18-ramadan-mubarak-single-image
 
 ---
 
 ## Top-Level Comments
 
-No comments captured yet.
+No comments.

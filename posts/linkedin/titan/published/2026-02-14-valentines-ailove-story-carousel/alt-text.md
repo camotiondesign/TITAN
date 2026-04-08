@@ -64,4 +64,23 @@ TONE: Funny, warm, self-aware. Every joke is a real Titan AI benefit in disguise
 
 ## Alt Text
 
-Alt text to be added after asset is finalised.
+### Slide 1
+Romantic film-style poster showing a man in a suit standing in a warmly lit pharmacy, facing a glowing computer screen. Text at the top reads, "This Valentine's Day… one pharmacist found the one." Large title reads "Me & AI" with the subtitle "A Pharmacy Love Story". TITAN logo bottom left.
+
+### Slide 2
+Dramatic poster-style image of a man in a pharmacy tearing up paperwork as paper flies around him. Large text reads, "10 Things I Hate About My Old PMR". Smaller text below says, "Paper trails. Chasing. Late finishes. But then I met Titan." TITAN logo bottom left.
+
+### Slide 3
+Cinematic image of a man and woman leaning across a pharmacy counter and looking at each other, with shelves of medicines behind them. Text at the top reads, "You had me at 'batch complete'." Large title reads, "Crazy, Stupid, Workflow". TITAN logo bottom left.
+
+### Slide 4
+Movie-poster style image of a couple embracing in the rain. One person holds a white bag marked with an Rx symbol. Large title reads, "The Logbook". Smaller text says, "She checked every script by hand. Until AI said… I'll do it." TITAN logo bottom left.
+
+### Slide 5
+Parody poster showing a suited man standing at the bow of a ship with his arms outstretched, holding a green pharmacy cup in one hand and a prescription bottle in the other. A TITAN screen glows behind him. Large title reads, "Titan-ic". Smaller text says, "I'll never let go… of your repeat prescriptions." TITAN logo bottom left.
+
+### Slide 6
+Warmly lit image of a man leaving through pharmacy doors into the sunset with a bag over his shoulder. Large text reads, "Cleared actually". Smaller text says, "Friday 5pm. No baskets. No backlog. It's actually happening." TITAN logo bottom left.
+
+### Slide 7
+Closing slide on a dark blue to black gradient background with the large TITAN logo at the top and the line, "Coming soon to a pharmacy near you". Three five-star testimonial quotes are shown below, attributed to Prab, Jeet and Malia, praising TITAN PMR.

@@ -1,12 +1,11 @@
 {
-  "platform": "Linkedin",
-  "asset_type": "single-image",
-  "theme": "",
-  "campaign": "",
-  "status": "published",
-  "published_at": "2026-02-18",
+  "title": "Ramadan Mubarak",
+  "slug": "2026-02-18-ramadan-mubarak-single-image",
+  "date": "2026-02-18",
+  "platform": "linkedin",
   "brand": "titan",
-  "page": "Titan PMR",
-  "notion_id": "304f423b-ea8b-8157-b155-c93752e431ab",
-  "notion_url": "https://www.notion.so/TITAN_RamadanMubarak-304f423bea8b8157b155c93752e431ab"
+  "content_type": "single-image",
+  "notion_name": "",
+  "notion_id": "",
+  "status": "published"
 }

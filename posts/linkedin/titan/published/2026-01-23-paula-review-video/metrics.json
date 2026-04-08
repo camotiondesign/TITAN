@@ -15,32 +15,32 @@
   },
   "platform_api": {
     "source": "linkedin_api",
-    "synced_at": "",
-    "impressions": 0,
-    "reach": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "reactions": 0,
+    "synced_at": "2026-04-07",
+    "impressions": 505,
+    "reach": 304,
+    "clicks": 24,
+    "ctr": 4.8,
+    "reactions": 4,
     "comments": 0,
-    "reposts": 0,
+    "reposts": 2,
     "follows": 0,
-    "engagements": 0,
-    "engagement_rate": 0,
+    "engagements": 30,
+    "engagement_rate": 5.9,
     "organic": {
-      "impressions": 0,
-      "reach": 0,
-      "engagements": 0,
-      "engagement_rate": 0,
-      "clicks": 0,
-      "click_through_rate": 0,
-      "reactions": 0,
+      "impressions": 505,
+      "reach": 304,
+      "engagements": 30,
+      "engagement_rate": 5.9,
+      "clicks": 24,
+      "click_through_rate": 4.8,
+      "reactions": 4,
       "comments": 0,
-      "reposts": 0,
-      "page_viewers": 0,
+      "reposts": 2,
+      "page_viewers": 1,
       "followers_gained": 0,
-      "video_views": 0,
-      "watch_time_total": "",
-      "average_watch_time_seconds": 0
+      "video_views": 203,
+      "watch_time_total": "34m 22s",
+      "average_watch_time_seconds": 10
     },
     "sponsored": {
       "impressions": 0,
@@ -57,5 +57,5 @@
       "spend": 0
     }
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Backfilled from LinkedIn admin analytics 2026-04-07."
 }

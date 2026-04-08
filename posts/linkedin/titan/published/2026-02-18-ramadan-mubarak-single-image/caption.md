@@ -1,12 +1,12 @@
-# Linkedin Caption – TITAN_RamadanMubarak
+# LinkedIn Caption – Ramadan Mubarak - Single Image
 
 Post date: 2026-02-18
-Platform: Linkedin
+Platform: LinkedIn
 Creative ID: 2026-02-18-ramadan-mubarak-single-image
 
 ---
 
-Ramadan Mubarak. 🌙
+Ramadan Mubarak.
 
 For the next 30 days, thousands of pharmacy team members across the UK will fast from dawn to sunset.
 

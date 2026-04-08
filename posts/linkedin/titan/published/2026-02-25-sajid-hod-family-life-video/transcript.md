@@ -1,0 +1,3 @@
+# Transcript – Sajid Ramzan, Head Office Day
+
+Some of those stories are hit home for me. It's not even that I grew my business. I was able to empower my staff. You know what the stories I really love, which hit me because, as a family man and a father of four kids, is pharmacist just saying, like, I get to go home on time. I don't have to work weekends. I don't need to come in early. These are the stories what we're looking at, because at the end of the day, business is business, but at the end of the you want to enjoy your family life as well. And I love the fact that Titan customers find themselves that they got the efficiencies, they got the safety, but they get to go home on time. That's the story for me. That's the success.

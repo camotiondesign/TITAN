@@ -8,4 +8,4 @@ LinkedIn clip. Sunil on high-volume branches now operating without double pharma
 
 ## Alt Text
 
-Alt text to be added after asset is finalised.
+Video clip from TITAN Head Office Day showing Sunil from Hollowood Chemist speaking to camera about operating high-volume branches without double pharmacist cover, using Titan AI to free up clinical time for services.

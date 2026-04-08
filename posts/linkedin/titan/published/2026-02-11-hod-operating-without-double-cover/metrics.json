@@ -3,7 +3,7 @@
   "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427279349625663488",
   "posted_at": "2026-02-11",
   "campaign_slug": "2026-02-11-hod-operating-without-double-cover",
-  "asset_type": "",
+  "asset_type": "video",
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
@@ -15,32 +15,32 @@
   },
   "platform_api": {
     "source": "linkedin_api",
-    "synced_at": "",
-    "impressions": 0,
-    "reach": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "reactions": 0,
-    "comments": 0,
-    "reposts": 0,
-    "follows": 0,
-    "engagements": 0,
-    "engagement_rate": 0,
+    "synced_at": "2026-04-07",
+    "impressions": 1130,
+    "reach": 654,
+    "clicks": 94,
+    "ctr": 8.3,
+    "reactions": 24,
+    "comments": 1,
+    "reposts": 2,
+    "follows": 1,
+    "engagements": 121,
+    "engagement_rate": 10.7,
     "organic": {
-      "impressions": 0,
-      "reach": 0,
-      "engagements": 0,
-      "engagement_rate": 0,
-      "clicks": 0,
-      "click_through_rate": 0,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
-      "page_viewers": 0,
-      "followers_gained": 0,
-      "video_views": 0,
-      "watch_time_total": "",
-      "average_watch_time_seconds": 0
+      "impressions": 1130,
+      "reach": 654,
+      "engagements": 121,
+      "engagement_rate": 10.7,
+      "clicks": 94,
+      "click_through_rate": 8.3,
+      "reactions": 24,
+      "comments": 1,
+      "reposts": 2,
+      "page_viewers": 3,
+      "followers_gained": 1,
+      "video_views": 350,
+      "watch_time_total": "1h 54m 9s",
+      "average_watch_time_seconds": 19
     },
     "sponsored": {
       "impressions": 0,
@@ -57,5 +57,5 @@
       "spend": 0
     }
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Backfilled from LinkedIn admin analytics 2026-04-07."
 }

@@ -1,9 +1,3 @@
-# TITAN_RamadanMubarak – Alt Text
+# Ramadan Mubarak - Single Image – Alt Text
 
-## Design Brief (from Notion)
-
-Single image. Warm, respectful recognition of pharmacy staff fasting during Ramadan. Not a greeting card, it's a nod to the invisible effort. Dark background, crescent moon motif, clean typography. No product mention. Community-first.
-
-## Alt Text
-
-Alt text to be added after asset is finalised.
+Decorative Ramadan greeting graphic showing a crescent moon in a starry night sky above glowing lanterns, hanging stars, candles, dates and pastries arranged on a table. Gold text in the centre reads, "Ramadan Mubarak from Titan".
