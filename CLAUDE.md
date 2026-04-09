@@ -17,6 +17,7 @@ Daily Notion sync: 7am GMT via GitHub Actions
 | Anti-AI writing | `strategy/anti-ai-writing.md` | 13 categories of AI writing tells with phrase audit list. Run captions through this before publishing. |
 | Visual strategy | `strategy/visual-strategy.md` | Design rules, campaign visual worlds, carousel structure. |
 | Motion design guide | `strategy/motion-design.md` | Four layers (Idea, Structure, Design, Motion), storytelling techniques, failure modes, review questions. Essential for design briefs. |
+| Thought leadership / blog | `strategy/thought-leadership.md` | **READ WHEN WRITING BLOGS.** Four pillars, topic lists, cadence, structure, voice rules, AEO targets, blog-to-LinkedIn workflow. |
 | Competitor audit | `analytics/competitor-social-audit.md` | ClickUp/Semrush/Hootsuite + UK pharmacy competitor analysis |
 | Pre-publish scorer | `scripts/score-post.js` | Score posts 0-50 before publishing (HOOK/HUMAN/SPECIFICITY/STAKES/FORMAT FIT) |
 | Pharmacy news scan | `scripts/pharmacy-news-scan.py` | Weekly Monday scan of UK pharmacy RSS feeds for reactive post ideas |
@@ -154,6 +155,7 @@ The only scripts in active use are those in the tables above (Notion sync, notio
 7. If Cam asks about a specific post's details: check the individual post directory in `posts/linkedin/[brand]/published/[slug]/`
 8. If Cam asks to create a design: check designs path table above, create .jsx, push to correct folder
 9. If Cam asks to create or plan new posts: check `content-formula.md` for which post type fits the next open slot
+10. If Cam asks to write a blog / thought leadership piece: read `strategy/thought-leadership.md` for structure, pillars, voice rules, and the blog-to-LinkedIn workflow
 
 **Analysis workflow (performance / verdict):** Read `posts/_master-index.md` first; then brand `_index.md` if needed. For a short metrics summary use `analytics/linkedin-metrics-summary.md` if present. Do not read the full `data/notion/notion_export.json` or `analytics/aggregated-linkedin-metrics.json` unless doing a bulk or query-style analysis.
 

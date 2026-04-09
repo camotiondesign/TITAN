@@ -264,6 +264,40 @@ This formula exists to prevent all seven.
 
 ---
 
+## Blog / Thought Leadership (Monthly)
+
+LinkedIn is the engine. Blog is the depth.
+
+**Target: 2 blog posts per month.** Cam writes these — Claude structures and edits.
+
+Full strategy, topic lists, workflow, and voice rules: `strategy/thought-leadership.md`
+
+### How it integrates with the monthly plan
+
+Each blog post generates 2-3 LinkedIn posts (carousel from the core argument, quote card from a key stat, customer quote card if applicable). These fill existing formula slots — they don't create new ones.
+
+| Monthly step | What happens |
+|-------------|-------------|
+| Month start | Pick 2 topics from the pillar list (see thought-leadership.md). Rotate pillars quarterly. |
+| Week 1-2 | Cam drafts Post 1. Claude edits. Publish. Create LinkedIn derivatives for formula slots. |
+| Week 3-4 | Cam drafts Post 2. Claude edits. Publish. Create LinkedIn derivatives for formula slots. |
+
+### The four pillars (rotate 2 per month)
+
+1. **Industry Lens** — what's happening in pharmacy and what it means for owners
+2. **Operational Thinking** — how modern pharmacies actually run (from 1,000+ implementations)
+3. **AI in Pharmacy** — where AI is going in community pharmacy, not just what Titan AI does
+4. **Services & Clinical Practice** — how pharmacy is shifting from dispensing to clinical delivery
+
+### Monthly planning addition
+
+Add to the monthly planning checklist:
+- [ ] Pick 2 blog topics from different pillars
+- [ ] Check which LinkedIn slots the blog derivatives will fill (usually Industry Stance or Thought Leadership slots)
+- [ ] Schedule blog publish dates for weeks 2 and 4
+
+---
+
 ## Applied Example: April 2026
 
 First month implemented with the formula. Brand days separated to maximise feed presence.
