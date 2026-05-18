@@ -1,8 +1,8 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-05-11 10:39 UTC
+**Scan date:** 2026-05-18 11:08 UTC
 **Period:** Last 7 days
-**Total articles found:** 31
+**Total articles found:** 33
 
 ---
 
@@ -22,21 +22,7 @@
 
 ---
 
-### 2. Mapping the landscape: an insight into women’s health pharmacy staffing across the UK
-
-- **Source:** Pharmaceutical Journal
-- **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/opinion/mapping-the-landscape-an-insight-into-womens-health-pharmacy-staffing-across-the-uk
-- **Score:** 4 (MEDIUM)
-- **Topics:** Workforce / staffing / locum (2pt), General pharmacy news (2pt)
-
-**Why it's relevant:** Frame around efficiency: Titan reduces the team hours needed for dispensing, making understaffed pharmacies viable. 'When you can't hire more people, make the people you have more effective.'
-
-**Suggested format:** Quote card or video (real pharmacist reaction)
-
----
-
-### 3. Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expansion
+### 2. Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expansion
 
 - **Source:** NHS England Pharmacy
 - **Date:** Recent
@@ -52,11 +38,25 @@
 
 ---
 
-### 4. Seven men sentenced after MHRA seizes 130,000 doses of unauthorised medicines
+### 3. NHS England workforce plan expected in June 2026
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/news/seven-men-sentenced-after-mhra-seizes-130000-doses-of-unauthorised-medicines
+- **URL:** https://pharmaceutical-journal.com/article/news/nhs-england-workforce-plan-expected-in-june-2026
+- **Score:** 3 (LOW)
+- **Topics:** Workforce / staffing / locum (2pt), General pharmacy news (1pt)
+
+**Why it's relevant:** Frame around efficiency: Titan reduces the team hours needed for dispensing, making understaffed pharmacies viable. 'When you can't hire more people, make the people you have more effective.'
+
+**Suggested format:** Quote card or video (real pharmacist reaction)
+
+---
+
+### 4. Are electronic prescribing systems increasing the risk of ‘look-alike sound-alike’ medication errors?
+
+- **Source:** Pharmaceutical Journal
+- **Date:** Recent
+- **URL:** https://pharmaceutical-journal.com/article/feature/are-electronic-prescribing-systems-increasing-the-risk-of-look-alike-sound-alike-medication-errors
 - **Score:** 3 (LOW)
 - **Topics:** Safety / near miss / patient safety (3pt)
 
@@ -66,19 +66,17 @@
 
 ---
 
-### 5. Pulsesight reports positive phase 1 data for PST‑611 in dry AMD
+### 5. Meet your negotiators: ask questions, challenge and hold us to account at your Regional Roadshow
 
-- **Source:** PharmaTimes
-- **Date:** 2026-05-11
-- **URL:** https://pharmatimes.com/news/pulsesight-reports-positive-phase-1-data-for-pst-611-in-dry-amd/
+- **Source:** Community Pharmacy England (PSNC)
+- **Date:** Recent
+- **URL:** https://cpe.org.uk/our-work/updates-events/our-events/regional-roadshows/
 - **Score:** 3 (LOW)
-- **Topics:** Funding / clawback / reimbursement (3pt)
+- **Topics:** Policy / contract dispute (3pt)
 
-> Early safety and efficacy signals support move into repeat‑dose phase 2a trial
+**Why it's relevant:** Position Titan PMR as the tool that helps pharmacies adapt to contract changes -- show how digital workflows make compliance with new requirements easier and protect revenue.
 
-**Why it's relevant:** Tie to Titan's ability to track every item, flag discrepancies, and protect pharmacies from clawback. 'You can't fight what you can't see -- Titan makes it visible.'
-
-**Suggested format:** Carousel with numbers or stance post
+**Suggested format:** Stance post (bold text overlay) or carousel breaking down the changes
 
 ---
 
@@ -121,36 +119,38 @@ If not, that's your starting point.
 | Score | Tier | Source | Title |
 |-------|------|--------|-------|
 | 8 | HIGH | NHS England Pharmacy | [Community Pharmacy Contractual Framework: 2024 to 2025 and 2025 to 2026 - GOV.UK](https://www.gov.uk/government/publications/community-pharmacy-contractual-framework-2024-to-2025-and-2025-to-2026/community-pharmacy-contractual-framework-2024-to-2025-and-2025-to-2026) |
-| 4 | MEDIUM | Pharmaceutical Journal | [Mapping the landscape: an insight into women’s health pharmacy staffing across t...](https://pharmaceutical-journal.com/article/opinion/mapping-the-landscape-an-insight-into-womens-health-pharmacy-staffing-across-the-uk) |
 | 4 | MEDIUM | NHS England Pharmacy | [Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expa...](https://www.england.nhs.uk/2025/10/free-morning-after-pill-women-high-street-pharmacies-nhs-expansion/) |
-| 3 | LOW | Pharmaceutical Journal | [Seven men sentenced after MHRA seizes 130,000 doses of unauthorised medicines](https://pharmaceutical-journal.com/article/news/seven-men-sentenced-after-mhra-seizes-130000-doses-of-unauthorised-medicines) |
-| 3 | LOW | PharmaTimes | [Pulsesight reports positive phase 1 data for PST‑611 in dry AMD](https://pharmatimes.com/news/pulsesight-reports-positive-phase-1-data-for-pst-611-in-dry-amd/) |
+| 3 | LOW | Pharmaceutical Journal | [NHS England workforce plan expected in June 2026](https://pharmaceutical-journal.com/article/news/nhs-england-workforce-plan-expected-in-june-2026) |
+| 3 | LOW | Pharmaceutical Journal | [Are electronic prescribing systems increasing the risk of ‘look-alike sound-alik...](https://pharmaceutical-journal.com/article/feature/are-electronic-prescribing-systems-increasing-the-risk-of-look-alike-sound-alike-medication-errors) |
+| 3 | LOW | Community Pharmacy England (PSNC) | [Meet your negotiators: ask questions, challenge and hold us to account at your R...](https://cpe.org.uk/our-work/updates-events/our-events/regional-roadshows/) |
+| 3 | LOW | PharmaTimes | [MHRA to open new Northern Ireland hub to strengthen UK‑wide life sciences collab...](https://pharmatimes.com/news/mhra-to-open-new-northern-ireland-hub-to-strengthen-uk-wide-life-sciences-collaboration/) |
+| 2 | LOW | Pharmaceutical Journal | [The Pharmaceutical Journal’s digital art editor wins British Society of Magazine...](https://pharmaceutical-journal.com/article/news/the-pharmaceutical-journals-digital-art-editor-wins-british-society-of-magazine-editors-award) |
+| 2 | LOW | Pharmaceutical Journal | [Pharmacy sector warns of ‘more uncertainty’ as Wes Streeting resigns as health s...](https://pharmaceutical-journal.com/article/news/pharmacy-sector-warns-of-more-uncertainty-as-wes-streeting-resigns-as-health-secretary) |
 | 2 | LOW | Pharmaceutical Journal | [Is pharmacy education preparing pharmacists for the cognitive demands of modern ...](https://pharmaceutical-journal.com/article/opinion/is-pharmacy-education-preparing-pharmacists-for-the-cognitive-demands-of-modern-practice) |
 | 2 | LOW | Pharmaceutical Journal | [From competence to confidence: supporting foundation trainees to become cultural...](https://pharmaceutical-journal.com/article/opinion/from-competence-to-confidence-supporting-foundation-trainees-to-become-culturally-competent-independent-prescribers) |
-| 1 | LOW | Pharmaceutical Journal | [Royal College of Pharmacy calls for full pharmacy student access to Learning Sup...](https://pharmaceutical-journal.com/article/news/royal-college-of-pharmacy-calls-for-full-pharmacy-student-access-to-learning-support-fund) |
-| 1 | LOW | Pharmaceutical Journal | [‘Australia’s largest discount pharmacy chain’ to enter UK market](https://pharmaceutical-journal.com/article/news/australias-largest-discount-pharmacy-chain-to-enter-uk-market) |
-| 1 | LOW | Pharmaceutical Journal | [Health news round-up: tobacco and vapes bill, unlicensed emergency medicine and ...](https://pharmaceutical-journal.com/article/news/health-news-round-up-tobacco-and-vapes-bill-unlicensed-emergency-medicine-and-glp-1s-in-pregnancy) |
+| 1 | LOW | Pharmaceutical Journal | [Pharmacy regulator signs up to shared anti-racism principles](https://pharmaceutical-journal.com/article/news/pharmacy-regulator-signs-up-to-shared-anti-racism-principles) |
 | 1 | LOW | Pharmaceutical Journal | [What’s next for a community pharmacist prescribing service in England?](https://pharmaceutical-journal.com/article/feature/whats-next-for-a-community-pharmacist-prescribing-service-in-england) |
 | 1 | LOW | Pharmaceutical Journal | [The Royal College of Pharmacy: a new era](https://pharmaceutical-journal.com/article/feature/the-royal-college-of-pharmacy-a-new-era) |
+| 1 | LOW | Pharmaceutical Journal | [Why clinical mentorship should be embedded into community pharmacist prescribing](https://pharmaceutical-journal.com/article/opinion/why-clinical-mentorship-should-be-embedded-into-community-pharmacist-prescribing) |
+| 1 | LOW | Pharmaceutical Journal | [Pharmacists as antimicrobial stewards: ‘the bug stops here’](https://pharmaceutical-journal.com/article/opinion/pharmacists-as-antimicrobial-stewards-the-bug-stops-here) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacy research must help shape the profession’s next chapter](https://pharmaceutical-journal.com/article/opinion/pharmacy-research-must-help-shape-the-professions-next-chapter) |
+| 1 | LOW | PharmaTimes | [Cellbxhealth partners with AdventHealth on CTC‑based monitoring in two major can...](https://pharmatimes.com/news/cellbxhealth-partners-with-adventhealth-on-ctc-based-monitoring-in-two-major-cancer-studies/) |
+| 1 | LOW | PharmaTimes | [SMC backs first-line metastatic bladder cancer combination after trial results](https://pharmatimes.com/news/smc-backs-first-line-metastatic-bladder-cancer-combination-after-trial-results/) |
 | 1 | LOW | NHS England Pharmacy | [Pharmacy services](https://www.england.nhs.uk/primary-care/pharmacy/pharmacy-services/) |
-| 0 | LOW | Pharmaceutical Journal | [OTC medicines spend reduced for second year running](https://pharmaceutical-journal.com/article/news/otc-medicines-spend-reduced-for-second-year-running) |
-| 0 | LOW | Pharmaceutical Journal | [National formulary should be integrated into electronic prescribing, paediatric ...](https://pharmaceutical-journal.com/article/news/national-formulary-should-be-integrated-into-electronic-prescribing-paediatric-bodies-say) |
-| 0 | LOW | Pharmaceutical Journal | [Nasal decongestant spray use limited to five days](https://pharmaceutical-journal.com/article/news/nasal-decongestant-spray-use-limited-to-five-days) |
+| 0 | LOW | Pharmaceutical Journal | [King’s speech promises single patient record within two years for certain patien...](https://pharmaceutical-journal.com/article/news/kings-speech-promises-single-patient-record-within-two-years-for-certain-patients) |
+| 0 | LOW | Pharmaceutical Journal | [Newborns given precautionary antibiotics can go home for treatment, says NICE](https://pharmaceutical-journal.com/article/news/newborns-given-precautionary-antibiotics-can-go-home-for-treatment-says-nice) |
+| 0 | LOW | Pharmaceutical Journal | [No increased risk of neurodevelopmental disorders in children of fathers using v...](https://pharmaceutical-journal.com/article/news/no-increased-risk-of-neurodevelopmental-disorders-in-children-of-fathers-using-valproate) |
 | 0 | LOW | Pharmaceutical Journal | [‘Moving the goalposts’: the worrying rise of testosterone replacement therapy](https://pharmaceutical-journal.com/article/feature/moving-the-goalposts-the-worrying-rise-of-testosterone-replacement-therapy) |
 | 0 | LOW | Pharmaceutical Journal | [The long road to replacing animals in pharmaceutical research](https://pharmaceutical-journal.com/article/feature/the-long-road-to-replacing-animals-in-pharmaceutical-research) |
 | 0 | LOW | Pharmaceutical Journal | [Does the big increase in drug price concessions indicate medicines shortages?](https://pharmaceutical-journal.com/article/feature/does-the-big-increase-in-drug-price-concessions-indicate-medicines-shortages) |
 | 0 | LOW | Pharmaceutical Journal | [The history of the Royal Pharmaceutical Society](https://pharmaceutical-journal.com/article/feature/the-history-of-the-royal-pharmaceutical-society) |
-| 0 | LOW | Pharmaceutical Journal | [Everything you need to know about meningitis B](https://pharmaceutical-journal.com/article/feature/everything-you-need-to-know-about-meningitis-b) |
 | 0 | LOW | Pharmaceutical Journal | [PJ view: The success of the royal college is a joint responsibility](https://pharmaceutical-journal.com/article/opinion/pj-view-the-success-of-the-royal-college-is-a-joint-responsibility) |
-| 0 | LOW | Pharmaceutical Journal | [Paul Bennett and Karen Baxter: ‘15 April 2026 isn’t the end of this story — it’s...](https://pharmaceutical-journal.com/article/opinion/paul-bennett-and-karen-baxter-april-the-15th-isnt-the-end-of-this-story-its-just-the-foundation-stone) |
-| 0 | LOW | Community Pharmacy England (PSNC) | [CPE Comms: Are you getting what you need from us?](https://forms.office.com/e/wejXz4FQJ9) |
-| 0 | LOW | PharmaTimes | [UCB and Cancer Research UK form expanded alliance to advance novel cancer therap...](https://pharmatimes.com/news/ucb-and-cancer-research-uk-form-expanded-alliance-to-advance-novel-cancer-therapies/) |
-| 0 | LOW | PharmaTimes | [Calla Lily Clinical Care begins dosing in trial of intravaginal platform for thr...](https://pharmatimes.com/news/calla-lily-clinical-care-begins-dosing-in-trial-of-intravaginal-platform-for-threatened-miscarriage/) |
-| 0 | LOW | PharmaTimes | [Virendra Shelar](https://pharmatimes.com/appointments/virendra-shelar/) |
-| 0 | LOW | PharmaTimes | [Real time](https://pharmatimes.com/thought_leadership/real-time/) |
-| 0 | LOW | PharmaTimes | [Palisade Bio reports phase 1a/b data showing colon‑targeted exposure](https://pharmatimes.com/news/palisade-bio-reports-phase-1a-b-data-showing-colon-targeted-exposure/) |
-| 0 | LOW | PharmaTimes | [MimiVax and Roswell Park open phase 2 trial of SurVaxM for metastatic neuroendoc...](https://pharmatimes.com/news/mimivax-and-roswell-park-open-phase-2-trial-of-survaxm-for-metastatic-neuroendocrine-tumours/) |
+| 0 | LOW | PharmaTimes | [Microbiotica reports positive results for MB097 in advanced melanoma](https://pharmatimes.com/news/microbiotica-reports-positive-results-for-mb097-in-advanced-melanoma/) |
+| 0 | LOW | PharmaTimes | [Prof Dr Wolfram Brugger](https://pharmatimes.com/appointments/prof-dr-wolfram-brugger/) |
+| 0 | LOW | PharmaTimes | [Kylie’s greatest hits](https://pharmatimes.com/thought_leadership/kylies-greatest-hits/) |
+| 0 | LOW | PharmaTimes | [Novo Nordisk data shows oral semaglutide delivers significant weight loss in pha...](https://pharmatimes.com/news/novo-nordisk-data-shows-oral-semaglutide-delivers-significant-weight-loss-in-phase-3-trial/) |
+| 0 | LOW | PharmaTimes | [Enterprise reports positive phase 2 data for inhaled ENaC blocker in cystic fibr...](https://pharmatimes.com/news/enterprise-reports-positive-phase-2-data-for-inhaled-enac-blocker-in-cystic-fibrosis/) |
+| 0 | LOW | PharmaTimes | [Poolbeg secures Canadian patent for POLB 001 in cancer immunotherapy‑induced CRS](https://pharmatimes.com/news/poolbeg-secures-canadian-patent-for-polb-001-in-cancer-immunotherapy-induced-crs/) |
 
 ---
 
