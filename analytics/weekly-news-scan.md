@@ -1,20 +1,20 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-05-25 11:12 UTC
+**Scan date:** 2026-06-01 12:40 UTC
 **Period:** Last 7 days
-**Total articles found:** 28
+**Total articles found:** 27
 
 ---
 
 ## Top 5 Reactive Post Opportunities
 
-### 1. MHRA is ‘exploring legislative actions’ to restrict paracetamol sales, says health minister
+### 1. NHS-funded community independent prescribing announced as part of pharmacy contract
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/news/mhra-is-exploring-legislative-actions-to-restrict-paracetamol-sales-says-health-minister
+- **URL:** https://pharmaceutical-journal.com/article/news/nhs-funded-community-independent-prescribing-announced-as-part-of-pharmacy-contract
 - **Score:** 10 (HIGH)
-- **Topics:** Policy / contract dispute (6pt), Safety / near miss / patient safety (3pt), General pharmacy news (1pt)
+- **Topics:** Policy / contract dispute (6pt), New services / Pharmacy First / clinical (2pt), General pharmacy news (2pt)
 
 **Why it's relevant:** Position Titan PMR as the tool that helps pharmacies adapt to contract changes -- show how digital workflows make compliance with new requirements easier and protect revenue.
 
@@ -36,15 +36,13 @@
 
 ---
 
-### 3. AstraZeneca wins US approval for first‑in‑class Baxfendy in hypertension
+### 3. CCA calls for Pharmacy First to include independent prescribing
 
-- **Source:** PharmaTimes
-- **Date:** 2026-05-19
-- **URL:** https://pharmatimes.com/news/astrazeneca-wins-us-approval-for-first-in-class-baxfendy-in-hypertension/
-- **Score:** 4 (MEDIUM)
-- **Topics:** New services / Pharmacy First / clinical (4pt)
-
-> Baxdrostat delivers clinically meaningful blood pressure reductions in phase 3 BaxHTN trial
+- **Source:** Pharmaceutical Journal
+- **Date:** Recent
+- **URL:** https://pharmaceutical-journal.com/article/news/cca-calls-for-pharmacy-first-to-include-independent-prescribing
+- **Score:** 5 (MEDIUM)
+- **Topics:** New services / Pharmacy First / clinical (4pt), General pharmacy news (1pt)
 
 **Why it's relevant:** Show how Titan frees up pharmacist time to deliver clinical services. Pharmacies on Titan are spending more time on services, less on dispensary firefighting.
 
@@ -68,30 +66,30 @@
 
 ---
 
-### 5. MHRA asks for views on rare disease therapy plans
+### 5. Government medicines manufacturing training scheme used by more than 2,000 people so far
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/news/mhra-asks-for-views-on-rare-disease-therapy-plans
+- **URL:** https://pharmaceutical-journal.com/article/news/government-medicines-manufacturing-training-scheme-used-by-more-than-2000-people-so-far
 - **Score:** 3 (LOW)
-- **Topics:** Safety / near miss / patient safety (3pt)
+- **Topics:** Policy / contract dispute (3pt)
 
-**Why it's relevant:** Connect this to Titan's clinical checks and safety features. Frame it as: 'Manual processes cause errors. Digital-first pharmacies catch them before they reach the patient.'
+**Why it's relevant:** Position Titan PMR as the tool that helps pharmacies adapt to contract changes -- show how digital workflows make compliance with new requirements easier and protect revenue.
 
-**Suggested format:** Quote card overlay or short-form video (pharmacist perspective)
+**Suggested format:** Stance post (bold text overlay) or carousel breaking down the changes
 
 ---
 
 ## This Week's Hot Take
 
-Based on the highest-scoring article: **MHRA is ‘exploring legislative actions’ to restrict paracetamol sales, says health minister** (Pharmaceutical Journal)
+Based on the highest-scoring article: **NHS-funded community independent prescribing announced as part of pharmacy contract** (Pharmaceutical Journal)
 
 ### Draft reactive post caption
 
 ```
 Breaking this down because pharmacy owners need to hear it.
 
-"MHRA is ‘exploring legislative actions’ to restrict paracetamol sales, says health minister"
+"NHS-funded community independent prescribing announced as part of pharmacy contract"
 
 Here's what nobody's saying about this:
 
@@ -120,34 +118,33 @@ If not, that's your starting point.
 
 | Score | Tier | Source | Title |
 |-------|------|--------|-------|
-| 10 | HIGH | Pharmaceutical Journal | [MHRA is ‘exploring legislative actions’ to restrict paracetamol sales, says heal...](https://pharmaceutical-journal.com/article/news/mhra-is-exploring-legislative-actions-to-restrict-paracetamol-sales-says-health-minister) |
+| 10 | HIGH | Pharmaceutical Journal | [NHS-funded community independent prescribing announced as part of pharmacy contr...](https://pharmaceutical-journal.com/article/news/nhs-funded-community-independent-prescribing-announced-as-part-of-pharmacy-contract) |
 | 8 | HIGH | NHS England Pharmacy | [Community Pharmacy Contractual Framework: 2024 to 2025 and 2025 to 2026 - GOV.UK](https://www.gov.uk/government/publications/community-pharmacy-contractual-framework-2024-to-2025-and-2025-to-2026/community-pharmacy-contractual-framework-2024-to-2025-and-2025-to-2026) |
-| 4 | MEDIUM | PharmaTimes | [AstraZeneca wins US approval for first‑in‑class Baxfendy in hypertension](https://pharmatimes.com/news/astrazeneca-wins-us-approval-for-first-in-class-baxfendy-in-hypertension/) |
+| 5 | MEDIUM | Pharmaceutical Journal | [CCA calls for Pharmacy First to include independent prescribing](https://pharmaceutical-journal.com/article/news/cca-calls-for-pharmacy-first-to-include-independent-prescribing) |
 | 4 | MEDIUM | NHS England Pharmacy | [Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expa...](https://www.england.nhs.uk/2025/10/free-morning-after-pill-women-high-street-pharmacies-nhs-expansion/) |
-| 3 | LOW | Pharmaceutical Journal | [MHRA asks for views on rare disease therapy plans](https://pharmaceutical-journal.com/article/news/mhra-asks-for-views-on-rare-disease-therapy-plans) |
-| 3 | LOW | Pharmaceutical Journal | [CCA calls for migraine to be added to Pharmacy First](https://pharmaceutical-journal.com/article/news/cca-calls-for-migraine-to-be-added-to-pharmacy-first) |
+| 3 | LOW | Pharmaceutical Journal | [Government medicines manufacturing training scheme used by more than 2,000 peopl...](https://pharmaceutical-journal.com/article/news/government-medicines-manufacturing-training-scheme-used-by-more-than-2000-people-so-far) |
+| 3 | LOW | Pharmaceutical Journal | [UK government rules out appointment of valproate tsar](https://pharmaceutical-journal.com/article/news/uk-government-rules-out-appointment-of-valproate-tsar) |
 | 3 | LOW | Pharmaceutical Journal | [Are electronic prescribing systems increasing the risk of ‘look-alike sound-alik...](https://pharmaceutical-journal.com/article/feature/are-electronic-prescribing-systems-increasing-the-risk-of-look-alike-sound-alike-medication-errors) |
 | 3 | LOW | Community Pharmacy England (PSNC) | [Discuss pressures on the sector and what needs to happen next with your negotiat...](https://cpe.org.uk/our-work/updates-events/our-events/regional-roadshows/) |
-| 3 | LOW | PharmaTimes | [KOALA trial opens to enrol patients for first‑in‑human KMCAR T‑cell therapy](https://pharmatimes.com/news/koala-trial-opens-to-enrol-patients-for-first-in-human-kmcar-t-cell-therapy/) |
-| 2 | LOW | Pharmaceutical Journal | [APTUK calls for more support for community pharmacy technician trainees](https://pharmaceutical-journal.com/article/news/aptuk-calls-for-more-support-for-community-pharmacy-technician-trainees) |
 | 2 | LOW | Pharmaceutical Journal | [Is pharmacy education preparing pharmacists for the cognitive demands of modern ...](https://pharmaceutical-journal.com/article/opinion/is-pharmacy-education-preparing-pharmacists-for-the-cognitive-demands-of-modern-practice) |
-| 1 | LOW | Pharmaceutical Journal | [Health news round-up: immunotherapy for depression, PCOS to PMOS, and clopidogre...](https://pharmaceutical-journal.com/article/news/health-news-round-up-immunotherapy-for-depression-pcos-to-pmos-and-clopidogrel-for-east-asian-patients) |
-| 1 | LOW | Pharmaceutical Journal | [Number of community pharmacists falls by 10% in a year](https://pharmaceutical-journal.com/article/news/number-of-community-pharmacists-falls-by-10-in-a-year) |
+| 1 | LOW | Pharmaceutical Journal | [University of Nottingham proposes 11 job cuts at its school of pharmacy](https://pharmaceutical-journal.com/article/news/university-of-nottingham-proposes-11-job-cuts-at-its-school-of-pharmacy) |
+| 1 | LOW | Pharmaceutical Journal | [Everything you need to know about neighbourhood health](https://pharmaceutical-journal.com/article/feature/everything-you-need-to-know-about-neighbourhood-health) |
 | 1 | LOW | Pharmaceutical Journal | [What’s next for a community pharmacist prescribing service in England?](https://pharmaceutical-journal.com/article/feature/whats-next-for-a-community-pharmacist-prescribing-service-in-england) |
+| 1 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists on the new post-registration pathway will still need time a...](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-on-the-new-post-registration-pathway-will-still-need-time-and-support-to-succeed) |
 | 1 | LOW | Pharmaceutical Journal | [Embedding a pharmacist-led clinic in early breast cancer treatment pathways](https://pharmaceutical-journal.com/article/opinion/embedding-a-pharmacist-led-clinic-in-early-breast-cancer-treatment-pathways) |
 | 1 | LOW | Pharmaceutical Journal | [Why clinical mentorship should be embedded into community pharmacist prescribing](https://pharmaceutical-journal.com/article/opinion/why-clinical-mentorship-should-be-embedded-into-community-pharmacist-prescribing) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacists as antimicrobial stewards: ‘the bug stops here’](https://pharmaceutical-journal.com/article/opinion/pharmacists-as-antimicrobial-stewards-the-bug-stops-here) |
-| 1 | LOW | Pharmaceutical Journal | [Pharmacy research must help shape the profession’s next chapter](https://pharmaceutical-journal.com/article/opinion/pharmacy-research-must-help-shape-the-professions-next-chapter) |
 | 1 | LOW | NHS England Pharmacy | [Pharmacy services](https://www.england.nhs.uk/primary-care/pharmacy/pharmacy-services/) |
-| 0 | LOW | Pharmaceutical Journal | [Study authors suggest optimal dosing for different ADHD medications](https://pharmaceutical-journal.com/article/news/study-authors-suggest-optimal-dosing-for-different-adhd-medications) |
+| 0 | LOW | Pharmaceutical Journal | [NICE approves add-on treatment for uncontrolled COPD](https://pharmaceutical-journal.com/article/news/nice-approves-add-on-treatment-for-uncontrolled-copd) |
+| 0 | LOW | Pharmaceutical Journal | [Electronic medical records can identify prescribing patterns for antibiotic alle...](https://pharmaceutical-journal.com/article/news/electronic-medical-records-can-identify-prescribing-patterns-for-antibiotic-allergies-study-results-show) |
 | 0 | LOW | Pharmaceutical Journal | [Lifeline: an antimicrobial resistance musical](https://pharmaceutical-journal.com/article/feature/lifeline-an-antimicrobial-resistance-musical) |
 | 0 | LOW | Pharmaceutical Journal | [Discharge medicines service: scaling success nationwide](https://pharmaceutical-journal.com/article/feature/discharge-medicines-service-scaling-success-nationwide) |
 | 0 | LOW | Pharmaceutical Journal | [Integrated care boards leave an uncertain future for the prescribing pathfinder ...](https://pharmaceutical-journal.com/article/feature/integrated-care-boards-leave-an-uncertain-future-for-the-prescribing-pathfinder-programme) |
 | 0 | LOW | Pharmaceutical Journal | [‘Moving the goalposts’: the worrying rise of testosterone replacement therapy](https://pharmaceutical-journal.com/article/feature/moving-the-goalposts-the-worrying-rise-of-testosterone-replacement-therapy) |
-| 0 | LOW | Pharmaceutical Journal | [The long road to replacing animals in pharmaceutical research](https://pharmaceutical-journal.com/article/feature/the-long-road-to-replacing-animals-in-pharmaceutical-research) |
-| 0 | LOW | Pharmaceutical Journal | [PJ view: The success of the royal college is a joint responsibility](https://pharmaceutical-journal.com/article/opinion/pj-view-the-success-of-the-royal-college-is-a-joint-responsibility) |
-| 0 | LOW | PharmaTimes | [Pepaxti study supports use in wider myeloma population](https://pharmatimes.com/news/pepaxti-study-supports-use-in-wider-myeloma-population/) |
-| 0 | LOW | PharmaTimes | [UCB reports positive outcomes for bimekizumab in psoriatic arthritis](https://pharmatimes.com/news/ucb-reports-positive-outcomes-for-bimekizumab-in-psoriatic-arthritis/) |
+| 0 | LOW | Pharmaceutical Journal | [Is masking simply an unspoken leadership tax?](https://pharmaceutical-journal.com/article/opinion/is-masking-simply-an-unspoken-leadership-tax) |
+| 0 | LOW | PharmaTimes | [Spectrum of truth](https://pharmatimes.com/thought_leadership/spectrum-of-truth/) |
+| 0 | LOW | PharmaTimes | [Pierre Fabre Laboratories secures CHMP backing for first‑line BRAFTOVI regimen](https://pharmatimes.com/news/pierre-fabre-laboratories-secures-chmp-backing-for-first-line-braftovi-regimen/) |
+| 0 | LOW | PharmaTimes | [Resolution Therapeutics hails positive 4‑year MATCH data in liver cirrhosis](https://pharmatimes.com/news/resolution-therapeutics-hails-positive-4-year-match-data-in-liver-cirrhosis/) |
 
 ---
 
