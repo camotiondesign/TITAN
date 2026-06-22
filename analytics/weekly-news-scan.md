@@ -1,8 +1,8 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-06-15 13:18 UTC
+**Scan date:** 2026-06-22 12:51 UTC
 **Period:** Last 7 days
-**Total articles found:** 30
+**Total articles found:** 24
 
 ---
 
@@ -36,7 +36,21 @@
 
 ---
 
-### 3. Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expansion
+### 3. MHRA issues drug safety warning over ACE inhibitor side effect
+
+- **Source:** Pharmaceutical Journal
+- **Date:** Recent
+- **URL:** https://pharmaceutical-journal.com/article/news/mhra-issues-drug-safety-warning-over-ace-inhibitor-side-effect
+- **Score:** 6 (MEDIUM)
+- **Topics:** Safety / near miss / patient safety (3pt), Funding / clawback / reimbursement (3pt)
+
+**Why it's relevant:** Connect this to Titan's clinical checks and safety features. Frame it as: 'Manual processes cause errors. Digital-first pharmacies catch them before they reach the patient.'
+
+**Suggested format:** Quote card overlay or short-form video (pharmacist perspective)
+
+---
+
+### 4. Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expansion
 
 - **Source:** NHS England Pharmacy
 - **Date:** Recent
@@ -52,31 +66,17 @@
 
 ---
 
-### 4. Are electronic prescribing systems increasing the risk of ‘look-alike sound-alike’ medication errors?
+### 5. The Critical Medicines Act: can the UK manage supply problems with the EU’s ‘safety belt’?
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/feature/are-electronic-prescribing-systems-increasing-the-risk-of-look-alike-sound-alike-medication-errors
+- **URL:** https://pharmaceutical-journal.com/article/feature/the-critical-medicines-act-can-the-uk-manage-supply-problems-with-the-eus-safety-belt
 - **Score:** 3 (LOW)
-- **Topics:** Safety / near miss / patient safety (3pt)
+- **Topics:** Funding / clawback / reimbursement (3pt)
 
-**Why it's relevant:** Connect this to Titan's clinical checks and safety features. Frame it as: 'Manual processes cause errors. Digital-first pharmacies catch them before they reach the patient.'
+**Why it's relevant:** Tie to Titan's ability to track every item, flag discrepancies, and protect pharmacies from clawback. 'You can't fight what you can't see -- Titan makes it visible.'
 
-**Suggested format:** Quote card overlay or short-form video (pharmacist perspective)
-
----
-
-### 5. Discuss pressures on the sector and what needs to happen next with your negotiators
-
-- **Source:** Community Pharmacy England (PSNC)
-- **Date:** Recent
-- **URL:** https://cpe.org.uk/our-work/updates-events/our-events/regional-roadshows/
-- **Score:** 3 (LOW)
-- **Topics:** Policy / contract dispute (3pt)
-
-**Why it's relevant:** Position Titan PMR as the tool that helps pharmacies adapt to contract changes -- show how digital workflows make compliance with new requirements easier and protect revenue.
-
-**Suggested format:** Stance post (bold text overlay) or carousel breaking down the changes
+**Suggested format:** Carousel with numbers or stance post
 
 ---
 
@@ -120,34 +120,28 @@ If not, that's your starting point.
 |-------|------|--------|-------|
 | 8 | HIGH | Pharmaceutical Journal | [Everything you need to know about the 2026/2027 community pharmacy contract](https://pharmaceutical-journal.com/article/feature/everything-you-need-to-know-about-the-2026-2027-community-pharmacy-contract) |
 | 8 | HIGH | NHS England Pharmacy | [Community Pharmacy Contractual Framework: 2024 to 2025 and 2025 to 2026 - GOV.UK](https://www.gov.uk/government/publications/community-pharmacy-contractual-framework-2024-to-2025-and-2025-to-2026/community-pharmacy-contractual-framework-2024-to-2025-and-2025-to-2026) |
+| 6 | MEDIUM | Pharmaceutical Journal | [MHRA issues drug safety warning over ACE inhibitor side effect](https://pharmaceutical-journal.com/article/news/mhra-issues-drug-safety-warning-over-ace-inhibitor-side-effect) |
 | 4 | MEDIUM | NHS England Pharmacy | [Free ‘morning after pill’ for women at high street pharmacies thanks to NHS expa...](https://www.england.nhs.uk/2025/10/free-morning-after-pill-women-high-street-pharmacies-nhs-expansion/) |
-| 3 | LOW | Pharmaceutical Journal | [Are electronic prescribing systems increasing the risk of ‘look-alike sound-alik...](https://pharmaceutical-journal.com/article/feature/are-electronic-prescribing-systems-increasing-the-risk-of-look-alike-sound-alike-medication-errors) |
-| 3 | LOW | Community Pharmacy England (PSNC) | [Discuss pressures on the sector and what needs to happen next with your negotiat...](https://cpe.org.uk/our-work/updates-events/our-events/regional-roadshows/) |
-| 2 | LOW | Pharmaceutical Journal | [Community Pharmacy Scotland calls for inclusion of pharmacies in vaccine deliver...](https://pharmaceutical-journal.com/article/news/community-pharmacy-scotland-calls-for-inclusion-of-pharmacies-in-vaccine-delivery) |
-| 2 | LOW | Pharmaceutical Journal | [Discussions on community pharmacy reform to begin before end of June](https://pharmaceutical-journal.com/article/news/discussions-on-community-pharmacy-reform-to-begin-before-end-of-june) |
-| 2 | LOW | Pharmaceutical Journal | [Cost of prescription items dispensed in community increases by 4% in a year](https://pharmaceutical-journal.com/article/news/cost-of-prescription-items-dispensed-in-community-increases-by-4-in-a-year) |
+| 3 | LOW | Pharmaceutical Journal | [The Critical Medicines Act: can the UK manage supply problems with the EU’s ‘saf...](https://pharmaceutical-journal.com/article/feature/the-critical-medicines-act-can-the-uk-manage-supply-problems-with-the-eus-safety-belt) |
+| 3 | LOW | Pharmaceutical Journal | [Janet Morrison: ‘Any contract reform is likely to have winners and losers’](https://pharmaceutical-journal.com/article/opinion/janet-morrison-any-contract-reform-is-likely-to-have-winners-and-losers) |
+| 3 | LOW | Community Pharmacy England (PSNC) | [Sector Poll: How does the CPCF settlement affect your business outlook?](https://www.surveymonkey.com/r/cpejune2026) |
+| 2 | LOW | Pharmaceutical Journal | [Three-quarters of men do not discuss their health with pharmacists](https://pharmaceutical-journal.com/article/news/three-quarters-of-men-do-not-discuss-their-health-with-pharmacists) |
+| 2 | LOW | Pharmaceutical Journal | [Lawrence Murphy (1937–2026)](https://pharmaceutical-journal.com/article/news/lawrence-murphy-1937-2026) |
 | 2 | LOW | Pharmaceutical Journal | [Workforce pressures and medication risk: time to act?](https://pharmaceutical-journal.com/article/opinion/workforce-pressures-and-medication-risk-time-to-act) |
-| 1 | LOW | Pharmaceutical Journal | [First health security risk assessment highlights risk of respiratory pandemic an...](https://pharmaceutical-journal.com/article/news/first-health-security-risk-assessment-highlights-risk-of-respiratory-pandemic-and-amr) |
-| 1 | LOW | Pharmaceutical Journal | [Care home prescribing increases over four years, NHS data show](https://pharmaceutical-journal.com/article/news/care-home-prescribing-increases-over-four-years-nhs-data-show) |
+| 1 | LOW | Pharmaceutical Journal | [Regulator investigating pharmacists following report on gender prescribing at GP...](https://pharmaceutical-journal.com/article/news/regulator-investigating-pharmacists-following-report-on-gender-prescribing-at-gp-practice) |
 | 1 | LOW | Pharmaceutical Journal | [How community pharmacists are tackling a wave of abuse](https://pharmaceutical-journal.com/article/feature/how-community-pharmacists-are-tackling-a-wave-of-abuse) |
 | 1 | LOW | Pharmaceutical Journal | [Everything you need to know about neighbourhood health](https://pharmaceutical-journal.com/article/feature/everything-you-need-to-know-about-neighbourhood-health) |
+| 1 | LOW | Pharmaceutical Journal | [‘Be aware, be empowered’: how learning through lived experience is preparing pha...](https://pharmaceutical-journal.com/article/opinion/be-aware-be-empowered-how-learning-through-lived-experience-is-preparing-pharmacy-students-for-real-world-practice) |
 | 1 | LOW | Pharmaceutical Journal | [Advancing cardiovascular care: how pharmacists are shaping patient outcomes acro...](https://pharmaceutical-journal.com/article/opinion/advancing-cardiovascular-care-how-pharmacists-are-shaping-patient-outcomes-across-the-uk) |
 | 1 | LOW | Pharmaceutical Journal | [Women to Watch 2026: nominations now open to honour female pharmacy professional...](https://pharmaceutical-journal.com/article/opinion/women-to-watch-2026-nominations-now-open-to-honour-female-pharmacy-professionals) |
-| 1 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists on the new post-registration pathway will still need time a...](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-on-the-new-post-registration-pathway-will-still-need-time-and-support-to-succeed) |
-| 1 | LOW | PharmaTimes | [NICE backs daratumumab quadruplet for newly diagnosed transplant‑ineligible myel...](https://pharmatimes.com/news/nice-backs-daratumumab-quadruplet-for-newly-diagnosed-transplant-ineligible-myeloma/) |
-| 1 | LOW | PharmaTimes | [Aquipta recommended by NICE for acute migraine treatment](https://pharmatimes.com/news/aquipta-recommended-by-nice-for-acute-migraine-treatment/) |
 | 1 | LOW | NHS England Pharmacy | [Pharmacy services](https://www.england.nhs.uk/primary-care/pharmacy/pharmacy-services/) |
-| 0 | LOW | Pharmaceutical Journal | [NICE approves atogepant for use during migraine attack](https://pharmaceutical-journal.com/article/news/nice-approves-atogepant-for-use-during-migraine-attack) |
-| 0 | LOW | Pharmaceutical Journal | [Drugs used for airway clearance in critically ill patients found to cause harm](https://pharmaceutical-journal.com/article/news/drugs-used-for-airway-clearance-in-critically-ill-patients-found-to-cause-harm) |
+| 0 | LOW | Pharmaceutical Journal | [Assisted dying Bill reintroduced to Parliament](https://pharmaceutical-journal.com/article/news/assisted-dying-bill-reintroduced-to-parliament) |
+| 0 | LOW | Pharmaceutical Journal | [More than half of patients who stop weight-loss drugs restart within a year](https://pharmaceutical-journal.com/article/news/more-than-half-of-patients-who-stop-weight-loss-drugs-restart-within-a-year) |
+| 0 | LOW | Pharmaceutical Journal | [Branded medicines levy cut under statutory scheme](https://pharmaceutical-journal.com/article/news/branded-medicines-levy-cut-under-statutory-scheme) |
+| 0 | LOW | Pharmaceutical Journal | [A visual guide to the 2026 Ebola outbreak](https://pharmaceutical-journal.com/article/feature/a-visual-guide-to-the-2026-ebola-outbreak) |
 | 0 | LOW | Pharmaceutical Journal | [Lifeline: an antimicrobial resistance musical](https://pharmaceutical-journal.com/article/feature/lifeline-an-antimicrobial-resistance-musical) |
 | 0 | LOW | Pharmaceutical Journal | [Discharge medicines service: scaling success nationwide](https://pharmaceutical-journal.com/article/feature/discharge-medicines-service-scaling-success-nationwide) |
-| 0 | LOW | Pharmaceutical Journal | [Integrated care boards leave an uncertain future for the prescribing pathfinder ...](https://pharmaceutical-journal.com/article/feature/integrated-care-boards-leave-an-uncertain-future-for-the-prescribing-pathfinder-programme) |
 | 0 | LOW | Pharmaceutical Journal | [Kathie Cashell: ‘You can’t protect the public without an empowered profession’](https://pharmaceutical-journal.com/article/opinion/kathie-cashell-you-cant-protect-the-public-without-an-empowered-profession) |
-| 0 | LOW | Pharmaceutical Journal | [Advanced therapy medicinal products: a tsunami in clinical medicine](https://pharmaceutical-journal.com/article/opinion/advanced-therapy-medicinal-products-a-tsunami-in-clinical-medicine) |
-| 0 | LOW | PharmaTimes | [Anocca doses first patients with precision TCR‑T therapy](https://pharmatimes.com/news/anocca-doses-first-patients-with-precision-tcr-t-therapy/) |
-| 0 | LOW | PharmaTimes | [Connecta launches phase 2a trial of neuroplasticity modulator](https://pharmatimes.com/news/connecta-launches-phase-2a-trial-of-neuroplasticity-modulator/) |
-| 0 | LOW | PharmaTimes | [Talvey accepted for use in Scotland for relapsed and refractory multiple myeloma](https://pharmatimes.com/news/talvey-accepted-for-use-in-scotland-for-relapsed-and-refractory-multiple-myeloma/) |
-| 0 | LOW | PharmaTimes | [Alzecure enters collaboration and with Lilly for Alzheimer’s project](https://pharmatimes.com/news/alzecure-enters-collaboration-and-with-lilly-for-alzheimers-project/) |
 
 ---
 
