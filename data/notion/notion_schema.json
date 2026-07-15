@@ -1,12 +1,14 @@
 {
-  "discovered_at": "2026-07-14T07:42:33.071286+00:00",
+  "discovered_at": "2026-07-15T07:45:49.809915+00:00",
   "database_id": "157f423bea8b8149b546e7279b4ea0c0",
   "properties": {
+    "Decision": "select",
     "YT Title": "rich_text",
     "UTM Link": "url",
     "Publish Status": "select",
     "Shares": "number",
     "Campaign": "select",
+    "Strategic Role": "select",
     "Media": "files",
     "Place": "place",
     "Design File": "url",
@@ -14,6 +16,7 @@
     "Notionsocial": "rich_text",
     "Post URL": "rich_text",
     "Views": "number",
+    "Editorial Priority": "select",
     "Phase": "select",
     "Assigned": "people",
     "Content Type": "select",
@@ -24,6 +27,7 @@
     "Time": "date",
     "Platforms": "multi_select",
     "Post Caption": "rich_text",
+    "Content Shelf Life": "select",
     "Name": "title"
   }
 }
