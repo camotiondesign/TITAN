@@ -119,7 +119,7 @@
       "comment_rate": 99.07
     },
     "composite_percentile": 99.07,
-    "tier": "worked",
+    "tier": "insufficient-data",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
@@ -130,6 +130,8 @@
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:00:45Z"
+    "ranked_at": "2026-08-18T10:02:56Z",
+    "low_volume": true,
+    "min_impressions": 100
   }
 }

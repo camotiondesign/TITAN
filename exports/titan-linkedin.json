@@ -20917,7 +20917,7 @@
         }
       ],
       "composite_percentile": 99.07,
-      "tier": "worked",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,

@@ -33,7 +33,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -79,7 +79,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -122,7 +122,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -168,7 +168,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -214,7 +214,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -257,7 +257,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -303,7 +303,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -349,7 +349,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -395,7 +395,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -438,7 +438,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": null,
@@ -484,7 +484,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": 90,
@@ -530,7 +530,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": 90,
@@ -576,7 +576,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": 90,
@@ -622,7 +622,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": 90,
@@ -668,7 +668,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -711,7 +711,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -754,7 +754,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -797,7 +797,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|video",
         "window_days": 90,
@@ -843,7 +843,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -936,7 +936,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": 90,
@@ -979,7 +979,7 @@
         }
       ],
       "composite_percentile": 50,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": 90,

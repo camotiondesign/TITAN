@@ -9,7 +9,7 @@ For full post details, read the brand-specific indexes.
 
 | Brand | Posts | Impressions | % worked |
 |-------|-------|-------------|----------------|
-| Titan PMR | 359 | 627,728 | 21.6% |
+| Titan PMR | 359 | 627,728 | 21.3% |
 | Titanverse | 79 | 66,044 | 24.7% |
 
 ## Top 15 Posts Across Both Brands (percentile within own format, min 100 impressions)
@@ -132,7 +132,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-07-07-last-friday-dudley-town-pharmacy-went-live-on-tita
 **Date:** 2026-07-07 | **Type:** video
-**Impressions:** 64 | **Format:** video | **Tier:** worked (p99.07)
+**Impressions:** 64 | **Format:** video | **Tier:** insufficient-data (p99.07)
 **Reactions:** 12 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 27
 > Last Friday, Dudley Town Pharmacy went live on Titan.  Their owner said himself that he was apprehensive about switching.  By day three?  No regrets.  Here’s where he landed after seeing the training,...
 
@@ -288,7 +288,7 @@ For full post details, read the brand-specific indexes.
 
 [TV] ### 2026-06-11-3-minutes-with-the-robot-then-josh-sums-the-whole
 **Date:** 2026-06-11 | **Type:** ?
-**Impressions:** 89 | **Format:** text | **Tier:** middle (p60)
+**Impressions:** 89 | **Format:** text | **Tier:** insufficient-data (p60)
 **Reactions:** 3 | **Comments:** 0 | **Reposts:** 1 | **Clicks:** 3
 > 3 minutes with the robot. Then @Josh sums the whole thing up in two words at the end 😂
 

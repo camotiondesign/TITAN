@@ -84,7 +84,8 @@ Rules:
 - `insufficient-data` means the cohort was under 8 posts. Not zero, not bad.
 - Ranking posts across different formats by any raw number is the exact mistake
   this model exists to prevent. Compare percentiles, or compare within a format.
-- Baseline (2026-08-18): 100 worked / 302 middle / 70 underperformed / 10 insufficient.
+- `insufficient-data` also covers posts under 100 impressions (`low_volume: true`).
+- Baseline (2026-08-18): 97 worked / 276 middle / 68 underperformed / 41 insufficient.
 
 **New Metricool CSV drop** (Cam drops them in `~/Downloads/Metrics/`) — profiles
 are auto-detected from CSV headers, so no new code is needed per drop:

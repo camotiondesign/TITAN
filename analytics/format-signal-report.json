@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-08-18T10:00:45Z",
+  "computed_at": "2026-08-18T10:02:56Z",
   "spec_version": 2,
   "min_cohort": 8,
   "windows_days": [
@@ -12,14 +12,15 @@
     "worked": 75,
     "underperformed": 25
   },
+  "min_impressions": 100,
   "stats": {
-    "scored": 472,
-    "insufficient": 10,
+    "scored": 441,
+    "insufficient": 41,
     "tiers": {
-      "worked": 100,
-      "middle": 302,
-      "underperformed": 70,
-      "insufficient-data": 10
+      "worked": 97,
+      "middle": 276,
+      "underperformed": 68,
+      "insufficient-data": 41
     },
     "byFormat": {
       "linkedin|carousel-document": {
@@ -38,10 +39,10 @@
       },
       "linkedin|video": {
         "n": 180,
-        "worked": 32,
+        "worked": 31,
         "middle": 126,
         "underperformed": 22,
-        "insufficient-data": 0
+        "insufficient-data": 1
       },
       "linkedin|multi-image": {
         "n": 15,
@@ -53,9 +54,9 @@
       "linkedin|text": {
         "n": 11,
         "worked": 1,
-        "middle": 9,
+        "middle": 7,
         "underperformed": 1,
-        "insufficient-data": 0
+        "insufficient-data": 2
       },
       "linkedin|short-form-video": {
         "n": 5,
@@ -66,10 +67,10 @@
       },
       "instagram|single-image": {
         "n": 8,
-        "worked": 2,
-        "middle": 4,
-        "underperformed": 2,
-        "insufficient-data": 0
+        "worked": 0,
+        "middle": 2,
+        "underperformed": 1,
+        "insufficient-data": 5
       },
       "instagram|video": {
         "n": 1,
@@ -81,23 +82,23 @@
       "instagram|short-form-video": {
         "n": 13,
         "worked": 1,
-        "middle": 11,
-        "underperformed": 1,
-        "insufficient-data": 0
+        "middle": 10,
+        "underperformed": 0,
+        "insufficient-data": 2
       },
       "facebook|video": {
         "n": 12,
         "worked": 0,
-        "middle": 12,
+        "middle": 0,
         "underperformed": 0,
-        "insufficient-data": 0
+        "insufficient-data": 12
       },
       "facebook|single-image": {
         "n": 9,
         "worked": 0,
-        "middle": 9,
+        "middle": 0,
         "underperformed": 0,
-        "insufficient-data": 0
+        "insufficient-data": 9
       },
       "facebook|short-form-video": {
         "n": 4,
@@ -119,6 +120,7 @@
       "90d": 394,
       "180d": 8,
       "365d": 1
-    }
+    },
+    "lowVolume": 33
   }
 }

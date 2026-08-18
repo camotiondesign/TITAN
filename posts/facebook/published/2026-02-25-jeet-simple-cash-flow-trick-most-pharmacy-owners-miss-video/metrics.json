@@ -82,6 +82,8 @@
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:00:45Z"
+    "ranked_at": "2026-08-18T10:02:56Z",
+    "low_volume": false,
+    "min_impressions": 100
   }
 }

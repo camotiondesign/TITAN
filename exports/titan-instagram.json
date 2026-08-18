@@ -423,7 +423,7 @@
         }
       ],
       "composite_percentile": 23.08,
-      "tier": "underperformed",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|short-form-video",
         "window_days": null,
@@ -616,7 +616,7 @@
         }
       ],
       "composite_percentile": 43.75,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -659,7 +659,7 @@
         }
       ],
       "composite_percentile": 68.75,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -752,7 +752,7 @@
         }
       ],
       "composite_percentile": 93.75,
-      "tier": "worked",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -845,7 +845,7 @@
         }
       ],
       "composite_percentile": 12.5,
-      "tier": "underperformed",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": 90,
@@ -888,7 +888,7 @@
         }
       ],
       "composite_percentile": 81.25,
-      "tier": "worked",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": 90,
@@ -938,7 +938,7 @@
         }
       ],
       "composite_percentile": 27.28,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|short-form-video",
         "window_days": 90,

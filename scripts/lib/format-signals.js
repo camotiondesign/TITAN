@@ -299,6 +299,14 @@ const TIER_TOP = 75;
 const TIER_BOTTOM = 25;
 
 /**
+ * A post needs enough delivery for its rate to mean anything. On 27
+ * impressions, a single reaction is a 3.7% reaction rate — good enough to beat
+ * most of its cohort on arithmetic alone, while telling you nothing. Below
+ * this floor the percentile is still recorded, but the tier is withheld.
+ */
+const MIN_IMPRESSIONS = 100;
+
+/**
  * Mid-rank percentile of `value` within `values` (ties share the midpoint).
  * 100 = best in cohort. Returns null for an empty cohort.
  */
@@ -331,6 +339,7 @@ module.exports = {
   ASSET_TYPE_MAP,
   POST_TYPE_ROLE,
   MIN_COHORT,
+  MIN_IMPRESSIONS,
   WINDOWS_DAYS,
   TIER_TOP,
   TIER_BOTTOM,

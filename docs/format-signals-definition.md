@@ -132,7 +132,7 @@ not the video.
 **Window widening.** The window expands `90 → 180 → 365 → all-time` until the
 cohort reaches `MIN_COHORT` (8). Below 8, a percentile is noise dressed up as a
 rank, so the post is marked `insufficient-data` rather than given a fake
-verdict. 472 of 482 posts rank inside a 90-day window; 10 don't rank at all.
+verdict. 394 of 482 posts rank inside a 90-day window; 41 are withheld (small cohort or under the volume floor).
 
 **Scoring.** Each component is percentile-ranked within the cohort
 independently (mid-rank: ties share the midpoint), then combined by normalised
@@ -147,7 +147,14 @@ exact problem that made a single ER impossible.
 | `worked` | composite percentile ≥ 75 — top quartile of its own kind |
 | `middle` | 25 < p < 75 |
 | `underperformed` | composite percentile ≤ 25 |
-| `insufficient-data` | cohort smaller than 8 |
+| `insufficient-data` | cohort smaller than 8, **or** fewer than 100 impressions |
+
+**Volume floor.** A post needs enough delivery for its rate to mean anything.
+On 27 impressions a single reaction is a 3.7% reaction rate — good enough to
+beat most of its cohort on arithmetic alone, while telling you nothing. Below
+`MIN_IMPRESSIONS` (100) the percentile is still recorded and `low_volume: true`
+is set, but the tier is withheld. This caught 4 posts that were otherwise
+reading as hits on 27–134 impressions.
 
 ---
 
@@ -239,8 +246,8 @@ code, replace it with `signals.tier` + `signals.composite_percentile`.
 - `composite_percentile` is `null` exactly when `tier` is `insufficient-data`.
   Never treat that as zero.
 - Roughly 25% of ranked posts should be `worked` and 25% `underperformed` by
-  construction. Current: 100 worked / 302 middle / 70 underperformed / 10
-  insufficient. The mild skew toward `middle` is ties in low-volume cohorts
-  sharing a midpoint percentile.
+  construction. Current: 97 worked / 276 middle / 68 underperformed / 41
+  insufficient. The mild skew toward `middle` is ties in small cohorts sharing
+  a midpoint percentile.
 - `spec_version` is 2. Rows below that predate a definition change — re-run
   `backfill-signals.js --force` then `compute-format-percentiles.js`.

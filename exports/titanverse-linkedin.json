@@ -4053,7 +4053,7 @@
         }
       ],
       "composite_percentile": 63.89,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "linkedin|text",
         "window_days": 90,
@@ -4173,7 +4173,7 @@
         }
       ],
       "composite_percentile": 60,
-      "tier": "middle",
+      "tier": "insufficient-data",
       "cohort": {
         "key": "linkedin|text",
         "window_days": 90,

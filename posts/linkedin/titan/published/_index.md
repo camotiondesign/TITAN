@@ -12,7 +12,7 @@
 | Total Impressions | 627,728 |
 | Total Reactions | 7,394 |
 | Total Comments | 626 |
-| Posts that worked (top quartile of own format) | 21.6% |
+| Posts that worked (top quartile of own format) | 21.3% |
 
 ## Content Mix
 
@@ -179,7 +179,7 @@
 
 ### 2026-07-07-last-friday-dudley-town-pharmacy-went-live-on-tita
 **Date:** 2026-07-07 | **Type:** video
-**Impressions:** 64 | **Format:** video | **Tier:** worked (p99.07)
+**Impressions:** 64 | **Format:** video | **Tier:** insufficient-data (p99.07)
 **Reactions:** 12 | **Comments:** 1 | **Reposts:** 4 | **Clicks:** 27
 > Last Friday, Dudley Town Pharmacy went live on Titan.  Their owner said himself that he was apprehensive about switching.  By day three?  No regrets.  Here’s where he landed after seeing the training,...
 

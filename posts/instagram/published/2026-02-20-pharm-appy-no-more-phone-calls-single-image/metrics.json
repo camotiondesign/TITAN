@@ -63,7 +63,7 @@
       "reaction_rate": 43.75
     },
     "composite_percentile": 43.75,
-    "tier": "middle",
+    "tier": "insufficient-data",
     "cohort": {
       "key": "instagram|single-image",
       "window_days": null,
@@ -74,6 +74,8 @@
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:00:45Z"
+    "ranked_at": "2026-08-18T10:02:56Z",
+    "low_volume": true,
+    "min_impressions": 100
   }
 }

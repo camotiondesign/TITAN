@@ -34,7 +34,7 @@
 const fs = require('fs');
 const path = require('path');
 const {
-  MIN_COHORT, WINDOWS_DAYS, TIER_TOP, TIER_BOTTOM,
+  MIN_COHORT, MIN_IMPRESSIONS, WINDOWS_DAYS, TIER_TOP, TIER_BOTTOM,
   percentileOf, tierFor, round2, SPEC_VERSION,
 } = require('./lib/format-signals');
 
@@ -145,7 +145,11 @@ for (const p of posts) {
     if (totalWeight > 0) composite = round2(weighted / totalWeight);
   }
 
-  const tier = composite === null ? 'insufficient-data' : tierFor(composite);
+  // A percentile on tiny delivery is arithmetic, not evidence — record the
+  // rank but withhold the verdict.
+  const impressions = (p.signals.components || {}).impressions || 0;
+  const lowVolume = impressions < MIN_IMPRESSIONS;
+  const tier = composite === null || lowVolume ? 'insufficient-data' : tierFor(composite);
 
   p.metrics.signals = {
     ...p.signals,
@@ -158,13 +162,16 @@ for (const p of posts) {
       size: cohort.size,
       min_required: MIN_COHORT,
     },
+    low_volume: lowVolume,
+    min_impressions: MIN_IMPRESSIONS,
     tier_thresholds: { worked: `>=${TIER_TOP}`, underperformed: `<=${TIER_BOTTOM}` },
     ranked_at: COMPUTED_AT,
     spec_version: SPEC_VERSION,
   };
 
   stats.tiers[tier]++;
-  if (composite === null) stats.insufficient++; else stats.scored++;
+  if (tier === 'insufficient-data') stats.insufficient++; else stats.scored++;
+  if (lowVolume) stats.lowVolume = (stats.lowVolume || 0) + 1;
   const fk = `${p.platform}|${p.format}`;
   stats.byFormat[fk] = stats.byFormat[fk] || { n: 0, worked: 0, middle: 0, underperformed: 0, 'insufficient-data': 0 };
   stats.byFormat[fk].n++;
@@ -194,6 +201,7 @@ if (!DRY) {
     computed_at: COMPUTED_AT, spec_version: SPEC_VERSION,
     min_cohort: MIN_COHORT, windows_days: WINDOWS_DAYS,
     tier_thresholds: { worked: TIER_TOP, underperformed: TIER_BOTTOM },
+    min_impressions: MIN_IMPRESSIONS,
     stats,
   }, null, 2));
   console.log(`\nReport: ${outPath}`);

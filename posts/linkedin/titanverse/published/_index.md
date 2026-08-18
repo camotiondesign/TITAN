@@ -183,7 +183,7 @@
 
 ### 2026-06-11-3-minutes-with-the-robot-then-josh-sums-the-whole
 **Date:** 2026-06-11 | **Type:** ?
-**Impressions:** 89 | **Format:** text | **Tier:** middle (p60)
+**Impressions:** 89 | **Format:** text | **Tier:** insufficient-data (p60)
 **Reactions:** 3 | **Comments:** 0 | **Reposts:** 1 | **Clicks:** 3
 > 3 minutes with the robot. Then @Josh sums the whole thing up in two words at the end 😂
 
@@ -195,7 +195,7 @@
 
 ### 2026-06-09-safe-to-say-we-enjoyed-his-answer-to-the-final-que
 **Date:** 2026-06-09 | **Type:** ?
-**Impressions:** 76 | **Format:** text | **Tier:** middle (p63.89)
+**Impressions:** 76 | **Format:** text | **Tier:** insufficient-data (p63.89)
 **Reactions:** 3 | **Comments:** 0 | **Reposts:** 0 | **Clicks:** 20
 > Safe to say, we enjoyed his answer to the final question. 👀
 
