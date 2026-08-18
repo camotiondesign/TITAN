@@ -1,9 +1,9 @@
 {
   "platform": "facebook",
-  "post_url": "https://www.facebook.com/reel/2077572202977209",
+  "post_url": "https://www.facebook.com/reel/2077572202977209/",
   "posted_at": "2026-03-03",
   "campaign_slug": "2026-03-03-rahul-2x-consultations-and-improved-quality-1",
-  "asset_type": "",
+  "asset_type": "video",
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
@@ -15,13 +15,43 @@
   },
   "platform_api": {
     "source": "facebook_api",
-    "synced_at": "",
-    "impressions": 0,
+    "synced_at": "2026-08-12T15:09:44Z",
+    "impressions": 30,
     "reach": 0,
     "likes": 0,
     "comments": 0,
     "shares": 0,
-    "engagement_rate": 0
+    "engagement_rate": 0,
+    "video_views": 30,
+    "view_time_seconds": 152.37,
+    "avg_watch_time_seconds": 5.08
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "facebook",
+    "denominator": "impressions",
+    "denominator_value": 30,
+    "social_interactions": 0,
+    "social_er_pct": 0,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 0,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / reach — Metricool/Facebook",
+    "raw_er_pct": 0,
+    "raw_er_source": "platform_api.engagement_rate",
+    "components": {
+      "impressions": 30,
+      "reach": 0,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "saves": 0,
+      "clicks": 0
+    },
+    "flags": [
+      "reposts_unavailable_in_source"
+    ],
+    "computed_at": "2026-08-17T20:44:49Z",
+    "source_file": "facebook-reels_2025-01-01_2026-08-16.csv"
+  }
 }

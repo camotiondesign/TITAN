@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Carousel: Where the Time Really Goes (3 hours a day lost). Discovery: 1,529 impressions, 874 members reached. Engagement: 1,016 engagements (66.4%), 1,000 clicks (65.4% CTR), 14 reactions, 1 comment, 1 repost. Page viewers: 6, followers gained: 0."
+  "notes": "Organic only. Carousel: Where the Time Really Goes (3 hours a day lost). Discovery: 1,529 impressions, 874 members reached. Engagement: 1,016 engagements (66.4%), 1,000 clicks (65.4% CTR), 14 reactions, 1 comment, 1 repost. Page viewers: 6, followers gained: 0.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1529,
+    "social_interactions": 16,
+    "social_er_pct": 1.05,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 66.45,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 66.4,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1529,
+      "reach": 874,
+      "reactions": 14,
+      "comments": 1,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 1000
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

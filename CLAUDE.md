@@ -33,6 +33,70 @@ Daily Notion sync: 7am GMT via GitHub Actions
 | Facebook metrics | `data/facebook/metrics/` | Facebook analytics |
 | Aggregated LinkedIn metrics | `analytics/aggregated-linkedin-metrics.json` | Post-level metrics; prefer `posts/_master-index.md` for overview. Generated weekly by `scripts/aggregate-metrics.js`. |
 
+### Exports (for ChatGPT / Claude chat upload)
+| What | Path | Notes |
+|------|------|-------|
+| Titan PMR LinkedIn export | `exports/titan-linkedin.json` | All 274 Titan posts: caption, alt-text, transcript, comments, organic-only metrics. ~622KB. Upload to ChatGPT/Claude chat for analysis. |
+| Titanverse LinkedIn export | `exports/titanverse-linkedin.json` | All 50 Titanverse posts, same format. ~100KB. |
+| Transcript gold extracts | `exports/transcript-extracts.json` | 312 curated quotes, stats, soundbites, pain points from all 52 interview transcripts. 10 categories, 50 speakers, with topic/feature tags. ~317KB. Upload to ChatGPT/Claude chat for content ideation. |
+| Content intelligence | `exports/content-intelligence.json` | **THE FEEDBACK LOOP.** Every post classified by formula type, scored with QES, analysed by cohort (type/format/customer/month/trend), with formula compliance checks and actionable recommendations. ~237KB. Regenerate after metrics update. |
+| Titanverse knowledge base | `exports/titanverse-knowledge.json` | All 108 Titanverse help centre articles scraped from intercom-help.eu. 13 sections (Getting Started, NMS, Clinical Checks, Consultations, Patient Records, Calendar, Documents, Settings, FAQs, Release Notes, Partners, Billing, etc). ~127KB. Upload to ChatGPT/Claude chat for product Q&A, feature explanations, content ideation. |
+| Instagram export | `exports/titan-instagram.json` | All Instagram posts, same shape as the LinkedIn exports, canonical engagement fields. |
+| Facebook export | `exports/titan-facebook.json` | All Facebook posts, same shape. |
+| TikTok export | `exports/titan-tiktok.json` | All TikTok posts, same shape. |
+
+Regenerate LinkedIn exports: `node scripts/build-linkedin-exports.js`
+Regenerate IG/FB/TikTok exports: `node scripts/build-platform-exports.js`
+Regenerate content intelligence: `node scripts/build-content-intelligence.js`
+Regenerate transcript extracts: Re-run extraction agents (requires Claude — NLU, not scripted). See `scripts/merge-transcript-extracts.js` for the merge step.
+
+---
+
+## Engagement Rate — READ BEFORE QUOTING ANY ER NUMBER
+
+Full spec: **`docs/engagement-rate-definition.md`**. Formulas live in exactly one
+place: `scripts/lib/engagement.js`. Never write an engagement formula anywhere else.
+
+**The canonical field is `social_er_pct`:**
+
+```
+social_er_pct = (reactions + comments + reposts) / impressions × 100
+```
+
+Clicks are excluded — they're consumption, not interaction, and they scale with
+format (documents and carousels generate them structurally). Including them made
+20+ posts score over 100% "engagement" and ranked link-heavy posts above
+everything else.
+
+| Field | Meaning | When to use |
+|---|---|---|
+| `social_er_pct` | **The truth.** Same formula every platform. | All analysis, ranking, reporting. |
+| `platform_er_pct` | Metricool's own rate — includes clicks, and divides by *reach* on IG/FB. | Only to reconcile against the Metricool dashboard. |
+| `raw_er_pct` | The old pre-2026-08-17 value. | Audit only. |
+| `engagement_rate` / `engagement_rate_DEPRECATED` | **DEPRECATED — meant four different things.** | Never. Removed next refresh. |
+
+Rules:
+- Quote `social_er_pct`. If a number sounds too good, check whether it's `platform_er_pct`.
+- `null` means not yet measured. Never average it as zero.
+- `social_er_pct` cannot exceed 100%. If it does, the denominator is wrong.
+- Baselines (2026-08-17): Titan PMR median **1.86%**, Titanverse **2.61%**.
+- Facebook Reels rows carry `reposts_unavailable_in_source` — their ER is a floor, not a measurement.
+
+**New Metricool CSV drop** (Cam drops them in `~/Downloads/Metrics/`) — profiles
+are auto-detected from CSV headers, so no new code is needed per drop:
+
+```bash
+node scripts/ingest-metricool-csv.js --dir ~/Downloads/Metrics --dry-run   # always first
+node scripts/ingest-metricool-csv.js --dir ~/Downloads/Metrics
+node scripts/backfill-engagement.js          # posts the drop didn't cover
+node scripts/build-linkedin-exports.js && node scripts/build-platform-exports.js
+node scripts/build-indexes.js && node scripts/aggregate-metrics.js && node scripts/build-content-intelligence.js
+```
+
+Ingest raises impressions when a fresh CSV is >20% higher (posts keep accruing);
+it never lowers them. Every change is logged to `analytics/metricool-ingest-report.json`.
+Adding a platform: follow the checklist in `docs/engagement-rate-definition.md`.
+
 ### Posts (archived published content)
 | Path | What's in it |
 |------|-------------|
@@ -136,6 +200,8 @@ These are source material. Never edit them. The titan/titanverse split here is a
 | `scripts/notion_sync.py push FILE` | Pushes a schedule JSON file to Notion | Bulk post creation |
 | `scripts/calculate-tcps.py` | Calculates TCPS scores from metrics | Performance analysis |
 | `scripts/campaign_audit.py` | Audits content against strategy rules | Checking rotation, gaps |
+| `scripts/build-linkedin-exports.js` | Builds JSON exports for ChatGPT/Claude chat (organic metrics only) | After new posts published or metrics updated |
+| `scripts/build-content-intelligence.js` | Classifies posts, scores QES, runs cohort analysis, generates recommendations | After metrics updated — the feedback loop |
 
 ## Scripts (lean set)
 

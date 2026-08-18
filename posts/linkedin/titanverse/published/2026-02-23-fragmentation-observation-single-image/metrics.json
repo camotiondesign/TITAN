@@ -14,33 +14,45 @@
     "shares": 4
   },
   "platform_api": {
-    "source": "linkedin_api",
-    "synced_at": "",
-    "impressions": 0,
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 920,
     "reach": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "reactions": 0,
+    "clicks": 16,
+    "ctr": 1.74,
+    "reactions": 15,
     "comments": 0,
-    "reposts": 0,
+    "reposts": 4,
     "follows": 0,
-    "engagements": 0,
-    "engagement_rate": 0,
+    "engagements": 35,
+    "engagement_rate": 3.8,
     "organic": {
-      "impressions": 0,
+      "impressions": 920,
       "reach": 0,
-      "engagements": 0,
-      "engagement_rate": 0,
-      "clicks": 0,
-      "click_through_rate": 0,
-      "reactions": 0,
+      "engagements": 35,
+      "engagement_rate": 3.8,
+      "clicks": 16,
+      "click_through_rate": 1.74,
+      "reactions": 15,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 4,
       "page_viewers": 0,
       "followers_gained": 0,
       "video_views": 0,
       "watch_time_total": "",
-      "average_watch_time_seconds": 0
+      "average_watch_time_seconds": 0,
+      "viewers": 0,
+      "time_watched_raw": "",
+      "time_watched_seconds": 0,
+      "reaction_breakdown": {
+        "like": 15,
+        "praise": 0,
+        "appreciation": 0,
+        "empathy": 0,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "image"
     },
     "sponsored": {
       "impressions": 0,
@@ -57,5 +69,30 @@
       "spend": 0
     }
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 920,
+    "social_interactions": 19,
+    "social_er_pct": 2.07,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 3.8,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 3.8,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 920,
+      "reach": 0,
+      "reactions": 15,
+      "comments": 0,
+      "reposts": 4,
+      "saves": 0,
+      "clicks": 16
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

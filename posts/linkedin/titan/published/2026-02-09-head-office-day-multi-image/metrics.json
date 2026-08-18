@@ -50,5 +50,30 @@
       "spend": 0
     }
   },
-  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Post not captured by Notion sync. 141.2% engagement rate driven by 19-image gallery clicks."
+  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Post not captured by Notion sync. 141.2% engagement rate driven by 19-image gallery clicks.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 2010,
+    "social_interactions": 56,
+    "social_er_pct": 2.79,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 141.19,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 141.2,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 2010,
+      "reach": 1022,
+      "reactions": 52,
+      "comments": 0,
+      "reposts": 4,
+      "saves": 0,
+      "clicks": 2782
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

@@ -30,5 +30,30 @@
   "asset_type": "short-video",
   "posted_at": "2025-10-21",
   "campaign_slug": "2025-10-21-wahid-what-is-titanverse",
-  "has_sponsored": true
+  "has_sponsored": true,
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1017,
+    "social_interactions": 0,
+    "social_er_pct": 0,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 7.67,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 11.7,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1017,
+      "reach": 0,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "saves": 0,
+      "clicks": 78
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  }
 }

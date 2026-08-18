@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Exceptional performance: 48.4% engagement rate, 46.9% CTR. Social proof through Trustpilot reviews from real pharmacy owners built trust and credibility effectively. Real customer testimonials validated product quality and addressed concerns. The exceptional engagement demonstrates extremely high audience interest in social proof content."
+  "notes": "Organic post. Exceptional performance: 48.4% engagement rate, 46.9% CTR. Social proof through Trustpilot reviews from real pharmacy owners built trust and credibility effectively. Real customer testimonials validated product quality and addressed concerns. The exceptional engagement demonstrates extremely high audience interest in social proof content.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1321,
+    "social_interactions": 20,
+    "social_er_pct": 1.51,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 48.37,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 48.4,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1321,
+      "reach": 702,
+      "reactions": 16,
+      "comments": 1,
+      "reposts": 3,
+      "saves": 0,
+      "clicks": 619
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

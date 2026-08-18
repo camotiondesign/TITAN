@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "First look at TITAN merch in the wild. Strong performance with 12.3% engagement rate, 9.8% CTR, and excellent video metrics (1,421 views, 17s average watch time, 73.5% view rate). High comment count (7) and reposts (6) indicate strong community engagement."
+  "notes": "First look at TITAN merch in the wild. Strong performance with 12.3% engagement rate, 9.8% CTR, and excellent video metrics (1,421 views, 17s average watch time, 73.5% view rate). High comment count (7) and reposts (6) indicate strong community engagement.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1933,
+    "social_interactions": 48,
+    "social_er_pct": 2.48,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 12.31,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 12.3,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1933,
+      "reach": 1158,
+      "reactions": 35,
+      "comments": 7,
+      "reposts": 6,
+      "saves": 0,
+      "clicks": 190
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

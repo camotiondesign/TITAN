@@ -1,6 +1,6 @@
 {
   "platform": "facebook",
-  "post_url": "https://www.facebook.com/reel/1929569310975784",
+  "post_url": "https://www.facebook.com/reel/1929569310975784/",
   "posted_at": "2026-02-27",
   "campaign_slug": "2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image",
   "asset_type": "single-image",
@@ -15,13 +15,43 @@
   },
   "platform_api": {
     "source": "facebook_api",
-    "synced_at": "",
-    "impressions": 0,
+    "synced_at": "2026-08-12T15:09:44Z",
+    "impressions": 21,
     "reach": 0,
     "likes": 0,
     "comments": 0,
     "shares": 0,
-    "engagement_rate": 0
+    "engagement_rate": 0,
+    "video_views": 21,
+    "view_time_seconds": 103.4,
+    "avg_watch_time_seconds": 4.92
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "facebook",
+    "denominator": "impressions",
+    "denominator_value": 21,
+    "social_interactions": 0,
+    "social_er_pct": 0,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 0,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / reach — Metricool/Facebook",
+    "raw_er_pct": 0,
+    "raw_er_source": "platform_api.engagement_rate",
+    "components": {
+      "impressions": 21,
+      "reach": 0,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "saves": 0,
+      "clicks": 0
+    },
+    "flags": [
+      "reposts_unavailable_in_source"
+    ],
+    "computed_at": "2026-08-17T20:44:49Z",
+    "source_file": "facebook-reels_2025-01-01_2026-08-16.csv"
+  }
 }

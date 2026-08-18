@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7439928844272209920",
+  "posted_at": "2026-03-18",
+  "asset_type": "video",
+  "boosted": false,
+  "platform_api": {
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 741,
+    "clicks": 56,
+    "ctr": 7.56,
+    "reactions": 12,
+    "comments": 0,
+    "reposts": 6,
+    "engagements": 74,
+    "engagement_rate": 9.99,
+    "organic": {
+      "impressions": 741,
+      "engagements": 74,
+      "engagement_rate": 9.99,
+      "clicks": 56,
+      "click_through_rate": 7.56,
+      "reactions": 12,
+      "comments": 0,
+      "reposts": 6,
+      "video_views": 266,
+      "viewers": 206,
+      "time_watched_raw": "20",
+      "time_watched_seconds": 0,
+      "average_watch_time_seconds": 0,
+      "reaction_breakdown": {
+        "like": 9,
+        "praise": 3,
+        "appreciation": 0,
+        "empathy": 0,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "video"
+    }
+  },
+  "campaign_slug": "2026-03-18-were-you-one-of-the-first-100",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 741,
+    "social_interactions": 18,
+    "social_er_pct": 2.43,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 9.99,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 9.99,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 741,
+      "reach": 0,
+      "reactions": 12,
+      "comments": 0,
+      "reposts": 6,
+      "saves": 0,
+      "clicks": 56
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
+}

@@ -3,7 +3,7 @@
   "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7432771474261815299",
   "posted_at": "2026-02-26",
   "campaign_slug": "2026-02-26-for-titan-customers-only-scan-me",
-  "asset_type": "",
+  "asset_type": "single-image",
   "boosted": false,
   "notionsocial": {
     "source": "notionsocial",
@@ -14,33 +14,45 @@
     "shares": 13
   },
   "platform_api": {
-    "source": "linkedin_api",
-    "synced_at": "",
-    "impressions": 0,
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 508,
     "reach": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "reactions": 0,
-    "comments": 0,
-    "reposts": 0,
+    "clicks": 33,
+    "ctr": 6.5,
+    "reactions": 16,
+    "comments": 2,
+    "reposts": 3,
     "follows": 0,
-    "engagements": 0,
-    "engagement_rate": 0,
+    "engagements": 54,
+    "engagement_rate": 10.63,
     "organic": {
-      "impressions": 0,
+      "impressions": 508,
       "reach": 0,
-      "engagements": 0,
-      "engagement_rate": 0,
-      "clicks": 0,
-      "click_through_rate": 0,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "engagements": 54,
+      "engagement_rate": 10.63,
+      "clicks": 33,
+      "click_through_rate": 6.5,
+      "reactions": 16,
+      "comments": 2,
+      "reposts": 3,
       "page_viewers": 0,
       "followers_gained": 0,
       "video_views": 0,
       "watch_time_total": "",
-      "average_watch_time_seconds": 0
+      "average_watch_time_seconds": 0,
+      "viewers": 0,
+      "time_watched_raw": "",
+      "time_watched_seconds": 0,
+      "reaction_breakdown": {
+        "like": 16,
+        "praise": 0,
+        "appreciation": 0,
+        "empathy": 0,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "image"
     },
     "sponsored": {
       "impressions": 0,
@@ -57,5 +69,30 @@
       "spend": 0
     }
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 508,
+    "social_interactions": 21,
+    "social_er_pct": 4.13,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 10.63,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 10.63,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 508,
+      "reach": 0,
+      "reactions": 16,
+      "comments": 2,
+      "reposts": 3,
+      "saves": 0,
+      "clicks": 33
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

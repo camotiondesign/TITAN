@@ -45,5 +45,31 @@
     "spend": 32.83
   },
   "notes": "Post boosted from 2025-01-20 to 2025-01-22. Strong organic performance (53.3% engagement rate, 51.8% CTR). Sponsored added 449 impressions with 38 engagements. High click-throughs indicate interest in automation partners.",
-  "has_sponsored": true
+  "has_sponsored": true,
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1767,
+    "social_interactions": 26,
+    "social_er_pct": 1.47,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 53.31,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 53.3,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1767,
+      "reach": 786,
+      "reactions": 21,
+      "comments": 2,
+      "reposts": 3,
+      "saves": 0,
+      "clicks": 916
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

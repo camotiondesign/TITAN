@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "generated_at": "2026-04-14T09:49:32.609952+00:00",
+    "source": "https://intercom-help.eu/titan-eu/en/collections/766933-titanverse-user-guides",
+    "total_articles": 108,
+    "sections": {
+      "Getting Started": 9,
+      "NMS": 9,
+      "Clinical Checks": 2,
+      "Consultations": 25,
+      "Prescription Approvals": 1,
+      "Calendar": 4,
+      "Patient Records": 14,
+      "Documents": 5,
+      "Pricing & Billing": 1,
+      "Partners": 2,
+      "FAQs": 15,
+      "Release Notes": 8,
+      "Settings": 13
+    }
+  },
+  "articles": [
+    {
+      "section": "Getting Started",
+      "title": "Getting Started with TITANVERSE – NMS",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/527850-getting-started-with-titanverse-nms",
+      "content": "Overview\n\nThis guide helps teams implement the New Medicine Service (NMS) in TITANVERSE. Before starting consultations, configuration steps must be completed within TITAN to ensure eligible items flow correctly and staff have appropriate permissions.\n\n1. TITAN Configuration Requirements\n\nTwo key configurations must be completed:\n\nA. Clinical Check Configuration\n\nThe Clinical Check Configuration in TITAN must be enabled. Depending on system setup, you'll see:\n\n- Slider Setting: Must be switched ON\n- Dropdown Setting: Select from:\n  - NMS On with Pharmacist Check – Staff receive prompts during clinical check and can choose whether to create NMS alerts\n  - NMS On without Pharmacist Check – All eligible items automatically transfer to TITANVERSE after handout\n\nImportant: If NMS is set to Off, both systems ignore eligible medicines, preventing prompts, alerts, or reports.\n\nB. Role Permissions\n\nEnable the permission \"Can perform NMS consultation\" for staff. This allows them to:\n\n- Record patient consent during handout via TITAN or TITAN Mobile\n- Capture condition information\n- Schedule intervention dates and times\n\nNotes: Declined consent means items won't appear on the NMS board. Items marked \"Do Later\" appear in the Eligible column for follow-up. Declined items remain visible for audit purposes and can be reset if declined in error.\n\n2. Understanding NMS Workflow in TITANVERSE\n\nThe NMS Eligible Drug List is embedded in TITAN. Eligible items are flagged during handout based on configuration. Patients may decline the service; declined items stay visible for audit purposes.\n\n3. NMS Consultation Process\n\nA. NMS Intervention\n\nRecord how patients are managing medication and pharmacy actions taken. Staff can also document lifestyle advice, schedule follow-ups, and add consultation notes.\n\nB. NMS Follow-Up\n\nConfirm medication management and actions taken. Staff may record lifestyle advice, add notes, and mark consultations as Complete to proceed to claiming.\n\n4. Claiming for NMS\n\nOnce episodes are completed, obtain claim data from TITANVERSE for MYS platform submission.\n\nViewing Claim Counts\n\n1. Log into TITANVERSE\n2. Go to Analytics\n3. Select the Completed tab\n4. Open To Be Claimed section\n\nView total completed intervention and follow-up consultations with automatic adjustments based on date range selection.\n\nTop Tips & Best Practices\n\n- Verify role permissions for consultation completion and consent recording\n- Ensure clinical check settings are properly configured with staff understanding\n- Clear claim screens after monthly MYS submissions to maintain dashboard accuracy"
+    },
+    {
+      "section": "Getting Started",
+      "title": "Getting Started with TITANVERSE Consultations — Service Setup",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/527744-getting-started-with-titanverse-consultations-service-setup",
+      "content": "This guide supports initial service setup for smooth operations. The document outlines five main sections:\n\nService Setup Requirements\n\nBefore creating a service, you must have: rooms assigned to locations, established teams, invited users with availability settings, a consultation template, a pre-consult (if needed), and email/SMS templates. Locations represent your active pharmacy sites in TITANVERSE.\n\nPre-Creation Tasks\n\nConsultation Template: Create a standardized template with descriptive naming conventions related to your service type.\n\nPre-Consult Creation: Three methods are available—generate automatically from an existing consultation template, utilize an AI question generator (accepting PDF, DOC, DOCX, or TXT documents), or build manually using the form builder.\n\nCommunication Templates: Prepare templates for appointment confirmations, rescheduling notifications, cancellations, and reminders with consistent naming.\n\nRecommended Setup Sequence\n\nFollow this order: (1) Create consultation template, (2) Create pre-consult with available AI generation, (3) Create email/SMS templates, (4) Create the service linking all components.\n\nWebsite Embedding\n\nAccess iFrame embed code through Settings > Service > View iFrame Code. Copy the provided code and paste it into your website's HTML to enable direct customer bookings.\n\nBest Practices\n\nUse consistent naming across templates and ensure users configure general availability in profiles, utilizing calendar blockouts for staff leave."
+    },
+    {
+      "section": "Getting Started",
+      "title": "Getting Started with TITANVERSE Consultations",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/526786-getting-started-with-titanverse-consultations",
+      "content": "Overview:\nThis guide helps pharmacy staff efficiently navigate and complete consultations within TITANVERSE. It covers starting consultations with or without appointments, utilizing pre-consult information, and completing transcription, actions, and summaries while maintaining accurate record keeping.\n\n1. Starting a Consultation\n\nWalk-in Patients (No Appointment)\n- Search for the patient and select their record\n- Go to the Patient Dashboard\n- Click Start New Consultation\n\nFor unregistered patients, add them to TITANVERSE. For existing TITAN patients, import their record from the Patient List.\n\nPatients with Booked Appointments\nStart consultations from the Patient Dashboard, Patient History & Schedule, or Calendar Appointment.\n\n2. Pre-Consults\n\nWhen pre-consults are enabled for a service, patient-submitted forms appear in the Pre-Consult tab from within the consultation allowing pharmacists to review information beforehand.\n\n3. Preparing for the Consultation\n\nBefore beginning:\n- Verify you've opened the correct patient record\n- Ensure hardware setup (microphone enabled, permissions granted)\n\n4. Conducting the Consultation\n\nThree consultation methods exist:\n- Transcription: Speech automatically populates template fields\n- Manual Entry: Free-type patient responses into structured fields\n- Free-Type Transcription: Type freely without structured fields\n\nDuring the Consultation:\n- Discussed actions appear in the Actions panel (right side)\n- Undiscussed actions can be added via Add Action button\n- Performed actions display within the actions panel\n\n5. Consultation Summary & Completion\n\nAfter stopping transcription:\n- A consultation summary generates automatically\n- An AI-generated summary can be emailed to patient or GP\n\nBefore marking as Finished:\n- Ensure all required actions are completed\n- Important: Once completed, consultations and actions cannot be edited\n\n6. Helpful Tips\n\n- Verify correct patient profile before starting\n- Check hardware before beginning\n- Complete all required actions before finalizing\n- Review pre-consult information for efficient preparation\n- Review summary before completion since editing becomes unavailable afterward"
+    },
+    {
+      "section": "Getting Started",
+      "title": "TITANVERSE: Verification and Login Video",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340700-titanverse-verification-and-login-video",
+      "content": "This article features an embedded Vimeo video (ID: 942040951) that demonstrates the verification and login process for TITANVERSE. The actual instructional content and step-by-step details for verification and login are contained exclusively within the embedded video rather than in written text form on the page itself. The article serves primarily as a video tutorial resource."
+    },
+    {
+      "section": "Getting Started",
+      "title": "TITANVERSE: How To Setup My Profile",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/494502-titanverse-how-to-setup-my-profile",
+      "content": "Overview\nThis guide demonstrates how to configure your profile, including credentials, digital signatures, and PIN setup for prescription authorization.\n\nGetting Started\n\nAccess Your Profile:\n1. Log into TITANVERSE with your credentials\n2. Select your initials in the top right corner\n3. Choose \"My Profile\"\n\nGeneral Profile Settings\n\nFrom the General section, users can:\n- Upload a profile photo (optional)\n- View full name and email address\n- Enter GPHC registration number (required for Pharmacists and IPs)\n\nAvailability Configuration\n\nUsers performing services must establish their availability by:\n- Selecting working days of the week\n- Entering general working hours\n\nNote: Use the calendar block-out feature for specific unavailable periods, such as annual leave or staff training.\n\nAccreditations and Skills\n\nUsers can directly upload professional certificates and training documents to their profiles.\n\nDigital Signatures\n\nImportant: Prescribers must create their digital PIN and Certificate before generating or approving prescriptions.\n\nSetup Process:\n1. Select \"Generate new certificate\"\n2. Create a secure 4-digit PIN\n3. Add your digital signature (can be handwritten or typed)"
+    },
+    {
+      "section": "Getting Started",
+      "title": "TITANVERSE: The Map Screen Video",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340701-titanverse-the-map-screen-video",
+      "content": "This article contains an embedded Vimeo video (ID: 954037568) that provides instructional guidance on using the Map Screen interface within the TITANVERSE application. The primary learning resource is the embedded video itself. The page does not include a full written transcript or detailed step-by-step text instructions."
+    },
+    {
+      "section": "Getting Started",
+      "title": "TITANVERSE: How To Invite and Archive Members",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/494467-titanverse-how-to-invite-and-archive-members",
+      "content": "Step-by-Step Instructions\n\n1. Log in to TITANVERSE using your credentials to access your account.\n\n2. Select the 'settings' cog at the top right-hand side of the screen.\n\n3. Select 'Members' tab. This screen will show you existing members added to the organisation and provide the status of User Packs.\n\n4. Select 'Invite Member'.\n\nIf you have invited more Users than the pack purchased allows, you will see a prompt indicating that additional User Pack will need to be purchased or removal of existing Users that do not require access to the platform.\n\n5. Enter User email address.\n\n6. (Optional) Configure temporary access for the user.\n\nYou can restrict a user's access to TITANVERSE by setting a specific access window.\n\n- Locate the Temporary Access toggle.\n- Switch the toggle on to enable restricted access.\n\nToggle behaviour:\n\n- Grey slider = Immediate and permanent access. The user will have access from when they activate their account until their account is removed.\n- Black slider (moved to the right) = Restricted access enabled. The user's access will be limited to the selected dates.\n\nWhen restricted access is enabled, you can configure:\n\n- Access start date – The date the user is allowed to start accessing the platform.\n- Access end date – The date the user's access will end.\n\nUsers cannot log in outside of their assigned access window.\n\n7. Select User Role from the drop-down menu.\n\n8. Select the Team(s) the User will have access to.\n\nInvitation previews visible prior to sending invite.\n\n9. Select 'Send Invitation'.\n\nNotification Settings for Members\n\nUsers can enable email notification preferences directly from their account within the members section. Options include:\n- Receive notifications when a booking has been made.\n- Receive notifications when a booking has been rescheduled or cancelled.\n\nNotifications can be configured only for appointments associated with the user, or for all users across all services, providing flexible control over notification preferences.\n\nHow to Archive a User Profile\n\nTo archive a user, locate the account you wish to remove and select the bin icon located on the front of their profile. This functionality is available within the members section of the settings.\n\nTips / Best Practices\n\n- Remember to configure your role settings before inviting members\n- Users can be invited to more than one Team\n- Admins have access to amend Users availability through Edit Members\n- Users with temporary access are still included as part of the organisation's User Pack allocation. To permanently remove a user and free up the User Pack licence for another user, the account must be archived once access is no longer required."
+    },
+    {
+      "section": "Getting Started",
+      "title": "TITANVERSE: How To Setup Teams",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/494496-titanverse-how-to-setup-teams",
+      "content": "Step-by-Step Instructions:\n\n1. Log in to TITANVERSE using your credentials to access your account.\n\n2. Select the 'settings' cog at the top right-hand side of the screen.\n\n3. Select 'Teams' tab.\n\nWhen in Teams, you can view existing teams created and edit if required by selecting the pencil icon.\n\n4. Select 'Add Team'\n\n5. Enter 'Team Name'\n\n6. Select Team Colour.\n\n7. Enter description.\n\n8. Tick the box next to member name to assign them to the Team. Multiple members can be assigned to a Team.\n\n9. Tick the box next to the Pharmacy that the members of this Team can access. Multiple pharmacies can be assigned to a Team.\n\n10. Select the 'Save Team' tab."
+    },
+    {
+      "section": "Getting Started",
+      "title": "TITANVERSE: Your Pharmacy Dashboard",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/574365-titanverse-your-pharmacy-dashboard",
+      "content": "Feature Overview\n\nThe Pharmacy Dashboard offers a real-time snapshot of daily pharmacy activity within TITANVERSE. It enables monitoring of patients, services, appointments, notifications, and active consultations to maintain organization and responsiveness.\n\nThe dashboard automatically displays data for the logged-in user but can be adjusted to show team-wide information. Key elements include:\n\n- Total Active Patients within TITANVERSE\n- Total Active Services\n- Total Appointments for Today\n- Notifications Tile\n- Active Consultation Tab\n\nHow to Use the Pharmacy Dashboard\n\nViewing Dashboard Data\n\nBy default, individual activity data appears upon accessing the Dashboard tab. Users should review the summary tiles displaying patient counts, active services, and today's appointments.\n\nFiltering by Team Member\n\nThe Team Member Filter dropdown allows viewing data for specific staff members or the entire team. After selecting the preferred option from the dropdown, the dashboard refreshes automatically.\n\nUnderstanding Summary Tiles\n\nTotal Active Patients: Displays currently active TITANVERSE patients.\n\nTotal Active Services: Shows services currently active within the pharmacy.\n\nTotal Appointments for Today: Lists all scheduled appointments for the current day.\n\nUsing the Notifications Tile\n\nAlerts notify users when patients submit Pre-Consult Forms, submit Questionnaires, or book new appointments.\n\nViewing Active Consultations\n\nThe Active Consultation Tab displays unclosed consultations, ensuring ongoing patient interactions receive attention.\n\nTop Tips\n\n- Check the dashboard at the start of each working day\n- Monitor notifications regularly to avoid delays\n- Complete outstanding actions before closing active consultations"
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Overview Video",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340705-titanverse-nms-overview-video",
+      "content": "This article contains an embedded Vimeo video (ID: 915646979) that provides an overview of the NMS (New Medicine Service) functionality within TITANVERSE. The article is structured as a video-based tutorial rather than a text-heavy guide. The page does not include detailed text instructions or descriptions beyond the video embed itself."
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Management",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340706-titanverse-nms-management",
+      "content": "Overview\n\nWhen medications qualify for NMS, a prompt appears based on pharmacy TITAN configuration. The Engagement form captures patient consent, related condition, and intervention date. Patients may decline or defer NMS using \"Do Later,\" with deferred submissions remaining in the Engagement stage for later completion through TITAN Mobile.\n\nProcessing NMS in TITANVERSE\n\nThe four-step process involves: (1) logging in with credentials, (2) selecting the Services tab, (3) viewing NMS records organized into \"Eligible\" (including deferred NMS), \"Intervention,\" and \"Follow Up\" columns, and (4) selecting a patient card to complete the stage. Utilise the filters section to swiftly search for patients by name, tag, date, or other attributes.\n\nProcessing an Intervention\n\nLeft-hand patient details appear from the TITAN record. Users complete right-side fields, provide healthy living advice where applicable, and adjust follow-up type and date as needed. All mandatory fields require completion.\n\nProcessing a Follow Up\n\nUsers complete right-side fields, provide health guidance, and finalize the follow-up form. When Follow Up is complete data is automatically transferred to Analytics ready to be claimed.\n\nAdditional Features\n\n- Analytics Page: Overview of processed NMS data, earnings, user-specific statistics, and trends\n- Calendar View: Displays bookings by date for planning\n- Completed Services: Lists \"To Be Claimed\" and \"Claimed\" NMSs\n- Documents Store: Repository for SOPs and best practice guides"
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Interventions Video",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340707-titanverse-nms-interventions-video",
+      "content": "This article contains an embedded Vimeo video (ID: 941570595) as the primary content. The page does not include detailed text instructions or step-by-step procedures for NMS interventions. The article primarily consists of an embedded instructional video rather than written documentation. For comprehensive intervention guidelines, users should view the video content directly or consult the related TITANVERSE: NMS Management article."
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS On TITAN Mobile",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340708-titanverse-nms-on-titan-mobile",
+      "content": "Steps for NMS Processing on TITAN Mobile:\n\n1. Scan package at handout as normal.\n\n2. When prompted, click \"Start\" under \"New Service\".\n\n3. Click \"Yes\" to fill out engagement form.\n\n4. Complete the engagement form on your device as instructed.\n\n5. Once all details have been entered, click \"Complete\".\n\n6. Hand out the package as normal—the NMS will be sent to TITANVERSE for you to conduct the intervention on the scheduled date.\n\nTip: If you select \"later\" at this stage, the NMS will still proceed to TITANVERSE but will remain at the engagement stage rather than advancing further."
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: Titan Mobile Video",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340709-titanverse-titan-mobile-video",
+      "content": "This article consists primarily of an embedded Vimeo video (ID: 941545202). The actual instructional content about Titan Mobile functionality is delivered through the embedded video rather than written text. The article contains minimal text content beyond the video player."
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Setup TITAN Role Permissions",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340711-titanverse-nms-setup-titan-role-permissions",
+      "content": "Review and Update Role Permissions\n\n1. Log in to Titan: Access your account using your credentials.\n\n2. Access Your Profile: Click on your profile icon in the interface.\n\n3. Select the Roles Tab: Navigate to the \"Roles\" tab from your profile menu.\n\n4. Create or Edit a Role:\n   - To create a new role, click \"Add New\"\n   - To modify an existing role, click the edit pencil icon adjacent to it\n\n5. Enter Role Details:\n   - Role Name: Provide a descriptive name for the role\n   - Description: Explain what users assigned this role can accomplish\n\n6. Set Permissions: Select the required permissions, such as \"Can perform NMS consultation\".\n\n7. Confirm: Click \"Confirm\" to save your role configuration.\n\nImportant Note: The \"Can Perform NMS Consultations\" permission allows users to complete the initial engagement part of the NMS."
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Setup TITAN Clinical Check Configuration",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340712-titanverse-nms-setup-titan-clinical-check-configuration",
+      "content": "Configure NMS Settings\n\n1. Log in to Titan: Access your account using your credentials.\n\n2. Go to Settings: Click the settings cog icon.\n\n3. Select NMS Check: Choose the appropriate option for NMS notifications.\n\nTurn NMS Off\n\nWhen disabled, Titan and Titanverse will completely ignore any medicines eligible for NMS.\n\nNMS On with Pharmacist Check\n\nWhen enabled with pharmacist review:\n\n- An NMS alert appears on the clinical check screen\n- After pharmacist selects \"Create NMS Alert,\" consent prompts display during handout on Titan mobile (Edo) or Titan handout process\n- The NMS opportunity displays on Titanverse\n\nNMS On without Pharmacist Check\n\nWhen enabled without pharmacist review:\n\n- Medicines prompt for consent directly on Titan mobile (Edo) or Titan handout screen, bypassing clinical check alerts\n- Once actioned, NMS opportunity displays on Titanverse\n\nAlternative options:\n- Do Later: Item appears in Titanverse for later completion\n- Decline NMS: Item moves to decline list within Titanverse with no further action needed"
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Claims",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/348065-titanverse-nms-claims",
+      "content": "Accessing Monthly Claim Figures\n\nStep-by-step instructions:\n\n1. Log in to TITANVERSE.\n2. Click on Analytics in the main menu.\n3. Select the Completed tab at the top of the screen.\n4. Choose the To Be Claimed section.\n\nThe system displays a graph with detailed New Medicine Service (NMS) information. In the top-right corner, users can locate real-time data for:\n- Completed Intervention Consultations\n- Completed Follow-Up Consultations\n\nThese figures adjust based on the selected date range. Use the calendar icon in the top-right corner to modify the date range as needed.\n\nImportant Claiming Guidance\n\nFollowing Community Pharmacy England's October 2025 guidance:\n\n- Claims must be made monthly, allocated to the calendar month when consultations occur.\n- Intervention consultations: If completed in Month A, claim during Month A's submission (by the 5th of Month A+1).\n- Follow-up consultations: If completed in Month B, claim during Month B's submission (by the 5th of Month B+1).\n- Each consultation requires a separate claim, even within the same NMS episode.\n\nFor additional NHS guidance, visit Community Pharmacy England's NMS service page.\n\nSubmitting and Marking Claims\n\nOnce claims are submitted via MYS:\n\n1. Return to TITANVERSE.\n2. In the To Be Claimed section, highlight claimed NMS cases.\n3. Select Mark as Claimed.\n\nThis action moves entries to the Claimed tab for record-keeping purposes.\n\nExporting NMS Evidence\n\nTo provide claim evidence:\n- Navigate to the Completed section in Analytics.\n- Click Export to download data in CSV format containing all completed NMS details."
+    },
+    {
+      "section": "NMS",
+      "title": "TITANVERSE: NMS Historical Claims Data",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/461585-titanverse-nms-historical-claims-data",
+      "content": "Overview\n\nThe article explains how to access historical claims data in TITANVERSE following updates to the NMS claiming process. A new feature has been added under Analytics > Completed to help users retrieve completion data for interventions and follow-ups from previous months.\n\nSteps to View Analytics\n\nUsers should:\n1. Log into TITANVERSE with their credentials\n2. Select \"Analytics\" from the main menu\n\nSteps to View Historical Claims\n\nThe process involves three actions:\n1. Click the \"Completed\" tab at the top of the screen\n2. Select the \"Historical Claims\" tab\n3. Enter the desired date range\n\nThe system displays total quantities for Interventions and follow ups completed within this date range.\n\nThis feature supports users during the transition period following recent NMS process modifications."
+    },
+    {
+      "section": "Clinical Checks",
+      "title": "TITANVERSE: Clinical Check - Patient Matching",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/359519-titanverse-clinical-check-patient-matching",
+      "content": "Overview\nThis guide explains how to perform and complete a patient match as part of the Clinical Checks in TITANVERSE.\n\nInitial Steps\nFrom the Clinical Check Board in TITANVERSE, locate and select a prescription card for review from the inbox.\n\nBefore completing the check, review the prescription image to confirm:\n- It is signed and dated\n- It is within validity period (e.g., controlled drugs comply with CD legal requirements)\n\nPatient Matching Types\n\nFull Match\nPrescriptions automatically link to an existing record which has previously been matched.\n\nPartial Match\nSometimes patient information may differ from the existing record, resulting in a partial match.\n\nActions:\n- Review the information and click Accept to link to the recommended patient\n- If multiple similar patients exist, click Find Patient, select the correct patient, and click Submit\n\nNo Match\nIf no identical or similar patient record exists matching the prescription details:\n\nActions:\n- Use Find Patient to check for existing records before creating a new one, avoiding duplicate records. If a matching record appears, select and click match\n- Click Add Patient to create a new patient record in TITANVERSE"
+    },
+    {
+      "section": "Clinical Checks",
+      "title": "TITANVERSE: Performing Clinical Checks",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/359528-titanverse-performing-clinical-checks",
+      "content": "Note: Dispensing-related tasks are not included within TITANVERSE and must be completed within Titan separately.\n\nOnce data entry is complete, pharmacists must review prescriptions for clinical safety. The Clinical Check represents formal approval that a prescription is safe to dispense. Following this confirmation, the remaining task involves ensuring correct medication reaches the correct patient at the correct time.\n\nClinical Check Objectives\n\nPharmacists performing clinical checks should verify:\n\n- Prescription safety for patient supply\n- Clinical appropriateness of the prescription\n- Legal validity of the prescription\n- Reimbursability of all prescribed items\n- Patient concordance and appropriate medicine use\n- Minimization of medication errors\n\nAccessing Clinical Checks\n\nNavigate to the clinical check board by clicking \"clinical checks\" located near the services at the top of the screen.\n\nClinical Check Process\n\nSelect a prescription card from the TITANVERSE Prescription Board and verify:\n\n- Prescription validity (signatures, dates, currency, and controlled drug compliance)\n\nReview each item for:\n\n- Drug interactions and warnings\n- Dosage appropriateness\n- Medical condition considerations\n- Potential side effects and adverse reactions\n- Overordering concerns\n- High-risk medicines (e.g., Methotrexate)\n- Therapeutic duplication\n- Prescription expiration\n- Recent dispensing history (within 7 days)\n- Patient allergies\n- Data entry error susceptibility\n- NHS blacklisting status\n- SLS endorsement requirements\n- Manufacturer supply availability\n- Additional endorsements needed\n\nDocumentation and Submission:\n\n- Leave notes for future reference or TITAN Mobile display\n- Confirm clinical review by selecting Save\n- Proceed using \"Save and Next\" or \"Save and Exit\"\n- Prescription moves to the Picking Stock stage\n\nBest Practices\n\nWork through prescriptions in priority order. Double-check high-risk items and controlled drugs carefully. Use judgment with any non-dispensing decisions and document reasons clearly in notes."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Start a Consultation Using AI Transcribing",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/501037-titanverse-how-to-start-a-consultation-using-ai-transcribing",
+      "content": "Before You Start\n\nCheck that your microphone permissions are set correctly within the browser. There must be a consultation template allocated to the consultation before users can start. Be aware that AI Transcribing can be paused and resumed, but once marked complete, it cannot be reopened—only paused transcriptions can continue.\n\nImportant Note: The system will automatically fill relevant answer fields based on consultation questions. It can take up to 30 seconds for the patient's responses to be automatically populated after starting transcription.\n\nStep-by-Step Instructions\n\nStep 1: From the consultation screen, select the 'Start Transcribing' tab.\n\nStep 2: You'll receive a confirmation prompt. Select 'Yes' to confirm you want to begin transcription.\n\nStep 3: Once transcription starts, begin your consultation with the patient. The transcription button will turn green once transcription has started, and sound bars will appear on the button to show that audio is being detected.\n\nImportant: If sound bars don't appear, pause and verify your hardware setup and microphone configuration before continuing."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Start a Consultation with Free Type Transcription",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/501066-titanverse-how-to-start-a-consultation-with-free-type-transcription",
+      "content": "This guide demonstrates the process for initiating a consultation using the Free Type Transcription feature.\n\nStep 1: Access TITANVERSE by logging in with your credentials.\n\nStep 2: Locate the patient through search functionality or choose from the calendar appointment view.\n\nStep 3: Navigate to the Patient Dashboard and scroll to locate 'Start new Consultation'.\n\nStep 4: Click the 'Start new Consultation' tab. Patient details will display on the screen's left side.\n\nStep 5: Input patient vital signs if necessary.\n\nStep 6: Choose an appropriate consultation template.\n\nStep 7: Review the 'Pre-Consult' section to verify any required pre-consultation materials.\n\nStep 8: Click the dropdown arrow on the 'Start Transcribing' tab.\n\nStep 9: Select 'Free type transcription' from the available options.\n\nStep 10: A text entry field appears for manually documenting consultation notes.\n\nStep 11: Begin the consultation with the patient.\n\nStep 12: Select 'Add to Consultation' to record your notes.\n\nThe system automatically generates a consultation summary in the summary tab for review purposes."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Start a Consultation with Manual Entry",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/501074-titanverse-how-to-start-a-consultation-with-manual-entry",
+      "content": "This guide demonstrates how to initiate a consultation using the Manual Entry option within TITANVERSE.\n\nStep 1: From the consultation screen, select the dropdown option on the 'Start Transcribing' tab.\n\nStep 2: Choose 'Manual Entry' from the available options.\n\nStep 3: The template format will automatically adjust to accommodate manual data input.\n\nStep 4: Begin the consultation with the patient and manually record the answers they provide during the session.\n\nStep 5: Once the consultation concludes, select the 'Manual Entry' button displayed on the screen.\n\nThe system generates a consultation summary in the summary tab, allowing users to review the documented information from the session."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To View Transcript Following Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502469-titanverse-how-to-view-transcript-following-consultation",
+      "content": "The transcript documents questions posed by the Pharmacist or IP alongside patient responses collected during the consultation.\n\nInitial Setup Steps\n\n1. Access the patients dashboard\n2. Choose 'Start New Consultation'\n3. Pick your consultation template\n4. Click 'Start Transcribing' in the upper right corner\n5. Confirm by selecting 'Yes'\n\nViewing the Transcript After Consultation\n\nOnce your consultation concludes:\n\n1. Select the 'Stop Transcribing' button positioned at the top right of your screen\n2. Navigate to the 'Transcript' tab adjacent to the patient's profile information to access the complete transcription record\n\nThe system automatically organizes all dialogue captured during your interaction for easy reference and documentation purposes."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To View the Pre-Consultation Form completed by the Patient",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502835-titanverse-how-to-view-the-pre-consultation-form-completed-by-the-patient",
+      "content": "Pre-consult forms are automatically generated to patients when a booking is made if users have enabled them for a particular service. Once completed, the form appears in the patient's consultation record and provides key information such as symptoms, medical history, lifestyle details, previous healthcare interactions, and the patient's declaration and consent. An AI-generated clinical summary is also included, giving clinicians a clear, structured overview before the consultation begins.\n\nPre-consult templates are completely customizable but must be created and assigned as part of the service set up.\n\nStep 1: Enter the patient's consultation (via the patient dashboard or directly from the calendar)\n\nStep 2: Select the 'Pre-Consult' tab from the middle section consultation screen to review the information submitted by the patient."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Record Vitals for a Patient in Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502860-titanverse-how-to-record-vitals-for-a-patient-in-consultation-screen",
+      "content": "All recorded vitals are displayed within the patient's dashboard. Users can enter vital measurements during consultations or from the dashboard, with historical vitals also available for addition when needed. The system displays visual graphs showing trends and averages to support clinical assessment.\n\nStep 1: Log in to TITANVERSE using your credentials.\n\nStep 2: Search for the patient record.\n\nStep 3: Access consultations from the Patient Dashboard for scheduled appointments, or from the Calendar. Users can select 'Start New Consultation' to begin without a prior booking.\n\nStep 4: View patient information displayed on the left-hand side of the screen.\n\nStep 5: Scroll down the screen to locate the 'Vitals' section.\n\nStep 6: Select 'Add Vital' to begin recording.\n\nStep 7: Choose the vital type you wish to record.\n\nStep 8: Enter the vital measurement value.\n\nStep 9: Input the date the vital was taken.\n\nStep 10: Select 'Add' to save the vital record.\n\nThe system then stores the vital measurement within the patient's health record for ongoing monitoring and clinical reference."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Add an Allergy for a Patient in Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502871-titanverse-how-to-add-an-allergy-for-a-patient-in-consultation-screen",
+      "content": "Allergy records can be managed directly from the patient's dashboard or during a consultation. Users can update existing allergies, record new ones, and maintain an accurate history to support safe clinical decision-making.\n\nStep 1: Log in to TITANVERSE using your credentials.\n\nStep 2: Search for the patient or select from the calendar view.\n\nStep 3: Access the patient's consultation from the Patient Dashboard for pre-booked appointments, or from the Calendar. If no prior booking exists, users can select the 'Start New Consultation' tab to begin a new consultation without a booking. Patient information will be visible down the left-hand side of the screen.\n\nStep 4: Scroll down the screen to Allergies.\n\nStep 5: Select 'Add Allergy'.\n\nStep 6: Enter allergy details: Allergy name, Severity, Typical Reaction, Additional Notes.\n\nStep 7: Select 'Add allergy'."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Add a Medical Condition for a Patient in Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502876-titanverse-how-to-add-a-medical-condition-for-a-patient-in-consultation-screen",
+      "content": "Conditions display on the Patient Dashboard and can be recorded there as well. This guide covers adding conditions within the consultation screen, accessible to Pharmacists and IPs.\n\nStep 1: Log in to TITANVERSE using your credentials.\n\nStep 2: Search for the patient or select from the calendar view.\n\nStep 3: Scroll down the Patient Dashboard to locate 'Start new Consultation'.\n\nStep 4: Select the 'Start new Consultation' tab. Patient information appears on the left-hand side of the screen.\n\nStep 5: Scroll down to the 'Medical Conditions' section.\n\nStep 6: Select 'Add Condition'.\n\nStep 7: Enter the condition details: Condition name, Status, Diagnosed Date, Additional Notes.\n\nStep 8: Select 'Add Condition' to save the entry."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Add a New Medication for a Patient in Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502911-titanverse-how-to-add-a-new-medication-for-a-patient-in-consultation-screen",
+      "content": "Medications will be displayed on the Patient Dashboard and can be recorded there as well.\n\nStep 1: Log in to TITANVERSE using your credentials.\n\nStep 2: Search for the patient or select from the calendar view.\n\nStep 3: Scroll down the Patient Dashboard to 'Start new Consultation'.\n\nStep 4: Select 'Start new Consultation' tab. Patient information is visible down the left-hand side of the screen.\n\nStep 5: Scroll down the screen to 'Medications'.\n\nStep 6: Select 'Add Medication'.\n\nStep 7: Enter the medication details: Item (Medication name), Dose, Quantity, Therapy Level, Additional Notes.\n\nStep 8: Select 'Add Medication'."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: Consultation Summaries",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/502481-titanverse-consultation-summaries",
+      "content": "A Consultation Summary is an automatically generated record created using patient responses captured during a session. Once the consultation ends, the AI processes the information and compiles it into a structured summary based on template settings, presenting key details, answers, and clinical notes in an organized format for review, editing, or export.\n\nBefore You Start\n\n- Ensure you are in the correct Patient Dashboard\n- Have the appropriate consultation template ready to select\n- Decide whether the consultation will use AI Transcribing, Manual Entry, or Free Type\n\nStep-by-Step Instructions\n\n1. Enter the Patient Dashboard\n2. Select 'Start New Consultation'\n3. Select the consultation template\n4. Select how the consultation will be completed (AI Transcribing, Manual Entry, or Free Type) - located in the top right-hand side of the screen\n\nOnce the consultation has been stopped, the summary will be automatically generated from the answers provided and will display in the middle section under the 'Summary' tab.\n\nAdditional Functionalities\n\nRegenerate the Consultation: Select the 'Regenerate' tab.\n\nEdit the Summary for Additional Notes: The summary can be manually updated by typing additional information into the summary box. After making changes, select 'Apply & Regenerate' to ensure the AI incorporates these updates into a refreshed version. Select the Document icon, type additional notes or make amendments, then select 'Apply & Regenerate' to save.\n\nReset to Default: Select 'Reset to Default' to return the summary to its original state after changes have been made.\n\nExport the Summary Document: Select the three dots, then select an option from the drop-down box.\n\nPatient Facing Summaries\n\nWithin the Actions tab on the Summary screen, users can create a patient-facing version of the consultation summary. This generates a simplified, patient-friendly document that can be shared with the patient. Additional items such as vitals, prescriptions, vaccination certificates, and patient consent copies can be included.\n\nTo Generate a Patient-Facing Version:\n\n1. Once the consultation has finished (but not been completed) and all required actions have been performed, select 'Add Action'\n2. Select 'Summary'\n3. Select all items to include in the patient-facing summary (e.g., Summary, vitals, prescriptions, vaccination certificates, patient consent)\n4. Select 'Generate Preview'\n5. Review the document\n6. Select 'Generate Document'\n7. Users can then either print or email the document\n\nFeedback Feature\n\nUsers can provide feedback on summaries or quick actions to help improve these features for themselves and other users:\n\n1. Select the 'Speech' icon\n2. Select option for what the feedback is about\n3. Type feedback in the box provided\n4. Select 'Submit Feedback' to save"
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Create and Send a Referral for a Patient During A Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/507063-titanverse-how-to-create-and-send-a-referral-for-a-patient-during-a-consultation",
+      "content": "This guide demonstrates how to generate and dispatch a patient referral using the Actions feature within a consultation session.\n\nStep 1: Access the action menu by selecting the '+ Add action' tab positioned at the bottom left of the consultation interface.\n\nStep 2: Choose 'Referral' from the available options.\n\nStep 3: Input a title for your referral document.\n\nStep 4: Enter the content that should appear in the referral.\n\nStep 5: Select one of these distribution methods: Print Document, Copy to Clipboard, Download PDF, Email to recipients.\n\nStep 6: Choose 'Send Email' to transmit the referral to designated recipients.\n\nThis functionality enables practitioners to efficiently create and share referrals without leaving the consultation interface, streamlining the patient care coordination process."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Book an Appointment via Actions in Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/507434-titanverse-how-to-book-an-appointment-via-actions-in-consultation",
+      "content": "Step 1: Select the '+ Add action' tab located at the bottom left-hand side of the consultation screen.\n\nStep 2: Select the 'Appointment' tab from the available options.\n\nStep 3: Filter availability according to your needs. You can jump to frequently used dates, filter by specific service, or filter by staff member. Select your desired appointment slot.\n\nStep 4: Enter the following required details to confirm the booking: Service Type, Pharmacist, Date and Time, Contact information (optional), Duration. If you wish to notify the patient about the appointment, select your preferred notification method.\n\nStep 5: Select 'Create Appointment' to finalize the booking.\n\nImportant Note: Upcoming appointments will appear in both the calendar view and within the patient's dashboard once created."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Record Vitals via Actions in Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/511223-titanverse-how-to-record-vitals-via-actions-in-consultation",
+      "content": "Step 1: Access the consultation screen and select the '+ Add action' tab located at the bottom left-hand side.\n\nStep 2: Choose the 'Vitals' tab from the available options.\n\nStep 3: Select the specific vital measurement you need to record from the list provided.\n\nStep 4: Enter the vital recording data into the appropriate field.\n\nStep 5: Click the 'Save vital' tab to record the measurement.\n\nCalculate Patient BMI\n\nThe system includes a BMI calculator feature:\n\nStep 1: Input the patient's height measurement.\n\nStep 2: Input the patient's weight measurement.\n\nStep 3: Select 'Calculate BMI' to generate the result.\n\nImportant Information: Vitals are editable only while a consultation is active. After recording, vitals appear in the right-hand action panel where adjustments can be made if needed. Users must verify data accuracy before finalizing the consultation, as modifications become impossible once the consultation is completed.\n\nTarget Users: Pharmacists and Integrated Practitioners (IPs)"
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Create A Vaccination Certificate in a Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/512788-titanverse-how-to-create-a-vaccination-certificate-in-a-consultation",
+      "content": "This guide explains how to document vaccine administration and generate a vaccination certificate for patients during consultations.\n\nStep 1: Select the '+ Add action' tab located at the bottom left of the consultation screen.\n\nStep 2: Choose the 'Vaccine' tab from the available options.\n\nStep 3: Enter the required vaccine information: Search Vaccine (by disease or brand name), Batch Number, Dose, Schedule, Route, Site, Expiry date / Next Due. When administering multiple vaccines during one consultation, select 'add more' and repeat the process. All vaccines recorded simultaneously will automatically appear on a single vaccination certificate.\n\nStep 4: Select 'Administer Vaccination' to confirm the entry.\n\nCertificate Generation and Storage\n\nThe recorded vaccination will appear in the actions panel, where you can generate the certificate. The certificate is automatically stored under Patient Documents on the Patient Dashboard.\n\nMultiple Vaccination Certificates\n\nUsers can generate a consolidated certificate for multiple vaccinations recorded across different consultations by:\n1. Accessing the patient profile\n2. Selecting 'Vaccinations' from Medication History\n3. Choosing which vaccines to include\n4. Selecting 'Generate Certificate'\n\nThe certificate displays on screen and is available for download."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: Capturing Patient Consent Signatures in the Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/516716-titanverse-capturing-patient-consent-signatures-in-the-consultation-screen",
+      "content": "Step 1: Select the '+ Add action' tab positioned at the bottom left-hand side of the consultation screen.\n\nStep 2: Select the 'Signature' tab from the available options.\n\nStep 3: Choose who will be providing the signature (such as the patient or another authorized party).\n\nStep 4: The patient should sign using the electronic signature pad provided by the pharmacy.\n\nStep 5: Select 'Save Signature' to finalize and store the captured signature."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Upload a Document Via Actions in Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/516785-titanverse-how-to-upload-a-document-via-actions-in-consultation-screen",
+      "content": "Step 1: Select the '+ Add action' tab located at the bottom left of the consultation screen.\n\nStep 2: Choose the 'Document' tab from the available options.\n\nStep 3: Select either 'Upload file' or 'Select from library': Upload File displays documents stored on your device for upload selection. Select from Library shows documents currently visible on the Patient's Dashboard available for upload to that consultation.\n\nStep 4: Confirm the document type you are uploading to the consultation.\n\nStep 5: Select 'Upload Document' to complete the upload process.\n\nStep 6: Once uploaded, the document appears in the action panel. You may select it to preview the content if needed.\n\nImportant Note: Documents uploaded during a consultation can be attached to the patient summary when using the 'Summary' option within the Action menu."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Generate a Patient Summary Via Actions in Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/517839-titanverse-how-to-generate-a-patient-summary-via-actions-in-consultation-screen",
+      "content": "This guide explains how to create a patient summary that compiles all actions completed during a consultation, which can then be shared with patients or GP surgeries.\n\nStep 1: Access the action menu by selecting the '+ Add action' tab located at the bottom left of the consultation screen.\n\nStep 2: Click on the 'Summary' tab from the available options.\n\nStep 3: Choose which actions you want to include in your summary document.\n\nStep 4: Add signatures from both the patient and the pharmacist to the summary.\n\nStep 5: Select 'Generate Preview' to review the document before finalizing.\n\nStep 6: Click 'Generate Document' to create the final summary.\n\nOnce generated, the system provides options to email the document or print it. The completed patient summary will then appear in the Actions column for future reference."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Add Manual Notes During a Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/517857-titanverse-how-to-add-manual-notes-during-a-consultation",
+      "content": "The Notes section enables clinicians to document additional consultation details. These notes may be incorporated into the consultation summary when needed. This feature is particularly useful when patients share relevant information not addressed by the selected template.\n\nStep 1: Access the Notes Field. Locate and click within the Notes section found under the 'Extra Notes' area.\n\nStep 2: Enable Summary Inclusion. Toggle the slider to include your notes in the final summary.\n\nStep 3: Enter Your Notes. Type any additional clinical observations or patient information.\n\nOnce the consultation concludes and the summary generates, your added notes will be displayed in the final documentation."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To View the Audit of a Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/517919-titanverse-how-to-view-the-audit-of-a-consultation",
+      "content": "Step 1: Select the 'Audit' tab on the left-hand side of the screen to begin accessing consultation records.\n\nStep 2: Once selected, the audit displays comprehensive consultation data including: when the consultation began, any notes that were added, the transcription between the user and patient, and the consultation summary.\n\nStep 3: After a consultation is marked complete, users can review audits from earlier consultations. Simply choose the desired consultation from the recent consultation selection menu, and the audit information will appear.\n\nStep 4: The details will be displayed on the screen for your review and reference.\n\nThis feature allows practitioners to maintain complete records of all consultation activities, communications, and documentation within the TITANVERSE system for compliance and review purposes."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Use Chat Function During a Consultation",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/522440-titanverse-how-to-use-chat-function-during-a-consultation",
+      "content": "The AI Chat tool enables users to ask questions during a consultation and receive useful information quickly. For example, a user might inquire about vaccination recommendations for specific travel scenarios, and the system provides suggested answers.\n\nThis feature helps users obtain quick guidance without leaving the consultation interface. It reduces time spent searching external sources and promotes consistency by delivering identical information across repeated queries.\n\nImportant Note: The AI Chat feature supplies general recommendations only. Users must verify clinical information independently and apply their own professional judgment before making clinical decisions.\n\nHow to Use This Feature:\n\n1. From the consultation screen, select the 'Chat' tab on the right side.\n2. Click inside the 'Ask me anything' field located at the bottom of the column.\n3. Type any question into the input field.\n4. Press 'Enter' to submit the query.\n\nThe AI agent will provide either a direct answer or suggest actions to follow.\n\n5. Click the suggested action and follow the displayed steps to completion."
+    },
+    {
+      "section": "Consultations",
+      "title": "How To Create an AI Template in the Consultation Screen",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/522491-how-to-create-an-ai-template-in-the-consultation-screen",
+      "content": "The AI Template Generator enables rapid creation of consultation templates. Users describe their desired consultation type and attach relevant documents, which the system reviews and incorporates. The AI produces a customized template suited to individual workflows, with full editing capabilities.\n\nStep 1: Log in to TITANVERSE with your credentials.\n\nStep 2: Search for the patient or select from calendar view.\n\nStep 3: Scroll to the Patient Dashboard section labeled 'Start New Consultation'.\n\nStep 4: Select the 'Start New Consultation' tab.\n\nStep 5: Select to choose a template (dropdown shows previously created templates accessible organization-wide).\n\nStep 6: Select 'Create New Template with AI'.\n\nStep 7: Describe your desired consultation template type in the provided text box.\n\nStep 8: Attach supporting documents for AI to incorporate relevant information.\n\nStep 9: Select 'Generate Template' and review the AI-generated structure, summary, and questions.\n\nStep 10: Customize the template by adding a title, modifying autocue questions, removing questions, or adding new ones.\n\nStep 11: Select 'Save Template'.\n\nThe saved template becomes available organization-wide for all members to use in consultations."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How to Create and Send a Questionnaire to a Patient",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/528133-titanverse-how-to-create-and-send-a-questionnaire-to-a-patient",
+      "content": "This feature enables sending questionnaires to patients via email before appointment scheduling, helping verify service eligibility. Users can attach appropriate questionnaire templates and include personalized messages.\n\nHow to Access the Patient Dashboard\n\n1. Log in to TITANVERSE with your credentials\n2. Select the 'Patients' tab\n3. Search for the patient using the search bar\n4. Select the patient to open the Patient Dashboard\n5. Scroll down to view the Questionnaires section\n\nHow to Create a Questionnaire\n\n1. Select the envelope icon\n2. Choose 'Questionnaire template' from the dropdown menu\n3. Enter an email subject line\n4. Add a personalized message (optional)\n5. Select 'Send Questionnaire'\n\nOnce created, the patient receives an email with a secure link and PIN to access the form. The questionnaire appears on the patient dashboard with a 'Pending' status until completion. Patient responses are available for review directly from the dashboard.\n\nHow to Review the Completed Questionnaire\n\n1. Log in to TITANVERSE with your credentials\n2. Select the 'Patients' tab\n3. Search for the patient using the search bar\n4. Select the patient to open the Patient Dashboard\n5. Scroll down to the Questionnaires section\n6. Select the eye icon to view responses\n7. Choose to start consultation from the questionnaire"
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How to Use the Period Delay Calculator",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/611606-titanverse-how-to-use-the-period-delay-calculator",
+      "content": "The Period Delay Calculator helps clinicians determine suitable treatment options for delaying a patient's period, using NICE guideline recommendations. It also streamlines workflow by generating a draft prescription ready for review.\n\nBefore You Start (if applicable)\n\n- Ensure you are logged into your TITANVERSE account\n- Access to a patient record and consultation is required\n- Have relevant patient information available (e.g. contraception, medical history)\n\nStep-by-Step Instructions\n\n1. Log in to your TITANVERSE account\n2. Open the patient record\n3. Start a consultation\n4. Navigate to Action\n5. Select Calculators\n6. Choose Period Delay Calculator\n7. Enter how many days the patient wants to delay their period\n8. Remember to review any important information or warnings displayed\n9. Click Continue\n10. Confirm the following with the patient: Current contraception, VTE risk factor assessment, Other contraindications\n11. Review any additional warnings or important information\n12. Click Continue\n\nTo Create a Prescription:\n\n1. Select the most appropriate medication\n2. Click Add to Prescription\n3. The system will display recommended prescription details. Choose to recalculate or proceed with the recommended option\n4. A draft prescription will be created in the action panel for review or approval. Select the prescription from the actions panel to update, send for approval or process."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Use The Travel Calculator",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/629819-titanverse-how-to-use-the-travel-calculator",
+      "content": "The Travel Calculator assists clinicians in evaluating vaccination requirements and additional health considerations for specific travel destinations. It captures all necessary travel health data and generates preliminary vaccination certificates and prescriptions.\n\nBefore You Start\n\n- Access to initiate and participate in consultations\n- An existing or newly created patient record\n- An active consultation session\n\nStep-by-Step Instructions\n\n1. Log into TITANVERSE and open the relevant patient's file.\n2. Begin a new consultation or access an existing booking through the Patient Dashboard, Pharmacy Dashboard, or TITANVERSE Calendar.\n3. Within the consultation, go to the Action section and select Calculators, then choose Travel Calculator.\n4. Pick the patient's travel destination from the dropdown menu. The system will display relevant destination information, including any active outbreak alerts that require acknowledgment.\n5. Specify what the patient needs: vaccinations alone, or vaccinations with malaria prevention if applicable.\n6. From the vaccination list, choose appropriate vaccines. The Travel Calculator includes a direct link to NaTHNaC Travel Health Pro for verifying recommendations based on current outbreaks.\n7. If applicable, input the number of travel days to calculate correct dosing and prescription quantities.\n8. Carefully examine the travel health summary before proceeding, as this information generates draft certificates and prescriptions.\n9. Select Continue. Draft certificates and prescriptions appear in the Actions panel. Review each item, add required information, and make necessary edits.\n10. Generate final certificates and prescriptions for inclusion in patient records. All documents remain accessible in the patient's TITANVERSE dashboard for future reference."
+    },
+    {
+      "section": "Consultations",
+      "title": "TITANVERSE: How To Use The Weight Loss Medication Calculator",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/629847-titanverse-how-to-use-the-weight-loss-medication-calculator",
+      "content": "The Weight Loss Medication Calculator enables clinicians to calculate BMI, check medication suitability, and generate draft prescriptions based on NICE guidelines.\n\nBefore You Start\n\n- Access to initiate and enter a consultation\n- An available or newly created patient record\n- Active consultation status or existing booking access\n\nStep-by-Step Instructions\n\n1. Log into your TITANVERSE account\n2. Open the patient's record\n3. Start a new consultation or access an existing booking via Patient Dashboard, Pharmacy Dashboard, or TITANVERSE Calendar\n4. Navigate to the Action section\n5. Select Calculators\n6. Choose Weight Loss Medication Calculator\n7. Enter the weight management programme start date\n8. Input patient weight, height, and ethnicity; the system automatically computes BMI based on NICE guidelines and prefills available profile data\n9. Record additional vitals as needed (blood pressure, pulse, waist circumference)\n10. Enter the patient's target weight loss goal and select continue\n11. Select desired weight management medication; previous supplies appear if previously dispensed through TITANVERSE\n12. Select medication strength\n13. Complete the contraindication check\n14. Select Summarise\n15. Review prescription information and select 'Create Prescription' to generate a draft\n16. Access recorded vitals and draft prescription in the Actions panel for review and processing\n17. Include prescription information in patient summary; all documents remain accessible in the patient's dashboard for future reference"
+    },
+    {
+      "section": "Prescription Approvals",
+      "title": "TITANVERSE: How to View, Process, Decline and Perform Actions for Prescription Approvals",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/497374-titanverse-how-to-view-process-decline-and-perform-actions-for-prescription-approvals",
+      "content": "Before You Start\nUsers need relevant permissions to approve prescriptions and must have a 4-digit digital signature PIN configured in their profile.\n\nAccessing the Approvals Screen\nNavigate to the 'Approvals' tab at the top of the screen to view all outstanding approvals in a list format.\n\nFiltering and Searching\nThe Service dropdown filter allows viewing prescriptions for specific services. The search bar enables finding items by \"Patient name,\" \"Prescriber,\" or \"Medication.\"\n\nReviewing a Prescription\nSelect 'View' to open a prescription requiring approval. Then choose 'Process' to access prescription options. A three-dot menu provides additional actions including viewing the full consultation or accessing AI-generated consultation summaries.\n\nDeclining a Prescription\nSelect the 'Decline' option and provide a reason. This information displays on the Patient Dashboard under Recent Prescriptions.\n\nProcessing a Prescription (Approval Steps)\n1. Select 'Process' to open prescription options\n2. Choose the Prescription Type from the dropdown menu\n3. Select 'Generate & Issue Prescription'\n4. Select 'Continue'\n5. Enter your 4-digit PIN for digital signature\n6. Select 'Authorise with PIN'\n7. Choose the Pharmacy Branch for dispensing\n8. Select 'Send' to forward the prescription to the TITAN pharmacy"
+    },
+    {
+      "section": "Calendar",
+      "title": "TITANVERSE: How To Book a Manual Calendar Appointment",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/499059-titanverse-how-to-book-a-manual-calendar-appointment",
+      "content": "Step 1: Select the Calendar Tab\nAccess the Calendar feature by selecting the \"Calendar\" tab at the top of the screen. Appointments can be created by either selecting dates directly on the calendar slot screen or using the \"New Appointment\" tab. Note that patients booking through the pharmacy website will only see availability based on service configuration.\n\nStep 2: Choose New Appointment\nClick the \"New Appointment\" tab to begin creating a manual appointment.\n\nStep 3: Enter Booking Details\nComplete the following required information:\n- Service Type\n- Pharmacist assignment\n- Date and Time selection\n- Contact information (optional): Booking notifications are turned off by default for manual bookings but can be enabled by providing patient contact details and selecting email or mobile\n- Duration\n- Room assignment\n- Relevant notes for the booking\n\nYou can create a new patient record directly from the booking screen if needed.\n\nStep 4: Configure Notifications\nExpand the notifications option to send booking confirmations via email or text. Include patient contact details and select their preferred communication method.\n\nStep 5: Add Tasks\nExpand \"Tasks to Complete\" to record actions needed during consultation. Enter information and click \"Add\" for each task. These appear on the consultation screen for tracking completion.\n\nStep 6: Add Vaccines (Optional)\nExpand \"Vaccines to Administer\" to note vaccines planned for administration during the consultation.\n\nStep 7: Create Appointment\nOnce all information is entered, select \"Create Appointment.\" The appointment will display in both the calendar and patient dashboard."
+    },
+    {
+      "section": "Calendar",
+      "title": "TITANVERSE: How To Add a Block-out Period in the Calendar",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/499079-titanverse-how-to-add-a-block-out-period-in-the-calendar",
+      "content": "Overview\nThis guide demonstrates the process for creating a block-out period in the Calendar feature to manage availability and prevent bookings during specific times.\n\n1. Access the Calendar Tab\nSelect the 'Calendar' tab located at the top of the screen.\n\n2. Navigate to Block-out Section\nSelect the 'Block-out' tab within the Calendar interface.\n\n3. Complete Required Fields\nEnter the following information:\n- Title\n- Type\n- Block-out Duration\n- Date\n- Start and End time\n\n4. Select Rooms (Optional)\nChoose any rooms required for the block-out period. This step is optional.\n\n5. Designate Pharmacists\nSelect which pharmacists should be included in the block-out.\n\n6. Create the Block-out\nSelect the 'Create Block-out' button to finalize and save the block-out period."
+    },
+    {
+      "section": "Calendar",
+      "title": "TITANVERSE: How To Edit an Existing Appointment in the Calendar",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/499071-titanverse-how-to-edit-an-existing-appointment-in-the-calendar",
+      "content": "1. Select 'Calendar' tab at the top of the screen\n2. Click an existing appointment from the calendar\n3. Edit the required field\n4. Select 'Update Appointment'"
+    },
+    {
+      "section": "Calendar",
+      "title": "TITANVERSE: How To View Calendar and Manage Bookings",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/499043-titanverse-how-to-view-calendar-and-manage-bookings",
+      "content": "Step 1: Select the Calendar Tab\nAccess the calendar feature by selecting the \"Calendar\" tab located at the top of the screen.\n\nAvailable Calendar Filters\nThe left side of the screen displays filtering options including:\n- Service Type\n- Pharmacist\n- Room\n- Block Out Types\n- Colour Coded Key\n\nThese filters support both multi-select and individual selection options.\n\nStep 2: Choose Calendar View Type\nSelect your preferred calendar display format from the available view options.\n\nStep 3: Create New Appointments\nClick the \"New appointment\" tab to initiate booking creation for new appointments.\n\nStep 4: Set Block-out Periods\nSelect the \"Block-out period\" option to designate time slots that are unavailable for booking."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To Add a New Patient",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/496851-titanverse-how-to-add-a-new-patient",
+      "content": "Overview\nThis guide outlines the steps required to add a new patient and create their profile on TITANVERSE, helping users quickly and accurately onboard new patients into the system. It explains how to add patients via the search bar, including options to complete a PDS patient search, add the patient manually, or search using the patient's NHS number.\n\nHow to Add a New Patient\nPatients can be added via the quick search bar located at the top of the screen or within the Patients feature on TITANVERSE. A quick \"Add Patient\" button allows users to rapidly create a new patient from the patient quick search bar.\n\nStep by Step Instructions\n1. To avoid creating duplicated records, it is recommended to complete a search for the patient record to check if a patient has visited the pharmacy before. If you are unable to locate a record, follow the next steps or use the quick add patient option.\n2. Select the 'Add New Patient' tab\n\nHow to Add a Patient by PDS Search\n1. Enter Patient details\n2. Select Search PDS\n3. Select 'Add Patient'\nAll mandatory fields must be completed.\n\nHow to Add a Patient Manually\nSelect 'skip PDS search' to add patient manually\n1. Enter the personal information\n2. Enter contact details\n3. Enter Relationships\nNote: When completing the Relationships section, you can only link to an existing TITANVERSE patient. If the patient record does not already exist, the patient must be added to TITANVERSE first.\n4. Enter Medical information\n5. Enter Surgery Details\n6. Select 'Add Patient' tab\n\nHow to Add a Patient by NHS Number Search\n1. Enter Patient NHS number\n2. Enter Patient Date of Birth\n3. Select 'Search PDS' tab\n4. Select 'Add Patient' tab\n\nImportant Note: This feature is only available to users who have the consultation module enabled. Users operating the platform solely for NMS will not be able to add patient records, as patient data will be transmitted to TITANVERSE automatically once the item has been handed out."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To Import a TITAN Patient into TITANVERSE",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/529601-titanverse-how-to-import-a-titan-patient-into-titanverse",
+      "content": "Overview\nThis guide explains how to import patient records from TITAN into TITANVERSE using three different methods to efficiently transfer patient data and ensure a smooth migration.\n\nMethod 1: Import from the Quick-Search Bar\n1. Begin typing the patient's name (forename or surname)\n2. Select \"Search Titan\"\n3. When the patient's name appears in the dropdown, select \"Import\"\n\nMethod 2: Import from the Patient Screen\n1. Select the Patients tab at the top\n2. Type the patient's name into the search bar\n3. Select \"Expand to TITAN\"\n4. Choose the desired patient from the list\n5. Select \"Import\"\n\nMethod 3: Import Using the Filters Tab\n1. Select the Patients tab at the top\n2. Select the Filters tab on the left side\n3. Toggle on the \"Search Titan\" option\n4. Select \"Apply Filters\"\n5. Choose the patient to import\n6. Select \"Import\"\n\nAdditional Feature\nWhen the \"Search Titan\" filter is active, you can import multiple patients simultaneously by selecting each patient before clicking the Import button at the bottom."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To Edit a Patient Record",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/496933-titanverse-how-to-edit-a-patient-record",
+      "content": "This guide explains how to update existing patient records in TITANVERSE, ensuring information stays current and accurate.\n\n1. Search - Locate the patient using the patient search bar\n2. Select Edit - Click the pencil icon to access patient information editing\n3. Choose Section - Select the required heading corresponding to the patient data you wish to modify\n4. Edit Fields - Update the necessary information\n5. Select Categories - Choose from these sections as needed:\n   - Personal\n   - Contact\n   - Relationships\n   - Medical\n   - Surgery\n6. Confirm Changes - Click the \"Update Patient\" tab to save modifications"
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To Add Patient Vitals for a Patient",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/495106-titanverse-how-to-add-patient-vitals-for-a-patient",
+      "content": "Patient dashboard includes all details for the patient from general information right through to adding vitals.\n\nPatient Vitals can be added and monitored in the patient dashboard, with access to recent recordings.\n\n1. Select '+ Take reading' tab to add new reading.\n2. Enter Vital and Unit\n3. Select the date for when the vital was recorded. Historical dates can be added for historical records.\n4. Select 'Add Vital' tab.\n5. Select chosen Vital tile to view vital history and recent recordings."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To Add Allergies and Conditions for a Patient",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/494845-titanverse-how-to-add-allergies-and-conditions-for-a-patient",
+      "content": "How To Add an Allergy\n1. Enter the Patient's Dashboard - Access the patient profile you wish to update.\n2. Select 'Add Allergy' - Located on the left-hand side of the screen within the patient profile section.\n3. Enter Allergy Name - Input the specific allergen or substance.\n4. Enter Allergy Severity - Specify the severity level of the allergic reaction. The system allows for additional details including typical reaction descriptions and supplementary notes.\n5. Select 'Add Allergy' Tab - Confirm and save the allergy entry.\n\nHow To Add Conditions\n1. Select 'Add Condition' - Begin the process by choosing this option from the patient profile.\n2. Enter Condition Name - Provide the medical condition's name.\n3. Enter the Status of the Condition - Indicate the current status of the condition. Optional fields allow entry of the diagnosis date and supplementary clinical notes.\n4. Select 'Add Condition' - Save the condition to the patient record.\n\nNote: Patient allergies and conditions can alternatively be added during a consultation within the system."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View Upcoming Appointments",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/495133-titanverse-how-to-view-upcoming-appointments",
+      "content": "The Patient Dashboard in TITANVERSE provides comprehensive patient details and allows viewing of upcoming appointments and scheduling of new ones.\n\nStep 1: Enter the Patient Dashboard\nAccess the patient's dashboard to begin viewing appointment information.\n\nStep 2: Scroll to View Upcoming Appointments\nNavigate down the screen to locate the section displaying scheduled appointments for the patient.\n\nStep 3: Add a New Appointment\nSelect the \"+\" symbol to initiate the process of creating a new appointment.\n\nStep 4: Complete Required Appointment Details\nFill in the following information when creating an appointment:\n- Patient Name\n- Service Type\n- Pharmacist assignment\n- Date and Time\n- Email address\n- Mobile phone number\n- Confirmation method (Email or SMS)\n- Appointment Duration\n- Room assignment (if applicable)\n\nStep 5: Finalize the Appointment\nClick the \"Create Appointment\" tab to save and confirm the new appointment entry."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View Current Medication and Add New to Patient Profile",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/495208-titanverse-how-to-view-current-medication-and-add-new-to-patient-profile",
+      "content": "The patient dashboard contains comprehensive patient details, including capabilities for viewing and managing medications.\n\nStep 1: Access Patient Dashboard\nEnter the patient dashboard to begin managing medication records.\n\nStep 2: Locate Medication Section\nScroll down the screen to find the Current Medications section.\n\nStep 3: Initiate New Medication Entry\nSelect the '+Add Medication' button to add a new medication record.\n\nStep 4: Complete Medication Details\nEnter the following information for the new medication:\n- Item (e.g., medication name)\n- Dose\n- Quantity\n- Therapy Level\n- Additional Notes\n\nStep 5: Confirm Entry\nSelect the 'Add Medication' tab to save the medication record.\n\nThis task is designed for completion by the Pharmacist and Integrated Professional (IP) roles."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View and Edit Recent Prescriptions in Patient Dashboard",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/495218-titanverse-how-to-view-and-edit-recent-prescriptions-in-patient-dashboard",
+      "content": "The Patient Dashboard in TITANVERSE contains comprehensive patient information, including the ability to manage prescriptions.\n\nStep 1: Access the Patient Dashboard\nNavigate to and open the Patient Dashboard to begin viewing patient records.\n\nStep 2: Locate Recent Prescriptions\nScroll down the screen to view Recent Prescriptions.\n\nStep 3: Prepare to View\nHover cursor over the right corner of the prescription to reveal available actions.\n\nStep 4: View Prescription Details\nSelect the 'eye' icon to view the prescription. When viewing, prescriptions can be amended, downloaded, or printed.\n\nStep 5: Edit the Prescription\nSelect the pencil icon to Edit the prescription.\n\nStep 6: Finalize Changes\nAfter modifying prescription details, choose one of three options:\n- Prescription type selection\n- Generate & Issue Prescription (immediate distribution)\n- Generate Prescription for Approval (requires authorization before distribution)"
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View and Add a Note to Patient's Dashboard",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/496369-titanverse-how-to-view-and-add-a-note-to-patient-s-dashboard",
+      "content": "How to View Notes\n1. Enter the Patient Dashboard.\n2. Select 'Notes' tab from the patient profile located on the left-hand side of the screen.\n3. Scroll down the screen to view and read previously added notes.\n\nHow to Add a Note\n1. Select 'Add Note' tab.\n2. Type note to be added to patient dashboard.\n3. Select Note type from the dropdown list.\n4. Select 'Save Note' tab."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To Send a Message to the Patient from the Patient Dashboard",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/496375-titanverse-how-to-send-a-message-to-the-patient-from-the-patient-dashboard",
+      "content": "Overview\nThis guide demonstrates the process for sending Email or SMS communications directly to patients via the Patient Dashboard in TITANVERSE.\n\nStep 1: Access the Patient Dashboard\nBegin by entering the Patient Dashboard where you'll manage patient communications.\n\nStep 2: Navigate to Notes Tab\nFrom the patient profile menu on the left side of your screen, select the \"Notes\" tab to access patient-related options.\n\nStep 3: Select Message Tab\nWithin the Notes section, locate and click on the \"Message\" tab to access messaging features.\n\nStep 4: Choose Communication Method\nSelect your preferred contact method:\n- Email option for electronic mail correspondence\n- SMS option for text message delivery\n\nStep 5: Compose Your Message\nEnter the content of your message in the designated text field with the information you wish to convey to the patient.\n\nStep 6: Send\nClick the \"Send\" button to deliver your message to the patient through your selected communication channel."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View and Add Patient Documents",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/496473-titanverse-how-to-view-and-add-patient-documents",
+      "content": "How to View a Document\n1. Enter the Patient's Dashboard\n2. Scroll down the screen to view Patient Documents\n3. Hover and Select the three dots to view 'more actions'\n4. Select chosen action from the dropdown box\n\nHow to Upload a Document to the Patient Dashboard\n1. Select 'Upload' tab\n2. Click inside the box to select a Document to upload\n3. Select 'Document type'\n4. Select 'Upload Document' tab"
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View and Complete Consultations on the Patient Dashboard",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/496506-titanverse-how-to-view-and-complete-consultations-on-the-patient-dashboard",
+      "content": "How to Start a New Consultation\nA new consultation can be initiated from the patient's profile by following these steps:\n1. Enter the Patient Dashboard.\n2. Select 'Start New Consultation'\n3. This will direct you to the Consultation screen where you can choose a Consultation template to complete with the patient.\n\nActive Consultations\nIf you exit the Consultation screen without finishing, follow these steps to view, continue, and complete:\n1. Enter the Patient Dashboard.\n2. Scroll down the screen to view 'Active Consultations'\n3. Select one of the following actions:\n   - Delete Consultation\n   - Continue Consultation\n\nHow to View Recent Consultations\nOnce a Consultation is complete, it becomes viewable on the Patient Dashboard. Follow these steps to view recent consultations and generate a summary:\n1. Enter the Patient Dashboard.\n2. Scroll down the screen to view Recent Consultations.\n3. Select the 'eye' Icon to view the Consultation\n4. Select 'filters' to manage Consultations\n5. Select the consultations you want a summary of\n6. Select 'Summarise' tab\nThe system will generate a summary of selected consultations using AI."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How to Perform a Patient Merge",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/605093-titanverse-how-to-perform-a-patient-merge",
+      "content": "Feature Overview\nThe patient merge capability enables you to unify duplicate patient records into one profile. This maintains data accuracy, completeness, and simplifies patient information management in TITANVERSE.\n\nBefore You Start\n- Confirm you're logged into TITANVERSE\n- Verify both records belong to the identical patient\n- Review each record beforehand to determine which information to preserve\n\nStep-by-Step Instructions\n1. Log into TITANVERSE\n2. From the map, select the appropriate pharmacy for the patient\n3. Select the Patients tab at the screen's top to access the complete patient roster\n4. Use the search bar to locate the patient by name\n5. Identify duplicate records and select both using checkboxes on the left side of each name\n6. Click Merge at the screen's bottom\n7. On the merge screen, choose values to retain in the final patient record. The alternate record becomes archived. Fields marked with asterisks require value selection.\n8. Review the preview section to verify merged data accuracy\n9. Press Merge to finalize the process\n\nImportant Notice: Patient merges cannot be undone once completed. Review all patient information thoroughly and confirm accuracy before confirming the merge."
+    },
+    {
+      "section": "Patient Records",
+      "title": "TITANVERSE: How To View a Patient's Medication History",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/611552-titanverse-how-to-view-a-patients-medication-history",
+      "content": "Feature Overview\nThe Medical History panel on the Patient Dashboard enables users to quickly access a patient's previously prescribed medications and recorded vaccinations.\n\nPrerequisites\n- Be logged into TITANVERSE\n- Have access to patient records\n\nStep-by-Step Instructions\n1. Log in to your TITANVERSE account\n2. Navigate to Patient Search\n3. Select the patient record you wish to view\n4. Open the patient record to access the Patient Dashboard\n5. Locate the Medical History panel on the right-hand side, positioned just below the Vitals section\n6. Review the medical history - By default, the panel displays both medications and vaccinations recorded in the system\n7. (Optional) Apply filters using these options:\n   - Search by drug name using the search bar\n   - Select \"ALL\" to view all records\n   - Select \"Medication\" to view only prescribed medications\n   - Select \"Vaccinations\" to view only recorded vaccinations\n   - Arrange the list by \"newest\" or \"oldest\" using the sorting option next to the search bar"
+    },
+    {
+      "section": "Documents",
+      "title": "TITANVERSE: How to Upload a Document and Assign to a Role",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/524497-titanverse-how-to-upload-a-document-and-assign-to-a-role",
+      "content": "Step 1: Access TITANVERSE using your login credentials\nStep 2: Navigate to the \"Documents\" tab\nStep 3: Click \"+ New Document\" to begin uploading\nStep 4: Complete the required information:\n- Document Name\n- Document Type\n- Folder assignment (select existing or create new folder)\nStep 5: Upload your primary document and optionally add supporting documents\nStep 6: Establish a review interval using the dropdown menu (optional)\nStep 7: Assign the document to specific roles with these options:\n- Select individual roles\n- Select all roles at once\n- Upload without assigning\nStep 8: Click \"Create Document\" to finalize"
+    },
+    {
+      "section": "Documents",
+      "title": "TITANVERSE: How to View, Edit and Download Documents",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/524514-titanverse-how-to-view-edit-and-download-documents",
+      "content": "1. Log into TITANVERSE using your credentials\n2. Select 'Documents' tab\n\nTo view a Document:\n3. Select filters to locate a specific Document with ease\n   - Free-type search\n   - Type (Document Type)\n   - Members\nOR\n4. Select from the folder(s) listed on the screen by clicking the arrow to expand. From expanding the folder, the Administrator will have visibility of the uploaded Documents, overall percentage of compliancy and Actions to select from.\n5. Select the 'eye' icon under Actions to view the Document\n\nTo Download the Document:\n6. Select the 'Download' icon\n\nTo Edit the Document:\n7. Select the 'Pencil' icon\n8. Edit the required fields\n9. Select 'Save Changes'"
+    },
+    {
+      "section": "Documents",
+      "title": "TITANVERSE: How to Create a Quiz for User Compliancy",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/524538-titanverse-how-to-create-a-quiz-for-user-compliancy",
+      "content": "1. Access Documents Section\nLog into TITANVERSE and select the 'Documents' tab.\n\n2. Locate a Document\nUse available filters -- free-type search, document type, or member selection -- to find specific documents. Alternatively, expand folders to view uploaded documents with compliance percentages.\n\n3. Initiate Quiz Creation\nSelect the 'Add Quiz' icon next to your chosen document.\n\n4. Choose Quiz Method\nSelect either \"Generate with AI\" or \"Start from scratch.\"\n\nAI-Generated Quiz Path\n- Choose difficulty level for the quiz\n- Customize by adding, deleting, or restructuring questions\n- Save the quiz\n\nManual Quiz Path\n- Enter questions and provide multiple-choice answers\n- Click 'Add Question' to include additional questions\n- Adjust question structure as needed\n- Save the quiz"
+    },
+    {
+      "section": "Documents",
+      "title": "TITANVERSE: How to View Analytics for Documents",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/524545-titanverse-how-to-view-analytics-for-documents",
+      "content": "1. Log into TITANVERSE using your credentials\n2. Select 'Documents' tab\n3. Select 'Analytics'\n\nThe Analytics section provides administrators with a comprehensive overview of user compliance across TITANVERSE. The dashboard enables viewing of:\n- Overall Compliance -- tracks completion rates versus pending completion rates\n- Member Compliance -- shows compliance rates based on individual user profiles\n- Folder Compliance -- displays compliance rates based on document completion within folders\n- Member Details -- provides individual user analytics\n- Documents at Risk -- identifies items with low completion percentages\n- Review Status -- shows documents that are due or overdue for review"
+    },
+    {
+      "section": "Documents",
+      "title": "TITANVERSE: How to View My Documents and Complete Compliancy",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/524959-titanverse-how-to-view-my-documents-and-complete-compliancy",
+      "content": "Step 1: Log In\nAccess TITANVERSE using your credentials.\n\nStep 2: Select Documents Tab\nNavigate to the Documents section from the main menu.\n\nStep 3: Select My Documents\nClick on the \"My Documents\" option to view assigned documents. You can use available filters to locate specific documents.\n\nStep 4: Select the Document\nChoose the document you need to complete.\n\nStep 5: Start Completion\nClick the \"Start\" button to begin the compliancy process.\n\nStep 6: Read the Document\nReview the entire document content.\n\nStep 7: Mark as Read\nClick \"Mark as Read\" to confirm completion.\n\nAdditional Information\nAssigned documents automatically appear in the \"My Documents\" section upon login. To demonstrate compliance, users must read documents and select \"Mark as Read.\" If administrators created accompanying quizzes, these appear on the right side of the screen for completion. Successful quiz completion marks the document as finished, recording the user as compliant for that specific document. This status contributes to the user's overall compliance score."
+    },
+    {
+      "section": "Pricing & Billing",
+      "title": "Titanverse Pricing & Billing Policy",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/530572-titanverse-pricing-billing-policy",
+      "content": "Titanverse provides transparent, predictable pricing reflecting actual service usage. The pricing covers user packs, private consultations, SMS usage, and payment processing fees with no hidden fees, no surprises — just clear, fair pricing.\n\nWhat You'll Be Billed For:\n- User packs (increments of 10 users)\n- Private consultations and task fees\n- Marketplace items (SMS messages, RYFT, etc.)\n\nAll prices exclude VAT. Full terms are available in the associated Terms and Conditions document.\n\nUser Bundle Pricing\n\nBilling depends on your contract type with Titan PMR Ltd:\n\nTITAN Professional: £50/month for the initial 10-user bundle, then £25/month per additional bundle. Annual billing with upfront payment. Pro-rata charges apply when increasing bundles mid-term.\n\nTITAN Premium/Enterprise: £25/month per 10-user bundle with monthly billing. New bundle rates apply for remainder of term when increasing.\n\nAll customers commit to a 12-month contract. Bundle reductions only occur at renewal dates.\n\nPrivate Consultations\n\nConsultations cost £1.50 each, calculated and collected monthly via direct debit.\n\nA consultation becomes billable when: transcription starts, any action occurs within it, or a summary generates. No action means no charge.\n\nMarketplace Services\n\nSMS Messages: 3.3p per message sent through the platform.\n\nRYFT Payments: 1.25% plus 10p per transaction processed.\n\nMarketplace charges are calculated monthly and collected via direct debit.\n\nAccessing Billing Details\n\nUsers access billing information in Titanverse's Settings tab, which displays:\n1. Current billing period with plan breakdown and promotional credits\n2. Subscription details including contract type and user utilization\n3. Historical invoices for viewing and export"
+    },
+    {
+      "section": "Partners",
+      "title": "DemDx",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/483904-demdx",
+      "content": "DemDx is a pharmacy support tool integrated into TITANVERSE that provides direct access to presenting complaint templates. The system supports Pharmacy First and minor illness consultations, helping pharmacy teams assess, decide, and document care safely and consistently.\n\nKey Features:\n\nThe platform covers over 500 conditions and offers red-flag prompts and clear escalation advice. It enables more efficient, structured consultations while reducing administrative burden and freeing up pharmacist time. Users benefit from greater clinical confidence across presentations and support for expanding private services.\n\nDemDx helps pharmacies deliver consultations at scale across both NHS and private care settings with structured, symptom-led pathways aligned with national guidance.\n\nSupport & Sign-Up:\n\nCurrent users can access the support portal for questions or assistance. Those interested in learning more about DemDx can visit the sign-up page for additional information."
+    },
+    {
+      "section": "Partners",
+      "title": "PharmAppy",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/483905-pharmappy",
+      "content": "PharmAppy is a partner solution that creates branded patient applications and websites powered by TITANVERSE configurations. The service enables pharmacies to offer digital booking platforms without requiring developer involvement.\n\nCore Functionality\n\nPharmAppy gives your pharmacy a fully branded Patient App and Website powered by your TITANVERSE configuration. When services are added or updated in TITANVERSE, the changes automatically propagate across all platforms. Patients can discover, book, and manage services quickly, with bookings flowing directly back into the system in real time.\n\nKey Features:\n\n1. Bespoke Integration - Custom app and website built specifically around pharmacy services and branding\n2. Automated Service Pages - AppyIntelligence AI automatically generates service pages matching brand guidelines\n3. Real-time Synchronization - Bidirectional data flow ensuring service details, availability, and bookings remain synchronized\n4. Patient-Focused Design - Mobile-first booking experiences designed to minimize drop-off rates\n5. Campaign Engine - Built-in tools for targeted campaigns with analytics capabilities\n6. Content Management - CMS allowing non-technical staff to manage website content and pages\n7. Revenue Optimization - SEO optimization to increase visibility and booking completion rates\n\nInterested parties can register via the PharmAppy waitlist for implementation details."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: How can I check how many NMS's have been completed?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/340710-titanverse-faq-how-can-i-check-how-many-nms-s-have-been-completed",
+      "content": "To view completed New Medicine Service (NMS) figures, users should access the analytics section within TITANVERSE.\n\nSteps to Check Completed NMS:\n\n1. Log into TITANVERSE\n2. Navigate to Analytics from the main menu\n3. Select the Completed tab at the top\n4. Choose the To Be Claimed section\n\nThis displays a graph containing detailed information for each New Medicine Service (NMS).\n\nKey Metrics Available:\n\nIn the top-right corner of the claim screen, users can find real-time data showing:\n- Completed Intervention Consultations\n- Completed Follow-Up Consultations\n\nDate Range Customization:\n\nThese figures adjust according to the date range selected. Users can modify the timeframe using the calendar icon located in the top-right corner to filter results as needed."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: How do I view previously added notes for the patient during an NMS?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/585219-titanverse-faq-nms-how-do-i-view-previously-added-notes-for-the-patient-during-an-nms",
+      "content": "Previously added notes taken during a stage for an NMS are visible via the Activity tab within the patient NMS record.\n\nProcedure:\n\n1. Log into Titanverse with your credentials.\n2. Select the Services section from the main menu.\n3. Locate the patient through either the Kanban workflow board or by searching in the patient search tab designated for NMS.\n4. Click on the Activity section to display all previous activity for the patient's NMS, including previously added notes.\n\nWhen viewing a patient's NMS card, patient information displays on the left side of the screen, making the Activity tab easily accessible for reviewing historical notes and interactions."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Do we need access to Titanverse at the point of handing out a prescription?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/585384-titanverse-faq-nms-do-we-need-access-to-titanverse-at-the-point-of-handing-out-a-prescription",
+      "content": "Access to TITANVERSE during prescription handout for NMS-eligible items is not mandatory. However, if access is available at that time, the patient's NMS card will be visible in the Eligible column.\n\nUsers can complete the initial patient consultation and schedule interventions during handout, depending on their role configuration. For pharmacies using EDO (formerly Titan Mobile), staff can conduct initial consultations on the device during this stage.\n\nIf the consultation isn't completed at handout, the patient will remain in the Eligible column within the platform until completed.\n\nBasic Instructions:\n1. Log into Titanverse with your credentials\n2. Select Services\n\nImportant note: Only users invited to your Titanverse workspace can complete these tasks during handout."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: If I am claiming for the month and I select the dates within that month, will it show me the relevant data?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/585488-titanverse-faq-nms-if-i-am-claiming-for-the-month-and-i-select-the-dates-within-that-month-will-it-show-me-the-relevant-data",
+      "content": "Yes. When in the claim screen for NMS you have access to the calendar filter where you can select the date range you wish to view the data for claiming.\n\nStep-by-Step Instructions:\n\n1. Log in to Titanverse using your credentials\n2. Select Services\n3. Select Analytics\n4. Select Completed to view data for claiming\n5. Select the Calendar filter\n6. Select the date range you want to view the data for\n7. Select To be claimed to view the data for claiming within the date range selected"
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can a member be invited to more than one team?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/586092-titanverse-faq-can-a-member-be-invited-to-more-than-one-team",
+      "content": "Yes, members can belong to more than one team. This capability can be configured either during the initial invitation process or by later modifying team settings.\n\nInitial Invitation Process:\n\nTo assign a member to multiple teams when inviting them:\n1. Log into Titanverse with your credentials\n2. Select the Settings gear icon\n3. Choose Members\n4. Click Invite Member\n5. Enter the member's email address and select their role\n6. Select all applicable team(s) for their access\n7. Send the invitation\n\nEditing Existing Member Team Access:\n\nTo modify a member's team assignments after they've been added:\n1. Log into Titanverse\n2. Select the Settings gear icon\n3. Navigate to Teams\n4. Click the pencil icon next to the team you wish to modify\n5. Select the team member(s) you want to add\n6. Click Update Team\n\nThis approach allows organizations to manage complex team structures where individual members may need access across multiple departments or project teams within the system."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: How do I manage patients who are not eligible for NMS but are shown in Titanverse?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598177-titanverse-faq-how-do-i-manage-patients-who-are-not-eligible-for-nms-but-are-shown-in-titanverse",
+      "content": "Any non eligible items should be marked as declined.\n\nProcess Instructions:\n\n1. Access TITANVERSE with your login credentials\n2. Find the relevant item from the NMS Dashboard and open it by clicking the card\n3. Mark the item as declined\n\nAdditional Handling Method:\n\nFor cases involving multiple eligible NMS items on a single card, individual ineligible items can be processed separately. Users should select Remove item within the drug panel rather than declining the entire card. This approach enables continued processing of remaining eligible items while creating an audit trail. Removed items will be logged in the Declined section of the Analytics area."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can I manually add a NMS to Titanverse?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598480-titanverse-faq-can-i-manually-add-a-nms-to-titanverse",
+      "content": "No, all NMS entries are passed into TITANVERSE through the TITAN integration directly. Users cannot manually create or add NMS entries within TITANVERSE. All NMS data flows automatically from the TITAN system integration into TITANVERSE."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can I import my historical NMS data from Titan?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598485-titanverse-faq-can-i-import-my-historical-nms-data-from-titan",
+      "content": "No, only eligible items processed after the activation of your TITANVERSE will be transmitted. Historical NMSs will need to be completed using your existing process."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Which of my staff members require a Titanverse account?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598492-titanverse-faq-which-of-my-staff-members-require-a-titanverse-account",
+      "content": "Any staff members who require access to the TITANVERSE platform will need their own individual account. The system deducts created accounts from your user pack allocation. When you reach capacity, additional packs are available through the billing section.\n\nFor guidance on adding team members, refer to the invitation process documentation."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can I delete a NMS record from my Titanverse?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598504-titanverse-faq-can-i-delete-a-nms-record-from-my-titanverse",
+      "content": "No, if you wish to remove a NMS record from your dashboard you would need to decline it. There is no delete functionality for NMS records."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can I create a referral letter for NMS patients from Titanverse?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598547-titanverse-faq-can-i-create-a-referral-letter-for-nms-patients-from-titanverse",
+      "content": "No, currently this feature is not available for NMS. This capability is limited to the TITANVERSE Consultation Feature only. Users requiring referral letters for NMS patients must continue using their existing processes outside of TITANVERSE."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Why can't I see my consultation template in the consultation dropdown list?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598556-titanverse-faq-why-can-t-i-see-my-consultation-template-in-the-consultation-dropdown-list",
+      "content": "Consultation templates must be set to Active in order to appear in the template dropdown section of the consultation screen and be accessible to users.\n\nTemplates that haven't been activated remain hidden from users and won't display in the available options.\n\nSolution:\n\nThere are two ways to activate templates:\n\n1. During creation - Enable the active status when first setting up the template\n2. After creation - Return to settings, select Edit on the template, and activate it at that time"
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can I set up my service for group bookings?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598605-titanverse-faq-can-i-set-up-my-service-for-group-bookings",
+      "content": "Yes, the platform supports group booking functionality. This feature can be activated during service creation by toggling Allow Group Bookings within the Booking Options section.\n\nSetup Instructions:\n\n1. Access your TITANVERSE account with your credentials.\n2. Click the settings icon located at the top right of the screen.\n3. Navigate to the Services tab.\n4. Select Add Service to create a new offering.\n5. Enter your service name.\n6. Input the service cost (this field is optional).\n7. Toggle the Room required slider if needed (optional).\n\nTo enable a service for group booking ensure this has been activated within the booking options."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can a patient make a service booking via my website if they do not have a patient record?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598615-titanverse-faq-can-a-patient-make-a-service-booking-via-my-website-if-they-do-not-have-a-patient-record",
+      "content": "Yes, the system allows new patients to book services even without a pre-existing patient record. When this occurs, a record will be automatically created at the point of booking. For returning patients with established records, their new bookings link to their existing profile."
+    },
+    {
+      "section": "FAQs",
+      "title": "Titanverse FAQ: Can I set different availability for the same service across different sites?",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/598627-titanverse-faq-can-i-set-different-availability-for-the-same-service-across-different-sites",
+      "content": "Yes. For multi-branch organizations offering identical services at various locations with distinct availability schedules, an individual service will be required to be setup per site.\n\nSetup Instructions:\n\n1. Access the Services section\n2. Choose the option to add a new service\n3. Enter a descriptive service name (e.g., Weight Management at [branch name])\n4. Configure the specific service availability settings\n\nFor each additional location, repeat these steps while customizing the availability parameters to match that particular site's operating hours and constraints."
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.1 Release Notes - 29th October 2025",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/446134-titanverse-v2-1-release-notes-29th-october-2025",
+      "content": "Released on 29th October 2025 at 00:00 BST, version 2.1 applies to all TITANVERSE users and implements NHS-aligned updates for the New Medicine Service (NMS).\n\nNew Features:\nThe system now recognizes depression as an eligible therapeutic condition within the NMS program, expanding the scope of treatable conditions.\n\nConsultation Timeline Changes:\n- Intervention consultations occur 7-14 days post-recruitment\n- Follow-up consultations happen 14-21 days after intervention\n- The default follow-up date is now automatically set to 14 days following the intervention\n\nClaiming Process Revision:\nClaims must be submitted monthly, tied to the calendar month when consultations occur. Intervention and follow-up consultations require separate claims, even within one NMS episode. Submissions are due by the 5th of the following month.\n\nSystem Interface Updates:\nThe Complete section displaying monthly claiming statistics reflects the revised process requirements.\n\nSystem Compliance:\nThe NMS workflow within TITANVERSE received full integration updates to meet current NHS standards.\n\nUsers seeking additional details can consult Community Pharmacy England's official NMS documentation."
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.2 Release Notes - 2nd November 2025",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/516931-titanverse-v2-2-release-notes-2nd-november-2025",
+      "content": "Release Date: 02/11/2025\nVersion: v2.2\nAudience: All TITANVERSE Customers\n\nBug Fixes:\n\nThe primary update addresses NMS Claims functionality. The team implemented improvements to reduce session timeouts and UI inconsistencies, enhancing the overall stability of the system.\n\nThis release focuses on a single but important stability enhancement rather than introducing new features. The fix targets the NMS Claims module, which had been experiencing user-facing issues with session management and interface behavior."
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.3 Release Notes - 8th January 2026",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/516918-titanverse-v2-3-release-notes-8th-january-2026",
+      "content": "Release Date: 08/01/2026 19:00hrs\nVersion: V2.3\nAudience: All TITANVERSE Customers\n\nWhat's New:\n- A search function was added to the declined list view to streamline record filtering\n- Telephone numbers now display in the list view for improved visibility\n- Backdated completion dates can now be added for NMS entries\n- A Completed At date field appears in the analytics column\n- The claim screen was revised to show accurate numbers and eliminate duplicate intervention entries\n- Individual items within multi-item NMS records can now be declined separately\n- Phone number visibility has been enhanced throughout the application\n\nBug Fixes:\n- Analytics counts that were showing as 0 for certain pharmacies now display correctly\n- Patient names appear properly when exporting claimed records\n- An issue preventing NMS decline when multiple bookings existed under one phone number has been fixed"
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.6 Release Notes - 28th January 2026",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/541713-titanverse-v2-6-release-notes-28th-january-2026",
+      "content": "Version: v2.6\nDeployment: 28/01/2026 19:00hrs\nAudience: All TITANVERSE Customers\n\nWhat's New:\n\nAuto Logout Prompt Introduced\nThe system now notifies users after no activity on TITANVERSE for 15 minutes. A countdown timer then displays, granting a brief window to resume the session. If no action is taken, the user will be automatically logged out for security purposes.\n\nBug Fixes:\n\nDate of Birth Missing in To Be Claimed Screen\nAn issue preventing patient date of birth display on the To Be Claimed screen has been resolved.\n\nEngagement Date Could Not Be Changed (NMS)\nUsers can now successfully modify engagement dates within NMS workflows after a previous restriction was removed."
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.7 Release Notes - 24th February 2026",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/573613-titanverse-v2-7-release-notes-24th-february-2026",
+      "content": "Version: v2.7\nRelease Date: 24/02/2026\nAudience: All TITANVERSE Customers\n\nWhat's New:\n\nPharmacy Dashboard\nA new dedicated dashboard was introduced to support pharmacy workflows and improve visibility of pharmacy operations within the system.\n\nNotification Settings for Members\nUsers can now configure email notifications for booking events. Options include alerts when appointments are made, rescheduled, or cancelled. Notifications can be scoped to either the user's own appointments or all appointments across services.\n\nStreamlined Appointment Booking UI\nThe booking interface was redesigned for improved usability. Users can now view service availability directly from the patient dashboard or consultation screens, with filtering options by day, staff member, and service type.\n\nFeature Improvements:\nSeveral enhancements were deployed: ethnicity integration into the BMI calculator for NICE-aligned guidance, overall system performance optimization, improved vitals entry responsiveness, refined consultation screen interactions, better user access handling post-invitation, UI consistency improvements across dashboards and forms, and enhanced error messaging.\n\nBug Fixes:\n\nPerformance & Stability:\n- Resolved slow performance issues during vitals entry\n- Improved reliability when switching between consultation tabs\n\nVitals:\n- Blood pressure readings now display correctly\n- Vital information saves reliably\n\nConsultations & User Flow:\n- Removed the Pre-Consult tab where not applicable"
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.7.1 Release Notes - 3rd March 2026",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/590850-titanverse-v2-7-1-release-notes-3rd-march-2026",
+      "content": "Version: v2.7.1\nRelease Date: March 3, 2026\nAudience: All TITANVERSE Customers\n\nWhat's New:\n\nQuick Navigation to Active Bookings\nUsers can now access Active Bookings directly from the Pharmacy Dashboard. This feature streamlines the workflow by reducing navigation steps and enhancing efficiency for pharmacy staff managing multiple appointments simultaneously.\n\nAn improved dashboard experience also provides faster access to appointments currently in progress.\n\nBug Fixes:\n\nBooking Email Subject Line Correction\nA technical issue that displayed an incorrect pharmacy name in booking confirmation email subjects has been resolved.\n\nBlocked Booking Selection Issue\nFixed a bug that previously allowed users to select bookings during calendar time slots designated as blocked or unavailable."
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.8 Release Notes - 23rd March 2026",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/612461-titanverse-v2-8-release-notes-23rd-march-2026",
+      "content": "Version: v2.8\nDeployment: 00:00hrs\nAudience: All TITANVERSE Customers\n\nNew Features:\n\nUser Roles, Permissions & Access Management\nOrganizations gained enhanced control over team access. The system includes three default roles - Admin, Pharmacist, and Non-Pharmacist - while allowing administrators to create custom roles tailored to specific workflows.\n\nUser Access Dates\nAdministrators can now assign start and end dates for user access, automatically expiring accounts when the end date arrives. This feature supports temporary staff and time-limited access scenarios.\n\nMedical History Panel\nA new patient dashboard panel displays previously prescribed medications and recorded vaccinations administered within the system.\n\nQuick Add Patient\nUsers can rapidly create new patients directly from the quick search bar without opening separate screens.\n\nPharmAppy Integration - API Key Self-Service\nCustomers can generate and manage API keys independently through the TITANVERSE Marketplace.\n\nPeriod Delay Calculator (Beta)\nThis tool helps clinicians determine appropriate treatment options using NICE guidelines and generates draft prescriptions for review. Currently limited to early adopters.\n\nImprovements:\n- Delete User functionality for better administration\n- BMI calculations now auto-populate with ethnicity data\n- Multiple vaccination records can generate combined certificates\n- Pre-consultation forms accessible via booking confirmation email links\n- Consultation template question reordering capability\n- Patient creation during appointment booking\n- Prescription notes field and expanded dosage input areas\n- View-only protection for sent prescriptions\n- Document preview in consultation screens\n- Pre-consultation templates active by default\n\nBug Fixes:\n- Duplicate referral letters resolved\n- Calendar service color coding corrected\n- Appointment duration slot updates fixed\n- UI typos and inconsistencies addressed\n- User account creation restrictions removed\n- Prescription image formatting partially resolved"
+    },
+    {
+      "section": "Release Notes",
+      "title": "Titanverse v2.9 Release Notes - 8th April 2026",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/629441-titanverse-v2-9-release-notes-8th-april-2026",
+      "content": "Version: v2.9\nDeployment: 19:00\nAudience: All TITANVERSE customers\n\nNew Features:\n\nTravel Calculator (Beta)\nClinicians can now assess travel vaccination requirements and malaria prevention for destinations, review outbreak alerts, and generate draft vaccination certificates and prescriptions for travel health consultations.\n\nWeight Loss Medication Calculator (Beta)\nThis tool enables calculation of BMI, review of patient vitals, and prescription of weight management medications aligned with NICE guidelines, including draft prescription generation and supply tracking.\n\nNote: Both beta features are currently available to early adopters with broader rollout planned.\n\nConsultation Tasks\nUsers can define tasks within consultation templates, track completion in the action panel, and receive reminders for incomplete items to improve consultation structure and consistency.\n\nAppointment Tasks\nTasks can be recorded in the Tasks to Complete section during appointment creation, appearing in the consultation action panel for tracking and completion.\n\nEnhanced iFrame Time Slot Finder\nPatients can filter appointment availability by morning, afternoon, or evening time periods.\n\nEnhancements & Improvements:\n- Consultation templates are now alphabetically sorted\n- New blood pressure graph visualization for patient data\n- Pharmacy dashboard appointments sorted by date and time\n\nBug Fixes:\nMultiple issues resolved including: patient record data accuracy in consultation summaries, calendar UI appointment duration display, patient name display on bookings, appointment time zone corrections, booking app slot accuracy, document visibility in My Documents, patient vital date validation, vaccine certificate display, iframe service availability, email notification BCC handling, and prescription date-of-birth matching issues."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How to Set Up a Service in TITANVERSE",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/485468-titanverse-how-to-set-up-a-service-in-titanverse",
+      "content": "Feature Overview\n\nThe Service Setup feature enables pharmacy teams to configure consultation-based services comprehensively. It ensures that users, rooms, consultations, and communications are aligned before offering services to patients.\n\nPrerequisites\n\nBefore creating a service, prepare these items:\n- Rooms added to each location (physical or virtual spaces)\n- Teams created\n- Users invited and availability set\n- Consultation Template created\n- Pre-Consult (optional) created\n- Email & SMS templates prepared\n\nStep-by-Step Instructions\n\n1. Log in to TITANVERSE using your credentials\n2. Select the settings cog at the top right-hand side\n3. Select 'Services' tab\n4. Select 'Add Service'\n5. Enter Service name\n6. Enter Service cost (Optional)\n7. Select the slider for Room required (Optional)\n8. Enable group booking or pre-payments within booking options if needed\n9. Enter Duration of the Service\n10. Assignment:\n    - Assign a room if required (multiple rooms possible)\n    - Assign Pharmacist to complete Service (multiple pharmacists possible)\n11. Select Email confirmation template\n12. Select Email Cancellation template\n13. Select SMS confirmation template\n14. Select SMS cancellation template\n15. Select Email reminder template\n16. Select SMS reminder template\n17. Select Pre-Consult template\n18. Select Default Consultation template\n19. Select availability of the Service:\n    - Select days of the week the Service is offered\n    - Select the time frame the service is offered\n    - Add multiple times (Optional)\n    - Turn off the slider for days the service is not offered\n    - Select 'Save Service'\n\nRecommended Setup Sequence\n\n1. Create Consultation Template\n2. Create Pre-Consult (Optional)\n3. Create Email & SMS Templates\n4. Create Service\n\nTop Tips & Best Practices\n\n- Use consistent naming across templates\n- Confirm user availability has been set before setting your service live\n- Test the full flow before launch\n- Review templates regularly"
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How To Setup General Settings",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/482134-titanverse-how-to-setup-general-settings",
+      "content": "Overview\n\nThis guide covers General Settings configuration within TITANVERSE, which handles organisation information, contact details, and company branding customization.\n\nStep-by-Step Instructions\n\n1. Log in to TITANVERSE\n2. Access Settings - Select the settings cog icon\n3. Navigate to General Tab\n4. Confirm Organisation Details - organisation name, address, contact number, email address\n5. Setup Company Branding - uploading logo, customising colour scheme, linking to website"
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How To Create Rooms and Set Availability",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/482101-titanverse-how-to-create-rooms-and-set-availability",
+      "content": "Step-by-Step Instructions\n\n1. Log in to TITANVERSE\n2. Select the settings cog at the top right-hand side\n3. Select the 'Locations' tab\n4. Select the 'Add Room' tab shown under the Location\n5. Enter the Room name\n6. Select the services that can be carried out in the Room\n7. Scroll down to select availability for the Room - configure through dropdown menus for each day\n8. Select 'Save Room'\n\nTips: Complete room setup before creating services. Room availability is required for service configuration."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How To Setup Consultation Templates",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/485871-titanverse-how-to-setup-consultation-templates",
+      "content": "Step-by-Step Instructions\n\n1. Log in to TITANVERSE\n2. Select the settings cog\n3. Select the 'Templates' tab\n4. Select the 'Consultations' tab\n5. Select 'Add Template'\n6. Enter the description of the consultation template\n7. Upload relevant medical documents (max 5MB, .txt/.pdf/.doc/.docx)\n8. Select 'Generate Template'\n9. Review the template information\n10. Review and edit the generated Notes Template\n11. Review and edit the Structured Questions\n12. Configure Consultation Actions\n13. Configure Template Settings - ensure status is Active\n14. Select 'save template'"
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How to Create and Manage Roles",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/609613-titanverse-how-to-create-and-manage-roles",
+      "content": "Three default roles cannot be edited: Admin, Pharmacist, Non-Pharmacist.\n\nHow to Create a Role:\n1. Select Settings cog\n2. Click Roles\n3. Select Create Role\n4. Enter Role Name and Description\n5. Toggle permission sliders (grey=OFF, black=ON)\n6. Click Save\n\nPermissions include: Templates, Patients, Consultations, Prescriptions, Teams, Users, Calendar, Admin (Full System Access), Approval, Documents, Settings."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How to Setup Pre-Consult Template",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/486648-titanverse-how-to-setup-pre-consult-template",
+      "content": "Navigate to Settings cog > Templates > Pre-Consult > Create Template.\n\nThree options for creating pre-consult forms:\n1. Choose from existing consultation templates\n2. Use AI generation with document upload\n3. Manually create using the Builder tool\n\nTemplates are active by default. Toggle slider to disable. If a service doesn't require pre-consultation, the pre-consult tab won't appear during consultation."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How To Setup Email and SMS Templates",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/485844-titanverse-how-to-setup-email-and-sms-templates",
+      "content": "Settings cog > Templates > Email/SMS Templates > Add Template.\n\nEnter template name, choose Email or SMS, select template type, add subject (email only), insert placeholders, compose message, click Create Template.\n\nOnce created, assign to a service during service creation."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How to Access and Use the Marketplace",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/494378-titanverse-how-to-access-and-use-the-marketplace",
+      "content": "The TITANVERSE Marketplace enables access to integrations that extend platform functionality. Available exclusively to customers on the consultation plan (NMS-only plan users cannot view this feature).\n\nAvailable Integrations:\n- DemDx: Clinical decision support, symptom-led pathways, 500+ conditions. Requires licence key from DemDx.\n- Ryft: Online payment processing for card transactions via TITANVERSE iframe.\n- PharmAppy: Connects via API key generated within the Marketplace."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: iFrame",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/532772-titanverse-iframe",
+      "content": "Settings > Services > View iFrame code. Copy the iFrame code and paste into website HTML to enable appointment booking directly on the pharmacy website. Patients can view and book services without leaving the web domain."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: Billing",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/488687-titanverse-billing",
+      "content": "Access via Settings tab. Three sections:\n1. This Billing Period - current month's usage, plan breakdown, promotional credits, consultation costs with expandable details.\n2. Subscriptions - view contract type, add/remove user packs, monitor user utilization.\n3. Invoices - view and export all historical invoices."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How To Install The Ryft Integration",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/532743-titanverse-how-to-install-the-ryft-integration",
+      "content": "Settings > Market Place > View Details on Ryft > Install App > Select Locations > Install.\n\nFee: platform fee + 1.25% + 10p per transaction. Customers using PharmAppy Websites don't need separate Ryft integration."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How to Install DemDx",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/532852-titanverse-how-to-install-demdx",
+      "content": "Settings > Market Place > View Details on DemDx > Add more users > Select user > Configure > Enter licence key (from DemDx portal) > Save licence. Each team member needs an individual licence key. After setup, DemDx presenting complaint templates appear in consultation template dropdown."
+    },
+    {
+      "section": "Settings",
+      "title": "TITANVERSE: How to Install the PharmAppy Integration and Access the Configuration Key",
+      "url": "https://intercom-help.eu/titan-eu/en/articles/611597-titanverse-how-to-install-the-pharmappy-integration-and-access-the-configuration-key",
+      "content": "Settings > Marketplace > Find PharmAppy > View Details > Install > Configure > Copy configuration key > Provide key to PharmAppy to finalize integration. The key is required to connect TITANVERSE with PharmAppy for seamless data exchange."
+    }
+  ]
+}

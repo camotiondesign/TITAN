@@ -53,5 +53,31 @@
     "cost_per_engagement": 0.89,
     "spend": 0
   },
-  "notes": "Sponsored period 1 Aug 2025 – 5 Aug 2025. Sponsored: 12,782 impressions, £3.13 eCPM, 45 engagements (0.4%), £0.89 cost per engagement. Organic: 2,447 impressions, 1,343 members reached, 225 engagements (9.2%), 168 clicks (6.9% CTR), 40 reactions, 13 comments, 4 reposts."
+  "notes": "Sponsored period 1 Aug 2025 – 5 Aug 2025. Sponsored: 12,782 impressions, £3.13 eCPM, 45 engagements (0.4%), £0.89 cost per engagement. Organic: 2,447 impressions, 1,343 members reached, 225 engagements (9.2%), 168 clicks (6.9% CTR), 40 reactions, 13 comments, 4 reposts.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 2447,
+    "social_interactions": 57,
+    "social_er_pct": 2.33,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 9.19,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 9.2,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 2447,
+      "reach": 1343,
+      "reactions": 40,
+      "comments": 13,
+      "reposts": 4,
+      "saves": 0,
+      "clicks": 168
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

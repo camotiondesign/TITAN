@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Carousel post about EPS nomination and patient consent. Exceptional engagement: 29.1% engagement rate (317 engagements from 1,088 impressions). Very high CTR: 27.3% (297 clicks). 14 reactions, 0 comments, 6 reposts. 10 followers gained."
+  "notes": "Carousel post about EPS nomination and patient consent. Exceptional engagement: 29.1% engagement rate (317 engagements from 1,088 impressions). Very high CTR: 27.3% (297 clicks). 14 reactions, 0 comments, 6 reposts. 10 followers gained.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1088,
+    "social_interactions": 20,
+    "social_er_pct": 1.84,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 29.14,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 29.1,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1088,
+      "reach": 690,
+      "reactions": 14,
+      "comments": 0,
+      "reposts": 6,
+      "saves": 0,
+      "clicks": 297
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

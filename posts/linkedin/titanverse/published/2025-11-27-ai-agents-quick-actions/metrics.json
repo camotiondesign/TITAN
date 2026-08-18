@@ -31,5 +31,31 @@
   },
   "asset_type": "single-image",
   "posted_at": "2025-11-27",
-  "campaign_slug": "2025-11-27-ai-agents-quick-actions"
+  "campaign_slug": "2025-11-27-ai-agents-quick-actions",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 770,
+    "social_interactions": 27,
+    "social_er_pct": 3.51,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 8.31,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 8.3,
+    "raw_er_source": "engagement_rate",
+    "components": {
+      "impressions": 770,
+      "reach": 397,
+      "reactions": 21,
+      "comments": 1,
+      "reposts": 5,
+      "saves": 0,
+      "clicks": 37
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

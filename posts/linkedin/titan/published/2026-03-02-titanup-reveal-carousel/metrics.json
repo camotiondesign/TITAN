@@ -50,5 +50,30 @@
       "spend": 0
     }
   },
-  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. TitanUp 2026 official reveal. 134.1% engagement rate — 9-slide carousel drove massive swipe-through."
+  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. TitanUp 2026 official reveal. 134.1% engagement rate — 9-slide carousel drove massive swipe-through.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1278,
+    "social_interactions": 21,
+    "social_er_pct": 1.64,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 134.12,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 134.1,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 1278,
+      "reach": 645,
+      "reactions": 16,
+      "comments": 0,
+      "reposts": 5,
+      "saves": 0,
+      "clicks": 1693
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

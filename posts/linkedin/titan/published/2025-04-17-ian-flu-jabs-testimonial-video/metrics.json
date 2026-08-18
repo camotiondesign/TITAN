@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Customer testimonial video (Ian, first day on Titan, 50 flu jabs, no baskets waiting). Discovery: 681 impressions, 412 members reached. Page activity: 0 page viewers, 0 followers gained. Engagement: 23 engagements (3.4%), 14 clicks (2.1% CTR), 7 reactions, 0 comments, 2 reposts. Video: 310 views, 1h 2m 1s watch time, 12s average."
+  "notes": "Organic only. Customer testimonial video (Ian, first day on Titan, 50 flu jabs, no baskets waiting). Discovery: 681 impressions, 412 members reached. Page activity: 0 page viewers, 0 followers gained. Engagement: 23 engagements (3.4%), 14 clicks (2.1% CTR), 7 reactions, 0 comments, 2 reposts. Video: 310 views, 1h 2m 1s watch time, 12s average.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 681,
+    "social_interactions": 9,
+    "social_er_pct": 1.32,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 3.38,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 3.4,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 681,
+      "reach": 412,
+      "reactions": 7,
+      "comments": 0,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 14
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

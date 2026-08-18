@@ -23,5 +23,30 @@
     "shares": 0,
     "engagement_rate": 0
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "facebook",
+    "denominator": "impressions",
+    "denominator_value": 41,
+    "social_interactions": 0,
+    "social_er_pct": 0,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 0,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / reach — Metricool/Facebook",
+    "raw_er_pct": 0,
+    "raw_er_source": "platform_api.engagement_rate",
+    "components": {
+      "impressions": 41,
+      "reach": 34,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "saves": 0,
+      "clicks": 0
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T20:44:49Z",
+    "source_file": "facebook-posts_2025-01-01_2026-08-16.csv"
+  }
 }

@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Single image: 55% fewer missed repeat prescriptions (UK AI and Automation in Pharmacy Report 2025). Discovery: 786 impressions, 401 members reached. Page activity: 2 page viewers, 0 followers gained. Engagement: 29 engagements (3.7%), 12 clicks (1.5% CTR), 15 reactions, 0 comments, 2 reposts."
+  "notes": "Organic only. Single image: 55% fewer missed repeat prescriptions (UK AI and Automation in Pharmacy Report 2025). Discovery: 786 impressions, 401 members reached. Page activity: 2 page viewers, 0 followers gained. Engagement: 29 engagements (3.7%), 12 clicks (1.5% CTR), 15 reactions, 0 comments, 2 reposts.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 786,
+    "social_interactions": 17,
+    "social_er_pct": 2.16,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 3.69,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 3.7,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 786,
+      "reach": 401,
+      "reactions": 15,
+      "comments": 0,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 12
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

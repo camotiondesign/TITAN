@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477299904659505152",
+  "posted_at": "2026-06-29",
+  "asset_type": "video",
+  "boosted": false,
+  "platform_api": {
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 741,
+    "clicks": 49,
+    "ctr": 6.61,
+    "reactions": 16,
+    "comments": 0,
+    "reposts": 3,
+    "engagements": 68,
+    "engagement_rate": 9.18,
+    "organic": {
+      "impressions": 741,
+      "engagements": 68,
+      "engagement_rate": 9.18,
+      "clicks": 49,
+      "click_through_rate": 6.61,
+      "reactions": 16,
+      "comments": 0,
+      "reposts": 3,
+      "video_views": 323,
+      "viewers": 311,
+      "time_watched_raw": "16",
+      "time_watched_seconds": 0,
+      "average_watch_time_seconds": 0,
+      "reaction_breakdown": {
+        "like": 0,
+        "praise": 0,
+        "appreciation": 0,
+        "empathy": 0,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "video"
+    }
+  },
+  "campaign_slug": "2026-06-29-feel-like-owning-a-pharmacy-still-means-being-stuc",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 741,
+    "social_interactions": 19,
+    "social_er_pct": 2.56,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 9.18,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 9.18,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 741,
+      "reach": 0,
+      "reactions": 16,
+      "comments": 0,
+      "reposts": 3,
+      "saves": 0,
+      "clicks": 49
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
+}

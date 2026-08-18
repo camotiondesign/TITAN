@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7436667144785989632",
+  "posted_at": "2026-03-09",
+  "asset_type": "video",
+  "boosted": false,
+  "platform_api": {
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 680,
+    "clicks": 30,
+    "ctr": 4.41,
+    "reactions": 11,
+    "comments": 0,
+    "reposts": 6,
+    "engagements": 47,
+    "engagement_rate": 6.91,
+    "organic": {
+      "impressions": 680,
+      "engagements": 47,
+      "engagement_rate": 6.91,
+      "clicks": 30,
+      "click_through_rate": 4.41,
+      "reactions": 11,
+      "comments": 0,
+      "reposts": 6,
+      "video_views": 256,
+      "viewers": 211,
+      "time_watched_raw": "18",
+      "time_watched_seconds": 0,
+      "average_watch_time_seconds": 0,
+      "reaction_breakdown": {
+        "like": 11,
+        "praise": 0,
+        "appreciation": 0,
+        "empathy": 0,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "video"
+    }
+  },
+  "campaign_slug": "2026-03-09-it-s-limitless-to-what-you-can-do-in-your-pharmacy",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 680,
+    "social_interactions": 17,
+    "social_er_pct": 2.5,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 6.91,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 6.91,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 680,
+      "reach": 0,
+      "reactions": 11,
+      "comments": 0,
+      "reposts": 6,
+      "saves": 0,
+      "clicks": 30
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
+}

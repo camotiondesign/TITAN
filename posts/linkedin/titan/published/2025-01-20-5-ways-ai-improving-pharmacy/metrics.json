@@ -44,5 +44,31 @@
     "spend": 106.57
   },
   "notes": "Post boosted from 2025-01-20 to 2025-01-21. Exceptional performance: 45.5% total engagement rate (48.9% organic), 45.0% CTR (48.1% organic). Educational carousel format resonated strongly with audience. Better sponsored performance (20.3% engagement rate) than previous feature-focused campaigns. High click-through indicates content was valuable and worth exploring.",
-  "has_sponsored": true
+  "has_sponsored": true,
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1869,
+    "social_interactions": 16,
+    "social_er_pct": 0.86,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 48.96,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 48.9,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1869,
+      "reach": 893,
+      "reactions": 14,
+      "comments": 1,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 899
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

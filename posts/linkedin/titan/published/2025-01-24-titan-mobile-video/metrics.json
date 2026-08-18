@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Strong product demonstration through motion graphics conveyed capability without needing on-camera testimonial. Mobile workflow resonates with remote working pharmacists and owners scaling services. Good engagement (6.1% engagement rate, 4.9% CTR) and strong watch time (18 seconds average) indicate strong audience interest. Positive feedback from ClinicRx praising platform as 'work of art' validates product quality."
+  "notes": "Organic post. Strong product demonstration through motion graphics conveyed capability without needing on-camera testimonial. Mobile workflow resonates with remote working pharmacists and owners scaling services. Good engagement (6.1% engagement rate, 4.9% CTR) and strong watch time (18 seconds average) indicate strong audience interest. Positive feedback from ClinicRx praising platform as 'work of art' validates product quality.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 2021,
+    "social_interactions": 24,
+    "social_er_pct": 1.19,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 6.09,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 6.1,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 2021,
+      "reach": 799,
+      "reactions": 18,
+      "comments": 2,
+      "reposts": 4,
+      "saves": 0,
+      "clicks": 99
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

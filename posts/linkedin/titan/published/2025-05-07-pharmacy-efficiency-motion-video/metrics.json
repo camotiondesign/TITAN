@@ -29,7 +29,7 @@
     "engagements": 31,
     "engagement_rate": 5.2,
     "clicks": 18,
-    "click_through_rate": 3.0,
+    "click_through_rate": 3,
     "reactions": 12,
     "comments": 0,
     "reposts": 1,
@@ -53,5 +53,31 @@
     "cost_per_engagement": 6.25,
     "spend": 0
   },
-  "notes": "Animated/motion-graphics video (dispense at scale, efficiency). Posted 7 May 2025. Sponsored period 7 May – 11 May 2025. Total: 2,584 impressions, 12 reactions, 0 comments, 1 repost. Page: 1 viewer, 0 followers gained. Sponsored: 1,992 impressions, £25.10 eCPM, 8 engagements (0.4%), £6.25 cost per engagement, 5 clicks (0.3% CTR). Organic: 592 impressions, 259 members reached, 31 engagements (5.2%), 18 clicks (3.0% CTR), 12 reactions, 0 comments, 1 repost. Video: 311 views, 54m 52s watch time, 10s average."
+  "notes": "Animated/motion-graphics video (dispense at scale, efficiency). Posted 7 May 2025. Sponsored period 7 May – 11 May 2025. Total: 2,584 impressions, 12 reactions, 0 comments, 1 repost. Page: 1 viewer, 0 followers gained. Sponsored: 1,992 impressions, £25.10 eCPM, 8 engagements (0.4%), £6.25 cost per engagement, 5 clicks (0.3% CTR). Organic: 592 impressions, 259 members reached, 31 engagements (5.2%), 18 clicks (3.0% CTR), 12 reactions, 0 comments, 1 repost. Video: 311 views, 54m 52s watch time, 10s average.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 592,
+    "social_interactions": 13,
+    "social_er_pct": 2.2,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 5.24,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 5.2,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 592,
+      "reach": 259,
+      "reactions": 12,
+      "comments": 0,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 18
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

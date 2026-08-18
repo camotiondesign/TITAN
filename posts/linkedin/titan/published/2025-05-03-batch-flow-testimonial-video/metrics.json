@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Customer testimonial video (Katie, Batch Flow, first batch flow). Discovery: 1,156 impressions, 707 members reached. Page activity: 0 page viewers, 0 followers gained. Engagement: 74 engagements (6.4%), 57 clicks (4.9% CTR), 14 reactions, 1 comment, 2 reposts. Video: 558 views, 2h 27m 22s watch time, 15s average."
+  "notes": "Organic only. Customer testimonial video (Katie, Batch Flow, first batch flow). Discovery: 1,156 impressions, 707 members reached. Page activity: 0 page viewers, 0 followers gained. Engagement: 74 engagements (6.4%), 57 clicks (4.9% CTR), 14 reactions, 1 comment, 2 reposts. Video: 558 views, 2h 27m 22s watch time, 15s average.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1156,
+    "social_interactions": 17,
+    "social_er_pct": 1.47,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 6.4,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 6.4,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1156,
+      "reach": 707,
+      "reactions": 14,
+      "comments": 1,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 57
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

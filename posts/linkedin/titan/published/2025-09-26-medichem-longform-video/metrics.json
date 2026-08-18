@@ -38,5 +38,30 @@
   "posted_at": "2025-09-26",
   "campaign_slug": "2025-09-25-medichem-hub-and-spoke-case-study",
   "impressions": 1584,
-  "has_sponsored": true
+  "has_sponsored": true,
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1584,
+    "social_interactions": 44,
+    "social_er_pct": 2.78,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 11.17,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 11.2,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1584,
+      "reach": 920,
+      "reactions": 29,
+      "comments": 6,
+      "reposts": 9,
+      "saves": 0,
+      "clicks": 133
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  }
 }

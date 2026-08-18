@@ -25,5 +25,30 @@
     "total_play_time_seconds": 0,
     "reach": 0
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "tiktok",
+    "denominator": "views",
+    "denominator_value": 892,
+    "social_interactions": 20,
+    "social_er_pct": 2.24,
+    "social_er_formula": "(reactions + comments + reposts) / views x 100",
+    "platform_er_pct": 2.24,
+    "platform_er_definition": "(likes + comments + shares) / views — Metricool/TikTok",
+    "raw_er_pct": null,
+    "raw_er_source": null,
+    "components": {
+      "impressions": 892,
+      "reach": 0,
+      "reactions": 19,
+      "comments": 0,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 0
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T20:44:49Z",
+    "source_file": "tiktok-posts_2025-01-01_2026-08-16.csv"
+  }
 }

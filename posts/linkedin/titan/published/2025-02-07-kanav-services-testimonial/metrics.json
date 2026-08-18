@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic post. Service expansion messaging and 'since day one' positioning resonated with audience. Good engagement (8.0% engagement rate, 6.3% CTR) and strong watch time (13 seconds average) indicate strong audience interest in service expansion solutions. Multiple services mentioned (weight management, travel health, Pharmacy First, earwax removal) increased relatability."
+  "notes": "Organic post. Service expansion messaging and 'since day one' positioning resonated with audience. Good engagement (8.0% engagement rate, 6.3% CTR) and strong watch time (13 seconds average) indicate strong audience interest in service expansion solutions. Multiple services mentioned (weight management, travel health, Pharmacy First, earwax removal) increased relatability.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1498,
+    "social_interactions": 26,
+    "social_er_pct": 1.74,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 8.01,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 8,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1498,
+      "reach": 790,
+      "reactions": 20,
+      "comments": 2,
+      "reposts": 4,
+      "saves": 0,
+      "clicks": 94
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

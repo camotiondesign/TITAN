@@ -50,5 +50,30 @@
       "spend": 0
     }
   },
-  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. TitanUp teaser. 4 followers gained, 10 reposts, 11 page viewers — highest follower gain in recent period."
+  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. TitanUp teaser. 4 followers gained, 10 reposts, 11 page viewers — highest follower gain in recent period.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1910,
+    "social_interactions": 41,
+    "social_er_pct": 2.15,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 14.08,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 14.1,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 1910,
+      "reach": 974,
+      "reactions": 25,
+      "comments": 6,
+      "reposts": 10,
+      "saves": 0,
+      "clicks": 228
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

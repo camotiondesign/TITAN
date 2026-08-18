@@ -57,5 +57,30 @@
       "spend": 0
     }
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 718,
+    "social_interactions": 20,
+    "social_er_pct": 2.79,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 2.79,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 0,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 718,
+      "reach": 0,
+      "reactions": 12,
+      "comments": 2,
+      "reposts": 6,
+      "saves": 0,
+      "clicks": 0
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:notionsocial"
+  }
 }

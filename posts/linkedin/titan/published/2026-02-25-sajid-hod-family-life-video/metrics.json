@@ -50,5 +50,30 @@
       "spend": 0
     }
   },
-  "notes": "Manually added from LinkedIn admin analytics 2026-04-07."
+  "notes": "Manually added from LinkedIn admin analytics 2026-04-07.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1285,
+    "social_interactions": 45,
+    "social_er_pct": 3.5,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 10.66,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 10.7,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 1285,
+      "reach": 762,
+      "reactions": 35,
+      "comments": 8,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 92
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

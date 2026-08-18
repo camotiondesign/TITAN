@@ -25,5 +25,30 @@
     "engagement_rate": 0,
     "plays": 0
   },
-  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected."
+  "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "instagram",
+    "denominator": "views",
+    "denominator_value": 25,
+    "social_interactions": 1,
+    "social_er_pct": 4,
+    "social_er_formula": "(reactions + comments + reposts) / views x 100",
+    "platform_er_pct": 6.67,
+    "platform_er_definition": "interactions (likes + comments + shares + saves) / reach — Metricool/Instagram",
+    "raw_er_pct": 0,
+    "raw_er_source": "platform_api.engagement_rate",
+    "components": {
+      "impressions": 25,
+      "reach": 15,
+      "reactions": 1,
+      "comments": 0,
+      "reposts": 0,
+      "saves": 0,
+      "clicks": 0
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T20:44:49Z",
+    "source_file": "instagram-posts_2025-01-01_2026-08-16.csv"
+  }
 }

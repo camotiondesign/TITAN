@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Ishpal testimonial - part of The Titan Way campaign. Strong organic engagement rate (12.8%) and CTR (8.3%) demonstrate effective testimonial messaging. Key quote '20 minutes in the dispensary' resonates strongly with pharmacist audience seeking time freedom. Video performance: 196 views with 11s average watch time. Testimonial effectively communicates workflow transformation and time reclamation for clinical services."
+  "notes": "Ishpal testimonial - part of The Titan Way campaign. Strong organic engagement rate (12.8%) and CTR (8.3%) demonstrate effective testimonial messaging. Key quote '20 minutes in the dispensary' resonates strongly with pharmacist audience seeking time freedom. Video performance: 196 views with 11s average watch time. Testimonial effectively communicates workflow transformation and time reclamation for clinical services.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 266,
+    "social_interactions": 12,
+    "social_er_pct": 4.51,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 12.78,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 12.8,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 266,
+      "reach": 159,
+      "reactions": 9,
+      "comments": 1,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 22
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

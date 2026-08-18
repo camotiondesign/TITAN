@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Single image: modern pharmacy workflow infographic (AI, 40-point checks, Titan branding). Discovery: 501 impressions, 280 members reached. Page activity: 2 page viewers, 0 followers gained. Engagement: 24 engagements (4.8%), 14 clicks (2.8% CTR), 9 reactions, 0 comments, 1 repost."
+  "notes": "Organic only. Single image: modern pharmacy workflow infographic (AI, 40-point checks, Titan branding). Discovery: 501 impressions, 280 members reached. Page activity: 2 page viewers, 0 followers gained. Engagement: 24 engagements (4.8%), 14 clicks (2.8% CTR), 9 reactions, 0 comments, 1 repost.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 501,
+    "social_interactions": 10,
+    "social_er_pct": 2,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 4.79,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 4.8,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 501,
+      "reach": 280,
+      "reactions": 9,
+      "comments": 0,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 14
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

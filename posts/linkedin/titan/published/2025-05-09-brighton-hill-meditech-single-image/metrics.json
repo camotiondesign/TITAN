@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Single image: Titan + Meditech integration at Brighton Hill Pharmacy (Sagar Lungiwala). Discovery: 839 impressions, 477 members reached. Page activity: 2 page viewers, 1 follower gained. Engagement: 55 engagements (6.6%), 33 clicks (3.9% CTR), 19 reactions, 2 comments, 1 repost."
+  "notes": "Organic only. Single image: Titan + Meditech integration at Brighton Hill Pharmacy (Sagar Lungiwala). Discovery: 839 impressions, 477 members reached. Page activity: 2 page viewers, 1 follower gained. Engagement: 55 engagements (6.6%), 33 clicks (3.9% CTR), 19 reactions, 2 comments, 1 repost.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 839,
+    "social_interactions": 22,
+    "social_er_pct": 2.62,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 6.56,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 6.6,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 839,
+      "reach": 477,
+      "reactions": 19,
+      "comments": 2,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 33
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

@@ -53,5 +53,31 @@
     "cost_per_engagement": 0.96,
     "spend": 0
   },
-  "notes": "Looped motion graphic video (80% vs 20% time in dispensary, Titan AI). Posted 3 Apr 2025. Sponsored period 4 Apr – 6 Apr 2025. Total: 2,030 impressions, 19 reactions, 1 comment, 4 reposts. Page: 5 viewers, 0 followers gained. Sponsored: 1,519 impressions, £15.80 eCPM, 25 engagements (1.6%), £0.96 cost per engagement, 8 clicks (0.5% CTR), 1 reaction. Organic: 511 impressions, 323 members reached, 67 engagements (13.1%), 44 clicks (8.6% CTR), 18 reactions, 1 comment, 4 reposts. Video: 502 views, 1h 25m 59s watch time, 10s average."
+  "notes": "Looped motion graphic video (80% vs 20% time in dispensary, Titan AI). Posted 3 Apr 2025. Sponsored period 4 Apr – 6 Apr 2025. Total: 2,030 impressions, 19 reactions, 1 comment, 4 reposts. Page: 5 viewers, 0 followers gained. Sponsored: 1,519 impressions, £15.80 eCPM, 25 engagements (1.6%), £0.96 cost per engagement, 8 clicks (0.5% CTR), 1 reaction. Organic: 511 impressions, 323 members reached, 67 engagements (13.1%), 44 clicks (8.6% CTR), 18 reactions, 1 comment, 4 reposts. Video: 502 views, 1h 25m 59s watch time, 10s average.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 511,
+    "social_interactions": 23,
+    "social_er_pct": 4.5,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 13.11,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 13.1,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 511,
+      "reach": 323,
+      "reactions": 18,
+      "comments": 1,
+      "reposts": 4,
+      "saves": 0,
+      "clicks": 44
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

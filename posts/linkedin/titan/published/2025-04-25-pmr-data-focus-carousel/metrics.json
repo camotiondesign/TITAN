@@ -22,12 +22,12 @@
   "follows": 0,
   "leads": 0,
   "engagements": 341,
-  "engagement_rate": 39.0,
+  "engagement_rate": 39,
   "organic": {
     "impressions": 874,
     "reach": 406,
     "engagements": 341,
-    "engagement_rate": 39.0,
+    "engagement_rate": 39,
     "clicks": 329,
     "click_through_rate": 37.6,
     "reactions": 9,
@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Organic only. Carousel: PMR data focus (cut through the noise, what matters, blog CTA). Discovery: 874 impressions, 406 members reached. Page activity: 2 page viewers, 0 followers gained. Engagement: 341 engagements (39.0%), 329 clicks (37.6% CTR), 9 reactions, 1 comment, 2 reposts."
+  "notes": "Organic only. Carousel: PMR data focus (cut through the noise, what matters, blog CTA). Discovery: 874 impressions, 406 members reached. Page activity: 2 page viewers, 0 followers gained. Engagement: 341 engagements (39.0%), 329 clicks (37.6% CTR), 9 reactions, 1 comment, 2 reposts.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 874,
+    "social_interactions": 12,
+    "social_er_pct": 1.37,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 39.02,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 39,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 874,
+      "reach": 406,
+      "reactions": 9,
+      "comments": 1,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 329
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

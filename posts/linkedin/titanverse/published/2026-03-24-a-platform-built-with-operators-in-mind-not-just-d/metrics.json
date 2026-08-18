@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7442182793704431616",
+  "posted_at": "2026-03-24",
+  "asset_type": "",
+  "boosted": false,
+  "platform_api": {
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 219,
+    "clicks": 6,
+    "ctr": 2.74,
+    "reactions": 9,
+    "comments": 0,
+    "reposts": 0,
+    "engagements": 15,
+    "engagement_rate": 6.85,
+    "organic": {
+      "impressions": 219,
+      "engagements": 15,
+      "engagement_rate": 6.85,
+      "clicks": 6,
+      "click_through_rate": 2.74,
+      "reactions": 9,
+      "comments": 0,
+      "reposts": 0,
+      "video_views": 0,
+      "viewers": 0,
+      "time_watched_raw": "",
+      "time_watched_seconds": 0,
+      "average_watch_time_seconds": 0,
+      "reaction_breakdown": {
+        "like": 7,
+        "praise": 1,
+        "appreciation": 0,
+        "empathy": 1,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "text"
+    }
+  },
+  "campaign_slug": "2026-03-24-a-platform-built-with-operators-in-mind-not-just-d",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 219,
+    "social_interactions": 9,
+    "social_er_pct": 4.11,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 6.85,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 6.85,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 219,
+      "reach": 0,
+      "reactions": 9,
+      "comments": 0,
+      "reposts": 0,
+      "saves": 0,
+      "clicks": 6
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
+}

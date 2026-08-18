@@ -53,5 +53,31 @@
     "cost_per_engagement": 0,
     "spend": 0
   },
-  "notes": "Metrics updated 2025-12-15. Organic discovery: 1,913 impressions, 1,213 members reached. Engagement rate: 5.1% (97 engagements). CTR: 3.2% (62 clicks). 22 reactions, 7 comments, 6 reposts."
+  "notes": "Metrics updated 2025-12-15. Organic discovery: 1,913 impressions, 1,213 members reached. Engagement rate: 5.1% (97 engagements). CTR: 3.2% (62 clicks). 22 reactions, 7 comments, 6 reposts.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 1913,
+    "social_interactions": 35,
+    "social_er_pct": 1.83,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 5.07,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 5.1,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 1913,
+      "reach": 1213,
+      "reactions": 22,
+      "comments": 7,
+      "reposts": 6,
+      "saves": 0,
+      "clicks": 62
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

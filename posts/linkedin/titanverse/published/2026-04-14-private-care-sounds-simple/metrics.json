@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7449758376261017600",
+  "posted_at": "2026-04-14",
+  "asset_type": "single-image",
+  "boosted": false,
+  "platform_api": {
+    "source": "linkedin_export_csv",
+    "synced_at": "2026-07-12",
+    "impressions": 574,
+    "clicks": 17,
+    "ctr": 2.96,
+    "reactions": 16,
+    "comments": 1,
+    "reposts": 5,
+    "engagements": 39,
+    "engagement_rate": 6.79,
+    "organic": {
+      "impressions": 574,
+      "engagements": 39,
+      "engagement_rate": 6.79,
+      "clicks": 17,
+      "click_through_rate": 2.96,
+      "reactions": 16,
+      "comments": 1,
+      "reposts": 5,
+      "video_views": 0,
+      "viewers": 0,
+      "time_watched_raw": "",
+      "time_watched_seconds": 0,
+      "average_watch_time_seconds": 0,
+      "reaction_breakdown": {
+        "like": 16,
+        "praise": 0,
+        "appreciation": 0,
+        "empathy": 0,
+        "interest": 0,
+        "entertainment": 0
+      },
+      "type": "image"
+    }
+  },
+  "campaign_slug": "2026-04-14-private-care-sounds-simple",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 574,
+    "social_interactions": 22,
+    "social_er_pct": 3.83,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 6.79,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 6.79,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 574,
+      "reach": 0,
+      "reactions": 16,
+      "comments": 1,
+      "reposts": 5,
+      "saves": 0,
+      "clicks": 17
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
+}

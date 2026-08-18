@@ -1,0 +1,3030 @@
+{
+  "synced_at": "2026-08-17T20:44:49Z",
+  "results": [
+    {
+      "profile": "facebook-posts",
+      "file": "facebook-posts_2025-01-01_2026-08-16.csv",
+      "total": 99,
+      "matched": 21,
+      "unmatched": 77,
+      "written": 21,
+      "impressionFixes": [],
+      "erChanges": [
+        {
+          "slug": "2026-02-26-for-titan-customers-only-scan-me",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-26-services-governance-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-24-prab-bench-trap8pm-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-23-it-s-not-even-that-i-grew-my-business-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-23-fragmentation-observation-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-20-pharm-appy-no-more-phone-calls-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-18-ramadan-mubarak-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-18-rahul-i-can-t-believe-ai-transcription-wasn-t-a-thing-in-pharmacy-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-17-it-s-a-bit-like-a-google-search-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-16-hod-only14-percent-tt-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-12-services-spin-up-matrix-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-11-hod-operating-without-double-cover",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-04-stopping-bulk-auto-renominations-to-protect-patient-choice",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-03-laura-you-are-my-mds-queen",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-29-how-it-feels-when-everything-finally-lives-in-one-place",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-28-nervous-on-day-one-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-28-real-mds-workflow",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-27-switch-it-on-walk-away-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-23-paula-review-video-1-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-21-filter-out-the-noise-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-20-everything-you-need-for-pharmacy-services-all-in-one-place-one-workflow-one-record-one-platform",
+          "from": 0,
+          "to": 0
+        }
+      ],
+      "unmatchedRows": [
+        {
+          "date": "2026-08-13",
+          "title": "Day 2 on Titan at Butt Lane Pharmacy. Rahul’s already seeing the diffe",
+          "url": "https://facebook.com/122190313058717374/posts/122197701134717374"
+        },
+        {
+          "date": "2026-08-11",
+          "title": "Having a shiny robot in your pharmacy is one thing. Getting your PMR t",
+          "url": "https://facebook.com/122190313058717374/posts/122197530830717374"
+        },
+        {
+          "date": "2026-08-06",
+          "title": "70% of prescriptions picked, packed and on the shelf within 10 minutes",
+          "url": "https://facebook.com/122190313058717374/posts/122197115336717374"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "The best technology doesn't make pharmacists less busy. It changes wha",
+          "url": "https://facebook.com/122190313058717374/posts/122196890906717374"
+        },
+        {
+          "date": "2026-07-28",
+          "title": "The future of community pharmacy won’t be built by one company. It wil",
+          "url": "https://facebook.com/122190313058717374/posts/122196467942717374"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Tomorrow at Marton Road Pharmacy in Bridlington, Jaya Authunuri opens ",
+          "url": "https://facebook.com/122190313058717374/posts/122196109748717374"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "What does it mean to be a pharmacist? Titan founder Tariq Muhammad thi",
+          "url": "https://facebook.com/122190313058717374/posts/122195878232717374"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "The best sign a training session has landed? The questions. We wrapped",
+          "url": "https://facebook.com/122190313058717374/posts/122195419586717374"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Inaugural Future Pharmacist Conference was fire. And not just because ",
+          "url": "https://facebook.com/122190313058717374/posts/122195141924717374"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "Up early. Stand ready. Team on the floor. Titan is at Central Hall Wes",
+          "url": "https://facebook.com/122190313058717374/posts/122194985714717374"
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Today, 7 in 10 prescriptions clear a clinical check without a pharmaci",
+          "url": "https://facebook.com/122190313058717374/posts/122194832510717374"
+        },
+        {
+          "date": "2026-07-02",
+          "title": "Waiting is no longer a strategy for independent pharmacy. That was the",
+          "url": "https://facebook.com/122190313058717374/posts/122194572074717374"
+        },
+        {
+          "date": "2026-07-02",
+          "title": "Next week, Titan will be at ProPharmace's Future Pharmacists Conferenc",
+          "url": "https://facebook.com/122190313058717374/posts/122194557416717374"
+        },
+        {
+          "date": "2026-06-30",
+          "title": "If you're building the next version of your pharmacy, come and see one",
+          "url": "https://facebook.com/122190313058717374/posts/122194407176717374"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "This pharmacy dispenses 21,000 items a month. The picking column is em",
+          "url": "https://facebook.com/122190313058717374/posts/122194116116717374"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Trying to grow private services when every booking, note, payment and ",
+          "url": "https://facebook.com/122190313058717374/posts/122194046630717374"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "Why should a patient choose you when… \"Pharmacy is becoming Nando's. E",
+          "url": "https://facebook.com/122190313058717374/posts/122193600200717374"
+        },
+        {
+          "date": "2026-06-14",
+          "title": "A week on from TitanUp 26, and the energy is still in the air. A week ",
+          "url": "https://facebook.com/122190313058717374/posts/122193227120717374"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "For years, Titan PMR and BD Rowa have worked side by side in pharmacie",
+          "url": "https://facebook.com/122190313058717374/posts/122192942306717374"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Get this one thing wrong, and it can quietly ruin the whole day. Sorry",
+          "url": "https://facebook.com/122190313058717374/posts/122192868596717374"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "If you run a pharmacy and you genuinely care about where it's going, t",
+          "url": "https://facebook.com/122190313058717374/posts/122192705480717374"
+        },
+        {
+          "date": "2026-06-06",
+          "title": "Tomorrow. Who's making the trip? 👇 #TitanUp26",
+          "url": "https://facebook.com/122190313058717374/posts/122192641022717374"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "An event is only ever as good as the questions it answers. And the bes",
+          "url": "https://facebook.com/122190313058717374/posts/122192425634717374"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Eid al-Adha Mubarak from all of us at Titan. To every pharmacy team wo",
+          "url": "https://facebook.com/122190313058717374/posts/122191888682717374"
+        },
+        {
+          "date": "2026-05-23",
+          "title": "A day about supercharging pharmacy business. There's only one publicat",
+          "url": "https://facebook.com/122190313058717374/posts/122191577240717374"
+        },
+        {
+          "date": "2026-05-15",
+          "title": "The GPhC just found 106 standards failed across UK pharmacy weight man",
+          "url": "https://facebook.com/122190313058717374/posts/122190922154717374"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Nine months ago, Tas Bhatti was just two days into using Titanverse wh",
+          "url": "https://facebook.com/122190313058717374/posts/122190655046717374"
+        },
+        {
+          "date": "2026-05-11",
+          "title": "Word is spreading about the Titan ecosystem. We didn't expect it to re",
+          "url": "https://facebook.com/122190313058717374/posts/122190574010717374"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Titanverse is built around pharmacy services. It understands what the ",
+          "url": "https://facebook.com/122190313058717374/posts/122190226112717374"
+        },
+        {
+          "date": "2026-05-06",
+          "title": "NHS prescription tracking notifications are due to begin rolling out f",
+          "url": "https://facebook.com/122190313058717374/posts/122190144188717374"
+        },
+        {
+          "date": "2026-05-05",
+          "title": "Pharmacists aren’t supposed to be typing mid-consultation. But they ar",
+          "url": "https://facebook.com/122190313058717374/posts/122190067724717374"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "This is what a modern pharmacy looks like. Calm. Controlled. Still gro",
+          "url": "https://facebook.com/122190313058717374/posts/122187396278717374"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "This is what a modern pharmacy looks like. Calm. Controlled. Still gro",
+          "url": "https://facebook.com/122190313058717374/posts/122187395108717374"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Private care sounds simple. The workflow usually isn’t. Too many tools",
+          "url": "https://facebook.com/122190313058717374/posts/122187205322717374"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "From 2,500 to 40,000 items a month. And finally getting your weekends ",
+          "url": "https://facebook.com/122190313058717374/posts/122187038354717374"
+        },
+        {
+          "date": "2026-04-10",
+          "title": "Trying to run one private service at 9am. 😅 titanverse.co.uk #Titanve",
+          "url": "https://facebook.com/122190313058717374/posts/122186661476717374"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "When you think of a camera brand, what brand do you think of? Yeah, we",
+          "url": "https://facebook.com/122190313058717374/posts/122186290322717374"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "",
+          "url": "https://facebook.com/122190313058717374/posts/122185501880717374"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "",
+          "url": "https://facebook.com/122190313058717374/posts/122184088292717374"
+        },
+        {
+          "date": "2026-03-23",
+          "title": "Looks like a small neighbourhood pharmacy. Then you walk through the b",
+          "url": "https://facebook.com/122190313058717374/posts/122183945408717374"
+        },
+        {
+          "date": "2026-03-20",
+          "title": "Eid Mubarak 🌙 To every pharmacist and pharmacy team working through t",
+          "url": "https://facebook.com/122190313058717374/posts/122183579558717374"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "\"We were wasting time chasing repeats before Titan. Now that time goes",
+          "url": "https://facebook.com/122190313058717374/posts/122183454176717374"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "People still think of pharmacies as chemists. But inside many of them,",
+          "url": "https://facebook.com/122190313058717374/posts/122182436108717374"
+        },
+        {
+          "date": "2026-02-12",
+          "title": "We turned off stock control for one month. Just to see what would happ",
+          "url": "https://facebook.com/122190313058717374/posts/122178834560717374"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "There’s someone in every pharmacy with a black book. Patient names. Re",
+          "url": "https://facebook.com/122190313058717374/posts/122177769176717374"
+        },
+        {
+          "date": "2026-01-13",
+          "title": "From 6 near misses a month to 2 in a year. Thanks for sharing your exp",
+          "url": "https://facebook.com/122190313058717374/posts/122174356586717374"
+        },
+        {
+          "date": "2026-01-12",
+          "title": "Imagine only entering the dispensary for coffee. #TitanPMR #PharmacyLi",
+          "url": "https://facebook.com/122190313058717374/posts/122174258540717374"
+        },
+        {
+          "date": "2026-01-09",
+          "title": "Chaos to calm. This is Titan. #TitanPMR #PharmacyWorkflow #PharmacyInn",
+          "url": "https://facebook.com/122190313058717374/posts/122173794716717374"
+        },
+        {
+          "date": "2026-01-09",
+          "title": "Partial systems create full-scale problems. Human triage burns people ",
+          "url": "https://facebook.com/122190313058717374/posts/122173794674717374"
+        },
+        {
+          "date": "2026-01-05",
+          "title": "📖 How Safy’s Chemist cut near misses by 97% → bit.ly/3NrcfH7 #TitanPM",
+          "url": "https://facebook.com/122190313058717374/posts/122173153244717374"
+        },
+        {
+          "date": "2025-12-20",
+          "title": "Freeing up 20 hours a week in pharmacy isn’t about working faster. It’",
+          "url": "https://facebook.com/122190313058717374/posts/122170450010717374"
+        },
+        {
+          "date": "2025-12-18",
+          "title": "💬 “The AI can’t just be learning from Google.” In UK pharmacy, it has",
+          "url": "https://facebook.com/122190313058717374/posts/122170025156717374"
+        },
+        {
+          "date": "2025-12-09",
+          "title": "Batch flow on day one. Batches of 20 at a time. A workflow built to ru",
+          "url": "https://facebook.com/122190313058717374/posts/122168065928717374"
+        },
+        {
+          "date": "2025-12-06",
+          "title": "This is Tumi. A dispenser at Knight street Pharmacy ⭐ It was her first",
+          "url": "https://facebook.com/122190313058717374/posts/122167367336717374"
+        },
+        {
+          "date": "2025-11-27",
+          "title": "Another incredible independent pharmacist shaping the future of commun",
+          "url": "https://facebook.com/122190313058717374/posts/122165827598717374"
+        },
+        {
+          "date": "2025-11-26",
+          "title": "Spot the difference. The GTIN doesn’t. Right now in UK pharmacy, diffe",
+          "url": "https://facebook.com/122190313058717374/posts/122165735522717374"
+        },
+        {
+          "date": "2025-11-25",
+          "title": "Yusuf’s been prescribing for years. Take it from him. Before Titanvers",
+          "url": "https://facebook.com/122190313058717374/posts/122165645024717374"
+        },
+        {
+          "date": "2025-11-24",
+          "title": "Wild shift. From “I hated Titan in week one” to “we couldn’t run servi",
+          "url": "https://facebook.com/122190313058717374/posts/122165357048717374"
+        },
+        {
+          "date": "2025-11-23",
+          "title": "⭐️ ‘Absolutely recommend it!’ When independent pharmacies trust TITAN ",
+          "url": "https://facebook.com/122190313058717374/posts/122165147534717374"
+        },
+        {
+          "date": "2025-11-20",
+          "title": "Look familiar? It doesn’t have to. #TitanPMR #PharmacyLife #Independen",
+          "url": "https://facebook.com/122190313058717374/posts/122164481348717374"
+        },
+        {
+          "date": "2025-11-18",
+          "title": "170,000 items a month sounds impressive. Living it is something else. ",
+          "url": "https://facebook.com/122190313058717374/posts/122164104440717374"
+        },
+        {
+          "date": "2025-11-11",
+          "title": "170,000 items. 12 pharmacies. 0 chaos. BNP Healthcare grew fast but th",
+          "url": "https://facebook.com/122190313058717374/posts/122162544206717374"
+        },
+        {
+          "date": "2025-11-05",
+          "title": "#AskYourPharmacist Week 2025 “I didn’t realise a pharmacy could do thi",
+          "url": "https://facebook.com/122190313058717374/posts/122161353470717374"
+        },
+        {
+          "date": "2025-11-03",
+          "title": "Everyone’s talking about the NHS 10-Year Plan. But what if pharmacy’s ",
+          "url": "https://facebook.com/122190313058717374/posts/122160966878717374"
+        },
+        {
+          "date": "2025-10-28",
+          "title": "Pharmacy is moving fast. That’s why we move faster. Most PMR systems r",
+          "url": "https://facebook.com/122190313058717374/posts/122159807666717374"
+        },
+        {
+          "date": "2025-10-15",
+          "title": "One of our favourite things about The Pharmacy Show is hearing real st",
+          "url": "https://facebook.com/122190313058717374/posts/122157193082717374"
+        },
+        {
+          "date": "2025-10-12",
+          "title": "Come meet 𝗥𝗼𝘅𝗶𝗲 at 𝗦𝘁𝗮𝗻𝗱 𝗗𝟱𝟱 💫 See how 𝗧𝗶𝘁𝗮𝗻𝘃𝗲𝗿\ud835",
+          "url": "https://facebook.com/122190313058717374/posts/122156782580717374"
+        },
+        {
+          "date": "2025-09-25",
+          "title": "One bench. Stacked high with baskets. No matter how fast you checked, ",
+          "url": "https://facebook.com/122190313058717374/posts/122154079586717374"
+        },
+        {
+          "date": "2025-09-23",
+          "title": "Same same but different 💊 (original vs generic meds) #SameSameButDiff",
+          "url": "https://facebook.com/122190313058717374/posts/122153751428717374"
+        },
+        {
+          "date": "2025-09-19",
+          "title": "Fast isn’t the same as efficient. Pharmacy shouldn’t feel like a Fast ",
+          "url": "https://facebook.com/122190313058717374/posts/122153122058717374"
+        },
+        {
+          "date": "2025-09-18",
+          "title": "Paul logs fridge temps on Titan in seconds ❄️📲 Scan. Record. Done. No",
+          "url": "https://facebook.com/122190313058717374/posts/122152942628717374"
+        },
+        {
+          "date": "2025-09-16",
+          "title": "👉 North West pharmacy, change isn’t coming, it’s here. 𝗖𝗣𝗚𝗠 𝗖𝗼\ud835",
+          "url": "https://facebook.com/122190313058717374/posts/122152295420717374"
+        },
+        {
+          "date": "2025-09-15",
+          "title": "Haters → Believers 🙌 #pharmacy #pharmacylife #communitypharmacy #heal",
+          "url": "https://facebook.com/122190313058717374/posts/122152056650717374"
+        },
+        {
+          "date": "2025-09-11",
+          "title": "From Post-it chaos to clear screens. Pharmacy made simple 💊💻 #Pharma",
+          "url": "https://facebook.com/122190313058717374/posts/122151047036717374"
+        },
+        {
+          "date": "2025-09-10",
+          "title": "Christina shows how Titan flags what really needs checking ✅ One baske",
+          "url": "https://facebook.com/122190313058717374/posts/122150869982717374"
+        },
+        {
+          "date": "2025-09-08",
+          "title": "Nav shows how Titan’s audit trail keeps every script safe ✅ From downl",
+          "url": "https://facebook.com/122190313058717374/posts/122150341616717374"
+        },
+        {
+          "date": "2025-09-04",
+          "title": "Pharmacy should not feel like hell. For Akbar it once did.",
+          "url": "https://facebook.com/122190313058717374/posts/122149475924717374"
+        }
+      ]
+    },
+    {
+      "profile": "facebook-reels",
+      "file": "facebook-reels_2025-01-01_2026-08-16.csv",
+      "total": 91,
+      "matched": 3,
+      "unmatched": 88,
+      "written": 3,
+      "impressionFixes": [],
+      "erChanges": [
+        {
+          "slug": "2026-03-03-rahul-2x-consultations-and-improved-quality-1",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-25-jeet-simple-cash-flow-trick-most-pharmacy-owners-miss-video",
+          "from": 0,
+          "to": 0.91
+        }
+      ],
+      "unmatchedRows": [
+        {
+          "date": "2026-08-14",
+          "title": "When we joined Ash and Jaya at Marton Road pharmacy for their innovati",
+          "url": "https://www.facebook.com/reel/4448875548661798/"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Day 2 on Titan at Butt Lane Pharmacy. Rahul’s already seeing the diffe",
+          "url": "https://www.facebook.com/reel/1963842964573521/"
+        },
+        {
+          "date": "2026-08-12",
+          "title": "More weight loss patients are coming. Is your pharmacy ready? #Titanve",
+          "url": "https://www.facebook.com/reel/1419559246705193/"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Thinking about pharmacy automation? One size doesn't fit all. Every ph",
+          "url": "https://www.facebook.com/reel/1256988670828487/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Thinking about acquiring a pharmacy? Here’s something we’ve seen more ",
+          "url": "https://www.facebook.com/reel/2080347725909189/"
+        },
+        {
+          "date": "2026-08-04",
+          "title": "The best partnerships aren't built around products. They're built arou",
+          "url": "https://www.facebook.com/reel/1521179266416760/"
+        },
+        {
+          "date": "2026-07-31",
+          "title": "What Boots is doing right now says a lot about the future of independe",
+          "url": "https://www.facebook.com/reel/4144664145831854/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "You never regret making the right decision. Only waiting to make it. T",
+          "url": "https://www.facebook.com/reel/936089526175882/"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "The best supplier isn’t the one that promises nothing will go wrong. I",
+          "url": "https://www.facebook.com/reel/1029589229707418/"
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Building a great pharmacy is never a one-person job. Spend five minute",
+          "url": "https://www.facebook.com/reel/1030233139651581/"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Other PMRs are catching up. But what's next? There's still gaps in pha",
+          "url": "https://www.facebook.com/reel/1541679680146890/"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Hub and spoke is becoming really topical in pharmacy. And a lot of ind",
+          "url": "https://www.facebook.com/reel/1578885026952201/"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "If you've ever wondered whether your PMR and your robot are actually w",
+          "url": "https://www.facebook.com/reel/1360024599586552/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Pharmacies are seeing more patients with more complex symptoms. How do",
+          "url": "https://www.facebook.com/reel/1568505611392423/"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Modern community pharmacy isn't about one thing. It's about how everyt",
+          "url": "https://www.facebook.com/reel/869903565900289/"
+        },
+        {
+          "date": "2026-07-07",
+          "title": "Last Friday, Dudley Town Pharmacy went live on Titan. Their owner said",
+          "url": "https://www.facebook.com/reel/2395655437934700/"
+        },
+        {
+          "date": "2026-07-03",
+          "title": "A CD register should not become another admin job. That is what matter",
+          "url": "https://www.facebook.com/reel/1402485711709774/"
+        },
+        {
+          "date": "2026-07-01",
+          "title": "Owners need to think differently about how their businesses run. Dispe",
+          "url": "https://www.facebook.com/reel/2724937447888139/"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Feel like owning a pharmacy still means being stuck inside the day-to-",
+          "url": "https://www.facebook.com/reel/1335535788170136/"
+        },
+        {
+          "date": "2026-06-28",
+          "title": "There is one word pharmacy still treats like it does not belong beside",
+          "url": "https://www.facebook.com/reel/1784870832529226/"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Still working in your pharmacy business, rather than on it? Dervis Alk",
+          "url": "https://www.facebook.com/reel/1339970254155171/"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Trying to build a more sustainable pharmacy business under squeezed NH",
+          "url": "https://www.facebook.com/reel/1782263786271869/"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Running seven pharmacies could keep anyone stuck in the dispensary. He",
+          "url": "https://www.facebook.com/reel/1057468763277774/"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "A pharmacy robotics company met a real-life humanoid robot. Here’s wha",
+          "url": "https://www.facebook.com/reel/1478874387346282/"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "How is this pharmacy finishing by 1pm? At Balance Pharmacy, work that ",
+          "url": "https://www.facebook.com/reel/3429883147190047/"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "One night in pharmacy you don't want to miss. 24 June. 👉 Register: ht",
+          "url": "https://www.facebook.com/reel/987276147528726/"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "What pharmacy owner gets six weeks off? Apparently Akshay does. He run",
+          "url": "https://www.facebook.com/reel/987614473879750/"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "What changes when independent pharmacy owners stop seeing the pharmacy",
+          "url": "https://www.facebook.com/reel/1658319421944857/"
+        },
+        {
+          "date": "2026-06-12",
+          "title": "The first Titan PMR pharmacy in Northern Ireland. Three years in, Eogh",
+          "url": "https://www.facebook.com/reel/1324469449178708/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "You'll never need a robot to answer the phones once you've got PharmAp",
+          "url": "https://www.facebook.com/reel/1354788953459334/"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "Independent pharmacy is not standing still. And neither is Tas Bhatti.",
+          "url": "https://www.facebook.com/reel/1876288429734425/"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Loved hearing who Rahul Gogna chose as his favourite speaker of the da",
+          "url": "https://www.facebook.com/reel/2188177051996196/"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "What. A. Day. 🎉 The energy in that room was something else. A line-up",
+          "url": "https://www.facebook.com/reel/27310151895340524/"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Two days out from TitanUp 26. And the thing we cannot stop talking abo",
+          "url": "https://www.facebook.com/reel/1654450145839469/"
+        },
+        {
+          "date": "2026-05-29",
+          "title": "How do you take a pharmacy built on dispensing and turn it into a mode",
+          "url": "https://www.facebook.com/reel/1270922671477227/"
+        },
+        {
+          "date": "2026-05-28",
+          "title": "Victoria Steele steered clinical governance for 1,400 LloydsPharmacy b",
+          "url": "https://www.facebook.com/reel/2967598203429933/"
+        },
+        {
+          "date": "2026-05-26",
+          "title": "The future of pharmacy falls into the hands of the pharmacy owners. Th",
+          "url": "https://www.facebook.com/reel/999064076345121/"
+        },
+        {
+          "date": "2026-05-25",
+          "title": "Theory won't run your private clinic. Allied Health Training is the tr",
+          "url": "https://www.facebook.com/reel/1529276762158798/"
+        },
+        {
+          "date": "2026-05-24",
+          "title": "For a patient to book a service. They need to know it exists. Visibili",
+          "url": "https://www.facebook.com/reel/986956593709598/"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "If you work in community pharmacy, there are two people worth getting ",
+          "url": "https://www.facebook.com/reel/2239525570191496/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Private pharmacy services come with huge potential. But they also move",
+          "url": "https://www.facebook.com/reel/1357265412920626/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Most pharmacies don't know what their own website looks like to an att",
+          "url": "https://www.facebook.com/reel/1594945688273339/"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "The largest apprenticeship provider in England for pharmacy-related ap",
+          "url": "https://www.facebook.com/reel/1194188052738416/"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "UK pharmacy has spent years adding services. What hasn't caught up is ",
+          "url": "https://www.facebook.com/reel/2182237312633838/"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "What do you get when 20+ years of pharmacy strategy meets board-level ",
+          "url": "https://www.facebook.com/reel/27064493756573216/"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "Dispensing for care homes carries weight. Compliance packs. Weekly cyc",
+          "url": "https://www.facebook.com/reel/1471717554438109/"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "The NHS contract alone won't build the pharmacy business most owners a",
+          "url": "https://www.facebook.com/reel/930635846621782/"
+        },
+        {
+          "date": "2026-05-16",
+          "title": "We're excited to see what Steve Baker and Tommy Willan are setting up ",
+          "url": "https://www.facebook.com/reel/4042851016023788/"
+        },
+        {
+          "date": "2026-05-15",
+          "title": "Over 6 million Pharmacy First consultations. Independent prescribing l",
+          "url": "https://www.facebook.com/reel/823163324181725/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "For sixty years, one layer of pharmacy has outlasted every technology ",
+          "url": "https://www.facebook.com/reel/989065933495941/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "With 25+ years in the pharmacy tech game, Wahid takes the stage. Five ",
+          "url": "https://www.facebook.com/reel/1873449753326639/"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "Heads up: going to TitanUp 26? RSVP at titanup.club See you in Birming",
+          "url": "https://www.facebook.com/reel/1504018924551931/"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "Preregshortcuts is a leading pharmacy training provider, supporting tr",
+          "url": "https://www.facebook.com/reel/2080961085816369/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "The man who put Titan into 1,000+ pharmacies says most owners are stil",
+          "url": "https://www.facebook.com/reel/1624201012170227/"
+        },
+        {
+          "date": "2026-05-11",
+          "title": "Meditech has over 3,500 live installations worldwide. In the UK, 40+ T",
+          "url": "https://www.facebook.com/reel/26428500583499117/"
+        },
+        {
+          "date": "2026-05-09",
+          "title": "Used by 1,800+ pharmacies, PharmDel replaces paper delivery sheets, ma",
+          "url": "https://www.facebook.com/reel/1665694588104347/"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "How long does it take you to do 600 to 800 items? titanpmr.com #TitanP",
+          "url": "https://www.facebook.com/reel/1568472474808394/"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "\"From Stone Age to Titan Age.\" 24 hours. That is how long it took S&G ",
+          "url": "https://www.facebook.com/reel/26918962237791965/"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Three calendars. Three chances to double-book. 🤯 Hamal was running se",
+          "url": "https://www.facebook.com/reel/1774718103489164/"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "👇 If you weren't the funnel, where would you put your time? Before, G",
+          "url": "https://www.facebook.com/reel/4367391806876083/"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "The phone used to ring and Jeet's heart would sink. Every call felt li",
+          "url": "https://www.facebook.com/reel/1495384465272515/"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "PharmAppy is sponsoring TitanUp 26. Here's why that matters. Every pha",
+          "url": "https://www.facebook.com/reel/1738699630433850/"
+        },
+        {
+          "date": "2026-04-22",
+          "title": "They say you can’t teach an old dog new tricks. “Very good. Saves me a",
+          "url": "https://www.facebook.com/reel/2246723242798659/"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "The NHS isn't in your control. Your data is 🧠 Tariq Muhammad at Pharm",
+          "url": "https://www.facebook.com/reel/1919135788748555/"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "There comes a point where “that’s just how we’ve always done it” stops",
+          "url": "https://www.facebook.com/reel/1372490954686183/"
+        },
+        {
+          "date": "2026-04-09",
+          "title": "Another pharmacy just left the old way behind... 👀 In every TITAN pha",
+          "url": "https://www.facebook.com/reel/1434394524645261/"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Cameras and Pharmacy have more in common than we realised.",
+          "url": "https://www.facebook.com/reel/3399124813580386/"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Seven trial branches. Batch Flow. A few weeks in. Single-item scripts ",
+          "url": "https://www.facebook.com/reel/931401126178451/"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "POV: someone asks what your PMR actually does",
+          "url": "https://www.facebook.com/reel/1266241835653408/"
+        },
+        {
+          "date": "2026-04-01",
+          "title": "TITAN comes to Birmingham this June. To answer the biggest questions i",
+          "url": "https://www.facebook.com/reel/1473267900906797/"
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Rahul runs two pharmacies in West London. On the weekend he ran his ph",
+          "url": "https://www.facebook.com/reel/1465212758388089/"
+        },
+        {
+          "date": "2026-03-30",
+          "title": "Behind every counter is a different stack. A robot. A CD register. An ",
+          "url": "https://www.facebook.com/reel/1264379342476912/"
+        },
+        {
+          "date": "2026-03-26",
+          "title": "Krishna, owner of Clifton Court Pharmacy. Accurate dispensing. More ti",
+          "url": "https://www.facebook.com/reel/2442954562823124/"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "\"It's a no brainer. Like, why haven't you done it already?\" That is Em",
+          "url": "https://www.facebook.com/reel/1340388648136448/"
+        },
+        {
+          "date": "2026-03-23",
+          "title": "",
+          "url": "https://www.facebook.com/reel/1473203530884087/"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "“Bilal from Clifton Pharmacy says Titan’s self-check is the game chang",
+          "url": "https://www.facebook.com/reel/931777772932991/"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "Were you one of the first 100? TitanUp 26 approvals started landing. I",
+          "url": "https://www.facebook.com/reel/1466744961456906/"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Every time the phone rang, Jeet's heartbeat stopped 💊 Now his team ar",
+          "url": "https://www.facebook.com/reel/3836671613307094/"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "Most people talk about dispensing errors like they’re a staffing probl",
+          "url": "https://www.facebook.com/reel/906155749058087/"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Don't miss your chance to register. Limited capacity. Verified Titan c",
+          "url": "https://www.facebook.com/reel/803007435567628/"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "Started implementation November. Last branch live by October. \"Absolut",
+          "url": "https://www.facebook.com/reel/2725106417865422/"
+        },
+        {
+          "date": "2026-03-09",
+          "title": "\"It's limitless to what you can do in your pharmacy.\" That's Rahul. Ph",
+          "url": "https://www.facebook.com/reel/1739909623635793/"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Pharmacists didn’t qualify to spend an hour doing stock checks. But th",
+          "url": "https://www.facebook.com/reel/1313726853899218/"
+        },
+        {
+          "date": "2026-03-04",
+          "title": "TITAN UP 26 is here 🚀 A room full of pharmacy owners already building",
+          "url": "https://www.facebook.com/reel/1575847236868050/"
+        },
+        {
+          "date": "2026-02-04",
+          "title": "The struggle is real 😅#PharmacyLife #PharmacyTikTok #HealthcareWorker",
+          "url": "https://www.facebook.com/reel/836204972790707/"
+        },
+        {
+          "date": "2026-01-29",
+          "title": "£158 million NHS clawback.Announced days before Christmas. Calculated ",
+          "url": "https://www.facebook.com/reel/905413348663013/"
+        },
+        {
+          "date": "2025-01-21",
+          "title": "Pharmacists only need to be involved in 20% of accuracy checks Freeing",
+          "url": "https://www.facebook.com/reel/985073896883963/"
+        },
+        {
+          "date": "2025-01-08",
+          "title": "Say goodbye to pharmacy errors with TITAN! 🚫💊 Our advanced AI and ba",
+          "url": "https://www.facebook.com/reel/441234995732029/"
+        }
+      ]
+    },
+    {
+      "profile": "instagram-posts",
+      "file": "instagram-posts_2025-01-01_2026-08-16.csv",
+      "total": 48,
+      "matched": 6,
+      "unmatched": 42,
+      "written": 6,
+      "impressionFixes": [],
+      "erChanges": [
+        {
+          "slug": "2026-02-26-for-titan-customers-only-scan-me",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-26-services-governance-single-image",
+          "from": 0,
+          "to": 7.41
+        },
+        {
+          "slug": "2026-02-24-prab-bench-trap8pm-single-image",
+          "from": 0,
+          "to": 8.11
+        },
+        {
+          "slug": "2026-02-23-fragmentation-observation-single-image",
+          "from": 0,
+          "to": 4
+        },
+        {
+          "slug": "2026-02-20-pharm-appy-no-more-phone-calls-single-image",
+          "from": 0,
+          "to": 1.43
+        },
+        {
+          "slug": "2026-01-28-nervous-on-day-one-single-image",
+          "from": 0,
+          "to": 0
+        }
+      ],
+      "unmatchedRows": [
+        {
+          "date": "2026-08-11",
+          "title": "Having a shiny robot in your pharmacy is one thing. Getting your PMR t",
+          "url": "https://www.instagram.com/p/Db5B4jVIOW-/"
+        },
+        {
+          "date": "2026-08-06",
+          "title": "70% of prescriptions picked, packed and on the shelf within 10 minutes",
+          "url": "https://www.instagram.com/p/Dbr6bTLID_D/"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "The best technology doesn't make pharmacists less busy. It changes wha",
+          "url": "https://www.instagram.com/p/DbkMCtZnBak/"
+        },
+        {
+          "date": "2026-07-28",
+          "title": "The future of community pharmacy won’t be built by one company. It wil",
+          "url": "https://www.instagram.com/p/DbUodVJjp1b/"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "What does it mean to be a pharmacist? Titan founder Tariq Muhammad thi",
+          "url": "https://www.instagram.com/p/DbAdibRlkFR/"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "The best sign a training session has landed? The questions. We wrapped",
+          "url": "https://www.instagram.com/p/Daw9UdRoKnm/"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Inaugural Future Pharmacist Conference was fire. And not just because ",
+          "url": "https://www.instagram.com/p/Dam9xf4llbm/"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "Up early. Stand ready. Team on the floor. Titan is at Central Hall Wes",
+          "url": "https://www.instagram.com/p/DahlRlTFWHi/"
+        },
+        {
+          "date": "2026-07-02",
+          "title": "Waiting is no longer a strategy for independent pharmacy. That was the",
+          "url": "https://www.instagram.com/p/DaSi1ZonILD/"
+        },
+        {
+          "date": "2026-07-02",
+          "title": "Next week, Titan will be at ProPharmace's Future Pharmacists Conferenc",
+          "url": "https://www.instagram.com/p/DaSAWXHFssa/"
+        },
+        {
+          "date": "2026-06-30",
+          "title": "If you're building the next version of your pharmacy, come and see one",
+          "url": "https://www.instagram.com/p/DaMpCL9lgqm/"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "This pharmacy dispenses 21,000 items a month. The picking column is em",
+          "url": "https://www.instagram.com/p/DaC43S3DCSi/"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Trying to grow private services when every booking, note, payment and ",
+          "url": "https://www.instagram.com/p/DaAaOBilDE0/"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "Why should a patient choose you when… \"Pharmacy is becoming Nando's. E",
+          "url": "https://www.instagram.com/p/DZw2nyAoMNt/"
+        },
+        {
+          "date": "2026-06-14",
+          "title": "A week on from TitanUp 26, and the energy is still in the air. A week ",
+          "url": "https://www.instagram.com/p/DZj-tpzFiVo/"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "For years, Titan PMR and @bd_rowa_uki have worked side by side in phar",
+          "url": "https://www.instagram.com/p/DZZyYaClVoK/"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Get this one thing wrong, and it can quietly ruin the whole day. Sorry",
+          "url": "https://www.instagram.com/p/DZXNnx1FK3T/"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "If you run a pharmacy and you genuinely care about where it's going, t",
+          "url": "https://www.instagram.com/p/DZRhnE2Fptc/"
+        },
+        {
+          "date": "2026-06-06",
+          "title": "Tomorrow. Who's making the trip? 👇 #TitanUp26",
+          "url": "https://www.instagram.com/p/DZPDqElEX5V/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "An event is only ever as good as the questions it answers. And the bes",
+          "url": "https://www.instagram.com/p/DZHOalpkdME/"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Eid al-Adha Mubarak from all of us at Titan. To every pharmacy team wo",
+          "url": "https://www.instagram.com/p/DY1M3p4lE9X/"
+        },
+        {
+          "date": "2026-05-23",
+          "title": "A day about supercharging pharmacy business. There's only one publicat",
+          "url": "https://www.instagram.com/p/DYq5qzjnAeB/"
+        },
+        {
+          "date": "2026-05-15",
+          "title": "The GPhC just found 106 standards failed across UK pharmacy weight man",
+          "url": "https://www.instagram.com/p/DYW1q9SluaM/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "Nine months ago, Tas Bhatti was just two days into using Titanverse wh",
+          "url": "https://www.instagram.com/p/DYOk8BwEeUJ/"
+        },
+        {
+          "date": "2026-05-11",
+          "title": "Word is spreading about the Titan ecosystem. We didn't expect it to re",
+          "url": "https://www.instagram.com/p/DYMG_NBlpVf/"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Titanverse is built around pharmacy services. It understands what the ",
+          "url": "https://www.instagram.com/p/DYBv21goCql/"
+        },
+        {
+          "date": "2026-05-06",
+          "title": "NHS prescription tracking notifications are due to begin rolling out f",
+          "url": "https://www.instagram.com/p/DX_IKFxFfmH/"
+        },
+        {
+          "date": "2026-04-30",
+          "title": "From Stone Age to Titan Age in 24 hours. Hamal at S&G Pharmacy. First ",
+          "url": "https://www.instagram.com/p/DXv9ltfDHct/"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Last week in Leicester, we heard the same thing from pharmacy owners a",
+          "url": "https://www.instagram.com/p/DXMds0ZDJvE/"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "This is what a modern pharmacy looks like. Calm. Controlled. Still gro",
+          "url": "https://www.instagram.com/p/DXJurAJDGtl/"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Private care sounds simple. The workflow usually isn’t. Too many tools",
+          "url": "https://www.instagram.com/p/DXG6HqxFEmT/"
+        },
+        {
+          "date": "2026-04-13",
+          "title": "2,500 items a month → 40,000 items a month now. And Geoff got his week",
+          "url": "https://www.instagram.com/p/DXD53uzkdKI/"
+        },
+        {
+          "date": "2026-04-10",
+          "title": "Trying to run one private service at 9am. 😅 titanverse.co.uk #Titanve",
+          "url": "https://www.instagram.com/p/DW8LfzekYge/"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "When you think of a camera brand, what brand do you think of? Yeah, we",
+          "url": "https://www.instagram.com/p/DW3MNcPlRDQ/"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Most pharmacy owners pick the tools before they’ve worked out the plan",
+          "url": "https://www.instagram.com/p/DWTZMMQjCG1/"
+        },
+        {
+          "date": "2026-03-23",
+          "title": "Looks like a small neighbourhood pharmacy. Then you walk through the b",
+          "url": "https://www.instagram.com/p/DWOD-b2jKLH/"
+        },
+        {
+          "date": "2026-03-20",
+          "title": "Eid Mubarak 🌙 To every pharmacist and pharmacy team working through t",
+          "url": "https://www.instagram.com/p/DWGQncpFXkQ/"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "\"We were wasting time chasing repeats before Titan. Now that time goes",
+          "url": "https://www.instagram.com/p/DWDtfxgle0o/"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "People still think of pharmacies as chemists. But inside many of them,",
+          "url": "https://www.instagram.com/p/DVvCfe5ERNW/"
+        },
+        {
+          "date": "2026-02-07",
+          "title": "Great day filming with Rahul at Puri Health Hub in Hillingdon. Two bra",
+          "url": "https://www.instagram.com/p/DUcuRldDPaT/"
+        },
+        {
+          "date": "2026-01-28",
+          "title": "Pharmacy workers. Is this fair? £158 million NHS clawback. Announced d",
+          "url": "https://www.instagram.com/p/DUEnx_WjIMt/"
+        },
+        {
+          "date": "2026-01-09",
+          "title": "Partial systems create full-scale problems. Human triage burns people ",
+          "url": "https://www.instagram.com/p/DTR-CZbjt8p/"
+        }
+      ]
+    },
+    {
+      "profile": "instagram-reels",
+      "file": "instagram-reels_2025-01-01_2026-08-16.csv",
+      "total": 107,
+      "matched": 13,
+      "unmatched": 94,
+      "written": 13,
+      "impressionFixes": [],
+      "erChanges": [
+        {
+          "slug": "2026-03-03-rahul-2x-consultations-and-improved-quality-1",
+          "from": 2.14,
+          "to": 1.91
+        },
+        {
+          "slug": "2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-25-jeet-simple-cash-flow-trick-most-pharmacy-owners-miss-video",
+          "from": 1.35,
+          "to": 0.61
+        },
+        {
+          "slug": "2026-02-23-it-s-not-even-that-i-grew-my-business-video",
+          "from": 4.09,
+          "to": 3.74
+        },
+        {
+          "slug": "2026-02-18-rahul-i-can-t-believe-ai-transcription-wasn-t-a-thing-in-pharmacy-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-17-it-s-a-bit-like-a-google-search-video",
+          "from": 1.2,
+          "to": 0.68
+        },
+        {
+          "slug": "2026-02-16-hod-only14-percent-tt-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-12-services-spin-up-matrix-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-04-13-hod-we-turned-it-off-tt-video",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-02-11-hod-operating-without-double-cover",
+          "from": 0.76,
+          "to": 0.65
+        },
+        {
+          "slug": "2026-02-03-laura-you-are-my-mds-queen",
+          "from": 0.67,
+          "to": 0.63
+        },
+        {
+          "slug": "2026-01-29-how-it-feels-when-everything-finally-lives-in-one-place",
+          "from": 0,
+          "to": 0
+        },
+        {
+          "slug": "2026-01-28-real-mds-workflow",
+          "from": 0,
+          "to": 0
+        }
+      ],
+      "unmatchedRows": [
+        {
+          "date": "2026-08-14",
+          "title": "When we joined Ash and Jaya at Marton Road pharmacy for their innovati",
+          "url": "https://www.instagram.com/reel/DcAnzPsjMkB/"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Day 2 on Titan at Butt Lane Pharmacy. Rahul’s already seeing the diffe",
+          "url": "https://www.instagram.com/reel/Db-oNqPD0Q7/"
+        },
+        {
+          "date": "2026-08-12",
+          "title": "More weight loss patients are coming. Is your pharmacy ready? #Titanve",
+          "url": "https://www.instagram.com/reel/Db7svAoiOYT/"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Thinking about pharmacy automation? One size doesn't fit all. Every ph",
+          "url": "https://www.instagram.com/reel/Db29suvgi1P/"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Thinking about acquiring a pharmacy? Here’s something we’ve seen more ",
+          "url": "https://www.instagram.com/reel/DbpVoy5D3oV/"
+        },
+        {
+          "date": "2026-08-04",
+          "title": "The best partnerships aren't built around products. They're built arou",
+          "url": "https://www.instagram.com/reel/Dbmw5DcDr08/"
+        },
+        {
+          "date": "2026-07-31",
+          "title": "What Boots is doing right now says a lot about the future of independe",
+          "url": "https://www.instagram.com/reel/DbcW5JqgdRg/"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "You never regret making the right decision. Only waiting to make it. T",
+          "url": "https://www.instagram.com/reel/DbZyBWuDaci/"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "The best supplier isn’t the one that promises nothing will go wrong. I",
+          "url": "https://www.instagram.com/reel/DbXNQftAiW-/"
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Building a great pharmacy is never a one-person job. Spend five minute",
+          "url": "https://www.instagram.com/reel/DbSDnpRDmZ8/"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Other PMRs are catching up. But what's next? There's still gaps in pha",
+          "url": "https://www.instagram.com/reel/DbFZXdhAVW9/"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Hub and spoke is becoming really topical in pharmacy. And a lot of ind",
+          "url": "https://www.instagram.com/reel/DbCuDcnl8oc/"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "If you've ever wondered whether your PMR and your robot are actually w",
+          "url": "https://www.instagram.com/reel/Da18nlCCtyQ/"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Pharmacies are seeing more patients with more complex symptoms. How do",
+          "url": "https://www.instagram.com/reel/DauwkeHgc-n/"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Modern community pharmacy isn't about one thing. It's about how everyt",
+          "url": "https://www.instagram.com/reel/DanJA-Nm66g/"
+        },
+        {
+          "date": "2026-07-07",
+          "title": "Last Friday, Dudley Town Pharmacy went live on Titan. Their owner said",
+          "url": "https://www.instagram.com/reel/Dae1BRcEXiD/"
+        },
+        {
+          "date": "2026-07-03",
+          "title": "A CD register should not become another admin job. That is what matter",
+          "url": "https://www.instagram.com/reel/DaU9ZWgoC1_/"
+        },
+        {
+          "date": "2026-07-01",
+          "title": "Owners need to think differently about how their businesses run. Dispe",
+          "url": "https://www.instagram.com/reel/DaPwKAPDiYj/"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Feel like owning a pharmacy still means being stuck inside the day-to-",
+          "url": "https://www.instagram.com/reel/DaKmirWjsLU/"
+        },
+        {
+          "date": "2026-06-28",
+          "title": "There is one word pharmacy still treats like it does not belong beside",
+          "url": "https://www.instagram.com/reel/DaIBwEHjmuA/"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Still working in your pharmacy business, rather than on it? Dervis Alk",
+          "url": "https://www.instagram.com/reel/DaDEEUMDPZ5/"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Trying to build a more sustainable pharmacy business under squeezed NH",
+          "url": "https://www.instagram.com/reel/DZ_xEfiirY1/"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Running seven pharmacies could keep anyone stuck in the dispensary. He",
+          "url": "https://www.instagram.com/reel/DZ9TI7mCKG9/"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "A pharmacy robotics company met a real-life humanoid robot. Here’s wha",
+          "url": "https://www.instagram.com/reel/DZ4seQCEhka/"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "How is this pharmacy finishing by 1pm? At Balance Pharmacy, work that ",
+          "url": "https://www.instagram.com/reel/DZxE-SsEXal/"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "One night in pharmacy you don't want to miss. 24 June. 👉 Register: ht",
+          "url": "https://www.instagram.com/reel/DZt2XCjFARQ/"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "What pharmacy owner gets six weeks off? Apparently Akshay does. He run",
+          "url": "https://www.instagram.com/reel/DZrYfyXAPG0/"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "What changes when independent pharmacy owners stop seeing the pharmacy",
+          "url": "https://www.instagram.com/reel/DZmvfDJitmF/"
+        },
+        {
+          "date": "2026-06-12",
+          "title": "The first Titan PMR pharmacy in Northern Ireland. Three years in, Eogh",
+          "url": "https://www.instagram.com/reel/DZeZkTVgGJ3/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "You’ll never need a robot to answer the phones once you’ve got PharmAp",
+          "url": "https://www.instagram.com/reel/DZchMgEk38L/"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "Independent pharmacy is not standing still. And neither is Tas Bhatti.",
+          "url": "https://www.instagram.com/reel/DZZQBTajqGU/"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Loved hearing who Rahul Gogna chose as his favourite speaker of the da",
+          "url": "https://www.instagram.com/reel/DZWrLmDiYHg/"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "What. A. Day. 🎉 The energy in that room was something else. A line-up",
+          "url": "https://www.instagram.com/reel/DZUtEmVCR_q/"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Two days out from TitanUp 26. And the thing we cannot stop talking abo",
+          "url": "https://www.instagram.com/reel/DZMzeUbk8mT/"
+        },
+        {
+          "date": "2026-05-29",
+          "title": "How do you take a pharmacy built on dispensing and turn it into a mode",
+          "url": "https://www.instagram.com/reel/DY6x6OADqA4/"
+        },
+        {
+          "date": "2026-05-28",
+          "title": "Victoria Steele steered clinical governance for 1,400 LloydsPharmacy b",
+          "url": "https://www.instagram.com/reel/DY3xonSju-i/"
+        },
+        {
+          "date": "2026-05-26",
+          "title": "The future of pharmacy falls into the hands of the pharmacy owners. Th",
+          "url": "https://www.instagram.com/reel/DYzF3DRjNDI/"
+        },
+        {
+          "date": "2026-05-25",
+          "title": "Theory won't run your private clinic. Allied Health Training is the tr",
+          "url": "https://www.instagram.com/reel/DYwscnblTUO/"
+        },
+        {
+          "date": "2026-05-24",
+          "title": "For a patient to book a service. They need to know it exists. Visibili",
+          "url": "https://www.instagram.com/reel/DYteeQDkYPq/"
+        },
+        {
+          "date": "2026-05-22",
+          "title": "If you work in community pharmacy, there are two people worth getting ",
+          "url": "https://www.instagram.com/reel/DYoU4RVlcM3/"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Private pharmacy services come with huge potential. But they also move",
+          "url": "https://www.instagram.com/reel/DYmNYorDro6/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Most pharmacies don't know what their own website looks like to an att",
+          "url": "https://www.instagram.com/reel/DYkQAedGstY/"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "The largest apprenticeship provider in England for pharmacy-related ap",
+          "url": "https://www.instagram.com/reel/DYhuDdUk4mw/"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "UK pharmacy has spent years adding services. What hasn't caught up is ",
+          "url": "https://www.instagram.com/reel/DYgmfu8DbAl/"
+        },
+        {
+          "date": "2026-05-18",
+          "title": "What do you get when 20+ years of pharmacy strategy meets board-level ",
+          "url": "https://www.instagram.com/reel/DYeBtEUDpOr/"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "Dispensing for care homes carries weight. Compliance packs. Weekly cyc",
+          "url": "https://www.instagram.com/reel/DYchnuZAAtx/"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "The NHS contract alone won't build the pharmacy business most owners a",
+          "url": "https://www.instagram.com/reel/DYb08PZjmH1/"
+        },
+        {
+          "date": "2026-05-16",
+          "title": "We're excited to see what Steve Baker and Tommy Willan are setting up ",
+          "url": "https://www.instagram.com/reel/DYaAYFpiPSi/"
+        },
+        {
+          "date": "2026-05-15",
+          "title": "Over 6 million Pharmacy First consultations. Independent prescribing l",
+          "url": "https://www.instagram.com/reel/DYWa1VyCKgJ/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "For sixty years, one layer of pharmacy has outlasted every technology ",
+          "url": "https://www.instagram.com/reel/DYUzSnqEvQV/"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "With 25+ years in the pharmacy tech game, Wahid takes the stage. Five ",
+          "url": "https://www.instagram.com/reel/DYUKwu9DDS2/"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "Heads up: going to TitanUp 26? RSVP at titanup.club See you in Birming",
+          "url": "https://www.instagram.com/reel/DYSI8y2gFd9/"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "95% pass rate. NHSE-approved training plan. Preregshortcuts is a leadi",
+          "url": "https://www.instagram.com/reel/DYReYlwDF9H/"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "The man who put Titan into 1,000+ pharmacies says most owners are stil",
+          "url": "https://www.instagram.com/reel/DYPMc-rCSCv/"
+        },
+        {
+          "date": "2026-05-11",
+          "title": "Meditech has over 3,500 live installations worldwide. In the UK, 40+ T",
+          "url": "https://www.instagram.com/reel/DYM3F_SCtG5/"
+        },
+        {
+          "date": "2026-05-09",
+          "title": "Used by 1,800+ pharmacies, PharmDel replaces paper delivery sheets, ma",
+          "url": "https://www.instagram.com/reel/DYHUfpuCp-I/"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "A consultation room can sit empty. Or it can become a new private serv",
+          "url": "https://www.instagram.com/reel/DYCdPy-sM4i/"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "How long does it take you to do 600 to 800 items? titanpmr.com #TitanP",
+          "url": "https://www.instagram.com/reel/DX6Gz_2AuiU/"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "\"From Stone Age to Titan Age.\" 24 hours. That is how long it took S&G ",
+          "url": "https://www.instagram.com/reel/DXySHWwj4ro/"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Three calendars. Three chances to double-book. 🤯 Hamal was running se",
+          "url": "https://www.instagram.com/reel/DXtIVqbDQbI/"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "👇 If you weren't the funnel, where would you put your time? Before, G",
+          "url": "https://www.instagram.com/reel/DXqodWZDpiy/"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "The phone used to ring and Jeet's heart would sink. Every call felt li",
+          "url": "https://www.instagram.com/reel/DXn9GaqDmkE/"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "@pharmappyuk is sponsoring TitanUp 26. Here's why that matters. Every ",
+          "url": "https://www.instagram.com/reel/DXebKV7jyJF/"
+        },
+        {
+          "date": "2026-04-22",
+          "title": "They say you can’t teach an old dog new tricks. “Very good. Saves me a",
+          "url": "https://www.instagram.com/reel/DXbor8YAlLs/"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "The NHS isn't in your control. Your data is 🧠 Tariq Muhammad at Pharm",
+          "url": "https://www.instagram.com/reel/DXYqyoBFRUr/"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "If you’re wondering what CFO means, here’s the explainer. There’s alwa",
+          "url": "https://www.instagram.com/reel/DXWIuh8sG1Z/"
+        },
+        {
+          "date": "2026-04-09",
+          "title": "Another pharmacy just left the old way behind... 👀 In every TITAN pha",
+          "url": "https://www.instagram.com/reel/DW5tkCHCV05/"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Cameras and Pharmacy have more in common than we realised.",
+          "url": "https://www.instagram.com/reel/DW3WsVxk-FO/"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Seven trial branches. Batch Flow. A few weeks in. Single-item scripts ",
+          "url": "https://www.instagram.com/reel/DW0dHkMDRFD/"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "POV: someone asks what your PMR actually does",
+          "url": "https://www.instagram.com/reel/DWn4UITCu7L/"
+        },
+        {
+          "date": "2026-04-01",
+          "title": "TITAN comes to Birmingham this June. To answer the biggest questions i",
+          "url": "https://www.instagram.com/reel/DWlOyDrlOJf/"
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Rahul runs two pharmacies in West London. On the weekend he ran his ph",
+          "url": "https://www.instagram.com/reel/DWibi19E_qO/"
+        },
+        {
+          "date": "2026-03-30",
+          "title": "Behind every counter is a different stack. A robot. A CD register. An ",
+          "url": "https://www.instagram.com/reel/DWf5K3YD9Ua/"
+        },
+        {
+          "date": "2026-03-26",
+          "title": "Krishna, owner of Clifton Pharmacy. Accurate dispensing. More time for",
+          "url": "https://www.instagram.com/reel/DWWCz2VFKAV/"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "\"It's a no brainer. Like, why haven't you done it already?\" That is Em",
+          "url": "https://www.instagram.com/reel/DWQg1uljTQ_/"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "“Bilal from Clifton Pharmacy says Titan’s self-check is the game chang",
+          "url": "https://www.instagram.com/reel/DWDvT5fjtGW/"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "Were you one of the first 100? TitanUp 26 approvals started landing. I",
+          "url": "https://www.instagram.com/reel/DWBEKymAvpN/"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Every time the phone rang, Jeet's heartbeat stopped 💊 Now his team ar",
+          "url": "https://www.instagram.com/reel/DV-gl54jqbo/"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "Most people talk about dispensing errors like they’re a staffing probl",
+          "url": "https://www.instagram.com/reel/DV0MFogCNLq/"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Don't miss your chance to register. Limited capacity. Verified Titan c",
+          "url": "https://www.instagram.com/reel/DVveCQVDEgn/"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "Started implementation November. Last branch live by October. \"Absolut",
+          "url": "https://www.instagram.com/reel/DVsdzNfjBmI/"
+        },
+        {
+          "date": "2026-03-09",
+          "title": "\"It's limitless to what you can do in your pharmacy.\" That's Rahul. Ph",
+          "url": "https://www.instagram.com/reel/DVp5AOnkyRZ/"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Pharmacists didn’t qualify to spend an hour doing stock checks. But th",
+          "url": "https://www.instagram.com/reel/DVflvfTiiMg/"
+        },
+        {
+          "date": "2026-03-04",
+          "title": "TITAN UP 26 is here 🚀 A room full of pharmacy owners already building",
+          "url": "https://www.instagram.com/reel/DVdA8YlFAo8/"
+        },
+        {
+          "date": "2026-03-02",
+          "title": "Did you see this last week?",
+          "url": "https://www.instagram.com/reel/DVYCQYBjNWX/"
+        },
+        {
+          "date": "2026-02-04",
+          "title": "The struggle is real 😅#PharmacyLife #Pharmacy #funny #HealthcareWorke",
+          "url": "https://www.instagram.com/reel/DUWVThIjnm4/"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "Does your pharmacy still have a black book? Patient names. Repeat patt",
+          "url": "https://www.instagram.com/reel/DUP8NKwDBs8/"
+        },
+        {
+          "date": "2026-01-28",
+          "title": "Pharmacy workers. Is this fair? £158 million NHS clawback. Announced d",
+          "url": "https://www.instagram.com/reel/DUEovlLjCHb/"
+        },
+        {
+          "date": "2026-01-13",
+          "title": "From 6 near misses a month to 2 in a year. Thanks for sharing your exp",
+          "url": "https://www.instagram.com/reel/DTcWFj2Cvw8/"
+        },
+        {
+          "date": "2026-01-12",
+          "title": "Imagine only entering the dispensary for coffee. #TitanPMR #PharmacyLi",
+          "url": "https://www.instagram.com/reel/DTaFrIciChV/"
+        },
+        {
+          "date": "2026-01-09",
+          "title": "Chaos to calm. This is Titan. #TitanPMR #PharmacyWorkflow #PharmacyInn",
+          "url": "https://www.instagram.com/reel/DTR-DG8AUDU/"
+        },
+        {
+          "date": "2025-12-22",
+          "title": "Only one error in three years. That doesn’t happen because people try ",
+          "url": "https://www.instagram.com/reel/DSjz2xqAkle/"
+        },
+        {
+          "date": "2025-12-20",
+          "title": "Freeing up 20 hours a week in pharmacy isn’t about working faster. It’",
+          "url": "https://www.instagram.com/reel/DSeeIO5CHfL/"
+        },
+        {
+          "date": "2025-12-18",
+          "title": "💬 “The AI can’t just be learning from Google.” In UK pharmacy, it has",
+          "url": "https://www.instagram.com/reel/DSZUhfSihhg/"
+        }
+      ]
+    },
+    {
+      "profile": "linkedin-posts",
+      "file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+      "total": 136,
+      "matched": 112,
+      "unmatched": 24,
+      "written": 112,
+      "impressionFixes": [
+        {
+          "slug": "2026-06-10-independent-pharmacy-is-not-standing-still",
+          "from": 1962,
+          "to": 2718,
+          "ratio": 1.39
+        },
+        {
+          "slug": "2026-06-09-get-this-one-thing-wrong-and-it-can-quietly-ruin-t",
+          "from": 1700,
+          "to": 2945,
+          "ratio": 1.73
+        },
+        {
+          "slug": "2026-06-09-loved-hearing-who-rahul-gogna-chose-as-his-favouri",
+          "from": 1626,
+          "to": 3013,
+          "ratio": 1.85
+        },
+        {
+          "slug": "2026-06-08-what-a-day",
+          "from": 2228,
+          "to": 3965,
+          "ratio": 1.78
+        },
+        {
+          "slug": "2026-06-07-the-moment-has-arrived-titanup26",
+          "from": 2097,
+          "to": 3970,
+          "ratio": 1.89
+        },
+        {
+          "slug": "2026-06-07-just-getting-started-and-it-s-buzzing-already",
+          "from": 4013,
+          "to": 7325,
+          "ratio": 1.83
+        },
+        {
+          "slug": "2026-06-07-if-you-run-a-pharmacy-and-you-genuinely-care-about",
+          "from": 1810,
+          "to": 3443,
+          "ratio": 1.9
+        },
+        {
+          "slug": "2026-06-06-tomorrow",
+          "from": 327,
+          "to": 629,
+          "ratio": 1.92
+        },
+        {
+          "slug": "2026-06-05-two-days-out-from-titanup-26",
+          "from": 532,
+          "to": 974,
+          "ratio": 1.83
+        },
+        {
+          "slug": "2026-06-03-an-event-is-only-ever-as-good-as-the-questions-it",
+          "from": 342,
+          "to": 627,
+          "ratio": 1.83
+        },
+        {
+          "slug": "2026-05-29-how-do-you-take-a-pharmacy-built-on-dispensing-and",
+          "from": 646,
+          "to": 1247,
+          "ratio": 1.93
+        },
+        {
+          "slug": "2026-05-28-victoria-steered-clinical-governance-for-1-400-llo",
+          "from": 1163,
+          "to": 2229,
+          "ratio": 1.92
+        },
+        {
+          "slug": "2026-05-27-eid-al-adha-mubarak-from-all-of-us-at-titan",
+          "from": 457,
+          "to": 900,
+          "ratio": 1.97
+        },
+        {
+          "slug": "2026-05-26-stop-worrying-about-what-you-can-t-control",
+          "from": 788,
+          "to": 1546,
+          "ratio": 1.96
+        },
+        {
+          "slug": "2026-05-25-theory-won-t-run-your-private-clinic",
+          "from": 726,
+          "to": 1387,
+          "ratio": 1.91
+        },
+        {
+          "slug": "2026-05-24-for-a-patient-to-book-a-service",
+          "from": 670,
+          "to": 1284,
+          "ratio": 1.92
+        },
+        {
+          "slug": "2026-05-23-a-day-about-supercharging-pharmacy-business",
+          "from": 757,
+          "to": 1455,
+          "ratio": 1.92
+        },
+        {
+          "slug": "2026-05-22-if-you-work-in-community-pharmacy-there-are-two-pe",
+          "from": 854,
+          "to": 1666,
+          "ratio": 1.95
+        },
+        {
+          "slug": "2026-05-21-titan-bd-rowa-and-balance-pharmacy-are-cooking-som",
+          "from": 1446,
+          "to": 2812,
+          "ratio": 1.94
+        },
+        {
+          "slug": "2026-05-21-one-login-one-workflow-one-connected-ecosystem",
+          "from": 531,
+          "to": 1028,
+          "ratio": 1.94
+        },
+        {
+          "slug": "2026-05-20-most-pharmacies-don-t-know-what-their-own-website",
+          "from": 746,
+          "to": 1467,
+          "ratio": 1.97
+        },
+        {
+          "slug": "2026-05-20-private-pharmacy-services-come-with-huge-potential",
+          "from": 1077,
+          "to": 2089,
+          "ratio": 1.94
+        }
+      ],
+      "erChanges": [
+        {
+          "slug": "2026-07-10-modern-community-pharmacy-isn-t-about-one-thing",
+          "from": 9.57,
+          "to": 2.26
+        },
+        {
+          "slug": "2026-07-09-yesterday-s-inaugural-future-pharmacist-conference",
+          "from": 160.46,
+          "to": 4.74
+        },
+        {
+          "slug": "2026-07-08-up-early-stand-ready-team-on-the-floor",
+          "from": 131.21,
+          "to": 10.79
+        },
+        {
+          "slug": "2026-07-08-there-is-a-side-of-pharmacy-most-future-pharmacist",
+          "from": 28.78,
+          "to": 9.3
+        },
+        {
+          "slug": "2026-07-07-last-friday-dudley-town-pharmacy-went-live-on-tita",
+          "from": 68.75,
+          "to": 26.56
+        },
+        {
+          "slug": "2026-07-06-today-7-in-10-prescriptions-clear-a-clinical-check",
+          "from": 10.55,
+          "to": 5.05
+        },
+        {
+          "slug": "2026-07-03-a-cd-register-should-not-become-another-admin-job",
+          "from": 9.95,
+          "to": 2.2
+        },
+        {
+          "slug": "2026-07-02-next-week-titan-will-be-at-propharmace-s-future-ph",
+          "from": 5.56,
+          "to": 2.92
+        },
+        {
+          "slug": "2026-07-01-owners-need-to-think-differently-about-how-their-b",
+          "from": 6.14,
+          "to": 1.75
+        },
+        {
+          "slug": "2026-06-30-if-you-re-building-the-next-version-of-your-pharma",
+          "from": 7.13,
+          "to": 3.49
+        },
+        {
+          "slug": "2026-06-28-there-is-one-word-pharmacy-still-treats-like-it-do",
+          "from": 10.74,
+          "to": 1.23
+        },
+        {
+          "slug": "2026-06-26-this-pharmacy-dispenses-21-000-items-a-month",
+          "from": 66.08,
+          "to": 1.97
+        },
+        {
+          "slug": "2026-06-25-trying-to-build-a-more-sustainable-pharmacy-busine",
+          "from": 11.01,
+          "to": 2.16
+        },
+        {
+          "slug": "2026-06-24-running-seven-pharmacies-could-keep-anyone-stuck-i",
+          "from": 6.87,
+          "to": 1.76
+        },
+        {
+          "slug": "2026-06-23-what-s-the-first-thing-you-notice-when-you-change",
+          "from": 72,
+          "to": 1.98
+        },
+        {
+          "slug": "2026-06-22-a-pharmacy-robotics-company-met-a-real-life-humano",
+          "from": 11.28,
+          "to": 2.68
+        },
+        {
+          "slug": "2026-06-19-at-balance-pharmacy-work-that-used-to-run-until-5",
+          "from": 10.59,
+          "to": 2.12
+        },
+        {
+          "slug": "2026-06-19-the-service-is-what-they-book",
+          "from": 3.77,
+          "to": 2.2
+        },
+        {
+          "slug": "2026-06-18-one-night-in-pharmacy-you-don-t-want-to-miss-24-ju",
+          "from": 15.29,
+          "to": 4.29
+        },
+        {
+          "slug": "2026-06-17-what-pharmacy-owner-gets-six-weeks-off",
+          "from": 10.49,
+          "to": 2
+        },
+        {
+          "slug": "2026-06-16-right-now-there-s-a-huge-conversation-happening-ab",
+          "from": 68.45,
+          "to": 3.48
+        },
+        {
+          "slug": "2026-06-15-what-changes-when-independent-pharmacy-owners-stop",
+          "from": 16.01,
+          "to": 3.28
+        },
+        {
+          "slug": "2026-06-14-a-week-on-from-titanup-26-and-the-energy-has-not-g",
+          "from": 61.66,
+          "to": 2.65
+        },
+        {
+          "slug": "2026-06-12-the-first-titan-pmr-pharmacy-in-northern-ireland-t",
+          "from": 11.52,
+          "to": 3.47
+        },
+        {
+          "slug": "2026-06-11-you-ll-never-need-a-robot-to-answer-the-phones-onc",
+          "from": 8.32,
+          "to": 1.93
+        },
+        {
+          "slug": "2026-06-10-for-years-titan-pmr-and-bd-rowa-have-worked-side-b",
+          "from": 7.27,
+          "to": 3.13
+        },
+        {
+          "slug": "2026-06-10-independent-pharmacy-is-not-standing-still",
+          "from": 9.23,
+          "to": 0.81
+        },
+        {
+          "slug": "2026-06-09-get-this-one-thing-wrong-and-it-can-quietly-ruin-t",
+          "from": 147.12,
+          "to": 0.98
+        },
+        {
+          "slug": "2026-06-09-loved-hearing-who-rahul-gogna-chose-as-his-favouri",
+          "from": 12.92,
+          "to": 0.9
+        },
+        {
+          "slug": "2026-06-08-what-a-day",
+          "from": 12.03,
+          "to": 2.07
+        },
+        {
+          "slug": "2026-06-07-the-moment-has-arrived-titanup26",
+          "from": 12.68,
+          "to": 1.59
+        },
+        {
+          "slug": "2026-06-07-just-getting-started-and-it-s-buzzing-already",
+          "from": 132.72,
+          "to": 1
+        },
+        {
+          "slug": "2026-06-07-if-you-run-a-pharmacy-and-you-genuinely-care-about",
+          "from": 9.67,
+          "to": 0.99
+        },
+        {
+          "slug": "2026-06-06-tomorrow",
+          "from": 7.95,
+          "to": 2.54
+        },
+        {
+          "slug": "2026-06-05-two-days-out-from-titanup-26",
+          "from": 6.39,
+          "to": 1.85
+        },
+        {
+          "slug": "2026-06-03-an-event-is-only-ever-as-good-as-the-questions-it",
+          "from": 5.85,
+          "to": 2.07
+        },
+        {
+          "slug": "2026-05-29-how-do-you-take-a-pharmacy-built-on-dispensing-and",
+          "from": 8.2,
+          "to": 1.44
+        },
+        {
+          "slug": "2026-05-28-victoria-steered-clinical-governance-for-1-400-llo",
+          "from": 7.48,
+          "to": 1.62
+        },
+        {
+          "slug": "2026-05-27-eid-al-adha-mubarak-from-all-of-us-at-titan",
+          "from": 7.44,
+          "to": 3.11
+        },
+        {
+          "slug": "2026-05-26-stop-worrying-about-what-you-can-t-control",
+          "from": 8.25,
+          "to": 1.55
+        },
+        {
+          "slug": "2026-05-25-theory-won-t-run-your-private-clinic",
+          "from": 8.82,
+          "to": 1.73
+        },
+        {
+          "slug": "2026-05-24-for-a-patient-to-book-a-service",
+          "from": 8.66,
+          "to": 1.71
+        },
+        {
+          "slug": "2026-05-23-a-day-about-supercharging-pharmacy-business",
+          "from": 6.87,
+          "to": 1.99
+        },
+        {
+          "slug": "2026-05-22-if-you-work-in-community-pharmacy-there-are-two-pe",
+          "from": 6.67,
+          "to": 1.26
+        },
+        {
+          "slug": "2026-05-21-titan-bd-rowa-and-balance-pharmacy-are-cooking-som",
+          "from": 73.93,
+          "to": 0.82
+        },
+        {
+          "slug": "2026-05-21-one-login-one-workflow-one-connected-ecosystem",
+          "from": 1.69,
+          "to": 0.49
+        },
+        {
+          "slug": "2026-05-20-most-pharmacies-don-t-know-what-their-own-website",
+          "from": 12.47,
+          "to": 1.64
+        },
+        {
+          "slug": "2026-05-20-private-pharmacy-services-come-with-huge-potential",
+          "from": 9.56,
+          "to": 1.63
+        },
+        {
+          "slug": "2026-05-19-one-of-the-uk-s-leading-pharmacy-apprenticeship-pr",
+          "from": 10.37,
+          "to": 5.08
+        },
+        {
+          "slug": "2026-05-19-uk-pharmacy-has-spent-years-adding-services",
+          "from": 7.39,
+          "to": 3.63
+        },
+        {
+          "slug": "2026-05-18-what-happens-when-pharmacy-strategy-meets-board-le",
+          "from": 5.62,
+          "to": 2.99
+        },
+        {
+          "slug": "2026-05-17-dispensing-for-care-homes-carries-weight",
+          "from": 8.02,
+          "to": 2.81
+        },
+        {
+          "slug": "2026-05-17-the-nhs-contract-alone-won-t-build-the-pharmacy-bu",
+          "from": 8.27,
+          "to": 3.17
+        },
+        {
+          "slug": "2026-05-16-we-re-excited-to-see-what-steve-baker-and-tommy-wi",
+          "from": 7.11,
+          "to": 2.88
+        },
+        {
+          "slug": "2026-05-15-over-6-million-pharmacy-first-consultations-indepe",
+          "from": 7.78,
+          "to": 2.59
+        },
+        {
+          "slug": "2026-05-14-for-sixty-years-one-layer-of-pharmacy-has-outlaste",
+          "from": 10.29,
+          "to": 3.43
+        },
+        {
+          "slug": "2026-05-14-after-25-years-building-pharmacy-technology-wahid",
+          "from": 11.41,
+          "to": 3.28
+        },
+        {
+          "slug": "2026-05-13-heads-up-going-to-titanup-26",
+          "from": 9.32,
+          "to": 3.22
+        },
+        {
+          "slug": "2026-05-13-95-pass-rate-nhse-approved-training-plan",
+          "from": 6.67,
+          "to": 2.58
+        },
+        {
+          "slug": "2026-05-12-the-man-who-put-titan-into-1-000-pharmacies-says-m",
+          "from": 10.42,
+          "to": 3.14
+        },
+        {
+          "slug": "2026-05-11-meditech-has-over-3-500-live-installations-worldwi",
+          "from": 9.68,
+          "to": 3.73
+        },
+        {
+          "slug": "2026-05-11-word-is-spreading-about-the-titan-ecosystem",
+          "from": 7.35,
+          "to": 2.45
+        },
+        {
+          "slug": "2026-05-09-used-by-1-800-pharmacies-pharmdel-replaces-paper-d",
+          "from": 7.18,
+          "to": 2.71
+        },
+        {
+          "slug": "2026-05-08-the-tools-titan-has-built-support-the-whole-pharma",
+          "from": 7.26,
+          "to": 3.37
+        },
+        {
+          "slug": "2026-05-07-a-consultation-room-can-sit-empty",
+          "from": 3.64,
+          "to": 2.57
+        },
+        {
+          "slug": "2026-05-06-nhs-prescription-tracking-notifications-are-due-to",
+          "from": 3.68,
+          "to": 1.41
+        },
+        {
+          "slug": "2026-04-30-from-stone-age-to-titan-age-in-24-hours",
+          "from": 5.41,
+          "to": 1.07
+        },
+        {
+          "slug": "2026-04-29-nearly-3-000-pharmacies-are-making-buying-decision",
+          "from": 6.52,
+          "to": 1.83
+        },
+        {
+          "slug": "2026-04-28-before-geoff-was-the-funnel-at-his-pharmacy",
+          "from": 5.51,
+          "to": 1.28
+        },
+        {
+          "slug": "2026-04-27-the-phone-used-to-ring",
+          "from": 6.15,
+          "to": 1.21
+        },
+        {
+          "slug": "2026-04-23-pharmappy-is-sponsoring-titanup-26",
+          "from": 9.38,
+          "to": 3.42
+        },
+        {
+          "slug": "2026-04-22-they-say-you-can-t-teach-an-old-dog-new-tricks",
+          "from": 9.01,
+          "to": 1.6
+        },
+        {
+          "slug": "2026-04-21-we-have-more-data-than-ever-before",
+          "from": 11.07,
+          "to": 2.52
+        },
+        {
+          "slug": "2026-04-21-now-this-is-dedication",
+          "from": 2.68,
+          "to": 0.71
+        },
+        {
+          "slug": "2026-04-20-what-a-day",
+          "from": 52.65,
+          "to": 2.94
+        },
+        {
+          "slug": "2026-04-18-this-one-s-for-everyone-in-pharmacy",
+          "from": 7.75,
+          "to": 3.81
+        },
+        {
+          "slug": "2026-04-17-events-like-these-are-where-the-real-conversations",
+          "from": 5.29,
+          "to": 3.28
+        },
+        {
+          "slug": "2026-04-16-last-week-in-leicester-we-heard-the-same-thing-fro",
+          "from": 50.8,
+          "to": 1.87
+        },
+        {
+          "slug": "2026-04-15-geoff-runs-40-000-items-a-month-at-malpas",
+          "from": 93.15,
+          "to": 1.96
+        },
+        {
+          "slug": "2026-04-15-titanup-26-is-now-full",
+          "from": 5.98,
+          "to": 2.6
+        },
+        {
+          "slug": "2026-04-14-there-comes-a-point-where-that-s-just-how-we-ve-al",
+          "from": 4.89,
+          "to": 0.77
+        },
+        {
+          "slug": "2026-04-13-from-2-500-to-40-000-items-a-month",
+          "from": 4.78,
+          "to": 1.08
+        },
+        {
+          "slug": "2026-04-09-jeet-dad-quote-single-image",
+          "from": 9.34,
+          "to": 1.51
+        },
+        {
+          "slug": "2026-04-08-titan-pmr-for-the-dispensing-engine-titanverse-for",
+          "from": 3.19,
+          "to": 0.96
+        },
+        {
+          "slug": "2026-04-07-seven-trial-branches-a-few-weeks-of-rollout-batch",
+          "from": 7.54,
+          "to": 1.42
+        },
+        {
+          "slug": "2026-04-03-rahul-pov-pmr-documentary-video",
+          "from": 6.49,
+          "to": 1.17
+        },
+        {
+          "slug": "2026-04-01-tariq-titanup-hype-video",
+          "from": 10.21,
+          "to": 3.05
+        },
+        {
+          "slug": "2026-03-30-marketplace-integrations-loop-video",
+          "from": 6.29,
+          "to": 1.66
+        },
+        {
+          "slug": "2026-03-27-dspt-meme-single-image",
+          "from": 5.42,
+          "to": 1.64
+        },
+        {
+          "slug": "2026-03-26-krishna-clifton-pharmacy-video",
+          "from": 8.03,
+          "to": 1.83
+        },
+        {
+          "slug": "2026-03-25-5-stores-5-days-zero-looking-back",
+          "from": 4.12,
+          "to": 0.82
+        },
+        {
+          "slug": "2026-03-24-emma-malpas-brook-testimonial-video",
+          "from": 7.45,
+          "to": 2.17
+        },
+        {
+          "slug": "2026-03-23-malpas-pharmacy-visit-multi-image",
+          "from": 67.22,
+          "to": 0.93
+        },
+        {
+          "slug": "2026-03-20-eid-mubarak-single-image",
+          "from": 7.09,
+          "to": 5.28
+        },
+        {
+          "slug": "2026-03-19-rahul-repeat-waste-quote-single-image",
+          "from": 2.49,
+          "to": 1.1
+        },
+        {
+          "slug": "2026-03-18-titanup-first-100-loop-video",
+          "from": 5.83,
+          "to": 1.94
+        },
+        {
+          "slug": "2026-03-17-jeet-phone-anxiety-video",
+          "from": 6.56,
+          "to": 1.12
+        },
+        {
+          "slug": "2026-03-16-repeat-workarounds-carousel",
+          "from": 74.11,
+          "to": 1.44
+        },
+        {
+          "slug": "2026-03-13-asif-near-misses-safys-video",
+          "from": 4.63,
+          "to": 1.67
+        },
+        {
+          "slug": "2026-03-12-anna-matthews-review-carousel",
+          "from": 72.88,
+          "to": 1.95
+        },
+        {
+          "slug": "2026-03-11-titanup-register-loop-video",
+          "from": 4.66,
+          "to": 2
+        },
+        {
+          "slug": "2026-03-10-tanzil-erd-migration-video",
+          "from": 8.33,
+          "to": 1.9
+        },
+        {
+          "slug": "2026-03-05-stefan-titan-mobile-cd-check-video",
+          "from": 7.93,
+          "to": 1.84
+        },
+        {
+          "slug": "2026-03-04-titanup-launch-video",
+          "from": 8.23,
+          "to": 2.63
+        },
+        {
+          "slug": "2026-03-02-hard-launch-carousel",
+          "from": 133.62,
+          "to": 1.71
+        },
+        {
+          "slug": "2026-02-27-some-of-you-missed-it-here-s-your-chance-single-image",
+          "from": 4.72,
+          "to": 2.08
+        },
+        {
+          "slug": "2026-02-26-for-titan-customers-only-scan-me",
+          "from": 13.9,
+          "to": 2.12
+        },
+        {
+          "slug": "2026-02-25-sajid-go-home-on-time-short",
+          "from": 10.61,
+          "to": 3.49
+        },
+        {
+          "slug": "2026-02-24-prab-left-pharmacy-quote-single-image",
+          "from": 7.85,
+          "to": 2.53
+        },
+        {
+          "slug": "2026-02-20-pharm-appy-no-more-phone-calls-single-image",
+          "from": 5.1,
+          "to": 1.62
+        },
+        {
+          "slug": "2026-02-18-ramadan-mubarak-single-image",
+          "from": 6.82,
+          "to": 5.25
+        },
+        {
+          "slug": "2026-02-17-titanup-venue-recce-multi-image",
+          "from": 71.79,
+          "to": 2.11
+        }
+      ],
+      "unmatchedRows": [
+        {
+          "date": "2026-08-14",
+          "title": "When we joined @Aswini and @Jaya at @Marton Road Pharmacy for their in",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493909682520997888"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Day 2 on Titan at Butt Lane Pharmacy. Rahul’s already seeing the diffe",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493629102491336704"
+        },
+        {
+          "date": "2026-08-11",
+          "title": "Having a shiny robot in your pharmacy is one thing. Getting your PMR t",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7492841118687145985"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Thinking about pharmacy automation? One size doesn't fit all. Every ph",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7492550467948838912"
+        },
+        {
+          "date": "2026-08-07",
+          "title": "400 Trustpilot reviews. 🎉 Every one written by a pharmacy owner for a",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7491419087353552896"
+        },
+        {
+          "date": "2026-08-06",
+          "title": "70% of prescriptions picked, packed and on the shelf within 10 minutes",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7490995134462038016"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Thinking about acquiring a pharmacy? Here’s something we’ve seen more ",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490632785511182337"
+        },
+        {
+          "date": "2026-08-04",
+          "title": "The best partnerships aren't built around products. They're built arou",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7490270539949989889"
+        },
+        {
+          "date": "2026-08-03",
+          "title": "The best technology doesn't make pharmacists less busy. It changes wha",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7489907972106756096"
+        },
+        {
+          "date": "2026-07-31",
+          "title": "What Boots is doing right now says a lot about the future of independe",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488805774874558464"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "You never regret making the right decision. Only waiting to make it. T",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488443398501351424"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "The best supplier isn’t the one that promises nothing will go wrong. I",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488081026745905153"
+        },
+        {
+          "date": "2026-07-28",
+          "title": "The future of community pharmacy won’t be built by one company. It wil",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487718612439441408"
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Building a great pharmacy is never a one-person job. Spend five minute",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487356196207636480"
+        },
+        {
+          "date": "2026-07-24",
+          "title": "The mundane tasks of dispensing are gone. That’s Marton Road Pharmacy ",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486343077268287488"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Tomorrow at Marton Road Pharmacy in Bridlington, @Jaya opens his doors",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485936771860455425"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Other PMRs are catching up. But what's next? There's still gaps in pha",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485574403695706112"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Hub and spoke is becoming really topical in pharmacy. And a lot of ind",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485197390065610752"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "Speaking at @ProPharmace’s Future Pharmacist Conference, Titan CEO @Ta",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7484849660763758592"
+        },
+        {
+          "date": "2026-07-17",
+          "title": "@Community Pharmacy Hertfordshire's evolve 2026 evening at the Fielder",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483862306481713152"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "If you've ever wondered whether your PMR and your robot are actually w",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483400161969217537"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "This is the moment trainee pharmacists realise the awkward realities o",
+          "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483039477532127232"
+        },
+        {
+          "date": "2026-07-14",
+          "title": "The best sign a training session has landed? The questions. We wrapped",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7482697984389087233"
+        },
+        {
+          "date": "2026-03-26",
+          "title": "DSPT has a habit of becoming urgent very suddenly 👀 trust.titanpmr.co",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7442842021129523200"
+        }
+      ]
+    },
+    {
+      "profile": "tiktok-posts",
+      "file": "tiktok-posts_2025-01-01_2026-08-16.csv",
+      "total": 84,
+      "matched": 1,
+      "unmatched": 83,
+      "written": 1,
+      "impressionFixes": [],
+      "erChanges": [],
+      "unmatchedRows": [
+        {
+          "date": "2026-08-14",
+          "title": "When we joined Ash and Jaya at Marton Road pharmacy for their innovati",
+          "url": "https://www.tiktok.com/@titanpmr/video/7673763459313585441?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Day 2 on Titan at Butt Lane Pharmacy. Rahul’s already seeing the diffe",
+          "url": "https://www.tiktok.com/@titanpmr/video/7673476198000774433?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-08-12",
+          "title": "More weight loss patients are coming. Is your pharmacy ready? #Titanve",
+          "url": "https://www.tiktok.com/@titanpmr/video/7673054240390040864?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-08-10",
+          "title": "Thinking about pharmacy automation? One size doesn't fit all. Every ph",
+          "url": "https://www.tiktok.com/@titanpmr/video/7672390561705250081?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Thinking about acquiring a pharmacy? Here’s something we’ve seen more ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7670407886522076449?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-08-04",
+          "title": "The best partnerships aren't built around products. They're built arou",
+          "url": "https://www.tiktok.com/@titanpmr/video/7670037001554513184?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-31",
+          "title": "What Boots is doing right now says a lot about the future of independe",
+          "url": "https://www.tiktok.com/@titanpmr/video/7668537105248701729?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-30",
+          "title": "You never regret making the right decision. Only waiting to make it. T",
+          "url": "https://www.tiktok.com/@titanpmr/video/7668165963480665376?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-29",
+          "title": "The best supplier isn’t the one that promises nothing will go wrong. I",
+          "url": "https://www.tiktok.com/@titanpmr/video/7667794978986413344?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Building a great pharmacy is never a one-person job. Spend five minute",
+          "url": "https://www.tiktok.com/@titanpmr/video/7667052530232266016?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Other PMRs are catching up. But what's next? There's still gaps in pha",
+          "url": "https://www.tiktok.com/@titanpmr/video/7665228134244961569?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Hub and spoke is becoming really topical in pharmacy. And a lot of ind",
+          "url": "https://www.tiktok.com/@titanpmr/video/7664842382914997537?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "If you've ever wondered whether your PMR and your robot are actually w",
+          "url": "https://www.tiktok.com/@titanpmr/video/7663001707361701153?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-13",
+          "title": "Pharmacies are seeing more patients with more complex symptoms. How do",
+          "url": "https://www.tiktok.com/@titanpmr/video/7661965879323708705?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Modern community pharmacy isn't about one thing. It's about how everyt",
+          "url": "https://www.tiktok.com/@titanpmr/video/7660867909790469408?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-08",
+          "title": "Every talk today is going to be helpful. Career pathways. Prescribing.",
+          "url": "https://www.tiktok.com/@titanpmr/video/7660070424029728022?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-03",
+          "title": "A CD register should not become another admin job. That is what matter",
+          "url": "https://www.tiktok.com/@titanpmr/video/7658247697287122208?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-02",
+          "title": "Waiting is no longer a strategy for independent pharmacy. That was the",
+          "url": "https://www.tiktok.com/@titanpmr/video/7657869273011932438?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-07-01",
+          "title": "Owners need to think differently about how their businesses run. Dispe",
+          "url": "https://www.tiktok.com/@titanpmr/video/7657497310066117920?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Feel like owning a pharmacy still means being stuck inside the day-to-",
+          "url": "https://www.tiktok.com/@titanpmr/video/7656755053503466784?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-28",
+          "title": "There is one word pharmacy still treats like it does not belong beside",
+          "url": "https://www.tiktok.com/@titanpmr/video/7656384132649340192?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Still working in your pharmacy business, rather than on it? Dervis Alk",
+          "url": "https://www.tiktok.com/@titanpmr/video/7655668810262891809?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "21,000 items. Empty picking column. Every single day. Balance Street P",
+          "url": "https://www.tiktok.com/@titanpmr/video/7655636396870323478?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Trying to build a more sustainable pharmacy business under squeezed NH",
+          "url": "https://www.tiktok.com/@titanpmr/video/7655193410701233440?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Running seven pharmacies could keep anyone stuck in the dispensary. He",
+          "url": "https://www.tiktok.com/@titanpmr/video/7654837930166357280?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "A pharmacy robotics company met a real-life humanoid robot. Here’s wha",
+          "url": "https://www.tiktok.com/@titanpmr/video/7654174354846125344?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "How is this pharmacy finishing by 1pm? At Balance Pharmacy, work that ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7653076494528384289?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "One night in pharmacy you don't want to miss. 24 June. 👉 Register: ht",
+          "url": "https://www.tiktok.com/@titanpmr/video/7652611313927163169?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "What pharmacy owner gets six weeks off? Apparently Akshay does. He run",
+          "url": "https://www.tiktok.com/@titanpmr/video/7652255641465031969?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "What changes when independent pharmacy owners stop seeing the pharmacy",
+          "url": "https://www.tiktok.com/@titanpmr/video/7651587081927413025?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-14",
+          "title": "Last weekend, 350 pharmacy owners came to Birmingham for TitanUp 26. D",
+          "url": "https://www.tiktok.com/@titanpmr/video/7651183472391900438?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-12",
+          "title": "The first Titan PMR pharmacy in Northern Ireland. Three years in, Eogh",
+          "url": "https://www.tiktok.com/@titanpmr/video/7650384881016442144?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "You'll never need a robot to answer the phones once you've got PharmAp",
+          "url": "https://www.tiktok.com/@titanpmr/video/7650113596248100129?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "Independent pharmacy is not standing still. And neither is Tas Bhatti.",
+          "url": "https://www.tiktok.com/@titanpmr/video/7649642718871801120?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-09",
+          "title": "Loved hearing who Rahul Gogna chose as his favourite speaker of the da",
+          "url": "https://www.tiktok.com/@titanpmr/video/7649271514231082273?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "What. A. Day. 🎉 The energy in that room was something else. A line-up",
+          "url": "https://www.tiktok.com/@titanpmr/video/7648987618222378273?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "Let’s talk about the P-word",
+          "url": "https://www.tiktok.com/@titanpmr/video/7648677997238684950?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "So it commences!",
+          "url": "https://www.tiktok.com/@titanpmr/video/7648601838316490007?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "It’s about to start!! ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7648581042097491222?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "The special guest is going down a treat at Titanup26 ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7648578042775784726?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Two days out from TitanUp 26. And the thing we cannot stop talking abo",
+          "url": "https://www.tiktok.com/@titanpmr/video/7647849012392938785?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-28",
+          "title": "Victoria Steele steered clinical governance for 1,400 LloydsPharmacy b",
+          "url": "https://www.tiktok.com/@titanpmr/video/7644818435385380129?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-26",
+          "title": "The future of pharmacy falls into the hands of the pharmacy owners. Th",
+          "url": "https://www.tiktok.com/@titanpmr/video/7644143418532220192?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "Private pharmacy services come with huge potential. But they also move",
+          "url": "https://www.tiktok.com/@titanpmr/video/7642286875377421601?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "Did you want a batch flow tutorial? ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7642001596657732886?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-19",
+          "title": "UK pharmacy has spent years adding services. What hasn't caught up is ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7641478712587865377?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-17",
+          "title": "The NHS contract alone won't build the pharmacy business most owners a",
+          "url": "https://www.tiktok.com/@titanpmr/video/7640878344866712865?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-14",
+          "title": "With 25+ years in the pharmacy tech game, Wahid takes the stage. Five ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7639686663471402272?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "Heads up: going to TitanUp 26? RSVP at titanup.club See you in Birming",
+          "url": "https://www.tiktok.com/@titanpmr/video/7639394347452026145?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-12",
+          "title": "The man who put Titan into 1,000+ pharmacies says most owners are stil",
+          "url": "https://www.tiktok.com/@titanpmr/video/7638970120345308449?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-04",
+          "title": "How long does it take you to do 600 to 800 items? titanpmr.com #TitanP",
+          "url": "https://www.tiktok.com/@titanpmr/video/7635930802810883360?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "\"From Stone Age to Titan Age.\" 24 hours. That is how long it took S&G ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7634803593291320609?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-29",
+          "title": "Three calendars. Three chances to double-book. 🤯 Hamal was running se",
+          "url": "https://www.tiktok.com/@titanpmr/video/7634060918745353505?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "👇 If you weren't the funnel, where would you put your time? Before, G",
+          "url": "https://www.tiktok.com/@titanpmr/video/7633700805517905185?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-27",
+          "title": "The phone used to ring and Jeet's heart would sink. Every call felt li",
+          "url": "https://www.tiktok.com/@titanpmr/video/7633314994700045601?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-23",
+          "title": "PharmAppy is sponsoring TitanUp 26. Here's why that matters. Every pha",
+          "url": "https://www.tiktok.com/@titanpmr/video/7631941601153027361?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-22",
+          "title": "They say you can’t teach an old dog new tricks. “Very good. Saves me a",
+          "url": "https://www.tiktok.com/@titanpmr/video/7631539705665883425?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-21",
+          "title": "The NHS isn't in your control. Your data is 🧠 Tariq Muhammad at Pharm",
+          "url": "https://www.tiktok.com/@titanpmr/video/7631112033253035296?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "If you're wondering what CFO means, here's the explainer. There's alwa",
+          "url": "https://www.tiktok.com/@titanpmr/video/7630744972517477654?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-16",
+          "title": "Last week in Leicester, we heard the same thing from pharmacy owners a",
+          "url": "https://www.tiktok.com/@titanpmr/video/7629225619494046998?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-15",
+          "title": "",
+          "url": "https://www.tiktok.com/@titanpmr/video/7628956371693767938?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "There comes a point where “that’s just how we’ve always done it” stops",
+          "url": "https://www.tiktok.com/@titanpmr/video/7628496053439958305?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-09",
+          "title": "Another pharmacy just left the old way behind... 👀 In every TITAN pha",
+          "url": "https://www.tiktok.com/@titanpmr/video/7626653515191946528?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "Cameras and Pharmacy have more in common than we realised.",
+          "url": "https://www.tiktok.com/@titanpmr/video/7626311046013259040?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-07",
+          "title": "Seven trial branches. Batch Flow. A few weeks in. Single-item scripts ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7625893118608428320?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-02",
+          "title": "POV: someone asks what your PMR actually does",
+          "url": "https://www.tiktok.com/@titanpmr/video/7624080653788695840?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-04-01",
+          "title": "TITAN comes to Birmingham this June. To answer the biggest questions i",
+          "url": "https://www.tiktok.com/@titanpmr/video/7623702998371306785?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-31",
+          "title": "Rahul runs two pharmacies in West London. On the weekend he ran his ph",
+          "url": "https://www.tiktok.com/@titanpmr/video/7623295538972085536?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-30",
+          "title": "Behind every counter is a different stack. A robot. A CD register. An ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7622926063831665953?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-26",
+          "title": "Krishna, owner of Clifton Pharmacy. Accurate dispensing. More time for",
+          "url": "https://www.tiktok.com/@titanpmr/video/7621510262419475745?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "These five questions come first. Tariq Muhammad, CEO of TITAN Pharmacy",
+          "url": "https://www.tiktok.com/@titanpmr/video/7621126853599759638?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-24",
+          "title": "\"It's a no brainer. Like, why haven't you done it already?\" That is Em",
+          "url": "https://www.tiktok.com/@titanpmr/video/7620713365312245024?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-23",
+          "title": "Then you walk through the back. 37,000+ items a month across 2 sites, ",
+          "url": "https://www.tiktok.com/@titanpmr/video/7620448061344484630?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "“Bilal from Clifton Pharmacy says Titan’s self-check is the game chang",
+          "url": "https://www.tiktok.com/@titanpmr/video/7618872456761150753?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-18",
+          "title": "Were you one of the first 100? TitanUp 26 approvals started landing. I",
+          "url": "https://www.tiktok.com/@titanpmr/video/7618487091307007265?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-17",
+          "title": "Every time the phone rang, Jeet's heartbeat stopped 💊 Now his team ar",
+          "url": "https://www.tiktok.com/@titanpmr/video/7618118734355467552?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-16",
+          "title": "Some repeat systems have been seriously makeshift. And you’ve got to g",
+          "url": "https://www.tiktok.com/@titanpmr/video/7617770215476153622?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-13",
+          "title": "Most people talk about dispensing errors like they’re a staffing probl",
+          "url": "https://www.tiktok.com/@titanpmr/video/7616631400111951136?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-11",
+          "title": "Don't miss your chance to register. Limited capacity. Verified Titan c",
+          "url": "https://www.tiktok.com/@titanpmr/video/7615951170904853792?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "Started implementation November. Last branch live by October. \"Absolut",
+          "url": "https://www.tiktok.com/@titanpmr/video/7615518065391832352?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-09",
+          "title": "\"It's limitless to what you can do in your pharmacy.\" That's Rahul. Ph",
+          "url": "https://www.tiktok.com/@titanpmr/video/7615147054528007457?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-05",
+          "title": "Pharmacists didn’t qualify to spend an hour doing stock checks. But th",
+          "url": "https://www.tiktok.com/@titanpmr/video/7613662654321773857?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        },
+        {
+          "date": "2026-03-04",
+          "title": "TITAN UP 26 is here 🚀 A room full of pharmacy owners already building",
+          "url": "https://www.tiktok.com/@titanpmr/video/7613291610947751200?utm_campaign=tt4d_open_api&utm_source=awwuexz91plpu87c"
+        }
+      ]
+    }
+  ]
+}

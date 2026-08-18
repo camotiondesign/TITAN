@@ -22,7 +22,7 @@
   "follows": 0,
   "leads": 0,
   "engagements": 36,
-  "engagement_rate": 1.0,
+  "engagement_rate": 1,
   "organic": {
     "impressions": 530,
     "reach": 295,
@@ -53,5 +53,31 @@
     "cost_per_engagement": 5.58,
     "spend": 0
   },
-  "notes": "Looped motion graphic video. Posted 21 May 2025. Sponsored period 23 May – 29 May 2025. Sponsored: 3,221 impressions, £17.34 eCPM, 10 engagements (0.3%), £5.58 cost per engagement, 4 clicks (0.1% CTR), 1 reaction. Organic: 530 impressions, 295 members reached, 26 engagements (4.9%), 13 clicks (2.5% CTR), 11 reactions, 0 comments, 2 reposts. Video: 320 views, 51m 47s watch time, 9s average. Page: 3 viewers, 0 followers gained."
+  "notes": "Looped motion graphic video. Posted 21 May 2025. Sponsored period 23 May – 29 May 2025. Sponsored: 3,221 impressions, £17.34 eCPM, 10 engagements (0.3%), £5.58 cost per engagement, 4 clicks (0.1% CTR), 1 reaction. Organic: 530 impressions, 295 members reached, 26 engagements (4.9%), 13 clicks (2.5% CTR), 11 reactions, 0 comments, 2 reposts. Video: 320 views, 51m 47s watch time, 9s average. Page: 3 viewers, 0 followers gained.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 530,
+    "social_interactions": 13,
+    "social_er_pct": 2.45,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 4.91,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 4.9,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 530,
+      "reach": 295,
+      "reactions": 11,
+      "comments": 0,
+      "reposts": 2,
+      "saves": 0,
+      "clicks": 13
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

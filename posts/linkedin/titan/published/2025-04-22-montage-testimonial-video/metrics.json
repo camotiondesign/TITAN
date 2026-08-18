@@ -53,5 +53,31 @@
     "cost_per_engagement": 3.12,
     "spend": 0
   },
-  "notes": "Montage testimonial video (multiple pharmacy teams, Day One with Titan). Posted 22 Apr 2025. Sponsored period 22 Apr – 25 Apr 2025. Total: 2,339 impressions, 8 reactions, 0 comments, 1 repost. Page: 0 viewers, 0 followers gained. Sponsored: 1,848 impressions, £27.06 eCPM, 16 engagements (0.9%), £3.12 cost per engagement, 5 clicks (0.3% CTR), 0 reactions/comments/reposts. Organic: 491 impressions, 258 members reached, 21 engagements (4.3%), 12 clicks (2.4% CTR), 8 reactions, 0 comments, 1 repost. Video: 318 views, 1h 3m 18s watch time, 11s average."
+  "notes": "Montage testimonial video (multiple pharmacy teams, Day One with Titan). Posted 22 Apr 2025. Sponsored period 22 Apr – 25 Apr 2025. Total: 2,339 impressions, 8 reactions, 0 comments, 1 repost. Page: 0 viewers, 0 followers gained. Sponsored: 1,848 impressions, £27.06 eCPM, 16 engagements (0.9%), £3.12 cost per engagement, 5 clicks (0.3% CTR), 0 reactions/comments/reposts. Organic: 491 impressions, 258 members reached, 21 engagements (4.3%), 12 clicks (2.4% CTR), 8 reactions, 0 comments, 1 repost. Video: 318 views, 1h 3m 18s watch time, 11s average.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 491,
+    "social_interactions": 9,
+    "social_er_pct": 1.83,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 4.28,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 4.3,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 491,
+      "reach": 258,
+      "reactions": 8,
+      "comments": 0,
+      "reposts": 1,
+      "saves": 0,
+      "clicks": 12
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

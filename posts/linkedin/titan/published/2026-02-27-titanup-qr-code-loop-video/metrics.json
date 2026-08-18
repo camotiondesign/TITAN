@@ -50,5 +50,30 @@
       "spend": 0
     }
   },
-  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Follow-up to QR code teaser post."
+  "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Follow-up to QR code teaser post.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 523,
+    "social_interactions": 11,
+    "social_er_pct": 2.1,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 4.78,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 4.8,
+    "raw_er_source": "platform_api.organic.engagement_rate",
+    "components": {
+      "impressions": 523,
+      "reach": 229,
+      "reactions": 8,
+      "comments": 0,
+      "reposts": 3,
+      "saves": 0,
+      "clicks": 14
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:platform_api.organic"
+  }
 }

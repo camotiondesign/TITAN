@@ -53,5 +53,31 @@
     "cost_per_engagement": 6.67,
     "spend": 40.02
   },
-  "notes": "The Titan Way main campaign video - exceptional organic performance with 20.2% engagement rate and 14.9% CTR. Strong video metrics: 1,539 views with 12s average watch time. Sponsored boost ran 27-31 March with lower engagement (0.1%) but significant reach amplification. High-quality comments from pharmacy professionals validate messaging. This video serves as the campaign hero asset explaining the complete Titan Way workflow transformation."
+  "notes": "The Titan Way main campaign video - exceptional organic performance with 20.2% engagement rate and 14.9% CTR. Strong video metrics: 1,539 views with 12s average watch time. Sponsored boost ran 27-31 March with lower engagement (0.1%) but significant reach amplification. High-quality comments from pharmacy professionals validate messaging. This video serves as the campaign hero asset explaining the complete Titan Way workflow transformation.",
+  "engagement": {
+    "spec_version": 1,
+    "platform": "linkedin",
+    "denominator": "impressions",
+    "denominator_value": 738,
+    "social_interactions": 39,
+    "social_er_pct": 5.28,
+    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
+    "platform_er_pct": 20.19,
+    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
+    "raw_er_pct": 20.2,
+    "raw_er_source": "organic.engagement_rate",
+    "components": {
+      "impressions": 738,
+      "reach": 426,
+      "reactions": 24,
+      "comments": 7,
+      "reposts": 8,
+      "saves": 0,
+      "clicks": 110
+    },
+    "flags": [],
+    "computed_at": "2026-08-17T21:03:00Z",
+    "source_file": "backfill:organic"
+  },
+  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }
