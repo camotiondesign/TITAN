@@ -11,11 +11,11 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 316,
-      "reach": 0,
-      "reactions": 4,
-      "comments": 1,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 33,
+      "reach": 18,
+      "reactions": 0,
+      "comments": 0,
       "reposts": 0,
       "saves": 0,
       "video_views": 316,
@@ -24,7 +24,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -39,12 +42,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 476,
-      "reach": 0,
-      "reactions": 12,
-      "comments": 3,
-      "reposts": 1,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 38,
+      "reach": 18,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 476,
       "avg_watch_time_seconds": 0,
@@ -52,7 +55,10 @@
       "platform_er_pct": 11.11,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -67,12 +73,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 931,
-      "reach": 0,
-      "reactions": 9,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 79,
+      "reach": 60,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 1,
+      "reposts": 0,
       "saves": 0,
       "video_views": 931,
       "avg_watch_time_seconds": 0,
@@ -80,7 +86,10 @@
       "platform_er_pct": 1.67,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -95,12 +104,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1140,
-      "reach": 0,
-      "reactions": 19,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 30,
+      "reach": 19,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 4,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1140,
       "avg_watch_time_seconds": 0,
@@ -108,7 +117,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -123,12 +135,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 477,
-      "reach": 0,
-      "reactions": 6,
-      "comments": 1,
-      "reposts": 3,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 27,
+      "reach": 18,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 477,
       "avg_watch_time_seconds": 0,
@@ -136,7 +148,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -151,12 +166,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 735,
-      "reach": 0,
-      "reactions": 8,
-      "comments": 1,
-      "reposts": 1,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 43,
+      "reach": 31,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 735,
       "avg_watch_time_seconds": 0,
@@ -164,7 +179,10 @@
       "platform_er_pct": 19.35,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -179,12 +197,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 512,
-      "reach": 0,
-      "reactions": 4,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 41,
+      "reach": 34,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 2,
+      "reposts": 0,
       "saves": 0,
       "video_views": 512,
       "avg_watch_time_seconds": 0,
@@ -192,7 +210,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -207,12 +228,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 756,
-      "reach": 0,
-      "reactions": 8,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 33,
+      "reach": 21,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 1,
+      "reposts": 0,
       "saves": 0,
       "video_views": 756,
       "avg_watch_time_seconds": 0,
@@ -220,7 +241,10 @@
       "platform_er_pct": 14.29,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -235,12 +259,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 693,
-      "reach": 0,
-      "reactions": 8,
-      "comments": 1,
-      "reposts": 4,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 32,
+      "reach": 14,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 693,
       "avg_watch_time_seconds": 0,
@@ -248,7 +272,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -263,12 +290,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1854,
-      "reach": 0,
-      "reactions": 20,
-      "comments": 1,
-      "reposts": 2,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 60,
+      "reach": 45,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1854,
       "avg_watch_time_seconds": 0,
@@ -276,7 +303,10 @@
       "platform_er_pct": 2.22,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -291,12 +321,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 718,
-      "reach": 0,
-      "reactions": 12,
-      "comments": 2,
-      "reposts": 6,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 24,
+      "reach": 13,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 718,
       "avg_watch_time_seconds": 0,
@@ -304,7 +334,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -319,11 +352,11 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 2095,
-      "reach": 0,
-      "reactions": 22,
-      "comments": 2,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 81,
+      "reach": 73,
+      "reactions": 0,
+      "comments": 0,
       "reposts": 0,
       "saves": 0,
       "video_views": 2095,
@@ -332,7 +365,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -347,12 +383,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1214,
-      "reach": 0,
-      "reactions": 11,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 57,
+      "reach": 49,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 3,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1214,
       "avg_watch_time_seconds": 0,
@@ -360,7 +396,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -375,12 +414,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1152,
-      "reach": 0,
-      "reactions": 21,
-      "comments": 2,
-      "reposts": 2,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 34,
+      "reach": 27,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1152,
       "avg_watch_time_seconds": 0,
@@ -388,7 +427,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -403,12 +445,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 570,
-      "reach": 0,
-      "reactions": 31,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 33,
+      "reach": 13,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 3,
+      "reposts": 0,
       "saves": 0,
       "video_views": 570,
       "avg_watch_time_seconds": 0,
@@ -416,7 +458,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -431,12 +476,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1893,
-      "reach": 0,
-      "reactions": 24,
-      "comments": 4,
-      "reposts": 5,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 26,
+      "reach": 17,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1893,
       "avg_watch_time_seconds": 0,
@@ -444,7 +489,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -459,12 +507,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 656,
-      "reach": 0,
-      "reactions": 14,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 28,
+      "reach": 16,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 4,
+      "reposts": 0,
       "saves": 0,
       "video_views": 656,
       "avg_watch_time_seconds": 0,
@@ -472,7 +520,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -487,10 +538,10 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 333,
-      "reach": 0,
-      "reactions": 8,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 57,
+      "reach": 51,
+      "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
@@ -500,7 +551,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -515,12 +569,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1936,
-      "reach": 0,
-      "reactions": 43,
-      "comments": 11,
-      "reposts": 3,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 31,
+      "reach": 16,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1936,
       "avg_watch_time_seconds": 0,
@@ -528,7 +582,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -543,22 +600,23 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
+      "synced_at": "2026-08-18T00:10:38Z",
       "impressions": 109,
       "reach": 0,
       "reactions": 1,
       "comments": 0,
-      "reposts": 5,
+      "reposts": 0,
       "saves": 0,
       "video_views": 109,
       "avg_watch_time_seconds": 5.97,
-      "social_er_pct": 0.91,
+      "social_er_pct": 0.92,
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 1,
       "engagement_spec_version": 1,
       "engagement_flags": [
-        "reposts_unavailable_in_source"
+        "reposts_unavailable_in_source",
+        "notionsocial_reported_more_activity"
       ]
     }
   },
@@ -574,12 +632,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 1988,
-      "reach": 0,
-      "reactions": 38,
-      "comments": 8,
-      "reposts": 13,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 23,
+      "reach": 13,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 1988,
       "avg_watch_time_seconds": 0,
@@ -587,7 +645,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -602,12 +663,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
-      "impressions": 966,
-      "reach": 0,
-      "reactions": 23,
-      "comments": 1,
-      "reposts": 6,
+      "synced_at": "2026-08-18T00:10:38Z",
+      "impressions": 25,
+      "reach": 14,
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
       "saves": 0,
       "video_views": 966,
       "avg_watch_time_seconds": 0,
@@ -615,7 +676,10 @@
       "platform_er_pct": 0,
       "raw_er_pct": 0,
       "social_interactions": 0,
-      "engagement_spec_version": 1
+      "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ]
     }
   },
   {
@@ -630,12 +694,12 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
+      "synced_at": "2026-08-18T00:10:38Z",
       "impressions": 21,
       "reach": 0,
-      "reactions": 18,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 7,
+      "reposts": 0,
       "saves": 0,
       "video_views": 21,
       "avg_watch_time_seconds": 4.92,
@@ -645,7 +709,8 @@
       "social_interactions": 0,
       "engagement_spec_version": 1,
       "engagement_flags": [
-        "reposts_unavailable_in_source"
+        "reposts_unavailable_in_source",
+        "notionsocial_reported_more_activity"
       ]
     }
   },
@@ -661,7 +726,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-17T20:44:49Z",
+      "synced_at": "2026-08-18T00:10:38Z",
       "impressions": 30,
       "reach": 0,
       "reactions": 0,

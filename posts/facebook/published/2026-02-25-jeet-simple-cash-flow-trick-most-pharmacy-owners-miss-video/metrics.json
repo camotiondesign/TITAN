@@ -31,16 +31,16 @@
     "spec_version": 1,
     "platform": "facebook",
     "denominator": "impressions",
-    "denominator_value": 110,
+    "denominator_value": 109,
     "social_interactions": 1,
-    "social_er_pct": 0.91,
+    "social_er_pct": 0.92,
     "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
     "platform_er_pct": 0,
     "platform_er_definition": "(reactions + comments + shares + clicks) / reach — Metricool/Facebook",
     "raw_er_pct": 0,
     "raw_er_source": "platform_api.engagement_rate",
     "components": {
-      "impressions": 110,
+      "impressions": 109,
       "reach": 0,
       "reactions": 1,
       "comments": 0,
@@ -49,9 +49,15 @@
       "clicks": 0
     },
     "flags": [
-      "reposts_unavailable_in_source"
+      "reposts_unavailable_in_source",
+      "notionsocial_reported_more_activity"
     ],
-    "computed_at": "2026-08-17T20:44:49Z",
-    "source_file": "facebook-reels_2025-01-01_2026-08-16.csv"
+    "computed_at": "2026-08-18T00:10:38Z",
+    "source_file": "facebook-reels_2025-01-01_2026-08-16.csv",
+    "superseded_notionsocial": {
+      "views": 2739,
+      "interactions": 43,
+      "note": "Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters."
+    }
   }
 }

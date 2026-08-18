@@ -74,6 +74,20 @@ function buildMetrics(m) {
       ? eng
       : computeEngagement(m.platform, out, { rawErPct: api.engagement_rate, rawErSource: 'platform_api.engagement_rate' });
 
+  // The surface counts MUST come from the same components the rate was computed
+  // from. Reading impressions off platform_api while reading the rate off the
+  // engagement block let the two disagree — an export whose own numbers don't
+  // reproduce its own ER is worse than no export.
+  if (block && block.components) {
+    const c = block.components;
+    out.impressions = c.impressions;
+    out.reach = c.reach;
+    out.reactions = c.reactions;
+    out.comments = c.comments;
+    out.reposts = c.reposts;
+    out.saves = c.saves;
+  }
+
   out.social_er_pct = block ? block.social_er_pct : null;
   out.platform_er_pct = block ? block.platform_er_pct : null;
   out.raw_er_pct = block ? block.raw_er_pct : null;

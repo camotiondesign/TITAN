@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "generated_at": "2026-08-17T23:58:12.768Z",
+    "generated_at": "2026-08-18T00:10:39.488Z",
     "script": "scripts/build-content-intelligence.js",
     "data_sources": [
       "exports/titan-linkedin.json",
       "exports/titanverse-linkedin.json"
     ],
     "total_posts_analyzed": 438,
-    "posts_with_metrics": 417,
-    "posts_scored": 411,
+    "posts_with_metrics": 419,
+    "posts_scored": 413,
     "date_range": {
       "start": "2024-12-16",
       "end": "2026-07-10"
@@ -86,9 +86,9 @@
   "summary": {
     "overall_avg_qes": 28.4,
     "overall_median_qes": 24.7,
-    "overall_avg_impressions": 1363.4,
-    "total_impressions": 568770,
-    "total_engagements": 10758,
+    "overall_avg_impressions": 1361.9,
+    "total_impressions": 570884,
+    "total_engagements": 10809,
     "best_performing_type": "cultural_calendar",
     "worst_performing_type": null,
     "current_trend": "improving",
@@ -144,14 +144,14 @@
     "reactive_news": {
       "count": 12,
       "tier": 2,
-      "avg_qes": 25.4,
-      "median_qes": 20.1,
-      "avg_impressions": 1482.8,
+      "avg_qes": 26.9,
+      "median_qes": 21,
+      "avg_impressions": 1542.6,
       "median_impressions": 1317,
-      "avg_reactions": 18.8,
-      "avg_comments": 2.1,
-      "avg_reposts": 3.3,
-      "total_impressions": 17793,
+      "avg_reactions": 19.8,
+      "avg_comments": 2.3,
+      "avg_reposts": 3.8,
+      "total_impressions": 18511,
       "top_3": [
         {
           "slug": "2026-01-06-guided-consultations-loop-video",
@@ -159,14 +159,14 @@
           "impressions": 681
         },
         {
+          "slug": "2026-02-12-services-spin-up-matrix-video",
+          "qes": 41.8,
+          "impressions": 718
+        },
+        {
           "slug": "2025-05-02-10-million-items-milestone-single-image",
           "qes": 39.5,
           "impressions": 1746
-        },
-        {
-          "slug": "2025-04-09-the-titan-way-carousel",
-          "qes": 35.2,
-          "impressions": 711
         }
       ],
       "bottom_3": [
@@ -512,14 +512,14 @@
     "thought_leadership": {
       "count": 45,
       "tier": 3,
-      "avg_qes": 32.5,
-      "median_qes": 29.8,
-      "avg_impressions": 995.4,
-      "median_impressions": 807,
-      "avg_reactions": 17.8,
-      "avg_comments": 1.6,
-      "avg_reposts": 4,
-      "total_impressions": 44791,
+      "avg_qes": 32.4,
+      "median_qes": 29.75,
+      "avg_impressions": 1026.4,
+      "median_impressions": 856,
+      "avg_reactions": 18.3,
+      "avg_comments": 1.7,
+      "avg_reposts": 4.1,
+      "total_impressions": 46187,
       "top_3": [
         {
           "slug": "2026-01-29-one-place-all-in-flow-loop-video",
@@ -709,18 +709,18 @@
       "share_pct": 32.6,
       "target_pct": 30,
       "delta_pct": 2.6,
-      "avg_qes": 28.6,
-      "median_qes": 26.4,
-      "avg_impressions": 1226.2
+      "avg_qes": 28.5,
+      "median_qes": 26.45,
+      "avg_impressions": 1236
     },
     "video": {
       "count": 179,
       "share_pct": 40.9,
       "target_pct": 30,
       "delta_pct": 10.9,
-      "avg_qes": 29.4,
-      "median_qes": 25.9,
-      "avg_impressions": 1262.1
+      "avg_qes": 29.5,
+      "median_qes": 25.95,
+      "avg_impressions": 1266.1
     },
     "unknown": {
       "count": 16,
@@ -784,7 +784,7 @@
         }
       ],
       "last_featured_date": "2024-12-18",
-      "days_since_last_feature": 607,
+      "days_since_last_feature": 608,
       "rotation_compliant": true
     },
     "kieren": {
@@ -808,7 +808,7 @@
         }
       ],
       "last_featured_date": "2025-01-22",
-      "days_since_last_feature": 572,
+      "days_since_last_feature": 573,
       "rotation_compliant": true
     },
     "jagdeep": {
@@ -826,7 +826,7 @@
         }
       ],
       "last_featured_date": "2025-01-16",
-      "days_since_last_feature": 578,
+      "days_since_last_feature": 579,
       "rotation_compliant": true
     },
     "andy": {
@@ -856,7 +856,7 @@
         }
       ],
       "last_featured_date": "2025-10-14",
-      "days_since_last_feature": 307,
+      "days_since_last_feature": 308,
       "rotation_compliant": true
     },
     "cameron": {
@@ -880,7 +880,7 @@
         }
       ],
       "last_featured_date": "2025-02-25",
-      "days_since_last_feature": 538,
+      "days_since_last_feature": 539,
       "rotation_compliant": true
     },
     "kanav": {
@@ -910,7 +910,7 @@
         }
       ],
       "last_featured_date": "2025-03-04",
-      "days_since_last_feature": 531,
+      "days_since_last_feature": 532,
       "rotation_compliant": true
     },
     "ash": {
@@ -928,7 +928,7 @@
         }
       ],
       "last_featured_date": "2025-02-10",
-      "days_since_last_feature": 553,
+      "days_since_last_feature": 554,
       "rotation_compliant": true
     },
     "anup": {
@@ -946,7 +946,7 @@
         }
       ],
       "last_featured_date": "2025-03-13",
-      "days_since_last_feature": 522,
+      "days_since_last_feature": 523,
       "rotation_compliant": true
     },
     "elias": {
@@ -964,7 +964,7 @@
         }
       ],
       "last_featured_date": "2025-03-19",
-      "days_since_last_feature": 516,
+      "days_since_last_feature": 517,
       "rotation_compliant": true
     },
     "ishpal": {
@@ -982,7 +982,7 @@
         }
       ],
       "last_featured_date": "2025-03-29",
-      "days_since_last_feature": 506,
+      "days_since_last_feature": 507,
       "rotation_compliant": true
     },
     "ian": {
@@ -1006,7 +1006,7 @@
         }
       ],
       "last_featured_date": "2025-04-17",
-      "days_since_last_feature": 487,
+      "days_since_last_feature": 488,
       "rotation_compliant": true
     },
     "maria": {
@@ -1024,7 +1024,7 @@
         }
       ],
       "last_featured_date": "2025-04-02",
-      "days_since_last_feature": 502,
+      "days_since_last_feature": 503,
       "rotation_compliant": true
     },
     "charlotte": {
@@ -1042,7 +1042,7 @@
         }
       ],
       "last_featured_date": "2025-04-10",
-      "days_since_last_feature": 494,
+      "days_since_last_feature": 495,
       "rotation_compliant": true
     },
     "alta": {
@@ -1060,7 +1060,7 @@
         }
       ],
       "last_featured_date": "2025-04-26",
-      "days_since_last_feature": 478,
+      "days_since_last_feature": 479,
       "rotation_compliant": true
     },
     "sagar": {
@@ -1120,7 +1120,7 @@
         }
       ],
       "last_featured_date": "2025-12-31",
-      "days_since_last_feature": 229,
+      "days_since_last_feature": 230,
       "rotation_compliant": true
     },
     "yusuf": {
@@ -1186,7 +1186,7 @@
         }
       ],
       "last_featured_date": "2026-03-12",
-      "days_since_last_feature": 158,
+      "days_since_last_feature": 159,
       "rotation_compliant": true
     },
     "rahul": {
@@ -1306,7 +1306,7 @@
         }
       ],
       "last_featured_date": "2026-06-19",
-      "days_since_last_feature": 59,
+      "days_since_last_feature": 60,
       "rotation_compliant": true
     },
     "sunil": {
@@ -1336,7 +1336,7 @@
         }
       ],
       "last_featured_date": "2026-02-11",
-      "days_since_last_feature": 187,
+      "days_since_last_feature": 188,
       "rotation_compliant": true
     },
     "kieran": {
@@ -1354,7 +1354,7 @@
         }
       ],
       "last_featured_date": "2025-07-30",
-      "days_since_last_feature": 383,
+      "days_since_last_feature": 384,
       "rotation_compliant": true
     },
     "akbar": {
@@ -1396,7 +1396,7 @@
         }
       ],
       "last_featured_date": "2025-12-29",
-      "days_since_last_feature": 231,
+      "days_since_last_feature": 232,
       "rotation_compliant": true
     },
     "malia": {
@@ -1414,7 +1414,7 @@
         }
       ],
       "last_featured_date": "2025-08-05",
-      "days_since_last_feature": 377,
+      "days_since_last_feature": 378,
       "rotation_compliant": true
     },
     "jeet": {
@@ -1456,7 +1456,7 @@
         }
       ],
       "last_featured_date": "2026-04-27",
-      "days_since_last_feature": 112,
+      "days_since_last_feature": 113,
       "rotation_compliant": true
     },
     "pritee": {
@@ -1486,7 +1486,7 @@
         }
       ],
       "last_featured_date": "2025-12-22",
-      "days_since_last_feature": 238,
+      "days_since_last_feature": 239,
       "rotation_compliant": true
     },
     "sajid": {
@@ -1558,7 +1558,7 @@
         }
       ],
       "last_featured_date": "2026-06-14",
-      "days_since_last_feature": 64,
+      "days_since_last_feature": 65,
       "rotation_compliant": true
     },
     "hooman": {
@@ -1600,7 +1600,7 @@
         }
       ],
       "last_featured_date": "2026-06-14",
-      "days_since_last_feature": 64,
+      "days_since_last_feature": 65,
       "rotation_compliant": true
     },
     "tariq": {
@@ -1720,7 +1720,7 @@
         }
       ],
       "last_featured_date": "2026-07-08",
-      "days_since_last_feature": 40,
+      "days_since_last_feature": 41,
       "rotation_compliant": true
     },
     "nas": {
@@ -1774,7 +1774,7 @@
         }
       ],
       "last_featured_date": "2026-07-09",
-      "days_since_last_feature": 39,
+      "days_since_last_feature": 40,
       "rotation_compliant": true
     },
     "wahid": {
@@ -1840,7 +1840,7 @@
         }
       ],
       "last_featured_date": "2026-07-06",
-      "days_since_last_feature": 42,
+      "days_since_last_feature": 43,
       "rotation_compliant": true
     },
     "zack": {
@@ -1858,7 +1858,7 @@
         }
       ],
       "last_featured_date": "2025-10-22",
-      "days_since_last_feature": 299,
+      "days_since_last_feature": 300,
       "rotation_compliant": true
     },
     "sachin": {
@@ -1876,7 +1876,7 @@
         }
       ],
       "last_featured_date": "2025-10-22",
-      "days_since_last_feature": 299,
+      "days_since_last_feature": 300,
       "rotation_compliant": true
     },
     "prab": {
@@ -1912,7 +1912,7 @@
         }
       ],
       "last_featured_date": "2026-02-24",
-      "days_since_last_feature": 174,
+      "days_since_last_feature": 175,
       "rotation_compliant": true
     },
     "asif": {
@@ -1954,7 +1954,7 @@
         }
       ],
       "last_featured_date": "2026-03-13",
-      "days_since_last_feature": 157,
+      "days_since_last_feature": 158,
       "rotation_compliant": true
     },
     "paula": {
@@ -1990,7 +1990,7 @@
         }
       ],
       "last_featured_date": "2026-01-28",
-      "days_since_last_feature": 201,
+      "days_since_last_feature": 202,
       "rotation_compliant": true
     },
     "stefan": {
@@ -2008,7 +2008,7 @@
         }
       ],
       "last_featured_date": "2026-03-05",
-      "days_since_last_feature": 165,
+      "days_since_last_feature": 166,
       "rotation_compliant": true
     },
     "tanzil": {
@@ -2026,7 +2026,7 @@
         }
       ],
       "last_featured_date": "2026-03-10",
-      "days_since_last_feature": 160,
+      "days_since_last_feature": 161,
       "rotation_compliant": true
     },
     "anna": {
@@ -2044,7 +2044,7 @@
         }
       ],
       "last_featured_date": "2026-03-12",
-      "days_since_last_feature": 158,
+      "days_since_last_feature": 159,
       "rotation_compliant": true
     },
     "geoff": {
@@ -2086,7 +2086,7 @@
         }
       ],
       "last_featured_date": "2026-07-01",
-      "days_since_last_feature": 47,
+      "days_since_last_feature": 48,
       "rotation_compliant": true
     },
     "emma": {
@@ -2104,7 +2104,7 @@
         }
       ],
       "last_featured_date": "2026-03-24",
-      "days_since_last_feature": 146,
+      "days_since_last_feature": 147,
       "rotation_compliant": true
     },
     "krishna": {
@@ -2122,7 +2122,7 @@
         }
       ],
       "last_featured_date": "2026-03-26",
-      "days_since_last_feature": 144,
+      "days_since_last_feature": 145,
       "rotation_compliant": true
     },
     "abel": {
@@ -2176,7 +2176,7 @@
         }
       ],
       "last_featured_date": "2026-06-26",
-      "days_since_last_feature": 52,
+      "days_since_last_feature": 53,
       "rotation_compliant": true
     }
   },
@@ -2553,10 +2553,10 @@
     },
     "2026-02": {
       "post_count": 31,
-      "avg_qes": 31.4,
+      "avg_qes": 31.6,
       "median_qes": 29.5,
-      "avg_impressions": 1041.4,
-      "total_impressions": 32284,
+      "avg_impressions": 1109.6,
+      "total_impressions": 34398,
       "type_distribution": {
         "feature_post": 2,
         "safety_awareness": 3,
@@ -2715,15 +2715,15 @@
   "trend_analysis": {
     "qes_trend_3m": {
       "recent_avg": 39.6,
-      "prior_avg": 28,
-      "delta_pct": 41.4,
+      "prior_avg": 28.1,
+      "delta_pct": 40.9,
       "direction": "improving"
     },
     "impressions_trend_3m": {
       "recent_avg": 1187.1,
-      "prior_avg": 1073,
-      "delta_pct": 10.6,
-      "direction": "improving"
+      "prior_avg": 1095.7,
+      "delta_pct": 8.3,
+      "direction": "flat"
     },
     "qes_by_month": [
       {
@@ -2784,7 +2784,7 @@
       },
       {
         "month": "2026-02",
-        "avg_qes": 31.4
+        "avg_qes": 31.6
       },
       {
         "month": "2026-03",
@@ -2866,7 +2866,7 @@
       },
       {
         "month": "2026-02",
-        "avg_impressions": 1041.4
+        "avg_impressions": 1109.6
       },
       {
         "month": "2026-03",
@@ -2919,204 +2919,204 @@
     "overdue": [
       {
         "name": "Mustafa",
-        "days_since": 607,
+        "days_since": 608,
         "last_date": "2024-12-18"
       },
       {
         "name": "Jagdeep",
-        "days_since": 578,
+        "days_since": 579,
         "last_date": "2025-01-16"
       },
       {
         "name": "Kieren",
-        "days_since": 572,
+        "days_since": 573,
         "last_date": "2025-01-22"
       },
       {
         "name": "Ash",
-        "days_since": 553,
+        "days_since": 554,
         "last_date": "2025-02-10"
       },
       {
         "name": "Cameron",
-        "days_since": 538,
+        "days_since": 539,
         "last_date": "2025-02-25"
       },
       {
         "name": "Kanav",
-        "days_since": 531,
+        "days_since": 532,
         "last_date": "2025-03-04"
       },
       {
         "name": "Anup",
-        "days_since": 522,
+        "days_since": 523,
         "last_date": "2025-03-13"
       },
       {
         "name": "Elias",
-        "days_since": 516,
+        "days_since": 517,
         "last_date": "2025-03-19"
       },
       {
         "name": "Ishpal",
-        "days_since": 506,
+        "days_since": 507,
         "last_date": "2025-03-29"
       },
       {
         "name": "Maria",
-        "days_since": 502,
+        "days_since": 503,
         "last_date": "2025-04-02"
       },
       {
         "name": "Charlotte",
-        "days_since": 494,
+        "days_since": 495,
         "last_date": "2025-04-10"
       },
       {
         "name": "Ian",
-        "days_since": 487,
+        "days_since": 488,
         "last_date": "2025-04-17"
       },
       {
         "name": "Alta",
-        "days_since": 478,
+        "days_since": 479,
         "last_date": "2025-04-26"
       },
       {
         "name": "Kieran",
-        "days_since": 383,
+        "days_since": 384,
         "last_date": "2025-07-30"
       },
       {
         "name": "Malia",
-        "days_since": 377,
+        "days_since": 378,
         "last_date": "2025-08-05"
       },
       {
         "name": "Andy",
-        "days_since": 307,
+        "days_since": 308,
         "last_date": "2025-10-14"
       },
       {
         "name": "Zack",
-        "days_since": 299,
+        "days_since": 300,
         "last_date": "2025-10-22"
       },
       {
         "name": "Sachin",
-        "days_since": 299,
+        "days_since": 300,
         "last_date": "2025-10-22"
       },
       {
         "name": "Pritee",
-        "days_since": 238,
+        "days_since": 239,
         "last_date": "2025-12-22"
       },
       {
         "name": "Akbar",
-        "days_since": 231,
+        "days_since": 232,
         "last_date": "2025-12-29"
       },
       {
         "name": "Sagar",
-        "days_since": 229,
+        "days_since": 230,
         "last_date": "2025-12-31"
       },
       {
         "name": "Paula",
-        "days_since": 201,
+        "days_since": 202,
         "last_date": "2026-01-28"
       },
       {
         "name": "Sunil",
-        "days_since": 187,
+        "days_since": 188,
         "last_date": "2026-02-11"
       },
       {
         "name": "Prab",
-        "days_since": 174,
+        "days_since": 175,
         "last_date": "2026-02-24"
       },
       {
         "name": "Stefan",
-        "days_since": 165,
+        "days_since": 166,
         "last_date": "2026-03-05"
       },
       {
         "name": "Tanzil",
-        "days_since": 160,
+        "days_since": 161,
         "last_date": "2026-03-10"
       },
       {
         "name": "Yusuf",
-        "days_since": 158,
+        "days_since": 159,
         "last_date": "2026-03-12"
       },
       {
         "name": "Anna Matthews",
-        "days_since": 158,
+        "days_since": 159,
         "last_date": "2026-03-12"
       },
       {
         "name": "Asif (Safys)",
-        "days_since": 157,
+        "days_since": 158,
         "last_date": "2026-03-13"
       },
       {
         "name": "Emma",
-        "days_since": 146,
+        "days_since": 147,
         "last_date": "2026-03-24"
       },
       {
         "name": "Krishna",
-        "days_since": 144,
+        "days_since": 145,
         "last_date": "2026-03-26"
       },
       {
         "name": "Jeet Vadodaria",
-        "days_since": 112,
+        "days_since": 113,
         "last_date": "2026-04-27"
       }
     ],
     "available": [
       {
         "name": "Sajid",
-        "days_since": 64,
+        "days_since": 65,
         "last_date": "2026-06-14"
       },
       {
         "name": "Hooman",
-        "days_since": 64,
+        "days_since": 65,
         "last_date": "2026-06-14"
       },
       {
         "name": "Rahul Puri",
-        "days_since": 59,
+        "days_since": 60,
         "last_date": "2026-06-19"
       },
       {
         "name": "Dervis",
-        "days_since": 52,
+        "days_since": 53,
         "last_date": "2026-06-26"
       },
       {
         "name": "Geoff Thomas",
-        "days_since": 47,
+        "days_since": 48,
         "last_date": "2026-07-01"
       },
       {
         "name": "Wahid",
-        "days_since": 42,
+        "days_since": 43,
         "last_date": "2026-07-06"
       },
       {
         "name": "Tariq",
-        "days_since": 40,
+        "days_since": 41,
         "last_date": "2026-07-08"
       },
       {
         "name": "Nas",
-        "days_since": 39,
+        "days_since": 40,
         "last_date": "2026-07-09"
       }
     ],
@@ -3555,139 +3555,139 @@
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Mustafa soon (607 days since last post on 2024-12-18)",
+      "action": "Feature Mustafa soon (608 days since last post on 2024-12-18)",
       "evidence": "1 total posts, avg QES 15.7"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Kieren soon (572 days since last post on 2025-01-22)",
+      "action": "Feature Kieren soon (573 days since last post on 2025-01-22)",
       "evidence": "2 total posts, avg QES 21.4"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Jagdeep soon (578 days since last post on 2025-01-16)",
+      "action": "Feature Jagdeep soon (579 days since last post on 2025-01-16)",
       "evidence": "1 total posts, avg QES 16.3"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Andy soon (307 days since last post on 2025-10-14)",
+      "action": "Feature Andy soon (308 days since last post on 2025-10-14)",
       "evidence": "3 total posts, avg QES 26.4"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Cameron soon (538 days since last post on 2025-02-25)",
+      "action": "Feature Cameron soon (539 days since last post on 2025-02-25)",
       "evidence": "2 total posts, avg QES 17.3"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Kanav soon (531 days since last post on 2025-03-04)",
+      "action": "Feature Kanav soon (532 days since last post on 2025-03-04)",
       "evidence": "3 total posts, avg QES 18.6"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Ash soon (553 days since last post on 2025-02-10)",
+      "action": "Feature Ash soon (554 days since last post on 2025-02-10)",
       "evidence": "1 total posts, avg QES 26.5"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Anup soon (522 days since last post on 2025-03-13)",
+      "action": "Feature Anup soon (523 days since last post on 2025-03-13)",
       "evidence": "1 total posts, avg QES 45.2"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Elias soon (516 days since last post on 2025-03-19)",
+      "action": "Feature Elias soon (517 days since last post on 2025-03-19)",
       "evidence": "1 total posts, avg QES 25.9"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Ishpal soon (506 days since last post on 2025-03-29)",
+      "action": "Feature Ishpal soon (507 days since last post on 2025-03-29)",
       "evidence": "1 total posts, avg QES 60.2"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Ian soon (487 days since last post on 2025-04-17)",
+      "action": "Feature Ian soon (488 days since last post on 2025-04-17)",
       "evidence": "2 total posts, avg QES 16.2"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Maria soon (502 days since last post on 2025-04-02)",
+      "action": "Feature Maria soon (503 days since last post on 2025-04-02)",
       "evidence": "1 total posts, avg QES 38.5"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Charlotte soon (494 days since last post on 2025-04-10)",
+      "action": "Feature Charlotte soon (495 days since last post on 2025-04-10)",
       "evidence": "1 total posts, avg QES 21.4"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Alta soon (478 days since last post on 2025-04-26)",
+      "action": "Feature Alta soon (479 days since last post on 2025-04-26)",
       "evidence": "1 total posts, avg QES 17.1"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Sagar soon (229 days since last post on 2025-12-31)",
+      "action": "Feature Sagar soon (230 days since last post on 2025-12-31)",
       "evidence": "8 total posts, avg QES 19"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Sunil soon (187 days since last post on 2026-02-11)",
+      "action": "Feature Sunil soon (188 days since last post on 2026-02-11)",
       "evidence": "3 total posts, avg QES 34.6"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Kieran soon (383 days since last post on 2025-07-30)",
+      "action": "Feature Kieran soon (384 days since last post on 2025-07-30)",
       "evidence": "1 total posts, avg QES 30.1"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Akbar soon (231 days since last post on 2025-12-29)",
+      "action": "Feature Akbar soon (232 days since last post on 2025-12-29)",
       "evidence": "5 total posts, avg QES 17.8"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Malia soon (377 days since last post on 2025-08-05)",
+      "action": "Feature Malia soon (378 days since last post on 2025-08-05)",
       "evidence": "1 total posts, avg QES 20.1"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Pritee soon (238 days since last post on 2025-12-22)",
+      "action": "Feature Pritee soon (239 days since last post on 2025-12-22)",
       "evidence": "3 total posts, avg QES 18.2"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Zack soon (299 days since last post on 2025-10-22)",
+      "action": "Feature Zack soon (300 days since last post on 2025-10-22)",
       "evidence": "1 total posts, avg QES 24.7"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Sachin soon (299 days since last post on 2025-10-22)",
+      "action": "Feature Sachin soon (300 days since last post on 2025-10-22)",
       "evidence": "1 total posts, avg QES 24.7"
     },
     {
       "priority": "high",
       "category": "customer_rotation",
-      "action": "Feature Paula soon (201 days since last post on 2026-01-28)",
+      "action": "Feature Paula soon (202 days since last post on 2026-01-28)",
       "evidence": "4 total posts, avg QES 24.8"
     },
     {
@@ -3711,55 +3711,55 @@
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Yusuf soon (158 days since last post on 2026-03-12)",
+      "action": "Feature Yusuf soon (159 days since last post on 2026-03-12)",
       "evidence": "9 total posts, avg QES 27.7"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Jeet Vadodaria soon (112 days since last post on 2026-04-27)",
+      "action": "Feature Jeet Vadodaria soon (113 days since last post on 2026-04-27)",
       "evidence": "5 total posts, avg QES 23.1"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Prab soon (174 days since last post on 2026-02-24)",
+      "action": "Feature Prab soon (175 days since last post on 2026-02-24)",
       "evidence": "4 total posts, avg QES 27"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Asif (Safys) soon (157 days since last post on 2026-03-13)",
+      "action": "Feature Asif (Safys) soon (158 days since last post on 2026-03-13)",
       "evidence": "5 total posts, avg QES 16.3"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Stefan soon (165 days since last post on 2026-03-05)",
+      "action": "Feature Stefan soon (166 days since last post on 2026-03-05)",
       "evidence": "1 total posts, avg QES 23.4"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Tanzil soon (160 days since last post on 2026-03-10)",
+      "action": "Feature Tanzil soon (161 days since last post on 2026-03-10)",
       "evidence": "1 total posts, avg QES 27.2"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Anna Matthews soon (158 days since last post on 2026-03-12)",
+      "action": "Feature Anna Matthews soon (159 days since last post on 2026-03-12)",
       "evidence": "1 total posts, avg QES 20.9"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Emma soon (146 days since last post on 2026-03-24)",
+      "action": "Feature Emma soon (147 days since last post on 2026-03-24)",
       "evidence": "1 total posts, avg QES 27.1"
     },
     {
       "priority": "medium",
       "category": "customer_rotation",
-      "action": "Feature Krishna soon (144 days since last post on 2026-03-26)",
+      "action": "Feature Krishna soon (145 days since last post on 2026-03-26)",
       "evidence": "1 total posts, avg QES 25.4"
     },
     {
@@ -11281,11 +11281,11 @@
       "classified_type": "reactive_news",
       "classified_tier": 2,
       "customers": [],
-      "qes": null,
-      "impressions": 0,
-      "reactions": 0,
-      "comments_count": 0,
-      "reposts": 0,
+      "qes": 41.8,
+      "impressions": 718,
+      "reactions": 12,
+      "comments_count": 2,
+      "reposts": 6,
       "ctr": 0,
       "followers_gained": 0,
       "video_views": 0,
@@ -11299,11 +11299,11 @@
       "classified_type": "thought_leadership",
       "classified_tier": 3,
       "customers": [],
-      "qes": null,
-      "impressions": 0,
-      "reactions": 0,
-      "comments_count": 0,
-      "reposts": 0,
+      "qes": 27.2,
+      "impressions": 1396,
+      "reactions": 25,
+      "comments_count": 1,
+      "reposts": 5,
       "ctr": 0,
       "followers_gained": 0,
       "video_views": 0,

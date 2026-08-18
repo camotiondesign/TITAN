@@ -1,6 +1,6 @@
 # LinkedIn metrics summary
 
-Last updated: 2026-08-17T23:57:44.104Z
+Last updated: 2026-08-18T00:10:39.416Z
 
 ## Totals
 - Posts (with organic metrics): 422

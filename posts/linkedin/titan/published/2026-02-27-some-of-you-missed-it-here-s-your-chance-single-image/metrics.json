@@ -127,9 +127,16 @@
       "saves": 0,
       "clicks": 14
     },
-    "flags": [],
-    "computed_at": "2026-08-17T20:44:49Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv"
+    "flags": [
+      "notionsocial_reported_more_activity"
+    ],
+    "computed_at": "2026-08-18T00:10:38Z",
+    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "superseded_notionsocial": {
+      "views": 1158,
+      "interactions": 25,
+      "note": "Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters."
+    }
   },
   "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
 }

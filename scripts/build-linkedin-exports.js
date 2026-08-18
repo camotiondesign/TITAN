@@ -51,6 +51,18 @@ function withEngagement(out, rawMetrics) {
           clicks: out.clicks,
         }, { rawErPct: out.engagement_rate, rawErSource: 'legacy_export_field' });
 
+  // Surface counts must come from the components the rate was computed from,
+  // or the export's own numbers won't reproduce its own ER.
+  if (block && block.components) {
+    const c = block.components;
+    out.impressions = c.impressions;
+    out.reactions = c.reactions;
+    out.comments = c.comments;
+    out.reposts = c.reposts;
+    out.clicks = c.clicks;
+    if (c.reach) out.reach = c.reach;
+  }
+
   out.social_er_pct = block ? block.social_er_pct : null;
   out.platform_er_pct = block ? block.platform_er_pct : null;
   out.raw_er_pct = block ? block.raw_er_pct : null;

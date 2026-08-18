@@ -185,6 +185,27 @@ then gets removed. Do not build anything on it.
 
 ---
 
+## Flags
+
+Rows carry `engagement.flags` when something about the measurement needs saying
+out loud. 52 rows currently carry one.
+
+| Flag | Meaning | What to do |
+|---|---|---|
+| `reposts_unavailable_in_source` | The export has no shares column (Facebook Reels). | Treat `social_er_pct` as a floor, not a measurement. |
+| `notionsocial_reported_more_activity` | An earlier Notion sync reported higher figures than the Metricool CSV for this post. The CSV wins, but the gap is recorded in `engagement.superseded_notionsocial`. | Mostly Facebook/Instagram, where Notion counted cross-posted video views against a near-dead page. Review before quoting these rows. |
+| `platform_er_denominator_unavailable` | The vendor's own formula needs reach and the source gave none. | `platform_er_pct` is null. `social_er_pct` is unaffected. |
+| `no_denominator` | No impressions yet — unpublished or unsynced. | `social_er_pct` is null. Never average it as zero. |
+
+## Internal consistency
+
+The surface counts in an export (`impressions`, `reactions`, `comments`,
+`reposts`) are always taken from the same components the rate was computed
+from. You can always reproduce an export's `social_er_pct` from that export's
+own fields. If you ever can't, that's a bug — the build scripts previously read
+counts from `platform_api` while reading the rate from the engagement block,
+which let the two drift apart on 41 rows.
+
 ## Sanity checks
 
 - `social_er_pct` above ~15% on a post with meaningful impressions is

@@ -382,9 +382,21 @@ function ingestCsv(csvPath) {
     if (held > 0 && fresh > held * 1.2) {
       res.impressionFixes.push({ slug: c.slug, from: held, to: fresh, ratio: +(fresh / held).toFixed(2) });
       applyImpressions(m, fresh);
-    } else if (held > 0 && fresh < held) {
-      components.impressions = held; // keep our higher figure as the denominator
+    } else if (held > 0) {
+      // Below the correction threshold: keep the stored figure and compute the
+      // rate against it. The denominator must always equal the impressions we
+      // publish, or the export's own numbers won't reproduce its own ER.
+      components.impressions = held;
     }
+
+    // A sparser CSV row must never silently bury a richer earlier sync.
+    // Flag it instead — the CSV still wins (it is the nominated ground truth),
+    // but the discrepancy stays visible.
+    const ns = m.notionsocial || {};
+    const nsInteractions = num(ns.likes) + num(ns.comments) + num(ns.shares);
+    const csvInteractions = components.reactions + components.comments + components.reposts;
+    const supersededNotionsocial =
+      nsInteractions > csvInteractions && num(ns.views) > components.impressions * 2;
 
     const legacy = readLegacyEr(c.metrics);
     const eng = computeEngagement(profile.platform, components, {
@@ -395,6 +407,14 @@ function ingestCsv(csvPath) {
     });
     eng.computed_at = SYNCED_AT;
     eng.source_file = path.basename(csvPath);
+    if (supersededNotionsocial) {
+      eng.flags = [...(eng.flags || []), 'notionsocial_reported_more_activity'];
+      eng.superseded_notionsocial = {
+        views: num(ns.views),
+        interactions: nsInteractions,
+        note: 'Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters.',
+      };
+    }
 
     if (legacy.value !== null && eng.social_er_pct !== null) {
       res.erChanges.push({ slug: c.slug, from: legacy.value, to: eng.social_er_pct });

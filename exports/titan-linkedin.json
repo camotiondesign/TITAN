@@ -9691,7 +9691,7 @@
       "social_interactions": 34,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 71.79,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -9768,7 +9768,7 @@
       "social_interactions": 40,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.82,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -9805,7 +9805,7 @@
       "social_interactions": 35,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.1,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -9941,7 +9941,7 @@
       "social_interactions": 65,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.85,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -9978,7 +9978,7 @@
       "social_interactions": 45,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.61,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10109,7 +10109,7 @@
       "social_interactions": 41,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 13.9,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10244,8 +10244,11 @@
       "raw_er_pct": 4.72,
       "social_interactions": 11,
       "engagement_spec_version": 1,
+      "engagement_flags": [
+        "notionsocial_reported_more_activity"
+      ],
       "engagement_rate_DEPRECATED": 4.72,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10359,7 +10362,7 @@
       "social_interactions": 22,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 133.62,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10470,7 +10473,7 @@
       "social_interactions": 24,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.23,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10512,7 +10515,7 @@
       "social_interactions": 26,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.93,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10562,7 +10565,7 @@
       "social_interactions": 23,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.33,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10599,7 +10602,7 @@
       "social_interactions": 9,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 4.66,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10636,7 +10639,7 @@
       "social_interactions": 14,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 72.88,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10682,7 +10685,7 @@
       "social_interactions": 9,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 4.63,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10724,7 +10727,7 @@
       "social_interactions": 15,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 74.11,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10761,7 +10764,7 @@
       "social_interactions": 7,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.56,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10798,7 +10801,7 @@
       "social_interactions": 7,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.83,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10835,7 +10838,7 @@
       "social_interactions": 8,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 2.49,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10872,7 +10875,7 @@
       "social_interactions": 35,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.09,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10918,7 +10921,7 @@
       "social_interactions": 34,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 67.22,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10955,7 +10958,7 @@
       "social_interactions": 16,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.45,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -10992,7 +10995,7 @@
       "social_interactions": 7,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 4.12,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11034,7 +11037,7 @@
       "social_interactions": 13,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.03,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11071,7 +11074,7 @@
       "social_interactions": 20,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.42,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11113,7 +11116,7 @@
       "social_interactions": 30,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.29,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11150,7 +11153,7 @@
       "social_interactions": 23,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.21,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11187,7 +11190,7 @@
       "social_interactions": 11,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.49,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11224,7 +11227,7 @@
       "social_interactions": 10,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.54,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11261,7 +11264,7 @@
       "social_interactions": 3,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 3.19,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11298,7 +11301,7 @@
       "social_interactions": 18,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.34,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11349,7 +11352,7 @@
       "social_interactions": 9,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 4.78,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11386,7 +11389,7 @@
       "social_interactions": 6,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 4.89,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11423,7 +11426,7 @@
       "social_interactions": 24,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 93.15,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11460,7 +11463,7 @@
       "social_interactions": 20,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.98,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11497,7 +11500,7 @@
       "social_interactions": 47,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 50.8,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11534,7 +11537,7 @@
       "social_interactions": 18,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.29,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11571,7 +11574,7 @@
       "social_interactions": 65,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.75,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11608,7 +11611,7 @@
       "social_interactions": 45,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 52.65,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11645,7 +11648,7 @@
       "social_interactions": 4,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 2.68,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11682,7 +11685,7 @@
       "social_interactions": 51,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 11.07,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11719,7 +11722,7 @@
       "social_interactions": 21,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.01,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11756,7 +11759,7 @@
       "social_interactions": 31,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.38,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11793,7 +11796,7 @@
       "social_interactions": 16,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.15,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11830,7 +11833,7 @@
       "social_interactions": 17,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.51,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11867,7 +11870,7 @@
       "social_interactions": 14,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.52,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11904,7 +11907,7 @@
       "social_interactions": 32,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.41,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11941,7 +11944,7 @@
       "social_interactions": 31,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 3.68,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -11978,7 +11981,7 @@
       "social_interactions": 12,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 3.64,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12015,7 +12018,7 @@
       "social_interactions": 39,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.26,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12052,7 +12055,7 @@
       "social_interactions": 17,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.18,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12089,7 +12092,7 @@
       "social_interactions": 32,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.68,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12126,7 +12129,7 @@
       "social_interactions": 62,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.35,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12163,7 +12166,7 @@
       "social_interactions": 44,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.42,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12200,7 +12203,7 @@
       "social_interactions": 12,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.67,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12237,7 +12240,7 @@
       "social_interactions": 20,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.32,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12274,7 +12277,7 @@
       "social_interactions": 23,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 11.41,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12311,7 +12314,7 @@
       "social_interactions": 27,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.29,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12348,7 +12351,7 @@
       "social_interactions": 14,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.78,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12385,7 +12388,7 @@
       "social_interactions": 17,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.11,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12422,7 +12425,7 @@
       "social_interactions": 27,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.02,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12459,7 +12462,7 @@
       "social_interactions": 28,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.27,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12496,7 +12499,7 @@
       "social_interactions": 17,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.62,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12533,7 +12536,7 @@
       "social_interactions": 72,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.37,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12570,7 +12573,7 @@
       "social_interactions": 26,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.39,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12591,7 +12594,7 @@
       "impressions": 1467,
       "reach": 0,
       "engagements": 93,
-      "clicks": 69,
+      "clicks": 137,
       "ctr": 9.25,
       "reactions": 17,
       "comments": 1,
@@ -12607,7 +12610,7 @@
       "social_interactions": 24,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 12.47,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12628,7 +12631,7 @@
       "impressions": 2089,
       "reach": 0,
       "engagements": 103,
-      "clicks": 69,
+      "clicks": 135,
       "ctr": 6.41,
       "reactions": 25,
       "comments": 2,
@@ -12644,7 +12647,7 @@
       "social_interactions": 34,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.56,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12665,7 +12668,7 @@
       "impressions": 1028,
       "reach": 0,
       "engagements": 9,
-      "clicks": 4,
+      "clicks": 8,
       "ctr": 0.75,
       "reactions": 4,
       "comments": 0,
@@ -12681,7 +12684,7 @@
       "social_interactions": 5,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 1.69,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12702,7 +12705,7 @@
       "impressions": 2812,
       "reach": 0,
       "engagements": 1069,
-      "clicks": 1046,
+      "clicks": 2046,
       "ctr": 72.34,
       "reactions": 17,
       "comments": 0,
@@ -12718,7 +12721,7 @@
       "social_interactions": 23,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 73.93,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12739,7 +12742,7 @@
       "impressions": 1666,
       "reach": 0,
       "engagements": 57,
-      "clicks": 36,
+      "clicks": 72,
       "ctr": 4.22,
       "reactions": 16,
       "comments": 0,
@@ -12755,7 +12758,7 @@
       "social_interactions": 21,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.67,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12776,7 +12779,7 @@
       "impressions": 1455,
       "reach": 0,
       "engagements": 52,
-      "clicks": 23,
+      "clicks": 46,
       "ctr": 3.04,
       "reactions": 21,
       "comments": 2,
@@ -12792,7 +12795,7 @@
       "social_interactions": 29,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.87,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12813,7 +12816,7 @@
       "impressions": 1284,
       "reach": 0,
       "engagements": 58,
-      "clicks": 36,
+      "clicks": 72,
       "ctr": 5.37,
       "reactions": 16,
       "comments": 1,
@@ -12829,7 +12832,7 @@
       "social_interactions": 22,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.66,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12850,7 +12853,7 @@
       "impressions": 1387,
       "reach": 0,
       "engagements": 64,
-      "clicks": 40,
+      "clicks": 79,
       "ctr": 5.51,
       "reactions": 18,
       "comments": 3,
@@ -12866,7 +12869,7 @@
       "social_interactions": 24,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.82,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12887,7 +12890,7 @@
       "impressions": 1546,
       "reach": 0,
       "engagements": 65,
-      "clicks": 41,
+      "clicks": 81,
       "ctr": 5.2,
       "reactions": 18,
       "comments": 4,
@@ -12903,7 +12906,7 @@
       "social_interactions": 24,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.25,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12924,7 +12927,7 @@
       "impressions": 900,
       "reach": 0,
       "engagements": 34,
-      "clicks": 6,
+      "clicks": 12,
       "ctr": 1.31,
       "reactions": 27,
       "comments": 0,
@@ -12940,7 +12943,7 @@
       "social_interactions": 28,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.44,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12961,7 +12964,7 @@
       "impressions": 2229,
       "reach": 0,
       "engagements": 87,
-      "clicks": 51,
+      "clicks": 101,
       "ctr": 4.39,
       "reactions": 29,
       "comments": 1,
@@ -12977,7 +12980,7 @@
       "social_interactions": 36,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.48,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -12998,7 +13001,7 @@
       "impressions": 1247,
       "reach": 0,
       "engagements": 53,
-      "clicks": 35,
+      "clicks": 70,
       "ctr": 5.42,
       "reactions": 15,
       "comments": 0,
@@ -13014,7 +13017,7 @@
       "social_interactions": 18,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.2,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13035,7 +13038,7 @@
       "impressions": 627,
       "reach": 0,
       "engagements": 20,
-      "clicks": 7,
+      "clicks": 13,
       "ctr": 2.05,
       "reactions": 12,
       "comments": 0,
@@ -13051,7 +13054,7 @@
       "social_interactions": 13,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.85,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13072,7 +13075,7 @@
       "impressions": 974,
       "reach": 0,
       "engagements": 34,
-      "clicks": 16,
+      "clicks": 32,
       "ctr": 3.01,
       "reactions": 15,
       "comments": 0,
@@ -13088,7 +13091,7 @@
       "social_interactions": 18,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.39,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13109,7 +13112,7 @@
       "impressions": 629,
       "reach": 0,
       "engagements": 26,
-      "clicks": 10,
+      "clicks": 20,
       "ctr": 3.06,
       "reactions": 14,
       "comments": 0,
@@ -13125,7 +13128,7 @@
       "social_interactions": 16,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.95,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13146,7 +13149,7 @@
       "impressions": 3443,
       "reach": 0,
       "engagements": 175,
-      "clicks": 141,
+      "clicks": 281,
       "ctr": 7.79,
       "reactions": 27,
       "comments": 1,
@@ -13162,7 +13165,7 @@
       "social_interactions": 34,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.67,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13183,7 +13186,7 @@
       "impressions": 7325,
       "reach": 0,
       "engagements": 5326,
-      "clicks": 5253,
+      "clicks": 10131,
       "ctr": 130.9,
       "reactions": 67,
       "comments": 1,
@@ -13199,7 +13202,7 @@
       "social_interactions": 73,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 132.72,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13220,7 +13223,7 @@
       "impressions": 3970,
       "reach": 0,
       "engagements": 266,
-      "clicks": 203,
+      "clicks": 388,
       "ctr": 9.68,
       "reactions": 53,
       "comments": 1,
@@ -13236,7 +13239,7 @@
       "social_interactions": 63,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 12.68,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13257,7 +13260,7 @@
       "impressions": 3965,
       "reach": 0,
       "engagements": 268,
-      "clicks": 186,
+      "clicks": 362,
       "ctr": 8.35,
       "reactions": 66,
       "comments": 7,
@@ -13273,7 +13276,7 @@
       "social_interactions": 82,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 12.03,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13294,7 +13297,7 @@
       "impressions": 2945,
       "reach": 0,
       "engagements": 2501,
-      "clicks": 2472,
+      "clicks": 4382,
       "ctr": 145.41,
       "reactions": 26,
       "comments": 0,
@@ -13310,7 +13313,7 @@
       "social_interactions": 29,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 147.12,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13331,7 +13334,7 @@
       "impressions": 3013,
       "reach": 0,
       "engagements": 210,
-      "clicks": 183,
+      "clicks": 374,
       "ctr": 11.25,
       "reactions": 20,
       "comments": 2,
@@ -13347,7 +13350,7 @@
       "social_interactions": 27,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 12.92,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13384,7 +13387,7 @@
       "social_interactions": 25,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.27,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13405,7 +13408,7 @@
       "impressions": 2718,
       "reach": 0,
       "engagements": 181,
-      "clicks": 159,
+      "clicks": 231,
       "ctr": 8.1,
       "reactions": 20,
       "comments": 0,
@@ -13421,7 +13424,7 @@
       "social_interactions": 22,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.23,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13458,7 +13461,7 @@
       "social_interactions": 26,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 8.32,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13495,7 +13498,7 @@
       "social_interactions": 28,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 11.52,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13532,7 +13535,7 @@
       "social_interactions": 59,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 61.66,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13569,7 +13572,7 @@
       "social_interactions": 53,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 16.01,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13606,7 +13609,7 @@
       "social_interactions": 13,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 68.45,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13643,7 +13646,7 @@
       "social_interactions": 21,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.49,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13680,7 +13683,7 @@
       "social_interactions": 30,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 15.29,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13717,7 +13720,7 @@
       "social_interactions": 14,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.59,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13754,7 +13757,7 @@
       "social_interactions": 7,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 3.77,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13791,7 +13794,7 @@
       "social_interactions": 20,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 11.28,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13812,7 +13815,7 @@
       "impressions": 3993,
       "reach": 0,
       "engagements": 2875,
-      "clicks": 2796,
+      "clicks": 2775,
       "ctr": 70.02,
       "reactions": 69,
       "comments": 7,
@@ -13828,7 +13831,7 @@
       "social_interactions": 79,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 72,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13859,13 +13862,13 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.76,
+      "social_er_pct": 1.77,
       "platform_er_pct": 6.82,
       "raw_er_pct": 6.87,
       "social_interactions": 16,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.87,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13902,7 +13905,7 @@
       "social_interactions": 32,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 11.01,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13923,7 +13926,7 @@
       "impressions": 3205,
       "reach": 0,
       "engagements": 2118,
-      "clicks": 2055,
+      "clicks": 2040,
       "ctr": 64.12,
       "reactions": 57,
       "comments": 0,
@@ -13939,7 +13942,7 @@
       "social_interactions": 63,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 66.08,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -13976,7 +13979,7 @@
       "social_interactions": 25,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.74,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14007,13 +14010,13 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.49,
+      "social_er_pct": 3.5,
       "platform_er_pct": 7.13,
       "raw_er_pct": 7.13,
       "social_interactions": 49,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 7.13,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14050,7 +14053,7 @@
       "social_interactions": 14,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 6.14,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14087,7 +14090,7 @@
       "social_interactions": 20,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 5.56,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14124,7 +14127,7 @@
       "social_interactions": 17,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.95,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14161,7 +14164,7 @@
       "social_interactions": 11,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 10.55,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14198,7 +14201,7 @@
       "social_interactions": 17,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 68.75,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14235,7 +14238,7 @@
       "social_interactions": 32,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 28.78,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14266,13 +14269,13 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 10.79,
+      "social_er_pct": 10.83,
       "platform_er_pct": 130.79,
       "raw_er_pct": 131.21,
       "social_interactions": 34,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 131.21,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14303,13 +14306,13 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 4.74,
+      "social_er_pct": 4.75,
       "platform_er_pct": 160.18,
       "raw_er_pct": 160.46,
       "social_interactions": 27,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 160.46,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   },
   {
@@ -14346,7 +14349,7 @@
       "social_interactions": 67,
       "engagement_spec_version": 1,
       "engagement_rate_DEPRECATED": 9.57,
-      "metrics_synced_at": "2026-08-17T20:44:49Z"
+      "metrics_synced_at": "2026-08-18T00:10:38Z"
     }
   }
 ]

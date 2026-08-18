@@ -1,6 +1,6 @@
 # TITAN Content Master Index
 
-**Generated:** 2026-08-17
+**Generated:** 2026-08-18
 
 This file gives Claude a single-read overview of all published content.
 For full post details, read the brand-specific indexes.
@@ -22,7 +22,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-07-08-up-early-stand-ready-team-on-the-floor
 **Date:** 2026-07-08 | **Type:** multi-image
-**Impressions:** 314 | **Social ER:** 10.79% | **CTR:** 120.38%
+**Impressions:** 314 | **Social ER:** 10.83% | **CTR:** 120.38%
 **Reactions:** 29 | **Comments:** 0 | **Reposts:** 5 | **Clicks:** 378
 > Up early. Stand ready. Team on the floor.  Titan is at Central Hall Westminster today for the ProPharmace Future Pharmacist Conference.  Nas and Maj are on the stand all day, meeting the next generati...
 
@@ -94,7 +94,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-07-09-yesterday-s-inaugural-future-pharmacist-conference
 **Date:** 2026-07-09 | **Type:** multi-image
-**Impressions:** 569 | **Social ER:** 4.74% | **CTR:** 155.71%
+**Impressions:** 569 | **Social ER:** 4.75% | **CTR:** 155.71%
 **Reactions:** 20 | **Comments:** 0 | **Reposts:** 7 | **Clicks:** 886
 > Yesterday’s inaugural Future Pharmacist Conference was fire.  And not just because @Central Hall Westminster was boiling. 😂🥵  It was the reaction in the room.  A room full of future pharmacists, man...
 
@@ -114,7 +114,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-07-09-yesterday-s-inaugural-future-pharmacist-conference
 **Date:** 2026-07-09 | **Type:** multi-image
-**Impressions:** 569 | **Social ER:** 4.74% | **CTR:** 155.71%
+**Impressions:** 569 | **Social ER:** 4.75% | **CTR:** 155.71%
 **Reactions:** 20 | **Comments:** 0 | **Reposts:** 7 | **Clicks:** 886
 > Yesterday’s inaugural Future Pharmacist Conference was fire.  And not just because @Central Hall Westminster was boiling. 😂🥵  It was the reaction in the room.  A room full of future pharmacists, man...
 
@@ -126,7 +126,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-07-08-up-early-stand-ready-team-on-the-floor
 **Date:** 2026-07-08 | **Type:** multi-image
-**Impressions:** 314 | **Social ER:** 10.79% | **CTR:** 120.38%
+**Impressions:** 314 | **Social ER:** 10.83% | **CTR:** 120.38%
 **Reactions:** 29 | **Comments:** 0 | **Reposts:** 5 | **Clicks:** 378
 > Up early. Stand ready. Team on the floor.  Titan is at Central Hall Westminster today for the ProPharmace Future Pharmacist Conference.  Nas and Maj are on the stand all day, meeting the next generati...
 
@@ -168,7 +168,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-06-30-if-you-re-building-the-next-version-of-your-pharma
 **Date:** 2026-06-30 | **Type:** single-image
-**Impressions:** 1,402 | **Social ER:** 3.49% | **CTR:** 3.64%
+**Impressions:** 1,402 | **Social ER:** 3.5% | **CTR:** 3.64%
 **Reactions:** 28 | **Comments:** 7 | **Reposts:** 14 | **Clicks:** 51
 > If you're building the next version of your pharmacy,   come and see one already taking shape.  On Friday 24 July, @Jaya Sai Vamsi Reddy Authunuri and Marton Road Pharmacy in Bridlington are opening t...
 
@@ -210,7 +210,7 @@ For full post details, read the brand-specific indexes.
 
 [TITAN] ### 2026-06-24-running-seven-pharmacies-could-keep-anyone-stuck-i
 **Date:** 2026-06-24 | **Type:** video
-**Impressions:** 903 | **Social ER:** 1.76% | **CTR:** 5.09%
+**Impressions:** 903 | **Social ER:** 1.77% | **CTR:** 5.09%
 **Reactions:** 12 | **Comments:** 0 | **Reposts:** 4 | **Clicks:** 46
 > Running seven pharmacies could keep anyone stuck in the dispensary. Here's how @Steffan John stays with patients and runs a more profitable pharmacy business. 👇   #CommunityPharmacy #IndependentPharm...
 
