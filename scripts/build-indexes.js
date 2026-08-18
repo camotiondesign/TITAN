@@ -88,6 +88,27 @@ function readPublishedPosts(publishedDir) {
  *
  * Priority: platform_api > flat > notionsocial
  */
+/**
+ * Canonical social engagement rate for index/ranking purposes.
+ *
+ * (reactions + comments + reposts) / impressions x 100 — clicks excluded.
+ * Prefers metrics.json .engagement (written by the ingest/backfill scripts);
+ * recomputes from components when absent so old rows still rank correctly.
+ *
+ * This drives the "top performers" tables. Using the old click-inflated
+ * engagement_rate here ranked document and link posts above everything else.
+ * See docs/engagement-rate-definition.md.
+ */
+function socialEr(m, impressions, reactions, comments, reposts) {
+  if (m && m.engagement && m.engagement.social_er_pct !== null && m.engagement.social_er_pct !== undefined) {
+    return m.engagement.social_er_pct;
+  }
+  const imp = parseNum(impressions);
+  if (!imp) return 0;
+  const inter = parseNum(reactions) + parseNum(comments) + parseNum(reposts);
+  return Math.round((inter / imp) * 10000) / 100;
+}
+
 function extractMetrics(m) {
   if (!m) return { impressions: 0, engRate: 0, reactions: 0, comments: 0, reposts: 0, clicks: 0, ctr: 0, views: 0, boosted: false, source: 'none' };
 
@@ -100,7 +121,7 @@ function extractMetrics(m) {
     // Old format — full LinkedIn API metrics in flat structure
     return {
       impressions: m.impressions || 0,
-      engRate: parseNum(m.engagement_rate),
+      engRate: socialEr(m, m.impressions, m.reactions, m.comments, m.reposts),
       reactions: m.reactions || 0,
       comments: m.comments || 0,
       reposts: m.reposts || 0,
@@ -116,7 +137,7 @@ function extractMetrics(m) {
     // New format with populated platform API data
     return {
       impressions: api.impressions || 0,
-      engRate: parseNum(api.engagement_rate),
+      engRate: socialEr(m, api.impressions, api.reactions || api.likes, api.comments, api.reposts || api.shares),
       reactions: api.reactions || api.likes || 0,
       comments: api.comments || 0,
       reposts: api.reposts || api.shares || 0,
@@ -169,7 +190,7 @@ function formatPostEntry(post) {
     // Surface metrics only — show what we have
     entry += `**Views:** ${mx.views.toLocaleString()} | **Likes:** ${mx.reactions} | **Comments:** ${mx.comments} | **Shares:** ${mx.reposts}\n`;
   } else {
-    entry += `**Impressions:** ${mx.impressions.toLocaleString()} | **Engagement:** ${mx.engRate}% | **CTR:** ${mx.ctr}%\n`;
+    entry += `**Impressions:** ${mx.impressions.toLocaleString()} | **Social ER:** ${mx.engRate}% | **CTR:** ${mx.ctr}%\n`;
     entry += `**Reactions:** ${mx.reactions} | **Comments:** ${mx.comments} | **Reposts:** ${mx.reposts} | **Clicks:** ${mx.clicks.toLocaleString()}`;
     if (mx.views > 0) entry += ` | **Views:** ${mx.views.toLocaleString()}`;
     entry += '\n';

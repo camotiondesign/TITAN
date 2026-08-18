@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { computeEngagement } = require('./lib/engagement');
 
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 const OUTPUT_PATH = path.join(__dirname, '..', 'analytics', 'aggregated-linkedin-metrics.json');
@@ -150,11 +151,25 @@ function loadPostMetrics(filePath) {
       engagements: hasOrganic
         ? (organicMetrics.engagements || 0)
         : ((notionsocial.likes || 0) + (notionsocial.comments || 0) + (notionsocial.shares || 0)),
-      engagement_rate: hasOrganic
-        ? (organicMetrics.engagement_rate || 0)
-        : (notionsocial.views > 0
-          ? (((notionsocial.likes || 0) + (notionsocial.comments || 0) + (notionsocial.shares || 0)) / notionsocial.views * 100)
-          : 0),
+      // Canonical engagement — see docs/engagement-rate-definition.md.
+      // metrics.json .engagement is written by ingest-metricool-csv.js /
+      // backfill-engagement.js; recompute only if a post somehow lacks it.
+      ...(() => {
+        const eng = metrics.engagement || computeEngagement(metrics.platform || 'linkedin', {
+          impressions: organicMetrics.impressions || notionsocial.views || 0,
+          reactions: hasOrganic ? organicMetrics.reactions : notionsocial.likes,
+          comments: hasOrganic ? organicMetrics.comments : notionsocial.comments,
+          reposts: hasOrganic ? organicMetrics.reposts : notionsocial.shares,
+          clicks: organicMetrics.clicks || 0,
+        }, { rawErPct: organicMetrics.engagement_rate });
+        return {
+          social_er_pct: eng ? eng.social_er_pct : null,
+          platform_er_pct: eng ? eng.platform_er_pct : null,
+          raw_er_pct: eng ? eng.raw_er_pct : null,
+          // DEPRECATED: mixed definitions across rows. Removed next refresh.
+          engagement_rate_DEPRECATED: hasOrganic ? (organicMetrics.engagement_rate || 0) : 0,
+        };
+      })(),
       // Track data source so dashboard knows the precision level
       metrics_source: hasOrganic ? 'organic_api' : (notionsocial.views > 0 ? 'notionsocial' : 'pending'),
       // Metadata
