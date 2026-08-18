@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Meme single image. Discovery: 948 impressions, 531 members reached. Page activity: 4 page viewers, 0 followers gained. Engagement: 41 engagements (4.3%), 31 clicks (3.3% CTR), 7 reactions, 2 comments, 1 repost.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 0.74,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 948,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 7,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 2.63
+      "impressions": 61.11,
+      "reactions": 2.78
     },
-    "composite_percentile": 2.63,
-    "tier": "underperformed",
+    "composite_percentile": 37.78,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 19,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 8,
+        "of": 19,
+        "value": 948
+      },
+      "reactions": {
+        "rank": 18,
+        "of": 19,
+        "value": 7
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

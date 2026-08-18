@@ -1,6 +1,6 @@
 # Format-aware success signals
 
-Last updated: 2026-08-18
+Last updated: 2026-08-18 (spec_version 3)
 Owner: content ops
 Code: `scripts/lib/format-signals.js` (the only place a signal definition may live)
 
@@ -71,22 +71,34 @@ presence of alt text. Audit those with `format_source` if a tier looks wrong.
 
 ## Primary signal per format
 
-The rationale is the same each time: **what would a person actually do if this
-particular kind of post landed?**
+**Everything is a raw count.** No rates, no per-impression denominators.
 
-| Format | Signal | Weight | Why |
-|---|---|---|---|
-| `single-image` | reactions / impression | 1.0 | Nothing to click, nothing to watch. Did the image make someone react? |
-| `multi-image` | reactions / impression | 0.6 | Baseline response |
-| | reposts / impression | 0.4 | A gallery is browsed and passed on |
-| `carousel-document` | clicks / impression | 0.7 | Opening it IS the engagement — the same clicks that were meaningless as a global rate are the whole point here |
-| | saves / impression | 0.3 | Kept for later (Instagram only) |
-| `video` | completion rate, or mean watch seconds | 0.6 | Did they stay? |
-| | comments / impression | 0.4 | Did it provoke discussion? |
-| `short-form-video` | total views (raw count) | 0.5 | On TikTok/Reels the algorithm decides reach, so how far it travelled IS the outcome, not the denominator |
-| | shares / view | 0.5 | Shares are what buy distribution |
-| `text` | reactions / impression | 0.5 | No asset to carry it |
-| | comments / impression | 0.5 | The words have to earn the reply |
+For Titan's B2B audience, **reach is the outcome, not the denominator**. A still
+that reached 7,338 people and pulled 65 reactions did more work than one that
+reached 762 and pulled 37 — even though the second has the prettier rate.
+Dividing by impressions actively penalises the posts that travelled furthest,
+which is backwards for a business trying to get in front of pharmacy owners.
+
+| Format | Signals (raw counts) | Weights |
+|---|---|---|
+| `single-image` | impressions, reactions | 0.6, 0.4 |
+| `multi-image` | impressions, reactions, clicks | 0.5, 0.3, 0.2 |
+| `carousel-document` | impressions, clicks | 0.5, 0.5 |
+| `video` | impressions, reactions, watch-time seconds (comments when watch time is unavailable) | 0.5, 0.3, 0.2 |
+| `short-form-video` | views, shares | 0.6, 0.4 |
+| `text` | impressions, reactions, comments | 0.5, 0.3, 0.2 |
+
+Watch time and comments are **separate keys on purpose**. A percentile compares
+like with like, so pooling seconds and comment counts under one key would rank
+nonsense. Posts with watch time score on watch time; posts without fall back to
+comments, and the weights renormalise.
+
+### No decay factor
+
+Deliberately none. Today's newspaper is tomorrow's fish-and-chip wrapper: social
+posts settle within about 30 days and then stop moving. The 90-day rolling
+cohort already isolates every post to its own generation, so a decay multiplier
+would be double-counting the same effect.
 
 ### Content roles (orthogonal to format)
 
@@ -95,9 +107,9 @@ components rather than replacing them:
 
 | Role | Added signal | Weight | Derived from |
 |---|---|---|---|
-| `advocacy` | reposts / impression | 0.5 | `customer_transformation`, `video_testimonial`, `customer_quote_card` |
-| `sector-thesis` | reposts / impression | 0.35 | `industry_stance`, `thought_leadership`, `reactive_news` |
-| | saves / impression | 0.35 | |
+| `advocacy` | reposts (count) | 0.3 | `customer_transformation`, `video_testimonial`, `customer_quote_card` |
+| `sector-thesis` | reposts (count) | 0.25 | `industry_stance`, `thought_leadership`, `reactive_news` |
+| | saves (count) | 0.25 | |
 | `standard` | — | — | everything else |
 
 Roles come from the repo's existing post-type classifier in
@@ -135,10 +147,27 @@ rank, so the post is marked `insufficient-data` rather than given a fake
 verdict. 394 of 482 posts rank inside a 90-day window; 41 are withheld (small cohort or under the volume floor).
 
 **Scoring.** Each component is percentile-ranked within the cohort
-independently (mid-rank: ties share the midpoint), then combined by normalised
-weight. Percentiles are unitless, which is what lets a raw view count and a
-per-impression rate sit in the same score without a shared denominator — the
-exact problem that made a single ER impossible.
+independently, then combined by normalised weight. Percentiles are unitless,
+which is what lets counts measured in different things — people reached,
+seconds watched, clicks — combine without a shared unit.
+
+Percent rank anchors **best in cohort = 100, worst = 0**, using an `(n-1)`
+denominator. The naive mid-rank form `(below + 0.5*equal) / n` has a ceiling
+that depends on cohort size — the top post scores 96.67 among 15 peers but
+98.15 among 27 — which made composites incomparable across cohorts. Under that
+form a video that was #1 on *every* signal among its 15 peers ranked below a
+weaker post that was #1 among 27. Fixed in spec_version 3.
+
+**Raw ranks.** Alongside the percentiles, every post records its plain
+standing in the cohort so the underlying number is always inspectable and no
+verdict rests on a composite nobody can check:
+
+```json
+"raw_ranks": {
+  "impressions": { "rank": 3, "of": 136, "value": 5517 },
+  "reactions":   { "rank": 21, "of": 136, "value": 30 }
+}
+```
 
 **Tier.**
 
@@ -249,5 +278,5 @@ code, replace it with `signals.tier` + `signals.composite_percentile`.
   construction. Current: 97 worked / 276 middle / 68 underperformed / 41
   insufficient. The mild skew toward `middle` is ties in small cohorts sharing
   a midpoint percentile.
-- `spec_version` is 2. Rows below that predate a definition change — re-run
+- `spec_version` is 3. Rows below that predate a definition change — re-run
   `backfill-signals.js --force` then `compute-format-percentiles.js`.

@@ -52,8 +52,8 @@
   },
   "notes": "Animated loop motion graphics video about guided clinical consultations. Strong engagement: 12.5% engagement rate (85 engagements from 681 impressions). High CTR: 8.4% (57 clicks). Video performance: 221 views, 53m 48s total watch time, 14s average watch time. 19 reactions, 4 comments, 5 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "short-form-video",
@@ -77,31 +77,31 @@
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
+        "weight": 0.6,
         "value": 681,
-        "normalised_weight": 0.37
+        "normalised_weight": 0.48
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.73,
-        "normalised_weight": 0.37
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 5,
+        "normalised_weight": 0.32
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.73,
-        "normalised_weight": 0.259
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 5,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": null,
     "composite_percentile": null,
@@ -109,15 +109,16 @@
     "cohort": {
       "key": "linkedin|short-form-video",
       "window_days": null,
-      "size": 5,
+      "size": 6,
       "min_required": 8
     },
+    "raw_ranks": null,
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

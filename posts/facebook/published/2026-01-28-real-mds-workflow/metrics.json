@@ -24,58 +24,77 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "facebook-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:notionsocial",
     "platform": "facebook",
-    "format": "video",
-    "format_source": "platform_type",
+    "format": "short-form-video",
+    "format_source": "platform_surface",
     "role": "standard",
     "role_source": "default",
     "components": {
-      "impressions": 43,
-      "reach": 31,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "impressions": 735,
+      "reach": 0,
+      "reactions": 8,
+      "comments": 1,
+      "reposts": 1,
       "saves": 0,
-      "clicks": 6,
-      "video_views": 14,
+      "clicks": 0,
+      "video_views": 735,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
-      "clicks_available": true,
+      "clicks_available": false,
       "saves_available": false
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
+        "key": "views",
+        "label": "views",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 735,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
         "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 1
+        "value": 1,
+        "normalised_weight": 0.4
       }
     ],
-    "unmeasurable": [
-      "retention"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "comment_rate": 50
+      "views": 46.67,
+      "shares": 46.67
     },
-    "composite_percentile": 50,
-    "tier": "insufficient-data",
+    "composite_percentile": 46.67,
+    "tier": "middle",
     "cohort": {
-      "key": "facebook|video",
+      "key": "facebook|short-form-video",
       "window_days": null,
-      "size": 12,
+      "size": 16,
       "min_required": 8
     },
+    "raw_ranks": {
+      "views": {
+        "rank": 9,
+        "of": 16,
+        "value": 735
+      },
+      "shares": {
+        "rank": 8,
+        "of": 16,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": true,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

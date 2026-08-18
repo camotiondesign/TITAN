@@ -52,8 +52,8 @@
   },
   "notes": "Influencer-style video promoting TITAN Merch Store. Good engagement rate (8.5%) and video performance (310 views, 13s average watch time, 43% view rate). Strong repost rate (4) indicates message resonates and is being shared.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,41 +76,69 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 13,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 721,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 15,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 4030,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 63.16,
-      "comment_rate": 18.42
+      "impressions": 11.11,
+      "reactions": 52.78,
+      "watch_time_seconds": 11.11
     },
-    "composite_percentile": 45.26,
-    "tier": "middle",
+    "composite_percentile": 23.61,
+    "tier": "underperformed",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 19,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 17,
+        "of": 19,
+        "value": 721
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 19,
+        "value": 15
+      },
+      "watch_time_seconds": {
+        "rank": 17,
+        "of": 19,
+        "value": 4030
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

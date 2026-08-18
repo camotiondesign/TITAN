@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Positioning content that differentiates TITAN as innovator from legacy PMRs as imitators. Visual concept (split lightbulb) effectively communicated differentiation. Good engagement (7.5% engagement rate, 5.6% CTR) validates positioning approach. Discussion prompt didn't generate broader conversation despite good engagement.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,43 +76,69 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.57,
-        "normalised_weight": 0.741
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1210,
+        "normalised_weight": 0.48
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.25,
-        "normalised_weight": 0.259
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 19,
+        "normalised_weight": 0.32
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 3,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "reaction_rate": 43.01,
-      "repost_rate": 43.48
+      "impressions": 59.85,
+      "reactions": 58.76,
+      "reposts": 44
     },
-    "composite_percentile": 43.13,
+    "composite_percentile": 56.33,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": null,
-      "size": 136,
+      "size": 138,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 56,
+        "of": 138,
+        "value": 1210
+      },
+      "reactions": {
+        "rank": 55,
+        "of": 138,
+        "value": 19
+      },
+      "reposts": {
+        "rank": 13,
+        "of": 26,
+        "value": 3
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

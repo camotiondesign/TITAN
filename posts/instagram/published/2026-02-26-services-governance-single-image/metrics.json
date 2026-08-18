@@ -26,56 +26,77 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "instagram-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:notionsocial",
     "platform": "instagram",
     "format": "single-image",
-    "format_source": "platform_type",
+    "format_source": "asset_type",
     "role": "standard",
     "role_source": "default",
     "components": {
-      "impressions": 27,
-      "reach": 14,
-      "reactions": 2,
-      "comments": 0,
-      "reposts": 0,
+      "impressions": 966,
+      "reach": 0,
+      "reactions": 23,
+      "comments": 1,
+      "reposts": 6,
       "saves": 0,
       "clicks": 0,
-      "video_views": 0,
+      "video_views": 966,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
       "clicks_available": false,
-      "saves_available": true
+      "saves_available": false
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 7.41,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 966,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 23,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 81.25
+      "impressions": 57.14,
+      "reactions": 57.14
     },
-    "composite_percentile": 81.25,
-    "tier": "insufficient-data",
+    "composite_percentile": 57.14,
+    "tier": "middle",
     "cohort": {
       "key": "instagram|single-image",
       "window_days": 90,
       "size": 8,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 8,
+        "value": 966
+      },
+      "reactions": {
+        "rank": 4,
+        "of": 8,
+        "value": 23
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": true,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

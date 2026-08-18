@@ -80,14 +80,14 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "video",
-    "format_source": "platform_type",
-    "role": "standard",
-    "role_source": "default",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:thought_leadership",
     "components": {
       "impressions": 1387,
       "reach": 0,
@@ -95,7 +95,7 @@
       "comments": 3,
       "reposts": 3,
       "saves": 0,
-      "clicks": 79,
+      "clicks": 40,
       "video_views": 0,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
@@ -104,34 +104,84 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.22,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1387,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 18,
+        "normalised_weight": 0.24
+      },
+      {
+        "key": "comments",
+        "label": "comments (fallback when watch time is unavailable)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 3,
+        "normalised_weight": 0.16
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 3,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "retention"
+      "watch_time_seconds",
+      "saves"
     ],
     "percentiles": {
-      "comment_rate": 85.19
+      "impressions": 82,
+      "reactions": 61,
+      "comments": 93.75,
+      "reposts": 40
     },
-    "composite_percentile": 85.19,
-    "tier": "worked",
+    "composite_percentile": 70.44,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
-      "size": 54,
+      "size": 51,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 10,
+        "of": 51,
+        "value": 1387
+      },
+      "reactions": {
+        "rank": 19,
+        "of": 51,
+        "value": 18
+      },
+      "comments": {
+        "rank": 2,
+        "of": 49,
+        "value": 3
+      },
+      "reposts": {
+        "rank": 10,
+        "of": 21,
+        "value": 3
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

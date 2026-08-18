@@ -102,12 +102,12 @@
     "spend": 0
   },
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "format": "video",
-    "format_source": "platform_type",
+    "format": "single-image",
+    "format_source": "asset_type",
     "role": "standard",
     "role_source": "default",
     "components": {
@@ -126,34 +126,53 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 530,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
         "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 1
+        "value": 8,
+        "normalised_weight": 0.4
       }
     ],
-    "unmeasurable": [
-      "retention"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "comment_rate": 20
+      "impressions": 12.12,
+      "reactions": 13.64
     },
-    "composite_percentile": 20,
+    "composite_percentile": 12.73,
     "tier": "underperformed",
     "cohort": {
-      "key": "linkedin|video",
+      "key": "linkedin|single-image",
       "window_days": 90,
-      "size": 25,
+      "size": 34,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 30,
+        "of": 34,
+        "value": 530
+      },
+      "reactions": {
+        "rank": 29,
+        "of": 34,
+        "value": 8
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

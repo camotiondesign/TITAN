@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Single image: 'Can you spot them?' — person in Titan hoodie amid data overload, 'Which metric actually matters?'. Discovery: 1,015 impressions, 566 members reached. Page activity: 4 page viewers, 0 followers gained. Engagement: 48 engagements (4.7%), 34 clicks (3.3% CTR), 11 reactions, 0 comments, 3 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.08,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1015,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 11,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 5.56
+      "impressions": 50,
+      "reactions": 25
     },
-    "composite_percentile": 5.56,
-    "tier": "underperformed",
+    "composite_percentile": 40,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 9,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 5,
+        "of": 9,
+        "value": 1015
+      },
+      "reactions": {
+        "rank": 7,
+        "of": 9,
+        "value": 11
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -52,8 +52,8 @@
   },
   "notes": "Single image post about central NMS delivery for multi-branch pharmacies. Engagement rate: 8.5% (62 engagements from 731 impressions). CTR: 5.9% (43 clicks). 18 reactions, 0 comments, 1 repost.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 2.46,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 731,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 18,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 78.33
+      "impressions": 17.24,
+      "reactions": 55.17
     },
-    "composite_percentile": 78.33,
-    "tier": "worked",
+    "composite_percentile": 32.41,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 30,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 25,
+        "of": 30,
+        "value": 731
+      },
+      "reactions": {
+        "rank": 14,
+        "of": 30,
+        "value": 18
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

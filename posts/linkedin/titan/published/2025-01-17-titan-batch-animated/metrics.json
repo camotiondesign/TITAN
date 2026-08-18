@@ -51,8 +51,8 @@
   "notes": "Post boosted from 2025-01-17 to 2025-01-18. Strong organic performance (5.5% engagement rate, 3.7% CTR) but sponsored spend (£291.76) delivered minimal uplift - only 51 impressions with 0 engagements. Unusually high eCPM indicates inefficient spend. Feature-focused ads convert poorly without warm touchpoint.",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -75,41 +75,69 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 13,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1804,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.17,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 24,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 8190,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 49.45,
-      "comment_rate": 74.72
+      "impressions": 81.82,
+      "reactions": 74.43,
+      "watch_time_seconds": 56.67
     },
-    "composite_percentile": 59.56,
+    "composite_percentile": 74.57,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": null,
-      "size": 180,
+      "size": 177,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 33,
+        "of": 177,
+        "value": 1804
+      },
+      "reactions": {
+        "rank": 44,
+        "of": 177,
+        "value": 24
+      },
+      "watch_time_seconds": {
+        "rank": 40,
+        "of": 91,
+        "value": 8190
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

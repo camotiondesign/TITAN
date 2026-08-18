@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Single image: YouGov data – pharmacy ranked #1 for healthcare access. Discovery: 1,407 impressions, 809 members reached. Page activity: 4 page viewers, 0 followers gained. Engagement: 77 engagements (5.5%), 51 clicks (3.6% CTR), 17 reactions, 1 comment, 8 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,42 +76,63 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.21,
-        "normalised_weight": 0.741
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1407,
+        "normalised_weight": 0.48
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.57,
-        "normalised_weight": 0.259
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 17,
+        "normalised_weight": 0.32
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 8,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "reaction_rate": 23.33
+      "impressions": 78.57,
+      "reactions": 71.43
     },
-    "composite_percentile": 23.33,
-    "tier": "underperformed",
+    "composite_percentile": 75.71,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 15,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 15,
+        "value": 1407
+      },
+      "reactions": {
+        "rank": 5,
+        "of": 15,
+        "value": 17
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

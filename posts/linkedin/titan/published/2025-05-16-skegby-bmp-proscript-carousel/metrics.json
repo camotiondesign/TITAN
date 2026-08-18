@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Skegby Pharmacy / BMP Healthcare: 15 years ProScript → Titan, 25,000+ items, 8/11 sites live. Discovery: 2,196 impressions, 998 members reached. Engagement: 1,218 engagements (55.5%), 1,188 clicks (54.1% CTR), 25 reactions, 2 comments, 3 reposts. Page viewers: 7, followers gained: 0.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,42 +76,61 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 54.1,
-        "normalised_weight": 0.583
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 2196,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.14,
-        "normalised_weight": 0.417
+        "value": 1188,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 3,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 53.57
+      "impressions": 84.62,
+      "clicks": 84.62
     },
-    "composite_percentile": 53.57,
-    "tier": "middle",
+    "composite_percentile": 84.62,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 3,
+        "of": 14,
+        "value": 2196
+      },
+      "clicks": {
+        "rank": 3,
+        "of": 14,
+        "value": 1188
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

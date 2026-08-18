@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Event promotion effectively built anticipation for Titanverse launch at The Pharmacy Show. Strong follower growth (9 followers) and reposts (7) indicate high interest in Titanverse product launch. Comments from Nas Khaliq and Balal Anwar show anticipation. Good engagement (7.6% engagement rate, 5.2% CTR) indicates strong interest in event promotion content.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,19 +76,28 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.58,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1075,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 17,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 42.86
+      "impressions": 50,
+      "reactions": 57.5
     },
-    "composite_percentile": 42.86,
+    "composite_percentile": 53,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
@@ -96,12 +105,24 @@
       "size": 21,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 11,
+        "of": 21,
+        "value": 1075
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 21,
+        "value": 17
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

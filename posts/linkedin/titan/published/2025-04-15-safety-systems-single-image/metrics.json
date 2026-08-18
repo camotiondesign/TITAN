@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Single image: pharmacy safety infographic (mistakes, triple safety net, 500 near misses prevented daily, Titan branding). Discovery: 536 impressions, 240 members reached. Page activity: 1 page viewer, 0 followers gained. Engagement: 19 engagements (3.5%), 11 clicks (2.1% CTR), 7 reactions, 0 comments, 1 repost.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,19 +76,28 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.31,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 536,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 7,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 4.55
+      "impressions": 10,
+      "reactions": 5
     },
-    "composite_percentile": 4.55,
+    "composite_percentile": 8,
     "tier": "underperformed",
     "cohort": {
       "key": "linkedin|single-image",
@@ -96,12 +105,24 @@
       "size": 11,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 10,
+        "of": 11,
+        "value": 536
+      },
+      "reactions": {
+        "rank": 10,
+        "of": 11,
+        "value": 7
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

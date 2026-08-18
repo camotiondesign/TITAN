@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Strong scaling message ('50 patients at a time') and efficiency gains resonated with audience. Good engagement (8.5% engagement rate, 7.4% CTR) and strong watch time (15 seconds average) indicate strong audience interest in scaling solutions. The message about scaling without increasing man hours addressed a core concern for pharmacy owners.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,28 +76,39 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 15,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1375,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.07,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 12,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 13080,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 72.22,
-      "comment_rate": 38.89
+      "impressions": 50,
+      "reactions": 31.25,
+      "watch_time_seconds": 87.5
     },
-    "composite_percentile": 58.89,
+    "composite_percentile": 51.88,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -105,12 +116,29 @@
       "size": 9,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 5,
+        "of": 9,
+        "value": 1375
+      },
+      "reactions": {
+        "rank": 6,
+        "of": 9,
+        "value": 12
+      },
+      "watch_time_seconds": {
+        "rank": 2,
+        "of": 9,
+        "value": 13080
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

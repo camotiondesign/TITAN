@@ -52,8 +52,8 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 2.11,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1043,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 22,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 69.49
+      "impressions": 51.09,
+      "reactions": 66.06
     },
-    "composite_percentile": 69.49,
+    "composite_percentile": 57.08,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": null,
-      "size": 136,
+      "size": 138,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 68,
+        "of": 138,
+        "value": 1043
+      },
+      "reactions": {
+        "rank": 45,
+        "of": 138,
+        "value": 22
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

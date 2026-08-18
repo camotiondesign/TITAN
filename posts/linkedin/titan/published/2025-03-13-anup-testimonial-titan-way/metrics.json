@@ -52,8 +52,8 @@
   },
   "notes": "Anup testimonial about The Titan Way. Strong engagement rate (13.2%) and CTR (9.4%) with excellent video performance (406 views, 14s average watch time, 51% view rate). High reaction count (26) and comments (2) indicate strong message resonance.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,37 +76,48 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 14,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.25,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.25,
-        "normalised_weight": 0.333
+        "value": 796,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 26,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 5684,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 2,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 71.43,
-      "comment_rate": 78.57,
-      "repost_rate": 57.69
+      "impressions": 15,
+      "reactions": 95,
+      "watch_time_seconds": 25,
+      "reposts": 45.83
     },
-    "composite_percentile": 68.76,
+    "composite_percentile": 42.11,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -114,12 +125,34 @@
       "size": 21,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 18,
+        "of": 21,
+        "value": 796
+      },
+      "reactions": {
+        "rank": 2,
+        "of": 21,
+        "value": 26
+      },
+      "watch_time_seconds": {
+        "rank": 16,
+        "of": 21,
+        "value": 5684
+      },
+      "reposts": {
+        "rank": 7,
+        "of": 13,
+        "value": 2
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

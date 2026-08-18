@@ -52,8 +52,8 @@
   },
   "notes": "The Titan Way main campaign video - exceptional organic performance with 20.2% engagement rate and 14.9% CTR. Strong video metrics: 1,539 views with 12s average watch time. Sponsored boost ran 27-31 March with lower engagement (0.1%) but significant reach amplification. High-quality comments from pharmacy professionals validate messaging. This video serves as the campaign hero asset explaining the complete Titan Way workflow transformation.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,28 +76,39 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 12,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 738,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.95,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 24,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 18468,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 40.91,
-      "comment_rate": 93.18
+      "impressions": 14.29,
+      "reactions": 83.33,
+      "watch_time_seconds": 90.48
     },
-    "composite_percentile": 61.82,
+    "composite_percentile": 50.24,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -105,12 +116,29 @@
       "size": 22,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 19,
+        "of": 22,
+        "value": 738
+      },
+      "reactions": {
+        "rank": 4,
+        "of": 22,
+        "value": 24
+      },
+      "watch_time_seconds": {
+        "rank": 3,
+        "of": 22,
+        "value": 18468
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

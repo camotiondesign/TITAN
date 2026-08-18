@@ -27,65 +27,77 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "tiktok-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:notionsocial",
     "platform": "tiktok",
     "format": "short-form-video",
-    "format_source": "platform_type",
+    "format_source": "platform_surface",
     "role": "standard",
     "role_source": "default",
     "components": {
-      "impressions": 892,
+      "impressions": 59,
       "reach": 0,
-      "reactions": 19,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 1,
+      "reposts": 0,
       "saves": 0,
       "clicks": 0,
-      "video_views": 892,
+      "video_views": 59,
       "avg_watch_time_seconds": 0,
-      "duration_seconds": 77,
+      "duration_seconds": 0,
       "clicks_available": false,
       "saves_available": false
     },
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
-        "value": 892,
-        "normalised_weight": 0.5
+        "weight": 0.6,
+        "value": 59,
+        "normalised_weight": 0.6
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.11,
-        "normalised_weight": 0.5
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "views": 37.5,
-      "share_rate": 25
+      "views": 0,
+      "shares": 9.09
     },
-    "composite_percentile": 31.25,
-    "tier": "middle",
+    "composite_percentile": 3.64,
+    "tier": "insufficient-data",
     "cohort": {
       "key": "tiktok|short-form-video",
       "window_days": 90,
       "size": 12,
       "min_required": 8
     },
+    "raw_ranks": {
+      "views": {
+        "rank": 12,
+        "of": 12,
+        "value": 59
+      },
+      "shares": {
+        "rank": 10,
+        "of": 12,
+        "value": 0
+      }
+    },
+    "low_volume": true,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

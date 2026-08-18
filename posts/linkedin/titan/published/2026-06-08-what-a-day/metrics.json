@@ -80,12 +80,12 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "video",
-    "format_source": "platform_type",
+    "format_source": "asset_type",
     "role": "standard",
     "role_source": "default",
     "components": {
@@ -95,7 +95,7 @@
       "comments": 7,
       "reposts": 9,
       "saves": 0,
-      "clicks": 362,
+      "clicks": 186,
       "video_views": 0,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
@@ -104,34 +104,69 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.18,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3965,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 66,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "comments",
+        "label": "comments (fallback when watch time is unavailable)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 7,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "retention"
+      "watch_time_seconds"
     ],
     "percentiles": {
-      "comment_rate": 81.37
+      "impressions": 97.96,
+      "reactions": 100,
+      "comments": 100
     },
-    "composite_percentile": 81.37,
+    "composite_percentile": 98.98,
     "tier": "worked",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
-      "size": 51,
+      "size": 50,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 2,
+        "of": 50,
+        "value": 3965
+      },
+      "reactions": {
+        "rank": 1,
+        "of": 50,
+        "value": 66
+      },
+      "comments": {
+        "rank": 1,
+        "of": 50,
+        "value": 7
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

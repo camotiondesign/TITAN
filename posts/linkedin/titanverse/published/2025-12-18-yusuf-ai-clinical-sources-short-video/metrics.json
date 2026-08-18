@@ -52,8 +52,8 @@
   },
   "notes": "Short video clip from Yusuf discussing AI clinical sources. Video performance: 198 views, 47m 39s total watch time, 14s average watch time. Engagement rate: 7.9% (47 engagements from 597 impressions). CTR: 4.7% (28 clicks). 14 reactions, 1 comment, 4 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "short-form-video",
@@ -77,27 +77,27 @@
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
+        "weight": 0.6,
         "value": 597,
-        "normalised_weight": 0.333
+        "normalised_weight": 0.462
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.67,
-        "normalised_weight": 0.333
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 4,
+        "normalised_weight": 0.308
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.67,
-        "normalised_weight": 0.333
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 4,
+        "normalised_weight": 0.231
       }
     ],
     "unmeasurable": [],
@@ -107,15 +107,16 @@
     "cohort": {
       "key": "linkedin|short-form-video",
       "window_days": null,
-      "size": 5,
+      "size": 6,
       "min_required": 8
     },
+    "raw_ranks": null,
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

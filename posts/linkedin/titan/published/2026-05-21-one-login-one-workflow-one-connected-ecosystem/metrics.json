@@ -80,12 +80,12 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "text",
-    "format_source": "platform_type",
+    "format_source": "inferred:no_visual_asset",
     "role": "standard",
     "role_source": "default",
     "components": {
@@ -95,7 +95,7 @@
       "comments": 0,
       "reposts": 1,
       "saves": 0,
-      "clicks": 8,
+      "clicks": 4,
       "video_views": 0,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
@@ -104,41 +104,67 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.39,
+        "value": 1028,
         "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.5,
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 4,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "comments",
+        "label": "comments",
+        "kind": "count",
+        "weight": 0.2,
         "value": 0,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 6.25,
-      "comment_rate": 43.75
+      "impressions": 55.56,
+      "reactions": 16.67,
+      "comments": 38.89
     },
-    "composite_percentile": 25,
-    "tier": "underperformed",
+    "composite_percentile": 40.56,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|text",
       "window_days": 90,
-      "size": 8,
+      "size": 10,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 5,
+        "of": 10,
+        "value": 1028
+      },
+      "reactions": {
+        "rank": 8,
+        "of": 10,
+        "value": 4
+      },
+      "comments": {
+        "rank": 3,
+        "of": 10,
+        "value": 0
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

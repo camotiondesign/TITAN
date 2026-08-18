@@ -50,8 +50,8 @@
   },
   "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Follow-up to QR code teaser post.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "video",
@@ -74,41 +74,69 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 11,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 523,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 8,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 1584,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 27.5,
-      "comment_rate": 20
+      "impressions": 18.18,
+      "reactions": 13.64,
+      "watch_time_seconds": 5.26
     },
-    "composite_percentile": 24.5,
+    "composite_percentile": 14.23,
     "tier": "underperformed",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
-      "size": 25,
+      "size": 23,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 19,
+        "of": 23,
+        "value": 523
+      },
+      "reactions": {
+        "rank": 20,
+        "of": 23,
+        "value": 8
+      },
+      "watch_time_seconds": {
+        "rank": 19,
+        "of": 20,
+        "value": 1584
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

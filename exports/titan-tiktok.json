@@ -11,7 +11,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 316,
       "reach": 0,
       "reactions": 4,
@@ -26,20 +26,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 316,
-          "weight": 0.5,
-          "percentile": 3.85
+          "weight": 0.6,
+          "percentile": 8.33
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 7.69
+          "weight": 0.4,
+          "percentile": 8.33
         }
       ],
-      "composite_percentile": 5.77,
+      "composite_percentile": 8.33,
       "tier": "underperformed",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -61,7 +61,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 931,
       "reach": 0,
       "reactions": 9,
@@ -76,20 +76,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 931,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.6,
+          "percentile": 41.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.11,
-          "weight": 0.5,
-          "percentile": 23.08
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.4,
+          "percentile": 33.33
         }
       ],
-      "composite_percentile": 32.7,
+      "composite_percentile": 38.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -111,7 +111,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 1140,
       "reach": 0,
       "reactions": 19,
@@ -126,27 +126,27 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 1140,
-          "weight": 0.37,
-          "percentile": 57.69
+          "weight": 0.48,
+          "percentile": 58.33
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.35,
-          "weight": 0.37,
-          "percentile": 80.77
+          "key": "shares",
+          "label": "shares",
+          "value": 4,
+          "weight": 0.32,
+          "percentile": 83.33
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.35,
-          "weight": 0.259,
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 4,
+          "weight": 0.2,
           "percentile": null
         }
       ],
-      "composite_percentile": 69.23,
+      "composite_percentile": 68.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -155,7 +155,7 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ]
     }
   },
@@ -171,7 +171,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 735,
       "reach": 0,
       "reactions": 8,
@@ -186,20 +186,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 735,
-          "weight": 0.5,
-          "percentile": 19.23
+          "weight": 0.6,
+          "percentile": 25
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.14,
-          "weight": 0.5,
-          "percentile": 42.31
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.4,
+          "percentile": 33.33
         }
       ],
-      "composite_percentile": 30.77,
+      "composite_percentile": 28.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -221,7 +221,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 512,
       "reach": 0,
       "reactions": 4,
@@ -236,20 +236,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 512,
-          "weight": 0.5,
-          "percentile": 11.54
+          "weight": 0.6,
+          "percentile": 16.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.39,
-          "weight": 0.5,
-          "percentile": 88.46
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
+          "percentile": 58.33
         }
       ],
-      "composite_percentile": 50,
+      "composite_percentile": 33.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -271,7 +271,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 756,
       "reach": 0,
       "reactions": 8,
@@ -286,20 +286,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 756,
-          "weight": 0.5,
-          "percentile": 26.92
+          "weight": 0.6,
+          "percentile": 33.33
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.13,
-          "weight": 0.5,
-          "percentile": 34.62
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.4,
+          "percentile": 33.33
         }
       ],
-      "composite_percentile": 30.77,
+      "composite_percentile": 33.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -321,7 +321,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 2095,
       "reach": 0,
       "reactions": 22,
@@ -336,20 +336,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 2095,
-          "weight": 0.5,
-          "percentile": 88.46
+          "weight": 0.6,
+          "percentile": 91.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 7.69
+          "weight": 0.4,
+          "percentile": 8.33
         }
       ],
-      "composite_percentile": 48.08,
+      "composite_percentile": 58.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -371,7 +371,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 1214,
       "reach": 0,
       "reactions": 11,
@@ -386,20 +386,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 1214,
-          "weight": 0.5,
-          "percentile": 81.25
+          "weight": 0.6,
+          "percentile": 85.71
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.25,
-          "weight": 0.5,
-          "percentile": 68.75
+          "key": "shares",
+          "label": "shares",
+          "value": 3,
+          "weight": 0.4,
+          "percentile": 85.71
         }
       ],
-      "composite_percentile": 75,
+      "composite_percentile": 85.71,
       "tier": "worked",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -421,7 +421,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 1152,
       "reach": 0,
       "reactions": 21,
@@ -436,20 +436,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 1152,
-          "weight": 0.5,
-          "percentile": 72.22
+          "weight": 0.6,
+          "percentile": 75
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.17,
-          "weight": 0.5,
-          "percentile": 61.11
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
+          "percentile": 68.75
         }
       ],
-      "composite_percentile": 66.66,
+      "composite_percentile": 72.5,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -471,7 +471,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 2739,
       "reach": 0,
       "reactions": 38,
@@ -486,20 +486,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 2739,
-          "weight": 0.5,
-          "percentile": 95
+          "weight": 0.6,
+          "percentile": 100
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.18,
-          "weight": 0.5,
-          "percentile": 65
+          "key": "shares",
+          "label": "shares",
+          "value": 5,
+          "weight": 0.4,
+          "percentile": 100
         }
       ],
-      "composite_percentile": 80,
+      "composite_percentile": 100,
       "tier": "worked",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -521,7 +521,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 1158,
       "reach": 0,
       "reactions": 18,
@@ -536,20 +536,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 1158,
-          "weight": 0.5,
-          "percentile": 68.18
+          "weight": 0.6,
+          "percentile": 70
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.6,
-          "weight": 0.5,
-          "percentile": 95.45
+          "key": "shares",
+          "label": "shares",
+          "value": 7,
+          "weight": 0.4,
+          "percentile": 100
         }
       ],
-      "composite_percentile": 81.82,
+      "composite_percentile": 82,
       "tier": "worked",
       "cohort": {
         "key": "tiktok|short-form-video",
@@ -570,37 +570,37 @@
     "alt_text": "# Rahul - 2x Consultations and Improved Quality (1) – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 892,
+      "source": "tiktok_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 59,
       "reach": 0,
-      "reactions": 19,
+      "reactions": 0,
       "comments": 0,
-      "reposts": 1,
+      "reposts": 0,
       "saves": 0,
-      "video_views": 892,
+      "video_views": 59,
       "avg_watch_time_seconds": 0,
       "format": "short-form-video",
-      "format_source": "platform_type",
+      "format_source": "platform_surface",
       "content_role": "standard",
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
-          "value": 892,
-          "weight": 0.5,
-          "percentile": 37.5
+          "label": "views",
+          "value": 59,
+          "weight": 0.6,
+          "percentile": 0
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.11,
-          "weight": 0.5,
-          "percentile": 25
+          "key": "shares",
+          "label": "shares",
+          "value": 0,
+          "weight": 0.4,
+          "percentile": 9.09
         }
       ],
-      "composite_percentile": 31.25,
-      "tier": "middle",
+      "composite_percentile": 3.64,
+      "tier": "insufficient-data",
       "cohort": {
         "key": "tiktok|short-form-video",
         "window_days": 90,
@@ -621,7 +621,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 973,
       "reach": 0,
       "reactions": 15,
@@ -636,20 +636,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 973,
-          "weight": 0.5,
+          "weight": 0.6,
           "percentile": 50
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.21,
-          "weight": 0.5,
-          "percentile": 65.38
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
+          "percentile": 58.33
         }
       ],
-      "composite_percentile": 57.69,
+      "composite_percentile": 53.33,
       "tier": "middle",
       "cohort": {
         "key": "tiktok|short-form-video",

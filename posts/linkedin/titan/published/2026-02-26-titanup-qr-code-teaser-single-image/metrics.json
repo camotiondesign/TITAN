@@ -50,8 +50,8 @@
   },
   "notes": "Manually added from LinkedIn admin analytics 2026-04-07. TitanUp teaser. 4 followers gained, 10 reposts, 11 page viewers — highest follower gain in recent period.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -74,32 +74,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.31,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1910,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 25,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 40.63
+      "impressions": 74.19,
+      "reactions": 82.26
     },
-    "composite_percentile": 40.63,
-    "tier": "middle",
+    "composite_percentile": 77.42,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 32,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 9,
+        "of": 32,
+        "value": 1910
+      },
+      "reactions": {
+        "rank": 4,
+        "of": 32,
+        "value": 25
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

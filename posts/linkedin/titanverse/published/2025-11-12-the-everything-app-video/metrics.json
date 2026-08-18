@@ -45,8 +45,8 @@
   "campaign_slug": "2025-11-12-the-everything-app-video",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -69,21 +69,38 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.1,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1013,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 25,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "comments",
+        "label": "comments (fallback when watch time is unavailable)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 1,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "retention"
+      "watch_time_seconds"
     ],
     "percentiles": {
-      "comment_rate": 59.09
+      "impressions": 21.88,
+      "reactions": 46.88
     },
-    "composite_percentile": 59.09,
+    "composite_percentile": 31.25,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -91,12 +108,24 @@
       "size": 33,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 26,
+        "of": 33,
+        "value": 1013
+      },
+      "reactions": {
+        "rank": 18,
+        "of": 33,
+        "value": 25
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

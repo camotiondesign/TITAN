@@ -52,8 +52,8 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,41 +76,69 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 14,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1803,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.17,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 38,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 21952,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 62.5,
-      "comment_rate": 80.77
+      "impressions": 83.33,
+      "reactions": 91.67,
+      "watch_time_seconds": 90.91
     },
-    "composite_percentile": 69.81,
-    "tier": "middle",
+    "composite_percentile": 87.35,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 3,
+        "of": 13,
+        "value": 1803
+      },
+      "reactions": {
+        "rank": 2,
+        "of": 13,
+        "value": 38
+      },
+      "watch_time_seconds": {
+        "rank": 2,
+        "of": 12,
+        "value": 21952
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

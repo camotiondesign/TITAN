@@ -33,7 +33,7 @@
  * See docs/format-signals-definition.md before changing anything here.
  */
 
-const SPEC_VERSION = 2;
+const SPEC_VERSION = 3;
 
 const round2 = (n) => (Number.isFinite(n) ? Math.round(n * 100) / 100 : 0);
 
@@ -166,7 +166,8 @@ function resolveRole(postType, override) {
 
 // ── Signal definitions ──────────────────────────────────────────────────
 
-const rate = (n, d) => (d > 0 ? (n / d) * 100 : null);
+/** Raw count, or null when the source can't report it at all. */
+const count = (n, available = true) => (available && Number.isFinite(n) ? n : null);
 
 /**
  * Each component:
@@ -181,75 +182,87 @@ const rate = (n, d) => (d > 0 ? (n / d) * 100 : null);
  * push a carousel's score down.
  */
 const SIGNALS = {
-  // Nothing to click, nothing to watch. Did the image make someone react?
+  // Reach first, response second. A still that reached 7,338 people and pulled
+  // 65 reactions did more work than one that reached 762 and pulled 37, even
+  // though the second has the prettier rate.
   'single-image': [
-    { key: 'reaction_rate', label: 'reactions per impression', weight: 1, kind: 'rate',
-      value: (c) => rate(c.reactions, c.impressions) },
+    { key: 'impressions', label: 'impressions', weight: 0.6, kind: 'count',
+      value: (c) => count(c.impressions) },
+    { key: 'reactions', label: 'reactions', weight: 0.4, kind: 'count',
+      value: (c) => count(c.reactions) },
   ],
 
-  // A gallery is browsed and passed on; reactions alone undersell it.
+  // A gallery gets opened as well as reacted to.
   'multi-image': [
-    { key: 'reaction_rate', label: 'reactions per impression', weight: 0.6, kind: 'rate',
-      value: (c) => rate(c.reactions, c.impressions) },
-    { key: 'repost_rate', label: 'reposts per impression', weight: 0.4, kind: 'rate',
-      value: (c) => rate(c.reposts, c.impressions) },
+    { key: 'impressions', label: 'impressions', weight: 0.5, kind: 'count',
+      value: (c) => count(c.impressions) },
+    { key: 'reactions', label: 'reactions', weight: 0.3, kind: 'count',
+      value: (c) => count(c.reactions) },
+    { key: 'clicks', label: 'clicks', weight: 0.2, kind: 'count',
+      value: (c) => count(c.clicks, c.clicks_available !== false) },
   ],
 
-  // A carousel succeeds when someone opens it and keeps it. Clicks ARE the
-  // signal here — the same clicks that made them meaningless as a global rate.
-  // Swipe-depth is not exposed by any current export; saves stand in where the
-  // platform reports them (Instagram only).
+  // Opening it IS the engagement, so clicks carry equal weight with reach.
   'carousel-document': [
-    { key: 'click_rate', label: 'clicks per impression', weight: 0.7, kind: 'rate',
-      value: (c) => (c.clicks_available ? rate(c.clicks, c.impressions) : null) },
-    { key: 'save_rate', label: 'saves per impression', weight: 0.3, kind: 'rate',
-      value: (c) => (c.saves_available ? rate(c.saves, c.impressions) : null) },
+    { key: 'impressions', label: 'impressions', weight: 0.5, kind: 'count',
+      value: (c) => count(c.impressions) },
+    { key: 'clicks', label: 'clicks', weight: 0.5, kind: 'count',
+      value: (c) => count(c.clicks, c.clicks_available !== false) },
   ],
 
-  // Retention first, then whether it provoked discussion.
+  // Reach, response, then time spent. Total watch seconds where the export
+  // carries them; comments stand in when it doesn't. They are separate keys on
+  // purpose — percentiles compare like with like, and mixing seconds and
+  // comment counts in one key would rank nonsense.
   video: [
-    { key: 'retention', label: 'completion rate (or mean watch seconds where duration is unknown)',
-      weight: 0.6, kind: 'rate',
+    { key: 'impressions', label: 'impressions', weight: 0.5, kind: 'count',
+      value: (c) => count(c.impressions) },
+    { key: 'reactions', label: 'reactions', weight: 0.3, kind: 'count',
+      value: (c) => count(c.reactions) },
+    { key: 'watch_time_seconds', label: 'total watch time (seconds)', weight: 0.2, kind: 'count',
       value: (c) => {
-        if (c.duration_seconds > 0 && c.avg_watch_time_seconds > 0) {
-          return Math.min(100, (c.avg_watch_time_seconds / c.duration_seconds) * 100);
-        }
-        return c.avg_watch_time_seconds > 0 ? c.avg_watch_time_seconds : null;
+        const total = (c.avg_watch_time_seconds || 0) * (c.video_views || 0);
+        return total > 0 ? Math.round(total) : null;
       } },
-    { key: 'comment_rate', label: 'comments per impression', weight: 0.4, kind: 'rate',
-      value: (c) => rate(c.comments, c.impressions) },
+    { key: 'comments', label: 'comments (fallback when watch time is unavailable)',
+      weight: 0.2, kind: 'count',
+      value: (c) => {
+        const hasWatch = (c.avg_watch_time_seconds || 0) * (c.video_views || 0) > 0;
+        return hasWatch ? null : count(c.comments);
+      } },
   ],
 
   // Short-form lives or dies on distribution, and shares are what buy it.
-  // Views are deliberately a RAW COUNT: on TikTok/Reels the algorithm decides
-  // reach, so "how far did it travel" is the outcome, not the denominator.
   'short-form-video': [
-    { key: 'views', label: 'total views (algorithmic reach)', weight: 0.5, kind: 'count',
-      value: (c) => (c.impressions > 0 ? c.impressions : null) },
-    { key: 'share_rate', label: 'shares per view', weight: 0.5, kind: 'rate',
-      value: (c) => rate(c.reposts, c.impressions) },
+    { key: 'views', label: 'views', weight: 0.6, kind: 'count',
+      value: (c) => count(c.impressions) },
+    { key: 'shares', label: 'shares', weight: 0.4, kind: 'count',
+      value: (c) => count(c.reposts, c.reposts_available !== false) },
   ],
 
-  // No asset to carry it — the words have to earn the reply.
+  // No asset to carry it — reach, then whether the words earned a response.
   text: [
-    { key: 'reaction_rate', label: 'reactions per impression', weight: 0.5, kind: 'rate',
-      value: (c) => rate(c.reactions, c.impressions) },
-    { key: 'comment_rate', label: 'comments per impression', weight: 0.5, kind: 'rate',
-      value: (c) => rate(c.comments, c.impressions) },
+    { key: 'impressions', label: 'impressions', weight: 0.5, kind: 'count',
+      value: (c) => count(c.impressions) },
+    { key: 'reactions', label: 'reactions', weight: 0.3, kind: 'count',
+      value: (c) => count(c.reactions) },
+    { key: 'comments', label: 'comments', weight: 0.2, kind: 'count',
+      value: (c) => count(c.comments) },
   ],
 };
 
 /** Role overlays: extra components appended before weight renormalisation. */
 const ROLE_SIGNALS = {
   advocacy: [
-    { key: 'repost_rate', label: 'reposts per impression (advocacy: someone put their name to it)',
-      weight: 0.5, kind: 'rate', value: (c) => rate(c.reposts, c.impressions) },
+    { key: 'reposts', label: 'reposts (advocacy: someone put their name to it)',
+      weight: 0.3, kind: 'count',
+      value: (c) => count(c.reposts, c.reposts_available !== false) },
   ],
   'sector-thesis': [
-    { key: 'repost_rate', label: 'reposts per impression (thesis: passed on)',
-      weight: 0.35, kind: 'rate', value: (c) => rate(c.reposts, c.impressions) },
-    { key: 'save_rate', label: 'saves per impression (thesis: kept for later)',
-      weight: 0.35, kind: 'rate', value: (c) => (c.saves_available ? rate(c.saves, c.impressions) : null) },
+    { key: 'reposts', label: 'reposts (thesis: passed on)', weight: 0.25, kind: 'count',
+      value: (c) => count(c.reposts, c.reposts_available !== false) },
+    { key: 'saves', label: 'saves (thesis: kept for later)', weight: 0.25, kind: 'count',
+      value: (c) => count(c.saves, c.saves_available === true) },
   ],
   standard: [],
 };
@@ -307,18 +320,29 @@ const TIER_BOTTOM = 25;
 const MIN_IMPRESSIONS = 100;
 
 /**
- * Mid-rank percentile of `value` within `values` (ties share the midpoint).
- * 100 = best in cohort. Returns null for an empty cohort.
+ * Percent rank of `value` within `values`. Best in cohort = 100, worst = 0.
+ *
+ * Uses the (n-1) denominator deliberately. The naive mid-rank form —
+ * (below + 0.5*equal) / n — has a ceiling that depends on cohort size: the top
+ * post scores 96.67 in a 15-post cohort but 98.15 in a 27-post one. That made
+ * composites incomparable across cohorts, so a post that was #1 on every
+ * signal among its 15 peers ranked below a weaker post that was #1 among 27.
+ * Anchoring best=100 and worst=0 removes the artefact.
+ *
+ * Ties share the average of the ranks they span. Returns null for a cohort of
+ * fewer than two, where a rank means nothing.
  */
 function percentileOf(value, values) {
   const n = values.length;
-  if (!n) return null;
+  if (n < 2) return null;
   let below = 0, equal = 0;
   for (const v of values) {
     if (v < value) below++;
     else if (v === value) equal++;
   }
-  return round2(((below + 0.5 * equal) / n) * 100);
+  // equal includes `value` itself; spread the tied block around its midpoint.
+  const tieOffset = equal > 0 ? (equal - 1) / 2 : 0;
+  return round2(((below + tieOffset) / (n - 1)) * 100);
 }
 
 /** Composite percentile → tier label. */

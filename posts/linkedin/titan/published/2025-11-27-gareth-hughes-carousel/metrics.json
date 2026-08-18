@@ -48,8 +48,8 @@
   },
   "notes": "Carousel post featuring Gareth Hughes case study - Independent Pharmacist of the Year winner",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -72,21 +72,28 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 72.33,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1124,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 813,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 65
+      "impressions": 44.44,
+      "clicks": 77.78
     },
-    "composite_percentile": 65,
+    "composite_percentile": 61.11,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -94,12 +101,24 @@
       "size": 10,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 6,
+        "of": 10,
+        "value": 1124
+      },
+      "clicks": {
+        "rank": 3,
+        "of": 10,
+        "value": 813
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

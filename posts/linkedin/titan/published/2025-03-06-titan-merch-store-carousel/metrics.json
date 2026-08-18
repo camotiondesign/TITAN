@@ -52,8 +52,8 @@
   "notes": "TITAN Merch Store launch carousel. Exceptional organic performance with 70.4% engagement rate and 67.9% CTR, indicating strong community interest. High click volume (1,097 clicks) suggests strong intent to visit store. Sponsored campaign ran 3/6-3/12 with 2,383 additional impressions.",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,34 +76,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 67.93,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1615,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1097,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 96.15
+      "impressions": 58.33,
+      "clicks": 75
     },
-    "composite_percentile": 96.15,
-    "tier": "worked",
+    "composite_percentile": 66.66,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 6,
+        "of": 13,
+        "value": 1615
+      },
+      "clicks": {
+        "rank": 4,
+        "of": 13,
+        "value": 1097
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

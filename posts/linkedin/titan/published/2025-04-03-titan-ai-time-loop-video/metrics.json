@@ -52,8 +52,8 @@
   },
   "notes": "Looped motion graphic video (80% vs 20% time in dispensary, Titan AI). Posted 3 Apr 2025. Sponsored period 4 Apr – 6 Apr 2025. Total: 2,030 impressions, 19 reactions, 1 comment, 4 reposts. Page: 5 viewers, 0 followers gained. Sponsored: 1,519 impressions, £15.80 eCPM, 25 engagements (1.6%), £0.96 cost per engagement, 8 clicks (0.5% CTR), 1 reaction. Organic: 511 impressions, 323 members reached, 67 engagements (13.1%), 44 clicks (8.6% CTR), 18 reactions, 1 comment, 4 reposts. Video: 502 views, 1h 25m 59s watch time, 10s average.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,28 +76,39 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 10,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 511,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.2,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 18,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 5020,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 20,
-      "comment_rate": 58
+      "impressions": 12.5,
+      "reactions": 64.58,
+      "watch_time_seconds": 29.17
     },
-    "composite_percentile": 35.2,
+    "composite_percentile": 31.46,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -105,12 +116,29 @@
       "size": 25,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 22,
+        "of": 25,
+        "value": 511
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 25,
+        "value": 18
+      },
+      "watch_time_seconds": {
+        "rank": 18,
+        "of": 25,
+        "value": 5020
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

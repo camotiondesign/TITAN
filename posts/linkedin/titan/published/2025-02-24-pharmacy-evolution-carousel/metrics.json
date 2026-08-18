@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Exceptional performance: 55.7% engagement rate, 54.3% CTR. Timeline format effectively communicated pharmacy evolution and TITAN's role at each stage. Content successfully positioned TITAN as thought leader in pharmacy evolution. Discussion prompt didn't generate broader conversation despite good engagement.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,42 +76,63 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 54.3,
-        "normalised_weight": 0.667
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1372,
+        "normalised_weight": 0.4
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.07,
-        "normalised_weight": 0.333
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 745,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 1,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "click_rate": 77.27
+      "impressions": 40,
+      "clicks": 50
     },
-    "composite_percentile": 77.27,
-    "tier": "worked",
+    "composite_percentile": 45,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 11,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 7,
+        "of": 11,
+        "value": 1372
+      },
+      "clicks": {
+        "rank": 6,
+        "of": 11,
+        "value": 745
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

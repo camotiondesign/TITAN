@@ -48,8 +48,8 @@
   },
   "notes": "Single image post promoting BMP Healthcare case study",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -72,40 +72,61 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 2.26,
-        "normalised_weight": 0.667
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1105,
+        "normalised_weight": 0.462
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.36,
-        "normalised_weight": 0.333
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 25,
+        "normalised_weight": 0.308
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 4,
+        "normalised_weight": 0.231
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 81.25
+      "impressions": 52.17,
+      "reactions": 78.26
     },
-    "composite_percentile": 81.25,
-    "tier": "worked",
+    "composite_percentile": 62.61,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 24,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 12,
+        "of": 24,
+        "value": 1105
+      },
+      "reactions": {
+        "rank": 6,
+        "of": 24,
+        "value": 25
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

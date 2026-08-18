@@ -102,14 +102,14 @@
     "spend": 0
   },
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "format": "video",
-    "format_source": "platform_type",
-    "role": "standard",
-    "role_source": "default",
+    "format": "short-form-video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_quote_card",
     "components": {
       "impressions": 1291,
       "reach": 0,
@@ -126,34 +126,47 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
+        "key": "views",
+        "label": "views",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1291,
+        "normalised_weight": 0.462
+      },
+      {
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
         "weight": 0.4,
-        "value": 0.62,
-        "normalised_weight": 1
+        "value": 2,
+        "normalised_weight": 0.308
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 2,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [
-      "retention"
-    ],
-    "percentiles": {
-      "comment_rate": 91.3
-    },
-    "composite_percentile": 91.3,
-    "tier": "worked",
+    "unmeasurable": [],
+    "percentiles": null,
+    "composite_percentile": null,
+    "tier": "insufficient-data",
     "cohort": {
-      "key": "linkedin|video",
-      "window_days": 90,
-      "size": 23,
+      "key": "linkedin|short-form-video",
+      "window_days": null,
+      "size": 6,
       "min_required": 8
     },
+    "raw_ranks": null,
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -52,8 +52,8 @@
   },
   "notes": "Safy's Chemist case study carousel - exceptional engagement (34.7% engagement rate, 33.9% CTR), 97% near miss reduction, 85% time back",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,42 +76,61 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 33.87,
-        "normalised_weight": 0.583
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1724,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.12,
-        "normalised_weight": 0.417
+        "value": 584,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 2,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 25
+      "impressions": 84.62,
+      "clicks": 30.77
     },
-    "composite_percentile": 25,
-    "tier": "underperformed",
+    "composite_percentile": 57.7,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 3,
+        "of": 14,
+        "value": 1724
+      },
+      "clicks": {
+        "rank": 10,
+        "of": 14,
+        "value": 584
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

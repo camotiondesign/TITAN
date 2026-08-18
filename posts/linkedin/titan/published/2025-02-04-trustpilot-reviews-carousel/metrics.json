@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Exceptional performance: 48.4% engagement rate, 46.9% CTR. Social proof through Trustpilot reviews from real pharmacy owners built trust and credibility effectively. Real customer testimonials validated product quality and addressed concerns. The exceptional engagement demonstrates extremely high audience interest in social proof content.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,34 +76,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 46.86,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1321,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 619,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 27.33
+      "impressions": 56.34,
+      "clicks": 43.66
     },
-    "composite_percentile": 27.33,
+    "composite_percentile": 50,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": null,
-      "size": 75,
+      "size": 72,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 32,
+        "of": 72,
+        "value": 1321
+      },
+      "clicks": {
+        "rank": 41,
+        "of": 72,
+        "value": 619
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

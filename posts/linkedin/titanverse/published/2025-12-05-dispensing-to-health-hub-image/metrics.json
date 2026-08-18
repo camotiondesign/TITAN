@@ -52,8 +52,8 @@
   },
   "notes": "Metrics updated 2025-12-15. Organic discovery: 1,913 impressions, 1,213 members reached. Engagement rate: 5.1% (97 engagements). CTR: 3.2% (62 clicks). 22 reactions, 7 comments, 6 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,42 +76,63 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.15,
-        "normalised_weight": 0.741
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1913,
+        "normalised_weight": 0.48
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.31,
-        "normalised_weight": 0.259
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 22,
+        "normalised_weight": 0.32
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 6,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "reaction_rate": 29.31
+      "impressions": 78.57,
+      "reactions": 69.64
     },
-    "composite_percentile": 29.31,
-    "tier": "middle",
+    "composite_percentile": 75,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 29,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 7,
+        "of": 29,
+        "value": 1913
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 29,
+        "value": 22
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

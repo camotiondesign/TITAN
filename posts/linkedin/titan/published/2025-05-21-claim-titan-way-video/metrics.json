@@ -52,8 +52,8 @@
   },
   "notes": "Looped motion graphic video. Posted 21 May 2025. Sponsored period 23 May – 29 May 2025. Sponsored: 3,221 impressions, £17.34 eCPM, 10 engagements (0.3%), £5.58 cost per engagement, 4 clicks (0.1% CTR), 1 reaction. Organic: 530 impressions, 295 members reached, 26 engagements (4.9%), 13 clicks (2.5% CTR), 11 reactions, 0 comments, 2 reposts. Video: 320 views, 51m 47s watch time, 9s average. Page: 3 viewers, 0 followers gained.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,41 +76,69 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 9,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 530,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 11,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 2880,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 8.7,
-      "comment_rate": 30.43
+      "impressions": 38.64,
+      "reactions": 50,
+      "watch_time_seconds": 22.73
     },
-    "composite_percentile": 17.39,
-    "tier": "underperformed",
+    "composite_percentile": 38.87,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 23,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 14,
+        "of": 23,
+        "value": 530
+      },
+      "reactions": {
+        "rank": 12,
+        "of": 23,
+        "value": 11
+      },
+      "watch_time_seconds": {
+        "rank": 18,
+        "of": 23,
+        "value": 2880
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

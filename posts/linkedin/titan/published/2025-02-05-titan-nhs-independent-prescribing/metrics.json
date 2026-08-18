@@ -44,8 +44,8 @@
   "notes": "Post boosted from 2025-02-12 to 2025-02-13. Exceptional performance: 63.7% engagement rate, 62.4% CTR. High signal asset — NHS alignment + future-facing innovation. Social proof from NHS leadership (comments from Ghulam Haydar, Wasim Baqir) boosted confidence and credibility. Strong engagement from policy / tech stakeholders vs typical pharmacist-only audience.",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -68,29 +68,38 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 62.39,
-        "normalised_weight": 0.667
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 5440,
+        "normalised_weight": 0.4
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.17,
-        "normalised_weight": 0.333
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3394,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 9,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "click_rate": 81.25
+      "impressions": 100,
+      "clicks": 100
     },
-    "composite_percentile": 81.25,
+    "composite_percentile": 100,
     "tier": "worked",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -98,12 +107,24 @@
       "size": 8,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 1,
+        "of": 8,
+        "value": 5440
+      },
+      "clicks": {
+        "rank": 1,
+        "of": 8,
+        "value": 3394
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

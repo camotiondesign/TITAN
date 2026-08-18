@@ -95,14 +95,14 @@
     "spend": 0
   },
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "multi-image",
-    "format_source": "platform_type",
-    "role": "standard",
-    "role_source": "default",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_transformation",
     "components": {
       "impressions": 3670,
       "reach": 0,
@@ -119,41 +119,75 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 0.79,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3670,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.08,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 29,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 2433,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 3,
+        "normalised_weight": 0.231
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 3.33,
-      "repost_rate": 13.33
+      "impressions": 78.57,
+      "reactions": 39.29,
+      "clicks": 71.43
     },
-    "composite_percentile": 7.33,
-    "tier": "underperformed",
+    "composite_percentile": 65.36,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|multi-image",
       "window_days": null,
       "size": 15,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 15,
+        "value": 3670
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 15,
+        "value": 29
+      },
+      "clicks": {
+        "rank": 5,
+        "of": 15,
+        "value": 2433
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

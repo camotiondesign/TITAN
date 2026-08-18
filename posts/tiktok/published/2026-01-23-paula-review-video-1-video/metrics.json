@@ -27,8 +27,8 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:notionsocial",
     "platform": "tiktok",
     "format": "short-form-video",
@@ -52,27 +52,27 @@
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
+        "weight": 0.6,
         "value": 931,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.6
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.11,
-        "normalised_weight": 0.5
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 1,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "views": 42.31,
-      "share_rate": 23.08
+      "views": 41.67,
+      "shares": 33.33
     },
-    "composite_percentile": 32.7,
+    "composite_percentile": 38.33,
     "tier": "middle",
     "cohort": {
       "key": "tiktok|short-form-video",
@@ -80,12 +80,24 @@
       "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "views": {
+        "rank": 8,
+        "of": 13,
+        "value": 931
+      },
+      "shares": {
+        "rank": 8,
+        "of": 13,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -11,7 +11,7 @@
     "transcript": null,
     "metrics": {
       "source": "instagram_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 316,
       "reach": 0,
       "reactions": 4,
@@ -25,15 +25,22 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.27,
-          "weight": 1,
-          "percentile": 31.25
+          "key": "impressions",
+          "label": "impressions",
+          "value": 316,
+          "weight": 0.6,
+          "percentile": 0
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 4,
+          "weight": 0.4,
+          "percentile": 0
         }
       ],
-      "composite_percentile": 31.25,
-      "tier": "middle",
+      "composite_percentile": 0,
+      "tier": "underperformed",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -54,7 +61,7 @@
     "transcript": null,
     "metrics": {
       "source": "instagram_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 476,
       "reach": 0,
       "reactions": 12,
@@ -68,15 +75,22 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.52,
-          "weight": 1,
-          "percentile": 56.25
+          "key": "impressions",
+          "label": "impressions",
+          "value": 476,
+          "weight": 0.6,
+          "percentile": 14.29
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.4,
+          "percentile": 28.57
         }
       ],
-      "composite_percentile": 56.25,
-      "tier": "middle",
+      "composite_percentile": 20,
+      "tier": "underperformed",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -97,7 +111,7 @@
     "transcript": null,
     "metrics": {
       "source": "instagram_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 1140,
       "reach": 0,
       "reactions": 19,
@@ -111,17 +125,31 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1140,
+          "weight": 0.4,
           "percentile": null
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.35,
-          "weight": 0.467,
+          "key": "reactions",
+          "label": "reactions",
+          "value": 19,
+          "weight": 0.24,
+          "percentile": null
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 4,
+          "weight": 0.2,
           "percentile": null
         }
       ],
@@ -134,8 +162,8 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ]
     }
   },
@@ -150,29 +178,36 @@
     "alt_text": "# Nervous on day one - Single Image – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 102,
-      "reach": 10,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 477,
+      "reach": 0,
+      "reactions": 6,
+      "comments": 1,
+      "reposts": 3,
       "saves": 0,
       "video_views": 477,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 12.5
+          "key": "impressions",
+          "label": "impressions",
+          "value": 477,
+          "weight": 0.6,
+          "percentile": 28.57
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 6,
+          "weight": 0.4,
+          "percentile": 14.29
         }
       ],
-      "composite_percentile": 12.5,
+      "composite_percentile": 22.86,
       "tier": "underperformed",
       "cohort": {
         "key": "instagram|single-image",
@@ -193,8 +228,8 @@
     "alt_text": "# Real MDS workflow. – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 206,
       "reach": 183,
       "reactions": 0,
@@ -209,20 +244,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 206,
-          "weight": 0.5,
-          "percentile": 88.46
+          "weight": 0.6,
+          "percentile": 91.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.4,
+          "percentile": 41.67
         }
       ],
-      "composite_percentile": 65.38,
+      "composite_percentile": 71.67,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -243,8 +278,8 @@
     "alt_text": "# How it feels when everything finally lives in one place. – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 187,
       "reach": 168,
       "reactions": 0,
@@ -259,20 +294,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 187,
-          "weight": 0.5,
-          "percentile": 76.92
+          "weight": 0.6,
+          "percentile": 79.17
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.4,
+          "percentile": 41.67
         }
       ],
-      "composite_percentile": 59.62,
+      "composite_percentile": 64.17,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -293,8 +328,8 @@
     "alt_text": "# Laura - \"You are my MDS queen\" 👑 – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 160,
       "reach": 149,
       "reactions": 1,
@@ -309,20 +344,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 160,
-          "weight": 0.5,
-          "percentile": 57.69
+          "weight": 0.6,
+          "percentile": 58.33
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.4,
+          "percentile": 41.67
         }
       ],
-      "composite_percentile": 50,
+      "composite_percentile": 51.67,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -343,8 +378,8 @@
     "alt_text": "# TITAN_HOD_OperatingWithoutDoubleCover – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Sunil - Operating Without Double Cover_otter_ai.txt\n\nLinkedIn clip. Sunil on high-volume branches now operating without double pharmacist cover. AI frees the single pharmacist to still carry out services. Efficiency on two scales.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 154,
       "reach": 132,
       "reactions": 0,
@@ -355,24 +390,38 @@
       "avg_watch_time_seconds": 4.673,
       "format": "short-form-video",
       "format_source": "asset_type",
-      "content_role": "standard",
+      "content_role": "sector-thesis",
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 154,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.4,
+          "percentile": 41.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.65,
-          "weight": 0.5,
-          "percentile": 96.15
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.267,
+          "percentile": 91.67
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 1,
+          "weight": 0.167,
+          "percentile": null
+        },
+        {
+          "key": "saves",
+          "label": "saves (thesis: kept for later)",
+          "value": 0,
+          "weight": 0.167,
+          "percentile": null
         }
       ],
-      "composite_percentile": 69.23,
+      "composite_percentile": 61.68,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -393,8 +442,8 @@
     "alt_text": "DESIGN NOTES:\n- Dark background (#0d0d1a or similar)\n- Teal highlight: Titanverse brand teal\n- Grey tiles: #2a2a3a with white text\n- Clean, modern grid — rounded corners on tiles\n- Reference: Semrush SEO/AEO matrix post (screenshots provided)\n- Keep tiles compact — 2-3 words max per tile\n- No icons needed, text-only tiles work best for this formata\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 36,
       "reach": 28,
       "reactions": 0,
@@ -405,24 +454,38 @@
       "avg_watch_time_seconds": 3.444,
       "format": "short-form-video",
       "format_source": "asset_type",
-      "content_role": "standard",
+      "content_role": "sector-thesis",
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 36,
-          "weight": 0.5,
-          "percentile": 3.85
+          "weight": 0.4,
+          "percentile": 0
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.267,
+          "percentile": 41.67
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 0,
+          "weight": 0.167,
+          "percentile": null
+        },
+        {
+          "key": "saves",
+          "label": "saves (thesis: kept for later)",
+          "value": 0,
+          "weight": 0.167,
+          "percentile": null
         }
       ],
-      "composite_percentile": 23.08,
+      "composite_percentile": 16.68,
       "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -443,8 +506,8 @@
     "alt_text": "# TITAN_HOD_Only14Percent_TT – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Glen - Only 14% Actually Need a Check_otter_ai.txt\n\nTikTok clip. Glen says only 14-15% of items actually need a pharmacist check. Traditional model wastes resource.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 146,
       "reach": 136,
       "reactions": 0,
@@ -459,20 +522,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 146,
-          "weight": 0.5,
-          "percentile": 34.62
+          "weight": 0.6,
+          "percentile": 33.33
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.4,
+          "percentile": 41.67
         }
       ],
-      "composite_percentile": 38.47,
+      "composite_percentile": 36.67,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -493,8 +556,8 @@
     "alt_text": "# \"It's a bit like a Google search.\" – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Riddhesh - Amit - Like a Google Search - Not Tied to a Bench_otter_ai.txt\n\nTikTok clip. Riddhesh & Amit on search being like Google — scan a pack, instantly know who it's for, daily usage. Previous PMRs needed multiple steps.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 731,
       "reach": 500,
       "reactions": 2,
@@ -509,20 +572,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 731,
-          "weight": 0.5,
-          "percentile": 96.15
+          "weight": 0.6,
+          "percentile": 100
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.41,
-          "weight": 0.5,
-          "percentile": 88.46
+          "key": "shares",
+          "label": "shares",
+          "value": 3,
+          "weight": 0.4,
+          "percentile": 100
         }
       ],
-      "composite_percentile": 92.31,
+      "composite_percentile": 100,
       "tier": "worked",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -543,8 +606,8 @@
     "alt_text": "# Rahul - \"I can't believe AI transcription wasn't a thing in pharmacy.\" – Alt Text\n\n## Design Brief (from Notion)\n\nVertical/9:16 edit of Rahul's AI transcription clip for TikTok, YouTube Shorts, Facebook, Instagram. Punchy, fast-paced style.\n\nNOTE: Platforms field only has TikTok@titanpmr available. This should go on Titanverse social accounts (TikTok, YT, FB, Insta).\n\nHook (first 2 seconds): Text overlay 'Pharmacy note-taking was TERRIBLE' or 'Scraps of paper?!' with Rahul's voice starting immediately.\n\nQuick cuts between the problem (scribbling, not looking at patient) and the solution (Titanverse transcribing).\n\nBold text overlays throughout:\n- 'Scraps of paper'\n- '10-20 mins saved per patient'\n- 'Everything compliant'\n\nEnd card: Titanverse logo + 'Link in bio'\n\nKeep under 45 seconds. Front-load the hook. Titanverse pink-magenta to purple gradient on text elements.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 141,
       "reach": 126,
       "reactions": 0,
@@ -559,21 +622,21 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 141,
-          "weight": 0.5,
-          "percentile": 18.75
+          "weight": 0.6,
+          "percentile": 14.29
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 37.5
+          "weight": 0.4,
+          "percentile": 35.71
         }
       ],
-      "composite_percentile": 28.13,
-      "tier": "middle",
+      "composite_percentile": 22.86,
+      "tier": "underperformed",
       "cohort": {
         "key": "instagram|short-form-video",
         "window_days": 90,
@@ -593,30 +656,37 @@
     "alt_text": "# TITAN_PharmAppyNoMorePhoneCalls – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 70,
-      "reach": 27,
-      "reactions": 1,
-      "comments": 0,
-      "reposts": 0,
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1893,
+      "reach": 0,
+      "reactions": 24,
+      "comments": 4,
+      "reposts": 5,
       "saves": 0,
       "video_views": 1893,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.43,
-          "weight": 1,
-          "percentile": 43.75
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1893,
+          "weight": 0.6,
+          "percentile": 71.43
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 24,
+          "weight": 0.4,
+          "percentile": 71.43
         }
       ],
-      "composite_percentile": 43.75,
-      "tier": "insufficient-data",
+      "composite_percentile": 71.43,
+      "tier": "middle",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -636,30 +706,37 @@
     "alt_text": "# TV_FragmentationObservation – Alt Text\n\n## Design Brief (from Notion)\n\nOBSERVATION POST — NO CUSTOMER QUOTE, NO PRODUCT MENTION IN GRAPHIC. Single image, editorial feel. Headline text: Five tools. Five logins. Five points of failure. White text on dark background. No Titanverse UI, no product screenshots. This is an observation post that names the pain without pitching the solution. Titanverse logo subtle bottom corner only. Design should feel like an industry editorial, not a software vendor ad. Positioning: Fragmentation Problem (TV Theme 2). Makes status quo visible. Audience connects the dots themselves.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 25,
-      "reach": 15,
-      "reactions": 1,
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 656,
+      "reach": 0,
+      "reactions": 14,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 4,
       "saves": 0,
       "video_views": 656,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 4,
-          "weight": 1,
-          "percentile": 68.75
+          "key": "impressions",
+          "label": "impressions",
+          "value": 656,
+          "weight": 0.6,
+          "percentile": 42.86
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 14,
+          "weight": 0.4,
+          "percentile": 42.86
         }
       ],
-      "composite_percentile": 68.75,
-      "tier": "insufficient-data",
+      "composite_percentile": 42.86,
+      "tier": "middle",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -679,8 +756,8 @@
     "alt_text": "# \"It's not even that I grew my business.\" – Alt Text\n\n## Design Brief (from Notion)\n\nShort clip, 25-35 seconds. Emotional, human angle.\n\nSajid to camera. Clip ref: Sajid - 4A\n\nQuote: \"Some of those stories hit home for me. It's not even that I grew my business. As a family man and a father of four kids, it's pharmacists just saying: I get to go home on time. I don't have to work weekends. I don't need to come in early.\"\n\nEdit notes:\n- Lower third: Sajid Ramzan, Chief Sales Officer\n- Let the emotional moment land. Don't rush the edit.\n- Warm tone, genuine delivery\n- Could pair with B-roll of pharmacists leaving on time / with family\n- Titan PMR logo end card\n- Vertical format for TikTok/Reels, square crop option for FB\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 187,
       "reach": 171,
       "reactions": 7,
@@ -695,20 +772,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 187,
-          "weight": 0.5,
-          "percentile": 66.67
+          "weight": 0.6,
+          "percentile": 68.75
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 38.89
+          "weight": 0.4,
+          "percentile": 37.5
         }
       ],
-      "composite_percentile": 52.78,
+      "composite_percentile": 56.25,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -729,30 +806,37 @@
     "alt_text": "# TITAN_PrabBenchTrap8pm – Alt Text\n\n## Design Brief (from Notion)\n\nCUSTOMER QUOTE — LIBERATION / BURNOUT RECOVERY (Theme 19 + Theme 14). Single image quote card. Prab quote as hero text: \"If it wasn't for Titan, I'd have left pharmacy a long time ago.\" White text on dark or light background with Prab photo. Titan blue gradient accent on quotation marks or subtle side bar. Attribution: Prab — Pharmacist, Priory Pharmacy in lighter weight below quote. Titan PMR wordmark bottom right. No feature list, no UI screenshots, no clutter. The quote does the work. Clean, bold, emotional. Positioning: Liberation value theme + Workforce Crisis trend. Attacks burnout and the status quo through customer words.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 37,
-      "reach": 18,
-      "reactions": 3,
-      "comments": 0,
-      "reposts": 0,
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1936,
+      "reach": 0,
+      "reactions": 43,
+      "comments": 11,
+      "reposts": 3,
       "saves": 0,
       "video_views": 1936,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 8.11,
-          "weight": 1,
-          "percentile": 93.75
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1936,
+          "weight": 0.6,
+          "percentile": 85.71
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 43,
+          "weight": 0.4,
+          "percentile": 100
         }
       ],
-      "composite_percentile": 93.75,
-      "tier": "insufficient-data",
+      "composite_percentile": 91.43,
+      "tier": "worked",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": null,
@@ -772,8 +856,8 @@
     "alt_text": "# Jeet - Simple cash flow trick most pharmacy owners miss. – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Jeet - The Cash Flow Trick_otter_ai.txt\n\nTikTok clip. Jeet on bulk ordering every 2 weeks, holding 4 weeks stock. If it's the 25th, wait 5 days before ordering — cash flow back to normal.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 165,
       "reach": 148,
       "reactions": 1,
@@ -788,20 +872,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 165,
-          "weight": 0.5,
-          "percentile": 55
+          "weight": 0.6,
+          "percentile": 55.56
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 40
+          "weight": 0.4,
+          "percentile": 38.89
         }
       ],
-      "composite_percentile": 47.5,
+      "composite_percentile": 48.89,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -822,30 +906,37 @@
     "alt_text": "# For TITAN customers only… scan me 👀 – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 17,
-      "reach": 12,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1988,
+      "reach": 0,
+      "reactions": 38,
+      "comments": 8,
+      "reposts": 13,
       "saves": 0,
       "video_views": 1988,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "inferred:has_alt_text",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 12.5
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1988,
+          "weight": 0.6,
+          "percentile": 100
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 38,
+          "weight": 0.4,
+          "percentile": 85.71
         }
       ],
-      "composite_percentile": 12.5,
-      "tier": "insufficient-data",
+      "composite_percentile": 94.28,
+      "tier": "worked",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": 90,
@@ -865,30 +956,37 @@
     "alt_text": "# TV_ServicesGovernance – Alt Text\n\n## Design Brief (from Notion)\n\nSERVICES GOVERNANCE — GPhC INSPECTION READINESS (TV Theme 3: Compliance Burden / Theme 8: Scale Problem / Theme 14: Central Control). Single image already designed — shows four Titanverse governance modules: Audit Logs, Role Access, Compliance Module, SOP Management. Dark background with Titanverse pink-magenta accents. 'All in one place' headline. Image is ready to publish as-is. Caption uses fear-based hook (GPhC inspector scenario) crossed with specific scenario retention mechanics to make pharmacy owners feel the compliance gap before presenting Titanverse as the built-in solution. Tier 2 — makes pharmacy owners see themselves in the 'Sarah handles it' line. Voice register: Expert (Register 2) with peer-level specificity.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 27,
-      "reach": 14,
-      "reactions": 2,
-      "comments": 0,
-      "reposts": 0,
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 966,
+      "reach": 0,
+      "reactions": 23,
+      "comments": 1,
+      "reposts": 6,
       "saves": 0,
       "video_views": 966,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 7.41,
-          "weight": 1,
-          "percentile": 81.25
+          "key": "impressions",
+          "label": "impressions",
+          "value": 966,
+          "weight": 0.6,
+          "percentile": 57.14
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 23,
+          "weight": 0.4,
+          "percentile": 57.14
         }
       ],
-      "composite_percentile": 81.25,
-      "tier": "insufficient-data",
+      "composite_percentile": 57.14,
+      "tier": "middle",
       "cohort": {
         "key": "instagram|single-image",
         "window_days": 90,
@@ -908,8 +1006,8 @@
     "alt_text": "# Some of you missed it. Here's your chance. 👀 – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 48,
       "reach": 38,
       "reactions": 0,
@@ -924,20 +1022,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 48,
-          "weight": 0.5,
-          "percentile": 13.64
+          "weight": 0.6,
+          "percentile": 10
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 40.91
+          "weight": 0.4,
+          "percentile": 40
         }
       ],
-      "composite_percentile": 27.28,
+      "composite_percentile": 22,
       "tier": "insufficient-data",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -958,8 +1056,8 @@
     "alt_text": "# Rahul - 2x Consultations and Improved Quality (1) – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 157,
       "reach": 140,
       "reactions": 2,
@@ -974,20 +1072,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 157,
-          "weight": 0.5,
-          "percentile": 45.83
+          "weight": 0.6,
+          "percentile": 45.45
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 41.67
+          "weight": 0.4,
+          "percentile": 40.91
         }
       ],
-      "composite_percentile": 43.75,
+      "composite_percentile": 43.63,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",
@@ -1008,8 +1106,8 @@
     "alt_text": "# TITAN_HOD_WeTurnedItOff_TT – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Jeet - We Turned It Off for a Month_otter_ai.txt\n\nTikTok clip. Jeet turned off stock ordering for a month to test — 45 mins became 2 hours, 100 lines instead of 10. Absolute agony. Proves the value.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "instagram_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 106,
       "reach": 96,
       "reactions": 0,
@@ -1024,20 +1122,20 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 106,
-          "weight": 0.5,
-          "percentile": 19.23
+          "weight": 0.6,
+          "percentile": 16.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 42.31
+          "weight": 0.4,
+          "percentile": 41.67
         }
       ],
-      "composite_percentile": 30.77,
+      "composite_percentile": 26.67,
       "tier": "middle",
       "cohort": {
         "key": "instagram|short-form-video",

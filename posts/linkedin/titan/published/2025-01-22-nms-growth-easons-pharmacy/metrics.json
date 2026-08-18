@@ -43,8 +43,8 @@
   "notes": "Post boosted from 2025-01-22 to 2025-01-23. Strong organic performance (4.6% engagement rate, 2.7% CTR) but limited sponsored engagement (0.1% engagement rate). ROI framing (£3K/month) and clear visual chart resonated with warm audience. Revenue numbers drive curiosity and stop-scroll. Reposts (5) indicate content was valuable for sharing.",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -67,41 +67,67 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.56,
-        "normalised_weight": 0.667
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1347,
+        "normalised_weight": 0.462
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.37,
-        "normalised_weight": 0.333
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 21,
+        "normalised_weight": 0.308
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 5,
+        "normalised_weight": 0.231
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 42.28,
-      "repost_rate": 84.78
+      "impressions": 65.69,
+      "reactions": 62.41,
+      "reposts": 84
     },
-    "composite_percentile": 56.43,
+    "composite_percentile": 68.91,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": null,
-      "size": 136,
+      "size": 138,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 48,
+        "of": 138,
+        "value": 1347
+      },
+      "reactions": {
+        "rank": 51,
+        "of": 138,
+        "value": 21
+      },
+      "reposts": {
+        "rank": 4,
+        "of": 26,
+        "value": 5
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

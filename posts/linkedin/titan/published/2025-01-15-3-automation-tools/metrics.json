@@ -44,8 +44,8 @@
   "notes": "Post boosted from 2025-01-20 to 2025-01-22. Strong organic performance (53.3% engagement rate, 51.8% CTR). Sponsored added 449 impressions with 38 engagements. High click-throughs indicate interest in automation partners.",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -68,34 +68,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 51.84,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1767,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 916,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 36
+      "impressions": 77.46,
+      "clicks": 60.56
     },
-    "composite_percentile": 36,
+    "composite_percentile": 69.01,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": null,
-      "size": 75,
+      "size": 72,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 17,
+        "of": 72,
+        "value": 1767
+      },
+      "clicks": {
+        "rank": 29,
+        "of": 72,
+        "value": 916
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

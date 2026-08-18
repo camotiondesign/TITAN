@@ -41,14 +41,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.58,
-          "weight": 1,
-          "percentile": 42.86
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1075,
+          "weight": 0.6,
+          "percentile": 50
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 17,
+          "weight": 0.4,
+          "percentile": 57.5
         }
       ],
-      "composite_percentile": 42.86,
+      "composite_percentile": 53,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -56,7 +63,7 @@
         "size": 21,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -105,22 +112,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.7,
-          "weight": 1,
-          "percentile": 97.62
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1073,
+          "weight": 0.6,
+          "percentile": 50
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 29,
+          "weight": 0.4,
+          "percentile": 80
         }
       ],
-      "composite_percentile": 97.62,
-      "tier": "worked",
+      "composite_percentile": 62,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 21,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -169,29 +183,36 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "retention",
-          "label": "completion rate (or mean watch seconds where duration is unknown)",
-          "value": 10,
-          "weight": 0.444,
-          "percentile": 12.5
+          "key": "impressions",
+          "label": "impressions",
+          "value": 2119,
+          "weight": 0.4,
+          "percentile": 70.59
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.14,
-          "weight": 0.296,
-          "percentile": 61.11
+          "key": "reactions",
+          "label": "reactions",
+          "value": 60,
+          "weight": 0.24,
+          "percentile": 100
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.42,
-          "weight": 0.259,
-          "percentile": 87.5
+          "key": "watch_time_seconds",
+          "label": "total watch time (seconds)",
+          "value": 9300,
+          "weight": 0.16,
+          "percentile": 33.33
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 9,
+          "weight": 0.2,
+          "percentile": 95.45
         }
       ],
-      "composite_percentile": 46.35,
-      "tier": "middle",
+      "composite_percentile": 76.66,
+      "tier": "worked",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
@@ -199,9 +220,10 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "comments",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -237,22 +259,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.17,
-          "weight": 1,
-          "percentile": 83.33
+          "key": "impressions",
+          "label": "impressions",
+          "value": 599,
+          "weight": 0.6,
+          "percentile": 10
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 13,
+          "weight": 0.4,
+          "percentile": 20
         }
       ],
-      "composite_percentile": 83.33,
-      "tier": "worked",
+      "composite_percentile": 14,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 21,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -301,21 +330,35 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.444,
-          "percentile": 10.42
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1017,
+          "weight": 0.385,
+          "percentile": 17.39
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "key": "reactions",
+          "label": "reactions",
           "value": 0,
-          "weight": 0.556,
-          "percentile": 3.13
+          "weight": 0.231,
+          "percentile": 0
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.154,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 0,
+          "weight": 0.231,
+          "percentile": 0
         }
       ],
-      "composite_percentile": 6.37,
+      "composite_percentile": 7.9,
       "tier": "underperformed",
       "cohort": {
         "key": "linkedin|video",
@@ -324,9 +367,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -362,14 +405,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "click_rate",
-          "label": "clicks per impression",
+          "key": "impressions",
+          "label": "impressions",
+          "value": 286,
+          "weight": 0.5,
+          "percentile": 0
+        },
+        {
+          "key": "clicks",
+          "label": "clicks",
           "value": 0,
-          "weight": 1,
-          "percentile": 3.85
+          "weight": 0.5,
+          "percentile": 0
         }
       ],
-      "composite_percentile": 3.85,
+      "composite_percentile": 0,
       "tier": "underperformed",
       "cohort": {
         "key": "linkedin|carousel-document",
@@ -377,10 +427,7 @@
         "size": 13,
         "min_required": 8
       },
-      "unmeasurable_signals": [
-        "save_rate"
-      ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -421,21 +468,35 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 12.96
+          "key": "impressions",
+          "label": "impressions",
+          "value": 794,
+          "weight": 0.4,
+          "percentile": 3.85
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
+          "key": "reactions",
+          "label": "reactions",
           "value": 0,
-          "weight": 0.467,
-          "percentile": 5.26
+          "weight": 0.24,
+          "percentile": 1.92
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 0,
+          "weight": 0.2,
+          "percentile": 2.78
         }
       ],
-      "composite_percentile": 9.36,
+      "composite_percentile": 3.04,
       "tier": "underperformed",
       "cohort": {
         "key": "linkedin|video",
@@ -444,10 +505,10 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -483,21 +544,35 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 13.33
+          "key": "impressions",
+          "label": "impressions",
+          "value": 881,
+          "weight": 0.4,
+          "percentile": 6.9
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
+          "key": "reactions",
+          "label": "reactions",
           "value": 0,
-          "weight": 0.467,
-          "percentile": 6.82
+          "weight": 0.24,
+          "percentile": 3.45
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 0,
+          "weight": 0.2,
+          "percentile": 4.76
         }
       ],
-      "composite_percentile": 10.29,
+      "composite_percentile": 5.4,
       "tier": "underperformed",
       "cohort": {
         "key": "linkedin|video",
@@ -506,10 +581,10 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -545,22 +620,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
+          "key": "impressions",
+          "label": "impressions",
+          "value": 2019,
+          "weight": 0.6,
+          "percentile": 80.95
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
           "value": 0,
-          "weight": 1,
-          "percentile": 2.27
+          "weight": 0.4,
+          "percentile": 0
         }
       ],
-      "composite_percentile": 2.27,
-      "tier": "underperformed",
+      "composite_percentile": 48.57,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 22,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -601,14 +683,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
+          "key": "impressions",
+          "label": "impressions",
+          "value": 701,
+          "weight": 0.6,
+          "percentile": 22.73
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
           "value": 0,
-          "weight": 1,
-          "percentile": 4.35
+          "weight": 0.4,
+          "percentile": 2.27
         }
       ],
-      "composite_percentile": 4.35,
+      "composite_percentile": 14.55,
       "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
@@ -616,7 +705,7 @@
         "size": 23,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -652,15 +741,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1196,
+          "weight": 0.5,
+          "percentile": 33.33
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 29,
+          "weight": 0.3,
+          "percentile": 58.33
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
           "value": 0,
-          "weight": 1,
-          "percentile": 14.52
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 14.52,
-      "tier": "underperformed",
+      "composite_percentile": 42.71,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
@@ -668,9 +771,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -711,14 +814,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.32,
-          "weight": 1,
-          "percentile": 26.09
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1135,
+          "weight": 0.6,
+          "percentile": 54.55
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.4,
+          "percentile": 36.36
         }
       ],
-      "composite_percentile": 26.09,
+      "composite_percentile": 47.27,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -726,7 +836,7 @@
         "size": 23,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -767,21 +877,28 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "click_rate",
-          "label": "clicks per impression",
-          "value": 73.79,
-          "weight": 0.667,
-          "percentile": 70.83
+          "key": "impressions",
+          "label": "impressions",
+          "value": 908,
+          "weight": 0.4,
+          "percentile": 18.18
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.44,
-          "weight": 0.333,
+          "key": "clicks",
+          "label": "clicks",
+          "value": 670,
+          "weight": 0.4,
+          "percentile": 54.55
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 4,
+          "weight": 0.2,
           "percentile": null
         }
       ],
-      "composite_percentile": 70.83,
+      "composite_percentile": 36.36,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|carousel-document",
@@ -790,9 +907,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -833,14 +950,28 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.1,
-          "weight": 1,
-          "percentile": 59.09
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1013,
+          "weight": 0.5,
+          "percentile": 21.88
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 25,
+          "weight": 0.3,
+          "percentile": 46.88
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 1,
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 59.09,
+      "composite_percentile": 31.25,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
@@ -849,9 +980,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -892,14 +1023,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.33,
-          "weight": 1,
-          "percentile": 35.42
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1428,
+          "weight": 0.6,
+          "percentile": 69.57
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 19,
+          "weight": 0.4,
+          "percentile": 65.22
         }
       ],
-      "composite_percentile": 35.42,
+      "composite_percentile": 67.83,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -907,7 +1045,7 @@
         "size": 24,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -943,14 +1081,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.06,
-          "weight": 1,
-          "percentile": 26
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1411,
+          "weight": 0.6,
+          "percentile": 66.67
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.4,
+          "percentile": 43.75
         }
       ],
-      "composite_percentile": 26,
+      "composite_percentile": 57.5,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -958,7 +1103,7 @@
         "size": 25,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -999,29 +1144,36 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.58,
-          "weight": 0.667,
-          "percentile": 84.62
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1200,
+          "weight": 0.462,
+          "percentile": 60
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.25,
-          "weight": 0.333,
+          "key": "reactions",
+          "label": "reactions",
+          "value": 31,
+          "weight": 0.308,
+          "percentile": 90
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 3,
+          "weight": 0.231,
           "percentile": null
         }
       ],
-      "composite_percentile": 84.62,
-      "tier": "worked",
+      "composite_percentile": 72,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 26,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1062,21 +1214,35 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.07,
-          "weight": 0.444,
-          "percentile": 48.39
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1424,
+          "weight": 0.385,
+          "percentile": 53.33
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.56,
-          "weight": 0.556,
-          "percentile": 88.64
+          "key": "reactions",
+          "label": "reactions",
+          "value": 35,
+          "weight": 0.231,
+          "percentile": 73.33
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 1,
+          "weight": 0.154,
+          "percentile": 78.57
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 8,
+          "weight": 0.231,
+          "percentile": 80.95
         }
       ],
-      "composite_percentile": 70.77,
+      "composite_percentile": 68.2,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
@@ -1085,9 +1251,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1128,22 +1294,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.73,
-          "weight": 1,
-          "percentile": 91.07
+          "key": "impressions",
+          "label": "impressions",
+          "value": 770,
+          "weight": 0.6,
+          "percentile": 22.22
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 21,
+          "weight": 0.4,
+          "percentile": 66.67
         }
       ],
-      "composite_percentile": 91.07,
-      "tier": "worked",
+      "composite_percentile": 40,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 28,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1184,14 +1357,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.7,
-          "weight": 1,
-          "percentile": 53.45
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1000,
+          "weight": 0.6,
+          "percentile": 35.71
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 17,
+          "weight": 0.4,
+          "percentile": 53.57
         }
       ],
-      "composite_percentile": 53.45,
+      "composite_percentile": 42.85,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -1199,7 +1379,7 @@
         "size": 29,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1244,21 +1424,28 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "click_rate",
-          "label": "clicks per impression",
-          "value": 18.92,
-          "weight": 0.667,
-          "percentile": 13.64
+          "key": "impressions",
+          "label": "impressions",
+          "value": 687,
+          "weight": 0.4,
+          "percentile": 10
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.58,
-          "weight": 0.333,
+          "key": "clicks",
+          "label": "clicks",
+          "value": 130,
+          "weight": 0.4,
+          "percentile": 10
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 4,
+          "weight": 0.2,
           "percentile": null
         }
       ],
-      "composite_percentile": 13.64,
+      "composite_percentile": 10,
       "tier": "underperformed",
       "cohort": {
         "key": "linkedin|carousel-document",
@@ -1267,9 +1454,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1310,36 +1497,46 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "retention",
-          "label": "completion rate (or mean watch seconds where duration is unknown)",
-          "value": 17,
-          "weight": 0.4,
-          "percentile": 65.22
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1147,
+          "weight": 0.385,
+          "percentile": 36.67
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.17,
-          "weight": 0.267,
-          "percentile": 87.1
+          "key": "reactions",
+          "label": "reactions",
+          "value": 16,
+          "weight": 0.231,
+          "percentile": 26.67
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.44,
-          "weight": 0.333,
-          "percentile": 80.43
+          "key": "watch_time_seconds",
+          "label": "total watch time (seconds)",
+          "value": 6749,
+          "weight": 0.154,
+          "percentile": 36.36
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 5,
+          "weight": 0.231,
+          "percentile": 72.73
         }
       ],
-      "composite_percentile": 76.13,
-      "tier": "worked",
+      "composite_percentile": 42.64,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
         "size": 31,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "unmeasurable_signals": [
+        "comments"
+      ],
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1384,22 +1581,29 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.15,
-          "weight": 0.741,
-          "percentile": 29.31
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1913,
+          "weight": 0.48,
+          "percentile": 78.57
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.31,
-          "weight": 0.259,
+          "key": "reactions",
+          "label": "reactions",
+          "value": 22,
+          "weight": 0.32,
+          "percentile": 69.64
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 6,
+          "weight": 0.2,
           "percentile": null
         }
       ],
-      "composite_percentile": 29.31,
-      "tier": "middle",
+      "composite_percentile": 75,
+      "tier": "worked",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
@@ -1407,9 +1611,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1541,14 +1745,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.53,
-          "weight": 1,
-          "percentile": 46.77
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1111,
+          "weight": 0.6,
+          "percentile": 50
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 17,
+          "weight": 0.4,
+          "percentile": 51.67
         }
       ],
-      "composite_percentile": 46.77,
+      "composite_percentile": 50.67,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -1556,7 +1767,7 @@
         "size": 31,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1592,14 +1803,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "click_rate",
-          "label": "clicks per impression",
-          "value": 61.37,
-          "weight": 1,
-          "percentile": 57.69
+          "key": "impressions",
+          "label": "impressions",
+          "value": 976,
+          "weight": 0.5,
+          "percentile": 41.67
+        },
+        {
+          "key": "clicks",
+          "label": "clicks",
+          "value": 599,
+          "weight": 0.5,
+          "percentile": 50
         }
       ],
-      "composite_percentile": 57.69,
+      "composite_percentile": 45.84,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|carousel-document",
@@ -1607,10 +1825,7 @@
         "size": 13,
         "min_required": 8
       },
-      "unmeasurable_signals": [
-        "save_rate"
-      ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1647,23 +1862,23 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 597,
-          "weight": 0.333,
+          "weight": 0.462,
           "percentile": null
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.67,
-          "weight": 0.333,
+          "key": "shares",
+          "label": "shares",
+          "value": 4,
+          "weight": 0.308,
           "percentile": null
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.67,
-          "weight": 0.333,
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 4,
+          "weight": 0.231,
           "percentile": null
         }
       ],
@@ -1672,10 +1887,10 @@
       "cohort": {
         "key": "linkedin|short-form-video",
         "window_days": null,
-        "size": 5,
+        "size": 6,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1725,22 +1940,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.46,
-          "weight": 1,
-          "percentile": 78.33
+          "key": "impressions",
+          "label": "impressions",
+          "value": 731,
+          "weight": 0.6,
+          "percentile": 17.24
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 18,
+          "weight": 0.4,
+          "percentile": 55.17
         }
       ],
-      "composite_percentile": 78.33,
-      "tier": "worked",
+      "composite_percentile": 32.41,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 30,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1777,23 +1999,23 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 681,
-          "weight": 0.37,
+          "weight": 0.48,
           "percentile": null
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.73,
-          "weight": 0.37,
+          "key": "shares",
+          "label": "shares",
+          "value": 5,
+          "weight": 0.32,
           "percentile": null
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.73,
-          "weight": 0.259,
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 5,
+          "weight": 0.2,
           "percentile": null
         }
       ],
@@ -1802,13 +2024,13 @@
       "cohort": {
         "key": "linkedin|short-form-video",
         "window_days": null,
-        "size": 5,
+        "size": 6,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1844,25 +2066,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "click_rate",
-          "label": "clicks per impression",
-          "value": 27.3,
-          "weight": 1,
-          "percentile": 16.67
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1088,
+          "weight": 0.5,
+          "percentile": 42.86
+        },
+        {
+          "key": "clicks",
+          "label": "clicks",
+          "value": 297,
+          "weight": 0.5,
+          "percentile": 21.43
         }
       ],
-      "composite_percentile": 16.67,
-      "tier": "underperformed",
+      "composite_percentile": 32.14,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|carousel-document",
         "window_days": 90,
         "size": 15,
         "min_required": 8
       },
-      "unmeasurable_signals": [
-        "save_rate"
-      ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1898,14 +2124,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.1,
-          "weight": 1,
-          "percentile": 37.93
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1634,
+          "weight": 0.6,
+          "percentile": 60.71
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 18,
+          "weight": 0.4,
+          "percentile": 55.36
         }
       ],
-      "composite_percentile": 37.93,
+      "composite_percentile": 58.57,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -1913,7 +2146,7 @@
         "size": 29,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -1950,16 +2183,16 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 1121,
-          "weight": 0.5,
+          "weight": 0.6,
           "percentile": null
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.18,
-          "weight": 0.5,
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
           "percentile": null
         }
       ],
@@ -1968,10 +2201,10 @@
       "cohort": {
         "key": "linkedin|short-form-video",
         "window_days": null,
-        "size": 5,
+        "size": 6,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2007,22 +2240,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.06,
-          "weight": 1,
-          "percentile": 77.59
+          "key": "impressions",
+          "label": "impressions",
+          "value": 582,
+          "weight": 0.6,
+          "percentile": 3.57
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.4,
+          "percentile": 16.07
         }
       ],
-      "composite_percentile": 77.59,
-      "tier": "worked",
+      "composite_percentile": 8.57,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 29,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2059,16 +2299,16 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 539,
-          "weight": 0.5,
+          "weight": 0.6,
           "percentile": null
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.74,
-          "weight": 0.5,
+          "key": "shares",
+          "label": "shares",
+          "value": 4,
+          "weight": 0.4,
           "percentile": null
         }
       ],
@@ -2077,10 +2317,10 @@
       "cohort": {
         "key": "linkedin|short-form-video",
         "window_days": null,
-        "size": 5,
+        "size": 6,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2116,25 +2356,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "click_rate",
-          "label": "clicks per impression",
-          "value": 55.37,
-          "weight": 1,
-          "percentile": 39.29
+          "key": "impressions",
+          "label": "impressions",
+          "value": 652,
+          "weight": 0.5,
+          "percentile": 0
+        },
+        {
+          "key": "clicks",
+          "label": "clicks",
+          "value": 361,
+          "weight": 0.5,
+          "percentile": 23.08
         }
       ],
-      "composite_percentile": 39.29,
-      "tier": "middle",
+      "composite_percentile": 11.54,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|carousel-document",
         "window_days": 90,
         "size": 14,
         "min_required": 8
       },
-      "unmeasurable_signals": [
-        "save_rate"
-      ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2171,16 +2415,16 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 538,
-          "weight": 0.5,
+          "weight": 0.6,
           "percentile": null
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.37,
-          "weight": 0.5,
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
           "percentile": null
         }
       ],
@@ -2189,10 +2433,10 @@
       "cohort": {
         "key": "linkedin|short-form-video",
         "window_days": null,
-        "size": 5,
+        "size": 6,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2233,28 +2477,35 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "retention",
-          "label": "completion rate (or mean watch seconds where duration is unknown)",
-          "value": 11,
-          "weight": 0.444,
-          "percentile": 26.47
+          "key": "impressions",
+          "label": "impressions",
+          "value": 564,
+          "weight": 0.4,
+          "percentile": 10.53
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.18,
-          "weight": 0.296,
-          "percentile": 97.5
+          "key": "reactions",
+          "label": "reactions",
+          "value": 17,
+          "weight": 0.24,
+          "percentile": 57.89
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.89,
-          "weight": 0.259,
-          "percentile": 97.06
+          "key": "watch_time_seconds",
+          "label": "total watch time (seconds)",
+          "value": 2332,
+          "weight": 0.16,
+          "percentile": 12.5
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 5,
+          "weight": 0.2,
+          "percentile": 90.63
         }
       ],
-      "composite_percentile": 65.82,
+      "composite_percentile": 38.23,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
@@ -2263,9 +2514,10 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "comments",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2301,28 +2553,35 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "retention",
-          "label": "completion rate (or mean watch seconds where duration is unknown)",
-          "value": 7,
-          "weight": 0.444,
-          "percentile": 2.94
+          "key": "impressions",
+          "label": "impressions",
+          "value": 290,
+          "weight": 0.4,
+          "percentile": 0
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.296,
-          "percentile": 25
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.24,
+          "percentile": 39.47
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 2.07,
-          "weight": 0.259,
-          "percentile": 97.06
+          "key": "watch_time_seconds",
+          "label": "total watch time (seconds)",
+          "value": 742,
+          "weight": 0.16,
+          "percentile": 0
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 6,
+          "weight": 0.2,
+          "percentile": 93.75
         }
       ],
-      "composite_percentile": 33.88,
+      "composite_percentile": 28.22,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
@@ -2331,9 +2590,10 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "comments",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2369,29 +2629,39 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "retention",
-          "label": "completion rate (or mean watch seconds where duration is unknown)",
-          "value": 15,
-          "weight": 0.6,
-          "percentile": 72.22
+          "key": "impressions",
+          "label": "impressions",
+          "value": 134,
+          "weight": 0.5,
+          "percentile": 0
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.75,
-          "weight": 0.4,
-          "percentile": 97.73
+          "key": "reactions",
+          "label": "reactions",
+          "value": 11,
+          "weight": 0.3,
+          "percentile": 19.05
+        },
+        {
+          "key": "watch_time_seconds",
+          "label": "total watch time (seconds)",
+          "value": 6135,
+          "weight": 0.2,
+          "percentile": 47.06
         }
       ],
-      "composite_percentile": 82.42,
-      "tier": "worked",
+      "composite_percentile": 15.13,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
         "size": 22,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "unmeasurable_signals": [
+        "comments"
+      ],
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2427,22 +2697,36 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.28,
-          "weight": 0.533,
-          "percentile": 92.86
+          "key": "impressions",
+          "label": "impressions",
+          "value": 718,
+          "weight": 0.4,
+          "percentile": 40
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.84,
-          "weight": 0.467,
-          "percentile": 82.5
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.24,
+          "percentile": 22.5
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 2,
+          "weight": 0.16,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 6,
+          "weight": 0.2,
+          "percentile": 86.84
         }
       ],
-      "composite_percentile": 88.02,
-      "tier": "worked",
+      "composite_percentile": 46.15,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
@@ -2450,10 +2734,10 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2489,21 +2773,28 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.79,
-          "weight": 0.741,
-          "percentile": 70.69
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1396,
+          "weight": 0.48,
+          "percentile": 64.29
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.36,
-          "weight": 0.259,
+          "key": "reactions",
+          "label": "reactions",
+          "value": 25,
+          "weight": 0.32,
+          "percentile": 85.71
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 5,
+          "weight": 0.2,
           "percentile": null
         }
       ],
-      "composite_percentile": 70.69,
+      "composite_percentile": 72.86,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -2512,9 +2803,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2550,22 +2841,36 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.12,
-          "weight": 0.444,
-          "percentile": 75
+          "key": "impressions",
+          "label": "impressions",
+          "value": 853,
+          "weight": 0.385,
+          "percentile": 47.62
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.7,
-          "weight": 0.556,
-          "percentile": 78.57
+          "key": "reactions",
+          "label": "reactions",
+          "value": 18,
+          "weight": 0.231,
+          "percentile": 69.05
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 1,
+          "weight": 0.154,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 6,
+          "weight": 0.231,
+          "percentile": 85
         }
       ],
-      "composite_percentile": 76.98,
-      "tier": "worked",
+      "composite_percentile": 63.66,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
@@ -2573,9 +2878,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2611,14 +2916,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.63,
-          "weight": 1,
-          "percentile": 58.93
+          "key": "impressions",
+          "label": "impressions",
+          "value": 920,
+          "weight": 0.6,
+          "percentile": 44.44
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.4,
+          "percentile": 42.59
         }
       ],
-      "composite_percentile": 58.93,
+      "composite_percentile": 43.7,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -2626,7 +2938,7 @@
         "size": 28,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2662,22 +2974,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 3.15,
-          "weight": 1,
-          "percentile": 95.31
+          "key": "impressions",
+          "label": "impressions",
+          "value": 508,
+          "weight": 0.6,
+          "percentile": 6.45
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 16,
+          "weight": 0.4,
+          "percentile": 50
         }
       ],
-      "composite_percentile": 95.31,
-      "tier": "worked",
+      "composite_percentile": 23.87,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
         "size": 32,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2713,14 +3032,21 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.67,
-          "weight": 1,
-          "percentile": 60.94
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1320,
+          "weight": 0.6,
+          "percentile": 61.29
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 22,
+          "weight": 0.4,
+          "percentile": 69.35
         }
       ],
-      "composite_percentile": 60.94,
+      "composite_percentile": 64.51,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
@@ -2728,7 +3054,7 @@
         "size": 32,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2764,22 +3090,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.93,
-          "weight": 1,
-          "percentile": 74.24
+          "key": "impressions",
+          "label": "impressions",
+          "value": 621,
+          "weight": 0.6,
+          "percentile": 21.21
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.4,
+          "percentile": 24.24
         }
       ],
-      "composite_percentile": 74.24,
-      "tier": "middle",
+      "composite_percentile": 22.42,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 33,
+        "size": 34,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2815,32 +3148,46 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.17,
-          "weight": 0.444,
-          "percentile": 76
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1796,
+          "weight": 0.385,
+          "percentile": 95.45
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.28,
-          "weight": 0.556,
-          "percentile": 50
+          "key": "reactions",
+          "label": "reactions",
+          "value": 26,
+          "weight": 0.231,
+          "percentile": 90.91
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 3,
+          "weight": 0.154,
+          "percentile": null
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 5,
+          "weight": 0.231,
+          "percentile": 75
         }
       ],
-      "composite_percentile": 61.54,
-      "tier": "middle",
+      "composite_percentile": 88.63,
+      "tier": "worked",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 25,
+        "size": 23,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2876,25 +3223,39 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "impressions",
+          "label": "impressions",
+          "value": 576,
+          "weight": 0.5,
+          "percentile": 26.09
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 14,
+          "weight": 0.3,
+          "percentile": 41.3
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
           "value": 0,
-          "weight": 1,
-          "percentile": 23.08
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 23.08,
-      "tier": "underperformed",
+      "composite_percentile": 31.79,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 26,
+        "size": 24,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2930,33 +3291,47 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 24.07
+          "key": "impressions",
+          "label": "impressions",
+          "value": 680,
+          "weight": 0.4,
+          "percentile": 41.67
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.88,
-          "weight": 0.467,
-          "percentile": 82.5
+          "key": "reactions",
+          "label": "reactions",
+          "value": 11,
+          "weight": 0.24,
+          "percentile": 18.75
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": 14.29
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 6,
+          "weight": 0.2,
+          "percentile": 87.5
         }
       ],
-      "composite_percentile": 51.36,
+      "composite_percentile": 40.95,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 27,
+        "size": 25,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -2992,33 +3367,47 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 25.86
+          "key": "impressions",
+          "label": "impressions",
+          "value": 540,
+          "weight": 0.4,
+          "percentile": 23.08
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.74,
-          "weight": 0.467,
-          "percentile": 72.5
+          "key": "reactions",
+          "label": "reactions",
+          "value": 8,
+          "weight": 0.24,
+          "percentile": 17.31
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": 20
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 4,
+          "weight": 0.2,
+          "percentile": 64.29
         }
       ],
-      "composite_percentile": 47.64,
+      "composite_percentile": 29.44,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 29,
+        "size": 27,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3054,22 +3443,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.31,
-          "weight": 1,
-          "percentile": 81.03
+          "key": "impressions",
+          "label": "impressions",
+          "value": 650,
+          "weight": 0.6,
+          "percentile": 34.48
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.4,
+          "percentile": 43.1
         }
       ],
-      "composite_percentile": 81.03,
-      "tier": "worked",
+      "composite_percentile": 37.93,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 29,
+        "size": 30,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3105,22 +3501,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.99,
-          "weight": 1,
-          "percentile": 68.33
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1760,
+          "weight": 0.6,
+          "percentile": 76.67
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 35,
+          "weight": 0.4,
+          "percentile": 90
         }
       ],
-      "composite_percentile": 68.33,
-      "tier": "middle",
+      "composite_percentile": 82,
+      "tier": "worked",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 30,
+        "size": 31,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3156,33 +3559,47 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 27.27
+          "key": "impressions",
+          "label": "impressions",
+          "value": 741,
+          "weight": 0.4,
+          "percentile": 56.67
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.81,
-          "weight": 0.467,
-          "percentile": 73.81
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.24,
+          "percentile": 41.67
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": 25
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 6,
+          "weight": 0.2,
+          "percentile": 87.5
         }
       ],
-      "composite_percentile": 49,
+      "composite_percentile": 54.17,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 33,
+        "size": 31,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3218,29 +3635,36 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 4.11,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 219,
           "weight": 0.5,
-          "percentile": 95.45
+          "percentile": 23.08
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "reactions",
+          "label": "reactions",
+          "value": 9,
+          "weight": 0.3,
+          "percentile": 61.54
+        },
+        {
+          "key": "comments",
+          "label": "comments",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 40.91
+          "weight": 0.2,
+          "percentile": 38.46
         }
       ],
-      "composite_percentile": 68.18,
+      "composite_percentile": 37.69,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|text",
         "window_days": null,
-        "size": 11,
+        "size": 14,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3276,29 +3700,36 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.34,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1713,
           "weight": 0.5,
-          "percentile": 50
+          "percentile": 92.31
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.06,
-          "weight": 0.5,
-          "percentile": 86.36
+          "key": "reactions",
+          "label": "reactions",
+          "value": 23,
+          "weight": 0.3,
+          "percentile": 100
+        },
+        {
+          "key": "comments",
+          "label": "comments",
+          "value": 1,
+          "weight": 0.2,
+          "percentile": 88.46
         }
       ],
-      "composite_percentile": 68.18,
-      "tier": "middle",
+      "composite_percentile": 93.85,
+      "tier": "worked",
       "cohort": {
         "key": "linkedin|text",
         "window_days": null,
-        "size": 11,
+        "size": 14,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3334,32 +3765,46 @@
       "content_role": "advocacy",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.444,
-          "percentile": 27.27
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1231,
+          "weight": 0.385,
+          "percentile": 83.33
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (advocacy: someone put their name to it)",
-          "value": 0.16,
-          "weight": 0.556,
-          "percentile": 11.11
+          "key": "reactions",
+          "label": "reactions",
+          "value": 20,
+          "weight": 0.231,
+          "percentile": 78.33
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.154,
+          "percentile": 25
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (advocacy: someone put their name to it)",
+          "value": 2,
+          "weight": 0.231,
+          "percentile": 28.26
         }
       ],
-      "composite_percentile": 18.29,
-      "tier": "underperformed",
+      "composite_percentile": 60.49,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 33,
+        "size": 31,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3395,33 +3840,47 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 28.57
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1301,
+          "weight": 0.4,
+          "percentile": 87.5
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.69,
-          "weight": 0.467,
-          "percentile": 55.26
+          "key": "reactions",
+          "label": "reactions",
+          "value": 31,
+          "weight": 0.24,
+          "percentile": 96.88
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": 27.5
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 9,
+          "weight": 0.2,
+          "percentile": 100
         }
       ],
-      "composite_percentile": 41.03,
-      "tier": "middle",
+      "composite_percentile": 82.65,
+      "tier": "worked",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 35,
+        "size": 33,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3457,22 +3916,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.76,
-          "weight": 1,
-          "percentile": 87.93
+          "key": "impressions",
+          "label": "impressions",
+          "value": 689,
+          "weight": 0.6,
+          "percentile": 37.93
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 19,
+          "weight": 0.4,
+          "percentile": 62.07
         }
       ],
-      "composite_percentile": 87.93,
-      "tier": "worked",
+      "composite_percentile": 47.59,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 29,
+        "size": 30,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3508,22 +3974,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.1,
-          "weight": 1,
-          "percentile": 13.79
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1735,
+          "weight": 0.6,
+          "percentile": 76.67
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 19,
+          "weight": 0.4,
+          "percentile": 61.67
         }
       ],
-      "composite_percentile": 13.79,
-      "tier": "underperformed",
+      "composite_percentile": 70.67,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 29,
+        "size": 31,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3559,22 +4032,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.79,
-          "weight": 1,
-          "percentile": 88.33
+          "key": "impressions",
+          "label": "impressions",
+          "value": 574,
+          "weight": 0.6,
+          "percentile": 19.35
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 16,
+          "weight": 0.4,
+          "percentile": 51.61
         }
       ],
-      "composite_percentile": 88.33,
-      "tier": "worked",
+      "composite_percentile": 32.25,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 30,
+        "size": 32,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3610,29 +4090,36 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 3.26,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 184,
           "weight": 0.5,
-          "percentile": 68.18
+          "percentile": 15.38
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "reactions",
+          "label": "reactions",
+          "value": 6,
+          "weight": 0.3,
+          "percentile": 50
+        },
+        {
+          "key": "comments",
+          "label": "comments",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 40.91
+          "weight": 0.2,
+          "percentile": 38.46
         }
       ],
-      "composite_percentile": 54.55,
+      "composite_percentile": 30.38,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|text",
         "window_days": null,
-        "size": 11,
+        "size": 14,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3668,22 +4155,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.21,
-          "weight": 1,
-          "percentile": 66.13
+          "key": "impressions",
+          "label": "impressions",
+          "value": 997,
+          "weight": 0.6,
+          "percentile": 59.38
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 22,
+          "weight": 0.4,
+          "percentile": 64.06
         }
       ],
-      "composite_percentile": 66.13,
+      "composite_percentile": 61.25,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 31,
+        "size": 33,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3719,29 +4213,36 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.24,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1207,
           "weight": 0.5,
-          "percentile": 40.91
+          "percentile": 71.43
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.3,
+          "percentile": 71.43
+        },
+        {
+          "key": "comments",
+          "label": "comments",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 40.91
+          "weight": 0.2,
+          "percentile": 35.71
         }
       ],
-      "composite_percentile": 40.91,
+      "composite_percentile": 64.29,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|text",
-        "window_days": null,
-        "size": 11,
+        "window_days": 90,
+        "size": 8,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3777,25 +4278,39 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.18,
-          "weight": 1,
-          "percentile": 78.75
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1095,
+          "weight": 0.5,
+          "percentile": 66.67
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 14,
+          "weight": 0.3,
+          "percentile": 54.17
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 2,
+          "weight": 0.2,
+          "percentile": 80
         }
       ],
-      "composite_percentile": 78.75,
-      "tier": "worked",
+      "composite_percentile": 65.59,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 40,
+        "size": 37,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3831,22 +4346,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.46,
-          "weight": 1,
-          "percentile": 43.1
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1231,
+          "weight": 0.6,
+          "percentile": 56.67
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 18,
+          "weight": 0.4,
+          "percentile": 43.33
         }
       ],
-      "composite_percentile": 43.1,
+      "composite_percentile": 51.33,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 29,
+        "size": 31,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3882,22 +4404,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 1.58,
-          "weight": 1,
-          "percentile": 42.19
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1391,
+          "weight": 0.6,
+          "percentile": 60.61
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 22,
+          "weight": 0.4,
+          "percentile": 51.52
         }
       ],
-      "composite_percentile": 42.19,
+      "composite_percentile": 56.97,
       "tier": "middle",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 32,
+        "size": 34,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3933,25 +4462,39 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "impressions",
+          "label": "impressions",
+          "value": 351,
+          "weight": 0.5,
+          "percentile": 0
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 10,
+          "weight": 0.3,
+          "percentile": 28.75
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
           "value": 0,
-          "weight": 1,
-          "percentile": 27.27
+          "weight": 0.2,
+          "percentile": 27.03
         }
       ],
-      "composite_percentile": 27.27,
-      "tier": "middle",
+      "composite_percentile": 14.03,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 44,
+        "size": 41,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -3987,22 +4530,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.34,
-          "weight": 1,
-          "percentile": 74
+          "key": "impressions",
+          "label": "impressions",
+          "value": 642,
+          "weight": 0.6,
+          "percentile": 16
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.4,
+          "percentile": 26
         }
       ],
-      "composite_percentile": 74,
-      "tier": "middle",
+      "composite_percentile": 20,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 25,
+        "size": 26,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4038,29 +4588,36 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 3.95,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 76,
           "weight": 0.5,
-          "percentile": 83.33
+          "percentile": 0
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "reactions",
+          "label": "reactions",
+          "value": 3,
+          "weight": 0.3,
+          "percentile": 10
+        },
+        {
+          "key": "comments",
+          "label": "comments",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 44.44
+          "weight": 0.2,
+          "percentile": 40
         }
       ],
-      "composite_percentile": 63.89,
+      "composite_percentile": 11,
       "tier": "insufficient-data",
       "cohort": {
         "key": "linkedin|text",
         "window_days": 90,
-        "size": 9,
+        "size": 11,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4096,33 +4653,47 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 27.45
+          "key": "impressions",
+          "label": "impressions",
+          "value": 299,
+          "weight": 0.4,
+          "percentile": 0
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.67,
-          "weight": 0.467,
-          "percentile": null
+          "key": "reactions",
+          "label": "reactions",
+          "value": 7,
+          "weight": 0.24,
+          "percentile": 10.2
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": 26.53
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 2,
+          "weight": 0.2,
+          "percentile": 22.22
         }
       ],
-      "composite_percentile": 27.45,
-      "tier": "middle",
+      "composite_percentile": 11.14,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 51,
+        "size": 50,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4158,29 +4729,36 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 3.37,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 89,
           "weight": 0.5,
-          "percentile": 75
+          "percentile": 9.09
         },
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "reactions",
+          "label": "reactions",
+          "value": 3,
+          "weight": 0.3,
+          "percentile": 13.64
+        },
+        {
+          "key": "comments",
+          "label": "comments",
           "value": 0,
-          "weight": 0.5,
-          "percentile": 45
+          "weight": 0.2,
+          "percentile": 40.91
         }
       ],
-      "composite_percentile": 60,
+      "composite_percentile": 16.82,
       "tier": "insufficient-data",
       "cohort": {
         "key": "linkedin|text",
         "window_days": 90,
-        "size": 10,
+        "size": 12,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4216,22 +4794,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.96,
-          "weight": 1,
-          "percentile": 89.13
+          "key": "impressions",
+          "label": "impressions",
+          "value": 506,
+          "weight": 0.6,
+          "percentile": 0
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.4,
+          "percentile": 23.91
         }
       ],
-      "composite_percentile": 89.13,
-      "tier": "worked",
+      "composite_percentile": 9.56,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 23,
+        "size": 24,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4267,22 +4852,29 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.91,
-          "weight": 1,
-          "percentile": 85.42
+          "key": "impressions",
+          "label": "impressions",
+          "value": 412,
+          "weight": 0.6,
+          "percentile": 0
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.4,
+          "percentile": 6.25
         }
       ],
-      "composite_percentile": 85.42,
-      "tier": "worked",
+      "composite_percentile": 2.5,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|single-image",
         "window_days": 90,
-        "size": 24,
+        "size": 25,
         "min_required": 8
       },
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4318,25 +4910,39 @@
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0.29,
-          "weight": 1,
-          "percentile": 90
+          "key": "impressions",
+          "label": "impressions",
+          "value": 681,
+          "weight": 0.5,
+          "percentile": 18.87
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 14,
+          "weight": 0.3,
+          "percentile": 32.08
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 2,
+          "weight": 0.2,
+          "percentile": 75.47
         }
       ],
-      "composite_percentile": 90,
-      "tier": "worked",
+      "composite_percentile": 34.15,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 55,
+        "size": 54,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "watch_time_seconds"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4372,33 +4978,47 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 0.533,
-          "percentile": 24.11
+          "key": "impressions",
+          "label": "impressions",
+          "value": 741,
+          "weight": 0.4,
+          "percentile": 27.78
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.4,
-          "weight": 0.467,
-          "percentile": null
+          "key": "reactions",
+          "label": "reactions",
+          "value": 16,
+          "weight": 0.24,
+          "percentile": 42.59
+        },
+        {
+          "key": "comments",
+          "label": "comments (fallback when watch time is unavailable)",
+          "value": 0,
+          "weight": 0.16,
+          "percentile": 23.15
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 3,
+          "weight": 0.2,
+          "percentile": 36.96
         }
       ],
-      "composite_percentile": 24.11,
-      "tier": "underperformed",
+      "composite_percentile": 32.43,
+      "tier": "middle",
       "cohort": {
         "key": "linkedin|video",
         "window_days": 90,
-        "size": 56,
+        "size": 55,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention",
-        "save_rate"
+        "watch_time_seconds",
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   },
   {
@@ -4434,22 +5054,36 @@
       "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 2.2,
-          "weight": 0.6,
-          "percentile": 81.25
+          "key": "impressions",
+          "label": "impressions",
+          "value": 681,
+          "weight": 0.4,
+          "percentile": 0
         },
         {
-          "key": "repost_rate",
-          "label": "reposts per impression (thesis: passed on)",
-          "value": 0.73,
-          "weight": 0.4,
-          "percentile": 93.75
+          "key": "reactions",
+          "label": "reactions",
+          "value": 15,
+          "weight": 0.24,
+          "percentile": 0
+        },
+        {
+          "key": "clicks",
+          "label": "clicks",
+          "value": 442,
+          "weight": 0.16,
+          "percentile": 0
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 5,
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 86.25,
-      "tier": "worked",
+      "composite_percentile": 0,
+      "tier": "underperformed",
       "cohort": {
         "key": "linkedin|multi-image",
         "window_days": 90,
@@ -4457,9 +5091,9 @@
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "save_rate"
+        "saves"
       ],
-      "metrics_synced_at": "2026-08-18T00:59:41Z"
+      "metrics_synced_at": "2026-08-18T12:54:49Z"
     }
   }
 ]

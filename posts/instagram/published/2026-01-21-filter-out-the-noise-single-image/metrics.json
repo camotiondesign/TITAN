@@ -26,8 +26,8 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:notionsocial",
     "platform": "instagram",
     "format": "single-image",
@@ -50,32 +50,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 2.52,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 476,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 12,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 56.25
+      "impressions": 14.29,
+      "reactions": 28.57
     },
-    "composite_percentile": 56.25,
-    "tier": "middle",
+    "composite_percentile": 20,
+    "tier": "underperformed",
     "cohort": {
       "key": "instagram|single-image",
       "window_days": null,
       "size": 8,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 7,
+        "of": 8,
+        "value": 476
+      },
+      "reactions": {
+        "rank": 6,
+        "of": 8,
+        "value": 12
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

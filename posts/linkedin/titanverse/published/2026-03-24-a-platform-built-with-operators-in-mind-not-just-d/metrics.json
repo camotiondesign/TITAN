@@ -40,8 +40,8 @@
   },
   "campaign_slug": "2026-03-24-a-platform-built-with-operators-in-mind-not-just-d",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "text",
@@ -64,41 +64,67 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 4.11,
+        "value": 219,
         "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.5,
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 9,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "comments",
+        "label": "comments",
+        "kind": "count",
+        "weight": 0.2,
         "value": 0,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 95.45,
-      "comment_rate": 40.91
+      "impressions": 23.08,
+      "reactions": 61.54,
+      "comments": 38.46
     },
-    "composite_percentile": 68.18,
+    "composite_percentile": 37.69,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|text",
       "window_days": null,
-      "size": 11,
+      "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 11,
+        "of": 14,
+        "value": 219
+      },
+      "reactions": {
+        "rank": 6,
+        "of": 14,
+        "value": 9
+      },
+      "comments": {
+        "rank": 4,
+        "of": 14,
+        "value": 0
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Visual animation format effectively communicated legacy PMR pain points (excessive printing, chaos, outdated behavior). Good engagement (8.9% engagement rate, 6.8% CTR) and strong watch time (10 seconds average) indicate strong audience interest. Comments from Aron Garner and Balal Anwar validated innovation positioning.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,39 +76,49 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 10,
-        "normalised_weight": 0.444
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1377,
+        "normalised_weight": 0.4
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.29,
-        "normalised_weight": 0.296
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 19,
+        "normalised_weight": 0.24
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.36,
-        "normalised_weight": 0.259
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 7530,
+        "normalised_weight": 0.16
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 5,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "comments",
+      "saves"
     ],
     "percentiles": {
-      "retention": 25,
-      "comment_rate": 89.29,
-      "repost_rate": 83.33
+      "impressions": 53.85,
+      "reactions": 73.08,
+      "watch_time_seconds": 53.85,
+      "reposts": 100
     },
-    "composite_percentile": 59.17,
+    "composite_percentile": 67.7,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -116,12 +126,34 @@
       "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 7,
+        "of": 14,
+        "value": 1377
+      },
+      "reactions": {
+        "rank": 4,
+        "of": 14,
+        "value": 19
+      },
+      "watch_time_seconds": {
+        "rank": 7,
+        "of": 14,
+        "value": 7530
+      },
+      "reposts": {
+        "rank": 1,
+        "of": 9,
+        "value": 5
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

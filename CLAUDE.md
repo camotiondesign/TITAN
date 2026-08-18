@@ -85,7 +85,7 @@ Rules:
 - Ranking posts across different formats by any raw number is the exact mistake
   this model exists to prevent. Compare percentiles, or compare within a format.
 - `insufficient-data` also covers posts under 100 impressions (`low_volume: true`).
-- Baseline (2026-08-18): 97 worked / 276 middle / 68 underperformed / 41 insufficient.
+- Baseline (2026-08-18, spec_version 3): 95 worked / 270 middle / 102 underperformed / 15 insufficient. Signals are raw counts — reach is an outcome, not a denominator.
 
 **New Metricool CSV drop** (Cam drops them in `~/Downloads/Metrics/`) — profiles
 are auto-detected from CSV headers, so no new code is needed per drop:

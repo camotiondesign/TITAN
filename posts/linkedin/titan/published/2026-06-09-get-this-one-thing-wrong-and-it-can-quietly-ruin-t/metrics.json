@@ -80,14 +80,14 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "multi-image",
-    "format_source": "platform_type",
-    "role": "standard",
-    "role_source": "default",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:industry_stance",
     "components": {
       "impressions": 2945,
       "reach": 0,
@@ -95,7 +95,7 @@
       "comments": 0,
       "reposts": 3,
       "saves": 0,
-      "clicks": 4382,
+      "clicks": 2472,
       "video_views": 0,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
@@ -104,41 +104,77 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 0.88,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 2945,
+        "normalised_weight": 0.4
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.1,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 26,
+        "normalised_weight": 0.24
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 2472,
+        "normalised_weight": 0.16
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 3,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "saves"
+    ],
     "percentiles": {
-      "reaction_rate": 18.75,
-      "repost_rate": 31.25
+      "impressions": 71.43,
+      "reactions": 28.57,
+      "clicks": 71.43
     },
-    "composite_percentile": 23.75,
-    "tier": "underperformed",
+    "composite_percentile": 58.57,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|multi-image",
       "window_days": 180,
       "size": 8,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 3,
+        "of": 8,
+        "value": 2945
+      },
+      "reactions": {
+        "rank": 6,
+        "of": 8,
+        "value": 26
+      },
+      "clicks": {
+        "rank": 3,
+        "of": 8,
+        "value": 2472
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

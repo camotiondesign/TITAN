@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Pharmacy myths carousel (8 Myths About Pharmacies in 2025). Discovery: 2,118 impressions, 1,350 members reached. Engagement: 2,309 engagements (109.0%), 2,293 clicks (108.3% CTR), 12 reactions, 1 comment, 3 reposts. Page viewers: 3, followers gained: 1.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,29 +76,38 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 108.26,
-        "normalised_weight": 0.667
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 2118,
+        "normalised_weight": 0.4
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.14,
-        "normalised_weight": 0.333
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 2293,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 3,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "click_rate": 96.67
+      "impressions": 78.57,
+      "clicks": 85.71
     },
-    "composite_percentile": 96.67,
+    "composite_percentile": 82.14,
     "tier": "worked",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -106,12 +115,24 @@
       "size": 15,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 15,
+        "value": 2118
+      },
+      "clicks": {
+        "rank": 3,
+        "of": 15,
+        "value": 2293
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

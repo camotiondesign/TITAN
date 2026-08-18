@@ -52,8 +52,8 @@
   },
   "notes": "Animated promotional video showcasing Titanverse's integrated platform. Engagement rate: 8.9% (48 engagements from 539 impressions). CTR: 4.8% (26 clicks). Video performance: 284 views, 1h 3m 58s total watch time, 13s average watch time. 18 reactions, 0 comments, 4 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "short-form-video",
@@ -77,19 +77,19 @@
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
+        "weight": 0.6,
         "value": 539,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.6
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.74,
-        "normalised_weight": 0.5
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 4,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
@@ -99,15 +99,16 @@
     "cohort": {
       "key": "linkedin|short-form-video",
       "window_days": null,
-      "size": 5,
+      "size": 6,
       "min_required": 8
     },
+    "raw_ranks": null,
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

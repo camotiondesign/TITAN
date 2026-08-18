@@ -80,12 +80,12 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "multi-image",
-    "format_source": "platform_type",
+    "format_source": "asset_type",
     "role": "standard",
     "role_source": "default",
     "components": {
@@ -95,7 +95,7 @@
       "comments": 0,
       "reposts": 6,
       "saves": 0,
-      "clicks": 2040,
+      "clicks": 2055,
       "video_views": 0,
       "avg_watch_time_seconds": 0,
       "duration_seconds": 0,
@@ -104,28 +104,37 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 1.78,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3205,
+        "normalised_weight": 0.5
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.19,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 57,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 2055,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 68.18,
-      "repost_rate": 50
+      "impressions": 70,
+      "reactions": 80,
+      "clicks": 50
     },
-    "composite_percentile": 60.91,
+    "composite_percentile": 69,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|multi-image",
@@ -133,12 +142,29 @@
       "size": 11,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 11,
+        "value": 3205
+      },
+      "reactions": {
+        "rank": 3,
+        "of": 11,
+        "value": 57
+      },
+      "clicks": {
+        "rank": 6,
+        "of": 11,
+        "value": 2055
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

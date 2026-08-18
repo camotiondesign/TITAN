@@ -29,9 +29,9 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "instagram-reels_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api",
     "platform": "instagram",
     "format": "short-form-video",
     "format_source": "asset_type",
@@ -54,27 +54,27 @@
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
+        "weight": 0.6,
         "value": 187,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.6
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
         "value": 0,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "views": 76.92,
-      "share_rate": 42.31
+      "views": 79.17,
+      "shares": 41.67
     },
-    "composite_percentile": 59.62,
+    "composite_percentile": 64.17,
     "tier": "middle",
     "cohort": {
       "key": "instagram|short-form-video",
@@ -82,12 +82,24 @@
       "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "views": {
+        "rank": 3,
+        "of": 13,
+        "value": 187
+      },
+      "shares": {
+        "rank": 3,
+        "of": 13,
+        "value": 0
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

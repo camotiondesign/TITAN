@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Single image: NHS Pharmacy First funding changes graphic (checklist, new rules, Titan branding). Discovery: 1,302 impressions, 729 members reached. Page activity: 5 page viewers, 0 followers gained. Engagement: 58 engagements (4.5%), 43 clicks (3.3% CTR), 13 reactions, 0 comments, 2 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,42 +76,63 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1,
-        "normalised_weight": 0.741
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1302,
+        "normalised_weight": 0.48
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.15,
-        "normalised_weight": 0.259
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 13,
+        "normalised_weight": 0.32
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 2,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "reaction_rate": 4.17
+      "impressions": 72.73,
+      "reactions": 40.91
     },
-    "composite_percentile": 4.17,
-    "tier": "underperformed",
+    "composite_percentile": 60,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 12,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 12,
+        "value": 1302
+      },
+      "reactions": {
+        "rank": 7,
+        "of": 12,
+        "value": 13
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

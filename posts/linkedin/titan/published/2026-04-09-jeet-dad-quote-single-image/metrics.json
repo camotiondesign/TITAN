@@ -80,14 +80,14 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "format": "video",
-    "format_source": "platform_type",
-    "role": "standard",
-    "role_source": "default",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_quote_card",
     "components": {
       "impressions": 1189,
       "reach": 0,
@@ -104,34 +104,61 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1189,
+        "normalised_weight": 0.462
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
         "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 1
+        "value": 14,
+        "normalised_weight": 0.308
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 4,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [
-      "retention"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "comment_rate": 28.95
+      "impressions": 63.33,
+      "reactions": 33.33
     },
-    "composite_percentile": 28.95,
+    "composite_percentile": 51.33,
     "tier": "middle",
     "cohort": {
-      "key": "linkedin|video",
+      "key": "linkedin|single-image",
       "window_days": 90,
-      "size": 38,
+      "size": 31,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 12,
+        "of": 31,
+        "value": 1189
+      },
+      "reactions": {
+        "rank": 21,
+        "of": 31,
+        "value": 14
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

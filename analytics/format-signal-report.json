@@ -1,6 +1,6 @@
 {
-  "computed_at": "2026-08-18T10:02:56Z",
-  "spec_version": 2,
+  "computed_at": "2026-08-18T13:07:34Z",
+  "spec_version": 3,
   "min_cohort": 8,
   "windows_days": [
     90,
@@ -14,63 +14,63 @@
   },
   "min_impressions": 100,
   "stats": {
-    "scored": 441,
-    "insufficient": 41,
+    "scored": 467,
+    "insufficient": 15,
     "tiers": {
-      "worked": 97,
-      "middle": 276,
-      "underperformed": 68,
-      "insufficient-data": 41
+      "worked": 95,
+      "middle": 270,
+      "underperformed": 102,
+      "insufficient-data": 15
     },
     "byFormat": {
       "linkedin|carousel-document": {
-        "n": 75,
-        "worked": 17,
-        "middle": 45,
-        "underperformed": 13,
+        "n": 72,
+        "worked": 15,
+        "middle": 39,
+        "underperformed": 18,
         "insufficient-data": 0
       },
       "linkedin|single-image": {
-        "n": 136,
-        "worked": 39,
-        "middle": 70,
-        "underperformed": 27,
+        "n": 138,
+        "worked": 31,
+        "middle": 74,
+        "underperformed": 33,
         "insufficient-data": 0
       },
       "linkedin|video": {
-        "n": 180,
-        "worked": 31,
-        "middle": 126,
-        "underperformed": 22,
+        "n": 177,
+        "worked": 32,
+        "middle": 108,
+        "underperformed": 36,
         "insufficient-data": 1
       },
       "linkedin|multi-image": {
         "n": 15,
-        "worked": 5,
-        "middle": 7,
-        "underperformed": 3,
+        "worked": 3,
+        "middle": 8,
+        "underperformed": 4,
         "insufficient-data": 0
       },
-      "linkedin|text": {
-        "n": 11,
-        "worked": 1,
-        "middle": 7,
-        "underperformed": 1,
-        "insufficient-data": 2
-      },
       "linkedin|short-form-video": {
-        "n": 5,
+        "n": 6,
         "worked": 0,
         "middle": 0,
         "underperformed": 0,
-        "insufficient-data": 5
+        "insufficient-data": 6
+      },
+      "linkedin|text": {
+        "n": 14,
+        "worked": 3,
+        "middle": 8,
+        "underperformed": 1,
+        "insufficient-data": 2
       },
       "instagram|single-image": {
         "n": 8,
-        "worked": 0,
-        "middle": 2,
-        "underperformed": 1,
-        "insufficient-data": 5
+        "worked": 2,
+        "middle": 3,
+        "underperformed": 3,
+        "insufficient-data": 0
       },
       "instagram|video": {
         "n": 1,
@@ -82,45 +82,38 @@
       "instagram|short-form-video": {
         "n": 13,
         "worked": 1,
-        "middle": 10,
-        "underperformed": 0,
+        "middle": 9,
+        "underperformed": 1,
         "insufficient-data": 2
       },
-      "facebook|video": {
-        "n": 12,
-        "worked": 0,
-        "middle": 0,
-        "underperformed": 0,
-        "insufficient-data": 12
+      "facebook|short-form-video": {
+        "n": 16,
+        "worked": 3,
+        "middle": 8,
+        "underperformed": 3,
+        "insufficient-data": 2
       },
       "facebook|single-image": {
         "n": 9,
-        "worked": 0,
-        "middle": 0,
-        "underperformed": 0,
-        "insufficient-data": 9
-      },
-      "facebook|short-form-video": {
-        "n": 4,
-        "worked": 0,
-        "middle": 0,
-        "underperformed": 0,
-        "insufficient-data": 4
+        "worked": 2,
+        "middle": 5,
+        "underperformed": 2,
+        "insufficient-data": 0
       },
       "tiktok|short-form-video": {
         "n": 13,
         "worked": 3,
-        "middle": 9,
+        "middle": 8,
         "underperformed": 1,
-        "insufficient-data": 0
+        "insufficient-data": 1
       }
     },
     "windows": {
-      "all-time": 79,
-      "90d": 394,
-      "180d": 8,
+      "all-time": 76,
+      "90d": 399,
+      "180d": 6,
       "365d": 1
     },
-    "lowVolume": 33
+    "lowVolume": 8
   }
 }

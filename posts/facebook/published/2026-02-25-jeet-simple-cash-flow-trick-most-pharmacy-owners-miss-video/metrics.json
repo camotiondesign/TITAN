@@ -27,9 +27,9 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T10:00:45Z",
-    "source_file": "facebook-reels_2025-01-01_2026-08-16.csv",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
+    "source_file": "backfill:platform_api",
     "platform": "facebook",
     "format": "short-form-video",
     "format_source": "asset_type",
@@ -43,47 +43,61 @@
       "reposts": 0,
       "saves": 0,
       "clicks": 0,
-      "video_views": 110,
+      "video_views": 109,
       "avg_watch_time_seconds": 5.97,
       "duration_seconds": 0,
-      "clicks_available": false,
-      "saves_available": false,
-      "reposts_available": false
+      "clicks_available": true,
+      "saves_available": false
     },
     "measured": [
       {
         "key": "views",
-        "label": "total views (algorithmic reach)",
+        "label": "views",
         "kind": "count",
-        "weight": 0.5,
+        "weight": 0.6,
         "value": 109,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.6
       },
       {
-        "key": "share_rate",
-        "label": "shares per view",
-        "kind": "rate",
-        "weight": 0.5,
+        "key": "shares",
+        "label": "shares",
+        "kind": "count",
+        "weight": 0.4,
         "value": 0,
-        "normalised_weight": 0.5
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
-    "percentiles": null,
-    "composite_percentile": null,
-    "tier": "insufficient-data",
+    "percentiles": {
+      "views": 0,
+      "shares": 12.5
+    },
+    "composite_percentile": 5,
+    "tier": "underperformed",
     "cohort": {
       "key": "facebook|short-form-video",
-      "window_days": null,
-      "size": 4,
+      "window_days": 90,
+      "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "views": {
+        "rank": 13,
+        "of": 13,
+        "value": 109
+      },
+      "shares": {
+        "rank": 10,
+        "of": 13,
+        "value": 0
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -52,8 +52,8 @@
   },
   "notes": "Montage testimonial video (multiple pharmacy teams, Day One with Titan). Posted 22 Apr 2025. Sponsored period 22 Apr – 25 Apr 2025. Total: 2,339 impressions, 8 reactions, 0 comments, 1 repost. Page: 0 viewers, 0 followers gained. Sponsored: 1,848 impressions, £27.06 eCPM, 16 engagements (0.9%), £3.12 cost per engagement, 5 clicks (0.3% CTR), 0 reactions/comments/reposts. Organic: 491 impressions, 258 members reached, 21 engagements (4.3%), 12 clicks (2.4% CTR), 8 reactions, 0 comments, 1 repost. Video: 318 views, 1h 3m 18s watch time, 11s average.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,50 +76,83 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 11,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.2,
-        "normalised_weight": 0.333
+        "value": 491,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 8,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 3498,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 1,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 32,
-      "comment_rate": 20,
-      "repost_rate": 28.13
+      "impressions": 20.83,
+      "reactions": 18.75,
+      "watch_time_seconds": 20.83,
+      "reposts": 10
     },
-    "composite_percentile": 27.51,
-    "tier": "middle",
+    "composite_percentile": 17.85,
+    "tier": "underperformed",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 25,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 20,
+        "of": 25,
+        "value": 491
+      },
+      "reactions": {
+        "rank": 20,
+        "of": 25,
+        "value": 8
+      },
+      "watch_time_seconds": {
+        "rank": 20,
+        "of": 25,
+        "value": 3498
+      },
+      "reposts": {
+        "rank": 13,
+        "of": 16,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

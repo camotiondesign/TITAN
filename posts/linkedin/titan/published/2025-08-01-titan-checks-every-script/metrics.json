@@ -52,8 +52,8 @@
   },
   "notes": "Sponsored period 1 Aug 2025 – 5 Aug 2025. Sponsored: 12,782 impressions, £3.13 eCPM, 45 engagements (0.4%), £0.89 cost per engagement. Organic: 2,447 impressions, 1,343 members reached, 225 engagements (9.2%), 168 clicks (6.9% CTR), 40 reactions, 13 comments, 4 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.63,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 2447,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 40,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 50
+      "impressions": 95.45,
+      "reactions": 95.45
     },
-    "composite_percentile": 50,
-    "tier": "middle",
+    "composite_percentile": 95.45,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 23,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 2,
+        "of": 23,
+        "value": 2447
+      },
+      "reactions": {
+        "rank": 2,
+        "of": 23,
+        "value": 40
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

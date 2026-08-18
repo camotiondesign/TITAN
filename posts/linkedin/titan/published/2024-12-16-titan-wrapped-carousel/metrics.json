@@ -52,8 +52,8 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,34 +76,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 63.17,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1811,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1144,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 58
+      "impressions": 78.87,
+      "clicks": 70.42
     },
-    "composite_percentile": 58,
+    "composite_percentile": 74.65,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": null,
-      "size": 75,
+      "size": 72,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 16,
+        "of": 72,
+        "value": 1811
+      },
+      "clicks": {
+        "rank": 22,
+        "of": 72,
+        "value": 1144
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

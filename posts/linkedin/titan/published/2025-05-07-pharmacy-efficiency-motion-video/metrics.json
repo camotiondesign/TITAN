@@ -52,8 +52,8 @@
   },
   "notes": "Animated/motion-graphics video (dispense at scale, efficiency). Posted 7 May 2025. Sponsored period 7 May – 11 May 2025. Total: 2,584 impressions, 12 reactions, 0 comments, 1 repost. Page: 1 viewer, 0 followers gained. Sponsored: 1,992 impressions, £25.10 eCPM, 8 engagements (0.4%), £6.25 cost per engagement, 5 clicks (0.3% CTR). Organic: 592 impressions, 259 members reached, 31 engagements (5.2%), 18 clicks (3.0% CTR), 12 reactions, 0 comments, 1 repost. Video: 311 views, 54m 52s watch time, 10s average.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,52 +76,84 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 10,
-        "normalised_weight": 0.444
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 592,
+        "normalised_weight": 0.4
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.296
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 12,
+        "normalised_weight": 0.24
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.17,
-        "normalised_weight": 0.259
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 3110,
+        "normalised_weight": 0.16
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 1,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "comments",
+      "saves"
     ],
     "percentiles": {
-      "retention": 21.15,
-      "comment_rate": 23.08,
-      "repost_rate": 18.42
+      "impressions": 32,
+      "reactions": 48,
+      "watch_time_seconds": 16,
+      "reposts": 11.11
     },
-    "composite_percentile": 21.01,
-    "tier": "underperformed",
+    "composite_percentile": 29.1,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 26,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 18,
+        "of": 26,
+        "value": 592
+      },
+      "reactions": {
+        "rank": 13,
+        "of": 26,
+        "value": 12
+      },
+      "watch_time_seconds": {
+        "rank": 22,
+        "of": 26,
+        "value": 3110
+      },
+      "reposts": {
+        "rank": 15,
+        "of": 19,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

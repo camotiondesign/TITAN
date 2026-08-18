@@ -52,8 +52,8 @@
   },
   "notes": "Kanav testimonial video about workflow efficiency. Strong video performance (449 views, 14s average watch time) and decent CTR (4.2%) indicate content resonates with target audience.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,50 +76,83 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 14,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.12,
-        "normalised_weight": 0.333
+        "value": 804,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 7,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 6286,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 1,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 73.53,
-      "comment_rate": 17.65,
-      "repost_rate": 20.83
+      "impressions": 12.5,
+      "reactions": 6.25,
+      "watch_time_seconds": 18.75,
+      "reposts": 18.18
     },
-    "composite_percentile": 41.06,
-    "tier": "middle",
+    "composite_percentile": 13.33,
+    "tier": "underperformed",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 17,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 15,
+        "of": 17,
+        "value": 804
+      },
+      "reactions": {
+        "rank": 16,
+        "of": 17,
+        "value": 7
+      },
+      "watch_time_seconds": {
+        "rank": 14,
+        "of": 17,
+        "value": 6286
+      },
+      "reposts": {
+        "rank": 8,
+        "of": 12,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

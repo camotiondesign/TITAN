@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Carousel: Pick your player — pharmacy action figures (Pharmacist, Dispenser, Technician, Titan AI/Batch/Mobile). Discovery: 4,287 impressions, 2,460 members reached. Page activity: 17 page viewers, 4 followers gained. Engagement: 3,892 engagements (90.8%), 3,857 clicks (90.0% CTR), 25 reactions, 6 comments, 4 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,21 +76,28 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 89.97,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 4287,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3857,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 90.63
+      "impressions": 93.33,
+      "clicks": 100
     },
-    "composite_percentile": 90.63,
+    "composite_percentile": 96.67,
     "tier": "worked",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -98,12 +105,24 @@
       "size": 16,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 2,
+        "of": 16,
+        "value": 4287
+      },
+      "clicks": {
+        "rank": 1,
+        "of": 16,
+        "value": 3857
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

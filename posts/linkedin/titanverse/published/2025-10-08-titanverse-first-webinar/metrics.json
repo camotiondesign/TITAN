@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Post-webinar thank you effectively continued event promotion momentum. Strong follower growth (11 followers) and reposts (7) indicate high interest. Comments from Hooman Ghalamkari, Phil Beard, and Sajid Ramzan validate Titanverse positioning and generate social proof. Good engagement (8.3% engagement rate, 4.7% CTR) indicates strong interest in post-webinar content.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 2.7,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 1073,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 29,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 97.62
+      "impressions": 50,
+      "reactions": 80
     },
-    "composite_percentile": 97.62,
-    "tier": "worked",
+    "composite_percentile": 62,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 21,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 11,
+        "of": 21,
+        "value": 1073
+      },
+      "reactions": {
+        "rank": 5,
+        "of": 21,
+        "value": 29
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

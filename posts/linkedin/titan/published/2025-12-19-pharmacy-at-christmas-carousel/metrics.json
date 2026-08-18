@@ -52,8 +52,8 @@
   },
   "notes": "Pharmacy at Christmas carousel - humorous comparison post with exceptional engagement (81.6% engagement rate, 80.2% CTR)",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,34 +76,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 80.16,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1396,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1119,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 82.14
+      "impressions": 69.23,
+      "clicks": 69.23
     },
-    "composite_percentile": 82.14,
-    "tier": "worked",
+    "composite_percentile": 69.23,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 5,
+        "of": 14,
+        "value": 1396
+      },
+      "clicks": {
+        "rank": 5,
+        "of": 14,
+        "value": 1119
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

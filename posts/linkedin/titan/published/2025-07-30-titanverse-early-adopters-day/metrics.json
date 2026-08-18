@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Image gallery upload. Discovery: 3,717 impressions, 1,774 members reached. Page activity: 13 page viewers, 2 followers gained. Engagement: 1,556 engagements (41.9%), 1,462 clicks (39.3% CTR), 83 reactions, 7 comments, 4 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "multi-image",
@@ -76,41 +76,67 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 2.23,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3717,
+        "normalised_weight": 0.5
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.11,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 83,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 1462,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 70,
-      "repost_rate": 30
+      "impressions": 85.71,
+      "reactions": 100,
+      "clicks": 57.14
     },
-    "composite_percentile": 54,
-    "tier": "middle",
+    "composite_percentile": 84.28,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|multi-image",
       "window_days": null,
       "size": 15,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 3,
+        "of": 15,
+        "value": 3717
+      },
+      "reactions": {
+        "rank": 1,
+        "of": 15,
+        "value": 83
+      },
+      "clicks": {
+        "rank": 7,
+        "of": 15,
+        "value": 1462
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

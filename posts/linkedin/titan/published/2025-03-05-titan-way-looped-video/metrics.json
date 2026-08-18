@@ -52,8 +52,8 @@
   },
   "notes": "The Titan Way looped video. Strong engagement rate (7.1%) and CTR (5.5%) with good video performance (374 views, 12s average watch time). Visual design successfully draws attention to workflow.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,28 +76,39 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 12,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 957,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.21,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 12,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 4488,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 47.22,
-      "comment_rate": 80.56
+      "impressions": 29.41,
+      "reactions": 35.29,
+      "watch_time_seconds": 11.76
     },
-    "composite_percentile": 60.56,
+    "composite_percentile": 27.64,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -105,12 +116,29 @@
       "size": 18,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 13,
+        "of": 18,
+        "value": 957
+      },
+      "reactions": {
+        "rank": 11,
+        "of": 18,
+        "value": 12
+      },
+      "watch_time_seconds": {
+        "rank": 16,
+        "of": 18,
+        "value": 4488
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

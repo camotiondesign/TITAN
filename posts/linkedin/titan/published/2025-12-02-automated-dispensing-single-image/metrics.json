@@ -49,8 +49,8 @@
   "notes": "Single image post promoting automated dispensing - boosted/sponsored from 12/2/2025 to 12/9/2025",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -73,19 +73,28 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.68,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 892,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 15,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 51.67
+      "impressions": 31.03,
+      "reactions": 37.93
     },
-    "composite_percentile": 51.67,
+    "composite_percentile": 33.79,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
@@ -93,12 +102,24 @@
       "size": 30,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 21,
+        "of": 30,
+        "value": 892
+      },
+      "reactions": {
+        "rank": 18,
+        "of": 30,
+        "value": 15
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

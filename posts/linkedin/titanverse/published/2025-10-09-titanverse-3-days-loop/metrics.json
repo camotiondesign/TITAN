@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Looping animation effectively continued event promotion momentum. Exceptional follower growth (16 followers) and reposts (9) indicate high interest. Strong video performance (930 views, 10-second average watch time) demonstrates engaging visual format. Visual transition between TITAN and TITANVERSE effectively communicated brand evolution.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,52 +76,84 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 10,
-        "normalised_weight": 0.444
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 2119,
+        "normalised_weight": 0.4
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.14,
-        "normalised_weight": 0.296
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 60,
+        "normalised_weight": 0.24
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.42,
-        "normalised_weight": 0.259
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 9300,
+        "normalised_weight": 0.16
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 9,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "comments",
+      "saves"
     ],
     "percentiles": {
-      "retention": 12.5,
-      "comment_rate": 61.11,
-      "repost_rate": 87.5
+      "impressions": 70.59,
+      "reactions": 100,
+      "watch_time_seconds": 33.33,
+      "reposts": 95.45
     },
-    "composite_percentile": 46.35,
-    "tier": "middle",
+    "composite_percentile": 76.66,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 18,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 6,
+        "of": 18,
+        "value": 2119
+      },
+      "reactions": {
+        "rank": 1,
+        "of": 18,
+        "value": 60
+      },
+      "watch_time_seconds": {
+        "rank": 11,
+        "of": 16,
+        "value": 9300
+      },
+      "reposts": {
+        "rank": 1,
+        "of": 12,
+        "value": 9
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

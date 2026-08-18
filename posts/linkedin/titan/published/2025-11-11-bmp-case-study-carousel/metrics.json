@@ -52,8 +52,8 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,29 +76,36 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 78.63,
-        "normalised_weight": 0.583
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 3014,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.1,
-        "normalised_weight": 0.417
+        "value": 2370,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 3,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 79.17
+      "impressions": 90.91,
+      "clicks": 90.91
     },
-    "composite_percentile": 79.17,
+    "composite_percentile": 90.91,
     "tier": "worked",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -106,12 +113,24 @@
       "size": 12,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 2,
+        "of": 12,
+        "value": 3014
+      },
+      "clicks": {
+        "rank": 2,
+        "of": 12,
+        "value": 2370
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

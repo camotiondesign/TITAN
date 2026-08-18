@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. 'From day one' messaging and new pharmacy positioning resonated with audience. Good engagement (7.0% engagement rate, 5.2% CTR) and strong watch time (12 seconds average) indicate strong audience interest in new pharmacy setup content. Comment from Kanav Sikka himself validated message and provided social proof.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,37 +76,48 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 12,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.08,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.17,
-        "normalised_weight": 0.333
+        "value": 1184,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 19,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 7140,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 2,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 53.85,
-      "comment_rate": 34.62,
-      "repost_rate": 56.25
+      "impressions": 41.67,
+      "reactions": 75,
+      "watch_time_seconds": 50,
+      "reposts": 42.86
     },
-    "composite_percentile": 49.51,
+    "composite_percentile": 50.92,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -114,12 +125,34 @@
       "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 8,
+        "of": 13,
+        "value": 1184
+      },
+      "reactions": {
+        "rank": 4,
+        "of": 13,
+        "value": 19
+      },
+      "watch_time_seconds": {
+        "rank": 7,
+        "of": 13,
+        "value": 7140
+      },
+      "reposts": {
+        "rank": 5,
+        "of": 8,
+        "value": 2
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

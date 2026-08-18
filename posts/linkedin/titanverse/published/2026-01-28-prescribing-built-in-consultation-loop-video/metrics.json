@@ -52,8 +52,8 @@
   },
   "notes": "Looping explainer: prescribing built into consultation (consultation → e-Prescribing → TITAN PMR). Discovery: 564 impressions, 0 members reached. Page activity: 1 page viewer, 0 followers gained. Engagement: 23 engagements (0.0% rate), 0 clicks (0.0% CTR), 17 reactions, 1 comment, 5 reposts. Video: 212 views, 39m 49s watch time, 11s average. Strong passive engagement (reactions + reposts) and healthy video views, but no click intent. Message validation post rather than traffic driver.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,39 +76,49 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 11,
-        "normalised_weight": 0.444
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 564,
+        "normalised_weight": 0.4
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.18,
-        "normalised_weight": 0.296
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 17,
+        "normalised_weight": 0.24
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.89,
-        "normalised_weight": 0.259
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 2332,
+        "normalised_weight": 0.16
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 5,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "comments",
+      "saves"
     ],
     "percentiles": {
-      "retention": 26.47,
-      "comment_rate": 97.5,
-      "repost_rate": 97.06
+      "impressions": 10.53,
+      "reactions": 57.89,
+      "watch_time_seconds": 12.5,
+      "reposts": 90.63
     },
-    "composite_percentile": 65.82,
+    "composite_percentile": 38.23,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -116,12 +126,34 @@
       "size": 20,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 18,
+        "of": 20,
+        "value": 564
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 20,
+        "value": 17
+      },
+      "watch_time_seconds": {
+        "rank": 15,
+        "of": 17,
+        "value": 2332
+      },
+      "reposts": {
+        "rank": 2,
+        "of": 17,
+        "value": 5
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

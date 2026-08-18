@@ -52,8 +52,8 @@
   },
   "notes": "Short video post from Knight Street Pharmacy site visit featuring Batch Flow testimonial",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,37 +76,48 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 14,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.07,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.2,
-        "normalised_weight": 0.333
+        "value": 1512,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 19,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 9296,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 3,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 52.08,
-      "comment_rate": 43.55,
-      "repost_rate": 50
+      "impressions": 60,
+      "reactions": 33.33,
+      "watch_time_seconds": 43.48,
+      "reposts": 52.27
     },
-    "composite_percentile": 49.11,
+    "composite_percentile": 49.52,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -114,12 +125,34 @@
       "size": 31,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 13,
+        "of": 31,
+        "value": 1512
+      },
+      "reactions": {
+        "rank": 21,
+        "of": 31,
+        "value": 19
+      },
+      "watch_time_seconds": {
+        "rank": 14,
+        "of": 24,
+        "value": 9296
+      },
+      "reposts": {
+        "rank": 10,
+        "of": 23,
+        "value": 3
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

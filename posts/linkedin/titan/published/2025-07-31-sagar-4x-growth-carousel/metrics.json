@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Discovery: 2,143 impressions, 1,224 members reached. Engagement: 2,018 engagements (94.2%), 1,984 clicks (92.6% CTR), 24 reactions, 8 comments, 2 reposts. Page viewers: 9, followers gained: 0.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,30 +76,37 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 92.58,
-        "normalised_weight": 0.583
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 2143,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.09,
-        "normalised_weight": 0.417
+        "value": 1984,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 2,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 79.41,
-      "repost_rate": 27.78
+      "impressions": 81.25,
+      "clicks": 75,
+      "reposts": 43.75
     },
-    "composite_percentile": 57.88,
+    "composite_percentile": 70.19,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -107,12 +114,29 @@
       "size": 17,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 4,
+        "of": 17,
+        "value": 2143
+      },
+      "clicks": {
+        "rank": 5,
+        "of": 17,
+        "value": 1984
+      },
+      "reposts": {
+        "rank": 5,
+        "of": 9,
+        "value": 2
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

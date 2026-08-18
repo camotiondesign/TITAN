@@ -52,8 +52,8 @@
   },
   "notes": "Organic post. Strong engagement (7.5% engagement rate, 6.2% CTR) indicates high interest. Reinforces private services narrative and pairs effectively with poll results showing expanding private services as priority.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,50 +76,83 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 11,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.14,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.07,
-        "normalised_weight": 0.333
+        "value": 1409,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 15,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 7095,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 1,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 25.27,
-      "comment_rate": 69.44,
-      "repost_rate": 8.33
+      "impressions": 69.89,
+      "reactions": 44.32,
+      "watch_time_seconds": 52.22,
+      "reposts": 9.46
     },
-    "composite_percentile": 31.42,
+    "composite_percentile": 47.33,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": null,
-      "size": 180,
+      "size": 177,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 54,
+        "of": 177,
+        "value": 1409
+      },
+      "reactions": {
+        "rank": 95,
+        "of": 177,
+        "value": 15
+      },
+      "watch_time_seconds": {
+        "rank": 44,
+        "of": 91,
+        "value": 7095
+      },
+      "reposts": {
+        "rank": 94,
+        "of": 112,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

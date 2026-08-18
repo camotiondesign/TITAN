@@ -52,8 +52,8 @@
   },
   "notes": "Independent pharmacy advocacy carousel. Exceptional engagement rate (46.8%) and CTR (45.1%) with 658 clicks, indicating strong community mobilization and high intent to take action. High repost rate (6) suggests message is being shared widely.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,29 +76,38 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 45.07,
-        "normalised_weight": 0.667
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1460,
+        "normalised_weight": 0.4
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (thesis: passed on)",
-        "kind": "rate",
-        "weight": 0.35,
-        "value": 0.41,
-        "normalised_weight": 0.333
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 658,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (thesis: passed on)",
+        "kind": "count",
+        "weight": 0.25,
+        "value": 6,
+        "normalised_weight": 0.2
       }
     ],
     "unmeasurable": [
-      "save_rate"
+      "saves"
     ],
     "percentiles": {
-      "click_rate": 39.29
+      "impressions": 46.15,
+      "clicks": 46.15
     },
-    "composite_percentile": 39.29,
+    "composite_percentile": 46.15,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -106,12 +115,24 @@
       "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 8,
+        "of": 14,
+        "value": 1460
+      },
+      "clicks": {
+        "rank": 8,
+        "of": 14,
+        "value": 658
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

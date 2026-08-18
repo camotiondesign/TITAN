@@ -18,10 +18,17 @@
  *   post is marked `insufficient-data` rather than given a fake verdict.
  *
  * SCORING
- *   Each signal component is percentile-ranked within the cohort independently,
- *   then combined by normalised weight. Percentiles are unitless, which is what
- *   lets raw view counts and per-impression rates sit in the same score without
- *   a shared denominator.
+ *   Every signal is a RAW COUNT (impressions, reactions, clicks, watch seconds).
+ *   Each is percentile-ranked within the cohort independently, then combined by
+ *   normalised weight. Percentiles are unitless, so counts measured in different
+ *   things — people reached, seconds watched — combine without a shared unit.
+ *
+ *   Reach is an outcome, not a denominator. For Titan's B2B audience, a post
+ *   that reached 7,338 people did more work than one that reached 762 with a
+ *   prettier per-impression rate.
+ *
+ *   raw_ranks records each signal's plain position in its cohort (1 = highest)
+ *   so the underlying number is always inspectable next to the composite.
  *
  * TIER
  *   >= 75  worked
@@ -122,6 +129,7 @@ for (const p of posts) {
 
   let composite = null;
   const percentiles = {};
+  const rawRanks = {};
 
   if (!cohort.insufficient && cohort.size >= MIN_COHORT) {
     let weighted = 0, totalWeight = 0;
@@ -138,6 +146,16 @@ for (const p of posts) {
       const pct = percentileOf(sig.value, peerValues);
       if (pct === null) continue;
       percentiles[sig.key] = pct;
+
+      // Plain-language position: 1 = highest in cohort. Kept alongside the
+      // percentile so the raw number and its standing are always both visible,
+      // rather than only a composite score nobody can sanity-check.
+      rawRanks[sig.key] = {
+        rank: peerValues.filter((v) => v > sig.value).length + 1,
+        of: peerValues.length,
+        value: sig.value,
+      };
+
       const w = sig.normalised_weight || sig.weight || 0;
       weighted += pct * w;
       totalWeight += w;
@@ -154,6 +172,7 @@ for (const p of posts) {
   p.metrics.signals = {
     ...p.signals,
     percentiles: Object.keys(percentiles).length ? percentiles : null,
+    raw_ranks: Object.keys(rawRanks).length ? rawRanks : null,
     composite_percentile: composite,
     tier,
     cohort: {

@@ -52,8 +52,8 @@
   },
   "notes": "Carousel post about personal consultations with Titanverse. Exceptional engagement: 63.9% engagement rate (624 engagements from 976 impressions). Very high CTR: 61.4% (599 clicks). 18 reactions, 2 comments, 5 reposts.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,21 +76,28 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 61.37,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 976,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 599,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 57.69
+      "impressions": 41.67,
+      "clicks": 50
     },
-    "composite_percentile": 57.69,
+    "composite_percentile": 45.84,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -98,12 +105,24 @@
       "size": 13,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 8,
+        "of": 13,
+        "value": 976
+      },
+      "clicks": {
+        "rank": 7,
+        "of": 13,
+        "value": 599
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

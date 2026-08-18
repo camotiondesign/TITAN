@@ -52,8 +52,8 @@
   },
   "notes": "Carousel post about EPS nomination and patient consent. Exceptional engagement: 29.1% engagement rate (317 engagements from 1,088 impressions). Very high CTR: 27.3% (297 clicks). 14 reactions, 0 comments, 6 reposts. 10 followers gained.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,34 +76,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 27.3,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1088,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 297,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 16.67
+      "impressions": 42.86,
+      "clicks": 21.43
     },
-    "composite_percentile": 16.67,
-    "tier": "underperformed",
+    "composite_percentile": 32.14,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 15,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 9,
+        "of": 15,
+        "value": 1088
+      },
+      "clicks": {
+        "rank": 12,
+        "of": 15,
+        "value": 297
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

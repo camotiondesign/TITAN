@@ -52,8 +52,8 @@
   },
   "notes": "Posted 12 Jun 2025. Sponsored period 27 Jun – 4 Jul 2025. Sponsored: 4,220 impressions, £15.17 eCPM, 82 engagements (1.9%), £0.78 cost per engagement, 82 clicks (1.9% CTR). Organic: 2,271 impressions, 1,404 members reached, 122 engagements (5.4%), 87 clicks (3.8% CTR), 33 reactions, 0 comments, 2 reposts. Page: 7 viewers, 2 followers gained.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 1.45,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 2271,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 33,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 40.63
+      "impressions": 100,
+      "reactions": 93.33
     },
-    "composite_percentile": 40.63,
-    "tier": "middle",
+    "composite_percentile": 97.33,
+    "tier": "worked",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 16,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 1,
+        "of": 16,
+        "value": 2271
+      },
+      "reactions": {
+        "rank": 2,
+        "of": 16,
+        "value": 33
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

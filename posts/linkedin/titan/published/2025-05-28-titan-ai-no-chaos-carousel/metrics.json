@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Titan AI carousel (No Chaos. No Overthinking.). Discovery: 692 impressions, 361 members reached. Engagement: 346 engagements (50.0%), 334 clicks (48.3% CTR), 8 reactions, 2 comments, 2 reposts. Page viewers: 2, followers gained: 0.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,34 +76,53 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 48.27,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 692,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 334,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 50
+      "impressions": 21.43,
+      "clicks": 28.57
     },
-    "composite_percentile": 50,
-    "tier": "middle",
+    "composite_percentile": 25,
+    "tier": "underperformed",
     "cohort": {
       "key": "linkedin|carousel-document",
       "window_days": 90,
       "size": 15,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 12,
+        "of": 15,
+        "value": 692
+      },
+      "clicks": {
+        "rank": 11,
+        "of": 15,
+        "value": 334
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Customer testimonial video (Titan saves time, compliance, services). Discovery: 428 impressions, 229 members reached. Page activity: 1 page viewer, 0 followers gained. Engagement: 26 engagements (6.1%), 19 clicks (4.4% CTR), 6 reactions, 0 comments, 1 repost. Video: 138 views, 31m 38s watch time, 13s average.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,50 +76,83 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 13,
-        "normalised_weight": 0.4
-      },
-      {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.267
-      },
-      {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
         "weight": 0.5,
-        "value": 0.23,
-        "normalised_weight": 0.333
+        "value": 428,
+        "normalised_weight": 0.385
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 6,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 1794,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 1,
+        "normalised_weight": 0.231
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 71.15,
-      "comment_rate": 25,
-      "repost_rate": 39.47
+      "impressions": 20,
+      "reactions": 6,
+      "watch_time_seconds": 4,
+      "reposts": 13.89
     },
-    "composite_percentile": 48.28,
-    "tier": "middle",
+    "composite_percentile": 12.9,
+    "tier": "underperformed",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 26,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 21,
+        "of": 26,
+        "value": 428
+      },
+      "reactions": {
+        "rank": 24,
+        "of": 26,
+        "value": 6
+      },
+      "watch_time_seconds": {
+        "rank": 25,
+        "of": 26,
+        "value": 1794
+      },
+      "reposts": {
+        "rank": 14,
+        "of": 19,
+        "value": 1
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

@@ -52,8 +52,8 @@
   },
   "notes": "Organic only. Carousel: pharmacy search insights (Can pharmacists prescribe antibiotics?, search data, visibility). Discovery: 920 impressions, 524 members reached. Page activity: 2 page viewers, 1 follower gained. Engagement: 441 engagements (47.9%), 432 clicks (47.0% CTR), 8 reactions, 0 comments, 1 repost.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "carousel-document",
@@ -76,21 +76,28 @@
     },
     "measured": [
       {
-        "key": "click_rate",
-        "label": "clicks per impression",
-        "kind": "rate",
-        "weight": 0.7,
-        "value": 46.96,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 920,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "clicks",
+        "label": "clicks",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 432,
+        "normalised_weight": 0.5
       }
     ],
-    "unmeasurable": [
-      "save_rate"
-    ],
+    "unmeasurable": [],
     "percentiles": {
-      "click_rate": 46.43
+      "impressions": 46.15,
+      "clicks": 38.46
     },
-    "composite_percentile": 46.43,
+    "composite_percentile": 42.31,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|carousel-document",
@@ -98,12 +105,24 @@
       "size": 14,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 8,
+        "of": 14,
+        "value": 920
+      },
+      "clicks": {
+        "rank": 9,
+        "of": 14,
+        "value": 432
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

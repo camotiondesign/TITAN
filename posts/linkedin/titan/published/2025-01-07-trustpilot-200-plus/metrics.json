@@ -51,8 +51,8 @@
   "notes": "Post boosted from 2025-01-15 to 2025-01-17. All engagement came from organic traffic. Sponsored impressions achieved branding impact but no conversions.",
   "has_sponsored": true,
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -75,41 +75,69 @@
     },
     "measured": [
       {
-        "key": "retention",
-        "label": "completion rate (or mean watch seconds where duration is unknown)",
-        "kind": "rate",
-        "weight": 0.6,
-        "value": 8,
-        "normalised_weight": 0.6
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 922,
+        "normalised_weight": 0.5
       },
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0,
-        "normalised_weight": 0.4
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 17,
+        "normalised_weight": 0.3
+      },
+      {
+        "key": "watch_time_seconds",
+        "label": "total watch time (seconds)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 6416,
+        "normalised_weight": 0.2
       }
     ],
-    "unmeasurable": [],
+    "unmeasurable": [
+      "comments"
+    ],
     "percentiles": {
-      "retention": 2.2,
-      "comment_rate": 21.11
+      "impressions": 44.6,
+      "reactions": 53.13,
+      "watch_time_seconds": 45.56
     },
-    "composite_percentile": 9.76,
-    "tier": "underperformed",
+    "composite_percentile": 47.35,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": null,
-      "size": 180,
+      "size": 177,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 98,
+        "of": 177,
+        "value": 922
+      },
+      "reactions": {
+        "rank": 81,
+        "of": 177,
+        "value": 17
+      },
+      "watch_time_seconds": {
+        "rank": 50,
+        "of": 91,
+        "value": 6416
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

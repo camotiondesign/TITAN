@@ -10,39 +10,43 @@
     "alt_text": "# Everything you need for pharmacy services, all in one place.\nOne workflow. One record. One platform. – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 33,
-      "reach": 18,
-      "reactions": 0,
-      "comments": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 316,
+      "reach": 0,
+      "reactions": 4,
+      "comments": 1,
       "reposts": 0,
       "saves": 0,
-      "video_views": 8,
+      "video_views": 316,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "platform_surface",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "views",
+          "label": "views",
+          "value": 316,
+          "weight": 0.6,
+          "percentile": 20
+        },
+        {
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "weight": 0.4,
+          "percentile": 16.67
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 18.67,
+      "tier": "underperformed",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -56,30 +60,37 @@
     "alt_text": "# Filter out the noise - Single Image – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 38,
-      "reach": 18,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 476,
+      "reach": 0,
+      "reactions": 12,
+      "comments": 3,
+      "reposts": 1,
       "saves": 0,
       "video_views": 476,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 476,
+          "weight": 0.6,
+          "percentile": 0
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 12,
+          "weight": 0.4,
+          "percentile": 25
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 10,
+      "tier": "underperformed",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -99,39 +110,43 @@
     "alt_text": "# Paula Review - Video (1) – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 79,
-      "reach": 60,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 931,
+      "reach": 0,
+      "reactions": 9,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 1,
       "saves": 0,
-      "video_views": 45,
+      "video_views": 931,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 931,
+          "weight": 0.6,
+          "percentile": 60
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.4,
+          "percentile": 46.67
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 54.67,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -145,38 +160,52 @@
     "alt_text": "# Switch it on. Walk away. - Video  – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 30,
-      "reach": 19,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1140,
+      "reach": 0,
+      "reactions": 19,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 4,
       "saves": 0,
-      "video_views": 10,
+      "video_views": 1140,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
-      "content_role": "standard",
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 1140,
+          "weight": 0.48,
+          "percentile": 73.33
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 4,
+          "weight": 0.32,
+          "percentile": 93.33
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 4,
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 81.33,
+      "tier": "worked",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "saves"
       ]
     }
   },
@@ -191,30 +220,37 @@
     "alt_text": "# Nervous on day one - Single Image – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 27,
-      "reach": 18,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 477,
+      "reach": 0,
+      "reactions": 6,
+      "comments": 1,
+      "reposts": 3,
       "saves": 0,
       "video_views": 477,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 477,
+          "weight": 0.6,
+          "percentile": 12.5
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 6,
+          "weight": 0.4,
+          "percentile": 0
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 7.5,
+      "tier": "underperformed",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -234,39 +270,43 @@
     "alt_text": "# Real MDS workflow. – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 43,
-      "reach": 31,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 735,
+      "reach": 0,
+      "reactions": 8,
+      "comments": 1,
+      "reposts": 1,
       "saves": 0,
-      "video_views": 14,
+      "video_views": 735,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "platform_surface",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 735,
+          "weight": 0.6,
+          "percentile": 46.67
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.4,
+          "percentile": 46.67
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 46.67,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -280,39 +320,43 @@
     "alt_text": "# How it feels when everything finally lives in one place. – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 41,
-      "reach": 34,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 512,
+      "reach": 0,
+      "reactions": 4,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 2,
       "saves": 0,
-      "video_views": 5,
+      "video_views": 512,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "platform_surface",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 512,
+          "weight": 0.6,
+          "percentile": 33.33
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
+          "percentile": 70
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 48,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -326,39 +370,43 @@
     "alt_text": "# Laura - \"You are my MDS queen\" 👑 – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 33,
-      "reach": 21,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 756,
+      "reach": 0,
+      "reactions": 8,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 1,
       "saves": 0,
-      "video_views": 11,
+      "video_views": 756,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "platform_surface",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 756,
+          "weight": 0.6,
+          "percentile": 53.33
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 1,
+          "weight": 0.4,
+          "percentile": 46.67
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 50.67,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -372,30 +420,37 @@
     "alt_text": "# Stopping Bulk Auto-Renominations To Protect Patient Choice – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 32,
-      "reach": 14,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 693,
+      "reach": 0,
+      "reactions": 8,
+      "comments": 1,
+      "reposts": 4,
       "saves": 0,
       "video_views": 693,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "inferred:has_alt_text",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 693,
+          "weight": 0.6,
           "percentile": 50
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 8,
+          "weight": 0.4,
+          "percentile": 12.5
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 35,
+      "tier": "middle",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -415,38 +470,52 @@
     "alt_text": "# TITAN_HOD_OperatingWithoutDoubleCover – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Sunil - Operating Without Double Cover_otter_ai.txt\n\nLinkedIn clip. Sunil on high-volume branches now operating without double pharmacist cover. AI frees the single pharmacist to still carry out services. Efficiency on two scales.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 60,
-      "reach": 45,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1854,
+      "reach": 0,
+      "reactions": 20,
+      "comments": 1,
+      "reposts": 2,
       "saves": 0,
-      "video_views": 18,
+      "video_views": 1854,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
-      "content_role": "standard",
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 1854,
+          "weight": 0.48,
+          "percentile": 93.33
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.32,
+          "percentile": 70
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 2,
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 84,
+      "tier": "worked",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": null,
-        "size": 12,
+        "size": 16,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "saves"
       ]
     }
   },
@@ -461,38 +530,52 @@
     "alt_text": "DESIGN NOTES:\n- Dark background (#0d0d1a or similar)\n- Teal highlight: Titanverse brand teal\n- Grey tiles: #2a2a3a with white text\n- Clean, modern grid — rounded corners on tiles\n- Reference: Semrush SEO/AEO matrix post (screenshots provided)\n- Keep tiles compact — 2-3 words max per tile\n- No icons needed, text-only tiles work best for this formata\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 24,
-      "reach": 13,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 718,
+      "reach": 0,
+      "reactions": 12,
+      "comments": 2,
+      "reposts": 6,
       "saves": 0,
-      "video_views": 6,
+      "video_views": 718,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
-      "content_role": "standard",
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 718,
+          "weight": 0.48,
+          "percentile": 28.57
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 6,
+          "weight": 0.32,
+          "percentile": 100
+        },
+        {
+          "key": "reposts",
+          "label": "reposts (thesis: passed on)",
+          "value": 6,
+          "weight": 0.2,
+          "percentile": null
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 57.14,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": 90,
         "size": 8,
         "min_required": 8
       },
       "unmeasurable_signals": [
-        "retention"
+        "saves"
       ]
     }
   },
@@ -507,39 +590,43 @@
     "alt_text": "# TITAN_HOD_Only14Percent_TT – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Glen - Only 14% Actually Need a Check_otter_ai.txt\n\nTikTok clip. Glen says only 14-15% of items actually need a pharmacist check. Traditional model wastes resource.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 81,
-      "reach": 73,
-      "reactions": 0,
-      "comments": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 2095,
+      "reach": 0,
+      "reactions": 22,
+      "comments": 2,
       "reposts": 0,
       "saves": 0,
-      "video_views": 38,
+      "video_views": 2095,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "views",
+          "label": "views",
+          "value": 2095,
+          "weight": 0.6,
+          "percentile": 100
+        },
+        {
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "weight": 0.4,
+          "percentile": 6.25
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 62.5,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": 90,
         "size": 9,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -553,39 +640,43 @@
     "alt_text": "# \"It's a bit like a Google search.\" – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Riddhesh - Amit - Like a Google Search - Not Tied to a Bench_otter_ai.txt\n\nTikTok clip. Riddhesh & Amit on search being like Google — scan a pack, instantly know who it's for, daily usage. Previous PMRs needed multiple steps.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 57,
-      "reach": 49,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1214,
+      "reach": 0,
+      "reactions": 11,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 3,
       "saves": 0,
-      "video_views": 23,
+      "video_views": 1214,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 1214,
+          "weight": 0.6,
+          "percentile": 77.78
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 3,
+          "weight": 0.4,
+          "percentile": 77.78
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 77.78,
+      "tier": "worked",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": 90,
         "size": 10,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -599,39 +690,43 @@
     "alt_text": "# Rahul - \"I can't believe AI transcription wasn't a thing in pharmacy.\" – Alt Text\n\n## Design Brief (from Notion)\n\nVertical/9:16 edit of Rahul's AI transcription clip for TikTok, YouTube Shorts, Facebook, Instagram. Punchy, fast-paced style.\n\nNOTE: Platforms field only has TikTok@titanpmr available. This should go on Titanverse social accounts (TikTok, YT, FB, Insta).\n\nHook (first 2 seconds): Text overlay 'Pharmacy note-taking was TERRIBLE' or 'Scraps of paper?!' with Rahul's voice starting immediately.\n\nQuick cuts between the problem (scribbling, not looking at patient) and the solution (Titanverse transcribing).\n\nBold text overlays throughout:\n- 'Scraps of paper'\n- '10-20 mins saved per patient'\n- 'Everything compliant'\n\nEnd card: Titanverse logo + 'Link in bio'\n\nKeep under 45 seconds. Front-load the hook. Titanverse pink-magenta to purple gradient on text elements.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 34,
-      "reach": 27,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1152,
+      "reach": 0,
+      "reactions": 21,
+      "comments": 2,
+      "reposts": 2,
       "saves": 0,
-      "video_views": 11,
+      "video_views": 1152,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "views",
+          "label": "views",
+          "value": 1152,
+          "weight": 0.6,
+          "percentile": 70
+        },
+        {
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
+          "percentile": 60
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 66,
+      "tier": "middle",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": 90,
         "size": 11,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -645,30 +740,37 @@
     "alt_text": "# TITAN_RamadanMubarak – Alt Text\n\n## Design Brief (from Notion)\n\nSingle image. Warm, respectful recognition of pharmacy staff fasting during Ramadan. Not a greeting card, it's a nod to the invisible effort. Dark background, crescent moon motif, clean typography. No product mention. Community-first.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 33,
-      "reach": 13,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 570,
+      "reach": 0,
+      "reactions": 31,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 3,
       "saves": 0,
       "video_views": 570,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 570,
+          "weight": 0.6,
+          "percentile": 25
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 31,
+          "weight": 0.4,
+          "percentile": 75
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 45,
+      "tier": "middle",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -688,30 +790,37 @@
     "alt_text": "# TITAN_PharmAppyNoMorePhoneCalls – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 26,
-      "reach": 17,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1893,
+      "reach": 0,
+      "reactions": 24,
+      "comments": 4,
+      "reposts": 5,
       "saves": 0,
       "video_views": 1893,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1893,
+          "weight": 0.6,
+          "percentile": 75
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 24,
+          "weight": 0.4,
+          "percentile": 62.5
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 70,
+      "tier": "middle",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -731,30 +840,37 @@
     "alt_text": "# TV_FragmentationObservation – Alt Text\n\n## Design Brief (from Notion)\n\nOBSERVATION POST — NO CUSTOMER QUOTE, NO PRODUCT MENTION IN GRAPHIC. Single image, editorial feel. Headline text: Five tools. Five logins. Five points of failure. White text on dark background. No Titanverse UI, no product screenshots. This is an observation post that names the pain without pitching the solution. Titanverse logo subtle bottom corner only. Design should feel like an industry editorial, not a software vendor ad. Positioning: Fragmentation Problem (TV Theme 2). Makes status quo visible. Audience connects the dots themselves.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 28,
-      "reach": 16,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 656,
+      "reach": 0,
+      "reactions": 14,
       "comments": 0,
-      "reposts": 0,
+      "reposts": 4,
       "saves": 0,
       "video_views": 656,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 656,
+          "weight": 0.6,
+          "percentile": 37.5
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 14,
+          "weight": 0.4,
+          "percentile": 37.5
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 37.5,
+      "tier": "middle",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -774,39 +890,43 @@
     "alt_text": "# \"It's not even that I grew my business.\" – Alt Text\n\n## Design Brief (from Notion)\n\nShort clip, 25-35 seconds. Emotional, human angle.\n\nSajid to camera. Clip ref: Sajid - 4A\n\nQuote: \"Some of those stories hit home for me. It's not even that I grew my business. As a family man and a father of four kids, it's pharmacists just saying: I get to go home on time. I don't have to work weekends. I don't need to come in early.\"\n\nEdit notes:\n- Lower third: Sajid Ramzan, Chief Sales Officer\n- Let the emotional moment land. Don't rush the edit.\n- Warm tone, genuine delivery\n- Could pair with B-roll of pharmacists leaving on time / with family\n- Titan PMR logo end card\n- Vertical format for TikTok/Reels, square crop option for FB\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 57,
-      "reach": 51,
-      "reactions": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 333,
+      "reach": 0,
+      "reactions": 8,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 19,
+      "video_views": 333,
       "avg_watch_time_seconds": 0,
-      "format": "video",
-      "format_source": "platform_type",
+      "format": "short-form-video",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "comment_rate",
-          "label": "comments per impression",
+          "key": "views",
+          "label": "views",
+          "value": 333,
+          "weight": 0.6,
+          "percentile": 9.09
+        },
+        {
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "weight": 0.4,
+          "percentile": 9.09
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 9.09,
+      "tier": "underperformed",
       "cohort": {
-        "key": "facebook|video",
+        "key": "facebook|short-form-video",
         "window_days": 90,
         "size": 12,
         "min_required": 8
-      },
-      "unmeasurable_signals": [
-        "retention"
-      ]
+      }
     }
   },
   {
@@ -820,30 +940,37 @@
     "alt_text": "# TITAN_PrabBenchTrap8pm – Alt Text\n\n## Design Brief (from Notion)\n\nCUSTOMER QUOTE — LIBERATION / BURNOUT RECOVERY (Theme 19 + Theme 14). Single image quote card. Prab quote as hero text: \"If it wasn't for Titan, I'd have left pharmacy a long time ago.\" White text on dark or light background with Prab photo. Titan blue gradient accent on quotation marks or subtle side bar. Attribution: Prab — Pharmacist, Priory Pharmacy in lighter weight below quote. Titan PMR wordmark bottom right. No feature list, no UI screenshots, no clutter. The quote does the work. Clean, bold, emotional. Positioning: Liberation value theme + Workforce Crisis trend. Attacks burnout and the status quo through customer words.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 31,
-      "reach": 16,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1936,
+      "reach": 0,
+      "reactions": 43,
+      "comments": 11,
+      "reposts": 3,
       "saves": 0,
       "video_views": 1936,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1936,
+          "weight": 0.6,
+          "percentile": 87.5
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 43,
+          "weight": 0.4,
+          "percentile": 100
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 92.5,
+      "tier": "worked",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": null,
@@ -863,15 +990,15 @@
     "alt_text": "# Jeet - Simple cash flow trick most pharmacy owners miss. – Alt Text\n\n## Design Brief (from Notion)\n\n📎 TRANSCRIPT: Jeet - The Cash Flow Trick_otter_ai.txt\n\nTikTok clip. Jeet on bulk ordering every 2 weeks, holding 4 weeks stock. If it's the 25th, wait 5 days before ordering — cash flow back to normal.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 109,
       "reach": 0,
       "reactions": 1,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 110,
+      "video_views": 109,
       "avg_watch_time_seconds": 5.97,
       "format": "short-form-video",
       "format_source": "asset_type",
@@ -879,25 +1006,25 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 109,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.6,
+          "percentile": 0
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.4,
+          "percentile": 12.5
         }
       ],
-      "composite_percentile": null,
-      "tier": "insufficient-data",
+      "composite_percentile": 5,
+      "tier": "underperformed",
       "cohort": {
         "key": "facebook|short-form-video",
-        "window_days": null,
-        "size": 4,
+        "window_days": 90,
+        "size": 13,
         "min_required": 8
       }
     }
@@ -913,30 +1040,37 @@
     "alt_text": "# For TITAN customers only… scan me 👀 – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 23,
-      "reach": 13,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 1988,
+      "reach": 0,
+      "reactions": 38,
+      "comments": 8,
+      "reposts": 13,
       "saves": 0,
       "video_views": 1988,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "inferred:has_alt_text",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
-          "percentile": 50
+          "key": "impressions",
+          "label": "impressions",
+          "value": 1988,
+          "weight": 0.6,
+          "percentile": 100
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 38,
+          "weight": 0.4,
+          "percentile": 87.5
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 95,
+      "tier": "worked",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": 90,
@@ -956,30 +1090,37 @@
     "alt_text": "# TV_ServicesGovernance – Alt Text\n\n## Design Brief (from Notion)\n\nSERVICES GOVERNANCE — GPhC INSPECTION READINESS (TV Theme 3: Compliance Burden / Theme 8: Scale Problem / Theme 14: Central Control). Single image already designed — shows four Titanverse governance modules: Audit Logs, Role Access, Compliance Module, SOP Management. Dark background with Titanverse pink-magenta accents. 'All in one place' headline. Image is ready to publish as-is. Caption uses fear-based hook (GPhC inspector scenario) crossed with specific scenario retention mechanics to make pharmacy owners feel the compliance gap before presenting Titanverse as the built-in solution. Tier 2 — makes pharmacy owners see themselves in the 'Sarah handles it' line. Voice register: Expert (Register 2) with peer-level specificity.\n\n## Alt Text\n\nAlt text to be added after asset is finalised.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
-      "impressions": 25,
-      "reach": 14,
-      "reactions": 0,
-      "comments": 0,
-      "reposts": 0,
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
+      "impressions": 966,
+      "reach": 0,
+      "reactions": 23,
+      "comments": 1,
+      "reposts": 6,
       "saves": 0,
       "video_views": 966,
       "avg_watch_time_seconds": 0,
       "format": "single-image",
-      "format_source": "platform_type",
+      "format_source": "asset_type",
       "content_role": "standard",
       "primary_signal": [
         {
-          "key": "reaction_rate",
-          "label": "reactions per impression",
-          "value": 0,
-          "weight": 1,
+          "key": "impressions",
+          "label": "impressions",
+          "value": 966,
+          "weight": 0.6,
+          "percentile": 62.5
+        },
+        {
+          "key": "reactions",
+          "label": "reactions",
+          "value": 23,
+          "weight": 0.4,
           "percentile": 50
         }
       ],
-      "composite_percentile": 50,
-      "tier": "insufficient-data",
+      "composite_percentile": 57.5,
+      "tier": "middle",
       "cohort": {
         "key": "facebook|single-image",
         "window_days": 90,
@@ -999,8 +1140,8 @@
     "alt_text": "# Some of you missed it. Here's your chance. 👀 – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 21,
       "reach": 0,
       "reactions": 0,
@@ -1015,25 +1156,25 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 21,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.6,
+          "percentile": 0
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.4,
+          "percentile": 15.38
         }
       ],
-      "composite_percentile": null,
+      "composite_percentile": 6.15,
       "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|short-form-video",
-        "window_days": null,
-        "size": 4,
+        "window_days": 90,
+        "size": 14,
         "min_required": 8
       }
     }
@@ -1049,8 +1190,8 @@
     "alt_text": "# Rahul - 2x Consultations and Improved Quality (1) – Alt Text\n\nAlt text pending. Add description of the visual content here.",
     "transcript": null,
     "metrics": {
-      "source": "metricool_csv",
-      "synced_at": "2026-08-18T10:00:45Z",
+      "source": "facebook_api",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 30,
       "reach": 0,
       "reactions": 0,
@@ -1065,25 +1206,25 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 30,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.6,
+          "percentile": 7.14
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
+          "key": "shares",
+          "label": "shares",
           "value": 0,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.4,
+          "percentile": 17.86
         }
       ],
-      "composite_percentile": null,
+      "composite_percentile": 11.43,
       "tier": "insufficient-data",
       "cohort": {
         "key": "facebook|short-form-video",
-        "window_days": null,
-        "size": 4,
+        "window_days": 90,
+        "size": 15,
         "min_required": 8
       }
     }
@@ -1100,7 +1241,7 @@
     "transcript": null,
     "metrics": {
       "source": "facebook_api",
-      "synced_at": "2026-08-18T00:59:41Z",
+      "synced_at": "2026-08-18T12:54:49Z",
       "impressions": 973,
       "reach": 0,
       "reactions": 15,
@@ -1115,25 +1256,25 @@
       "primary_signal": [
         {
           "key": "views",
-          "label": "total views (algorithmic reach)",
+          "label": "views",
           "value": 973,
-          "weight": 0.5,
-          "percentile": null
+          "weight": 0.6,
+          "percentile": 66.67
         },
         {
-          "key": "share_rate",
-          "label": "shares per view",
-          "value": 0.21,
-          "weight": 0.5,
-          "percentile": null
+          "key": "shares",
+          "label": "shares",
+          "value": 2,
+          "weight": 0.4,
+          "percentile": 70
         }
       ],
-      "composite_percentile": null,
-      "tier": "insufficient-data",
+      "composite_percentile": 68,
+      "tier": "middle",
       "cohort": {
         "key": "facebook|short-form-video",
-        "window_days": null,
-        "size": 4,
+        "window_days": 90,
+        "size": 16,
         "min_required": 8
       }
     }

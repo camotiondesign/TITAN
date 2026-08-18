@@ -69,8 +69,8 @@
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
     "format": "video",
@@ -93,43 +93,77 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.12,
-        "normalised_weight": 0.444
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 853,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.7,
-        "normalised_weight": 0.556
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 18,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "comments",
+        "label": "comments (fallback when watch time is unavailable)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 1,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 6,
+        "normalised_weight": 0.231
       }
     ],
     "unmeasurable": [
-      "retention"
+      "watch_time_seconds"
     ],
     "percentiles": {
-      "comment_rate": 75,
-      "repost_rate": 78.57
+      "impressions": 47.62,
+      "reactions": 69.05,
+      "reposts": 85
     },
-    "composite_percentile": 76.98,
-    "tier": "worked",
+    "composite_percentile": 63.66,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
       "window_days": 90,
       "size": 22,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 12,
+        "of": 22,
+        "value": 853
+      },
+      "reactions": {
+        "rank": 7,
+        "of": 22,
+        "value": 18
+      },
+      "reposts": {
+        "rank": 3,
+        "of": 21,
+        "value": 6
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

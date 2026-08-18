@@ -52,8 +52,8 @@
   },
   "notes": "Sponsored period 27 Jun 2025 – 4 Jul 2025. Sponsored: 71,681 impressions, £0.89 eCPM, 11 engagements (0.0%), £5.82 cost per engagement, 11 clicks. Organic: 798 impressions, 373 members reached, 42 engagements (5.3%), 18 clicks (2.3% CTR), 21 reactions, 1 comment, 2 reposts. Page viewers: 2, followers gained: 0.",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "single-image",
@@ -76,32 +76,53 @@
     },
     "measured": [
       {
-        "key": "reaction_rate",
-        "label": "reactions per impression",
-        "kind": "rate",
-        "weight": 1,
-        "value": 2.63,
-        "normalised_weight": 1
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.6,
+        "value": 798,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.4,
+        "value": 21,
+        "normalised_weight": 0.4
       }
     ],
     "unmeasurable": [],
     "percentiles": {
-      "reaction_rate": 92.5
+      "impressions": 42.11,
+      "reactions": 78.95
     },
-    "composite_percentile": 92.5,
-    "tier": "worked",
+    "composite_percentile": 56.85,
+    "tier": "middle",
     "cohort": {
       "key": "linkedin|single-image",
       "window_days": 90,
       "size": 20,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 12,
+        "of": 20,
+        "value": 798
+      },
+      "reactions": {
+        "rank": 5,
+        "of": 20,
+        "value": 21
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }

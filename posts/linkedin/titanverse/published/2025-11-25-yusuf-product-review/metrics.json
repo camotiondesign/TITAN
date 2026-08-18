@@ -52,8 +52,8 @@
   },
   "notes": "",
   "signals": {
-    "spec_version": 2,
-    "computed_at": "2026-08-18T00:59:41Z",
+    "spec_version": 3,
+    "computed_at": "2026-08-18T12:54:49Z",
     "source_file": "backfill:organic",
     "platform": "linkedin",
     "format": "video",
@@ -76,30 +76,48 @@
     },
     "measured": [
       {
-        "key": "comment_rate",
-        "label": "comments per impression",
-        "kind": "rate",
-        "weight": 0.4,
-        "value": 0.07,
-        "normalised_weight": 0.444
+        "key": "impressions",
+        "label": "impressions",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1424,
+        "normalised_weight": 0.385
       },
       {
-        "key": "repost_rate",
-        "label": "reposts per impression (advocacy: someone put their name to it)",
-        "kind": "rate",
-        "weight": 0.5,
-        "value": 0.56,
-        "normalised_weight": 0.556
+        "key": "reactions",
+        "label": "reactions",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 35,
+        "normalised_weight": 0.231
+      },
+      {
+        "key": "comments",
+        "label": "comments (fallback when watch time is unavailable)",
+        "kind": "count",
+        "weight": 0.2,
+        "value": 1,
+        "normalised_weight": 0.154
+      },
+      {
+        "key": "reposts",
+        "label": "reposts (advocacy: someone put their name to it)",
+        "kind": "count",
+        "weight": 0.3,
+        "value": 8,
+        "normalised_weight": 0.231
       }
     ],
     "unmeasurable": [
-      "retention"
+      "watch_time_seconds"
     ],
     "percentiles": {
-      "comment_rate": 48.39,
-      "repost_rate": 88.64
+      "impressions": 53.33,
+      "reactions": 73.33,
+      "comments": 78.57,
+      "reposts": 80.95
     },
-    "composite_percentile": 70.77,
+    "composite_percentile": 68.2,
     "tier": "middle",
     "cohort": {
       "key": "linkedin|video",
@@ -107,12 +125,34 @@
       "size": 31,
       "min_required": 8
     },
+    "raw_ranks": {
+      "impressions": {
+        "rank": 15,
+        "of": 31,
+        "value": 1424
+      },
+      "reactions": {
+        "rank": 9,
+        "of": 31,
+        "value": 35
+      },
+      "comments": {
+        "rank": 2,
+        "of": 8,
+        "value": 1
+      },
+      "reposts": {
+        "rank": 5,
+        "of": 22,
+        "value": 8
+      }
+    },
+    "low_volume": false,
+    "min_impressions": 100,
     "tier_thresholds": {
       "worked": ">=75",
       "underperformed": "<=25"
     },
-    "ranked_at": "2026-08-18T10:02:56Z",
-    "low_volume": false,
-    "min_impressions": 100
+    "ranked_at": "2026-08-18T13:07:34Z"
   }
 }
