@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 85,
-  "engagement_rate": 12.5,
   "organic": {
     "impressions": 681,
     "reach": 339,
     "engagements": 85,
-    "engagement_rate": 12.5,
     "clicks": 57,
     "click_through_rate": 8.4,
     "reactions": 19,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Animated loop motion graphics video about guided clinical consultations. Strong engagement: 12.5% engagement rate (85 engagements from 681 impressions). High CTR: 8.4% (57 clicks). Video performance: 221 views, 53m 48s total watch time, 14s average watch time. 19 reactions, 4 comments, 5 reposts.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 681,
-    "social_interactions": 28,
-    "social_er_pct": 4.11,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 12.48,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 12.5,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "short-form-video",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:reactive_news",
     "components": {
       "impressions": 681,
       "reach": 339,
@@ -73,11 +67,55 @@
       "comments": 4,
       "reposts": 5,
       "saves": 0,
-      "clicks": 57
+      "clicks": 57,
+      "video_views": 221,
+      "avg_watch_time_seconds": 14,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "views",
+        "label": "total views (algorithmic reach)",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 681,
+        "normalised_weight": 0.37
+      },
+      {
+        "key": "share_rate",
+        "label": "shares per view",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.73,
+        "normalised_weight": 0.37
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.73,
+        "normalised_weight": 0.259
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": null,
+    "composite_percentile": null,
+    "tier": "insufficient-data",
+    "cohort": {
+      "key": "linkedin|short-form-video",
+      "window_days": null,
+      "size": 5,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

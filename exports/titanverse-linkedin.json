@@ -36,13 +36,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.42,
-      "platform_er_pct": 7.63,
-      "raw_er_pct": 7.6,
-      "social_interactions": 26,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 7.6,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.58,
+          "weight": 1,
+          "percentile": 42.86
+        }
+      ],
+      "composite_percentile": 42.86,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 21,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -86,13 +100,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.63,
-      "platform_er_pct": 8.29,
-      "raw_er_pct": 8.3,
-      "social_interactions": 39,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.3,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.7,
+          "weight": 1,
+          "percentile": 97.62
+        }
+      ],
+      "composite_percentile": 97.62,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 21,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -136,13 +164,44 @@
       "video_views": 930,
       "watch_time_total": "2h 46m 33s",
       "avg_watch_time_seconds": 10,
-      "social_er_pct": 3.4,
-      "platform_er_pct": 12.65,
-      "raw_er_pct": 12.6,
-      "social_interactions": 72,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 12.6,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "retention",
+          "label": "completion rate (or mean watch seconds where duration is unknown)",
+          "value": 10,
+          "weight": 0.444,
+          "percentile": 12.5
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.14,
+          "weight": 0.296,
+          "percentile": 61.11
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.42,
+          "weight": 0.259,
+          "percentile": 87.5
+        }
+      ],
+      "composite_percentile": 46.35,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 18,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -173,13 +232,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.84,
-      "platform_er_pct": 5.18,
-      "raw_er_pct": 5.2,
-      "social_interactions": 17,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.2,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.17,
+          "weight": 1,
+          "percentile": 83.33
+        }
+      ],
+      "composite_percentile": 83.33,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 21,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -223,13 +296,37 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 7.67,
-      "raw_er_pct": 11.7,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 11.7,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.444,
+          "percentile": 10.42
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0,
+          "weight": 0.556,
+          "percentile": 3.13
+        }
+      ],
+      "composite_percentile": 6.37,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 24,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -260,13 +357,30 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "carousel-document",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "click_rate",
+          "label": "clicks per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 3.85
+        }
+      ],
+      "composite_percentile": 3.85,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|carousel-document",
+        "window_days": 90,
+        "size": 13,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -302,13 +416,38 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 12.96
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0,
+          "weight": 0.467,
+          "percentile": 5.26
+        }
+      ],
+      "composite_percentile": 9.36,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 27,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -339,13 +478,38 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 13.33
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0,
+          "weight": 0.467,
+          "percentile": 6.82
+        }
+      ],
+      "composite_percentile": 10.29,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 30,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -376,13 +540,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 2.27
+        }
+      ],
+      "composite_percentile": 2.27,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 22,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -418,13 +596,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 4.35
+        }
+      ],
+      "composite_percentile": 4.35,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 23,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -455,13 +647,30 @@
       "video_views": 445,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.68,
-      "platform_er_pct": 6.86,
-      "raw_er_pct": 6.9,
-      "social_interactions": 32,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 14.52
+        }
+      ],
+      "composite_percentile": 14.52,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 31,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -497,13 +706,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.11,
-      "platform_er_pct": 5.64,
-      "raw_er_pct": 5.6,
-      "social_interactions": 24,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.6,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.32,
+          "weight": 1,
+          "percentile": 26.09
+        }
+      ],
+      "composite_percentile": 26.09,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 23,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -539,13 +762,37 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.97,
-      "platform_er_pct": 76.76,
-      "raw_er_pct": 76.8,
-      "social_interactions": 27,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 76.8,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "carousel-document",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "click_rate",
+          "label": "clicks per impression",
+          "value": 73.79,
+          "weight": 0.667,
+          "percentile": 70.83
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.44,
+          "weight": 0.333,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 70.83,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|carousel-document",
+        "window_days": 90,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -581,13 +828,30 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.16,
-      "platform_er_pct": 8.88,
-      "raw_er_pct": 8.9,
-      "social_interactions": 32,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.1,
+          "weight": 1,
+          "percentile": 59.09
+        }
+      ],
+      "composite_percentile": 59.09,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 33,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -623,13 +887,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.61,
-      "platform_er_pct": 5.6,
-      "raw_er_pct": 5.6,
-      "social_interactions": 23,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.6,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.33,
+          "weight": 1,
+          "percentile": 35.42
+        }
+      ],
+      "composite_percentile": 35.42,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 24,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -660,13 +938,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.49,
-      "platform_er_pct": 3.9,
-      "raw_er_pct": 3.9,
-      "social_interactions": 21,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 3.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.06,
+          "weight": 1,
+          "percentile": 26
+        }
+      ],
+      "composite_percentile": 26,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 25,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -702,13 +994,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.83,
-      "platform_er_pct": 7.58,
-      "raw_er_pct": 7.6,
-      "social_interactions": 34,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 7.6,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.58,
+          "weight": 0.667,
+          "percentile": 84.62
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.25,
+          "weight": 0.333,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 84.62,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 26,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -744,13 +1057,37 @@
       "video_views": 581,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.09,
-      "platform_er_pct": 9.62,
-      "raw_er_pct": 9.62,
-      "social_interactions": 44,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.62,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.07,
+          "weight": 0.444,
+          "percentile": 48.39
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.56,
+          "weight": 0.556,
+          "percentile": 88.64
+        }
+      ],
+      "composite_percentile": 70.77,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 31,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -786,13 +1123,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.51,
-      "platform_er_pct": 8.31,
-      "raw_er_pct": 8.3,
-      "social_interactions": 27,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.73,
+          "weight": 1,
+          "percentile": 91.07
+        }
+      ],
+      "composite_percentile": 91.07,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 28,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -828,13 +1179,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.5,
-      "platform_er_pct": 5.6,
-      "raw_er_pct": 5.6,
-      "social_interactions": 25,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.7,
+          "weight": 1,
+          "percentile": 53.45
+        }
+      ],
+      "composite_percentile": 53.45,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -874,13 +1239,37 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.49,
-      "platform_er_pct": 22.42,
-      "raw_er_pct": 22.4,
-      "social_interactions": 24,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 22.4,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "carousel-document",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "click_rate",
+          "label": "clicks per impression",
+          "value": 18.92,
+          "weight": 0.667,
+          "percentile": 13.64
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.58,
+          "weight": 0.333,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 13.64,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|carousel-document",
+        "window_days": 90,
+        "size": 11,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -916,13 +1305,41 @@
       "video_views": 397,
       "watch_time_total": null,
       "avg_watch_time_seconds": 17,
-      "social_er_pct": 2.01,
-      "platform_er_pct": 9.07,
-      "raw_er_pct": 9.1,
-      "social_interactions": 23,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.1,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "retention",
+          "label": "completion rate (or mean watch seconds where duration is unknown)",
+          "value": 17,
+          "weight": 0.4,
+          "percentile": 65.22
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.17,
+          "weight": 0.267,
+          "percentile": 87.1
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.44,
+          "weight": 0.333,
+          "percentile": 80.43
+        }
+      ],
+      "composite_percentile": 76.13,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 31,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -962,13 +1379,37 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.83,
-      "platform_er_pct": 5.07,
-      "raw_er_pct": 5.1,
-      "social_interactions": 35,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.1,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.15,
+          "weight": 0.741,
+          "percentile": 29.31
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.31,
+          "weight": 0.259,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 29.31,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -999,16 +1440,8 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": null,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable",
-        "no_denominator"
-      ],
-      "engagement_rate_DEPRECATED": 0
+      "format": null,
+      "tier": "insufficient-data"
     }
   },
   {
@@ -1039,16 +1472,8 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": null,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable",
-        "no_denominator"
-      ],
-      "engagement_rate_DEPRECATED": 0
+      "format": null,
+      "tier": "insufficient-data"
     }
   },
   {
@@ -1079,16 +1504,8 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": null,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable",
-        "no_denominator"
-      ],
-      "engagement_rate_DEPRECATED": 0
+      "format": null,
+      "tier": "insufficient-data"
     }
   },
   {
@@ -1119,13 +1536,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.43,
-      "platform_er_pct": 6.12,
-      "raw_er_pct": 6.1,
-      "social_interactions": 27,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.1,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.53,
+          "weight": 1,
+          "percentile": 46.77
+        }
+      ],
+      "composite_percentile": 46.77,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 31,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1156,13 +1587,30 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.56,
-      "platform_er_pct": 63.93,
-      "raw_er_pct": 63.9,
-      "social_interactions": 25,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 63.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "carousel-document",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "click_rate",
+          "label": "clicks per impression",
+          "value": 61.37,
+          "weight": 1,
+          "percentile": 57.69
+        }
+      ],
+      "composite_percentile": 57.69,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|carousel-document",
+        "window_days": 90,
+        "size": 13,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1193,13 +1641,41 @@
       "video_views": 198,
       "watch_time_total": "47m 39s",
       "avg_watch_time_seconds": 14,
-      "social_er_pct": 3.18,
-      "platform_er_pct": 7.87,
-      "raw_er_pct": 7.9,
-      "social_interactions": 19,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 7.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 597,
+          "weight": 0.333,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.67,
+          "weight": 0.333,
+          "percentile": null
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.67,
+          "weight": 0.333,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "linkedin|short-form-video",
+        "window_days": null,
+        "size": 5,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1244,13 +1720,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.6,
-      "platform_er_pct": 8.48,
-      "raw_er_pct": 8.5,
-      "social_interactions": 19,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.5,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.46,
+          "weight": 1,
+          "percentile": 78.33
+        }
+      ],
+      "composite_percentile": 78.33,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 30,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1281,13 +1771,44 @@
       "video_views": 221,
       "watch_time_total": "53m 48s",
       "avg_watch_time_seconds": 14,
-      "social_er_pct": 4.11,
-      "platform_er_pct": 12.48,
-      "raw_er_pct": 12.5,
-      "social_interactions": 28,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 12.5,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 681,
+          "weight": 0.37,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.73,
+          "weight": 0.37,
+          "percentile": null
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.73,
+          "weight": 0.259,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "linkedin|short-form-video",
+        "window_days": null,
+        "size": 5,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1318,13 +1839,30 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.84,
-      "platform_er_pct": 29.14,
-      "raw_er_pct": 29.1,
-      "social_interactions": 20,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 29.1,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "carousel-document",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "click_rate",
+          "label": "clicks per impression",
+          "value": 27.3,
+          "weight": 1,
+          "percentile": 16.67
+        }
+      ],
+      "composite_percentile": 16.67,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|carousel-document",
+        "window_days": 90,
+        "size": 15,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1355,13 +1893,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.41,
-      "platform_er_pct": 5.81,
-      "raw_er_pct": 5.8,
-      "social_interactions": 23,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.8,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.1,
+          "weight": 1,
+          "percentile": 37.93
+        }
+      ],
+      "composite_percentile": 37.93,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1392,13 +1944,34 @@
       "video_views": 376,
       "watch_time_total": "1h 36m 25s",
       "avg_watch_time_seconds": 15,
-      "social_er_pct": 2.32,
-      "platform_er_pct": 11.6,
-      "raw_er_pct": 11.6,
-      "social_interactions": 26,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 11.6,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 1121,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.18,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "linkedin|short-form-video",
+        "window_days": null,
+        "size": 5,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1429,13 +2002,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.26,
-      "platform_er_pct": 4.12,
-      "raw_er_pct": 4.1,
-      "social_interactions": 19,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 4.1,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.06,
+          "weight": 1,
+          "percentile": 77.59
+        }
+      ],
+      "composite_percentile": 77.59,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1466,13 +2053,34 @@
       "video_views": 284,
       "watch_time_total": "1h 3m 58s",
       "avg_watch_time_seconds": 13,
-      "social_er_pct": 4.08,
-      "platform_er_pct": 8.91,
-      "raw_er_pct": 8.9,
-      "social_interactions": 22,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 539,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.74,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "linkedin|short-form-video",
+        "window_days": null,
+        "size": 5,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1503,13 +2111,30 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.99,
-      "platform_er_pct": 57.36,
-      "raw_er_pct": 57.4,
-      "social_interactions": 13,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 57.4,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "carousel-document",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "click_rate",
+          "label": "clicks per impression",
+          "value": 55.37,
+          "weight": 1,
+          "percentile": 39.29
+        }
+      ],
+      "composite_percentile": 39.29,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|carousel-document",
+        "window_days": 90,
+        "size": 14,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1540,13 +2165,34 @@
       "video_views": 180,
       "watch_time_total": "35m 58s",
       "avg_watch_time_seconds": 11,
-      "social_er_pct": 3.35,
-      "platform_er_pct": 8.18,
-      "raw_er_pct": 8.2,
-      "social_interactions": 18,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.2,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 538,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.37,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "linkedin|short-form-video",
+        "window_days": null,
+        "size": 5,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1582,13 +2228,44 @@
       "video_views": 212,
       "watch_time_total": "39m 49s",
       "avg_watch_time_seconds": 11,
-      "social_er_pct": 4.08,
-      "platform_er_pct": 4.08,
-      "raw_er_pct": 0,
-      "social_interactions": 23,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "retention",
+          "label": "completion rate (or mean watch seconds where duration is unknown)",
+          "value": 11,
+          "weight": 0.444,
+          "percentile": 26.47
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.18,
+          "weight": 0.296,
+          "percentile": 97.5
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.89,
+          "weight": 0.259,
+          "percentile": 97.06
+        }
+      ],
+      "composite_percentile": 65.82,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 20,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1619,13 +2296,44 @@
       "video_views": 106,
       "watch_time_total": "13m 59s",
       "avg_watch_time_seconds": 7,
-      "social_er_pct": 7.24,
-      "platform_er_pct": 10.69,
-      "raw_er_pct": 10.7,
-      "social_interactions": 21,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 10.7,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "retention",
+          "label": "completion rate (or mean watch seconds where duration is unknown)",
+          "value": 7,
+          "weight": 0.444,
+          "percentile": 2.94
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.296,
+          "percentile": 25
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 2.07,
+          "weight": 0.259,
+          "percentile": 97.06
+        }
+      ],
+      "composite_percentile": 33.88,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 20,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1656,13 +2364,34 @@
       "video_views": 409,
       "watch_time_total": "1h 45m 45s",
       "avg_watch_time_seconds": 15,
-      "social_er_pct": 12.69,
-      "platform_er_pct": 29.85,
-      "raw_er_pct": 29.9,
-      "social_interactions": 17,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 29.9,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "retention",
+          "label": "completion rate (or mean watch seconds where duration is unknown)",
+          "value": 15,
+          "weight": 0.6,
+          "percentile": 72.22
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.75,
+          "weight": 0.4,
+          "percentile": 97.73
+        }
+      ],
+      "composite_percentile": 82.42,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 22,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1693,13 +2422,38 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.79,
-      "platform_er_pct": 2.79,
-      "raw_er_pct": 0,
-      "social_interactions": 20,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.28,
+          "weight": 0.533,
+          "percentile": 92.86
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.84,
+          "weight": 0.467,
+          "percentile": 82.5
+        }
+      ],
+      "composite_percentile": 88.02,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 21,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1730,13 +2484,37 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.22,
-      "platform_er_pct": 2.22,
-      "raw_er_pct": 0,
-      "social_interactions": 31,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 0,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.79,
+          "weight": 0.741,
+          "percentile": 70.69
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.36,
+          "weight": 0.259,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 70.69,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1767,13 +2545,37 @@
       "video_views": 310,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.93,
-      "platform_er_pct": 8.09,
-      "raw_er_pct": 8.09,
-      "social_interactions": 25,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.09,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.12,
+          "weight": 0.444,
+          "percentile": 75
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.7,
+          "weight": 0.556,
+          "percentile": 78.57
+        }
+      ],
+      "composite_percentile": 76.98,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 22,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1804,13 +2606,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.07,
-      "platform_er_pct": 3.8,
-      "raw_er_pct": 3.8,
-      "social_interactions": 19,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 3.8,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.63,
+          "weight": 1,
+          "percentile": 58.93
+        }
+      ],
+      "composite_percentile": 58.93,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 28,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1841,13 +2657,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 4.13,
-      "platform_er_pct": 10.63,
-      "raw_er_pct": 10.63,
-      "social_interactions": 21,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 10.63,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 3.15,
+          "weight": 1,
+          "percentile": 95.31
+        }
+      ],
+      "composite_percentile": 95.31,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 32,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1878,13 +2708,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.27,
-      "platform_er_pct": 7.65,
-      "raw_er_pct": 7.65,
-      "social_interactions": 30,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 7.65,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.67,
+          "weight": 1,
+          "percentile": 60.94
+        }
+      ],
+      "composite_percentile": 60.94,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 32,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1915,13 +2759,27 @@
       "video_views": 188,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.58,
-      "platform_er_pct": 5.48,
-      "raw_er_pct": 5.48,
-      "social_interactions": 16,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.48,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.93,
+          "weight": 1,
+          "percentile": 74.24
+        }
+      ],
+      "composite_percentile": 74.24,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 33,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1952,13 +2810,37 @@
       "video_views": 691,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.89,
-      "platform_er_pct": 10.52,
-      "raw_er_pct": 10.52,
-      "social_interactions": 34,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 10.52,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.17,
+          "weight": 0.444,
+          "percentile": 76
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.28,
+          "weight": 0.556,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 61.54,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 25,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -1989,13 +2871,30 @@
       "video_views": 185,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 4.17,
-      "platform_er_pct": 9.55,
-      "raw_er_pct": 9.55,
-      "social_interactions": 24,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.55,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 23.08
+        }
+      ],
+      "composite_percentile": 23.08,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 26,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2026,13 +2925,38 @@
       "video_views": 256,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.5,
-      "platform_er_pct": 6.91,
-      "raw_er_pct": 6.91,
-      "social_interactions": 17,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.91,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 24.07
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.88,
+          "weight": 0.467,
+          "percentile": 82.5
+        }
+      ],
+      "composite_percentile": 51.36,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 27,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2063,13 +2987,38 @@
       "video_views": 197,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.22,
-      "platform_er_pct": 8.7,
-      "raw_er_pct": 8.7,
-      "social_interactions": 12,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.7,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 25.86
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.74,
+          "weight": 0.467,
+          "percentile": 72.5
+        }
+      ],
+      "composite_percentile": 47.64,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2100,13 +3049,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.92,
-      "platform_er_pct": 5.08,
-      "raw_er_pct": 5.08,
-      "social_interactions": 19,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.08,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.31,
+          "weight": 1,
+          "percentile": 81.03
+        }
+      ],
+      "composite_percentile": 81.03,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2137,13 +3100,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.27,
-      "platform_er_pct": 4.38,
-      "raw_er_pct": 4.38,
-      "social_interactions": 40,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 4.38,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.99,
+          "weight": 1,
+          "percentile": 68.33
+        }
+      ],
+      "composite_percentile": 68.33,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 30,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2174,13 +3151,38 @@
       "video_views": 266,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.43,
-      "platform_er_pct": 9.99,
-      "raw_er_pct": 9.99,
-      "social_interactions": 18,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.99,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 27.27
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.81,
+          "weight": 0.467,
+          "percentile": 73.81
+        }
+      ],
+      "composite_percentile": 49,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 33,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2211,13 +3213,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 4.11,
-      "platform_er_pct": 6.85,
-      "raw_er_pct": 6.85,
-      "social_interactions": 9,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.85,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "text",
+      "format_source": "inferred:no_visual_asset",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 4.11,
+          "weight": 0.5,
+          "percentile": 95.45
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 40.91
+        }
+      ],
+      "composite_percentile": 68.18,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|text",
+        "window_days": null,
+        "size": 11,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2248,13 +3271,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.75,
-      "platform_er_pct": 77.29,
-      "raw_er_pct": 77.29,
-      "social_interactions": 30,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 77.29,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "text",
+      "format_source": "inferred:no_visual_asset",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.34,
+          "weight": 0.5,
+          "percentile": 50
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.06,
+          "weight": 0.5,
+          "percentile": 86.36
+        }
+      ],
+      "composite_percentile": 68.18,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|text",
+        "window_days": null,
+        "size": 11,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2285,13 +3329,37 @@
       "video_views": 505,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.79,
-      "platform_er_pct": 10.89,
-      "raw_er_pct": 10.89,
-      "social_interactions": 22,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 10.89,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "advocacy",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.444,
+          "percentile": 27.27
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (advocacy: someone put their name to it)",
+          "value": 0.16,
+          "weight": 0.556,
+          "percentile": 11.11
+        }
+      ],
+      "composite_percentile": 18.29,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 33,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2322,13 +3390,38 @@
       "video_views": 447,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.07,
-      "platform_er_pct": 9.53,
-      "raw_er_pct": 9.53,
-      "social_interactions": 40,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.53,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 28.57
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.69,
+          "weight": 0.467,
+          "percentile": 55.26
+        }
+      ],
+      "composite_percentile": 41.03,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 35,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2359,13 +3452,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.48,
-      "platform_er_pct": 7.55,
-      "raw_er_pct": 7.55,
-      "social_interactions": 24,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 7.55,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.76,
+          "weight": 1,
+          "percentile": 87.93
+        }
+      ],
+      "composite_percentile": 87.93,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2396,13 +3503,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.38,
-      "platform_er_pct": 10.26,
-      "raw_er_pct": 10.26,
-      "social_interactions": 24,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 10.26,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.1,
+          "weight": 1,
+          "percentile": 13.79
+        }
+      ],
+      "composite_percentile": 13.79,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2433,13 +3554,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.83,
-      "platform_er_pct": 6.79,
-      "raw_er_pct": 6.79,
-      "social_interactions": 22,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.79,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.79,
+          "weight": 1,
+          "percentile": 88.33
+        }
+      ],
+      "composite_percentile": 88.33,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 30,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2470,13 +3605,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.26,
-      "platform_er_pct": 8.15,
-      "raw_er_pct": 8.15,
-      "social_interactions": 6,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.15,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "text",
+      "format_source": "inferred:no_visual_asset",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 3.26,
+          "weight": 0.5,
+          "percentile": 68.18
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 40.91
+        }
+      ],
+      "composite_percentile": 54.55,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|text",
+        "window_days": null,
+        "size": 11,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2507,13 +3663,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.61,
-      "platform_er_pct": 6.12,
-      "raw_er_pct": 6.12,
-      "social_interactions": 26,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.12,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.21,
+          "weight": 1,
+          "percentile": 66.13
+        }
+      ],
+      "composite_percentile": 66.13,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 31,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2544,13 +3714,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.66,
-      "platform_er_pct": 104.14,
-      "raw_er_pct": 104.14,
-      "social_interactions": 20,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 104.14,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "text",
+      "format_source": "inferred:no_visual_asset",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.24,
+          "weight": 0.5,
+          "percentile": 40.91
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 40.91
+        }
+      ],
+      "composite_percentile": 40.91,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|text",
+        "window_days": null,
+        "size": 11,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2581,13 +3772,30 @@
       "video_views": 380,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.19,
-      "platform_er_pct": 8.04,
-      "raw_er_pct": 8.04,
-      "social_interactions": 24,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.04,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.18,
+          "weight": 1,
+          "percentile": 78.75
+        }
+      ],
+      "composite_percentile": 78.75,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 40,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2618,13 +3826,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.71,
-      "platform_er_pct": 8.69,
-      "raw_er_pct": 8.69,
-      "social_interactions": 21,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 8.69,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.46,
+          "weight": 1,
+          "percentile": 43.1
+        }
+      ],
+      "composite_percentile": 43.1,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 29,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2655,13 +3877,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.94,
-      "platform_er_pct": 5.39,
-      "raw_er_pct": 5.39,
-      "social_interactions": 27,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 5.39,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.58,
+          "weight": 1,
+          "percentile": 42.19
+        }
+      ],
+      "composite_percentile": 42.19,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 32,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2692,13 +3928,30 @@
       "video_views": 114,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.7,
-      "platform_er_pct": 10.54,
-      "raw_er_pct": 10.54,
-      "social_interactions": 13,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 10.54,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 27.27
+        }
+      ],
+      "composite_percentile": 27.27,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 44,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2729,13 +3982,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.65,
-      "platform_er_pct": 9.81,
-      "raw_er_pct": 9.81,
-      "social_interactions": 17,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.81,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.34,
+          "weight": 1,
+          "percentile": 74
+        }
+      ],
+      "composite_percentile": 74,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 25,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2766,13 +4033,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.95,
-      "platform_er_pct": 30.26,
-      "raw_er_pct": 30.26,
-      "social_interactions": 3,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 30.26,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "text",
+      "format_source": "inferred:no_visual_asset",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 3.95,
+          "weight": 0.5,
+          "percentile": 83.33
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 44.44
+        }
+      ],
+      "composite_percentile": 63.89,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|text",
+        "window_days": 90,
+        "size": 9,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2803,13 +4091,38 @@
       "video_views": 128,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.01,
-      "platform_er_pct": 11.71,
-      "raw_er_pct": 11.71,
-      "social_interactions": 9,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 11.71,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 27.45
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.67,
+          "weight": 0.467,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 27.45,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 51,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2840,13 +4153,34 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 4.49,
-      "platform_er_pct": 7.87,
-      "raw_er_pct": 7.87,
-      "social_interactions": 4,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 7.87,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "text",
+      "format_source": "inferred:no_visual_asset",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 3.37,
+          "weight": 0.5,
+          "percentile": 75
+        },
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 45
+        }
+      ],
+      "composite_percentile": 60,
+      "tier": "middle",
+      "cohort": {
+        "key": "linkedin|text",
+        "window_days": 90,
+        "size": 10,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2877,13 +4211,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.95,
-      "platform_er_pct": 9.88,
-      "raw_er_pct": 9.88,
-      "social_interactions": 20,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.88,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.96,
+          "weight": 1,
+          "percentile": 89.13
+        }
+      ],
+      "composite_percentile": 89.13,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 23,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2914,13 +4262,27 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.88,
-      "platform_er_pct": 6.8,
-      "raw_er_pct": 6.8,
-      "social_interactions": 16,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 6.8,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.91,
+          "weight": 1,
+          "percentile": 85.42
+        }
+      ],
+      "composite_percentile": 85.42,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|single-image",
+        "window_days": 90,
+        "size": 24,
+        "min_required": 8
+      },
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2951,13 +4313,30 @@
       "video_views": 321,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.08,
-      "platform_er_pct": 14.83,
-      "raw_er_pct": 14.83,
-      "social_interactions": 21,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 14.83,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0.29,
+          "weight": 1,
+          "percentile": 90
+        }
+      ],
+      "composite_percentile": 90,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 55,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -2988,13 +4367,38 @@
       "video_views": 323,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.56,
-      "platform_er_pct": 9.18,
-      "raw_er_pct": 9.18,
-      "social_interactions": 19,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 9.18,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "video",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": 24.11
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.4,
+          "weight": 0.467,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 24.11,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "linkedin|video",
+        "window_days": 90,
+        "size": 56,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   },
   {
@@ -3025,13 +4429,37 @@
       "video_views": 0,
       "watch_time_total": null,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.94,
-      "platform_er_pct": 67.84,
-      "raw_er_pct": 67.84,
-      "social_interactions": 20,
-      "engagement_spec_version": 1,
-      "engagement_rate_DEPRECATED": 67.84,
-      "metrics_synced_at": "2026-08-17T21:03:00Z"
+      "format": "multi-image",
+      "format_source": "asset_type",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.2,
+          "weight": 0.6,
+          "percentile": 81.25
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.73,
+          "weight": 0.4,
+          "percentile": 93.75
+        }
+      ],
+      "composite_percentile": 86.25,
+      "tier": "worked",
+      "cohort": {
+        "key": "linkedin|multi-image",
+        "window_days": 90,
+        "size": 8,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ],
+      "metrics_synced_at": "2026-08-18T00:59:41Z"
     }
   }
 ]

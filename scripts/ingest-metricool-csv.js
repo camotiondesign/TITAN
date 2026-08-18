@@ -2,32 +2,37 @@
 /**
  * Ingest a Metricool CSV export into per-post metrics.json files.
  *
- * Replaces the dated one-off ingest scripts. Profiles are detected from the
- * CSV header, so a new drop from Metricool needs no code change — point this
- * at the folder and run it.
+ * Profiles are detected from the CSV header, so a new drop from Metricool
+ * needs no code change — point this at the folder and run it.
  *
- * What it writes, per matched post:
- *   metrics.json .engagement  — the canonical block from scripts/lib/engagement.js
- *                               (social_er_pct / platform_er_pct / raw_er_pct)
- *   metrics.json .impressions — ONLY when the CSV is >20% higher than what we
- *                               hold, i.e. the post kept accruing after our
- *                               last sync. Every substitution is logged.
+ * What it writes, per matched post, under metrics.json `.signals`:
+ *   format      — canonical format tag (see lib/format-signals.js)
+ *   role        — advocacy / sector-thesis / standard
+ *   components  — raw counts, plus availability flags per platform
+ *   measured    — the format's primary signal components with raw values
  *
- * Everything else in metrics.json is left exactly as found. This script is
- * additive by design: it never deletes a field and never touches caption.md,
+ * Percentiles and tier flags are NOT set here. They need the whole cohort, so
+ * they come from compute-format-percentiles.js, which must run afterwards.
+ *
+ * It also corrects impressions when a fresh CSV is >20% higher than what we
+ * hold — posts keep accruing after a sync. Never downward: a smaller vendor
+ * number is nearly always a reporting-window artefact, and silently deleting
+ * real impressions is unrecoverable. Every substitution is logged.
+ *
+ * Additive by design: never deletes a field, never touches caption.md,
  * meta.json, alt-text.md, transcript.md or comments.md.
  *
  * Usage:
  *   node scripts/ingest-metricool-csv.js --dir ~/Downloads/Metrics [--dry-run]
  *   node scripts/ingest-metricool-csv.js --csv path/to/one.csv [--dry-run]
  *
- * See docs/engagement-rate-definition.md for the onboarding checklist.
+ * See docs/format-signals-definition.md.
  */
 
 const fs = require('fs');
 const path = require('path');
 const { parse } = require('csv-parse/sync');
-const { computeEngagement, num } = require('./lib/engagement');
+const { resolveFormat, resolveRole, buildSignals, num, SPEC_VERSION } = require('./lib/format-signals');
 
 const REPO = path.join(__dirname, '..');
 const args = process.argv.slice(2);
@@ -38,21 +43,27 @@ const getArg = (flag) => {
 };
 const SYNCED_AT = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
 
+// Manual role overrides: { "<post-slug>": "advocacy" | "sector-thesis" | "standard" }
+const ROLE_OVERRIDE_PATH = path.join(REPO, 'analytics', 'post-roles.json');
+let ROLE_OVERRIDES = {};
+if (fs.existsSync(ROLE_OVERRIDE_PATH)) {
+  try { ROLE_OVERRIDES = JSON.parse(fs.readFileSync(ROLE_OVERRIDE_PATH, 'utf-8')); } catch {}
+}
+
 // ── CSV profiles ────────────────────────────────────────────────────────
-// `detect` is a header column unique to that export shape. `map` turns a row
-// into canonical components. `platformEr` reads the vendor's headline rate.
-// `unavailable` names components the export simply does not contain, so the
-// engagement block can flag them instead of pretending they were zero.
+// `detect` keys on a header column unique to that export shape.
+// `map` returns canonical components. `*_available` flags distinguish a real
+// zero from "this export has no such column", which otherwise silently
+// deflates a format's signal.
 
 const PROFILES = [
   {
     name: 'linkedin-posts',
     platform: 'linkedin',
+    isReel: false,
     detect: (h) => h.includes('Vid. Views') && h.includes('Impressions'),
     postDirs: ['posts/linkedin/titan/published', 'posts/linkedin/titanverse/published'],
-    dateKey: 'Date',
-    titleKey: 'Title',
-    urlKey: 'URL',
+    dateKey: 'Date', titleKey: 'Title', urlKey: 'URL', typeKey: 'Type',
     map: (r) => ({
       impressions: num(r.Impressions),
       reach: 0,
@@ -61,18 +72,20 @@ const PROFILES = [
       reposts: num(r.Shares),
       saves: 0,
       clicks: num(r.Clicks),
+      video_views: num(r['Vid. Views']),
+      avg_watch_time_seconds: num(r['Vid. Views']) > 0 ? num(r['Time Watched']) / num(r['Vid. Views']) : 0,
+      duration_seconds: 0,          // LinkedIn export carries no duration
+      clicks_available: true,
+      saves_available: false,        // LinkedIn does not report saves
     }),
-    platformEr: (r) => num(r.Engagement),
-    unavailable: [],
   },
   {
     name: 'instagram-posts',
     platform: 'instagram',
+    isReel: false,
     detect: (h) => h.includes('Saved') && h.includes('Interactions'),
     postDirs: ['posts/instagram/published'],
-    dateKey: 'Timestamp',
-    titleKey: 'Content',
-    urlKey: 'URL',
+    dateKey: 'Timestamp', titleKey: 'Content', urlKey: 'URL', typeKey: 'type',
     map: (r) => ({
       impressions: num(r.Views),
       reach: num(r['Reach (Organic)']),
@@ -81,39 +94,43 @@ const PROFILES = [
       reposts: num(r.Shares),
       saves: num(r.Saved),
       clicks: 0,
+      video_views: 0,
+      avg_watch_time_seconds: 0,
+      duration_seconds: 0,
+      clicks_available: false,
+      saves_available: true,
     }),
-    platformEr: (r) => num(r.Engagement),
-    unavailable: [],
   },
   {
     name: 'instagram-reels',
     platform: 'instagram',
+    isReel: true,
     detect: (h) => h.includes('Saved (Organic)'),
     postDirs: ['posts/instagram/published'],
-    dateKey: 'date',
-    titleKey: 'title',
-    urlKey: 'URL',
+    dateKey: 'date', titleKey: 'title', urlKey: 'URL', typeKey: null,
     map: (r) => ({
       impressions: num(r.Views),
       reach: num(r['Reach (Organic)']),
       reactions: num(r['Likes (Organic)']),
       comments: num(r['Comments (Organic)']),
-      // Reels expose both in-app shares and Reposts; a repost is a share.
       reposts: num(r['Shares (Organic)']) + num(r.Reposts),
       saves: num(r['Saved (Organic)']),
       clicks: 0,
+      video_views: num(r.Views),
+      // Metricool reports reel watch time in milliseconds.
+      avg_watch_time_seconds: num(r['Avg Watch Time (Organic)']) / 1000,
+      duration_seconds: 0,
+      clicks_available: false,
+      saves_available: true,
     }),
-    platformEr: (r) => num(r['Engagement (Organic)']),
-    unavailable: [],
   },
   {
     name: 'facebook-posts',
     platform: 'facebook',
+    isReel: false,
     detect: (h) => h.includes('Shared') && h.includes('LinkClicks'),
     postDirs: ['posts/facebook/published'],
-    dateKey: 'Date',
-    titleKey: 'Content',
-    urlKey: 'PostLink',
+    dateKey: 'Date', titleKey: 'Content', urlKey: 'PostLink', typeKey: 'Type',
     map: (r) => ({
       impressions: num(r['Impressions (Organic)']) || num(r.Impressions),
       reach: num(r['Reach (Organic)']) || num(r.Reach),
@@ -122,40 +139,45 @@ const PROFILES = [
       reposts: num(r.Shared),
       saves: 0,
       clicks: num(r.Clicks),
+      video_views: num(r['VideoViews (Organic)']) || num(r.VideoViews),
+      avg_watch_time_seconds: 0,
+      duration_seconds: 0,
+      clicks_available: true,
+      saves_available: false,
     }),
-    platformEr: (r) => num(r.Engagement),
-    unavailable: [],
   },
   {
     name: 'facebook-reels',
     platform: 'facebook',
+    isReel: true,
     detect: (h) => h.includes('Reel Link'),
     postDirs: ['posts/facebook/published'],
-    dateKey: 'Date',
-    titleKey: 'Content',
-    urlKey: 'Reel Link',
+    dateKey: 'Date', titleKey: 'Content', urlKey: 'Reel Link', typeKey: null,
     map: (r) => ({
       impressions: num(r['Video Views']),
       reach: num(r.Reach),
       reactions: num(r.Likes),
       comments: num(r.Comments),
-      reposts: 0, // export carries no shares column at all
+      reposts: 0,
       saves: 0,
       clicks: 0,
+      video_views: num(r['Video Views']),
+      avg_watch_time_seconds: num(r['Avg. time watched (Seconds)']),
+      duration_seconds: 0,
+      clicks_available: false,
+      saves_available: false,
+      // The reels export has no shares column at all. Short-form scores on
+      // share rate, so this must be visible rather than read as zero.
+      reposts_available: false,
     }),
-    platformEr: (r) => num(r.Engagement),
-    // Reels shares are genuinely absent, not zero. social_er_pct is therefore
-    // a floor for FB reels, and the flag says so on every row.
-    unavailable: ['reposts'],
   },
   {
     name: 'tiktok-posts',
     platform: 'tiktok',
+    isReel: true,
     detect: (h) => h.includes('Duration') && h.includes('Views'),
     postDirs: ['posts/tiktok/published'],
-    dateKey: 'Date',
-    titleKey: 'Title',
-    urlKey: 'URL',
+    dateKey: 'Date', titleKey: 'Title', urlKey: 'URL', typeKey: 'Type',
     map: (r) => ({
       impressions: num(r.Views),
       reach: 0,
@@ -164,41 +186,37 @@ const PROFILES = [
       reposts: num(r.Shares),
       saves: 0,
       clicks: 0,
+      video_views: num(r.Views),
+      avg_watch_time_seconds: 0,
+      duration_seconds: num(r.Duration),
+      clicks_available: false,
+      saves_available: false,
     }),
-    platformEr: () => null, // no engagement column; spec formula reproduces it
-    unavailable: [],
   },
 ];
 
-// ── Matching (date + fuzzy title, URL as the strongest signal) ───────────
+// ── Matching ────────────────────────────────────────────────────────────
 
 function normText(s) {
-  return String(s || '')
-    .toLowerCase()
-    .replace(/[’'`]/g, '')
-    .replace(/[^a-z0-9\s]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return String(s || '').toLowerCase().replace(/[’'`]/g, '')
+    .replace(/[^a-z0-9\s]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 const tokens = (s) => normText(s).split(' ').filter((w) => w.length > 2);
 
 function jaccard(a, b) {
-  const A = new Set(a);
-  const B = new Set(b);
+  const A = new Set(a), B = new Set(b);
   if (!A.size || !B.size) return 0;
   let inter = 0;
   for (const x of A) if (B.has(x)) inter++;
   return inter / (A.size + B.size - inter);
 }
 
-/** Collapse a post URL to its stable identity (the numeric id where present). */
 function urlKeyOf(u) {
   if (!u) return null;
   const s = String(u).trim();
   if (!s) return null;
   const m = s.match(/(\d{15,})/);
-  if (m) return m[1];
-  return s.split('?')[0].replace(/\/$/, '').toLowerCase();
+  return m ? m[1] : s.split('?')[0].replace(/\/$/, '').toLowerCase();
 }
 
 function loadDirIndex(relDirs) {
@@ -226,16 +244,18 @@ function loadDirIndex(relDirs) {
       if (fs.existsSync(metPath)) {
         try { metrics = JSON.parse(fs.readFileSync(metPath, 'utf-8')); } catch {}
       }
+      let meta = {};
+      const metaPath = path.join(p, 'meta.json');
+      if (fs.existsSync(metaPath)) {
+        try { meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8')); } catch {}
+      }
 
       list.push({
-        dir: p,
-        slug: name,
-        date: m[1],
+        dir: p, slug: name, date: m[1],
         captionTokens: tokens(captionBody).slice(0, 60),
         slugTokens: tokens(m[2].replace(/-/g, ' ')),
         urlKey: urlKeyOf((metrics || {}).post_url),
-        metricsPath: metPath,
-        metrics,
+        metricsPath: metPath, metrics, meta,
       });
     }
   }
@@ -243,67 +263,33 @@ function loadDirIndex(relDirs) {
 }
 
 function findMatch(candidates, csvDate, csvTitle, csvUrl) {
-  // URL first — it is an identity, not a guess.
   const uk = urlKeyOf(csvUrl);
   if (uk) {
     const byUrl = candidates.find((c) => c.urlKey && c.urlKey === uk);
     if (byUrl) return { candidate: byUrl, score: 1, reason: 'url' };
   }
-
   const csvTokens = tokens(csvTitle).slice(0, 60);
   const score = (c) => Math.max(jaccard(csvTokens, c.captionTokens), jaccard(csvTokens, c.slugTokens));
 
   const sameDay = candidates.filter((c) => c.date === csvDate).map((c) => ({ c, s: score(c) }));
   sameDay.sort((a, b) => b.s - a.s);
-  if (sameDay.length && sameDay[0].s >= 0.15) {
-    return { candidate: sameDay[0].c, score: sameDay[0].s, reason: 'date+title' };
-  }
+  if (sameDay.length && sameDay[0].s >= 0.15) return { candidate: sameDay[0].c, score: sameDay[0].s, reason: 'date+title' };
 
   const nearby = candidates
     .filter((c) => c.date !== csvDate && Math.abs(new Date(c.date) - new Date(csvDate)) <= 86400000)
     .map((c) => ({ c, s: score(c) }));
   nearby.sort((a, b) => b.s - a.s);
-  if (nearby.length && nearby[0].s >= 0.35) {
-    return { candidate: nearby[0].c, score: nearby[0].s, reason: 'nearby+title' };
-  }
+  if (nearby.length && nearby[0].s >= 0.35) return { candidate: nearby[0].c, score: nearby[0].s, reason: 'nearby+title' };
   return null;
 }
 
-// ── Existing-value readers ──────────────────────────────────────────────
-
-/** The deprecated engagement_rate, wherever this file happens to keep it. */
-function readLegacyEr(m) {
-  if (!m) return { value: null, source: null };
-  const api = m.platform_api || {};
-  if (api.organic && api.organic.engagement_rate !== undefined) {
-    return { value: num(api.organic.engagement_rate), source: 'platform_api.organic.engagement_rate' };
-  }
-  if (api.engagement_rate !== undefined) {
-    return { value: num(api.engagement_rate), source: 'platform_api.engagement_rate' };
-  }
-  if (m.organic && m.organic.engagement_rate !== undefined) {
-    return { value: num(m.organic.engagement_rate), source: 'organic.engagement_rate' };
-  }
-  if (m.engagement_rate !== undefined) {
-    return { value: num(m.engagement_rate), source: 'engagement_rate' };
-  }
-  return { value: null, source: null };
-}
-
-/** Delivery count we currently hold, for the >20% staleness check. */
 function readHeldImpressions(m) {
   if (!m) return 0;
   const api = m.platform_api || {};
-  return (
-    num(m.impressions) ||
-    num((m.organic || {}).impressions) ||
-    num(api.impressions) ||
-    num((api.organic || {}).impressions) ||
-    0
-  );
+  return num(m.impressions) || num((m.organic || {}).impressions) || num(api.impressions)
+    || num((api.organic || {}).impressions) || 0;
 }
 
-/** Write a value everywhere this file already stores impressions. */
 function applyImpressions(m, value) {
   if (m.impressions !== undefined) m.impressions = value;
   if (m.organic && m.organic.impressions !== undefined) m.organic.impressions = value;
@@ -315,16 +301,30 @@ function applyImpressions(m, value) {
   }
 }
 
+/** Strip the retired engagement-rate fields wherever they appear. */
+function retireEngagementRate(m) {
+  let removed = 0;
+  const scrub = (obj) => {
+    if (!obj || typeof obj !== 'object') return;
+    for (const k of ['engagement_rate', 'engagement_rate_deprecated_note', 'engagement']) {
+      if (obj[k] !== undefined) { delete obj[k]; removed++; }
+    }
+  };
+  scrub(m);
+  scrub(m.organic);
+  scrub(m.sponsored);
+  scrub(m.platform_api);
+  if (m.platform_api) scrub(m.platform_api.organic);
+  return removed;
+}
+
 // ── Ingest ──────────────────────────────────────────────────────────────
 
 function ingestCsv(csvPath) {
   const raw = fs.readFileSync(csvPath, 'utf-8');
   const rows = parse(raw, {
-    columns: true,
-    skip_empty_lines: true,
-    relax_quotes: true,
-    relax_column_count: true,
-    bom: true,
+    columns: true, skip_empty_lines: true, relax_quotes: true,
+    relax_column_count: true, bom: true,
   });
   if (!rows.length) return null;
 
@@ -338,18 +338,11 @@ function ingestCsv(csvPath) {
 
   const candidates = loadDirIndex(profile.postDirs);
   const res = {
-    profile: profile.name,
-    file: path.basename(csvPath),
-    total: rows.length,
-    matched: 0,
-    unmatched: 0,
-    written: 0,
-    impressionFixes: [],
-    erChanges: [],
-    unmatchedRows: [],
+    profile: profile.name, file: path.basename(csvPath), total: rows.length,
+    matched: 0, unmatched: 0, written: 0,
+    impressionFixes: [], formats: {}, erRemoved: 0, unmatchedRows: [],
   };
 
-  // Dedupe: one CSV row per post dir, highest-scoring wins.
   const assigned = new Map();
   for (const row of rows) {
     const date = String(row[profile.dateKey] || '').split(' ')[0];
@@ -374,57 +367,49 @@ function ingestCsv(csvPath) {
     const m = c.metrics ? JSON.parse(JSON.stringify(c.metrics)) : {};
     const components = profile.map(row);
 
-    // Trust the fresher CSV when a post kept accruing after our last sync.
-    // Only upward — a lower vendor number is nearly always a reporting window
-    // artefact, and silently deleting real impressions is unrecoverable.
     const held = readHeldImpressions(m);
     const fresh = components.impressions;
     if (held > 0 && fresh > held * 1.2) {
       res.impressionFixes.push({ slug: c.slug, from: held, to: fresh, ratio: +(fresh / held).toFixed(2) });
       applyImpressions(m, fresh);
     } else if (held > 0) {
-      // Below the correction threshold: keep the stored figure and compute the
-      // rate against it. The denominator must always equal the impressions we
-      // publish, or the export's own numbers won't reproduce its own ER.
+      // Below the correction threshold: keep the stored figure so every rate
+      // is computed against the impressions we actually publish.
       components.impressions = held;
     }
 
-    // A sparser CSV row must never silently bury a richer earlier sync.
-    // Flag it instead — the CSV still wins (it is the nominated ground truth),
-    // but the discrepancy stays visible.
-    const ns = m.notionsocial || {};
-    const nsInteractions = num(ns.likes) + num(ns.comments) + num(ns.shares);
-    const csvInteractions = components.reactions + components.comments + components.reposts;
-    const supersededNotionsocial =
-      nsInteractions > csvInteractions && num(ns.views) > components.impressions * 2;
-
-    const legacy = readLegacyEr(c.metrics);
-    const eng = computeEngagement(profile.platform, components, {
-      platformErPct: profile.platformEr(row),
-      rawErPct: legacy.value,
-      rawErSource: legacy.source,
-      unavailable: profile.unavailable,
+    const { format, source: formatSource } = resolveFormat({
+      platform: profile.platform,
+      platformType: profile.typeKey ? row[profile.typeKey] : null,
+      assetType: c.meta.asset_type || m.asset_type,
+      isReel: profile.isReel,
     });
-    eng.computed_at = SYNCED_AT;
-    eng.source_file = path.basename(csvPath);
-    if (supersededNotionsocial) {
-      eng.flags = [...(eng.flags || []), 'notionsocial_reported_more_activity'];
-      eng.superseded_notionsocial = {
-        views: num(ns.views),
-        interactions: nsInteractions,
-        note: 'Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters.',
-      };
-    }
 
-    if (legacy.value !== null && eng.social_er_pct !== null) {
-      res.erChanges.push({ slug: c.slug, from: legacy.value, to: eng.social_er_pct });
-    }
+    const { role, source: roleSource } = resolveRole(m.post_type || c.meta.post_type, ROLE_OVERRIDES[c.slug]);
+    const built = format ? buildSignals(format, role, components) : null;
 
-    m.engagement = eng;
-    if (m.engagement_rate !== undefined) {
-      m.engagement_rate_deprecated_note =
-        'DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh.';
-    }
+    res.erRemoved += retireEngagementRate(m);
+
+    m.signals = {
+      spec_version: SPEC_VERSION,
+      computed_at: SYNCED_AT,
+      source_file: path.basename(csvPath),
+      platform: profile.platform,
+      format,
+      format_source: formatSource,
+      role,
+      role_source: roleSource,
+      components,
+      measured: built ? built.measured : [],
+      unmeasurable: built ? built.dropped : [],
+      // percentile / tier are filled in by compute-format-percentiles.js
+      percentiles: null,
+      composite_percentile: null,
+      tier: null,
+      cohort: null,
+    };
+
+    res.formats[format || 'unknown'] = (res.formats[format || 'unknown'] || 0) + 1;
 
     if (!DRY) {
       fs.writeFileSync(c.metricsPath, JSON.stringify(m, null, 2) + '\n', 'utf-8');
@@ -459,26 +444,25 @@ function main() {
     if (!r) continue;
     all.push(r);
     console.log(`  profile=${r.profile} rows=${r.total} matched=${r.matched} unmatched=${r.unmatched} written=${r.written}`);
+    console.log(`  formats: ${JSON.stringify(r.formats)}`);
     if (r.impressionFixes.length) {
       console.log(`  impressions corrected upward on ${r.impressionFixes.length} post(s):`);
-      for (const f2 of r.impressionFixes) {
-        console.log(`    ${f2.slug}: ${f2.from} → ${f2.to} (${f2.ratio}x)`);
-      }
+      for (const f2 of r.impressionFixes) console.log(`    ${f2.slug}: ${f2.from} → ${f2.to} (${f2.ratio}x)`);
     }
   }
 
   console.log('\n─── SUMMARY ───');
-  let totMatched = 0, totWritten = 0, totFix = 0;
+  let totMatched = 0, totWritten = 0, totFix = 0, totEr = 0;
   for (const r of all) {
-    totMatched += r.matched; totWritten += r.written; totFix += r.impressionFixes.length;
-    const deltas = r.erChanges.map((e) => e.to - e.from);
-    const mean = deltas.length ? deltas.reduce((a, b) => a + b, 0) / deltas.length : 0;
-    console.log(`${r.profile.padEnd(18)} matched=${String(r.matched).padStart(4)} written=${String(r.written).padStart(4)} imp_fixes=${String(r.impressionFixes.length).padStart(3)} mean_social_er_delta=${mean.toFixed(2)}pp`);
+    totMatched += r.matched; totWritten += r.written;
+    totFix += r.impressionFixes.length; totEr += r.erRemoved;
+    console.log(`${r.profile.padEnd(18)} matched=${String(r.matched).padStart(4)} written=${String(r.written).padStart(4)} imp_fixes=${String(r.impressionFixes.length).padStart(3)}`);
   }
-  console.log(`\nTotal: ${totMatched} matched, ${totWritten} written, ${totFix} impression corrections.`);
+  console.log(`\nTotal: ${totMatched} matched, ${totWritten} written, ${totFix} impression corrections, ${totEr} retired engagement_rate fields removed.`);
+  console.log('\nNEXT: node scripts/compute-format-percentiles.js  (tiers are not set until it runs)');
 
-  const reportPath = path.join(REPO, 'analytics', 'metricool-ingest-report.json');
   if (!DRY) {
+    const reportPath = path.join(REPO, 'analytics', 'metricool-ingest-report.json');
     fs.mkdirSync(path.dirname(reportPath), { recursive: true });
     fs.writeFileSync(reportPath, JSON.stringify({ synced_at: SYNCED_AT, results: all }, null, 2));
     console.log(`Report: ${reportPath}`);

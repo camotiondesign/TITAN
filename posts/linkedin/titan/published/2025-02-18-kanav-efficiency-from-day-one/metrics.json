@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 83,
-  "engagement_rate": 7,
   "organic": {
     "impressions": 1184,
     "reach": 658,
     "engagements": 83,
-    "engagement_rate": 7,
     "clicks": 61,
     "click_through_rate": 5.2,
     "reactions": 19,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Organic post. 'From day one' messaging and new pharmacy positioning resonated with audience. Good engagement (7.0% engagement rate, 5.2% CTR) and strong watch time (12 seconds average) indicate strong audience interest in new pharmacy setup content. Comment from Kanav Sikka himself validated message and provided social proof.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1184,
-    "social_interactions": 22,
-    "social_er_pct": 1.86,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 7.01,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 7,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_transformation",
     "components": {
       "impressions": 1184,
       "reach": 658,
@@ -73,11 +67,57 @@
       "comments": 1,
       "reposts": 2,
       "saves": 0,
-      "clicks": 61
+      "clicks": 61,
+      "video_views": 595,
+      "avg_watch_time_seconds": 12,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 12,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.08,
+        "normalised_weight": 0.267
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.17,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 53.85,
+      "comment_rate": 34.62,
+      "repost_rate": 56.25
+    },
+    "composite_percentile": 49.51,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 13,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

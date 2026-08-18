@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 598,
-  "engagement_rate": 34.7,
   "organic": {
     "impressions": 1724,
     "reach": 1092,
     "engagements": 598,
-    "engagement_rate": 34.7,
     "clicks": 584,
     "click_through_rate": 33.9,
     "reactions": 11,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Safy's Chemist case study carousel - exceptional engagement (34.7% engagement rate, 33.9% CTR), 97% near miss reduction, 85% time back",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1724,
-    "social_interactions": 14,
-    "social_er_pct": 0.81,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 34.69,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 34.7,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "carousel-document",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_transformation",
     "components": {
       "impressions": 1724,
       "reach": 1092,
@@ -73,11 +67,49 @@
       "comments": 1,
       "reposts": 2,
       "saves": 0,
-      "clicks": 584
+      "clicks": 584,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "click_rate",
+        "label": "clicks per impression",
+        "kind": "rate",
+        "weight": 0.7,
+        "value": 33.87,
+        "normalised_weight": 0.583
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.12,
+        "normalised_weight": 0.417
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "click_rate": 25
+    },
+    "composite_percentile": 25,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|carousel-document",
+      "window_days": 90,
+      "size": 14,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

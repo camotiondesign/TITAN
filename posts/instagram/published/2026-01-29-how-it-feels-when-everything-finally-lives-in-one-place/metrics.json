@@ -22,25 +22,21 @@
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "engagement_rate": 0,
     "plays": 187,
     "interactions": 0,
     "avg_watch_time_ms": 1605,
     "view_rate_3s_pct": 9.4
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T10:00:45Z",
+    "source_file": "instagram-reels_2025-01-01_2026-08-16.csv",
     "platform": "instagram",
-    "denominator": "views",
-    "denominator_value": 187,
-    "social_interactions": 0,
-    "social_er_pct": 0,
-    "social_er_formula": "(reactions + comments + reposts) / views x 100",
-    "platform_er_pct": 0,
-    "platform_er_definition": "interactions (likes + comments + shares + saves) / reach — Metricool/Instagram",
-    "raw_er_pct": 0,
-    "raw_er_source": "platform_api.engagement_rate",
+    "format": "short-form-video",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 187,
       "reach": 168,
@@ -48,17 +44,48 @@
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 187,
+      "avg_watch_time_seconds": 1.605,
+      "duration_seconds": 0,
+      "clicks_available": false,
+      "saves_available": true
     },
-    "flags": [
-      "notionsocial_reported_more_activity"
+    "measured": [
+      {
+        "key": "views",
+        "label": "total views (algorithmic reach)",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 187,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "share_rate",
+        "label": "shares per view",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0,
+        "normalised_weight": 0.5
+      }
     ],
-    "computed_at": "2026-08-18T00:10:38Z",
-    "source_file": "instagram-reels_2025-01-01_2026-08-16.csv",
-    "superseded_notionsocial": {
-      "views": 512,
-      "interactions": 6,
-      "note": "Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters."
-    }
+    "unmeasurable": [],
+    "percentiles": {
+      "views": 76.92,
+      "share_rate": 42.31
+    },
+    "composite_percentile": 59.62,
+    "tier": "middle",
+    "cohort": {
+      "key": "instagram|short-form-video",
+      "window_days": null,
+      "size": 13,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

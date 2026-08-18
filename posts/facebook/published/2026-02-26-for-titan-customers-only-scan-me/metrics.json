@@ -20,22 +20,18 @@
     "reach": 0,
     "likes": 0,
     "comments": 0,
-    "shares": 0,
-    "engagement_rate": 0
+    "shares": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T10:00:45Z",
+    "source_file": "facebook-posts_2025-01-01_2026-08-16.csv",
     "platform": "facebook",
-    "denominator": "impressions",
-    "denominator_value": 23,
-    "social_interactions": 0,
-    "social_er_pct": 0,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 0,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / reach — Metricool/Facebook",
-    "raw_er_pct": 0,
-    "raw_er_source": "platform_api.engagement_rate",
+    "format": "single-image",
+    "format_source": "platform_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 23,
       "reach": 13,
@@ -43,17 +39,39 @@
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [
-      "notionsocial_reported_more_activity"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 0,
+        "normalised_weight": 1
+      }
     ],
-    "computed_at": "2026-08-18T00:10:38Z",
-    "source_file": "facebook-posts_2025-01-01_2026-08-16.csv",
-    "superseded_notionsocial": {
-      "views": 1988,
-      "interactions": 59,
-      "note": "Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters."
-    }
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 50
+    },
+    "composite_percentile": 50,
+    "tier": "middle",
+    "cohort": {
+      "key": "facebook|single-image",
+      "window_days": 90,
+      "size": 9,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

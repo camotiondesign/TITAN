@@ -26,18 +26,15 @@
     "reach": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T10:00:45Z",
+    "source_file": "tiktok-posts_2025-01-01_2026-08-16.csv",
     "platform": "tiktok",
-    "denominator": "views",
-    "denominator_value": 892,
-    "social_interactions": 20,
-    "social_er_pct": 2.24,
-    "social_er_formula": "(reactions + comments + reposts) / views x 100",
-    "platform_er_pct": 2.24,
-    "platform_er_definition": "(likes + comments + shares) / views — Metricool/TikTok",
-    "raw_er_pct": null,
-    "raw_er_source": null,
+    "format": "short-form-video",
+    "format_source": "platform_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 892,
       "reach": 0,
@@ -45,10 +42,48 @@
       "comments": 0,
       "reposts": 1,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 892,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 77,
+      "clicks_available": false,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-18T00:10:38Z",
-    "source_file": "tiktok-posts_2025-01-01_2026-08-16.csv"
+    "measured": [
+      {
+        "key": "views",
+        "label": "total views (algorithmic reach)",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 892,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "share_rate",
+        "label": "shares per view",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.11,
+        "normalised_weight": 0.5
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "views": 37.5,
+      "share_rate": 25
+    },
+    "composite_percentile": 31.25,
+    "tier": "middle",
+    "cohort": {
+      "key": "tiktok|short-form-video",
+      "window_days": 90,
+      "size": 12,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

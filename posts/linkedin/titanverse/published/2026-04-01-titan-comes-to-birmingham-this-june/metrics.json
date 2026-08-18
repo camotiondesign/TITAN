@@ -14,11 +14,9 @@
     "comments": 0,
     "reposts": 9,
     "engagements": 124,
-    "engagement_rate": 9.53,
     "organic": {
       "impressions": 1301,
       "engagements": 124,
-      "engagement_rate": 9.53,
       "clicks": 84,
       "click_through_rate": 6.46,
       "reactions": 31,
@@ -41,18 +39,15 @@
     }
   },
   "campaign_slug": "2026-04-01-titan-comes-to-birmingham-this-june",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1301,
-    "social_interactions": 40,
-    "social_er_pct": 3.07,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 9.53,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 9.53,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:thought_leadership",
     "components": {
       "impressions": 1301,
       "reach": 0,
@@ -60,10 +55,51 @@
       "comments": 0,
       "reposts": 9,
       "saves": 0,
-      "clicks": 84
+      "clicks": 84,
+      "video_views": 447,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.533
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.69,
+        "normalised_weight": 0.467
+      }
+    ],
+    "unmeasurable": [
+      "retention",
+      "save_rate"
+    ],
+    "percentiles": {
+      "comment_rate": 28.57,
+      "repost_rate": 55.26
+    },
+    "composite_percentile": 41.03,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 35,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

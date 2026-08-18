@@ -14,11 +14,9 @@
     "comments": 0,
     "reposts": 4,
     "engagements": 47,
-    "engagement_rate": 8.7,
     "organic": {
       "impressions": 540,
       "engagements": 47,
-      "engagement_rate": 8.7,
       "clicks": 35,
       "click_through_rate": 6.48,
       "reactions": 8,
@@ -41,18 +39,15 @@
     }
   },
   "campaign_slug": "2026-03-11-don-t-miss-your-chance-to-register",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 540,
-    "social_interactions": 12,
-    "social_er_pct": 2.22,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 8.7,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 8.7,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:thought_leadership",
     "components": {
       "impressions": 540,
       "reach": 0,
@@ -60,10 +55,51 @@
       "comments": 0,
       "reposts": 4,
       "saves": 0,
-      "clicks": 35
+      "clicks": 35,
+      "video_views": 197,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.533
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.74,
+        "normalised_weight": 0.467
+      }
+    ],
+    "unmeasurable": [
+      "retention",
+      "save_rate"
+    ],
+    "percentiles": {
+      "comment_rate": 25.86,
+      "repost_rate": 72.5
+    },
+    "composite_percentile": 47.64,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 29,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

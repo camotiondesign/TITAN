@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 39,
-  "engagement_rate": 1.5,
   "organic": {
     "impressions": 592,
     "reach": 259,
     "engagements": 31,
-    "engagement_rate": 5.2,
     "clicks": 18,
     "click_through_rate": 3,
     "reactions": 12,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 1992,
     "engagements": 8,
-    "engagement_rate": 0.4,
     "clicks": 5,
     "click_through_rate": 0.3,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Animated/motion-graphics video (dispense at scale, efficiency). Posted 7 May 2025. Sponsored period 7 May – 11 May 2025. Total: 2,584 impressions, 12 reactions, 0 comments, 1 repost. Page: 1 viewer, 0 followers gained. Sponsored: 1,992 impressions, £25.10 eCPM, 8 engagements (0.4%), £6.25 cost per engagement, 5 clicks (0.3% CTR). Organic: 592 impressions, 259 members reached, 31 engagements (5.2%), 18 clicks (3.0% CTR), 12 reactions, 0 comments, 1 repost. Video: 311 views, 54m 52s watch time, 10s average.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 592,
-    "social_interactions": 13,
-    "social_er_pct": 2.2,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 5.24,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 5.2,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:thought_leadership",
     "components": {
       "impressions": 592,
       "reach": 259,
@@ -73,11 +67,59 @@
       "comments": 0,
       "reposts": 1,
       "saves": 0,
-      "clicks": 18
+      "clicks": 18,
+      "video_views": 311,
+      "avg_watch_time_seconds": 10,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 10,
+        "normalised_weight": 0.444
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.296
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.17,
+        "normalised_weight": 0.259
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "retention": 21.15,
+      "comment_rate": 23.08,
+      "repost_rate": 18.42
+    },
+    "composite_percentile": 21.01,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 26,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

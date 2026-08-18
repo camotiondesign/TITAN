@@ -26,18 +26,15 @@
     "reach": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:notionsocial",
     "platform": "tiktok",
-    "denominator": "views",
-    "denominator_value": 1140,
-    "social_interactions": 23,
-    "social_er_pct": 2.02,
-    "social_er_formula": "(reactions + comments + reposts) / views x 100",
-    "platform_er_pct": 2.02,
-    "platform_er_definition": "(likes + comments + shares) / views — Metricool/TikTok",
-    "raw_er_pct": null,
-    "raw_er_source": null,
+    "format": "short-form-video",
+    "format_source": "platform_surface",
+    "role": "sector-thesis",
+    "role_source": "post_type:industry_stance",
     "components": {
       "impressions": 1140,
       "reach": 0,
@@ -45,10 +42,58 @@
       "comments": 0,
       "reposts": 4,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 1140,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": false,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:notionsocial"
+    "measured": [
+      {
+        "key": "views",
+        "label": "total views (algorithmic reach)",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1140,
+        "normalised_weight": 0.37
+      },
+      {
+        "key": "share_rate",
+        "label": "shares per view",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.35,
+        "normalised_weight": 0.37
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.35,
+        "normalised_weight": 0.259
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "views": 57.69,
+      "share_rate": 80.77
+    },
+    "composite_percentile": 69.23,
+    "tier": "middle",
+    "cohort": {
+      "key": "tiktok|short-form-video",
+      "window_days": null,
+      "size": 13,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

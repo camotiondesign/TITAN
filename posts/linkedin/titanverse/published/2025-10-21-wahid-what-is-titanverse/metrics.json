@@ -17,8 +17,7 @@
   "organic": {
     "impressions": 1017,
     "engagements": 119,
-    "clicks": 78,
-    "engagement_rate": "11.7"
+    "clicks": 78
   },
   "sponsored": {
     "impressions": 9831,
@@ -31,18 +30,15 @@
   "posted_at": "2025-10-21",
   "campaign_slug": "2025-10-21-wahid-what-is-titanverse",
   "has_sponsored": true,
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1017,
-    "social_interactions": 0,
-    "social_er_pct": 0,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 7.67,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 11.7,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:video_testimonial",
     "components": {
       "impressions": 1017,
       "reach": 0,
@@ -50,10 +46,50 @@
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "clicks": 78
+      "clicks": 78,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.444
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0,
+        "normalised_weight": 0.556
+      }
+    ],
+    "unmeasurable": [
+      "retention"
+    ],
+    "percentiles": {
+      "comment_rate": 10.42,
+      "repost_rate": 3.13
+    },
+    "composite_percentile": 6.37,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 24,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

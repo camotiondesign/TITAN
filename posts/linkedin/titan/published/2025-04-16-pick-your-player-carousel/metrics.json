@@ -22,12 +22,10 @@
   "follows": 4,
   "leads": 0,
   "engagements": 3892,
-  "engagement_rate": 90.8,
   "organic": {
     "impressions": 4287,
     "reach": 2460,
     "engagements": 3892,
-    "engagement_rate": 90.8,
     "clicks": 3857,
     "click_through_rate": 90,
     "reactions": 25,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Organic only. Carousel: Pick your player — pharmacy action figures (Pharmacist, Dispenser, Technician, Titan AI/Batch/Mobile). Discovery: 4,287 impressions, 2,460 members reached. Page activity: 17 page viewers, 4 followers gained. Engagement: 3,892 engagements (90.8%), 3,857 clicks (90.0% CTR), 25 reactions, 6 comments, 4 reposts.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 4287,
-    "social_interactions": 35,
-    "social_er_pct": 0.82,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 90.79,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 90.8,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "carousel-document",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 4287,
       "reach": 2460,
@@ -73,11 +67,41 @@
       "comments": 6,
       "reposts": 4,
       "saves": 0,
-      "clicks": 3857
+      "clicks": 3857,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "click_rate",
+        "label": "clicks per impression",
+        "kind": "rate",
+        "weight": 0.7,
+        "value": 89.97,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "click_rate": 90.63
+    },
+    "composite_percentile": 90.63,
+    "tier": "worked",
+    "cohort": {
+      "key": "linkedin|carousel-document",
+      "window_days": 90,
+      "size": 16,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

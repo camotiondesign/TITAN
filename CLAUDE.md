@@ -41,7 +41,7 @@ Daily Notion sync: 7am GMT via GitHub Actions
 | Transcript gold extracts | `exports/transcript-extracts.json` | 312 curated quotes, stats, soundbites, pain points from all 52 interview transcripts. 10 categories, 50 speakers, with topic/feature tags. ~317KB. Upload to ChatGPT/Claude chat for content ideation. |
 | Content intelligence | `exports/content-intelligence.json` | **THE FEEDBACK LOOP.** Every post classified by formula type, scored with QES, analysed by cohort (type/format/customer/month/trend), with formula compliance checks and actionable recommendations. ~237KB. Regenerate after metrics update. |
 | Titanverse knowledge base | `exports/titanverse-knowledge.json` | All 108 Titanverse help centre articles scraped from intercom-help.eu. 13 sections (Getting Started, NMS, Clinical Checks, Consultations, Patient Records, Calendar, Documents, Settings, FAQs, Release Notes, Partners, Billing, etc). ~127KB. Upload to ChatGPT/Claude chat for product Q&A, feature explanations, content ideation. |
-| Instagram export | `exports/titan-instagram.json` | All Instagram posts, same shape as the LinkedIn exports, canonical engagement fields. |
+| Instagram export | `exports/titan-instagram.json` | All Instagram posts, same shape as the LinkedIn exports, with format + tier fields. |
 | Facebook export | `exports/titan-facebook.json` | All Facebook posts, same shape. |
 | TikTok export | `exports/titan-tiktok.json` | All TikTok posts, same shape. |
 
@@ -52,35 +52,39 @@ Regenerate transcript extracts: Re-run extraction agents (requires Claude — NL
 
 ---
 
-## Engagement Rate — READ BEFORE QUOTING ANY ER NUMBER
+## Post Performance — READ BEFORE CALLING ANY POST GOOD OR BAD
 
-Full spec: **`docs/engagement-rate-definition.md`**. Formulas live in exactly one
-place: `scripts/lib/engagement.js`. Never write an engagement formula anywhere else.
+Full spec: **`docs/format-signals-definition.md`**. Definitions live in exactly
+one place: `scripts/lib/format-signals.js`.
 
-**The canonical field is `social_er_pct`:**
+**There is no engagement rate. Do not compute one, do not ask for one.**
+`engagement_rate` has been removed from every file. One rate over one
+denominator ranks formats, not posts — carousels earn clicks, videos earn watch
+time, testimonials earn reactions, advocacy earns reposts. The old field put
+document posts on top every time because documents generate clicks
+structurally; one scored 133% on 22 human interactions and 10,132 clicks.
 
-```
-social_er_pct = (reactions + comments + reposts) / impressions × 100
-```
+**The question is "for a post of this kind, did this one work?"**
 
-Clicks are excluded — they're consumption, not interaction, and they scale with
-format (documents and carousels generate them structurally). Including them made
-20+ posts score over 100% "engagement" and ranked link-heavy posts above
-everything else.
+Every post carries `signals` (per-post `metrics.json`) / flattened fields
+(exports):
 
-| Field | Meaning | When to use |
-|---|---|---|
-| `social_er_pct` | **The truth.** Same formula every platform. | All analysis, ranking, reporting. |
-| `platform_er_pct` | Metricool's own rate — includes clicks, and divides by *reach* on IG/FB. | Only to reconcile against the Metricool dashboard. |
-| `raw_er_pct` | The old pre-2026-08-17 value. | Audit only. |
-| `engagement_rate` / `engagement_rate_DEPRECATED` | **DEPRECATED — meant four different things.** | Never. Removed next refresh. |
+| Field | Meaning |
+|---|---|
+| `format` | single-image / multi-image / carousel-document / video / short-form-video / text |
+| `content_role` | advocacy / sector-thesis / standard — adds reposts/saves as first-class signals |
+| `primary_signal` | the components that mean "worked" for THAT format, with raw values + percentiles |
+| `composite_percentile` | 0–100 vs same format, same platform, rolling window |
+| `tier` | **`worked`** (top 25%) / `middle` / **`underperformed`** (bottom 25%) / `insufficient-data` |
 
 Rules:
-- Quote `social_er_pct`. If a number sounds too good, check whether it's `platform_er_pct`.
-- `null` means not yet measured. Never average it as zero.
-- `social_er_pct` cannot exceed 100%. If it does, the denominator is wrong.
-- Baselines (2026-08-17): Titan PMR median **1.86%**, Titanverse **2.61%**.
-- Facebook Reels rows carry `reposts_unavailable_in_source` — their ER is a floor, not a measurement.
+- Quote `tier` and `composite_percentile`. Never invent a cross-format rate.
+- `worked` means top quartile **of its own format** — a `worked` text post and a
+  `worked` carousel are not the same volume of anything.
+- `insufficient-data` means the cohort was under 8 posts. Not zero, not bad.
+- Ranking posts across different formats by any raw number is the exact mistake
+  this model exists to prevent. Compare percentiles, or compare within a format.
+- Baseline (2026-08-18): 100 worked / 302 middle / 70 underperformed / 10 insufficient.
 
 **New Metricool CSV drop** (Cam drops them in `~/Downloads/Metrics/`) — profiles
 are auto-detected from CSV headers, so no new code is needed per drop:
@@ -88,14 +92,16 @@ are auto-detected from CSV headers, so no new code is needed per drop:
 ```bash
 node scripts/ingest-metricool-csv.js --dir ~/Downloads/Metrics --dry-run   # always first
 node scripts/ingest-metricool-csv.js --dir ~/Downloads/Metrics
-node scripts/backfill-engagement.js          # posts the drop didn't cover
+node scripts/backfill-signals.js             # posts the drop didn't cover
+node scripts/compute-format-percentiles.js   # REQUIRED — tiers are null until this runs
 node scripts/build-linkedin-exports.js && node scripts/build-platform-exports.js
 node scripts/build-indexes.js && node scripts/aggregate-metrics.js && node scripts/build-content-intelligence.js
 ```
 
 Ingest raises impressions when a fresh CSV is >20% higher (posts keep accruing);
 it never lowers them. Every change is logged to `analytics/metricool-ingest-report.json`.
-Adding a platform: follow the checklist in `docs/engagement-rate-definition.md`.
+Adding a format or platform: follow the checklists in `docs/format-signals-definition.md`.
+Override a post's content role in `analytics/post-roles.json`.
 
 ### Posts (archived published content)
 | Path | What's in it |

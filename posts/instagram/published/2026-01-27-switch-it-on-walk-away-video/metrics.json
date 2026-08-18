@@ -22,22 +22,18 @@
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "engagement_rate": 0,
     "plays": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:notionsocial",
     "platform": "instagram",
-    "denominator": "views",
-    "denominator_value": 1140,
-    "social_interactions": 23,
-    "social_er_pct": 2.02,
-    "social_er_formula": "(reactions + comments + reposts) / views x 100",
-    "platform_er_pct": null,
-    "platform_er_definition": "interactions (likes + comments + shares + saves) / reach — Metricool/Instagram",
-    "raw_er_pct": 0,
-    "raw_er_source": "platform_api.engagement_rate",
+    "format": "video",
+    "format_source": "inferred:slug_or_alt_text",
+    "role": "sector-thesis",
+    "role_source": "post_type:industry_stance",
     "components": {
       "impressions": 1140,
       "reach": 0,
@@ -45,12 +41,48 @@
       "comments": 0,
       "reposts": 4,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 1140,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": false,
+      "saves_available": false
     },
-    "flags": [
-      "platform_er_denominator_unavailable"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.533
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.35,
+        "normalised_weight": 0.467
+      }
     ],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:notionsocial"
+    "unmeasurable": [
+      "retention",
+      "save_rate"
+    ],
+    "percentiles": null,
+    "composite_percentile": null,
+    "tier": "insufficient-data",
+    "cohort": {
+      "key": "instagram|video",
+      "window_days": null,
+      "size": 1,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

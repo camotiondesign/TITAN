@@ -83,34 +83,46 @@ function readPublishedPosts(publishedDir) {
 
 /**
  * Extract normalised metrics from either format:
- *   - Old flat format: { impressions, engagement_rate, reactions, ... }
+ *   - Old flat format: { impressions, reactions, ... }
  *   - New two-tier: { notionsocial: { views, likes, ... }, platform_api: { impressions, ... } }
  *
  * Priority: platform_api > flat > notionsocial
  */
 /**
- * Canonical social engagement rate for index/ranking purposes.
+ * Ranking score for index/top-performer purposes.
  *
- * (reactions + comments + reposts) / impressions x 100 — clicks excluded.
- * Prefers metrics.json .engagement (written by the ingest/backfill scripts);
- * recomputes from components when absent so old rows still rank correctly.
+ * Returns the post's composite percentile WITHIN ITS OWN FORMAT COHORT, from
+ * metrics.json .signals (see docs/format-signals-definition.md). 0-100, where
+ * 100 means best-in-cohort.
  *
- * This drives the "top performers" tables. Using the old click-inflated
- * engagement_rate here ranked document and link posts above everything else.
- * See docs/engagement-rate-definition.md.
+ * This is what the "top performers" tables sort on. They used to sort on a
+ * single engagement rate, which ranked formats rather than posts — documents
+ * won every time because documents generate clicks structurally. A percentile
+ * only ever compares a carousel against other carousels.
+ *
+ * Returns null when the post has no rank (cohort too small to be meaningful),
+ * so callers can exclude it rather than sort it to the bottom as a zero.
  */
-function socialEr(m, impressions, reactions, comments, reposts) {
-  if (m && m.engagement && m.engagement.social_er_pct !== null && m.engagement.social_er_pct !== undefined) {
-    return m.engagement.social_er_pct;
-  }
-  const imp = parseNum(impressions);
-  if (!imp) return 0;
-  const inter = parseNum(reactions) + parseNum(comments) + parseNum(reposts);
-  return Math.round((inter / imp) * 10000) / 100;
+function rankScore(m) {
+  const s = m && m.signals;
+  if (!s || s.composite_percentile === null || s.composite_percentile === undefined) return null;
+  return s.composite_percentile;
+}
+
+/** Tier label for display: worked / middle / underperformed / insufficient-data. */
+function tierOf(m) {
+  const s = m && m.signals;
+  return (s && s.tier) || 'insufficient-data';
+}
+
+/** Canonical format tag for display. */
+function formatOf(m) {
+  const s = m && m.signals;
+  return (s && s.format) || 'unknown';
 }
 
 function extractMetrics(m) {
-  if (!m) return { impressions: 0, engRate: 0, reactions: 0, comments: 0, reposts: 0, clicks: 0, ctr: 0, views: 0, boosted: false, source: 'none' };
+  if (!m) return { impressions: 0, rank: null, tier: 'insufficient-data', format: 'unknown', reactions: 0, comments: 0, reposts: 0, clicks: 0, ctr: 0, views: 0, boosted: false, source: 'none' };
 
   const api = m.platform_api || {};
   const ns = m.notionsocial || {};
@@ -121,7 +133,7 @@ function extractMetrics(m) {
     // Old format — full LinkedIn API metrics in flat structure
     return {
       impressions: m.impressions || 0,
-      engRate: socialEr(m, m.impressions, m.reactions, m.comments, m.reposts),
+      rank: rankScore(m), tier: tierOf(m), format: formatOf(m),
       reactions: m.reactions || 0,
       comments: m.comments || 0,
       reposts: m.reposts || 0,
@@ -137,7 +149,7 @@ function extractMetrics(m) {
     // New format with populated platform API data
     return {
       impressions: api.impressions || 0,
-      engRate: socialEr(m, api.impressions, api.reactions || api.likes, api.comments, api.reposts || api.shares),
+      rank: rankScore(m), tier: tierOf(m), format: formatOf(m),
       reactions: api.reactions || api.likes || 0,
       comments: api.comments || 0,
       reposts: api.reposts || api.shares || 0,
@@ -152,7 +164,7 @@ function extractMetrics(m) {
   // Notionsocial surface metrics only
   return {
     impressions: 0,
-    engRate: 0,
+    rank: rankScore(m), tier: tierOf(m), format: formatOf(m),
     reactions: ns.likes || 0,
     comments: ns.comments || 0,
     reposts: ns.shares || 0,
@@ -190,7 +202,7 @@ function formatPostEntry(post) {
     // Surface metrics only — show what we have
     entry += `**Views:** ${mx.views.toLocaleString()} | **Likes:** ${mx.reactions} | **Comments:** ${mx.comments} | **Shares:** ${mx.reposts}\n`;
   } else {
-    entry += `**Impressions:** ${mx.impressions.toLocaleString()} | **Social ER:** ${mx.engRate}% | **CTR:** ${mx.ctr}%\n`;
+    entry += `**Impressions:** ${mx.impressions.toLocaleString()} | **Format:** ${mx.format} | **Tier:** ${mx.tier}${mx.rank === null ? '' : ` (p${mx.rank})`}\n`;
     entry += `**Reactions:** ${mx.reactions} | **Comments:** ${mx.comments} | **Reposts:** ${mx.reposts} | **Clicks:** ${mx.clicks.toLocaleString()}`;
     if (mx.views > 0) entry += ` | **Views:** ${mx.views.toLocaleString()}`;
     entry += '\n';
@@ -213,7 +225,7 @@ function generateBrandIndex(brandName, pageName, posts) {
   const totalComments = posts.reduce((sum, p) => sum + extractMetrics(p.metrics).comments, 0);
   const postsWithMetrics = posts.filter(p => extractMetrics(p.metrics).impressions > 0);
   const avgEngRate = postsWithMetrics.length > 0
-    ? (postsWithMetrics.reduce((sum, p) => sum + extractMetrics(p.metrics).engRate, 0) / postsWithMetrics.length).toFixed(1)
+    ? ((postsWithMetrics.filter(p => extractMetrics(p.metrics).tier === 'worked').length / postsWithMetrics.length) * 100).toFixed(1)
     : '0';
 
   // Count by type
@@ -226,7 +238,7 @@ function generateBrandIndex(brandName, pageName, posts) {
   // Top 10 by engagement rate (with minimum 100 impressions to filter noise)
   const topByEngagement = [...posts]
     .filter(p => extractMetrics(p.metrics).impressions >= 100)
-    .sort((a, b) => extractMetrics(b.metrics).engRate - extractMetrics(a.metrics).engRate)
+    .sort((a, b) => (extractMetrics(b.metrics).rank ?? -1) - (extractMetrics(a.metrics).rank ?? -1))
     .slice(0, 10);
 
   // Top 10 by impressions
@@ -248,7 +260,7 @@ function generateBrandIndex(brandName, pageName, posts) {
   md += `| Total Impressions | ${totalImpressions.toLocaleString()} |\n`;
   md += `| Total Reactions | ${totalReactions.toLocaleString()} |\n`;
   md += `| Total Comments | ${totalComments.toLocaleString()} |\n`;
-  md += `| Avg Engagement Rate | ${avgEngRate}% |\n\n`;
+  md += `| Posts that worked (top quartile of own format) | ${avgEngRate}% |\n\n`;
 
   md += `## Content Mix\n\n`;
   md += `| Type | Count |\n|------|-------|\n`;
@@ -257,7 +269,7 @@ function generateBrandIndex(brandName, pageName, posts) {
   }
   md += '\n';
 
-  md += `## Top 10 by Engagement Rate (min 100 impressions)\n\n`;
+  md += `## Top 10 by percentile within own format (min 100 impressions)\n\n`;
   for (const p of topByEngagement) {
     md += formatPostEntry(p) + '\n';
   }
@@ -293,7 +305,7 @@ function generateMasterIndex(titanPosts, titanversePosts) {
   md += `For full post details, read the brand-specific indexes.\n\n`;
 
   md += `## Overview\n\n`;
-  md += `| Brand | Posts | Impressions | Avg Engagement |\n`;
+  md += `| Brand | Posts | Impressions | % worked |\n`;
   md += `|-------|-------|-------------|----------------|\n`;
 
   for (const [name, posts] of [['Titan PMR', titanPosts], ['Titanverse', titanversePosts]]) {
@@ -301,7 +313,7 @@ function generateMasterIndex(titanPosts, titanversePosts) {
     const impressions = posts.reduce((s, p) => s + extractMetrics(p.metrics).impressions, 0);
     const withMetrics = posts.filter(p => extractMetrics(p.metrics).impressions > 0);
     const avgEng = withMetrics.length > 0
-      ? (withMetrics.reduce((s, p) => s + extractMetrics(p.metrics).engRate, 0) / withMetrics.length).toFixed(1)
+      ? ((withMetrics.filter(p => extractMetrics(p.metrics).tier === 'worked').length / withMetrics.length) * 100).toFixed(1)
       : '0';
     md += `| ${name} | ${total} | ${impressions.toLocaleString()} | ${avgEng}% |\n`;
   }
@@ -315,10 +327,10 @@ function generateMasterIndex(titanPosts, titanversePosts) {
 
   const topPerformers = [...allPosts]
     .filter(p => extractMetrics(p.metrics).impressions >= 100)
-    .sort((a, b) => extractMetrics(b.metrics).engRate - extractMetrics(a.metrics).engRate)
+    .sort((a, b) => (extractMetrics(b.metrics).rank ?? -1) - (extractMetrics(a.metrics).rank ?? -1))
     .slice(0, 15);
 
-  md += `## Top 15 Posts Across Both Brands (by engagement rate, min 100 impressions)\n\n`;
+  md += `## Top 15 Posts Across Both Brands (percentile within own format, min 100 impressions)\n\n`;
   for (const p of topPerformers) {
     const brand = p.brand === 'titan' ? '[TITAN]' : '[TV]';
     md += `${brand} `;

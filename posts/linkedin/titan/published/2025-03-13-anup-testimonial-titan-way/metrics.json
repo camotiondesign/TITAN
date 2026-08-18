@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 105,
-  "engagement_rate": 13.2,
   "organic": {
     "impressions": 796,
     "reach": 438,
     "engagements": 105,
-    "engagement_rate": 13.2,
     "clicks": 75,
     "click_through_rate": 9.4,
     "reactions": 26,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Anup testimonial about The Titan Way. Strong engagement rate (13.2%) and CTR (9.4%) with excellent video performance (406 views, 14s average watch time, 51% view rate). High reaction count (26) and comments (2) indicate strong message resonance.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 796,
-    "social_interactions": 30,
-    "social_er_pct": 3.77,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 13.19,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 13.2,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:video_testimonial",
     "components": {
       "impressions": 796,
       "reach": 438,
@@ -73,11 +67,57 @@
       "comments": 2,
       "reposts": 2,
       "saves": 0,
-      "clicks": 75
+      "clicks": 75,
+      "video_views": 406,
+      "avg_watch_time_seconds": 14,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 14,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.25,
+        "normalised_weight": 0.267
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.25,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 71.43,
+      "comment_rate": 78.57,
+      "repost_rate": 57.69
+    },
+    "composite_percentile": 68.76,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 21,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

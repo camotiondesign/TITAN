@@ -403,15 +403,14 @@ function generateMetrics(post, slug, platformInfo) {
     reposts: 0,
     follows: 0,
     engagements: 0,
-    engagement_rate: 0,
     organic: {
-      impressions: 0, reach: 0, engagements: 0, engagement_rate: 0,
+      impressions: 0, reach: 0, engagements: 0,
       clicks: 0, click_through_rate: 0, reactions: 0, comments: 0,
       reposts: 0, page_viewers: 0, followers_gained: 0,
       video_views: 0, watch_time_total: '', average_watch_time_seconds: 0,
     },
     sponsored: {
-      impressions: 0, engagements: 0, engagement_rate: 0,
+      impressions: 0, engagements: 0,
       clicks: 0, click_through_rate: 0, reactions: 0, comments: 0,
       reposts: 0, video_views: 0, ecpm: 0, cost_per_engagement: 0, spend: 0,
     },
@@ -447,7 +446,6 @@ function generateMetrics(post, slug, platformInfo) {
     comments: 0,
     shares: 0,
     saves: 0,
-    engagement_rate: 0,
     plays: 0,
   } : {
     source: `${platformInfo.platform}_api`,
@@ -457,7 +455,6 @@ function generateMetrics(post, slug, platformInfo) {
     likes: 0,
     comments: 0,
     shares: 0,
-    engagement_rate: 0,
   };
 
   return JSON.stringify({

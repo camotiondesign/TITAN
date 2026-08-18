@@ -18,12 +18,10 @@
     "reposts": 3,
     "follows": 0,
     "engagements": 25,
-    "engagement_rate": 4.8,
     "organic": {
       "impressions": 523,
       "reach": 229,
       "engagements": 25,
-      "engagement_rate": 4.8,
       "clicks": 14,
       "click_through_rate": 2.7,
       "reactions": 8,
@@ -51,18 +49,15 @@
     }
   },
   "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Follow-up to QR code teaser post.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 523,
-    "social_interactions": 11,
-    "social_er_pct": 2.1,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 4.78,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 4.8,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 523,
       "reach": 229,
@@ -70,10 +65,48 @@
       "comments": 0,
       "reposts": 3,
       "saves": 0,
-      "clicks": 14
+      "clicks": 14,
+      "video_views": 144,
+      "avg_watch_time_seconds": 11,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 11,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.4
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 27.5,
+      "comment_rate": 20
+    },
+    "composite_percentile": 24.5,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 25,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

@@ -14,11 +14,9 @@
     "comments": 0,
     "reposts": 2,
     "engagements": 63,
-    "engagement_rate": 9.81,
     "organic": {
       "impressions": 642,
       "engagements": 63,
-      "engagement_rate": 9.81,
       "clicks": 46,
       "click_through_rate": 7.17,
       "reactions": 15,
@@ -41,18 +39,15 @@
     }
   },
   "campaign_slug": "2026-06-07-if-you-run-a-pharmacy-and-you-genuinely-care-about",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 642,
-    "social_interactions": 17,
-    "social_er_pct": 2.65,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 9.81,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 9.81,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 642,
       "reach": 0,
@@ -60,10 +55,39 @@
       "comments": 0,
       "reposts": 2,
       "saves": 0,
-      "clicks": 46
+      "clicks": 46,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 2.34,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 74
+    },
+    "composite_percentile": 74,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|single-image",
+      "window_days": 90,
+      "size": 25,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

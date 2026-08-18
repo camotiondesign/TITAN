@@ -22,12 +22,10 @@
   "follows": 2,
   "leads": 0,
   "engagements": 450,
-  "engagement_rate": 44.6,
   "organic": {
     "impressions": 1010,
     "reach": 608,
     "engagements": 450,
-    "engagement_rate": 44.6,
     "clicks": 427,
     "click_through_rate": 42.3,
     "reactions": 15,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Bulk nomination advocacy carousel - exceptional engagement (44.6% engagement rate, 42.3% CTR), patient choice protection, unfair competition",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1010,
-    "social_interactions": 23,
-    "social_er_pct": 2.28,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 44.55,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 44.6,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "carousel-document",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 1010,
       "reach": 608,
@@ -73,11 +67,41 @@
       "comments": 4,
       "reposts": 4,
       "saves": 0,
-      "clicks": 427
+      "clicks": 427,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "click_rate",
+        "label": "clicks per impression",
+        "kind": "rate",
+        "weight": 0.7,
+        "value": 42.28,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "click_rate": 36.67
+    },
+    "composite_percentile": 36.67,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|carousel-document",
+      "window_days": 90,
+      "size": 15,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

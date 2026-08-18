@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 58,
-  "engagement_rate": 4.5,
   "organic": {
     "impressions": 1302,
     "reach": 729,
     "engagements": 58,
-    "engagement_rate": 4.5,
     "clicks": 43,
     "click_through_rate": 3.3,
     "reactions": 13,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Organic only. Single image: NHS Pharmacy First funding changes graphic (checklist, new rules, Titan branding). Discovery: 1,302 impressions, 729 members reached. Page activity: 5 page viewers, 0 followers gained. Engagement: 58 engagements (4.5%), 43 clicks (3.3% CTR), 13 reactions, 0 comments, 2 reposts.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1302,
-    "social_interactions": 15,
-    "social_er_pct": 1.15,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 4.45,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 4.5,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:reactive_news",
     "components": {
       "impressions": 1302,
       "reach": 729,
@@ -73,11 +67,49 @@
       "comments": 0,
       "reposts": 2,
       "saves": 0,
-      "clicks": 43
+      "clicks": 43,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 1,
+        "normalised_weight": 0.741
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.15,
+        "normalised_weight": 0.259
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "reaction_rate": 4.17
+    },
+    "composite_percentile": 4.17,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|single-image",
+      "window_days": 90,
+      "size": 12,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

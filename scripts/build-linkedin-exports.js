@@ -15,7 +15,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { computeEngagement, num } = require('./lib/engagement');
 
 const REPO_ROOT = path.join(__dirname, '..');
 const POSTS_DIR = path.join(REPO_ROOT, 'posts', 'linkedin');
@@ -28,33 +27,47 @@ function parseNum(val) {
 }
 
 /**
- * Attach the canonical engagement fields to an extracted metrics object.
+ * Attach the format-aware success signal to an extracted metrics object.
  *
- * `metrics.json .engagement` is written by ingest-metricool-csv.js and
- * backfill-engagement.js and is the source of truth. If a post somehow lacks
- * it, we recompute from the components rather than emit a hole — the formula
- * needs nothing beyond reactions/comments/reposts/impressions.
+ * There is deliberately NO engagement rate here. Formats don't earn the same
+ * currency — carousels earn clicks, videos earn watch time, advocacy earns
+ * reposts — so one rate over one denominator ranks formats rather than posts.
+ * What a reader needs instead is: what format is this, what does "worked" mean
+ * for that format, and where did it land against its own kind.
  *
- * See docs/engagement-rate-definition.md.
+ * `metrics.json .signals` is written by ingest-metricool-csv.js /
+ * backfill-signals.js and ranked by compute-format-percentiles.js.
+ *
+ * See docs/format-signals-definition.md.
  */
-function withEngagement(out, rawMetrics) {
-  const eng = (rawMetrics || {}).engagement;
+function withSignals(out, rawMetrics) {
+  const sig = (rawMetrics || {}).signals;
 
-  const block =
-    eng && eng.social_er_pct !== undefined
-      ? eng
-      : computeEngagement('linkedin', {
-          impressions: out.impressions,
-          reactions: out.reactions,
-          comments: out.comments,
-          reposts: out.reposts,
-          clicks: out.clicks,
-        }, { rawErPct: out.engagement_rate, rawErSource: 'legacy_export_field' });
+  if (!sig) {
+    out.format = null;
+    out.tier = 'insufficient-data';
+    return out;
+  }
 
-  // Surface counts must come from the components the rate was computed from,
-  // or the export's own numbers won't reproduce its own ER.
-  if (block && block.components) {
-    const c = block.components;
+  out.format = sig.format;
+  out.format_source = sig.format_source;
+  out.content_role = sig.role;
+  out.primary_signal = (sig.measured || []).map((m) => ({
+    key: m.key,
+    label: m.label,
+    value: m.value,
+    weight: m.normalised_weight,
+    percentile: sig.percentiles ? (sig.percentiles[m.key] ?? null) : null,
+  }));
+  out.composite_percentile = sig.composite_percentile;
+  out.tier = sig.tier || 'insufficient-data';
+  out.cohort = sig.cohort;
+  if (sig.unmeasurable && sig.unmeasurable.length) out.unmeasurable_signals = sig.unmeasurable;
+
+  // Surface counts come from the same components the signal was built on, so
+  // an export's own numbers always reproduce its own signal values.
+  const c = sig.components || {};
+  if (c.impressions !== undefined) {
     out.impressions = c.impressions;
     out.reactions = c.reactions;
     out.comments = c.comments;
@@ -63,27 +76,13 @@ function withEngagement(out, rawMetrics) {
     if (c.reach) out.reach = c.reach;
   }
 
-  out.social_er_pct = block ? block.social_er_pct : null;
-  out.platform_er_pct = block ? block.platform_er_pct : null;
-  out.raw_er_pct = block ? block.raw_er_pct : null;
-  out.social_interactions = block ? block.social_interactions : null;
-  out.engagement_spec_version = block ? block.spec_version : null;
-  if (block && block.flags && block.flags.length) out.engagement_flags = block.flags;
-
-  // Deprecated. Held for one release so nothing downstream hard-fails.
-  // It carries MIXED definitions across rows — never compare it. Use
-  // social_er_pct. Scheduled for removal at the next refresh cycle.
-  out.engagement_rate_DEPRECATED = out.engagement_rate;
-  delete out.engagement_rate;
-
-  // Label the source honestly. Rows refreshed from a Metricool CSV were
-  // previously stamped `linkedin_api`, which is what let two different ER
-  // definitions hide behind one source name.
-  if (eng && eng.source_file) {
-    out.source = eng.source_file.startsWith('backfill:')
+  // Label the source honestly. Rows refreshed from a Metricool CSV used to be
+  // stamped `linkedin_api`, which is how two definitions hid behind one name.
+  if (sig.source_file) {
+    out.source = sig.source_file.startsWith('backfill:')
       ? `${out.source}(backfilled)`
       : 'metricool_csv';
-    out.metrics_synced_at = eng.computed_at || out.synced_at;
+    out.metrics_synced_at = sig.computed_at || out.synced_at;
   }
 
   return out;
@@ -105,13 +104,12 @@ function extractOrganicMetrics(m) {
   const api = m.platform_api || {};
   if (api.organic) {
     const o = api.organic;
-    return withEngagement({
+    return withSignals({
       source: 'linkedin_api',
       synced_at: api.synced_at || null,
       impressions: o.impressions || 0,
       reach: o.reach || 0,
       engagements: o.engagements || 0,
-      engagement_rate: parseNum(o.engagement_rate),
       clicks: o.clicks || 0,
       ctr: parseNum(o.click_through_rate),
       reactions: o.reactions || 0,
@@ -128,13 +126,12 @@ function extractOrganicMetrics(m) {
   // Old flat format with organic sub-object
   if (m.organic) {
     const o = m.organic;
-    return withEngagement({
+    return withSignals({
       source: 'linkedin_api',
       synced_at: null,
       impressions: o.impressions || 0,
       reach: o.reach || 0,
       engagements: o.engagements || 0,
-      engagement_rate: parseNum(o.engagement_rate),
       clicks: o.clicks || 0,
       ctr: parseNum(o.click_through_rate),
       reactions: o.reactions || 0,
@@ -150,13 +147,12 @@ function extractOrganicMetrics(m) {
 
   // Minimal flat format (no organic/sponsored breakdown — treat as organic)
   if ((m.impressions || 0) > 0 && !m.notionsocial) {
-    return withEngagement({
+    return withSignals({
       source: 'linkedin_api',
       synced_at: null,
       impressions: m.impressions || 0,
       reach: m.reach || 0,
       engagements: m.engagements || 0,
-      engagement_rate: parseNum(m.engagement_rate),
       clicks: m.clicks || 0,
       ctr: parseNum(m.ctr || m.click_through_rate),
       reactions: m.reactions || 0,
@@ -173,13 +169,12 @@ function extractOrganicMetrics(m) {
   // Notionsocial fallback (surface metrics only)
   const ns = m.notionsocial || {};
   if (ns.views || ns.likes || ns.comments || ns.shares) {
-    return withEngagement({
+    return withSignals({
       source: 'notionsocial',
       synced_at: ns.synced_at || null,
       impressions: 0,
       reach: 0,
       engagements: 0,
-      engagement_rate: 0,
       clicks: 0,
       ctr: 0,
       reactions: ns.likes || 0,

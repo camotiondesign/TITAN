@@ -14,11 +14,9 @@
     "comments": 1,
     "reposts": 6,
     "engagements": 1324,
-    "engagement_rate": 77.29,
     "organic": {
       "impressions": 1713,
       "engagements": 1324,
-      "engagement_rate": 77.29,
       "clicks": 1294,
       "click_through_rate": 75.54,
       "reactions": 23,
@@ -41,18 +39,15 @@
     }
   },
   "campaign_slug": "2026-03-25-most-pharmacy-owners-pick-the-tools-before-they-ve",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1713,
-    "social_interactions": 30,
-    "social_er_pct": 1.75,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 77.29,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 77.29,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "text",
+    "format_source": "inferred:no_visual_asset",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 1713,
       "reach": 0,
@@ -60,10 +55,48 @@
       "comments": 1,
       "reposts": 6,
       "saves": 0,
-      "clicks": 1294
+      "clicks": 1294,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 1.34,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.06,
+        "normalised_weight": 0.5
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 50,
+      "comment_rate": 86.36
+    },
+    "composite_percentile": 68.18,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|text",
+      "window_days": null,
+      "size": 11,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

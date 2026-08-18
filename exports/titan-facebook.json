@@ -11,22 +11,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 33,
       "reach": 18,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 316,
+      "video_views": 8,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -42,7 +57,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 38,
       "reach": 18,
       "reactions": 0,
@@ -51,14 +66,26 @@
       "saves": 0,
       "video_views": 476,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 11.11,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -73,22 +100,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 79,
       "reach": 60,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 931,
+      "video_views": 45,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 1.67,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -104,22 +146,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 30,
       "reach": 19,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 1140,
+      "video_views": 10,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -135,7 +192,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 27,
       "reach": 18,
       "reactions": 0,
@@ -144,14 +201,26 @@
       "saves": 0,
       "video_views": 477,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -166,22 +235,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 43,
       "reach": 31,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 735,
+      "video_views": 14,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 19.35,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -197,22 +281,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 41,
       "reach": 34,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 512,
+      "video_views": 5,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -228,22 +327,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 33,
       "reach": 21,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 756,
+      "video_views": 11,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 14.29,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -259,7 +373,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 32,
       "reach": 14,
       "reactions": 0,
@@ -268,14 +382,26 @@
       "saves": 0,
       "video_views": 693,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -290,22 +416,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 60,
       "reach": 45,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 1854,
+      "video_views": 18,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 2.22,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": null,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -321,22 +462,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 24,
       "reach": 13,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 718,
+      "video_views": 6,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": 90,
+        "size": 8,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -352,22 +508,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 81,
       "reach": 73,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 2095,
+      "video_views": 38,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": 90,
+        "size": 9,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -383,22 +554,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 57,
       "reach": 49,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 1214,
+      "video_views": 23,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": 90,
+        "size": 10,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -414,22 +600,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 34,
       "reach": 27,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 1152,
+      "video_views": 11,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": 90,
+        "size": 11,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -445,7 +646,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 33,
       "reach": 13,
       "reactions": 0,
@@ -454,14 +655,26 @@
       "saves": 0,
       "video_views": 570,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -476,7 +689,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 26,
       "reach": 17,
       "reactions": 0,
@@ -485,14 +698,26 @@
       "saves": 0,
       "video_views": 1893,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -507,7 +732,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 28,
       "reach": 16,
       "reactions": 0,
@@ -516,14 +741,26 @@
       "saves": 0,
       "video_views": 656,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -538,22 +775,37 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 57,
       "reach": 51,
       "reactions": 0,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 333,
+      "video_views": 19,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
+      "format": "video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|video",
+        "window_days": 90,
+        "size": 12,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention"
       ]
     }
   },
@@ -569,7 +821,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 31,
       "reach": 16,
       "reactions": 0,
@@ -578,14 +830,26 @@
       "saves": 0,
       "video_views": 1936,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": null,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -600,24 +864,42 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 109,
       "reach": 0,
       "reactions": 1,
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "video_views": 109,
+      "video_views": 110,
       "avg_watch_time_seconds": 5.97,
-      "social_er_pct": 0.92,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 1,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "reposts_unavailable_in_source",
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 109,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "facebook|short-form-video",
+        "window_days": null,
+        "size": 4,
+        "min_required": 8
+      }
     }
   },
   {
@@ -632,7 +914,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 23,
       "reach": 13,
       "reactions": 0,
@@ -641,14 +923,26 @@
       "saves": 0,
       "video_views": 1988,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": 90,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -663,7 +957,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 25,
       "reach": 14,
       "reactions": 0,
@@ -672,14 +966,26 @@
       "saves": 0,
       "video_views": 966,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 50
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "facebook|single-image",
+        "window_days": 90,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -694,7 +1000,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 21,
       "reach": 0,
       "reactions": 0,
@@ -703,15 +1009,33 @@
       "saves": 0,
       "video_views": 21,
       "avg_watch_time_seconds": 4.92,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "reposts_unavailable_in_source",
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 21,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "facebook|short-form-video",
+        "window_days": null,
+        "size": 4,
+        "min_required": 8
+      }
     }
   },
   {
@@ -726,7 +1050,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 30,
       "reach": 0,
       "reactions": 0,
@@ -735,14 +1059,33 @@
       "saves": 0,
       "video_views": 30,
       "avg_watch_time_seconds": 5.08,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "reposts_unavailable_in_source"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 30,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "facebook|short-form-video",
+        "window_days": null,
+        "size": 4,
+        "min_required": 8
+      }
     }
   },
   {
@@ -757,7 +1100,7 @@
     "transcript": null,
     "metrics": {
       "source": "facebook_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 973,
       "reach": 0,
       "reactions": 15,
@@ -766,14 +1109,33 @@
       "saves": 0,
       "video_views": 973,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.75,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 17,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 973,
+          "weight": 0.5,
+          "percentile": null
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.21,
+          "weight": 0.5,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "facebook|short-form-video",
+        "window_days": null,
+        "size": 4,
+        "min_required": 8
+      }
     }
   }
 ]

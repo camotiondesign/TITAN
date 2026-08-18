@@ -14,11 +14,9 @@
     "comments": 2,
     "reposts": 5,
     "engagements": 101,
-    "engagement_rate": 14.83,
     "organic": {
       "impressions": 681,
       "engagements": 101,
-      "engagement_rate": 14.83,
       "clicks": 80,
       "click_through_rate": 11.75,
       "reactions": 14,
@@ -41,18 +39,15 @@
     }
   },
   "campaign_slug": "2026-06-26-still-working-in-your-pharmacy-business-rather-tha",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 681,
-    "social_interactions": 21,
-    "social_er_pct": 3.08,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 14.83,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 14.83,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 681,
       "reach": 0,
@@ -60,10 +55,41 @@
       "comments": 2,
       "reposts": 5,
       "saves": 0,
-      "clicks": 80
+      "clicks": 80,
+      "video_views": 321,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.29,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [
+      "retention"
+    ],
+    "percentiles": {
+      "comment_rate": 90
+    },
+    "composite_percentile": 90,
+    "tier": "worked",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 55,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

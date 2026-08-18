@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 148,
-  "engagement_rate": 9.8,
   "organic": {
     "impressions": 1512,
     "reach": 966,
     "engagements": 148,
-    "engagement_rate": 9.8,
     "clicks": 125,
     "click_through_rate": 8.3,
     "reactions": 19,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Short video post from Knight Street Pharmacy site visit featuring Batch Flow testimonial",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1512,
-    "social_interactions": 23,
-    "social_er_pct": 1.52,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 9.79,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 9.8,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:video_testimonial",
     "components": {
       "impressions": 1512,
       "reach": 966,
@@ -73,11 +67,57 @@
       "comments": 1,
       "reposts": 3,
       "saves": 0,
-      "clicks": 125
+      "clicks": 125,
+      "video_views": 664,
+      "avg_watch_time_seconds": 14,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 14,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.07,
+        "normalised_weight": 0.267
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.2,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 52.08,
+      "comment_rate": 43.55,
+      "repost_rate": 50
+    },
+    "composite_percentile": 49.11,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 31,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

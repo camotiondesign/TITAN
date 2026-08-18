@@ -25,12 +25,10 @@
     "reposts": 2,
     "follows": 0,
     "engagements": 30,
-    "engagement_rate": 5.9,
     "organic": {
       "impressions": 505,
       "reach": 304,
       "engagements": 30,
-      "engagement_rate": 5.9,
       "clicks": 24,
       "click_through_rate": 4.8,
       "reactions": 4,
@@ -58,18 +56,15 @@
     }
   },
   "notes": "Backfilled from LinkedIn admin analytics 2026-04-07.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 505,
-    "social_interactions": 6,
-    "social_er_pct": 1.19,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 5.94,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 5.9,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:video_testimonial",
     "components": {
       "impressions": 505,
       "reach": 304,
@@ -77,10 +72,57 @@
       "comments": 0,
       "reposts": 2,
       "saves": 0,
-      "clicks": 24
+      "clicks": 24,
+      "video_views": 203,
+      "avg_watch_time_seconds": 10,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 10,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.267
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.4,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 9.38,
+      "comment_rate": 20,
+      "repost_rate": 79.41
+    },
+    "composite_percentile": 35.54,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 20,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

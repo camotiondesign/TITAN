@@ -19,7 +19,6 @@
     "impressions": 6728,
     "members_reached": 3687,
     "engagements": 840,
-    "engagement_rate": 12.5,
     "clicks": 716,
     "ctr": 10.6,
     "reactions": 105,
@@ -29,7 +28,6 @@
   "sponsored": {
     "impressions": 6716,
     "engagements": 58,
-    "engagement_rate": 0.9,
     "ecpm": 5.96,
     "cost_per_engagement": 0.69,
     "clicks": 23,
@@ -42,18 +40,15 @@
   "posted_at": "2025-07-02",
   "campaign_slug": "2025-07-01-priory-pharmacy-case-study",
   "has_sponsored": true,
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 6728,
-    "social_interactions": 124,
-    "social_er_pct": 1.84,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 12.49,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 12.5,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_transformation",
     "components": {
       "impressions": 6728,
       "reach": 0,
@@ -61,10 +56,50 @@
       "comments": 13,
       "reposts": 6,
       "saves": 0,
-      "clicks": 716
+      "clicks": 716,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.19,
+        "normalised_weight": 0.444
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.09,
+        "normalised_weight": 0.556
+      }
+    ],
+    "unmeasurable": [
+      "retention"
+    ],
+    "percentiles": {
+      "comment_rate": 83.33,
+      "repost_rate": 4.17
+    },
+    "composite_percentile": 39.32,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 15,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

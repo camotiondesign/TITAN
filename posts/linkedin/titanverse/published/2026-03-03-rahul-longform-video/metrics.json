@@ -25,12 +25,10 @@
     "reposts": 5,
     "follows": 0,
     "engagements": 189,
-    "engagement_rate": 10.52,
     "organic": {
       "impressions": 1796,
       "reach": 0,
       "engagements": 189,
-      "engagement_rate": 10.52,
       "clicks": 155,
       "click_through_rate": 8.63,
       "reactions": 26,
@@ -70,18 +68,15 @@
     }
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1796,
-    "social_interactions": 34,
-    "social_er_pct": 1.89,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 10.52,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 10.52,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_transformation",
     "components": {
       "impressions": 1796,
       "reach": 0,
@@ -89,10 +84,50 @@
       "comments": 3,
       "reposts": 5,
       "saves": 0,
-      "clicks": 155
+      "clicks": 155,
+      "video_views": 691,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.17,
+        "normalised_weight": 0.444
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.28,
+        "normalised_weight": 0.556
+      }
+    ],
+    "unmeasurable": [
+      "retention"
+    ],
+    "percentiles": {
+      "comment_rate": 76,
+      "repost_rate": 50
+    },
+    "composite_percentile": 61.54,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 25,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

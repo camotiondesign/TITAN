@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 208,
-  "engagement_rate": 11.4,
   "organic": {
     "impressions": 1820,
     "reach": 1009,
     "engagements": 208,
-    "engagement_rate": 11.4,
     "clicks": 172,
     "click_through_rate": 9.5,
     "reactions": 25,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Organic post. Visual animation format engaged solution providers and partnership-minded stakeholders. Discussion prompt ('What's the biggest bottleneck slowing you down?') encouraged 8 comments, demonstrating the value of including prompts in content. Strong engagement from solution providers (ClinicRx, Balal Anwar, Cyrus Hodivala) suggests partnership opportunities.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1820,
-    "social_interactions": 36,
-    "social_er_pct": 1.98,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 11.43,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 11.4,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "sector-thesis",
+    "role_source": "post_type:thought_leadership",
     "components": {
       "impressions": 1820,
       "reach": 1009,
@@ -73,11 +67,58 @@
       "comments": 8,
       "reposts": 3,
       "saves": 0,
-      "clicks": 172
+      "clicks": 172,
+      "video_views": 829,
+      "avg_watch_time_seconds": 8,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 8,
+        "normalised_weight": 0.444
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.44,
+        "normalised_weight": 0.296
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (thesis: passed on)",
+        "kind": "rate",
+        "weight": 0.35,
+        "value": 0.16,
+        "normalised_weight": 0.259
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "retention": 8.33,
+      "comment_rate": 95.83
+    },
+    "composite_percentile": 43.33,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 12,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

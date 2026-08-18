@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 85,
-  "engagement_rate": 4.8,
   "organic": {
     "impressions": 1757,
     "reach": 1109,
     "engagements": 85,
-    "engagement_rate": 4.8,
     "clicks": 65,
     "click_through_rate": 3.7,
     "reactions": 15,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1757,
-    "social_interactions": 20,
-    "social_er_pct": 1.14,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 4.84,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 4.8,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_quote_card",
     "components": {
       "impressions": 1757,
       "reach": 1109,
@@ -73,11 +67,47 @@
       "comments": 4,
       "reposts": 1,
       "saves": 0,
-      "clicks": 65
+      "clicks": 65,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 0.85,
+        "normalised_weight": 0.667
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.06,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 17.74
+    },
+    "composite_percentile": 17.74,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|single-image",
+      "window_days": 90,
+      "size": 31,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

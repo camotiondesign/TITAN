@@ -22,22 +22,18 @@
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "engagement_rate": 0,
     "plays": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:notionsocial",
     "platform": "instagram",
-    "denominator": "views",
-    "denominator_value": 476,
-    "social_interactions": 16,
-    "social_er_pct": 3.36,
-    "social_er_formula": "(reactions + comments + reposts) / views x 100",
-    "platform_er_pct": null,
-    "platform_er_definition": "interactions (likes + comments + shares + saves) / reach — Metricool/Instagram",
-    "raw_er_pct": 0,
-    "raw_er_source": "platform_api.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 476,
       "reach": 0,
@@ -45,12 +41,39 @@
       "comments": 3,
       "reposts": 1,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 476,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": false,
+      "saves_available": false
     },
-    "flags": [
-      "platform_er_denominator_unavailable"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 2.52,
+        "normalised_weight": 1
+      }
     ],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:notionsocial"
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 56.25
+    },
+    "composite_percentile": 56.25,
+    "tier": "middle",
+    "cohort": {
+      "key": "instagram|single-image",
+      "window_days": null,
+      "size": 8,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

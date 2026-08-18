@@ -14,11 +14,9 @@
     "comments": 2,
     "reposts": 3,
     "engagements": 75,
-    "engagement_rate": 5.39,
     "organic": {
       "impressions": 1391,
       "engagements": 75,
-      "engagement_rate": 5.39,
       "clicks": 48,
       "click_through_rate": 3.45,
       "reactions": 22,
@@ -41,18 +39,15 @@
     }
   },
   "campaign_slug": "2026-05-12-nine-months-ago-tas-bhatti-was-just-two-days-into",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1391,
-    "social_interactions": 27,
-    "social_er_pct": 1.94,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 5.39,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 5.39,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 1391,
       "reach": 0,
@@ -60,10 +55,39 @@
       "comments": 2,
       "reposts": 3,
       "saves": 0,
-      "clicks": 48
+      "clicks": 48,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 1.58,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 42.19
+    },
+    "composite_percentile": 42.19,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|single-image",
+      "window_days": 90,
+      "size": 32,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

@@ -14,12 +14,10 @@
     "comments": 3,
     "reposts": 4,
     "engagements": 93,
-    "engagement_rate": 11.52,
     "organic": {
       "impressions": 807,
       "reach": 0,
       "engagements": 93,
-      "engagement_rate": 11.52,
       "clicks": 65,
       "click_through_rate": 8.05,
       "reactions": 21,
@@ -52,12 +50,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 93,
-  "engagement_rate": 11.52,
   "organic": {
     "impressions": 807,
     "reach": 0,
     "engagements": 93,
-    "engagement_rate": 11.52,
     "clicks": 65,
     "click_through_rate": 8.05,
     "reactions": 21,
@@ -72,7 +68,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -84,18 +79,15 @@
     "spend": 0
   },
   "notes": "",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T10:00:45Z",
+    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 807,
-    "social_interactions": 28,
-    "social_er_pct": 3.47,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 11.52,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 11.52,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "video",
+    "format_source": "platform_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 807,
       "reach": 0,
@@ -103,11 +95,41 @@
       "comments": 3,
       "reposts": 4,
       "saves": 0,
-      "clicks": 65
+      "clicks": 65,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-18T00:10:38Z",
-    "source_file": "linkedin-posts_2025-01-01_2026-08-16.csv"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.37,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [
+      "retention"
+    ],
+    "percentiles": {
+      "comment_rate": 99.04
+    },
+    "composite_percentile": 99.04,
+    "tier": "worked",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 52,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

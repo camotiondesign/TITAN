@@ -25,12 +25,10 @@
     "reposts": 4,
     "follows": 0,
     "engagements": 34,
-    "engagement_rate": 5.48,
     "organic": {
       "impressions": 621,
       "reach": 0,
       "engagements": 34,
-      "engagement_rate": 5.48,
       "clicks": 18,
       "click_through_rate": 2.9,
       "reactions": 12,
@@ -70,18 +68,15 @@
     }
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 621,
-    "social_interactions": 16,
-    "social_er_pct": 2.58,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 5.48,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 5.48,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 621,
       "reach": 0,
@@ -89,10 +84,39 @@
       "comments": 0,
       "reposts": 4,
       "saves": 0,
-      "clicks": 18
+      "clicks": 18,
+      "video_views": 188,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 1.93,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 74.24
+    },
+    "composite_percentile": 74.24,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|single-image",
+      "window_days": 90,
+      "size": 33,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

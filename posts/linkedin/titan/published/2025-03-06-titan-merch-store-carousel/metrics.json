@@ -22,12 +22,10 @@
   "follows": 2,
   "leads": 0,
   "engagements": 1137,
-  "engagement_rate": 70.4,
   "organic": {
     "impressions": 1615,
     "reach": 739,
     "engagements": 1137,
-    "engagement_rate": 70.4,
     "clicks": 1097,
     "click_through_rate": 67.9,
     "reactions": 31,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 2383,
     "engagements": 283,
-    "engagement_rate": 11.9,
     "clicks": 89,
     "click_through_rate": 3.7,
     "reactions": 1,
@@ -54,18 +51,15 @@
   },
   "notes": "TITAN Merch Store launch carousel. Exceptional organic performance with 70.4% engagement rate and 67.9% CTR, indicating strong community interest. High click volume (1,097 clicks) suggests strong intent to visit store. Sponsored campaign ran 3/6-3/12 with 2,383 additional impressions.",
   "has_sponsored": true,
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1615,
-    "social_interactions": 40,
-    "social_er_pct": 2.48,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 70.4,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 70.4,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "carousel-document",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 1615,
       "reach": 739,
@@ -73,11 +67,41 @@
       "comments": 2,
       "reposts": 7,
       "saves": 0,
-      "clicks": 1097
+      "clicks": 1097,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "click_rate",
+        "label": "clicks per impression",
+        "kind": "rate",
+        "weight": 0.7,
+        "value": 67.93,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "click_rate": 96.15
+    },
+    "composite_percentile": 96.15,
+    "tier": "worked",
+    "cohort": {
+      "key": "linkedin|carousel-document",
+      "window_days": 90,
+      "size": 13,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

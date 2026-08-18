@@ -4,11 +4,11 @@
  *
  * LinkedIn already had exports/titan-linkedin.json; Instagram, Facebook and
  * TikTok had nothing — the metrics existed only as per-post metrics.json
- * scattered across directories, which is why no one noticed the same
- * engagement-rate inconsistency there.
+ * scattered across directories.
  *
- * Emits the same canonical engagement fields as the LinkedIn export, so a
- * single social_er_pct is comparable across every platform.
+ * Emits the same format-aware signal fields as the LinkedIn export: format,
+ * the primary signal for that format, its percentile within its own cohort,
+ * and the resulting tier.
  *
  * Outputs:
  *   exports/titan-instagram.json
@@ -20,7 +20,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { computeEngagement, num } = require('./lib/engagement');
+const { num } = require('./lib/format-signals');
 
 const REPO = path.join(__dirname, '..');
 const EXPORTS = path.join(REPO, 'exports');
@@ -42,22 +42,27 @@ function readBody(dir, file) {
   return raw;
 }
 
-/** Surface metrics + the canonical engagement fields, organic only. */
+/**
+ * Surface metrics + the format-aware success signal, organic only.
+ *
+ * No engagement rate — see docs/format-signals-definition.md for why a single
+ * rate is the wrong shape for cross-format comparison.
+ */
 function buildMetrics(m) {
   if (!m) return null;
   const api = m.platform_api || {};
   const ns = m.notionsocial || {};
-  const eng = m.engagement;
+  const sig = m.signals;
 
   const impressions =
     num(api.impressions) || num(api.views) || num(api.video_views) || num(api.plays) || num(ns.views);
-  if (!impressions && !eng) return null;
+  if (!impressions && !sig) return null;
 
   const out = {
-    source: eng && eng.source_file && !eng.source_file.startsWith('backfill:')
+    source: sig && sig.source_file && !sig.source_file.startsWith('backfill:')
       ? 'metricool_csv'
       : (api.source || 'notionsocial'),
-    synced_at: (eng && eng.computed_at) || api.synced_at || ns.synced_at || null,
+    synced_at: (sig && sig.computed_at) || api.synced_at || ns.synced_at || null,
     impressions,
     reach: num(api.reach),
     reactions: num(api.likes) || num(ns.likes),
@@ -69,31 +74,40 @@ function buildMetrics(m) {
       num(api.avg_watch_time_seconds) || (num(api.avg_watch_time_ms) / 1000 || 0),
   };
 
-  const block =
-    eng && eng.social_er_pct !== undefined
-      ? eng
-      : computeEngagement(m.platform, out, { rawErPct: api.engagement_rate, rawErSource: 'platform_api.engagement_rate' });
+  if (!sig) {
+    out.format = null;
+    out.tier = 'insufficient-data';
+    return out;
+  }
 
-  // The surface counts MUST come from the same components the rate was computed
-  // from. Reading impressions off platform_api while reading the rate off the
-  // engagement block let the two disagree — an export whose own numbers don't
-  // reproduce its own ER is worse than no export.
-  if (block && block.components) {
-    const c = block.components;
+  // Surface counts come from the same components the signal was built on, so
+  // an export's own numbers always reproduce its own signal values.
+  const c = sig.components || {};
+  if (c.impressions !== undefined) {
     out.impressions = c.impressions;
     out.reach = c.reach;
     out.reactions = c.reactions;
     out.comments = c.comments;
     out.reposts = c.reposts;
     out.saves = c.saves;
+    if (c.video_views) out.video_views = c.video_views;
+    if (c.avg_watch_time_seconds) out.avg_watch_time_seconds = c.avg_watch_time_seconds;
   }
 
-  out.social_er_pct = block ? block.social_er_pct : null;
-  out.platform_er_pct = block ? block.platform_er_pct : null;
-  out.raw_er_pct = block ? block.raw_er_pct : null;
-  out.social_interactions = block ? block.social_interactions : null;
-  out.engagement_spec_version = block ? block.spec_version : null;
-  if (block && block.flags && block.flags.length) out.engagement_flags = block.flags;
+  out.format = sig.format;
+  out.format_source = sig.format_source;
+  out.content_role = sig.role;
+  out.primary_signal = (sig.measured || []).map((x) => ({
+    key: x.key,
+    label: x.label,
+    value: x.value,
+    weight: x.normalised_weight,
+    percentile: sig.percentiles ? (sig.percentiles[x.key] ?? null) : null,
+  }));
+  out.composite_percentile = sig.composite_percentile;
+  out.tier = sig.tier || 'insufficient-data';
+  out.cohort = sig.cohort;
+  if (sig.unmeasurable && sig.unmeasurable.length) out.unmeasurable_signals = sig.unmeasurable;
 
   return out;
 }
@@ -132,8 +146,8 @@ for (const p of PLATFORMS) {
 
   const outPath = path.join(EXPORTS, p.out);
   fs.writeFileSync(outPath, JSON.stringify(posts, null, 2));
-  const withEr = posts.filter((x) => x.metrics && x.metrics.social_er_pct !== null).length;
-  console.log(`  ${p.label.padEnd(10)} ${String(posts.length).padStart(3)} posts (${withEr} with social_er_pct) → exports/${p.out}`);
+  const withEr = posts.filter((x) => x.metrics && x.metrics.tier && x.metrics.tier !== "insufficient-data").length;
+  console.log(`  ${p.label.padEnd(10)} ${String(posts.length).padStart(3)} posts (${withEr} ranked) → exports/${p.out}`);
 }
 
 console.log('\nDone.');

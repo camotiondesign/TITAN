@@ -11,7 +11,7 @@
     "transcript": null,
     "metrics": {
       "source": "instagram_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 316,
       "reach": 0,
       "reactions": 4,
@@ -20,14 +20,26 @@
       "saves": 0,
       "video_views": 316,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.58,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 5,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable"
-      ]
+      "format": "single-image",
+      "format_source": "inferred:has_alt_text",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.27,
+          "weight": 1,
+          "percentile": 31.25
+        }
+      ],
+      "composite_percentile": 31.25,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": null,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -42,7 +54,7 @@
     "transcript": null,
     "metrics": {
       "source": "instagram_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 476,
       "reach": 0,
       "reactions": 12,
@@ -51,14 +63,26 @@
       "saves": 0,
       "video_views": 476,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 3.36,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 16,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable"
-      ]
+      "format": "single-image",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 2.52,
+          "weight": 1,
+          "percentile": 56.25
+        }
+      ],
+      "composite_percentile": 56.25,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": null,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -73,7 +97,7 @@
     "transcript": null,
     "metrics": {
       "source": "instagram_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 1140,
       "reach": 0,
       "reactions": 19,
@@ -82,13 +106,36 @@
       "saves": 0,
       "video_views": 1140,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.02,
-      "platform_er_pct": null,
-      "raw_er_pct": 0,
-      "social_interactions": 23,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "platform_er_denominator_unavailable"
+      "format": "video",
+      "format_source": "inferred:slug_or_alt_text",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "comment_rate",
+          "label": "comments per impression",
+          "value": 0,
+          "weight": 0.533,
+          "percentile": null
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.35,
+          "weight": 0.467,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": null,
+      "tier": "insufficient-data",
+      "cohort": {
+        "key": "instagram|video",
+        "window_days": null,
+        "size": 1,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "retention",
+        "save_rate"
       ]
     }
   },
@@ -104,7 +151,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 102,
       "reach": 10,
       "reactions": 0,
@@ -113,14 +160,26 @@
       "saves": 0,
       "video_views": 477,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 12.5
+        }
+      ],
+      "composite_percentile": 12.5,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": null,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -135,7 +194,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 206,
       "reach": 183,
       "reactions": 0,
@@ -144,14 +203,33 @@
       "saves": 0,
       "video_views": 206,
       "avg_watch_time_seconds": 4.24,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 206,
+          "weight": 0.5,
+          "percentile": 88.46
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 65.38,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -166,7 +244,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 187,
       "reach": 168,
       "reactions": 0,
@@ -175,14 +253,33 @@
       "saves": 0,
       "video_views": 187,
       "avg_watch_time_seconds": 1.605,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 187,
+          "weight": 0.5,
+          "percentile": 76.92
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 59.62,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -197,7 +294,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 160,
       "reach": 149,
       "reactions": 1,
@@ -206,14 +303,33 @@
       "saves": 0,
       "video_views": 160,
       "avg_watch_time_seconds": 3.783,
-      "social_er_pct": 0.63,
-      "platform_er_pct": 0.67,
-      "raw_er_pct": 0.67,
-      "social_interactions": 1,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 160,
+          "weight": 0.5,
+          "percentile": 57.69
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -228,7 +344,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 154,
       "reach": 132,
       "reactions": 0,
@@ -237,14 +353,33 @@
       "saves": 0,
       "video_views": 154,
       "avg_watch_time_seconds": 4.673,
-      "social_er_pct": 0.65,
-      "platform_er_pct": 0.76,
-      "raw_er_pct": 0.76,
-      "social_interactions": 1,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 154,
+          "weight": 0.5,
+          "percentile": 42.31
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.65,
+          "weight": 0.5,
+          "percentile": 96.15
+        }
+      ],
+      "composite_percentile": 69.23,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -259,7 +394,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 36,
       "reach": 28,
       "reactions": 0,
@@ -268,14 +403,33 @@
       "saves": 0,
       "video_views": 36,
       "avg_watch_time_seconds": 3.444,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 36,
+          "weight": 0.5,
+          "percentile": 3.85
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 23.08,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -290,7 +444,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 146,
       "reach": 136,
       "reactions": 0,
@@ -299,14 +453,33 @@
       "saves": 0,
       "video_views": 146,
       "avg_watch_time_seconds": 4.059,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 146,
+          "weight": 0.5,
+          "percentile": 34.62
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 38.47,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -321,7 +494,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 731,
       "reach": 500,
       "reactions": 2,
@@ -330,11 +503,33 @@
       "saves": 1,
       "video_views": 731,
       "avg_watch_time_seconds": 11.261,
-      "social_er_pct": 0.68,
-      "platform_er_pct": 1.2,
-      "raw_er_pct": 1.2,
-      "social_interactions": 5,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 731,
+          "weight": 0.5,
+          "percentile": 96.15
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.41,
+          "weight": 0.5,
+          "percentile": 88.46
+        }
+      ],
+      "composite_percentile": 92.31,
+      "tier": "worked",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -349,7 +544,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 141,
       "reach": 126,
       "reactions": 0,
@@ -358,14 +553,33 @@
       "saves": 0,
       "video_views": 141,
       "avg_watch_time_seconds": 3.335,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 141,
+          "weight": 0.5,
+          "percentile": 18.75
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 37.5
+        }
+      ],
+      "composite_percentile": 28.13,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": 90,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -380,7 +594,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 70,
       "reach": 27,
       "reactions": 1,
@@ -389,14 +603,26 @@
       "saves": 0,
       "video_views": 1893,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.43,
-      "platform_er_pct": 3.7,
-      "raw_er_pct": 0,
-      "social_interactions": 1,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 1.43,
+          "weight": 1,
+          "percentile": 43.75
+        }
+      ],
+      "composite_percentile": 43.75,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": null,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -411,7 +637,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 25,
       "reach": 15,
       "reactions": 1,
@@ -420,14 +646,26 @@
       "saves": 0,
       "video_views": 656,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 4,
-      "platform_er_pct": 6.67,
-      "raw_er_pct": 0,
-      "social_interactions": 1,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 4,
+          "weight": 1,
+          "percentile": 68.75
+        }
+      ],
+      "composite_percentile": 68.75,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": null,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -442,7 +680,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 187,
       "reach": 171,
       "reactions": 7,
@@ -451,11 +689,33 @@
       "saves": 0,
       "video_views": 187,
       "avg_watch_time_seconds": 4.164,
-      "social_er_pct": 3.74,
-      "platform_er_pct": 4.09,
-      "raw_er_pct": 4.09,
-      "social_interactions": 7,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 187,
+          "weight": 0.5,
+          "percentile": 66.67
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 38.89
+        }
+      ],
+      "composite_percentile": 52.78,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": 90,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -470,7 +730,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 37,
       "reach": 18,
       "reactions": 3,
@@ -479,14 +739,26 @@
       "saves": 0,
       "video_views": 1936,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 8.11,
-      "platform_er_pct": 16.67,
-      "raw_er_pct": 0,
-      "social_interactions": 3,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 8.11,
+          "weight": 1,
+          "percentile": 93.75
+        }
+      ],
+      "composite_percentile": 93.75,
+      "tier": "worked",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": null,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -501,7 +773,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 165,
       "reach": 148,
       "reactions": 1,
@@ -510,14 +782,33 @@
       "saves": 1,
       "video_views": 165,
       "avg_watch_time_seconds": 3.417,
-      "social_er_pct": 0.61,
-      "platform_er_pct": 1.35,
-      "raw_er_pct": 1.35,
-      "social_interactions": 1,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 165,
+          "weight": 0.5,
+          "percentile": 55
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 40
+        }
+      ],
+      "composite_percentile": 47.5,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": 90,
+        "size": 10,
+        "min_required": 8
+      }
     }
   },
   {
@@ -532,7 +823,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 17,
       "reach": 12,
       "reactions": 0,
@@ -541,14 +832,26 @@
       "saves": 0,
       "video_views": 1988,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 0,
+          "weight": 1,
+          "percentile": 12.5
+        }
+      ],
+      "composite_percentile": 12.5,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": 90,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -563,7 +866,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 27,
       "reach": 14,
       "reactions": 2,
@@ -572,14 +875,26 @@
       "saves": 0,
       "video_views": 966,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 7.41,
-      "platform_er_pct": 14.29,
-      "raw_er_pct": 0,
-      "social_interactions": 2,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "single-image",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "reaction_rate",
+          "label": "reactions per impression",
+          "value": 7.41,
+          "weight": 1,
+          "percentile": 81.25
+        }
+      ],
+      "composite_percentile": 81.25,
+      "tier": "worked",
+      "cohort": {
+        "key": "instagram|single-image",
+        "window_days": 90,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -594,7 +909,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 48,
       "reach": 38,
       "reactions": 0,
@@ -603,14 +918,33 @@
       "saves": 0,
       "video_views": 48,
       "avg_watch_time_seconds": 2.677,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 48,
+          "weight": 0.5,
+          "percentile": 13.64
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 40.91
+        }
+      ],
+      "composite_percentile": 27.28,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": 90,
+        "size": 11,
+        "min_required": 8
+      }
     }
   },
   {
@@ -625,7 +959,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 157,
       "reach": 140,
       "reactions": 2,
@@ -634,11 +968,33 @@
       "saves": 0,
       "video_views": 157,
       "avg_watch_time_seconds": 6.269,
-      "social_er_pct": 1.91,
-      "platform_er_pct": 2.14,
-      "raw_er_pct": 2.14,
-      "social_interactions": 3,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 157,
+          "weight": 0.5,
+          "percentile": 45.83
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 41.67
+        }
+      ],
+      "composite_percentile": 43.75,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": 90,
+        "size": 12,
+        "min_required": 8
+      }
     }
   },
   {
@@ -653,7 +1009,7 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 106,
       "reach": 96,
       "reactions": 0,
@@ -662,14 +1018,33 @@
       "saves": 0,
       "video_views": 106,
       "avg_watch_time_seconds": 4.629,
-      "social_er_pct": 0,
-      "platform_er_pct": 0,
-      "raw_er_pct": 0,
-      "social_interactions": 0,
-      "engagement_spec_version": 1,
-      "engagement_flags": [
-        "notionsocial_reported_more_activity"
-      ]
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 106,
+          "weight": 0.5,
+          "percentile": 19.23
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 30.77,
+      "tier": "middle",
+      "cohort": {
+        "key": "instagram|short-form-video",
+        "window_days": 90,
+        "size": 13,
+        "min_required": 8
+      }
     }
   }
 ]

@@ -22,12 +22,10 @@
   "follows": 1,
   "leads": 0,
   "engagements": 34,
-  "engagement_rate": 12.8,
   "organic": {
     "impressions": 266,
     "reach": 159,
     "engagements": 34,
-    "engagement_rate": 12.8,
     "clicks": 22,
     "click_through_rate": 8.3,
     "reactions": 9,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Ishpal testimonial - part of The Titan Way campaign. Strong organic engagement rate (12.8%) and CTR (8.3%) demonstrate effective testimonial messaging. Key quote '20 minutes in the dispensary' resonates strongly with pharmacist audience seeking time freedom. Video performance: 196 views with 11s average watch time. Testimonial effectively communicates workflow transformation and time reclamation for clinical services.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 266,
-    "social_interactions": 12,
-    "social_er_pct": 4.51,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 12.78,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 12.8,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:video_testimonial",
     "components": {
       "impressions": 266,
       "reach": 159,
@@ -73,11 +67,57 @@
       "comments": 1,
       "reposts": 2,
       "saves": 0,
-      "clicks": 22
+      "clicks": 22,
+      "video_views": 196,
+      "avg_watch_time_seconds": 11,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 11,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.38,
+        "normalised_weight": 0.267
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.75,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 28.26,
+      "comment_rate": 84.78,
+      "repost_rate": 96.15
+    },
+    "composite_percentile": 65.96,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 23,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

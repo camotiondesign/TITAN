@@ -5,7 +5,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { computeEngagement } = require('./lib/engagement');
 
 const POSTS_DIR = path.join(__dirname, '..', 'posts');
 const OUTPUT_PATH = path.join(__dirname, '..', 'analytics', 'aggregated-linkedin-metrics.json');
@@ -151,23 +150,25 @@ function loadPostMetrics(filePath) {
       engagements: hasOrganic
         ? (organicMetrics.engagements || 0)
         : ((notionsocial.likes || 0) + (notionsocial.comments || 0) + (notionsocial.shares || 0)),
-      // Canonical engagement — see docs/engagement-rate-definition.md.
-      // metrics.json .engagement is written by ingest-metricool-csv.js /
-      // backfill-engagement.js; recompute only if a post somehow lacks it.
+      // Format-aware success signal — see docs/format-signals-definition.md.
+      // There is no engagement_rate: one rate over one denominator ranks
+      // formats, not posts. What matters is where a post landed against its
+      // own format's cohort.
       ...(() => {
-        const eng = metrics.engagement || computeEngagement(metrics.platform || 'linkedin', {
-          impressions: organicMetrics.impressions || notionsocial.views || 0,
-          reactions: hasOrganic ? organicMetrics.reactions : notionsocial.likes,
-          comments: hasOrganic ? organicMetrics.comments : notionsocial.comments,
-          reposts: hasOrganic ? organicMetrics.reposts : notionsocial.shares,
-          clicks: organicMetrics.clicks || 0,
-        }, { rawErPct: organicMetrics.engagement_rate });
+        const s = metrics.signals;
+        if (!s) return { format: null, content_role: null, composite_percentile: null, tier: 'insufficient-data' };
         return {
-          social_er_pct: eng ? eng.social_er_pct : null,
-          platform_er_pct: eng ? eng.platform_er_pct : null,
-          raw_er_pct: eng ? eng.raw_er_pct : null,
-          // DEPRECATED: mixed definitions across rows. Removed next refresh.
-          engagement_rate_DEPRECATED: hasOrganic ? (organicMetrics.engagement_rate || 0) : 0,
+          format: s.format,
+          content_role: s.role,
+          primary_signal: (s.measured || []).map((x) => ({
+            key: x.key,
+            value: x.value,
+            percentile: s.percentiles ? (s.percentiles[x.key] ?? null) : null,
+          })),
+          composite_percentile: s.composite_percentile,
+          tier: s.tier || 'insufficient-data',
+          cohort_size: s.cohort ? s.cohort.size : null,
+          cohort_window_days: s.cohort ? s.cohort.window_days : null,
         };
       })(),
       // Track data source so dashboard knows the precision level

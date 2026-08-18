@@ -11,7 +11,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 316,
       "reach": 0,
       "reactions": 4,
@@ -20,11 +20,33 @@
       "saves": 0,
       "video_views": 316,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.58,
-      "platform_er_pct": 1.58,
-      "raw_er_pct": null,
-      "social_interactions": 5,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 316,
+          "weight": 0.5,
+          "percentile": 3.85
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 7.69
+        }
+      ],
+      "composite_percentile": 5.77,
+      "tier": "underperformed",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -39,7 +61,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 931,
       "reach": 0,
       "reactions": 9,
@@ -48,11 +70,33 @@
       "saves": 0,
       "video_views": 931,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.07,
-      "platform_er_pct": 1.07,
-      "raw_er_pct": null,
-      "social_interactions": 10,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 931,
+          "weight": 0.5,
+          "percentile": 42.31
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.11,
+          "weight": 0.5,
+          "percentile": 23.08
+        }
+      ],
+      "composite_percentile": 32.7,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -67,7 +111,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 1140,
       "reach": 0,
       "reactions": 19,
@@ -76,11 +120,43 @@
       "saves": 0,
       "video_views": 1140,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.02,
-      "platform_er_pct": 2.02,
-      "raw_er_pct": null,
-      "social_interactions": 23,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "sector-thesis",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 1140,
+          "weight": 0.37,
+          "percentile": 57.69
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.35,
+          "weight": 0.37,
+          "percentile": 80.77
+        },
+        {
+          "key": "repost_rate",
+          "label": "reposts per impression (thesis: passed on)",
+          "value": 0.35,
+          "weight": 0.259,
+          "percentile": null
+        }
+      ],
+      "composite_percentile": 69.23,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      },
+      "unmeasurable_signals": [
+        "save_rate"
+      ]
     }
   },
   {
@@ -95,7 +171,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 735,
       "reach": 0,
       "reactions": 8,
@@ -104,11 +180,33 @@
       "saves": 0,
       "video_views": 735,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.36,
-      "platform_er_pct": 1.36,
-      "raw_er_pct": null,
-      "social_interactions": 10,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 735,
+          "weight": 0.5,
+          "percentile": 19.23
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.14,
+          "weight": 0.5,
+          "percentile": 42.31
+        }
+      ],
+      "composite_percentile": 30.77,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -123,7 +221,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 512,
       "reach": 0,
       "reactions": 4,
@@ -132,11 +230,33 @@
       "saves": 0,
       "video_views": 512,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.17,
-      "platform_er_pct": 1.17,
-      "raw_er_pct": null,
-      "social_interactions": 6,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 512,
+          "weight": 0.5,
+          "percentile": 11.54
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.39,
+          "weight": 0.5,
+          "percentile": 88.46
+        }
+      ],
+      "composite_percentile": 50,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -151,7 +271,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 756,
       "reach": 0,
       "reactions": 8,
@@ -160,11 +280,33 @@
       "saves": 0,
       "video_views": 756,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.19,
-      "platform_er_pct": 1.19,
-      "raw_er_pct": null,
-      "social_interactions": 9,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "platform_surface",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 756,
+          "weight": 0.5,
+          "percentile": 26.92
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.13,
+          "weight": 0.5,
+          "percentile": 34.62
+        }
+      ],
+      "composite_percentile": 30.77,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -179,7 +321,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 2095,
       "reach": 0,
       "reactions": 22,
@@ -188,11 +330,33 @@
       "saves": 0,
       "video_views": 2095,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.15,
-      "platform_er_pct": 1.15,
-      "raw_er_pct": null,
-      "social_interactions": 24,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 2095,
+          "weight": 0.5,
+          "percentile": 88.46
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0,
+          "weight": 0.5,
+          "percentile": 7.69
+        }
+      ],
+      "composite_percentile": 48.08,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": null,
+        "size": 13,
+        "min_required": 8
+      }
     }
   },
   {
@@ -207,7 +371,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 1214,
       "reach": 0,
       "reactions": 11,
@@ -216,11 +380,33 @@
       "saves": 0,
       "video_views": 1214,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.15,
-      "platform_er_pct": 1.15,
-      "raw_er_pct": null,
-      "social_interactions": 14,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 1214,
+          "weight": 0.5,
+          "percentile": 81.25
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.25,
+          "weight": 0.5,
+          "percentile": 68.75
+        }
+      ],
+      "composite_percentile": 75,
+      "tier": "worked",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": 90,
+        "size": 8,
+        "min_required": 8
+      }
     }
   },
   {
@@ -235,7 +421,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 1152,
       "reach": 0,
       "reactions": 21,
@@ -244,11 +430,33 @@
       "saves": 0,
       "video_views": 1152,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.17,
-      "platform_er_pct": 2.17,
-      "raw_er_pct": null,
-      "social_interactions": 25,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 1152,
+          "weight": 0.5,
+          "percentile": 72.22
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.17,
+          "weight": 0.5,
+          "percentile": 61.11
+        }
+      ],
+      "composite_percentile": 66.66,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": 90,
+        "size": 9,
+        "min_required": 8
+      }
     }
   },
   {
@@ -263,7 +471,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 2739,
       "reach": 0,
       "reactions": 38,
@@ -272,11 +480,33 @@
       "saves": 0,
       "video_views": 2739,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.57,
-      "platform_er_pct": 1.57,
-      "raw_er_pct": null,
-      "social_interactions": 43,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 2739,
+          "weight": 0.5,
+          "percentile": 95
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.18,
+          "weight": 0.5,
+          "percentile": 65
+        }
+      ],
+      "composite_percentile": 80,
+      "tier": "worked",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": 90,
+        "size": 10,
+        "min_required": 8
+      }
     }
   },
   {
@@ -291,7 +521,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 1158,
       "reach": 0,
       "reactions": 18,
@@ -300,11 +530,33 @@
       "saves": 0,
       "video_views": 1158,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.16,
-      "platform_er_pct": 2.16,
-      "raw_er_pct": null,
-      "social_interactions": 25,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 1158,
+          "weight": 0.5,
+          "percentile": 68.18
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.6,
+          "weight": 0.5,
+          "percentile": 95.45
+        }
+      ],
+      "composite_percentile": 81.82,
+      "tier": "worked",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": 90,
+        "size": 11,
+        "min_required": 8
+      }
     }
   },
   {
@@ -319,20 +571,42 @@
     "transcript": null,
     "metrics": {
       "source": "metricool_csv",
-      "synced_at": "2026-08-18T00:10:38Z",
+      "synced_at": "2026-08-18T10:00:45Z",
       "impressions": 892,
       "reach": 0,
       "reactions": 19,
       "comments": 0,
       "reposts": 1,
       "saves": 0,
-      "video_views": 59,
+      "video_views": 892,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 2.24,
-      "platform_er_pct": 2.24,
-      "raw_er_pct": null,
-      "social_interactions": 20,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "platform_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 892,
+          "weight": 0.5,
+          "percentile": 37.5
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.11,
+          "weight": 0.5,
+          "percentile": 25
+        }
+      ],
+      "composite_percentile": 31.25,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": 90,
+        "size": 12,
+        "min_required": 8
+      }
     }
   },
   {
@@ -347,7 +621,7 @@
     "transcript": null,
     "metrics": {
       "source": "tiktok_api",
-      "synced_at": "2026-08-17T21:03:00Z",
+      "synced_at": "2026-08-18T00:59:41Z",
       "impressions": 973,
       "reach": 0,
       "reactions": 15,
@@ -356,11 +630,33 @@
       "saves": 0,
       "video_views": 973,
       "avg_watch_time_seconds": 0,
-      "social_er_pct": 1.75,
-      "platform_er_pct": 1.75,
-      "raw_er_pct": null,
-      "social_interactions": 17,
-      "engagement_spec_version": 1
+      "format": "short-form-video",
+      "format_source": "asset_type",
+      "content_role": "standard",
+      "primary_signal": [
+        {
+          "key": "views",
+          "label": "total views (algorithmic reach)",
+          "value": 973,
+          "weight": 0.5,
+          "percentile": 50
+        },
+        {
+          "key": "share_rate",
+          "label": "shares per view",
+          "value": 0.21,
+          "weight": 0.5,
+          "percentile": 65.38
+        }
+      ],
+      "composite_percentile": 57.69,
+      "tier": "middle",
+      "cohort": {
+        "key": "tiktok|short-form-video",
+        "window_days": 90,
+        "size": 13,
+        "min_required": 8
+      }
     }
   }
 ]

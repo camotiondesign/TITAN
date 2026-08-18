@@ -22,22 +22,18 @@
     "comments": 0,
     "shares": 0,
     "saves": 0,
-    "engagement_rate": 0,
     "plays": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T10:00:45Z",
+    "source_file": "instagram-posts_2025-01-01_2026-08-16.csv",
     "platform": "instagram",
-    "denominator": "views",
-    "denominator_value": 27,
-    "social_interactions": 2,
-    "social_er_pct": 7.41,
-    "social_er_formula": "(reactions + comments + reposts) / views x 100",
-    "platform_er_pct": 14.29,
-    "platform_er_definition": "interactions (likes + comments + shares + saves) / reach — Metricool/Instagram",
-    "raw_er_pct": 0,
-    "raw_er_source": "platform_api.engagement_rate",
+    "format": "single-image",
+    "format_source": "platform_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 27,
       "reach": 14,
@@ -45,17 +41,39 @@
       "comments": 0,
       "reposts": 0,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": false,
+      "saves_available": true
     },
-    "flags": [
-      "notionsocial_reported_more_activity"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 7.41,
+        "normalised_weight": 1
+      }
     ],
-    "computed_at": "2026-08-18T00:10:38Z",
-    "source_file": "instagram-posts_2025-01-01_2026-08-16.csv",
-    "superseded_notionsocial": {
-      "views": 966,
-      "interactions": 30,
-      "note": "Earlier Notion sync reported higher figures than the Metricool CSV for this post. CSV used; review if this matters."
-    }
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 81.25
+    },
+    "composite_percentile": 81.25,
+    "tier": "worked",
+    "cohort": {
+      "key": "instagram|single-image",
+      "window_days": 90,
+      "size": 8,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

@@ -18,12 +18,10 @@
     "reposts": 4,
     "follows": 1,
     "engagements": 2838,
-    "engagement_rate": 141.2,
     "organic": {
       "impressions": 2010,
       "reach": 1022,
       "engagements": 2838,
-      "engagement_rate": 141.2,
       "clicks": 2782,
       "click_through_rate": 138.4,
       "reactions": 52,
@@ -51,18 +49,15 @@
     }
   },
   "notes": "Manually added from LinkedIn admin analytics 2026-04-07. Post not captured by Notion sync. 141.2% engagement rate driven by 19-image gallery clicks.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:platform_api.organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 2010,
-    "social_interactions": 56,
-    "social_er_pct": 2.79,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 141.19,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 141.2,
-    "raw_er_source": "platform_api.organic.engagement_rate",
+    "format": "multi-image",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 2010,
       "reach": 1022,
@@ -70,10 +65,48 @@
       "comments": 0,
       "reposts": 4,
       "saves": 0,
-      "clicks": 2782
+      "clicks": 2782,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:platform_api.organic"
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 2.59,
+        "normalised_weight": 0.6
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0.2,
+        "normalised_weight": 0.4
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 83.33,
+      "repost_rate": 50
+    },
+    "composite_percentile": 70,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|multi-image",
+      "window_days": null,
+      "size": 15,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }

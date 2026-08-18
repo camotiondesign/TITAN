@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 91,
-  "engagement_rate": 30.5,
   "organic": {
     "impressions": 298,
     "reach": 190,
     "engagements": 91,
-    "engagement_rate": 30.5,
     "clicks": 64,
     "click_through_rate": 21.5,
     "reactions": 24,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Eid Mubarak greeting carousel. Exceptional organic engagement rate (30.5%) and strong CTR (21.5%) demonstrate strong community resonance with cultural recognition content. High engagement from pharmacy professionals celebrating Eid validates inclusive messaging approach.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 298,
-    "social_interactions": 27,
-    "social_er_pct": 9.06,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 30.54,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 30.5,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "carousel-document",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 298,
       "reach": 190,
@@ -73,11 +67,41 @@
       "comments": 2,
       "reposts": 1,
       "saves": 0,
-      "clicks": 64
+      "clicks": 64,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "click_rate",
+        "label": "clicks per impression",
+        "kind": "rate",
+        "weight": 0.7,
+        "value": 21.48,
+        "normalised_weight": 1
+      }
+    ],
+    "unmeasurable": [
+      "save_rate"
+    ],
+    "percentiles": {
+      "click_rate": 21.88
+    },
+    "composite_percentile": 21.88,
+    "tier": "underperformed",
+    "cohort": {
+      "key": "linkedin|carousel-document",
+      "window_days": 90,
+      "size": 16,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

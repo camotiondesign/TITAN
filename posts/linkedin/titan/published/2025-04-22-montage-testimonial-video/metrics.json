@@ -22,12 +22,10 @@
   "follows": 0,
   "leads": 0,
   "engagements": 37,
-  "engagement_rate": 1.6,
   "organic": {
     "impressions": 491,
     "reach": 258,
     "engagements": 21,
-    "engagement_rate": 4.3,
     "clicks": 12,
     "click_through_rate": 2.4,
     "reactions": 8,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 1848,
     "engagements": 16,
-    "engagement_rate": 0.9,
     "clicks": 5,
     "click_through_rate": 0.3,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Montage testimonial video (multiple pharmacy teams, Day One with Titan). Posted 22 Apr 2025. Sponsored period 22 Apr – 25 Apr 2025. Total: 2,339 impressions, 8 reactions, 0 comments, 1 repost. Page: 0 viewers, 0 followers gained. Sponsored: 1,848 impressions, £27.06 eCPM, 16 engagements (0.9%), £3.12 cost per engagement, 5 clicks (0.3% CTR), 0 reactions/comments/reposts. Organic: 491 impressions, 258 members reached, 21 engagements (4.3%), 12 clicks (2.4% CTR), 8 reactions, 0 comments, 1 repost. Video: 318 views, 1h 3m 18s watch time, 11s average.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 491,
-    "social_interactions": 9,
-    "social_er_pct": 1.83,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 4.28,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 4.3,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "video",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:video_testimonial",
     "components": {
       "impressions": 491,
       "reach": 258,
@@ -73,11 +67,57 @@
       "comments": 0,
       "reposts": 1,
       "saves": 0,
-      "clicks": 12
+      "clicks": 12,
+      "video_views": 318,
+      "avg_watch_time_seconds": 11,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "retention",
+        "label": "completion rate (or mean watch seconds where duration is unknown)",
+        "kind": "rate",
+        "weight": 0.6,
+        "value": 11,
+        "normalised_weight": 0.4
+      },
+      {
+        "key": "comment_rate",
+        "label": "comments per impression",
+        "kind": "rate",
+        "weight": 0.4,
+        "value": 0,
+        "normalised_weight": 0.267
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.2,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "retention": 32,
+      "comment_rate": 20,
+      "repost_rate": 28.13
+    },
+    "composite_percentile": 27.51,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|video",
+      "window_days": 90,
+      "size": 25,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

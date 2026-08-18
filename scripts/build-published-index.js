@@ -66,7 +66,10 @@ function scanBrand(brand) {
       // Metrics — prefer organic sub-object, fallback to top-level
       impressions: organic.impressions || metrics.impressions || 0,
       reach: organic.reach || metrics.reach || 0,
-      engagement_rate: organic.engagement_rate || metrics.engagement_rate || 0,
+      // No engagement rate — see docs/format-signals-definition.md.
+      format: (metrics.signals || {}).format || null,
+      tier: (metrics.signals || {}).tier || 'insufficient-data',
+      composite_percentile: (metrics.signals || {}).composite_percentile ?? null,
       reactions: organic.reactions || metrics.reactions || 0,
       comments: organic.comments || metrics.comments || 0,
       reposts: organic.reposts || metrics.reposts || 0,

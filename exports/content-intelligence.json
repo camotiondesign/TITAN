@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-18T00:10:39.488Z",
+    "generated_at": "2026-08-18T10:00:45.695Z",
     "script": "scripts/build-content-intelligence.js",
     "data_sources": [
       "exports/titan-linkedin.json",

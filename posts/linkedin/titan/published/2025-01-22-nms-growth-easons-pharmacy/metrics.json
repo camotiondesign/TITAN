@@ -12,7 +12,6 @@
   "impressions": 1347,
   "reach": 552,
   "engagements": 62,
-  "engagement_rate": 1.9,
   "clicks": 38,
   "click_through_rate": 1.1,
   "reactions": 21,
@@ -23,7 +22,6 @@
     "impressions": 1347,
     "reach": 552,
     "engagements": 62,
-    "engagement_rate": 4.6,
     "clicks": 36,
     "click_through_rate": 2.7,
     "reactions": 21,
@@ -33,7 +31,6 @@
   "sponsored": {
     "impressions": 1979,
     "engagements": 2,
-    "engagement_rate": 0.1,
     "clicks": 2,
     "click_through_rate": 0.1,
     "reactions": 0,
@@ -45,18 +42,15 @@
   },
   "notes": "Post boosted from 2025-01-22 to 2025-01-23. Strong organic performance (4.6% engagement rate, 2.7% CTR) but limited sponsored engagement (0.1% engagement rate). ROI framing (£3K/month) and clear visual chart resonated with warm audience. Revenue numbers drive curiosity and stop-scroll. Reposts (5) indicate content was valuable for sharing.",
   "has_sponsored": true,
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1347,
-    "social_interactions": 26,
-    "social_er_pct": 1.93,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 4.6,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 4.6,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "single-image",
+    "format_source": "asset_type",
+    "role": "advocacy",
+    "role_source": "post_type:customer_quote_card",
     "components": {
       "impressions": 1347,
       "reach": 552,
@@ -64,11 +58,48 @@
       "comments": 0,
       "reposts": 5,
       "saves": 0,
-      "clicks": 36
+      "clicks": 36,
+      "video_views": 0,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "reaction_rate",
+        "label": "reactions per impression",
+        "kind": "rate",
+        "weight": 1,
+        "value": 1.56,
+        "normalised_weight": 0.667
+      },
+      {
+        "key": "repost_rate",
+        "label": "reposts per impression (advocacy: someone put their name to it)",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.37,
+        "normalised_weight": 0.333
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": {
+      "reaction_rate": 42.28,
+      "repost_rate": 84.78
+    },
+    "composite_percentile": 56.43,
+    "tier": "middle",
+    "cohort": {
+      "key": "linkedin|single-image",
+      "window_days": null,
+      "size": 136,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

@@ -22,12 +22,10 @@
   "follows": 2,
   "leads": 0,
   "engagements": 130,
-  "engagement_rate": 11.6,
   "organic": {
     "impressions": 1121,
     "reach": 671,
     "engagements": 130,
-    "engagement_rate": 11.6,
     "clicks": 104,
     "click_through_rate": 9.3,
     "reactions": 19,
@@ -42,7 +40,6 @@
   "sponsored": {
     "impressions": 0,
     "engagements": 0,
-    "engagement_rate": 0,
     "clicks": 0,
     "click_through_rate": 0,
     "reactions": 0,
@@ -54,18 +51,15 @@
     "spend": 0
   },
   "notes": "Looped video animation about seamless integrations. Strong engagement: 11.6% engagement rate (130 engagements from 1,121 impressions). High CTR: 9.3% (104 clicks). Video performance: 376 views, 1h 36m 25s total watch time, 15s average watch time. 19 reactions, 5 comments, 2 reposts.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:organic",
     "platform": "linkedin",
-    "denominator": "impressions",
-    "denominator_value": 1121,
-    "social_interactions": 26,
-    "social_er_pct": 2.32,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": 11.6,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / impressions — Metricool/LinkedIn",
-    "raw_er_pct": 11.6,
-    "raw_er_source": "organic.engagement_rate",
+    "format": "short-form-video",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 1121,
       "reach": 671,
@@ -73,11 +67,45 @@
       "comments": 5,
       "reposts": 2,
       "saves": 0,
-      "clicks": 104
+      "clicks": 104,
+      "video_views": 376,
+      "avg_watch_time_seconds": 15,
+      "duration_seconds": 0,
+      "clicks_available": true,
+      "saves_available": false
     },
-    "flags": [],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:organic"
-  },
-  "engagement_rate_deprecated_note": "DEPRECATED — mixed definitions. Use engagement.social_er_pct. Removed next refresh."
+    "measured": [
+      {
+        "key": "views",
+        "label": "total views (algorithmic reach)",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 1121,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "share_rate",
+        "label": "shares per view",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.18,
+        "normalised_weight": 0.5
+      }
+    ],
+    "unmeasurable": [],
+    "percentiles": null,
+    "composite_percentile": null,
+    "tier": "insufficient-data",
+    "cohort": {
+      "key": "linkedin|short-form-video",
+      "window_days": null,
+      "size": 5,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
+  }
 }

@@ -20,22 +20,18 @@
     "reach": 0,
     "likes": 0,
     "comments": 0,
-    "shares": 0,
-    "engagement_rate": 0
+    "shares": 0
   },
   "notes": "Auto-created from Notion sync. Notionsocial metrics are surface-level. Platform API metrics populate when API integration is connected.",
-  "engagement": {
-    "spec_version": 1,
+  "signals": {
+    "spec_version": 2,
+    "computed_at": "2026-08-18T00:59:41Z",
+    "source_file": "backfill:notionsocial",
     "platform": "facebook",
-    "denominator": "impressions",
-    "denominator_value": 973,
-    "social_interactions": 17,
-    "social_er_pct": 1.75,
-    "social_er_formula": "(reactions + comments + reposts) / impressions x 100",
-    "platform_er_pct": null,
-    "platform_er_definition": "(reactions + comments + shares + clicks) / reach — Metricool/Facebook",
-    "raw_er_pct": 0,
-    "raw_er_source": "platform_api.engagement_rate",
+    "format": "short-form-video",
+    "format_source": "asset_type",
+    "role": "standard",
+    "role_source": "default",
     "components": {
       "impressions": 973,
       "reach": 0,
@@ -43,12 +39,45 @@
       "comments": 0,
       "reposts": 2,
       "saves": 0,
-      "clicks": 0
+      "clicks": 0,
+      "video_views": 973,
+      "avg_watch_time_seconds": 0,
+      "duration_seconds": 0,
+      "clicks_available": false,
+      "saves_available": false
     },
-    "flags": [
-      "platform_er_denominator_unavailable"
+    "measured": [
+      {
+        "key": "views",
+        "label": "total views (algorithmic reach)",
+        "kind": "count",
+        "weight": 0.5,
+        "value": 973,
+        "normalised_weight": 0.5
+      },
+      {
+        "key": "share_rate",
+        "label": "shares per view",
+        "kind": "rate",
+        "weight": 0.5,
+        "value": 0.21,
+        "normalised_weight": 0.5
+      }
     ],
-    "computed_at": "2026-08-17T21:03:00Z",
-    "source_file": "backfill:notionsocial"
+    "unmeasurable": [],
+    "percentiles": null,
+    "composite_percentile": null,
+    "tier": "insufficient-data",
+    "cohort": {
+      "key": "facebook|short-form-video",
+      "window_days": null,
+      "size": 4,
+      "min_required": 8
+    },
+    "tier_thresholds": {
+      "worked": ">=75",
+      "underperformed": "<=25"
+    },
+    "ranked_at": "2026-08-18T10:00:45Z"
   }
 }
