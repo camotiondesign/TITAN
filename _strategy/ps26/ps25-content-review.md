@@ -21,8 +21,8 @@
 | [Corwd - Slow mo 1.mp4](#corwd---slow-mo-1--2--3mp4) | 19s | 16:9 | Unidentified crowd | **Atmosphere/texture** — near-duplicate of Clip 2; competitor sign visible in shot |
 | [Corwd - Slow mo 2.mp4](#corwd---slow-mo-1--2--3mp4) | 19s | 16:9 | Unidentified crowd | **Atmosphere/texture** — near-duplicate of Clip 1; competitor sign visible in shot |
 | [Corwd - Slow mo 3.mp4](#corwd---slow-mo-1--2--3mp4) | 18s | 16:9 | Unidentified crowd + 2 Titan staff demoing | **Atmosphere/texture, best of the three** — only clip with a genuine demo-in-action moment |
-| [Pharmacy Show - 16x9 - v1.mp4](#pharmacy-show---16x9---v1mp4) | 1:57 | 16:9 | Unnamed keynote-style VO, unnamed staff/attendees | **Reference (atmosphere/tagline)** — AI voice-clone flag on one VO line |
-| [Pharmacy Show - Linkedin - 9x16.mp4](#pharmacy-show---linkedin-9x16mp4) | 1:28 | 9:16 | Unnamed VO/attendees + **named competitor exec in the opener** | **Don't reuse** — a rival vendor's Clinical Director is fully identifiable in a posed photo; same AI voice-clone flag |
+| [Pharmacy Show - 16x9 - v1.mp4](#pharmacy-show---16x9---v1mp4) | 1:57 | 16:9 | Unnamed keynote-style VO, unnamed staff/attendees | **Reference (atmosphere/tagline)** — ~~AI voice-clone flag~~ confirmed false positive, real voice (see Flags) |
+| [Pharmacy Show - Linkedin - 9x16.mp4](#pharmacy-show---linkedin-9x16mp4) | 1:28 | 9:16 | Unnamed VO/attendees + **named competitor exec in the opener** | **Don't reuse (pending Cam's frame review)** — a rival vendor's Clinical Director is fully identifiable in a posed photo |
 
 ---
 
@@ -515,7 +515,7 @@ Atmosphere/tagline material, not keynote or customer-proof material — the VO c
 The "12-13 October 2025" closing-card date; the Titan AI feature panel's naming (Titan Mail/Mobile, Workflow, Stock Control) should be checked against current branding; the UI-mockup graphics ("Get TITAN you want... regret it," "best PMR system so far") are scripted placeholders, not real testimonials — shouldn't be mistaken for evidence if pulled forward.
 
 ### Consent/naming check
-No one named on-screen. The one flag is the AI-voice-clone of "Sajid" for "Let's get it done" — see Flags below.
+No one named on-screen. The suspected AI-voice-clone of "Sajid" for "Let's get it done" was checked and confirmed a false positive — see Flags below.
 
 ---
 
@@ -568,7 +568,7 @@ Same assessment as the 16x9 — atmosphere source for Rows 9/19, not a keynote o
 Same product-naming/UI-mockup caveats as the 16x9. The unbranded black ending reads as unfinished rather than deliberate — worth checking with Cam whether this is genuinely what published, or an export gap, before treating it as a finished reference.
 
 ### Consent/naming check — the most significant flag in this review
-**Bilal Awaaf** is fully named, with his employer's competing pharmacy-management-solution branding fully legible on his own badge and shirt, in a friendly posed photo with a Titan salesperson at 0:00–0:01. Reusing this clip in any PS26 material would re-surface a named individual from a rival vendor, a year later, in a context he likely didn't anticipate when the photo was taken. **This clip should not be used at all without an explicit decision from Cam/Titan** — his original on-the-day consent (if any) shouldn't be assumed to extend to reuse in new campaign material. Same AI-voice-clone caveat applies to "Let's get it done" here as in the 16x9.
+**Bilal Awaaf** is fully named, with his employer's competing pharmacy-management-solution branding fully legible on his own badge and shirt, in a friendly posed photo with a Titan salesperson at 0:00–0:01. Reusing this clip in any PS26 material would re-surface a named individual from a rival vendor, a year later, in a context he likely didn't anticipate when the photo was taken. **This clip should not be used at all without an explicit decision from Cam/Titan** — his original on-the-day consent (if any) shouldn't be assumed to extend to reuse in new campaign material. (The suspected AI-voice-clone on "Let's get it done" — same line as the 16x9 — was checked and confirmed a false positive; not a factor here.)
 
 ---
 
@@ -595,7 +595,7 @@ For each PS26 calendar row that could plausibly pull from this PS25 batch — pi
 Everything Cam needs to know before referencing any of this material in PS26 briefs, in rough priority order.
 
 1. **Do not use the "Pharmacy Show - Linkedin - 9x16.mp4" opening photo (0:00–0:01) without an explicit decision from Cam/Titan.** A named competitor's Clinical Director (redacted in this review) is fully identifiable — badge, shirt branding, and all — in a posed, friendly photo with a Titan salesperson. Resurfacing this a year later in new campaign material is a real risk regardless of what consent existed on the day.
-2. **AI voice-clone flag.** Both master edits (16x9 and 9x16) use an apparent ElevenLabs instant-voice-clone of "Sajid" for the recurring "Let's get it done" line (confirmed via a matching source file, `ElevenLabs_2025-10-15T16_31_51_Sajid...mp3`, on the LaCie drive). Don't assume Sajid's consent for a live recording extends to a synthetic voice clone — check before any reuse.
+2. ~~**AI voice-clone flag.**~~ **Resolved — false positive (29 Aug 2026).** This review originally flagged both master edits (16x9 and 9x16) as an apparent ElevenLabs instant-voice-clone of "Sajid" on the recurring "Let's get it done" line, based on a matching-named source file (`ElevenLabs_2025-10-15T16_31_51_Sajid...mp3`) found on the LaCie drive. Cam confirmed this is Sajid's real voice, captured live on camera — the ElevenLabs file was a red herring (unrelated use of the same tool elsewhere), not evidence of a clone in this footage. No consent concern on this point; struck from the active flag list.
 3. **Sunil (Zad - Long.mp4, ~6:37–7:51)** is named, detailed, and identified as the 1000th shop to go live and a business-awards winner — the strongest single testimonial in this whole batch, and also the highest consent priority. Needs explicit re-consent before any PS26 reuse.
 4. **Sagar (Zad - Long.mp4, ~1:06–1:34)** is named on camera as a locum pharmacist, not Titan staff — needs re-consent before reuse.
 5. **"Mayan Thompson" (Zad - Long.mp4, ~6:47 and ~7:44)** — an unclear name in the ASR transcript, spoken twice near Sunil's segment. Verify against the original camera audio before treating it as a real name that needs its own consent check.
