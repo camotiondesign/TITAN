@@ -1,5 +1,7 @@
 # Row 11 — What should pharmacy owners actually ask about AI at Pharmacy Show?
 
+> **Editorial call (Cam via Claude, 28 Aug 2026):** Do NOT build this row around Tariq's PS25 "not Heidi, proprietary AI trained on BNF/nafnak" claim. That differentiation has quietly dropped out of Titan's own materials in the year since (per `_strategy/tariq-ps25-claims-audit.md` claim 19). Build the row around what Wahid confirmed on the 28 Aug 2026 stand-messaging call — **Level 5 AI** and **Full Clinical Checking AI** — and leave model provenance out entirely. If Wahid wants the "proprietary" line back in, he flags it before the row ships. Keeps us honest and keeps Wahid in the loop rather than shipping a claim we can't confirm.
+
 **Target publish:** Tue 23 Sep 2026 — Week 4 — Supporting
 **Reason to care:** VALUE + CHALLENGER — owners will encounter a lot of AI claims at the NEC; hand them the questions to interrogate those claims
 **Format:** LI carousel-document (VOICES / DATA grammar)

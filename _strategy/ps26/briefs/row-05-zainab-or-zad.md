@@ -24,6 +24,17 @@ This slot is one of two options, not both. **Option A** revisits Zainab / PillSo
 
 **Recommendation given the blocker:** default to Option B — its source is confirmed and accessible today; Option A stays blocked until the Zainab raw file is located.
 
+### Specific timestamps to use
+
+The PS25 video review (`_strategy/ps26/ps25-content-review.md`) logged `Zad - Long.mp4` in full and flags two standout beats that map directly onto this row:
+
+- **Sunil's full conversion story — 6:37–7:51.** Named, loyal, 1000th-shop customer, business-awards winner: sold in a two-minute demo, four months live, "it's brilliant operationally for us, the efficiency is there and it's time saving." The strongest single testimonial in the whole PS25 batch — strong enough to anchor its own post on its own.
+- **Sagar's quote — 1:06–1:34.** "There is no comparison of a Titan. Titan is the king," plus a specific clinical-check feature endorsement from a locum with cross-pharmacy visibility.
+
+**Consent flag — read before using either:** Sagar and Sunil are both named on camera and are not Titan staff. Both need re-consent before reuse in any PS26 content; this is the review's highest-priority consent item.
+
+**Reconcile with the Option B source note above:** these timestamps live inside `Zad - Long.mp4` (the already-published 2025 hero edit), not the 18 raw `Zad - 1.mp4`–`Zad - 18.mp4` clips this brief's Option B is built around. If the goal is a genuinely new/unused archive-log entry, check whether these two beats already appear in the published edit before treating them as fresh material — if they're already public, they're reference/context for the Option B logging pass, not a substitute for it.
+
 ## Production steps
 
 1. If pursuing Option B: watch all 18 Zad clips, log each against the §4.5 schema (Person / Role / Question / Strongest quote / Topic / Unused-or-published / Current relevance / Potential 2026 angle).

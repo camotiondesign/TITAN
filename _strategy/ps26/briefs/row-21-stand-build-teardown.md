@@ -17,6 +17,15 @@ Fresh photography of the stand build the night before the show, used to make a c
   - `Video/Exports/Pharmacy Show - Titan set up.mp4` (47MB, 2025 BTS) — LaCie canonical (not yet migrated) `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/Video/Exports/Pharmacy Show - Titan set up.mp4` · GDrive current `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Video/Exports/Pharmacy Show - Titan set up.mp4`. Useful if a "then vs now" stand-build comparison angle is wanted alongside the fresh 2026 footage.
   - `Sourced/Set Up Footage/` (~201 clips, 23GB, 2025 build-day timelapse-ready) — same LaCie/GDrive dual-path pattern, `.../Sourced/Set Up Footage/`. **Caution: Cam confirmed 14 of these clips (MP4s + XML sidecars) are cloud-only / still downloading as of 28 Aug 2026 — verify a specific clip is fully downloaded before pulling it into an edit.**
 
+### Specific timestamps to use
+
+Per the PS25 video review (`_strategy/ps26/ps25-content-review.md`), `Titan set up.mp4` (43s) has two clean cutaway beats worth pulling for the "this time last year" comparison angle:
+
+- **~28s — "TITAN CAFÉ" sign, sharp.** Green cross icon, "Sponsored by / TITAN — Pharmacy Reimagined," full CloserStill branding. The cleanest sponsor-branding beat in the clip.
+- **~34–36s — the desk reveal.** Macro shot of hands wiring red LED cable under the counter lip, pulling back to reveal the illuminated Titan reception desk with blue LED edge-lighting live and glowing "TITAN" lettering — the strongest before/after craft beat in the whole clip.
+
+This PS25 clip can't substitute for the fresh PS26 night-before footage this row actually needs — use it only as a paired nostalgia companion. `Sourced/Set Up Footage/` (~201 clips) is separately available as broader 2025 build-day reference — 14 of those clips were still cloud-only as of 28 Aug 2026, so verify a specific clip has finished downloading before use.
+
 **TO VERIFY / blocker:** site access and a photography schedule for the night before; and whether the stand designer PDF (needed for the LED screen content) has landed in time for the screens to be showing anything worth photographing.
 
 ## Production steps

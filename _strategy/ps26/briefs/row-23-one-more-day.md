@@ -15,6 +15,15 @@ Real behind-the-scenes texture from the day before the show — stand constructi
 - v5.1 §8.7, §11 roster #31, §9.1 P1 row "ONE MORE DAY / ONE MORE SLEEP" (Editorial lock 8 Oct, Assets due 8 Oct, Design/edit start 9 Oct, Approval 10 Oct AM).
 - **2025 reference/comparison material (not primary source):** `Sourced/Set Up Footage/` (~201 clips, 23GB, 2025 build-day timelapse-ready) — LaCie canonical (not yet migrated) `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/Sourced/Set Up Footage/` · GDrive current `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Sourced/Set Up Footage/`. **Caution: 14 of these clips are cloud-only / still downloading as of 28 Aug 2026 — verify before use.**
 
+### Specific timestamps to use
+
+Per the PS25 video review (`_strategy/ps26/ps25-content-review.md`), `Titan set up.mp4` (43s) has two clean cutaway beats worth layering under fresh PS26 footage as texture:
+
+- **~28s — "TITAN CAFÉ" sign, sharp.** Green cross icon, "Sponsored by / TITAN — Pharmacy Reimagined," full CloserStill branding.
+- **~34–36s — the desk reveal.** Wiring under the counter lip pulling back to reveal the illuminated Titan reception desk, blue LED edge-lighting live, glowing "TITAN" lettering — the strongest before/after craft beat in the clip.
+
+`Sourced/Set Up Footage/` (~201 clips) is separately available as broader 2025 build-day reference material — 14 of those clips were still cloud-only as of 28 Aug 2026, so verify a specific clip has finished downloading before use.
+
 **Blocker:** site access and photography schedule on the day; no content blocker beyond that.
 
 ## Production steps

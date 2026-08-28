@@ -18,6 +18,16 @@ An ongoing series beyond whichever single Zad clip Row 5 uses — additional str
 
 No independent TO VERIFY — shares Row 5's logging work.
 
+### Specific timestamps to use
+
+Beyond whichever single beat Row 5 uses, the PS25 video review (`_strategy/ps26/ps25-content-review.md`) logs further usable moments in `Zad - Long.mp4`:
+
+- **The "halfway through a contract" line — ~2:32–2:56.** "I'm halfway through a contract with another company and we've already switched to Titan" / "No complaints. Titan is fantastic. We're a responsive team and always innovative." Unnamed customer — no consent blocker.
+- **The doctor's Titanverse consolidation pitch — ~5:25–5:49.** Describes juggling roughly five separate systems that Titanverse "would combine" — a clean, specific Titanverse-in-the-customer's-own-words beat. Unnamed — no consent blocker.
+- Sunil's story (6:37–7:51) and Sagar's quote (1:06–1:34) are logged in Row 5's brief — coordinate before pulling either here so the same clip isn't used twice, and both carry a consent flag (re-consent needed; neither is Titan staff).
+
+Same caveat as Row 5: these beats sit inside `Zad - Long.mp4`, the already-published hero edit, not the unused `Zad - 1.mp4`–`Zad - 18.mp4` pool this bench asset is meant to log from. Treat them as reference for what's already public, not as fresh archive-log entries, unless confirmed otherwise.
+
 ## Production steps
 
 1. Continue logging the remaining Zad clips against the §4.5 schema after Row 5 picks its one clip.

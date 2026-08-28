@@ -1,5 +1,7 @@
 # Row 12 — Tariq quote single — VOICES
 
+> **Editorial call (Cam via Claude, 28 Aug 2026):** "Be more dentist" strapline has zero pickup in the sector 12 months on (per `tariq-ps25-claims-audit.md`). Bury it. Pick a different line from the PS25 transcript — the "we didn't focus on our image" line, or the "own dispensing 100% control 0% involvement" line, both carry more substance.
+
 **Target publish:** Wk 4 — Week 4 — Lightweight
 **Reason to care:** VALUE — one line carries the post, caption reads into the quote
 **Format:** LI single-image (VOICES grammar) + IG + FB

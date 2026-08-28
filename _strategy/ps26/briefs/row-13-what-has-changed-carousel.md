@@ -1,5 +1,7 @@
 # Row 13 — What has changed since Pharmacy Show 2025?
 
+> **Editorial call (Cam via Claude, 28 Aug 2026):** Acknowledge Titan's own Pharmacy First accreditation delay in this piece. Wahid confirmed on the 28 Aug 2026 call that Titan's PF accreditation is STILL stuck (has been for 3 years, was 2 years at PS25 per Tariq keynote claim 7). Row 13 will talk about Pharmacy First's sector friction (£600m dangled, uptake mess, £340m turnaround May 2026 — see `tariq-ps25-claims-audit.md` claim 6). Writing that without saying "and Titan's own accreditation is still in that queue" reads as smug. One sentence, honestly stated, turns it into a trust-building CRAFT/PROOF move rather than a sales pitch pretending to be outside a problem Titan is inside.
+
 **Target publish:** Sun 28 Sep 2026 — Week 5 — Anchor
 **Reason to care:** VALUE — sector-level answer to "what does this mean now?" for the whole industry
 **Format:** LI carousel-document
