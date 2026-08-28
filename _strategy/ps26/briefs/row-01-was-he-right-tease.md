@@ -11,12 +11,18 @@ A single archive photograph of Tariq at Pharmacy Show 2025, carrying his own lin
 
 ## Source material (with exact paths where they exist)
 
-- **PS25 keynote transcript (for quote verification):** `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Tariqs Talk - v1_1_otter_ai.txt` — Otter.ai auto-transcript of Tariq's PS25 talk. **TO VERIFY:** confirm the exact wording of "Dispensing alone is no longer viable" appears verbatim in this transcript before it goes in quotation marks anywhere. Otter transcripts are auto-generated and can mis-transcribe; cross-check against the audio (`Tariqs Talk - v1_1.mp3`, same folder) if the line isn't a clean match.
+**Path convention (updated 29 Aug 2026):** the GDrive → LaCie migration is mid-flight. The LaCie mirror folder is currently **empty** — nothing has landed there yet. Two roots below; every relative path in this brief sits under both:
+- **LaCie root (canonical — where these files will live once migration completes):** `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/`
+- **GDrive root (current — the only place these are actually readable right now):** `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/`
+
+Check the LaCie path first once migration lands; until then, use GDrive.
+
+- **PS25 keynote transcript (for quote verification):** `Tariqs Talk - v1_1_otter_ai.txt` (repo root of the folder above) — Otter.ai auto-transcript of Tariq's PS25 talk. Available now on GDrive; not yet on LaCie. **TO VERIFY:** confirm the exact wording of "Dispensing alone is no longer viable" appears verbatim in this transcript before it goes in quotation marks anywhere. Otter transcripts are auto-generated and can mis-transcribe; cross-check against the audio (`Tariqs Talk - v1_1.mp3`, same folder) if the line isn't a clean match.
 - **PS25 photo archive (Tariq frames), for photo selection:**
-  - `.../251011 - Pharmacy Show/Sourced/1st Day/Images/` — 121 unsorted JPGs from Day 1.
-  - `.../251011 - Pharmacy Show/Sourced/1st Day/Images/Selects/` — 12 pre-selected JPGs (DSC00186–DSC00274 range). Start here; these are already curated as the strongest frames.
-  - `.../251011 - Pharmacy Show/Sourced/1st Day/Shots For Tariq/` — 3 raw MP4s (C0342–C0344) of Tariq's stage talk, if a video still-frame is preferred over a stills-camera photo.
-  - `.../251011 - Pharmacy Show/Sourced/1st Day/Head Shots/` — not checked in detail; worth a look if none of the Selects show Tariq clearly mid-talk.
+  - `Sourced/1st Day/Images/` — 120 unsorted JPGs from Day 1 (Sony DSC00166+). Available now on GDrive; not yet on LaCie.
+  - `Sourced/1st Day/Images/Selects/` — 12 pre-selected JPGs (someone's first cull, DSC00186–DSC00274 range). Start here; these are already curated as the strongest frames. Available now on GDrive; not yet on LaCie.
+  - `Sourced/1st Day/Shots For Tariq/` — 3 raw MP4s (~232MB total) of Tariq's stage talk, if a video still-frame is preferred over a stills-camera photo. Available now on GDrive; not yet on LaCie.
+  - `Sourced/1st Day/Head Shots/` — not checked in detail; worth a look if none of the Selects show Tariq clearly mid-talk. Available now on GDrive; not yet on LaCie.
 - **v5.1 source:** §4.3 ("Was he right?" strand definition), §8.1 (Week 1 production brief, includes the exact draft line), §9.1 P0 row 1 (dependency dates).
 - **Voice guardrail:** `titan-caption-voice-system-v1.md` §15.1 (Avonnex exemplar — evidence-first, understated) and §9 (AI anti-pattern blacklist) apply to caption drafting later; this brief does not draft copy.
 

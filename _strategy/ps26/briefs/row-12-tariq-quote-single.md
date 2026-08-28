@@ -11,7 +11,9 @@ One standalone Tariq line, presented plain with attribution — no argument-buil
 
 ## Source material (with exact paths where they exist)
 
-- `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Tariqs Talk - v1_1_otter_ai.txt` (+ `.mp3` for audio cross-check) — PS25 source.
+**Path convention:** same dual-root pattern as Row 1 — LaCie canonical, currently empty; GDrive current working copy. See Row 1's brief for the full roots.
+
+- `Tariqs Talk - v1_1_otter_ai.txt` (+ `.mp3` for audio cross-check, folder root) — PS25 source. Available now on GDrive; not yet on LaCie.
 - TitanUp 26 keynote transcript (`_context/titanup26-keynote-transcript.md` per v5.1's reading order — path unconfirmed in this repo, same caveat as Row 11) — for a TitanUp-sourced alternative line.
 - v5.1 §6.6 (names "Instinct built without data is just hope" and "Titan means business" as exemplar lines in the quote series), roster #8.
 

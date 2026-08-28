@@ -13,10 +13,13 @@ This slot is one of two options, not both. **Option A** revisits Zainab / PillSo
 
 **Option A — blocked:** the raw/master Zainab / PillSorted interview file **could not be located** in `_interviews-raw/titan/case-studies/raw/` or in a Google Drive scan during this brief pass. v5.1 §9.1 P1 confirms this independently — the board itself lists "Raw interview file location" as a missing/TO VERIFY item, so this isn't a search failure on this pass, it's a genuinely open item in the strategy doc. Only the *published* 2025 edit (2,535 impressions, per §3.1) is known to exist; the raw material behind it is not currently located.
 
-**Option B — available now:**
-- `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/For Zad/Zad - 1.mp4` through `Zad - 18.mp4` — 18 individual raw clips.
-- `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/Zad Video.mp4`, `Zad Video - 9x16.mp4`, `Zad Video_v2.mp4` — already-cut compilation versions, useful for context on what's already been used.
+**Option B — available now, on LaCie already (no GDrive counterpart — this is pre-existing top-level LaCie content, not part of the mid-flight `251011 - Pharmacy Show` migration; it's already canonical, no dual-path needed):**
+- `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/For Zad/Zad - 1.mp4` through `Zad - 18.mp4` — 18 individual **raw, unused** clips. This is the correct source for the §4.5 log — genuinely raw vox-pop material.
+- `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/Zad Video.mp4`, `Zad Video - 9x16.mp4`, `Zad Video_v2.mp4` — already-cut compilation versions, useful for context on what's already been used, not for new log entries.
 - `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/Image Exports/` — title card assets (`Zads Tour.psd`), if a quote-card treatment is chosen instead of straight video.
+
+**Do not confuse the above with `Video/Exports/Zad - Long.mp4`** (602MB) — that file lives inside the `251011 - Pharmacy Show` GDrive/LaCie-mirror folder (LaCie canonical, not yet migrated: `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/Video/Exports/Zad - Long.mp4`; GDrive current: `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Video/Exports/Zad - Long.mp4`) and is the **already-published 2025 Zad vox-pop hero edit**, not raw material — using it again would just be a repost, not a new archive-log entry. Reference only, for what's already been used.
+
 - v5.1 §4.5 (the archive log schema and framing line).
 
 **Recommendation given the blocker:** default to Option B — its source is confirmed and accessible today; Option A stays blocked until the Zainab raw file is located.

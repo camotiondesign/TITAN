@@ -11,7 +11,9 @@ The wider deployable tail of the PS25 photography audit — once the full 20–3
 
 ## Source material (with exact paths where they exist)
 
-- `.../251011 - Pharmacy Show/Sourced/1st Day/Images/` (121 JPGs) and `.../Images/Selects/` (12 pre-curated) — same pool as Rows 2/9/19.
+**Path convention:** same dual-root pattern as Row 1 — LaCie canonical, currently empty; GDrive current working copy. See Row 1's brief for the full roots.
+
+- `Sourced/1st Day/Images/` (120 JPGs) and `Sourced/1st Day/Images/Selects/` (12 pre-curated) — same pool as Rows 2/9/19. Available now on GDrive; not yet on LaCie.
 - v5.1 §9.1 P1 row "PS 2025 photography audit," Bench table B row 3.
 
 **TO VERIFY:** the full 20–30 photo curated set with theme tags doesn't exist yet — same audit dependency flagged in Row 2. This bench asset can't be fully populated until that audit completes.

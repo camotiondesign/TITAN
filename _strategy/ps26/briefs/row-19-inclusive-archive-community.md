@@ -11,7 +11,9 @@
 
 ## Source material (with exact paths where they exist)
 
-- `.../251011 - Pharmacy Show/Sourced/1st Day/Images/` (121 JPGs) and `.../Images/Selects/` (12 pre-curated) — same pool as Rows 2/9, but this pass needs a **fresh curation specifically for people/candid/group shots**, distinct from the "editorial observation" picks used there.
+**Path convention:** same dual-root pattern as Row 1 — LaCie canonical, currently empty; GDrive current working copy. See Row 1's brief for the full roots.
+
+- `Sourced/1st Day/Images/` (120 JPGs) and `Sourced/1st Day/Images/Selects/` (12 pre-curated) — same pool as Rows 2/9, but this pass needs a **fresh curation specifically for people/candid/group shots**, distinct from the "editorial observation" picks used there. Available now on GDrive; not yet on LaCie.
 - v5.1 §8.6, §11 roster #28, §9.1 P1 row "Inclusive archive community post" (Editorial lock 30 Sep, Assets due 30 Sep, Design/edit start 1 Oct, Approval 5 Oct).
 
 **TO VERIFY flag from v5.1 §9.1:** "Curated photo set; caption sign-off" — outstanding.

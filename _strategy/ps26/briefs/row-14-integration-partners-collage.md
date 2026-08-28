@@ -12,7 +12,7 @@ A grid/collage of confirmed 2026-attending integration partner logos, framed as 
 ## Source material (with exact paths where they exist)
 
 - v5.1 §8.5, §9.1 P1 row "Integration partners collage" (Editorial lock 22 Sep, Assets due 22 Sep, Design/edit start 24 Sep, Approval 27 Sep), §11 roster #29, §6.3 (priority partners: Avonnex, Meditech, BD Rowa).
-- Partner logo assets — location not confirmed in this pass; likely under a brand-assets or `Creative/` folder on the GDrive PS25 folder (`.../251011 - Pharmacy Show/Creative/`) or a separate brand kit — **TO VERIFY exact path before design starts.**
+- Partner logo assets — likely under the `Creative/` folder: LaCie canonical (not yet migrated) `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/Creative/` · GDrive current `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Creative/` (contains `PSD/` and `AI/` subfolders as of 28 Aug 2026) — or a separate brand kit. **TO VERIFY exact logo files exist there before design starts** — folder presence confirmed, individual partner logo files not checked.
 
 **TO VERIFY / hard rule from v5.1 (§8.5, explicit, non-negotiable):** confirm each partner's actual 2026 attendance before including their logo — **do not assume from the relationship alone.** Per §9.1 P1: "Attendance confirmations per partner; final logo lockups" both outstanding. This is the single biggest risk on this row — a wrong inclusion undermines the post's credibility outright.
 

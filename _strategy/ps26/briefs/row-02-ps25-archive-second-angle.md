@@ -11,8 +11,10 @@ A second PS25 archive photograph, on a subject other than Tariq, carrying its ow
 
 ## Source material (with exact paths where they exist)
 
-- `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Sourced/1st Day/Images/` — 121 unsorted Day 1 JPGs.
-- `.../Sourced/1st Day/Images/Selects/` — 12 pre-curated JPGs (DSC00186–DSC00274). Start here.
+**Path convention:** same dual-root pattern as Row 1 — LaCie is canonical but currently empty (migration not yet run); GDrive is the current working copy. Roots: LaCie `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/` · GDrive `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/`.
+
+- `Sourced/1st Day/Images/` — 120 unsorted Day 1 JPGs. Available now on GDrive; not yet on LaCie.
+- `Sourced/1st Day/Images/Selects/` — 12 pre-curated JPGs (someone's first cull). Start here. Available now on GDrive; not yet on LaCie.
 - v5.1 §8.1 (Week 1 brief), §9.1 P1 row "PS 2025 photography audit" (dependency dates: Design/edit start 31 Aug, Approval — first curated set — 3 Sep, matching this row's target date exactly).
 - **TO VERIFY flag from v5.1 §9.1:** "Archive not yet audited; owner not yet assigned." The full 20–30 photo curated set this row is supposed to draw from does not exist yet — only the 12 Selects are pre-curated. This row can proceed on the Selects alone if the full audit isn't ready by 30 Aug, but the wider audit still needs an owner assigned this week regardless, because Rows 9 and 19 and bench-03 all depend on it.
 

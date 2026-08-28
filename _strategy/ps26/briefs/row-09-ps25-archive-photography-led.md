@@ -11,7 +11,9 @@ A second deployment from the PS25 photography audit, later in the runway than Ro
 
 ## Source material (with exact paths where they exist)
 
-- Same source as Row 2: `.../251011 - Pharmacy Show/Sourced/1st Day/Images/` (121 JPGs) and `.../Images/Selects/` (12 pre-curated).
+**Path convention:** same dual-root pattern as Row 1 — LaCie canonical, currently empty; GDrive current working copy. See Row 1's brief for the full roots.
+
+- Same source as Row 2: `Sourced/1st Day/Images/` (120 JPGs) and `Sourced/1st Day/Images/Selects/` (12 pre-curated). Available now on GDrive; not yet on LaCie.
 - Depends on the PS 2025 photography audit (v5.1 §9.1 P1) having produced its curated, theme-tagged set by this point (16–17 Sep) — later and lower-risk than Row 2's 3 Sep dependency, since the audit has had two extra weeks to run.
 
 No new TO VERIFY beyond the shared audit dependency already flagged in Row 2's brief.

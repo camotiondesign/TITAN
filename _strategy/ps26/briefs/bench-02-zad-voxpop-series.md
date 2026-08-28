@@ -11,8 +11,9 @@ An ongoing series beyond whichever single Zad clip Row 5 uses — additional str
 
 ## Source material (with exact paths where they exist)
 
-- `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/For Zad/Zad - 1.mp4` through `Zad - 18.mp4` — 18 raw clips, same pool as Row 5.
+- `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/For Zad/Zad - 1.mp4` through `Zad - 18.mp4` — 18 raw clips, same pool as Row 5. This is pre-existing top-level LaCie content (no GDrive counterpart, not part of the mid-flight migration) — already canonical.
 - `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/Zad/Image Exports/` — title card assets for a quote-card treatment.
+- **Not this bench asset's source:** `Video/Exports/Zad - Long.mp4` (602MB, inside the `251011 - Pharmacy Show` folder — LaCie canonical once migrated / GDrive current fallback, see Row 5's brief for the exact dual path) is the already-published 2025 hero edit, not raw material — do not re-log it as if it were unused footage.
 - v5.1 §4.5 (schema and framing line), Bench table B row 2.
 
 No independent TO VERIFY — shares Row 5's logging work.

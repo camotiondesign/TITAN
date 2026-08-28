@@ -13,6 +13,7 @@ Real behind-the-scenes texture from the day before the show — stand constructi
 
 - Fresh site photography from stand build day — does not exist yet; future capture.
 - v5.1 §8.7, §11 roster #31, §9.1 P1 row "ONE MORE DAY / ONE MORE SLEEP" (Editorial lock 8 Oct, Assets due 8 Oct, Design/edit start 9 Oct, Approval 10 Oct AM).
+- **2025 reference/comparison material (not primary source):** `Sourced/Set Up Footage/` (~201 clips, 23GB, 2025 build-day timelapse-ready) — LaCie canonical (not yet migrated) `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/Sourced/Set Up Footage/` · GDrive current `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Sourced/Set Up Footage/`. **Caution: 14 of these clips are cloud-only / still downloading as of 28 Aug 2026 — verify before use.**
 
 **Blocker:** site access and photography schedule on the day; no content blocker beyond that.
 

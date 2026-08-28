@@ -11,7 +11,9 @@ The fully researched nine-slide answer to Row 1's tease. Slide sequence per v5.1
 
 ## Source material (with exact paths where they exist)
 
-- `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Tariqs Talk - v1_1_otter_ai.txt` and `Tariqs Talk - v1_1.mp3` — same quote-verification pair as Row 1 (shared quote).
+**Path convention:** same dual-root pattern as Row 1 — LaCie canonical, currently empty; GDrive current working copy. Roots: LaCie `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/` · GDrive `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/`.
+
+- `Tariqs Talk - v1_1_otter_ai.txt` and `Tariqs Talk - v1_1.mp3` (folder root) — same quote-verification pair as Row 1 (shared quote). Available now on GDrive; not yet on LaCie.
 - v5.1 §4.3 (the full slide-sequence spec and the credibility rule), §9.1 P0 row 2 (dependency dates: Editorial lock 12 Sep, Assets due 12 Sep, Design/edit start 13 Sep, Approval 15 Sep).
 
 **TO VERIFY / blocker flags from v5.1 §9.1:** "Current evidence set for the 'since then' answer, verified quote wording" — both outstanding. The evidence set (dated funding/services/adoption sources, at least one named verified operator response, one place where the picture is genuinely complicated) does not exist yet — this is real research work across Weeks 1–2, not archive retrieval. It is meant to be built in parallel with Rows 1 and 4 per v5.1 §8.1/§8.2, so check its actual state before assuming it's ready by the 12 Sep lock.

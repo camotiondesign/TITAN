@@ -13,6 +13,9 @@ Fresh photography of the stand build the night before the show, used to make a c
 
 - Fresh Nas / Cam site photos, night-before — does not exist yet; this is a future-capture row, not archive retrieval.
 - `reference_ps26_wahid_stand_messaging.md` (Cam's memory) — physical stand-setup detail: two LED screens (back wall), large mobile devices for Titanverse Mobile (position TBC — Wahid mentioned a ticker-tape option), small side ticker screen for merch messaging/QR, merch wall (t-shirts/mugs/tote bags, gated behind the gamification loop). **Screen dimensions TBC — Cam is waiting on the stand designer PDF before animating**, which may also affect what's physically ready to photograph by 9 Oct.
+- **2025 reference/comparison material (not primary source — this row needs fresh 2026 capture):**
+  - `Video/Exports/Pharmacy Show - Titan set up.mp4` (47MB, 2025 BTS) — LaCie canonical (not yet migrated) `/Volumes/LaCie 1/251009 - TITAN Pharmacy Show/251011 - Pharmacy Show/Video/Exports/Pharmacy Show - Titan set up.mp4` · GDrive current `~/Library/CloudStorage/GoogleDrive-cam@cmotiondesign.co.uk/My Drive/Macbook/Clients/TITAN/251011 - Pharmacy Show/Video/Exports/Pharmacy Show - Titan set up.mp4`. Useful if a "then vs now" stand-build comparison angle is wanted alongside the fresh 2026 footage.
+  - `Sourced/Set Up Footage/` (~201 clips, 23GB, 2025 build-day timelapse-ready) — same LaCie/GDrive dual-path pattern, `.../Sourced/Set Up Footage/`. **Caution: Cam confirmed 14 of these clips (MP4s + XML sidecars) are cloud-only / still downloading as of 28 Aug 2026 — verify a specific clip is fully downloaded before pulling it into an edit.**
 
 **TO VERIFY / blocker:** site access and a photography schedule for the night before; and whether the stand designer PDF (needed for the LED screen content) has landed in time for the screens to be showing anything worth photographing.
 
