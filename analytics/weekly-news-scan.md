@@ -1,8 +1,8 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-09-28 15:06 UTC
+**Scan date:** 2026-10-05 15:40 UTC
 **Period:** Last 7 days
-**Total articles found:** 28
+**Total articles found:** 29
 
 ---
 
@@ -64,15 +64,15 @@
 
 ---
 
-### 5. AstronauTx receives funding for Parkinson’s sleep research
+### 5. Kither begins dosing in COPD trial of KIT2014
 
 - **Source:** PharmaTimes
-- **Date:** 2026-09-23
-- **URL:** https://pharmatimes.com/news/astronautx-receives-funding-for-parkinsons-sleep-research/
+- **Date:** 2026-10-05
+- **URL:** https://pharmatimes.com/news/kither-begins-dosing-in-copd-trial-of-kit2014/
 - **Score:** 3 (LOW)
 - **Topics:** Funding / clawback / reimbursement (3pt)
 
-> Grants support studies into restorative sleep and disease mechanisms
+> Early‑stage study to assess safety and efficacy signals
 
 **Why it's relevant:** Tie to Titan's ability to track every item, flag discrepancies, and protect pharmacies from clawback. 'You can't fight what you can't see -- Titan makes it visible.'
 
@@ -122,8 +122,8 @@ If not, that's your starting point.
 | 4 | MEDIUM | Pharmaceutical Journal | [Pharmacy regulator among health bodies committing to joint guidance on AI regula...](https://pharmaceutical-journal.com/article/news/pharmacy-regulator-among-health-bodies-committing-to-joint-guidance-on-ai-regulations) |
 | 3 | LOW | Pharmaceutical Journal | [Liberal Democrats pledge to “supercharge” Pharmacy First in England](https://pharmaceutical-journal.com/article/news/liberal-democrats-pledge-to-supercharge-pharmacy-first-in-england) |
 | 3 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists must not be trapped by the promise of AI efficiencies](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-must-not-be-trapped-by-the-promise-of-ai-efficiencies) |
-| 3 | LOW | PharmaTimes | [AstronauTx receives funding for Parkinson’s sleep research](https://pharmatimes.com/news/astronautx-receives-funding-for-parkinsons-sleep-research/) |
-| 3 | LOW | PharmaTimes | [Roche welcomes MHRA approval of Gazyvaro](https://pharmatimes.com/news/roche-welcomes-mhra-approval-of-gazyvaro/) |
+| 3 | LOW | PharmaTimes | [Kither begins dosing in COPD trial of KIT2014](https://pharmatimes.com/news/kither-begins-dosing-in-copd-trial-of-kit2014/) |
+| 3 | LOW | PharmaTimes | [AC immune reports week-100 progress in VacSyn trial](https://pharmatimes.com/news/ac-immune-reports-week-100-progress-in-vacsyn-trial/) |
 | 1 | LOW | Pharmaceutical Journal | [‘We’re in our early days’: the Royal College of Pharmacy’s first national adviso...](https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities) |
 | 1 | LOW | Pharmaceutical Journal | [Can simulation help foundation trainee pharmacists prepare for prescribing?](https://pharmaceutical-journal.com/article/opinion/can-simulation-help-foundation-trainee-pharmacists-prepare-for-prescribing) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacy must protect its scientific identity](https://pharmaceutical-journal.com/article/opinion/pharmacy-must-protect-its-scientific-identity) |
@@ -140,12 +140,13 @@ If not, that's your starting point.
 | 0 | LOW | Pharmaceutical Journal | [Next frontier: crystallising the future of medicines](https://pharmaceutical-journal.com/article/feature/next-frontier-crystallising-the-future-of-medicines) |
 | 0 | LOW | Pharmaceutical Journal | [Push for progress: what the rare diseases framework extension means for patients...](https://pharmaceutical-journal.com/article/opinion/push-for-progress-what-the-rare-diseases-framework-extension-means-for-patients-and-the-future-of-uk-innovation) |
 | 0 | LOW | Pharmaceutical Journal | [How we led a quality driven diabetes switching programme for generic dapaglifloz...](https://pharmaceutical-journal.com/article/opinion/how-we-led-a-quality-driven-diabetes-switching-programme-for-generic-dapagliflozin) |
-| 0 | LOW | PharmaTimes | [Carvykti delivers five-year remissions in early myeloma](https://pharmatimes.com/news/carvykti-delivers-five-year-remissions-in-early-myeloma/) |
-| 0 | LOW | PharmaTimes | [Grünenthal expands pain portfolio across Asia-Pacific](https://pharmatimes.com/news/grunenthal-expands-pain-portfolio-across-asia-pacific/) |
-| 0 | LOW | PharmaTimes | [Heparegenix completes first darizmetinib treatment in phase 1b](https://pharmatimes.com/news/heparegenix-completes-first-darizmetinib-treatment-in-phase-1b/) |
-| 0 | LOW | PharmaTimes | [Ethiopia, Norway and UK boost global epidemic preparedness](https://pharmatimes.com/news/ethiopia-norway-and-uk-boost-global-epidemic-preparedness/) |
-| 0 | LOW | PharmaTimes | [Grünenthal acquires cancer medicine Stivarga](https://pharmatimes.com/news/grunenthal-acquires-cancer-medicine-stivarga/) |
-| 0 | LOW | PharmaTimes | [CHMP backs expanded use of teclistamab](https://pharmatimes.com/news/chmp-backs-expanded-use-of-teclistamab/) |
+| 0 | LOW | PharmaTimes | [Teva secures FDA approval for Degevma biosimilar](https://pharmatimes.com/news/teva-secures-fda-approval-for-degevma-biosimilar/) |
+| 0 | LOW | PharmaTimes | [Novotech to acquire Agilex Biolabs](https://pharmatimes.com/news/novotech-to-acquire-agilex-biolabs/) |
+| 0 | LOW | PharmaTimes | [Nezglyal approved in EU for childhood cALD](https://pharmatimes.com/news/nezglyal-approved-in-eu-for-childhood-cald/) |
+| 0 | LOW | PharmaTimes | [NICE backs first systemic therapy for desmoid tumours](https://pharmatimes.com/news/nice-backs-first-systemic-therapy-for-desmoid-tumours/) |
+| 0 | LOW | PharmaTimes | [AbbVie wins EU approval for paediatric pJIA use](https://pharmatimes.com/news/abbvie-wins-eu-approval-for-paediatric-pjia-use/) |
+| 0 | LOW | PharmaTimes | [Investor horizons ahead of CPHI 2026](https://pharmatimes.com/thought_leadership/investor-horizons-ahead-of-cphi-2026/) |
+| 0 | LOW | PharmaTimes | [Lexeo expands Friedreich ataxia pipeline with Mantle deal](https://pharmatimes.com/news/lexeo-expands-friedreich-ataxia-pipeline-with-mantle-deal/) |
 
 ---
 
