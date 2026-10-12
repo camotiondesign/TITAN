@@ -1,8 +1,8 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-10-05 15:40 UTC
+**Scan date:** 2026-10-12 16:34 UTC
 **Period:** Last 7 days
-**Total articles found:** 29
+**Total articles found:** 28
 
 ---
 
@@ -64,19 +64,17 @@
 
 ---
 
-### 5. Kither begins dosing in COPD trial of KIT2014
+### 5. ‘We’re in our early days’: the Royal College of Pharmacy’s first national advisory council chairs on their priorities
 
-- **Source:** PharmaTimes
-- **Date:** 2026-10-05
-- **URL:** https://pharmatimes.com/news/kither-begins-dosing-in-copd-trial-of-kit2014/
-- **Score:** 3 (LOW)
-- **Topics:** Funding / clawback / reimbursement (3pt)
+- **Source:** Pharmaceutical Journal
+- **Date:** Recent
+- **URL:** https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities
+- **Score:** 1 (LOW)
+- **Topics:** General pharmacy news (1pt)
 
-> Early‑stage study to assess safety and efficacy signals
+**Why it's relevant:** Look for a human angle -- what does this mean for the pharmacist behind the counter? Titan's voice is empathetic and practical.
 
-**Why it's relevant:** Tie to Titan's ability to track every item, flag discrepancies, and protect pharmacies from clawback. 'You can't fight what you can't see -- Titan makes it visible.'
-
-**Suggested format:** Carousel with numbers or stance post
+**Suggested format:** Single image or meme if there is an angle
 
 ---
 
@@ -122,11 +120,10 @@ If not, that's your starting point.
 | 4 | MEDIUM | Pharmaceutical Journal | [Pharmacy regulator among health bodies committing to joint guidance on AI regula...](https://pharmaceutical-journal.com/article/news/pharmacy-regulator-among-health-bodies-committing-to-joint-guidance-on-ai-regulations) |
 | 3 | LOW | Pharmaceutical Journal | [Liberal Democrats pledge to “supercharge” Pharmacy First in England](https://pharmaceutical-journal.com/article/news/liberal-democrats-pledge-to-supercharge-pharmacy-first-in-england) |
 | 3 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists must not be trapped by the promise of AI efficiencies](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-must-not-be-trapped-by-the-promise-of-ai-efficiencies) |
-| 3 | LOW | PharmaTimes | [Kither begins dosing in COPD trial of KIT2014](https://pharmatimes.com/news/kither-begins-dosing-in-copd-trial-of-kit2014/) |
-| 3 | LOW | PharmaTimes | [AC immune reports week-100 progress in VacSyn trial](https://pharmatimes.com/news/ac-immune-reports-week-100-progress-in-vacsyn-trial/) |
 | 1 | LOW | Pharmaceutical Journal | [‘We’re in our early days’: the Royal College of Pharmacy’s first national adviso...](https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities) |
 | 1 | LOW | Pharmaceutical Journal | [Can simulation help foundation trainee pharmacists prepare for prescribing?](https://pharmaceutical-journal.com/article/opinion/can-simulation-help-foundation-trainee-pharmacists-prepare-for-prescribing) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacy must protect its scientific identity](https://pharmaceutical-journal.com/article/opinion/pharmacy-must-protect-its-scientific-identity) |
+| 1 | LOW | PharmaTimes | [NHS Blood and Transplant partners with Northwest Biotherapeutics](https://pharmatimes.com/news/nhs-blood-and-transplant-partners-with-northwest-biotherapeutics/) |
 | 0 | LOW | Pharmaceutical Journal | [Scotland’s first drug-checking service to open as drug deaths rise by more than ...](https://pharmaceutical-journal.com/article/news/scotlands-first-drug-checking-service-to-open-as-drug-deaths-rise-by-more-than-10) |
 | 0 | LOW | Pharmaceutical Journal | [Children taking GLP-1s can be at risk of nutritional deficiencies, study finds](https://pharmaceutical-journal.com/article/news/children-taking-glp-1s-can-be-at-risk-of-nutritional-deficiencies-study-finds) |
 | 0 | LOW | Pharmaceutical Journal | [Community pharmacies invited to pilot sign language translation app](https://pharmaceutical-journal.com/article/news/community-pharmacies-invited-to-pilot-sign-language-translation-app) |
@@ -140,13 +137,13 @@ If not, that's your starting point.
 | 0 | LOW | Pharmaceutical Journal | [Next frontier: crystallising the future of medicines](https://pharmaceutical-journal.com/article/feature/next-frontier-crystallising-the-future-of-medicines) |
 | 0 | LOW | Pharmaceutical Journal | [Push for progress: what the rare diseases framework extension means for patients...](https://pharmaceutical-journal.com/article/opinion/push-for-progress-what-the-rare-diseases-framework-extension-means-for-patients-and-the-future-of-uk-innovation) |
 | 0 | LOW | Pharmaceutical Journal | [How we led a quality driven diabetes switching programme for generic dapaglifloz...](https://pharmaceutical-journal.com/article/opinion/how-we-led-a-quality-driven-diabetes-switching-programme-for-generic-dapagliflozin) |
-| 0 | LOW | PharmaTimes | [Teva secures FDA approval for Degevma biosimilar](https://pharmatimes.com/news/teva-secures-fda-approval-for-degevma-biosimilar/) |
-| 0 | LOW | PharmaTimes | [Novotech to acquire Agilex Biolabs](https://pharmatimes.com/news/novotech-to-acquire-agilex-biolabs/) |
-| 0 | LOW | PharmaTimes | [Nezglyal approved in EU for childhood cALD](https://pharmatimes.com/news/nezglyal-approved-in-eu-for-childhood-cald/) |
-| 0 | LOW | PharmaTimes | [NICE backs first systemic therapy for desmoid tumours](https://pharmatimes.com/news/nice-backs-first-systemic-therapy-for-desmoid-tumours/) |
-| 0 | LOW | PharmaTimes | [AbbVie wins EU approval for paediatric pJIA use](https://pharmatimes.com/news/abbvie-wins-eu-approval-for-paediatric-pjia-use/) |
-| 0 | LOW | PharmaTimes | [Investor horizons ahead of CPHI 2026](https://pharmatimes.com/thought_leadership/investor-horizons-ahead-of-cphi-2026/) |
-| 0 | LOW | PharmaTimes | [Lexeo expands Friedreich ataxia pipeline with Mantle deal](https://pharmatimes.com/news/lexeo-expands-friedreich-ataxia-pipeline-with-mantle-deal/) |
+| 0 | LOW | PharmaTimes | [SMC accepts vutrisiran for eligible patients in Scotland](https://pharmatimes.com/news/smc-accepts-vutrisiran-for-eligible-patients-in-scotland/) |
+| 0 | LOW | PharmaTimes | [Laverock unveils new in vivo programmes in oncology](https://pharmatimes.com/news/laverock-unveils-new-in-vivo-programmes-in-oncology/) |
+| 0 | LOW | PharmaTimes | [Atrogi reports human data showing muscle gains with ATR‑258](https://pharmatimes.com/news/atrogi-reports-human-data-showing-muscle-gains-with-atr-258/) |
+| 0 | LOW | PharmaTimes | [Group B Strep mums urge women to join vaccine trial](https://pharmatimes.com/news/group-b-strep-mums-urge-women-to-join-vaccine-trial/) |
+| 0 | LOW | PharmaTimes | [NICE backs Tryngolza for FCS treatment](https://pharmatimes.com/news/nice-backs-tryngolza-for-fcs-treatment/) |
+| 0 | LOW | PharmaTimes | [Survodutide delivers weight loss and glycemic gains in phase 3 trial](https://pharmatimes.com/news/survodutide-delivers-weight-loss-and-glycemic-gains-in-phase-3-trial/) |
+| 0 | LOW | PharmaTimes | [Quotient and Acesion partner on ai‑enhanced formulation](https://pharmatimes.com/news/quotient-and-acesion-partner-on-ai-enhanced-formulation/) |
 
 ---
 
