@@ -1,6 +1,6 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-10-12 16:34 UTC
+**Scan date:** 2026-10-19 14:26 UTC
 **Period:** Last 7 days
 **Total articles found:** 28
 
@@ -123,7 +123,6 @@ If not, that's your starting point.
 | 1 | LOW | Pharmaceutical Journal | [‘We’re in our early days’: the Royal College of Pharmacy’s first national adviso...](https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities) |
 | 1 | LOW | Pharmaceutical Journal | [Can simulation help foundation trainee pharmacists prepare for prescribing?](https://pharmaceutical-journal.com/article/opinion/can-simulation-help-foundation-trainee-pharmacists-prepare-for-prescribing) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacy must protect its scientific identity](https://pharmaceutical-journal.com/article/opinion/pharmacy-must-protect-its-scientific-identity) |
-| 1 | LOW | PharmaTimes | [NHS Blood and Transplant partners with Northwest Biotherapeutics](https://pharmatimes.com/news/nhs-blood-and-transplant-partners-with-northwest-biotherapeutics/) |
 | 0 | LOW | Pharmaceutical Journal | [Scotland’s first drug-checking service to open as drug deaths rise by more than ...](https://pharmaceutical-journal.com/article/news/scotlands-first-drug-checking-service-to-open-as-drug-deaths-rise-by-more-than-10) |
 | 0 | LOW | Pharmaceutical Journal | [Children taking GLP-1s can be at risk of nutritional deficiencies, study finds](https://pharmaceutical-journal.com/article/news/children-taking-glp-1s-can-be-at-risk-of-nutritional-deficiencies-study-finds) |
 | 0 | LOW | Pharmaceutical Journal | [Community pharmacies invited to pilot sign language translation app](https://pharmaceutical-journal.com/article/news/community-pharmacies-invited-to-pilot-sign-language-translation-app) |
@@ -137,13 +136,14 @@ If not, that's your starting point.
 | 0 | LOW | Pharmaceutical Journal | [Next frontier: crystallising the future of medicines](https://pharmaceutical-journal.com/article/feature/next-frontier-crystallising-the-future-of-medicines) |
 | 0 | LOW | Pharmaceutical Journal | [Push for progress: what the rare diseases framework extension means for patients...](https://pharmaceutical-journal.com/article/opinion/push-for-progress-what-the-rare-diseases-framework-extension-means-for-patients-and-the-future-of-uk-innovation) |
 | 0 | LOW | Pharmaceutical Journal | [How we led a quality driven diabetes switching programme for generic dapaglifloz...](https://pharmaceutical-journal.com/article/opinion/how-we-led-a-quality-driven-diabetes-switching-programme-for-generic-dapagliflozin) |
-| 0 | LOW | PharmaTimes | [SMC accepts vutrisiran for eligible patients in Scotland](https://pharmatimes.com/news/smc-accepts-vutrisiran-for-eligible-patients-in-scotland/) |
-| 0 | LOW | PharmaTimes | [Laverock unveils new in vivo programmes in oncology](https://pharmatimes.com/news/laverock-unveils-new-in-vivo-programmes-in-oncology/) |
-| 0 | LOW | PharmaTimes | [Atrogi reports human data showing muscle gains with ATR‑258](https://pharmatimes.com/news/atrogi-reports-human-data-showing-muscle-gains-with-atr-258/) |
-| 0 | LOW | PharmaTimes | [Group B Strep mums urge women to join vaccine trial](https://pharmatimes.com/news/group-b-strep-mums-urge-women-to-join-vaccine-trial/) |
-| 0 | LOW | PharmaTimes | [NICE backs Tryngolza for FCS treatment](https://pharmatimes.com/news/nice-backs-tryngolza-for-fcs-treatment/) |
-| 0 | LOW | PharmaTimes | [Survodutide delivers weight loss and glycemic gains in phase 3 trial](https://pharmatimes.com/news/survodutide-delivers-weight-loss-and-glycemic-gains-in-phase-3-trial/) |
-| 0 | LOW | PharmaTimes | [Quotient and Acesion partner on ai‑enhanced formulation](https://pharmatimes.com/news/quotient-and-acesion-partner-on-ai-enhanced-formulation/) |
+| 0 | LOW | PharmaTimes | [Libtayo dosing backed by CHMP](https://pharmatimes.com/news/libtayo-dosing-backed-by-chmp/) |
+| 0 | LOW | PharmaTimes | [Sanofi breaks ground on new insulin facility](https://pharmatimes.com/news/sanofi-breaks-ground-on-new-insulin-facility/) |
+| 0 | LOW | PharmaTimes | [RougeTx launches with $58 million series A financing for HHT therapy](https://pharmatimes.com/news/rougetx-launches-with-58-million-series-a-financing-for-hht-therapy/) |
+| 0 | LOW | PharmaTimes | [Lundbeck presents phase 1b data for Lu AF28996 in advanced Parkinson’s disease](https://pharmatimes.com/news/lundbeck-presents-phase-1b-data-for-lu-af28996-in-advanced-parkinsons-disease/) |
+| 0 | LOW | PharmaTimes | [Bespak and SNBL agree global access deal for FDA‑approved nasal device](https://pharmatimes.com/news/bespak-and-snbl-agree-global-access-deal-for-fda-approved-nasal-device/) |
+| 0 | LOW | PharmaTimes | [NEMLUVIO data show sustained three‑year responses in atopic dermatitis](https://pharmatimes.com/news/nemluvio-data-show-sustained-three-year-responses-in-atopic-dermatitis/) |
+| 0 | LOW | PharmaTimes | [SMC accepts AQUIPTA for eligible migraine patients in Scotland](https://pharmatimes.com/news/smc-accepts-aquipta-for-eligible-migraine-patients-in-scotland/) |
+| 0 | LOW | PharmaTimes | [MINT study results strengthen real‑world evidence for mogamulizumab](https://pharmatimes.com/news/mint-study-results-strengthen-real-world-evidence-for-mogamulizumab/) |
 
 ---
 
