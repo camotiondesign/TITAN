@@ -1,6 +1,6 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-10-19 14:26 UTC
+**Scan date:** 2026-10-26 14:00 UTC
 **Period:** Last 7 days
 **Total articles found:** 28
 
@@ -64,17 +64,19 @@
 
 ---
 
-### 5. ‘We’re in our early days’: the Royal College of Pharmacy’s first national advisory council chairs on their priorities
+### 5. Merz completes phase 3 recruitment for XEOMIN
 
-- **Source:** Pharmaceutical Journal
-- **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities
-- **Score:** 1 (LOW)
-- **Topics:** General pharmacy news (1pt)
+- **Source:** PharmaTimes
+- **Date:** 2026-10-21
+- **URL:** https://pharmatimes.com/news/merz-completes-phase-3-recruitment-for-xeomin/
+- **Score:** 2 (LOW)
+- **Topics:** Workforce / staffing / locum (2pt)
 
-**Why it's relevant:** Look for a human angle -- what does this mean for the pharmacist behind the counter? Titan's voice is empathetic and practical.
+> Global trials assess migraine prevention potential
 
-**Suggested format:** Single image or meme if there is an angle
+**Why it's relevant:** Frame around efficiency: Titan reduces the team hours needed for dispensing, making understaffed pharmacies viable. 'When you can't hire more people, make the people you have more effective.'
+
+**Suggested format:** Quote card or video (real pharmacist reaction)
 
 ---
 
@@ -120,6 +122,7 @@ If not, that's your starting point.
 | 4 | MEDIUM | Pharmaceutical Journal | [Pharmacy regulator among health bodies committing to joint guidance on AI regula...](https://pharmaceutical-journal.com/article/news/pharmacy-regulator-among-health-bodies-committing-to-joint-guidance-on-ai-regulations) |
 | 3 | LOW | Pharmaceutical Journal | [Liberal Democrats pledge to “supercharge” Pharmacy First in England](https://pharmaceutical-journal.com/article/news/liberal-democrats-pledge-to-supercharge-pharmacy-first-in-england) |
 | 3 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists must not be trapped by the promise of AI efficiencies](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-must-not-be-trapped-by-the-promise-of-ai-efficiencies) |
+| 2 | LOW | PharmaTimes | [Merz completes phase 3 recruitment for XEOMIN](https://pharmatimes.com/news/merz-completes-phase-3-recruitment-for-xeomin/) |
 | 1 | LOW | Pharmaceutical Journal | [‘We’re in our early days’: the Royal College of Pharmacy’s first national adviso...](https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities) |
 | 1 | LOW | Pharmaceutical Journal | [Can simulation help foundation trainee pharmacists prepare for prescribing?](https://pharmaceutical-journal.com/article/opinion/can-simulation-help-foundation-trainee-pharmacists-prepare-for-prescribing) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacy must protect its scientific identity](https://pharmaceutical-journal.com/article/opinion/pharmacy-must-protect-its-scientific-identity) |
@@ -136,14 +139,13 @@ If not, that's your starting point.
 | 0 | LOW | Pharmaceutical Journal | [Next frontier: crystallising the future of medicines](https://pharmaceutical-journal.com/article/feature/next-frontier-crystallising-the-future-of-medicines) |
 | 0 | LOW | Pharmaceutical Journal | [Push for progress: what the rare diseases framework extension means for patients...](https://pharmaceutical-journal.com/article/opinion/push-for-progress-what-the-rare-diseases-framework-extension-means-for-patients-and-the-future-of-uk-innovation) |
 | 0 | LOW | Pharmaceutical Journal | [How we led a quality driven diabetes switching programme for generic dapaglifloz...](https://pharmaceutical-journal.com/article/opinion/how-we-led-a-quality-driven-diabetes-switching-programme-for-generic-dapagliflozin) |
-| 0 | LOW | PharmaTimes | [Libtayo dosing backed by CHMP](https://pharmatimes.com/news/libtayo-dosing-backed-by-chmp/) |
-| 0 | LOW | PharmaTimes | [Sanofi breaks ground on new insulin facility](https://pharmatimes.com/news/sanofi-breaks-ground-on-new-insulin-facility/) |
-| 0 | LOW | PharmaTimes | [RougeTx launches with $58 million series A financing for HHT therapy](https://pharmatimes.com/news/rougetx-launches-with-58-million-series-a-financing-for-hht-therapy/) |
-| 0 | LOW | PharmaTimes | [Lundbeck presents phase 1b data for Lu AF28996 in advanced Parkinson’s disease](https://pharmatimes.com/news/lundbeck-presents-phase-1b-data-for-lu-af28996-in-advanced-parkinsons-disease/) |
-| 0 | LOW | PharmaTimes | [Bespak and SNBL agree global access deal for FDA‑approved nasal device](https://pharmatimes.com/news/bespak-and-snbl-agree-global-access-deal-for-fda-approved-nasal-device/) |
-| 0 | LOW | PharmaTimes | [NEMLUVIO data show sustained three‑year responses in atopic dermatitis](https://pharmatimes.com/news/nemluvio-data-show-sustained-three-year-responses-in-atopic-dermatitis/) |
-| 0 | LOW | PharmaTimes | [SMC accepts AQUIPTA for eligible migraine patients in Scotland](https://pharmatimes.com/news/smc-accepts-aquipta-for-eligible-migraine-patients-in-scotland/) |
-| 0 | LOW | PharmaTimes | [MINT study results strengthen real‑world evidence for mogamulizumab](https://pharmatimes.com/news/mint-study-results-strengthen-real-world-evidence-for-mogamulizumab/) |
+| 0 | LOW | PharmaTimes | [FDA approves Enspryng for at‑home TED treatment](https://pharmatimes.com/news/fda-approves-enspryng-for-at-home-ted-treatment/) |
+| 0 | LOW | PharmaTimes | [EU approves teclistamab monotherapy for earlier myeloma use](https://pharmatimes.com/news/eu-approves-teclistamab-monotherapy-for-earlier-myeloma-use/) |
+| 0 | LOW | PharmaTimes | [Sitryx reports phase 1b data for SYX-5219](https://pharmatimes.com/news/sitryx-reports-phase-1b-data-for-syx-5219/) |
+| 0 | LOW | PharmaTimes | [ViiV and Axmed expand access to HIV medicines](https://pharmatimes.com/news/viiv-and-axmed-expand-access-to-hiv-medicines/) |
+| 0 | LOW | PharmaTimes | [Osivax reports phase 2b data for OVX836](https://pharmatimes.com/news/osivax-reports-phase-2b-data-for-ovx836/) |
+| 0 | LOW | PharmaTimes | [CHMP backs TALVEY plus daratumumab for earlier myeloma use](https://pharmatimes.com/news/chmp-backs-talvey-plus-daratumumab-for-earlier-myeloma-use/) |
+| 0 | LOW | PharmaTimes | [CHMP backs RASONQUE for metastatic pancreatic cancer](https://pharmatimes.com/news/chmp-backs-rasonque-for-metastatic-pancreatic-cancer/) |
 
 ---
 
