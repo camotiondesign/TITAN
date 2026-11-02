@@ -1,6 +1,6 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-10-26 14:00 UTC
+**Scan date:** 2026-11-02 16:53 UTC
 **Period:** Last 7 days
 **Total articles found:** 28
 
@@ -64,19 +64,19 @@
 
 ---
 
-### 5. Merz completes phase 3 recruitment for XEOMIN
+### 5. Octane and Currus automate CAR T manufacturing on Cocoon
 
 - **Source:** PharmaTimes
-- **Date:** 2026-10-21
-- **URL:** https://pharmatimes.com/news/merz-completes-phase-3-recruitment-for-xeomin/
+- **Date:** 2026-11-02
+- **URL:** https://pharmatimes.com/news/octane-and-currus-automate-car-t-manufacturing-on-cocoon/
 - **Score:** 2 (LOW)
-- **Topics:** Workforce / staffing / locum (2pt)
+- **Topics:** Technology / digital / AI (2pt)
 
-> Global trials assess migraine prevention potential
+> Automation to support phase 1 solid tumour trial
 
-**Why it's relevant:** Frame around efficiency: Titan reduces the team hours needed for dispensing, making understaffed pharmacies viable. 'When you can't hire more people, make the people you have more effective.'
+**Why it's relevant:** Titan is already doing this. Use the article to validate the digital-first approach and share a real example from a Titan pharmacy.
 
-**Suggested format:** Quote card or video (real pharmacist reaction)
+**Suggested format:** Single image with bold stat or meme format
 
 ---
 
@@ -122,7 +122,7 @@ If not, that's your starting point.
 | 4 | MEDIUM | Pharmaceutical Journal | [Pharmacy regulator among health bodies committing to joint guidance on AI regula...](https://pharmaceutical-journal.com/article/news/pharmacy-regulator-among-health-bodies-committing-to-joint-guidance-on-ai-regulations) |
 | 3 | LOW | Pharmaceutical Journal | [Liberal Democrats pledge to “supercharge” Pharmacy First in England](https://pharmaceutical-journal.com/article/news/liberal-democrats-pledge-to-supercharge-pharmacy-first-in-england) |
 | 3 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists must not be trapped by the promise of AI efficiencies](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-must-not-be-trapped-by-the-promise-of-ai-efficiencies) |
-| 2 | LOW | PharmaTimes | [Merz completes phase 3 recruitment for XEOMIN](https://pharmatimes.com/news/merz-completes-phase-3-recruitment-for-xeomin/) |
+| 2 | LOW | PharmaTimes | [Octane and Currus automate CAR T manufacturing on Cocoon](https://pharmatimes.com/news/octane-and-currus-automate-car-t-manufacturing-on-cocoon/) |
 | 1 | LOW | Pharmaceutical Journal | [‘We’re in our early days’: the Royal College of Pharmacy’s first national adviso...](https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities) |
 | 1 | LOW | Pharmaceutical Journal | [Can simulation help foundation trainee pharmacists prepare for prescribing?](https://pharmaceutical-journal.com/article/opinion/can-simulation-help-foundation-trainee-pharmacists-prepare-for-prescribing) |
 | 1 | LOW | Pharmaceutical Journal | [Pharmacy must protect its scientific identity](https://pharmaceutical-journal.com/article/opinion/pharmacy-must-protect-its-scientific-identity) |
@@ -139,13 +139,13 @@ If not, that's your starting point.
 | 0 | LOW | Pharmaceutical Journal | [Next frontier: crystallising the future of medicines](https://pharmaceutical-journal.com/article/feature/next-frontier-crystallising-the-future-of-medicines) |
 | 0 | LOW | Pharmaceutical Journal | [Push for progress: what the rare diseases framework extension means for patients...](https://pharmaceutical-journal.com/article/opinion/push-for-progress-what-the-rare-diseases-framework-extension-means-for-patients-and-the-future-of-uk-innovation) |
 | 0 | LOW | Pharmaceutical Journal | [How we led a quality driven diabetes switching programme for generic dapaglifloz...](https://pharmaceutical-journal.com/article/opinion/how-we-led-a-quality-driven-diabetes-switching-programme-for-generic-dapagliflozin) |
-| 0 | LOW | PharmaTimes | [FDA approves Enspryng for at‑home TED treatment](https://pharmatimes.com/news/fda-approves-enspryng-for-at-home-ted-treatment/) |
-| 0 | LOW | PharmaTimes | [EU approves teclistamab monotherapy for earlier myeloma use](https://pharmatimes.com/news/eu-approves-teclistamab-monotherapy-for-earlier-myeloma-use/) |
-| 0 | LOW | PharmaTimes | [Sitryx reports phase 1b data for SYX-5219](https://pharmatimes.com/news/sitryx-reports-phase-1b-data-for-syx-5219/) |
-| 0 | LOW | PharmaTimes | [ViiV and Axmed expand access to HIV medicines](https://pharmatimes.com/news/viiv-and-axmed-expand-access-to-hiv-medicines/) |
-| 0 | LOW | PharmaTimes | [Osivax reports phase 2b data for OVX836](https://pharmatimes.com/news/osivax-reports-phase-2b-data-for-ovx836/) |
-| 0 | LOW | PharmaTimes | [CHMP backs TALVEY plus daratumumab for earlier myeloma use](https://pharmatimes.com/news/chmp-backs-talvey-plus-daratumumab-for-earlier-myeloma-use/) |
-| 0 | LOW | PharmaTimes | [CHMP backs RASONQUE for metastatic pancreatic cancer](https://pharmatimes.com/news/chmp-backs-rasonque-for-metastatic-pancreatic-cancer/) |
+| 0 | LOW | PharmaTimes | [Regulatory filings for lung cancer therapy advance](https://pharmatimes.com/news/regulatory-filings-for-lung-cancer-therapy-advance/) |
+| 0 | LOW | PharmaTimes | [Hansa reports positive PAES results for Idefirix at ASN Kidney Week](https://pharmatimes.com/news/hansa-reports-positive-paes-results-for-idefirix-at-asn-kidney-week/) |
+| 0 | LOW | PharmaTimes | [Hutchmed reports phase 3 SANOVO data for first‑line lung cancer](https://pharmatimes.com/news/hutchmed-reports-phase-3-sanovo-data-for-first-line-lung-cancer/) |
+| 0 | LOW | PharmaTimes | [Radiotherapy boosts progression‑free survival in advanced lung cancer](https://pharmatimes.com/news/radiotherapy-boosts-progression-free-survival-in-advanced-lung-cancer/) |
+| 0 | LOW | PharmaTimes | [Mad for it](https://pharmatimes.com/uncategorized/mad-for-it/) |
+| 0 | LOW | PharmaTimes | [Microbiotica presents phase 1b data for MB097 at ESMO 2026](https://pharmatimes.com/news/microbiotica-presents-phase-1b-data-for-mb097-at-esmo-2026/) |
+| 0 | LOW | PharmaTimes | [FDA approves Hibsago for chronic hepatitis B](https://pharmatimes.com/news/fda-approves-hibsago-for-chronic-hepatitis-b/) |
 
 ---
 
