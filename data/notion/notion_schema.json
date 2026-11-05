@@ -1,5 +1,5 @@
 {
-  "discovered_at": "2026-11-04T13:22:22.196688+00:00",
+  "discovered_at": "2026-11-05T13:36:11.176668+00:00",
   "database_id": "157f423bea8b8149b546e7279b4ea0c0",
   "properties": {
     "Decision": "select",
@@ -26,6 +26,7 @@
     "Phase": "select",
     "Assigned": "people",
     "Content Type": "select",
+    "Saves": "number",
     "Locked": "checkbox",
     "Comments": "number",
     "transcript": "files",
