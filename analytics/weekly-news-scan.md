@@ -1,6 +1,6 @@
 # Weekly Pharmacy News Scan
 
-**Scan date:** 2026-11-02 16:53 UTC
+**Scan date:** 2026-11-09 17:16 UTC
 **Period:** Last 7 days
 **Total articles found:** 28
 
@@ -8,11 +8,27 @@
 
 ## Top 5 Reactive Post Opportunities
 
-### 1. PDA gains full say on NHS pay and conditions negotiations after joining Staff Side Council
+### 1. Vertex wins MHRA backing for wider Casgevy use
+
+- **Source:** PharmaTimes
+- **Date:** 2026-11-03
+- **URL:** https://pharmatimes.com/news/vertex-wins-mhra-backing-for-wider-casgevy-use/
+- **Score:** 6 (MEDIUM)
+- **Topics:** Safety / near miss / patient safety (3pt), Funding / clawback / reimbursement (3pt)
+
+> UK authorisation and reimbursement extended to younger children
+
+**Why it's relevant:** Connect this to Titan's clinical checks and safety features. Frame it as: 'Manual processes cause errors. Digital-first pharmacies catch them before they reach the patient.'
+
+**Suggested format:** Quote card overlay or short-form video (pharmacist perspective)
+
+---
+
+### 2. Senior pharmacists should be involved in planning for hospital corridor care, College tells government
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/news/pda-gains-full-say-on-nhs-pay-and-conditions-negotiations-after-joining-staff-side-council
+- **URL:** https://pharmaceutical-journal.com/article/news/senior-pharmacists-should-be-involved-in-planning-for-hospital-corridor-care-college-tells-government
 - **Score:** 4 (MEDIUM)
 - **Topics:** Policy / contract dispute (3pt), General pharmacy news (1pt)
 
@@ -22,25 +38,11 @@
 
 ---
 
-### 2. Pharmacy regulator among health bodies committing to joint guidance on AI regulations
+### 3. Use of Pharmacy First has increased by nearly 60% since the service began
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/news/pharmacy-regulator-among-health-bodies-committing-to-joint-guidance-on-ai-regulations
-- **Score:** 4 (MEDIUM)
-- **Topics:** Technology / digital / AI (2pt), General pharmacy news (2pt)
-
-**Why it's relevant:** Titan is already doing this. Use the article to validate the digital-first approach and share a real example from a Titan pharmacy.
-
-**Suggested format:** Single image with bold stat or meme format
-
----
-
-### 3. Liberal Democrats pledge to “supercharge” Pharmacy First in England
-
-- **Source:** Pharmaceutical Journal
-- **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/news/liberal-democrats-pledge-to-supercharge-pharmacy-first-in-england
+- **URL:** https://pharmaceutical-journal.com/article/news/use-of-pharmacy-first-has-increased-by-nearly-60-since-the-service-began
 - **Score:** 3 (LOW)
 - **Topics:** New services / Pharmacy First / clinical (2pt), General pharmacy news (1pt)
 
@@ -50,46 +52,44 @@
 
 ---
 
-### 4. PJ view: Pharmacists must not be trapped by the promise of AI efficiencies
+### 4. Neighbourhood health centres: where does community pharmacy fit in?
 
 - **Source:** Pharmaceutical Journal
 - **Date:** Recent
-- **URL:** https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-must-not-be-trapped-by-the-promise-of-ai-efficiencies
+- **URL:** https://pharmaceutical-journal.com/article/feature/neighbourhood-health-centres-where-does-community-pharmacy-fit-in
 - **Score:** 3 (LOW)
-- **Topics:** Technology / digital / AI (2pt), General pharmacy news (1pt)
+- **Topics:** General pharmacy news (3pt)
 
-**Why it's relevant:** Titan is already doing this. Use the article to validate the digital-first approach and share a real example from a Titan pharmacy.
+**Why it's relevant:** Look for a human angle -- what does this mean for the pharmacist behind the counter? Titan's voice is empathetic and practical.
 
-**Suggested format:** Single image with bold stat or meme format
+**Suggested format:** Single image or meme if there is an angle
 
 ---
 
-### 5. Octane and Currus automate CAR T manufacturing on Cocoon
+### 5. An emergency department workforce can be built on reallocated pharmacy staff
 
-- **Source:** PharmaTimes
-- **Date:** 2026-11-02
-- **URL:** https://pharmatimes.com/news/octane-and-currus-automate-car-t-manufacturing-on-cocoon/
-- **Score:** 2 (LOW)
-- **Topics:** Technology / digital / AI (2pt)
+- **Source:** Pharmaceutical Journal
+- **Date:** Recent
+- **URL:** https://pharmaceutical-journal.com/article/opinion/an-emergency-department-workforce-can-be-built-on-reallocated-pharmacy-staff
+- **Score:** 3 (LOW)
+- **Topics:** Workforce / staffing / locum (2pt), General pharmacy news (1pt)
 
-> Automation to support phase 1 solid tumour trial
+**Why it's relevant:** Frame around efficiency: Titan reduces the team hours needed for dispensing, making understaffed pharmacies viable. 'When you can't hire more people, make the people you have more effective.'
 
-**Why it's relevant:** Titan is already doing this. Use the article to validate the digital-first approach and share a real example from a Titan pharmacy.
-
-**Suggested format:** Single image with bold stat or meme format
+**Suggested format:** Quote card or video (real pharmacist reaction)
 
 ---
 
 ## This Week's Hot Take
 
-Based on the highest-scoring article: **PDA gains full say on NHS pay and conditions negotiations after joining Staff Side Council** (Pharmaceutical Journal)
+Based on the highest-scoring article: **Vertex wins MHRA backing for wider Casgevy use** (PharmaTimes)
 
 ### Draft reactive post caption
 
 ```
 Breaking this down because pharmacy owners need to hear it.
 
-"PDA gains full say on NHS pay and conditions negotiations after joining Staff Side Council"
+"Vertex wins MHRA backing for wider Casgevy use"
 
 Here's what nobody's saying about this:
 
@@ -110,7 +110,7 @@ If not, that's your starting point.
 #CommunityPharmacy #PharmacyFirst #TitanPMR #DigitalPharmacy
 ```
 
-**Suggested format:** Stance post (bold text overlay) or carousel breaking down the changes
+**Suggested format:** Quote card overlay or short-form video (pharmacist perspective)
 
 ---
 
@@ -118,34 +118,34 @@ If not, that's your starting point.
 
 | Score | Tier | Source | Title |
 |-------|------|--------|-------|
-| 4 | MEDIUM | Pharmaceutical Journal | [PDA gains full say on NHS pay and conditions negotiations after joining Staff Si...](https://pharmaceutical-journal.com/article/news/pda-gains-full-say-on-nhs-pay-and-conditions-negotiations-after-joining-staff-side-council) |
-| 4 | MEDIUM | Pharmaceutical Journal | [Pharmacy regulator among health bodies committing to joint guidance on AI regula...](https://pharmaceutical-journal.com/article/news/pharmacy-regulator-among-health-bodies-committing-to-joint-guidance-on-ai-regulations) |
-| 3 | LOW | Pharmaceutical Journal | [Liberal Democrats pledge to “supercharge” Pharmacy First in England](https://pharmaceutical-journal.com/article/news/liberal-democrats-pledge-to-supercharge-pharmacy-first-in-england) |
-| 3 | LOW | Pharmaceutical Journal | [PJ view: Pharmacists must not be trapped by the promise of AI efficiencies](https://pharmaceutical-journal.com/article/opinion/pj-view-pharmacists-must-not-be-trapped-by-the-promise-of-ai-efficiencies) |
-| 2 | LOW | PharmaTimes | [Octane and Currus automate CAR T manufacturing on Cocoon](https://pharmatimes.com/news/octane-and-currus-automate-car-t-manufacturing-on-cocoon/) |
-| 1 | LOW | Pharmaceutical Journal | [‘We’re in our early days’: the Royal College of Pharmacy’s first national adviso...](https://pharmaceutical-journal.com/article/opinion/were-in-our-early-days-the-royal-college-of-pharmacys-first-national-advisory-council-chairs-on-their-priorities) |
-| 1 | LOW | Pharmaceutical Journal | [Can simulation help foundation trainee pharmacists prepare for prescribing?](https://pharmaceutical-journal.com/article/opinion/can-simulation-help-foundation-trainee-pharmacists-prepare-for-prescribing) |
-| 1 | LOW | Pharmaceutical Journal | [Pharmacy must protect its scientific identity](https://pharmaceutical-journal.com/article/opinion/pharmacy-must-protect-its-scientific-identity) |
-| 0 | LOW | Pharmaceutical Journal | [Scotland’s first drug-checking service to open as drug deaths rise by more than ...](https://pharmaceutical-journal.com/article/news/scotlands-first-drug-checking-service-to-open-as-drug-deaths-rise-by-more-than-10) |
-| 0 | LOW | Pharmaceutical Journal | [Children taking GLP-1s can be at risk of nutritional deficiencies, study finds](https://pharmaceutical-journal.com/article/news/children-taking-glp-1s-can-be-at-risk-of-nutritional-deficiencies-study-finds) |
-| 0 | LOW | Pharmaceutical Journal | [Community pharmacies invited to pilot sign language translation app](https://pharmaceutical-journal.com/article/news/community-pharmacies-invited-to-pilot-sign-language-translation-app) |
-| 0 | LOW | Pharmaceutical Journal | [Medicines management policy for high-risk drugs introduced by GP practice, follo...](https://pharmaceutical-journal.com/article/news/medicines-management-policy-for-high-risk-drugs-introduced-by-gp-practice-following-death-of-patient) |
-| 0 | LOW | Pharmaceutical Journal | [Can immunotherapy stop the clock on type 1 diabetes?](https://pharmaceutical-journal.com/article/feature/can-immunotherapy-stop-the-clock-on-type-1-diabetes) |
-| 0 | LOW | Pharmaceutical Journal | [Everything you need to know about the push for microbiome medicine development](https://pharmaceutical-journal.com/article/feature/everything-you-need-to-know-about-the-push-for-microbiome-medicine-development) |
-| 0 | LOW | Pharmaceutical Journal | [GLP-1s: what is behind the variation in efficacy?](https://pharmaceutical-journal.com/article/feature/glp-1s-what-is-behind-the-variation-in-efficacy) |
-| 0 | LOW | Pharmaceutical Journal | [Danger ahead: the growing threat of fungal disease and antifungal resistance](https://pharmaceutical-journal.com/article/feature/danger-ahead-the-growing-threat-of-fungal-disease-and-antifungal-resistance) |
-| 0 | LOW | Pharmaceutical Journal | [Lost in fine print: how patient information leaflets are failing patients](https://pharmaceutical-journal.com/article/feature/lost-in-fine-print-how-patient-information-leaflets-are-failing-patients) |
-| 0 | LOW | Pharmaceutical Journal | [Why do women in England’s poorest areas have lower rates of HRT prescribing?](https://pharmaceutical-journal.com/article/feature/why-do-women-in-englands-poorest-areas-have-lower-rates-of-hrt-prescribing) |
-| 0 | LOW | Pharmaceutical Journal | [Next frontier: crystallising the future of medicines](https://pharmaceutical-journal.com/article/feature/next-frontier-crystallising-the-future-of-medicines) |
-| 0 | LOW | Pharmaceutical Journal | [Push for progress: what the rare diseases framework extension means for patients...](https://pharmaceutical-journal.com/article/opinion/push-for-progress-what-the-rare-diseases-framework-extension-means-for-patients-and-the-future-of-uk-innovation) |
-| 0 | LOW | Pharmaceutical Journal | [How we led a quality driven diabetes switching programme for generic dapaglifloz...](https://pharmaceutical-journal.com/article/opinion/how-we-led-a-quality-driven-diabetes-switching-programme-for-generic-dapagliflozin) |
-| 0 | LOW | PharmaTimes | [Regulatory filings for lung cancer therapy advance](https://pharmatimes.com/news/regulatory-filings-for-lung-cancer-therapy-advance/) |
-| 0 | LOW | PharmaTimes | [Hansa reports positive PAES results for Idefirix at ASN Kidney Week](https://pharmatimes.com/news/hansa-reports-positive-paes-results-for-idefirix-at-asn-kidney-week/) |
-| 0 | LOW | PharmaTimes | [Hutchmed reports phase 3 SANOVO data for first‑line lung cancer](https://pharmatimes.com/news/hutchmed-reports-phase-3-sanovo-data-for-first-line-lung-cancer/) |
-| 0 | LOW | PharmaTimes | [Radiotherapy boosts progression‑free survival in advanced lung cancer](https://pharmatimes.com/news/radiotherapy-boosts-progression-free-survival-in-advanced-lung-cancer/) |
-| 0 | LOW | PharmaTimes | [Mad for it](https://pharmatimes.com/uncategorized/mad-for-it/) |
-| 0 | LOW | PharmaTimes | [Microbiotica presents phase 1b data for MB097 at ESMO 2026](https://pharmatimes.com/news/microbiotica-presents-phase-1b-data-for-mb097-at-esmo-2026/) |
-| 0 | LOW | PharmaTimes | [FDA approves Hibsago for chronic hepatitis B](https://pharmatimes.com/news/fda-approves-hibsago-for-chronic-hepatitis-b/) |
+| 6 | MEDIUM | PharmaTimes | [Vertex wins MHRA backing for wider Casgevy use](https://pharmatimes.com/news/vertex-wins-mhra-backing-for-wider-casgevy-use/) |
+| 4 | MEDIUM | Pharmaceutical Journal | [Senior pharmacists should be involved in planning for hospital corridor care, Co...](https://pharmaceutical-journal.com/article/news/senior-pharmacists-should-be-involved-in-planning-for-hospital-corridor-care-college-tells-government) |
+| 3 | LOW | Pharmaceutical Journal | [Use of Pharmacy First has increased by nearly 60% since the service began](https://pharmaceutical-journal.com/article/news/use-of-pharmacy-first-has-increased-by-nearly-60-since-the-service-began) |
+| 3 | LOW | Pharmaceutical Journal | [Neighbourhood health centres: where does community pharmacy fit in?](https://pharmaceutical-journal.com/article/feature/neighbourhood-health-centres-where-does-community-pharmacy-fit-in) |
+| 3 | LOW | Pharmaceutical Journal | [An emergency department workforce can be built on reallocated pharmacy staff](https://pharmaceutical-journal.com/article/opinion/an-emergency-department-workforce-can-be-built-on-reallocated-pharmacy-staff) |
+| 2 | LOW | Pharmaceutical Journal | [How we developed the BOPA digital SACT verification passport](https://pharmaceutical-journal.com/article/opinion/how-we-developed-the-bopa-digital-sact-verification-passport) |
+| 2 | LOW | PharmaTimes | [Santersus advances nucleoCapture into pivotal sepsis study](https://pharmatimes.com/news/santersus-advances-nucleocapture-into-pivotal-sepsis-study/) |
+| 2 | LOW | PharmaTimes | [Octane and Currus automate CUR‑001 manufacturing on cocoon platform](https://pharmatimes.com/news/octane-and-currus-automate-cur-001-manufacturing-on-cocoon-platform/) |
+| 1 | LOW | Pharmaceutical Journal | [Fewer than 2% of pharmacies delivered NHS stop smoking consultations in first ha...](https://pharmaceutical-journal.com/article/news/fewer-than-2-of-pharmacies-delivered-nhs-stop-smoking-consultations-in-first-half-of-2026-cca-says) |
+| 1 | LOW | Pharmaceutical Journal | [Pharmacists told to contact patients following clopidogrel recall](https://pharmaceutical-journal.com/article/news/pharmacists-told-to-contact-patients-following-clopidogrel-recall) |
+| 1 | LOW | Pharmaceutical Journal | [Research to be part of every pharmacy professional’s career under UK strategy](https://pharmaceutical-journal.com/article/news/research-to-be-part-of-every-pharmacy-professionals-career-under-uk-strategy) |
+| 1 | LOW | Pharmaceutical Journal | [‘More than four walls’: the push to upgrade pharmacy consultation rooms](https://pharmaceutical-journal.com/article/feature/more-than-four-walls-the-push-to-upgrade-pharmacy-consultation-rooms) |
+| 1 | LOW | Pharmaceutical Journal | [How to solve the enduring pharmacy degree awarding gap](https://pharmaceutical-journal.com/article/feature/how-to-solve-the-enduring-pharmacy-degree-awarding-gap) |
+| 1 | LOW | Pharmaceutical Journal | [Tase Oputu on the Royal College of Pharmacy’s first six months](https://pharmaceutical-journal.com/article/feature/tase-oputu-on-the-royal-college-of-pharmacys-first-six-months) |
+| 1 | LOW | Pharmaceutical Journal | [Pharmacy Inside Jobs: ophthalmology](https://pharmaceutical-journal.com/article/feature/pharmacy-inside-jobs-ophthalmology) |
+| 1 | LOW | Pharmaceutical Journal | [Pharmacy technicians should not just support research — they should lead and sha...](https://pharmaceutical-journal.com/article/opinion/pharmacy-technicians-should-not-just-support-research-they-should-lead-and-shape-it) |
+| 1 | LOW | Pharmaceutical Journal | [PJ view: ADHD care is coming to primary care and pharmacists must be written int...](https://pharmaceutical-journal.com/article/opinion/pj-view-adhd-care-is-coming-to-primary-care-and-pharmacists-must-be-written-into-the-plan) |
+| 1 | LOW | PharmaTimes | [Panthera expands Glasgow clinical research capacity](https://pharmatimes.com/news/panthera-expands-glasgow-clinical-research-capacity/) |
+| 0 | LOW | Pharmaceutical Journal | [Personalised cancer vaccine with immunotherapy cuts risk of melanoma returning b...](https://pharmaceutical-journal.com/article/news/personalised-cancer-vaccine-with-immunotherapy-cuts-risk-of-melanoma-returning-by-42-study-finds) |
+| 0 | LOW | Pharmaceutical Journal | [ADHD medication not associated with raised self-harm risk, study concludes](https://pharmaceutical-journal.com/article/news/adhd-medication-not-associated-with-raised-self-harm-risk-study-concludes) |
+| 0 | LOW | Pharmaceutical Journal | [A forgotten supplement: why fewer women are taking folic acid before pregnancy](https://pharmaceutical-journal.com/article/feature/a-forgotten-supplement-why-fewer-women-are-taking-folic-acid-before-pregnancy) |
+| 0 | LOW | Pharmaceutical Journal | [Tip of the iceberg? The industry payments to medicines experts](https://pharmaceutical-journal.com/article/feature/tip-of-the-iceberg-the-industry-payments-to-medicines-experts) |
+| 0 | LOW | Pharmaceutical Journal | [New medicines need workable pathways towards delivery, not just formulary approv...](https://pharmaceutical-journal.com/article/opinion/new-medicines-need-workable-pathways-towards-delivery-not-just-formulary-approval) |
+| 0 | LOW | Pharmaceutical Journal | [Is our medicines supply chain stretched to breaking point?](https://pharmaceutical-journal.com/article/opinion/is-our-medicines-supply-chain-stretched-to-breaking-point) |
+| 0 | LOW | PharmaTimes | [Myeloma fund launches with £15m initial backing](https://pharmatimes.com/uncategorized/myeloma-fund-launches-with-15m-initial-backing/) |
+| 0 | LOW | PharmaTimes | [Teva expands biosimilars alliance with Samsung Bioepis](https://pharmatimes.com/uncategorized/teva-expands-biosimilars-alliance-with-samsung-bioepis/) |
+| 0 | LOW | PharmaTimes | [Exogenus leads €13 million EU project for secretome therapy](https://pharmatimes.com/news/exogenus-leads-e13-million-eu-project-for-secretome-therapy/) |
+| 0 | LOW | PharmaTimes | [Qureight calls for fibrosis burden to lead imaging biomarkers](https://pharmatimes.com/uncategorized/qureight-calls-for-fibrosis-burden-to-lead-imaging-biomarkers/) |
 
 ---
 
